@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Retention of electronic records",
+  "html": "<p><span class=\"num\">(1)</span> Where any law provides that documents, records or information shall be retained for any specific period, then, that requirement shall be deemed to have been satisfied if such documents, records or information are retained in the electronic form, if--</p><p><span class=\"num\">(a)</span> the information contained therein remains accessible so as to be usable for a subsequent reference;</p><p><span class=\"num\">(b)</span> the electronic record is retained in the format in which it was originally generated, sent or received or in a format which can be demonstrated to represent accurately the information originally generated, sent or received;</p><p><span class=\"num\">(c)</span> the details which will facilitate the identification of the origin, destination, date and time of despatch or receipt of such electronic record are available in the electronic record:</p><p>Provided that this clause does not apply to any information which is automatically generated solely for the purpose of enabling an electronic record to be despatched or received.</p><p><span class=\"num\">(2)</span> Nothing in this section shall apply to any law that expressly provides for the retention of documents, records or information in the form of electronic records.</p>",
+  "number": "7",
+  "text": "(1) Where any law provides that documents, records or information shall be retained for any specific period, then, that requirement shall be deemed to have been satisfied if such documents, records or information are retained in the electronic form, if-- (a) the information contained therein remains accessible so as to be usable for a subsequent reference; (b) the electronic record is retained in the format in which it was originally generated, sent or received or in a format which can be demonstrated to represent accurately the information originally generated, sent or received; (c) the details which will facilitate the identification of the origin, destination, date and time of despatch or receipt of such electronic record are available in the electronic record: Provided that this clause does not apply to any information which is automatically generated solely for the purpose of enabling an electronic record to be despatched or received. (2) Nothing in this section shall apply to any law that expressly provides for the retention of documents, records or information in the form of electronic records.",
+  "words": 176
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/7/"
+}

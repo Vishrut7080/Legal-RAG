@@ -1,0 +1,54 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "classification": [
+  {
+   "bailable": "Non-bailable.",
+   "cognizable": "Non-cognizable.",
+   "offence": "Forgery of a record of a Court or of a Registrar of Births, etc., kept by a public servant.",
+   "punishment": "Imprisonment for 7 years and fine",
+   "triable_by": "Magistrate of the first class."
+  }
+ ],
+ "corresponds_to": [
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "466",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/466/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 7,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Forgery of record of Court or of public register, etc",
+  "html": "<p>Whoever forges a document or an electronic record, purporting to be a record or proceeding of or in a Court or an identity document issued by Government including voter identity card or Aadhaar Card, or a register of birth, marriage or burial, or a register kept by a public servant as such, or a certificate or document purporting to be made by a public servant in his official capacity, or an authority to institute or defend a suit, or to take any proceedings therein, or to confess judgment, or a power of attorney, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.</p><p><i>Explanation.</i>—For the purposes of this section, \"register\" includes any list, data or record of any entries maintained in the electronic form as defined in clause <i>(r)</i> of sub-section <i>(1)</i> of section 2 of the Information Technology Act, 2000 (21 of 2000).</p>",
+  "number": "337",
+  "text": "Whoever forges a document or an electronic record, purporting to be a record or proceeding of or in a Court or an identity document issued by Government including voter identity card or Aadhaar Card, or a register of birth, marriage or burial, or a register kept by a public servant as such, or a certificate or document purporting to be made by a public servant in his official capacity, or an authority to institute or defend a suit, or to take any proceedings therein, or to confess judgment, or a power of attorney, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. Explanation.—For the purposes of this section, \"register\" includes any list, data or record of any entries maintained in the electronic form as defined in clause (r) of sub-section (1) of section 2 of the Information Technology Act, 2000 (21 of 2000).",
+  "words": 158
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bns/section/337/"
+}

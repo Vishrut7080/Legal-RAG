@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "weak",
+   "score": 0.5614,
+   "section": "1",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/1/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Short title, application and commencement",
+  "html": "<p><span class=\"num\">(1)</span> This Act may be called the Bharatiya Sakshya Adhiniyam, 2023.</p><p><span class=\"num\">(2)</span> It applies to all judicial proceedings in or before any Court, including Courts-martial, but not to affidavits presented to any Court or officer, nor to proceedings before an arbitrator.</p><p><span class=\"num\">(3)</span> It shall come into force on such date<sup>1</sup> as the Central Government may, by notification in the Official Gazette, appoint.</p>",
+  "number": "1",
+  "text": "(1) This Act may be called the Bharatiya Sakshya Adhiniyam, 2023. (2) It applies to all judicial proceedings in or before any Court, including Courts-martial, but not to affidavits presented to any Court or officer, nor to proceedings before an arbitrator. (3) It shall come into force on such date1 as the Central Government may, by notification in the Official Gazette, appoint.",
+  "words": 62
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/1/"
+}

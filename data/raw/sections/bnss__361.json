@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9718,
+   "section": "322",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/322/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Procedure in cases which Magistrate cannot dispose of",
+  "html": "<p><span class=\"num\">(1)</span> If, in the course of any inquiry into an offence or a trial before a Magistrate in any district, the evidence appears to him to warrant a presumption---</p><p><span class=\"num\">(a)</span> that he has no jurisdiction to try the case or commit it for trial; or</p><p><span class=\"num\">(b)</span> that the case is one which should be tried or committed for trial by some other Magistrate in the district; or</p><p><span class=\"num\">(c)</span> that the case should be tried by the Chief Judicial Magistrate,</p><p>he shall stay the proceedings and submit the case, with a brief report explaining its nature, to the Chief Judicial Magistrate or to such other Magistrate, having jurisdiction, as the Chief Judicial Magistrate directs.</p><p><span class=\"num\">(2)</span> The Magistrate to whom the case is submitted may, if so empowered, either try the case himself, or refer it to any Magistrate subordinate to him having jurisdiction, or commit the accused for trial.</p>",
+  "number": "361",
+  "text": "(1) If, in the course of any inquiry into an offence or a trial before a Magistrate in any district, the evidence appears to him to warrant a presumption--- (a) that he has no jurisdiction to try the case or commit it for trial; or (b) that the case is one which should be tried or committed for trial by some other Magistrate in the district; or (c) that the case should be tried by the Chief Judicial Magistrate, he shall stay the proceedings and submit the case, with a brief report explaining its nature, to the Chief Judicial Magistrate or to such other Magistrate, having jurisdiction, as the Chief Judicial Magistrate directs. (2) The Magistrate to whom the case is submitted may, if so empowered, either try the case himself, or refer it to any Magistrate subordinate to him having jurisdiction, or commit the accused for trial.",
+  "words": 148
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/361/"
+}

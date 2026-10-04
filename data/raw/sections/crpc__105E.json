@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "117",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/117/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Seizure or attachment of property",
+  "html": "<p><span class=\"num\">(1)</span> Where any officer conducting an inquiry or investigation under section <a href=\"/crpc/section/105D/\">105D</a> has a reason to believe that any property in relation to which such inquiry or investigation is being conducted is likely to be concealed, transferred or dealt with in any manner which will result in disposal of such property, he may make an order for seizing such property and where it is not practicable to seize such property, he may make an order of attachment directing that such property shall not be transferred or otherwise dealt with, except with the prior permission of the officer making such order, and a copy of such order shall be served on the person concerned.</p><p>854C2</p><p><span class=\"num\">(2)</span> Any order made under sub-section (1) shall have no effect unless the said order is confirmed by an order of the said Court within a period of thirty days of its being made.</p><p>105F</p>",
+  "number": "105E",
+  "text": "(1) Where any officer conducting an inquiry or investigation under section 105D has a reason to believe that any property in relation to which such inquiry or investigation is being conducted is likely to be concealed, transferred or dealt with in any manner which will result in disposal of such property, he may make an order for seizing such property and where it is not practicable to seize such property, he may make an order of attachment directing that such property shall not be transferred or otherwise dealt with, except with the prior permission of the officer making such order, and a copy of such order shall be served on the person concerned. 854C2 (2) Any order made under sub-section (1) shall have no effect unless the said order is confirmed by an order of the said Court within a period of thirty days of its being made. 105F",
+  "words": 149
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/105E/"
+}

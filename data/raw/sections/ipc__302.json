@@ -1,0 +1,57 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9,
+   "section": "103",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/103/"
+  }
+ ],
+ "instruments": [
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Chhattisgarh",
+   "key": "d031af1c",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "Notification regarding amendment in the Chhattisgarh Prisoner's Release on Probation Rules, 1964.",
+   "url": "https://indiacode.ecourtsindia.com/rules/notification-regarding-amendment-in-the-chhattisgarh-prisoner-s-d031af1c/",
+   "year": 2021
+  }
+ ],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Punishment for murder",
+  "html": "<p>Whoever commits murder shall be punished with death, or [imprisonment for life], and shall also be liable to fine.</p>",
+  "number": "302",
+  "text": "Whoever commits murder shall be punished with death, or [imprisonment for life], and shall also be liable to fine.",
+  "words": 19
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/302/"
+}

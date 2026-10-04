@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Punishment for abetment of offences",
+  "html": "<p><sup>1</sup><b>[84B. Punishment for abetment of offences.</b>--Whoever abets any offence shall, if the act abetted is committed in consequence of the abetment, and no express provision is made by this Act for the punishment of such abetment, be punished with the punishment provided for the offence under this Act.</p><p><i>Explanation.</i>--An act or offence is said to be committed in consequence of abetment, when it is committed in consequence of the instigation, or in pursuance of the conspiracy, or with the aid which constitutes the abetment.]</p>",
+  "number": "84B",
+  "text": "1[84B. Punishment for abetment of offences.--Whoever abets any offence shall, if the act abetted is committed in consequence of the abetment, and no express provision is made by this Act for the punishment of such abetment, be punished with the punishment provided for the offence under this Act. Explanation.--An act or offence is said to be committed in consequence of abetment, when it is committed in consequence of the instigation, or in pursuance of the conspiracy, or with the aid which constitutes the abetment.]",
+  "words": 84
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/84B/"
+}

@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9464,
+   "section": "109",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/109/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Attempt to murder",
+  "html": "<p>Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; and, if hurt is caused to any person by such act, the offender shall be liable either to [imprisonment for life], or to such punishment as is hereinbefore mentioned.</p><p>Attempts by life-convicts.</p><p>Attempts by life-convicts.-[When any person offending under this section is under sentence of [imprisonment for life], he may, if hurt is caused, be punished with death.]</p><p class=\"rubric\">Illustrations</p><p><span class=\"num\">(a)</span> A shoots at Z with intention to kill him, under such circumstances that, if death ensued A would be guilty of murder. A is liable to punishment under this section</p><p><span class=\"num\">(b)</span> A, with the intention of causing the death of a child of tender years, exposes it in a desert place A has committed the offence defined by this section, though the death of the child does not ensue.</p><p><span class=\"num\">(c)</span> A, intending to murder Z, buys a gun and loads it. A has not yet committed the offence. A fires the gun at Z. He has committed the offence defined in this section, and, if by such firing he wounds Z, he is liable to the punishment provided by the latter part of [the first paragraph of] this section.</p><p><span class=\"num\">(d)</span> A, intending to murder Z by poison, purchases poison and mixes the same with food which remains in A's keeping; A has not yet committed the offence in this section. A places the food on Z's table</p><p>or delivers it to Z's servants to place it on Z's table. A has committed the offence defined in this section.</p>",
+  "number": "307",
+  "text": "Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; and, if hurt is caused to any person by such act, the offender shall be liable either to [imprisonment for life], or to such punishment as is hereinbefore mentioned. Attempts by life-convicts. Attempts by life-convicts.-[When any person offending under this section is under sentence of [imprisonment for life], he may, if hurt is caused, be punished with death.] Illustrations (a) A shoots at Z with intention to kill him, under such circumstances that, if death ensued A would be guilty of murder. A is liable to punishment under this section (b) A, with the intention of causing the death of a child of tender years, exposes it in a desert place A has committed the offence defined by this section, though the death of the child does not ensue. (c) A, intending to murder Z, buys a gun and loads it. A has not yet committed the offence. A fires the gun at Z. He has committed the offence defined in this section, and, if by such firing he wounds Z, he is liable to the punishment provided by the latter part of [the first paragraph of] this section. (d) A, intending to murder Z by poison, purchases poison and mixes the same with food which remains in A's keeping; A has not yet committed the offence in this section. A places the food on Z's table or delivers it to Z's servants to place it on Z's table. A has committed the offence defined in this section.",
+  "words": 299
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/307/"
+}

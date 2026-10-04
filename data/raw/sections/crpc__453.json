@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9797,
+   "section": "499",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/499/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Payment to innocent purchaser of money found on accused",
+  "html": "<p>When any person is convicted of any offence which includes, or amounts to, theft or receiving stolen property, and it is proved that any other person bought the stolen property from him without knowing or having reason to believe that the same was stolen, and that any money has on his arrest been taken out of the possession of the convicted person, the Court may, on the application of such purchaser and on the restitution of the stolen property to the person entitled to the possession thereof, order that out of such money a sum not exceeding the price paid by such purchaser be delivered to him.</p>",
+  "number": "453",
+  "text": "When any person is convicted of any offence which includes, or amounts to, theft or receiving stolen property, and it is proved that any other person bought the stolen property from him without knowing or having reason to believe that the same was stolen, and that any money has on his arrest been taken out of the possession of the convicted person, the Court may, on the application of such purchaser and on the restitution of the stolen property to the person entitled to the possession thereof, order that out of such money a sum not exceeding the price paid by such purchaser be delivered to him.",
+  "words": 107
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/453/"
+}

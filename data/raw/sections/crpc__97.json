@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "100",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/100/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Search for persons wrongfully confined",
+  "html": "<p>If any District Magistrate, Sub-divisional Magistrate or Magistrate of the first class has reason to believe that any person is confined under such circumstances that the confinement amounts to an offence, he</p><p>may issue a search-warrant, and the person to whom such warrant is</p><p>directed may search for the person so confined; and such search shall be made in accordance therewith, and the person, if found, shall be immediately taken before a Magistrate, who shall make such order as in the circumstances of the case seems proper.</p>",
+  "number": "97",
+  "text": "If any District Magistrate, Sub-divisional Magistrate or Magistrate of the first class has reason to believe that any person is confined under such circumstances that the confinement amounts to an offence, he may issue a search-warrant, and the person to whom such warrant is directed may search for the person so confined; and such search shall be made in accordance therewith, and the person, if found, shall be immediately taken before a Magistrate, who shall make such order as in the circumstances of the case seems proper.",
+  "words": 87
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/97/"
+}

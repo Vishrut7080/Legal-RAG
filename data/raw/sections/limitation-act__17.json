@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Effect of fraud or mistake",
+  "html": "<p><span class=\"num\">(1)</span> Where, in the case of any suit or application for which a period of limitation is prescribed by this Act,—</p><p><span class=\"num\">(a)</span> the suit or application is based upon the fraud of the defendant or respondent or his agent; or</p><p><span class=\"num\">(b)</span> the knowledge of the right or title on which a suit or application is founded is concealed by the fraud of any such person as aforesaid; or</p><p><span class=\"num\">(c)</span> the suit or application is for relief from the consequences of a mistake; or</p><p><span class=\"num\">(d)</span> where any document necessary to establish the right of the plaintiff or applicant has been fraudulently concealed from him,</p><p>the period of limitation shall not begin to run until the plaintiff or applicant has discovered the fraud or the mistake or could, with reasonable diligence, have discovered it; or in the case of a concealed document, until the plaintiff or the applicant first had the means of producing the concealed document or compelling its production:</p><p>Provided that nothing in this section shall enable any suit to be instituted or application to be made to recover or enforce any charge against, or set aside any transaction affecting, any property which—</p><p><span class=\"num\">(i)</span> in the case of fraud, has been purchased for valuable consideration by a person who was not a party to the fraud and did not at the time of the purchase know, or have reason to believe, that any fraud had been committed, or</p><p><span class=\"num\">(ii)</span> in the case of mistake, has been purchased for valuable consideration subsequently to the transaction in which the mistake was made, by a person who did not know, or have reason to believe, that the mistake had been made, or</p><p><span class=\"num\">(iii)</span> in the case of a concealed document, has been purchased for valuable consideration by a person who was not a party to the concealment and, did not at the time of purchase know, or have reason to believe, that the document had been concealed.</p><p><span class=\"num\">(2)</span> Where a judgment-debtor has, by fraud or force, prevented the execution of a decree or order within the period of limitation, the court may, on the application of the judgment-creditor made after the expiry of the said period extend the period for execution of the decree or order:</p><p>Provided that such application is made within one year from the date of the discovery of the fraud or the cessation of force, as the case may be.</p>",
+  "number": "17",
+  "text": "(1) Where, in the case of any suit or application for which a period of limitation is prescribed by this Act,— (a) the suit or application is based upon the fraud of the defendant or respondent or his agent; or (b) the knowledge of the right or title on which a suit or application is founded is concealed by the fraud of any such person as aforesaid; or (c) the suit or application is for relief from the consequences of a mistake; or (d) where any document necessary to establish the right of the plaintiff or applicant has been fraudulently concealed from him, the period of limitation shall not begin to run until the plaintiff or applicant has discovered the fraud or the mistake or could, with reasonable diligence, have discovered it; or in the case of a concealed document, until the plaintiff or the applicant first had the means of producing the concealed document or compelling its production: Provided that nothing in this section shall enable any suit to be instituted or application to be made to recover or enforce any charge against, or set aside any transaction affecting, any property which— (i) in the case of fraud, has been purchased for valuable consideration by a person who was not a party to the fraud and did not at the time of the purchase know, or have reason to believe, that any fraud had been committed, or (ii) in the case of mistake, has been purchased for valuable consideration subsequently to the transaction in which the mistake was made, by a person who did not know, or have reason to believe, that the mistake had been made, or (iii) in the case of a concealed document, has been purchased for valuable consideration by a person who was not a party to the concealment and, did not at the time of purchase know, or have reason to believe, that the document had been concealed. (2) Where a judgment-debtor has, by fraud or force, prevented the execution of a decree or order within the period of limitation, the court may, on the application of the judgment-creditor made after the expiry of the said period extend the period for execution of the decree or order: Provided that such application is made within one year from the date of the discovery of the fraud or the cessation of force, as the case may be.",
+  "words": 401
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/limitation-act/section/17/"
+}

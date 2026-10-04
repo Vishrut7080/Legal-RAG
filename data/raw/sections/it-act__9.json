@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Sections 6, 7 and 8 not to confer right to insist document should be accepted in electronic form",
+  "html": "<p>Nothing contained in sections <a href=\"/it-act/section/6/\">6</a>, <a href=\"/it-act/section/7/\">7</a> and <a href=\"/it-act/section/8/\">8</a> shall confer a right upon any person to insist that any</p><p>Ministry or Department of the Central Government or the State Government or any authority or body es tablished by or under any law or controlled or funded by the Central or State Government should accept, issue, create, retain and preserve any document in the form of electronic records or effect any monetary transaction in the electronic form.</p>",
+  "number": "9",
+  "text": "Nothing contained in sections 6, 7 and 8 shall confer a right upon any person to insist that any Ministry or Department of the Central Government or the State Government or any authority or body es tablished by or under any law or controlled or funded by the Central or State Government should accept, issue, create, retain and preserve any document in the form of electronic records or effect any monetary transaction in the electronic form.",
+  "words": 76
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/9/"
+}

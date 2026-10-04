@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "449",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/449/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Appeal from orders under section 491",
+  "html": "<p>All orders passed under section <a href=\"/bnss/section/491/\">491</a> shall be appealable,---</p><p><span class=\"num\">(i)</span> in the case of an order made by a Magistrate, to the Sessions Judge;</p><p><span class=\"num\">(ii)</span> in the case of an order made by a Court of Session, to the Court to which an appeal lies from an order made by such Court.</p>",
+  "number": "495",
+  "text": "All orders passed under section 491 shall be appealable,--- (i) in the case of an order made by a Magistrate, to the Sessions Judge; (ii) in the case of an order made by a Court of Session, to the Court to which an appeal lies from an order made by such Court.",
+  "words": 52
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/495/"
+}

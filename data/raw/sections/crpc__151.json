@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "170",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/170/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Arrest to prevent the commission of cognizable offences",
+  "html": "<p><span class=\"num\">(1)</span> A police officer knowing of a design to commit any cognizable offence may arrest, without orders from a Magistrate and without a warrant, the person so designing, if it appears to such officer that the commission of the offence cannot be otherwise prevented.</p><p><span class=\"num\">(2)</span> No person arrested under sub-section (1) shall be detained in custody for a period exceeding twenty-four hours from the time of his arrest unless his further detention is required or authorised under any other provisions of this Code or of any other law for the time being in force.</p>",
+  "number": "151",
+  "text": "(1) A police officer knowing of a design to commit any cognizable offence may arrest, without orders from a Magistrate and without a warrant, the person so designing, if it appears to such officer that the commission of the offence cannot be otherwise prevented. (2) No person arrested under sub-section (1) shall be detained in custody for a period exceeding twenty-four hours from the time of his arrest unless his further detention is required or authorised under any other provisions of this Code or of any other law for the time being in force.",
+  "words": 94
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/151/"
+}

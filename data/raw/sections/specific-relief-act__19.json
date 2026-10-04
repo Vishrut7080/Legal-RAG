@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-12-13",
+  "enforcement_date": "1964-03-01",
+  "id": "specific-relief-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to certain kinds of specific relief.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 48,
+  "short_title": "The Specific Relief Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/specific-relief-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Relief against parties and persons claiming under them by subsequent title",
+  "html": "<p>Except as otherwise provided by this Chapter, specific performance of a contract may be enforced against--</p><p><span class=\"num\">(a)</span> either party thereto;</p><p><span class=\"num\">(b)</span> any other person claiming under him by a title arising subsequently to the contract, except a transferee for value who has paid his money in good faith and without notice of the original contract;</p><p><span class=\"num\">(c)</span> any person claiming under a title which, though prior to the contract and known to the plaintiff, might have been displaced by the defendant;</p><p><sup>1</sup>[(ca) when a limited liability partnership has entered into a contract and subsequently becomes amalgamated with another limited liability partnership, the new limited liability partnership which arises out of the amalgamation.]</p><p><span class=\"num\">(d)</span> when a company has entered into a contract and subsequently becomes amalgamated with another company, the new company which arises out of the amalgamation;</p><p><span class=\"num\">(e)</span> when the promoters of a company have, before its incorporation, entered into a contract for the purpose of the company and such contract is warranted by the terms of the incorporation, the company:</p><p>Provided that the company has accepted the contract and communicated such acceptance to the other party to the contract.</p>",
+  "number": "19",
+  "text": "Except as otherwise provided by this Chapter, specific performance of a contract may be enforced against-- (a) either party thereto; (b) any other person claiming under him by a title arising subsequently to the contract, except a transferee for value who has paid his money in good faith and without notice of the original contract; (c) any person claiming under a title which, though prior to the contract and known to the plaintiff, might have been displaced by the defendant; 1[(ca) when a limited liability partnership has entered into a contract and subsequently becomes amalgamated with another limited liability partnership, the new limited liability partnership which arises out of the amalgamation.] (d) when a company has entered into a contract and subsequently becomes amalgamated with another company, the new company which arises out of the amalgamation; (e) when the promoters of a company have, before its incorporation, entered into a contract for the purpose of the company and such contract is warranted by the terms of the incorporation, the company: Provided that the company has accepted the contract and communicated such acceptance to the other party to the contract.",
+  "words": 189
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/19/"
+}

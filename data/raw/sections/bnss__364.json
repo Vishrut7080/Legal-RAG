@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9835,
+   "section": "325",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/325/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Procedure when Magistrate cannot pass sentence sufficiently severe",
+  "html": "<p><span class=\"num\">(1)</span> Whenever a Magistrate is of opinion, after hearing the evidence for the prosecution and the accused, that the accused is guilty, and that he ought to receive a punishment different in kind from, or more severe than, that which such Magistrate is empowered to inflict, or, being a Magistrate of the second class, is of opinion that the accused ought to be required to execute a bond or bail bond under section <a href=\"/bnss/section/125/\">125</a>, he may record the opinion and submit his proceedings, and forward the accused, to the Chief Judicial Magistrate to whom he is subordinate.</p><p><span class=\"num\">(2)</span> When more accused persons than one are being tried together, and the Magistrate considers it necessary to proceed under sub-section<i> (1)</i>, in regard to any of such accused, he shall forward all the accused, who are in his opinion guilty, to the Chief Judicial Magistrate.</p><p><span class=\"num\">(3)</span> The Chief Judicial Magistrate to whom the proceedings are submitted may, if he thinks fit, examine the parties and recall and examine any witness who has already given evidence in the case and may call for and take any further evidence and shall pass such judgment, sentence or order in the case as he thinks fit, and is according to law.</p>",
+  "number": "364",
+  "text": "(1) Whenever a Magistrate is of opinion, after hearing the evidence for the prosecution and the accused, that the accused is guilty, and that he ought to receive a punishment different in kind from, or more severe than, that which such Magistrate is empowered to inflict, or, being a Magistrate of the second class, is of opinion that the accused ought to be required to execute a bond or bail bond under section 125, he may record the opinion and submit his proceedings, and forward the accused, to the Chief Judicial Magistrate to whom he is subordinate. (2) When more accused persons than one are being tried together, and the Magistrate considers it necessary to proceed under sub-section (1), in regard to any of such accused, he shall forward all the accused, who are in his opinion guilty, to the Chief Judicial Magistrate. (3) The Chief Judicial Magistrate to whom the proceedings are submitted may, if he thinks fit, examine the parties and recall and examine any witness who has already given evidence in the case and may call for and take any further evidence and shall pass such judgment, sentence or order in the case as he thinks fit, and is according to law.",
+  "words": 205
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/364/"
+}

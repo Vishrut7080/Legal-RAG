@@ -1,0 +1,83 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "classification": [
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Making or counterfeiting a seal, plate, etc., with intent to commit a forgery punishable under section 338 or possessing with like intent any such seal, plate, etc., knowing the same to be counterfeit.",
+   "punishment": "Imprisonment for life, or imprisonment for 7 years and fine.",
+   "triable_by": "Magistrate of the first class."
+  },
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Making or counterfeiting a seal, plate, etc., with intent to commit a forgery punishable otherwise than under section 338 or possessing with like intent any such seal, plate, etc., knowing the same to be counterfeit.",
+   "punishment": "Imprisonment for 7 years and fine.",
+   "triable_by": "Magistrate of the first class."
+  },
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Possesses any seal, plate or other instrument knowing the same to be counterfeit.",
+   "punishment": "Imprisonment for 3 years and fine.",
+   "triable_by": "Magistrate of the first class."
+  },
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Fraudulently or dishonestly uses as genuine any seal, plate or other instrument knowing or having reason to believe the same to be counterfeit.",
+   "punishment": "Same as if he had made or counterfeited such seal, plate or other instrument.",
+   "triable_by": "Magistrate of the first class."
+  }
+ ],
+ "corresponds_to": [
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "472",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/472/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9197,
+   "section": "473",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/473/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Making or possessing counterfeit seal, etc., with intent to commit forgery punishable under section 338",
+  "html": "<p><span class=\"num\">(1)</span> Whoever makes or counterfeits any seal, plate or other instrument for making an impression, intending that the same shall be used for the purpose of committing any forgery which would be punishable under section <a href=\"/bns/section/338/\">338</a> of this Sanhita, or, with such intent, has in his possession any such seal, plate or other instrument, knowing the same to be counterfeit, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.</p><p><span class=\"num\">(2)</span> Whoever makes or counterfeits any seal, plate or other instrument for making an impression, intending that the same shall be used for the purpose of committing any forgery which would be punishable under any section of this Chapter other than section <a href=\"/bns/section/338/\">338</a>, or, with such intent, has in his possession any such seal, plate or other instrument, knowing the same to be counterfeit, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.</p><p><span class=\"num\">(3)</span> Whoever possesses any seal, plate or other instrument knowing the same to be counterfeit, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine.</p><p><span class=\"num\">(4)</span> Whoever fraudulently or dishonestly uses as genuine any seal, plate or other instrument knowing or having reason to believe the same to be counterfeit, shall be punished in the same manner as if he had made or counterfeited such seal, plate or other instrument.</p>",
+  "number": "341",
+  "text": "(1) Whoever makes or counterfeits any seal, plate or other instrument for making an impression, intending that the same shall be used for the purpose of committing any forgery which would be punishable under section 338 of this Sanhita, or, with such intent, has in his possession any such seal, plate or other instrument, knowing the same to be counterfeit, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. (2) Whoever makes or counterfeits any seal, plate or other instrument for making an impression, intending that the same shall be used for the purpose of committing any forgery which would be punishable under any section of this Chapter other than section 338, or, with such intent, has in his possession any such seal, plate or other instrument, knowing the same to be counterfeit, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. (3) Whoever possesses any seal, plate or other instrument knowing the same to be counterfeit, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine. (4) Whoever fraudulently or dishonestly uses as genuine any seal, plate or other instrument knowing or having reason to believe the same to be counterfeit, shall be punished in the same manner as if he had made or counterfeited such seal, plate or other instrument.",
+  "words": 261
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bns/section/341/"
+}

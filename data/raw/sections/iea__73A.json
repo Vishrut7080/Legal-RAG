@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "73",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/73/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Proof as to verification of digital signature",
+  "html": "<p>In order to ascertain whether a digital signature is that of the person by whom it purports to have been affixed, the Court may direct –– (a) that person or the Controller or the Certifying Authority to produce the Digital Signature Certificate; (b) any other person to apply the public key listed in the Digital Signature Certificate and verify the digital signature purported to have been affixed by that person. Explanation. –– For the purposes of this section, “Controller” means the Controller appointed under sub-section (1) of section 17 of the Information Technology Act, 2000 (21 of 2000).] PUBLIC DOCUMENTS</p>",
+  "number": "73A",
+  "text": "In order to ascertain whether a digital signature is that of the person by whom it purports to have been affixed, the Court may direct –– (a) that person or the Controller or the Certifying Authority to produce the Digital Signature Certificate; (b) any other person to apply the public key listed in the Digital Signature Certificate and verify the digital signature purported to have been affixed by that person. Explanation. –– For the purposes of this section, “Controller” means the Controller appointed under sub-section (1) of section 17 of the Information Technology Act, 2000 (21 of 2000).]",
+  "words": 100
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/73A/"
+}

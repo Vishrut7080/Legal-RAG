@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "145",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/145/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 5,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Cross examination as to previous statements in writing",
+  "html": "<p>A witness may be cross-examined as to previous statements made by him in writing or reduced into writing, and relevant to matters in question, without such writing being shown to him, or being proved; but, if it is intended to contradict him by the writing, his attention must, before the writing can be proved, be called to those parts of it which are to be used for the purpose of contradicting him.</p>",
+  "number": "148",
+  "text": "A witness may be cross-examined as to previous statements made by him in writing or reduced into writing, and relevant to matters in question, without such writing being shown to him, or being proved; but, if it is intended to contradict him by the writing, his attention must, before the writing can be proved, be called to those parts of it which are to be used for the purpose of contradicting him.",
+  "words": 72
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/148/"
+}

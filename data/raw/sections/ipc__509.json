@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9557,
+   "section": "79",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/79/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 10,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Word, gesture or act intended to insult the modesty of a woman",
+  "html": "<p>Whoever, intending to insult the modesty of any woman, utters any word, makes any sound or gesture, or exhibits any object, intending that such word or sound shall be heard, or that such gesture or object shall be seen, by such woman, or intrudes upon the privacy of such woman, shall be punished with simple imprisonment for a term which may extend to one year, or with fine, or with both.</p>",
+  "number": "509",
+  "text": "Whoever, intending to insult the modesty of any woman, utters any word, makes any sound or gesture, or exhibits any object, intending that such word or sound shall be heard, or that such gesture or object shall be seen, by such woman, or intrudes upon the privacy of such woman, shall be punished with simple imprisonment for a term which may extend to one year, or with fine, or with both.",
+  "words": 71
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/509/"
+}

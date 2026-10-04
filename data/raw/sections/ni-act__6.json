@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "''Cheque''",
+  "html": "<p><sup>1</sup>[A cheque is a bill of exchange drawn on a specified banker and not expressed to be payable otherwise than on demand and it includes the electronic image of a truncated cheque and a cheque in the electronic form.</p><p><i>Explanation</i> I.-- For the purposes of this section, the expressions</p><p><sup>2</sup>[(a) a cheque in the electronic form means a cheque drawn in electronic form by using any computer resource and signed in a secure system with digital signature (with or without biometrics signature) and asymmetric crypto system or with electronic signature, as the case may be;]</p><p><span class=\"num\">(b)</span> a truncated cheque means a cheque which is truncated during the course of a clearing cycle, either by the clearing house or by the bank whether paying or receiving payment, immediately on generation of an electronic image for transmission, substituting the further physical movement of the cheque in writing.</p><p><i>Explanation</i> II. -- For the purposes of this section, the expression clearing house means the clearing house managed by the Reserve Bank of India or a clearing house recognised as such by the Reserve Bank of India.]</p><p><sup>3</sup>[<i>Explanation</i> III. -- For the purposes of this section, the expressions asymmetric crypto system, computer resource, digital signature, electronic form and electronic signature shall have the same meanings respectively assigned to them in the Information Technology Act, 2000 (21 of 2000).]</p>",
+  "number": "6",
+  "text": "1[A cheque is a bill of exchange drawn on a specified banker and not expressed to be payable otherwise than on demand and it includes the electronic image of a truncated cheque and a cheque in the electronic form. Explanation I.-- For the purposes of this section, the expressions 2[(a) a cheque in the electronic form means a cheque drawn in electronic form by using any computer resource and signed in a secure system with digital signature (with or without biometrics signature) and asymmetric crypto system or with electronic signature, as the case may be;] (b) a truncated cheque means a cheque which is truncated during the course of a clearing cycle, either by the clearing house or by the bank whether paying or receiving payment, immediately on generation of an electronic image for transmission, substituting the further physical movement of the cheque in writing. Explanation II. -- For the purposes of this section, the expression clearing house means the clearing house managed by the Reserve Bank of India or a clearing house recognised as such by the Reserve Bank of India.] 3[Explanation III. -- For the purposes of this section, the expressions asymmetric crypto system, computer resource, digital signature, electronic form and electronic signature shall have the same meanings respectively assigned to them in the Information Technology Act, 2000 (21 of 2000).]",
+  "words": 223
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/6/"
+}

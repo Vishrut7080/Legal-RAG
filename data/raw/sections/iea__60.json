@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9727,
+   "section": "55",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/55/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Oral evidence must be direct",
+  "html": "<p>Oral evidence must, in all cases, whatever, be direct; that is to say –– if it refers to a fact which could be seen, it must be the evidence of a witness who says he saw it; if it refers to a fact which could be heard, it must be the evidence of a witness who says he heard it; if it refers to a fact which could be perceived by any other sense or in any other manner, it must be the evidence of a witness who says he perceived it by that sense or in that manner; if it refers to an opinion or to the grounds on which that opinion is held, it must be the evidence of the person who holds that opinion on those grounds: Provided that the opinions of experts expressed in any treatise commonly offered for sale, and the grounds on which such opinions are held, may be proved by the production of such treatises if the author is dead or cannot be found; or has become incapable of giving evidence, or cannot be called as a witness without an amount of delay or expense which the Court regards as unreasonable: Provided also that, if oral evidence refers to the existence or condition of any material thing other than a document, the Court may, if it thinks fit, require the production of such material thing for its inspection. CHAPTER V. –– OF DOCUMENTARY EVIDENCE</p>",
+  "number": "60",
+  "text": "Oral evidence must, in all cases, whatever, be direct; that is to say –– if it refers to a fact which could be seen, it must be the evidence of a witness who says he saw it; if it refers to a fact which could be heard, it must be the evidence of a witness who says he heard it; if it refers to a fact which could be perceived by any other sense or in any other manner, it must be the evidence of a witness who says he perceived it by that sense or in that manner; if it refers to an opinion or to the grounds on which that opinion is held, it must be the evidence of the person who holds that opinion on those grounds: Provided that the opinions of experts expressed in any treatise commonly offered for sale, and the grounds on which such opinions are held, may be proved by the production of such treatises if the author is dead or cannot be found; or has become incapable of giving evidence, or cannot be called as a witness without an amount of delay or expense which the Court regards as unreasonable: Provided also that, if oral evidence refers to the existence or condition of any material thing other than a document, the Court may, if it thinks fit, require the production of such material thing for its inspection. CHAPTER V. –– OF DOCUMENTARY EVIDENCE",
+  "words": 241
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/60/"
+}

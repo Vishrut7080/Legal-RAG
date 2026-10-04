@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "489",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/489/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Discharge of sureties",
+  "html": "<p><span class=\"num\">(1)</span> All or any sureties for the attendance and appearance of a person released on bail may at any time apply to a Magistrate to discharge the bond, either wholly or so far as relates to the applicants.</p><p><span class=\"num\">(2)</span> On such application being made, the Magistrate shall issue his warrant of arrest directing that the person so released be brought before him.</p><p><span class=\"num\">(3)</span> On the appearance of such person pursuant to the warrant, or on his voluntary surrender, the Magistrate shall direct the bond to be discharged either wholly or so far as relates to the applicants, and shall call upon such person to find other sufficient sureties, and, if he fails to do so, may commit him to jail.</p>",
+  "number": "444",
+  "text": "(1) All or any sureties for the attendance and appearance of a person released on bail may at any time apply to a Magistrate to discharge the bond, either wholly or so far as relates to the applicants. (2) On such application being made, the Magistrate shall issue his warrant of arrest directing that the person so released be brought before him. (3) On the appearance of such person pursuant to the warrant, or on his voluntary surrender, the Magistrate shall direct the bond to be discharged either wholly or so far as relates to the applicants, and shall call upon such person to find other sufficient sureties, and, if he fails to do so, may commit him to jail.",
+  "words": 120
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/444/"
+}

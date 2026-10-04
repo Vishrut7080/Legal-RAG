@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Presumption in favour of holder",
+  "html": "<p>It shall be presumed, unless the contrary is proved, that the holder of a cheque received the cheque of the nature referred to in section <a href=\"/ni-act/section/138/\">138</a> for the discharge, in whole or in part, of any debt or other liability.</p>",
+  "number": "139",
+  "text": "It shall be presumed, unless the contrary is proved, that the holder of a cheque received the cheque of the nature referred to in section 138 for the discharge, in whole or in part, of any debt or other liability.",
+  "words": 40
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/139/"
+}

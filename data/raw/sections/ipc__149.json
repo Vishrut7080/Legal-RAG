@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "190",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/190/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+  "html": "<p>If an offence is committed by any member of an unlawful assembly in prosecution of the common object of that assembly, or such as the members of that assembly knew to be likely to be committed in prosecution of that object, every person who, at the time of the committing of that offence, is a member of the same assembly, is guilty of that offence.</p>",
+  "number": "149",
+  "text": "If an offence is committed by any member of an unlawful assembly in prosecution of the common object of that assembly, or such as the members of that assembly knew to be likely to be committed in prosecution of that object, every person who, at the time of the committing of that offence, is a member of the same assembly, is guilty of that offence.",
+  "words": 65
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/149/"
+}

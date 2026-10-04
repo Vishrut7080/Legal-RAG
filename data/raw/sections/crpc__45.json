@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9999,
+   "section": "42",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/42/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Protection of members of the Armed Forces from arrest",
+  "html": "<p><span class=\"num\">(1)</span> Notwithstanding anything contained in sections <a href=\"/crpc/section/41/\">41</a> to <a href=\"/crpc/section/44/\">44</a> (both inclusive), no member of the Armed Forces of the Union shall be arrested for anything done or purported to be done by him in the discharge of his official duties except after obtaining the consent of the Central Government.</p><p><span class=\"num\">(2)</span> The State Government may, by notification, direct that the provisions of sub-section (1) shall apply to such class or category of the members of the Force charged with the maintenance of public order as may be specified therein, wherever they may be serving, and thereupon the provisions of that sub-section shall apply as if for the expression &quot;Central Government&quot; occurring therein, the expression &quot;State Government&quot; were substituted.</p>",
+  "number": "45",
+  "text": "(1) Notwithstanding anything contained in sections 41 to 44 (both inclusive), no member of the Armed Forces of the Union shall be arrested for anything done or purported to be done by him in the discharge of his official duties except after obtaining the consent of the Central Government. (2) The State Government may, by notification, direct that the provisions of sub-section (1) shall apply to such class or category of the members of the Force charged with the maintenance of public order as may be specified therein, wherever they may be serving, and thereupon the provisions of that sub-section shall apply as if for the expression \"Central Government\" occurring therein, the expression \"State Government\" were substituted.",
+  "words": 117
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/45/"
+}

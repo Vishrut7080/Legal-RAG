@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "239",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/239/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 7,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Court may alter charge",
+  "html": "<p><span class=\"num\">(1)</span> Any Court may alter or add to any charge at any time before judgment is pronounced.</p><p><span class=\"num\">(2)</span> Every such alteration or addition shall be read and explained to the accused.</p><p><span class=\"num\">(3)</span> If the alteration or addition to a charge is such that proceeding immediately with the trial is not likely, in the opinion of the Court, to prejudice the accused in his defence or the prosecutor in the conduct of the case, the Court may, in its discretion, after such alteration or addition has been made, proceed with the trial as if the altered or added charge had been the original charge.</p><p><span class=\"num\">(4)</span> If the alteration or addition is such that proceeding immediately with the trial is likely, in the opinion of the Court, to prejudice the accused or the prosecutor as aforesaid, the Court may either direct a new trial or adjourn the trial for such period as may be necessary.</p><p><span class=\"num\">(5)</span> If the offence stated in the altered or added charge is one for the prosecution of which previous sanction is necessary, the case shall not be proceeded with until such sanction is obtained, unless sanction has been already obtained for a prosecution on the same</p><p>facts as those on which the altered or added charge is founded.</p>",
+  "number": "216",
+  "text": "(1) Any Court may alter or add to any charge at any time before judgment is pronounced. (2) Every such alteration or addition shall be read and explained to the accused. (3)If the alteration or addition to a charge is such that proceeding immediately with the trial is not likely, in the opinion of the Court, to prejudice the accused in his defence or the prosecutor in the conduct of the case, the Court may, in its discretion, after such alteration or addition has been made, proceed with the trial as if the altered or added charge had been the original charge. (4)If the alteration or addition is such that proceeding immediately with the trial is likely, in the opinion of the Court, to prejudice the accused or the prosecutor as aforesaid, the Court may either direct a new trial or adjourn the trial for such period as may be necessary. (5) If the offence stated in the altered or added charge is one for the prosecution of which previous sanction is necessary, the case shall not be proceeded with until such sanction is obtained, unless sanction has been already obtained for a prosecution on the same facts as those on which the altered or added charge is founded.",
+  "words": 209
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/216/"
+}

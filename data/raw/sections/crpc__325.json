@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9835,
+   "section": "364",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/364/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Procedure when Magistrate cannot pass sentence sufficiently severe",
+  "html": "<p><span class=\"num\">(1)</span> Whenever a Magistrate is of opinion, after hearing the evidence for the prosecution and the accused, that the accused is guilty, and that he ought to receive a punishment different in kind from, or more severe than, that which such Magistrate is empowered to inflict, or, being a Magistrate of the second class, is of opinion that the accused ought to be required to execute a bond under section <a href=\"/crpc/section/106/\">106</a>, he may record the opinion</p><p>1 Ins. by Act 45 of 1978, s. 26 (w.e.f. 18-12-1978).</p><p>and submit his proceedings, and forward the accused, to the Chief Judicial Magistrate to whom he is subordinate.</p><p><span class=\"num\">(2)</span> When more accused than one are being tried together, and the Magistrate considers it necessary to proceed under sub-section (1), in regard to any of such accused, he shall forward all the accused, who are in his opinion guilty, to the Chief Judicial Magistrate.</p><p><span class=\"num\">(3)</span> The Chief Judicial Magistrate to whom the proceedings are submitted may, if he thinks fit, examine the parties and recall and examine any witness who has already given evidence in the case and may call for and take any further evidence and shall pass such judgment, sentence or order in the case as he thinks fit, and as is according to law.</p>",
+  "number": "325",
+  "text": "(1) Whenever a Magistrate is of opinion, after hearing the evidence for the prosecution and the accused, that the accused is guilty, and that he ought to receive a punishment different in kind from, or more severe than, that which such Magistrate is empowered to inflict, or, being a Magistrate of the second class, is of opinion that the accused ought to be required to execute a bond under section 106, he may record the opinion 1 Ins. by Act 45 of 1978, s. 26 (w.e.f. 18-12-1978). and submit his proceedings, and forward the accused, to the Chief Judicial Magistrate to whom he is subordinate. (2) When more accused than one are being tried together, and the Magistrate considers it necessary to proceed under sub-section (1), in regard to any of such accused, he shall forward all the accused, who are in his opinion guilty, to the Chief Judicial Magistrate. (3) The Chief Judicial Magistrate to whom the proceedings are submitted may, if he thinks fit, examine the parties and recall and examine any witness who has already given evidence in the case and may call for and take any further evidence and shall pass such judgment, sentence or order in the case as he thinks fit, and as is according to law.",
+  "words": 213
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/325/"
+}

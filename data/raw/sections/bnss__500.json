@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.993,
+   "section": "454",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/454/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Appeal against orders under section 498 or section 499",
+  "html": "<p><span class=\"num\">(1)</span> Any person aggrieved by an order made by a Court or Magistrate under section <a href=\"/bnss/section/498/\">498</a> or section <a href=\"/bnss/section/499/\">499</a>, may appeal against it to the Court to which appeals ordinarily lie from convictions by the former Court.</p><p><span class=\"num\">(2)</span> On such appeal, the Appellate Court may direct the order to be stayed pending disposal of the appeal, or may modify, alter or annul the order and make any further orders that may be just.</p><p><span class=\"num\">(3)</span> The powers referred to in sub-section<i> (2)</i> may also be exercised by a Court of appeal, confirmation or revision while dealing with the case in which the order referred to in sub-section<i> (1) </i>was made.</p>",
+  "number": "500",
+  "text": "(1) Any person aggrieved by an order made by a Court or Magistrate under section 498 or section 499, may appeal against it to the Court to which appeals ordinarily lie from convictions by the former Court. (2) On such appeal, the Appellate Court may direct the order to be stayed pending disposal of the appeal, or may modify, alter or annul the order and make any further orders that may be just. (3) The powers referred to in sub-section (2) may also be exercised by a Court of appeal, confirmation or revision while dealing with the case in which the order referred to in sub-section (1) was made.",
+  "words": 109
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/500/"
+}

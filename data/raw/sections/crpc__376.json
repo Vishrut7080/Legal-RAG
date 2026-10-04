@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9892,
+   "section": "417",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/417/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "No appeal in petty cases",
+  "html": "<p>Notwithstanding anything contained in section <a href=\"/crpc/section/374/\">374</a>, there shall be no appeal by a convicted person in any of the following cases, namely: -</p><p><span class=\"num\">(a)</span> where a High Court passes only a sentence of imprisonment for a term not exceeding six months or of fine not exceeding one thousand rupees, or of both such imprisonment and fine ;</p><p><span class=\"num\">(b)</span> where a Court of Session or a Metropolitan Magistrate passes only a sentence of imprisonment for a term not exceeding three months or of fine not exceeding two hundred rupees, or of both such imprisonment and fine ;</p><p><span class=\"num\">(c)</span> where a Magistrate of the first class passes only a sentence of fine not exceeding one hundred rupees; or</p><p><span class=\"num\">(d)</span> where, in a case tried summarily, a Magistrate empowered to act under section <a href=\"/crpc/section/260/\">260</a> passes only a sentence of fine not exceeding two hundred rupees:</p><p>Provided that an appeal may be brought against any such sentence if any other punishment is combined with it, but such sentence shall not be appealable merely on the ground-</p><p><span class=\"num\">(i)</span> that the person convicted is ordered to furnish security to keep the peace; or</p><p><span class=\"num\">(ii)</span> that a direction for imprisonment in default of payment of fine is included in the sentence ; or</p><p><span class=\"num\">(iii)</span> that more than one sentence of fine is passed in the case, if the total amount of fine imposed does not exceed the amount hereinbefore specified in respect of the case.</p>",
+  "number": "376",
+  "text": "Notwithstanding anything contained in section 374, there shall be no appeal by a convicted person in any of the following cases, namely: - (a) where a High Court passes only a sentence of imprisonment for a term not exceeding six months or of fine not exceeding one thousand rupees, or of both such imprisonment and fine ; (b) where a Court of Session or a Metropolitan Magistrate passes only a sentence of imprisonment for a term not exceeding three months or of fine not exceeding two hundred rupees, or of both such imprisonment and fine ; (c) where a Magistrate of the first class passes only a sentence of fine not exceeding one hundred rupees; or (d) where, in a case tried summarily, a Magistrate empowered to act under section 260 passes only a sentence of fine not exceeding two hundred rupees: Provided that an appeal may be brought against any such sentence if any other punishment is combined with it, but such sentence shall not be appealable merely on the ground- (i) that the person convicted is ordered to furnish security to keep the peace; or (ii) that a direction for imprisonment in default of payment of fine is included in the sentence ; or (iii) that more than one sentence of fine is passed in the case, if the total amount of fine imposed does not exceed the amount hereinbefore specified in respect of the case.",
+  "words": 238
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/376/"
+}

@@ -1,0 +1,98 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Tamil Nadu",
+   "key": "768f9e95",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "Tamil Nadu Information Technology (Electronic Service Delivery) Rules, 2016",
+   "url": "https://indiacode.ecourtsindia.com/rules/tamil-nadu-information-technology-electronic-service-delivery-rules-768f9e95/",
+   "year": 2016
+  },
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Tamil Nadu",
+   "key": "81723b62",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "Tamil Nadu Information Technology (ESD) Rules, 2016",
+   "url": "https://indiacode.ecourtsindia.com/rules/tamil-nadu-information-technology-esd-rules-2016-81723b62/",
+   "year": 2016
+  },
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Tamil Nadu",
+   "key": "b641cbce",
+   "kind": "order",
+   "relation": "made_under",
+   "title": "Information Technology Department — e-Governance — Electronic Delivery of Services in the State — Tamil Nadu Information Technology (Electronic Service Delivery) Rules, 2016 - Notified - Orders - Issued",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-department-e-governance-electronic-delivery-of-b641cbce/",
+   "year": 2016
+  },
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Delhi",
+   "key": "75ae183a",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "National capital Territory of Delhi Information Technology (Electronic Service Delivery) Rules, 2012",
+   "url": "https://indiacode.ecourtsindia.com/rules/national-capital-territory-of-delhi-information-technology-electronic-75ae183a/",
+   "year": 2012
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "3a05b59f",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "Information Technology (Use of Electronic Records and Digital Signature) Rules, 2004",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-use-of-electronic-records-and-digital-signature-3a05b59f/",
+   "year": 2004
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "410fdbab",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (Procedures and Safeguards for Interception, Monitoring or Decryption of Information) Rules, 2009.",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-procedures-and-safeguards-for-interception-410fdbab/",
+   "year": 2009
+  }
+ ],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Use of electronic records and electronic signatures in Government and its agencies",
+  "html": "<p><b>6. Use of electronic records and</b> <sup>1</sup> <b>[electronic signatures] in Government and its agencies.</b>--(1) Where any law provides for--</p><p><span class=\"num\">(a)</span> the filing of any form, application or any other document with any office, authority, body or agency owned or controlled by the appropriate Government in a particular manner;</p><p><span class=\"num\">(b)</span> the issue or grant of any licence, permit, sanction or approval by whatever name called in a particular manner;</p><p><span class=\"num\">(c)</span> the receipt or payment of money in a particular manner,</p><p>then, notwithstanding anything contained in any other law for the time being in force, such requirement shall be deemed to have been satisfied if such filing, issue, grant, receipt or payment, as the case may be, is effected by means of such electronic form as may be prescribed by the appropriate Government.</p><p><span class=\"num\">(2)</span> The appropriate Government may, for the purposes of sub-section <i>(1)</i>, by rules, prescribe--</p><p><span class=\"num\">(a)</span> the manner and format in which such electronic records shall be filed, created or issued;</p><p><span class=\"num\">(b)</span> the manner or method of payment of any fee or charges for filing, creation or issue any electronic record under clause <i>(a)</i>.</p>",
+  "number": "6",
+  "text": "6. Use of electronic records and 1 [electronic signatures] in Government and its agencies.--(1) Where any law provides for-- (a) the filing of any form, application or any other document with any office, authority, body or agency owned or controlled by the appropriate Government in a particular manner; (b) the issue or grant of any licence, permit, sanction or approval by whatever name called in a particular manner; (c) the receipt or payment of money in a particular manner, then, notwithstanding anything contained in any other law for the time being in force, such requirement shall be deemed to have been satisfied if such filing, issue, grant, receipt or payment, as the case may be, is effected by means of such electronic form as may be prescribed by the appropriate Government. (2) The appropriate Government may, for the purposes of sub-section (1), by rules, prescribe-- (a) the manner and format in which such electronic records shall be filed, created or issued; (b) the manner or method of payment of any fee or charges for filing, creation or issue any electronic record under clause (a).",
+  "words": 184
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/6/"
+}

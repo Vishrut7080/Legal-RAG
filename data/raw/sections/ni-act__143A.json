@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Power to direct interim compensation",
+  "html": "<p><sup>1</sup>[<b>143A. Power to direct interim compensation</b>.--(1) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), the Court trying an offence under section <a href=\"/ni-act/section/138/\">138</a> may order the drawer of the cheque to pay interim compensation to the complainant--</p><p><span class=\"num\">(a)</span> in a summary trial or a summons case, where he pleads not guilty to the accusation made in the complaint; and</p><p><span class=\"num\">(b)</span> in any other case, upon framing of charge.</p><p><span class=\"num\">(2)</span> The interim compensation under sub-section <i>(1)</i> shall not exceed twenty per cent. of the amount of the cheque.</p><p><span class=\"num\">(3)</span> The interim compensation shall be paid within sixty days from the date of the order under sub-section <i>(1)</i>, or within such further period not exceeding thirty days as may be directed by the Court on sufficient cause being shown by the drawer of the cheque.</p><p><span class=\"num\">(4)</span> If the drawer of the cheque is acquitted, the Court shall direct the complainant to repay to the drawer the amount of interim compensation, with interest at the bank rate as published by the Reserve Bank of India, prevalent at the beginning of the relevant financial year, within sixty days from the date of the order, or within such further period not exceeding thirty days as may be directed by the Court on sufficient cause being shown by the complainant.</p><p><span class=\"num\">(5)</span> The interim compensation payable under this section may be recovered as if it were a fine under section 421 of the Code of Criminal Procedure, 1973 (2 of 1974).</p><p><span class=\"num\">(6)</span> The amount of fine imposed under section <a href=\"/ni-act/section/138/\">138</a> or the amount of compensation awarded under section 357 of the Code of Criminal Procedure, 1973 (2 of 1974), shall be reduced by the amount paid or recovered as interim compensation under this section.]</p>",
+  "number": "143A",
+  "text": "1[143A. Power to direct interim compensation.--(1) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), the Court trying an offence under section 138 may order the drawer of the cheque to pay interim compensation to the complainant-- (a) in a summary trial or a summons case, where he pleads not guilty to the accusation made in the complaint; and (b) in any other case, upon framing of charge. (2) The interim compensation under sub-section (1) shall not exceed twenty per cent. of the amount of the cheque. (3) The interim compensation shall be paid within sixty days from the date of the order under sub-section (1), or within such further period not exceeding thirty days as may be directed by the Court on sufficient cause being shown by the drawer of the cheque. (4) If the drawer of the cheque is acquitted, the Court shall direct the complainant to repay to the drawer the amount of interim compensation, with interest at the bank rate as published by the Reserve Bank of India, prevalent at the beginning of the relevant financial year, within sixty days from the date of the order, or within such further period not exceeding thirty days as may be directed by the Court on sufficient cause being shown by the complainant. (5) The interim compensation payable under this section may be recovered as if it were a fine under section 421 of the Code of Criminal Procedure, 1973 (2 of 1974). (6) The amount of fine imposed under section 138 or the amount of compensation awarded under section 357 of the Code of Criminal Procedure, 1973 (2 of 1974), shall be reduced by the amount paid or recovered as interim compensation under this section.]",
+  "words": 291
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/143A/"
+}

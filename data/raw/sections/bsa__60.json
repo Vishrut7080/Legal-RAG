@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9272,
+   "section": "65",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/65/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 6,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Cases in which secondary evidence relating to documents maybe given",
+  "html": "<p>Secondary evidence may be given of the existence, condition, or contents of a document in the following cases, namely:--</p><p><span class=\"num\">(a)</span> when the original is shown or appears to be in the possession or power--</p><p><span class=\"num\">(i)</span> of the person against whom the document is sought to be proved; or</p><p><span class=\"num\">(ii)</span> of any person out of reach of, or not subject to, the process of the Court; or</p><p><span class=\"num\">(iii)</span> of any person legally bound to produce it,</p><p>and when, after the notice mentioned in section <a href=\"/bsa/section/64/\">64</a> such person does not produce it;</p><p><span class=\"num\">(b)</span> when the existence, condition or contents of the original have been proved to be admitted in writing by the person against whom it is proved or by his representative in interest;</p><p><span class=\"num\">(c)</span> when the original has been destroyed or lost, or when the party offering evidence of its contents cannot, for any other reason not arising from his own default or neglect, produce it in reasonable time;</p><p><span class=\"num\">(d)</span> when the original is of such a nature as not to be easily movable;</p><p><span class=\"num\">(e)</span> when the original is a public document within the meaning of section <a href=\"/bsa/section/74/\">74</a>;</p><p><span class=\"num\">(f)</span> when the original is a document of which a certified copy is permitted by this Adhiniyam, or by any other law in force in India to be given in evidence;</p><p><span class=\"num\">(g)</span> when the originals consist of numerous accounts or other documents which cannot conveniently be examined in Court, and the fact to be proved is the general result of the whole collection.</p><p><i>Explanation</i>.--For the purposes of--</p><p><span class=\"num\">(i)</span> clauses (a), (c) and (d), any secondary evidence of the contents of the document is admissible;</p><p><span class=\"num\">(ii)</span> clause (b), the written admission is admissible;</p><p><span class=\"num\">(iii)</span> clause (e) or (f), a certified copy of the document, but no other kind of secondary evidence, is admissible;</p><p><span class=\"num\">(iv)</span> clause (g), evidence may be given as to the general result of the documents by any person who has examined them, and who is skilled in the examination of such document.</p>",
+  "number": "60",
+  "text": "Secondary evidence may be given of the existence, condition, or contents of a document in the following cases, namely:-- (a) when the original is shown or appears to be in the possession or power-- (i) of the person against whom the document is sought to be proved; or (ii) of any person out of reach of, or not subject to, the process of the Court; or (iii) of any person legally bound to produce it, and when, after the notice mentioned in section 64 such person does not produce it; (b) when the existence, condition or contents of the original have been proved to be admitted in writing by the person against whom it is proved or by his representative in interest; (c) when the original has been destroyed or lost, or when the party offering evidence of its contents cannot, for any other reason not arising from his own default or neglect, produce it in reasonable time; (d) when the original is of such a nature as not to be easily movable; (e) when the original is a public document within the meaning of section 74; (f) when the original is a document of which a certified copy is permitted by this Adhiniyam, or by any other law in force in India to be given in evidence; (g) when the originals consist of numerous accounts or other documents which cannot conveniently be examined in Court, and the fact to be proved is the general result of the whole collection. Explanation.--For the purposes of-- (i) clauses (a), (c) and (d), any secondary evidence of the contents of the document is admissible; (ii) clause (b), the written admission is admissible; (iii) clause (e) or (f), a certified copy of the document, but no other kind of secondary evidence, is admissible; (iv) clause (g), evidence may be given as to the general result of the documents by any person who has examined them, and who is skilled in the examination of such document.",
+  "words": 331
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/60/"
+}

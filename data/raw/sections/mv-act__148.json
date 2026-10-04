@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Validity of policies of insurance issued in reciprocating countries",
+  "html": "<p><b><sup>1</sup>[ Validity of policies of insurance issued in reciprocating countries. --</b> Where, in pursuance of an arrangement between India and any reciprocating country, the motor vehicle registered in the reciprocating country operates on any route or within any area common to the two countries and there is in force in relation to the use of the vehicle in the reciprocating country, a policy of insurance complying with the requirements of the law of insurance for the time being in force in that country, then, notwithstanding anything contained in section <a href=\"/mv-act/section/147/\">147</a> but subject to any rules which may be made under section <a href=\"/mv-act/section/164B/\">164B</a> such policy of insurance shall be effective throughout the route or area in respect of which the arrangement has been made, as if the policy of insurance had complied with the requirements of this Chapter. ]</p>",
+  "number": "148",
+  "text": "1[ Validity of policies of insurance issued in reciprocating countries. -- Where, in pursuance of an arrangement between India and any reciprocating country, the motor vehicle registered in the reciprocating country operates on any route or within any area common to the two countries and there is in force in relation to the use of the vehicle in the reciprocating country, a policy of insurance complying with the requirements of the law of insurance for the time being in force in that country, then, notwithstanding anything contained in section 147 but subject to any rules which may be made under section 164B such policy of insurance shall be effective throughout the route or area in respect of which the arrangement has been made, as if the policy of insurance had complied with the requirements of this Chapter. ]",
+  "words": 138
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/148/"
+}

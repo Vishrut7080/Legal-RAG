@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "When party to whom notice given is dead",
+  "html": "<p>when the party to whom notice of dishonour is dispatched is dead, but the party dispatching the notice is ignorant of his death, the notice is sufficient.</p>",
+  "number": "97",
+  "text": "when the party to whom notice of dishonour is dispatched is dead, but the party dispatching the notice is ignorant of his death, the notice is sufficient.",
+  "words": 27
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/97/"
+}

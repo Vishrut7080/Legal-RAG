@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9727,
+   "section": "60",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/60/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Oral evidence to be direct",
+  "html": "<p>Oral evidence shall, in all cases whatever, be direct; if it refers to,--</p><p><span class=\"num\">(i)</span> a fact which could be seen, it must be the evidence of a witness who says he saw it;</p><p><span class=\"num\">(ii)</span> a fact which could be heard, it must be the evidence of a witness who says he heard it;</p><p><span class=\"num\">(iii)</span> a fact which could be perceived by any other sense or in any other manner, it must be the evidence of a witness who says he perceived it by that sense or in that manner;</p><p><span class=\"num\">(iv)</span> an opinion or to the grounds on which that opinion is held, it must be the evidence of the person who holds that opinion on those grounds:</p><p>Provided that the opinions of experts expressed in any treatise commonly offered for sale, and the grounds on which such opinions are held, may be proved by the production of such treatises if the author is dead or cannot be found, or has become incapable of giving evidence, or cannot be called as a witness without an amount of delay or expense which the Court regards as unreasonable:</p><p>Provided further that, if oral evidence refers to the existence or condition of any material thing other than a document, the Court may, if it thinks fit, require the production of such material thing for its inspection.</p>",
+  "number": "55",
+  "text": "Oral evidence shall, in all cases whatever, be direct; if it refers to,-- (i) a fact which could be seen, it must be the evidence of a witness who says he saw it; (ii) a fact which could be heard, it must be the evidence of a witness who says he heard it; (iii) a fact which could be perceived by any other sense or in any other manner, it must be the evidence of a witness who says he perceived it by that sense or in that manner; (iv) an opinion or to the grounds on which that opinion is held, it must be the evidence of the person who holds that opinion on those grounds: Provided that the opinions of experts expressed in any treatise commonly offered for sale, and the grounds on which such opinions are held, may be proved by the production of such treatises if the author is dead or cannot be found, or has become incapable of giving evidence, or cannot be called as a witness without an amount of delay or expense which the Court regards as unreasonable: Provided further that, if oral evidence refers to the existence or condition of any material thing other than a document, the Court may, if it thinks fit, require the production of such material thing for its inspection.",
+  "words": 222
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/55/"
+}

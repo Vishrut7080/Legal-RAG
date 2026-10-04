@@ -1,0 +1,84 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "classification": [
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Non-cognizable.",
+   "offence": "Criminal intimidation.",
+   "punishment": "Imprisonment for 2 years, or fine, or both.",
+   "triable_by": "Any Magistrate."
+  },
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Non-cognizable.",
+   "offence": "If threat be to cause death or grievous hurt, etc.",
+   "punishment": "Imprisonment for 7 years, or fine, or both.",
+   "triable_by": "Magistrate of the first class."
+  },
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Non-cognizable.",
+   "offence": "Criminal intimidation by anonymous communication or having taken precaution to conceal whence the threat comes.",
+   "punishment": "Imprisonment for 2 years, in addition to the punishment under section 351(1).",
+   "triable_by": "Magistrate of the first class."
+  }
+ ],
+ "corresponds_to": [
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9,
+   "section": "503",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/503/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "close",
+   "score": 0.83,
+   "section": "506",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/506/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "close",
+   "score": 0.7578,
+   "section": "507",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/507/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 7,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Criminal intimidation",
+  "html": "<p><span class=\"num\">(1)</span> Whoever threatens another by any means, with any injury to his person, reputation or property, or to the person or reputation of any one in whom that person is interested, with intent to cause alarm to that person, or to cause that person to do any act which he is not legally bound to do, or to omit to do any act which that person is legally entitled to do, as the means of avoiding the execution of such threat, commits criminal intimidation.</p><p><i>Explanation.</i>---A threat to injure the reputation of any deceased person in whom the person threatened is interested, is within this section.</p><p class=\"rubric\"><i>Illustration.</i></p><p>A, for the purpose of inducing B to resist from prosecuting a civil suit, threatens to burn Bs house. A is guilty of criminal intimidation.</p><p><span class=\"num\">(2)</span> Whoever commits the offence of criminal intimidation shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.</p><p><span class=\"num\">(3)</span> Whoever commits the offence of criminal intimidation by threatening to cause death or grievous hurt, or to cause the destruction of any property by fire, or to cause an offence punishable with death or imprisonment for life, or with imprisonment for a term which may extend to seven years, or to impute unchastity to a woman, shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both.</p><p><span class=\"num\">(4)</span> Whoever commits the offence of criminal intimidation by an anonymous communication, or having taken precaution to conceal the name or abode of the person from whom the threat comes, shall be punished with imprisonment of either description for a term which may extend to two years, in addition to the punishment provided for the offence under sub-section<i> (1)</i>.</p>",
+  "number": "351",
+  "text": "(1) Whoever threatens another by any means, with any injury to his person, reputation or property, or to the person or reputation of any one in whom that person is interested, with intent to cause alarm to that person, or to cause that person to do any act which he is not legally bound to do, or to omit to do any act which that person is legally entitled to do, as the means of avoiding the execution of such threat, commits criminal intimidation. Explanation.---A threat to injure the reputation of any deceased person in whom the person threatened is interested, is within this section. Illustration. A, for the purpose of inducing B to resist from prosecuting a civil suit, threatens to burn Bs house. A is guilty of criminal intimidation. (2) Whoever commits the offence of criminal intimidation shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both. (3) Whoever commits the offence of criminal intimidation by threatening to cause death or grievous hurt, or to cause the destruction of any property by fire, or to cause an offence punishable with death or imprisonment for life, or with imprisonment for a term which may extend to seven years, or to impute unchastity to a woman, shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both. (4) Whoever commits the offence of criminal intimidation by an anonymous communication, or having taken precaution to conceal the name or abode of the person from whom the threat comes, shall be punished with imprisonment of either description for a term which may extend to two years, in addition to the punishment provided for the offence under sub-section (1).",
+  "words": 301
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bns/section/351/"
+}

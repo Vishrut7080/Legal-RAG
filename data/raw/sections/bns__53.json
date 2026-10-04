@@ -1,0 +1,54 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "classification": [
+  {
+   "bailable": "According as offence abetted is bailable or non-bailable.",
+   "cognizable": "According as offence abetted is cognizable or non-cognizable.",
+   "offence": "Abetment of any offence, when an effect is caused by the act abetted different from that intended by the abettor.",
+   "punishment": "Same as for offence committed.",
+   "triable_by": "Court by which offence abetted is triable."
+  }
+ ],
+ "corresponds_to": [
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "113",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/113/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Liability of abettor for an effect caused by act abetted different from that intended by abettor",
+  "html": "<p>When an act is abetted with the intention on the part of the abettor of causing a particular effect, and an act for which the abettor is liable in consequence of the abetment, causes a different effect from that intended by the abettor, the abettor is liable for the effect caused, in the same manner and to the same extent as if he had abetted the act with the intention of causing that effect, provided he knew that the act abetted was likely to cause that effect.</p><p class=\"rubric\">Illustration.</p><p>A instigates B to cause grievous hurt to Z. B, in consequence of the instigation, causes grievous hurt to Z. Z dies in consequence. Here, if A knew that the grievous hurt abetted was likely to cause death, A is liable to be punished with the punishment provided for murder.</p>",
+  "number": "53",
+  "text": "When an act is abetted with the intention on the part of the abettor of causing a particular effect, and an act for which the abettor is liable in consequence of the abetment, causes a different effect from that intended by the abettor, the abettor is liable for the effect caused, in the same manner and to the same extent as if he had abetted the act with the intention of causing that effect, provided he knew that the act abetted was likely to cause that effect. Illustration. A instigates B to cause grievous hurt to Z. B, in consequence of the instigation, causes grievous hurt to Z. Z dies in consequence. Here, if A knew that the grievous hurt abetted was likely to cause death, A is liable to be punished with the punishment provided for murder.",
+  "words": 138
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bns/section/53/"
+}

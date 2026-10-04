@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "35",
+  "act_year": 2019,
+  "department": "Department of Consumer Affairs",
+  "duplicate_of": null,
+  "enact_date": "2019-08-09",
+  "enforcement_date": null,
+  "id": "consumer-protection-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide for protection of the interests of consumers and for the said purpose, to establish authorities for timely and effective administration and settlement of consumers' disputes and for matters connected therewith or incidental thereto",
+  "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+  "section_count": 107,
+  "short_title": "The Consumer Protection Act, 2019",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Liability of product sellers",
+  "html": "<p>A product seller who is not a product manufacturer shall be liable in a product liability action, if--</p><p><span class=\"num\">(a)</span> he has exercised substantial control over the designing, testing, manufacturing, packaging or labelling of a product that caused harm; or</p><p><span class=\"num\">(b)</span> he has altered or modified the product and such alteration or modification was the substantial factor in causing the harm; or</p><p><span class=\"num\">(c)</span> he has made an express warranty of a product independent of any express warranty made by a manufacturer and such product failed to conform to the express warranty made by the product seller which caused the harm; or</p><p><span class=\"num\">(d)</span> the product has been sold by him and the identity of product manufacturer of such product is not known, or if known, the service of notice or process or warrant cannot be effected on him or he is not subject to the law which is in force in India or the order, if any, passed or to be passed cannot be enforced against him; or</p><p><span class=\"num\">(e)</span> he failed to exercise reasonable care in assembling, inspecting or maintaining such product or he did not pass on the warnings or instructions of the product manufacturer regarding the dangers involved or proper usage of the product while selling such product and such failure was the proximate cause of the harm.</p>",
+  "number": "86",
+  "text": "A product seller who is not a product manufacturer shall be liable in a product liability action, if-- (a) he has exercised substantial control over the designing, testing, manufacturing, packaging or labelling of a product that caused harm; or (b) he has altered or modified the product and such alteration or modification was the substantial factor in causing the harm; or (c) he has made an express warranty of a product independent of any express warranty made by a manufacturer and such product failed to conform to the express warranty made by the product seller which caused the harm; or (d) the product has been sold by him and the identity of product manufacturer of such product is not known, or if known, the service of notice or process or warrant cannot be effected on him or he is not subject to the law which is in force in India or the order, if any, passed or to be passed cannot be enforced against him; or (e) he failed to exercise reasonable care in assembling, inspecting or maintaining such product or he did not pass on the warnings or instructions of the product manufacturer regarding the dangers involved or proper usage of the product while selling such product and such failure was the proximate cause of the harm.",
+  "words": 218
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/86/"
+}

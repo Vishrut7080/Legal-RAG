@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "1",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/1/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Short title, extent and commencement",
+  "html": "<p><span class=\"num\">(1)</span> This Act may be called the Bharatiya Nagarik Suraksha Sanhita, 2023.</p><p><span class=\"num\">(2)</span> The provisions of this Sanhita, other than those relating to Chapters IX, XI and XII thereof, shall not apply---</p><p><span class=\"num\">(a)</span> to the State of Nagaland;</p><p><span class=\"num\">(b)</span> to the tribal areas,</p><p>but the concerned State Government may, by notification, apply such provisions or any of them to the whole or part of the State of Nagaland or such tribal areas, as the case may be, with such supplemental, incidental or consequential modifications, as may be specified in the notification.</p><p><i>Explanation.</i>---In this section, \"tribal areas\" means the territories which immediately before the 21st day of January, 1972, were included in the tribal areas of Assam, as referred to in paragraph 20 of the Sixth Schedule to the Constitution, other than those within the local limits of the municipality of Shillong.</p><p><span class=\"num\">(3)</span> It shall come into force on such date<sup>1</sup> as the Central Government may, by notification in the Official Gazette, appoint.</p>",
+  "number": "1",
+  "text": "(1) This Act may be called the Bharatiya Nagarik Suraksha Sanhita, 2023. (2) The provisions of this Sanhita, other than those relating to Chapters IX, XI and XII thereof, shall not apply--- (a) to the State of Nagaland; (b) to the tribal areas, but the concerned State Government may, by notification, apply such provisions or any of them to the whole or part of the State of Nagaland or such tribal areas, as the case may be, with such supplemental, incidental or consequential modifications, as may be specified in the notification. Explanation.---In this section, \"tribal areas\" means the territories which immediately before the 21st day of January, 1972, were included in the tribal areas of Assam, as referred to in paragraph 20 of the Sixth Schedule to the Constitution, other than those within the local limits of the municipality of Shillong. (3) It shall come into force on such date1 as the Central Government may, by notification in the Official Gazette, appoint.",
+  "words": 162
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/1/"
+}

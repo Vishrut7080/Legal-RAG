@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9442,
+   "section": "80",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/80/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Presumption as to documents produced as record of evidence, etc",
+  "html": "<p>Whenever any document is produced before any Court, purporting to be a record or memorandum of the evidence, or of any part of the evidence, given by a witness in a judicial proceeding or before any officer authorised by law to take such evidence or to be a statement or confession by any prisoner or accused person, taken in accordance with law, and purporting to be signed by any Judge or Magistrate, or by any such officer as aforesaid, the Court shall presume that--</p><p><span class=\"num\">(i)</span> the document is genuine;</p><p><span class=\"num\">(ii)</span> any statements as to the circumstances under which it was taken, purporting to be made by the person signing it, are true; and</p><p><span class=\"num\">(iii)</span> such evidence, statement or confession was duly taken.</p>",
+  "number": "79",
+  "text": "Whenever any document is produced before any Court, purporting to be a record or memorandum of the evidence, or of any part of the evidence, given by a witness in a judicial proceeding or before any officer authorised by law to take such evidence or to be a statement or confession by any prisoner or accused person, taken in accordance with law, and purporting to be signed by any Judge or Magistrate, or by any such officer as aforesaid, the Court shall presume that-- (i) the document is genuine; (ii) any statements as to the circumstances under which it was taken, purporting to be made by the person signing it, are true; and (iii) such evidence, statement or confession was duly taken.",
+  "words": 122
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/79/"
+}

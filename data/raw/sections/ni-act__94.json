@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Mode in which notice may be given",
+  "html": "<p>Notice of dishonour may be given to a duly authorized agent of the person to whom it is required to be given, or, where he has died, to his legal representative, or, where he has been declared an insolvent, to his assignee; may be oral or written; may, if written, be sent by post; and may be in any form; but it must inform the party to whom it is given, either in express terms or by reasonable intendment, that the instrument has been dishonoured, and in what way, and that he will be held liable thereon; and it must be given within a reasonable time after dishonour, at the place of business or (in case such party has no place of business) at the residence of the party for whom it is intended.</p><p>If the notice is duly directed and sent by post and miscarries, such miscarriage does not render the notice invalid.</p>",
+  "number": "94",
+  "text": "Notice of dishonour may be given to a duly authorized agent of the person to whom it is required to be given, or, where he has died, to his legal representative, or, where he has been declared an insolvent, to his assignee; may be oral or written; may, if written, be sent by post; and may be in any form; but it must inform the party to whom it is given, either in express terms or by reasonable intendment, that the instrument has been dishonoured, and in what way, and that he will be held liable thereon; and it must be given within a reasonable time after dishonour, at the place of business or (in case such party has no place of business) at the residence of the party for whom it is intended. If the notice is duly directed and sent by post and miscarries, such miscarriage does not render the notice invalid.",
+  "words": 154
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/94/"
+}

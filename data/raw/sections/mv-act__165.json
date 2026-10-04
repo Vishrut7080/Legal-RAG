@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Claims Tribunals",
+  "html": "<p><span class=\"num\">(1)</span> A State Government may, by notification in the Official Gazette, constitute one or more Motor Accidents Claims Tribunals (hereafter in this Chapter referred to as Claims Tribunal) for such area as may be specified in the notification for the purpose of adjudicating upon claims for compensation in respect of accidents involving the death of, or bodily injury to, persons arising out of the use of motor vehicles, or damages to any property of a third party so arising, or both.</p><p><i>Explanation</i>.--For the removal of doubts, it is hereby declared that the expression \"claims for compensation in respect of accidents involving the death of or bodily injury to persons arising out of the use of motor vehicles\" includes claims for compensation under <sup>1</sup>[section <a href=\"/mv-act/section/164/\">164</a>].</p><p><span class=\"num\">(2)</span> A Claims Tribunal shall consist of such number of members as the State Government may think fit to appoint and where it consists of two or more members, one of them shall be appointed as the Chairman thereof.</p><p><span class=\"num\">(3)</span> A person shall not be qualified for appointment as a member of a Claims Tribunal unless he--</p><p><span class=\"num\">(a)</span> is, or has been, a Judge of a High Court, or</p><p><span class=\"num\">(b)</span> is, or has been, a District Judge, or</p><p><span class=\"num\">(c)</span> is qualified for appointment as a Judge of a High Court <sup>2</sup>[or as a District Judge].</p><p><span class=\"num\">(4)</span> Where two or more Claims Tribunals are constituted for any area, the State Government, may by general or special order, regulate the distribution of business among them.</p>",
+  "number": "165",
+  "text": "(1) A State Government may, by notification in the Official Gazette, constitute one or more Motor Accidents Claims Tribunals (hereafter in this Chapter referred to as Claims Tribunal) for such area as may be specified in the notification for the purpose of adjudicating upon claims for compensation in respect of accidents involving the death of, or bodily injury to, persons arising out of the use of motor vehicles, or damages to any property of a third party so arising, or both. Explanation.--For the removal of doubts, it is hereby declared that the expression \"claims for compensation in respect of accidents involving the death of or bodily injury to persons arising out of the use of motor vehicles\" includes claims for compensation under 1[section 164]. (2) A Claims Tribunal shall consist of such number of members as the State Government may think fit to appoint and where it consists of two or more members, one of them shall be appointed as the Chairman thereof. (3) A person shall not be qualified for appointment as a member of a Claims Tribunal unless he-- (a) is, or has been, a Judge of a High Court, or (b) is, or has been, a District Judge, or (c) is qualified for appointment as a Judge of a High Court 2[or as a District Judge]. (4) Where two or more Claims Tribunals are constituted for any area, the State Government, may by general or special order, regulate the distribution of business among them.",
+  "words": 247
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/165/"
+}

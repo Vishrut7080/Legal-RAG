@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "99",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/99/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Evidence as to application of language which can apply to one only of several persons",
+  "html": "<p>When the facts are such that the language used might have been meant to apply to any one, and could not have been meant to apply to more than one, of several persons or things, evidence may be given of facts which show which of those persons or things it was intended to apply to. Illustrations (a) A agrees to sell to B, for Rs. 1,000, “my white horse”. A has two white horses. Evidence may be give of facts which show which of them was meant. (b) A agrees to accompany B to Haidarabad. Evidence may be given of facts showing whether Haidarabad in the Dekkhan or Haiderabad in Sind was meant.</p>",
+  "number": "96",
+  "text": "When the facts are such that the language used might have been meant to apply to any one, and could not have been meant to apply to more than one, of several persons or things, evidence may be given of facts which show which of those persons or things it was intended to apply to. Illustrations (a) A agrees to sell to B, for Rs. 1,000, “my white horse”. A has two white horses. Evidence may be give of facts which show which of them was meant. (b) A agrees to accompany B to Haidarabad. Evidence may be given of facts showing whether Haidarabad in the Dekkhan or Haiderabad in Sind was meant.",
+  "words": 113
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/96/"
+}

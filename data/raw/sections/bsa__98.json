@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "95",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/95/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Evidence as to document unmeaning in reference to existing facts",
+  "html": "<p>When language used in a document is plain in itself, but is unmeaning in reference to existing facts, evidence may be given to show that it was used in a peculiar sense.</p><p class=\"rubric\"><i>Illustration.</i></p><p>A sells to B, by deed, “my house in Kolkata”. A had no house in Kolkata, but it appears that he had a house at Howrah, of which B had been in possession since the execution of the deed. These facts may be proved to show that the deed related to the house at Howrah.</p>",
+  "number": "98",
+  "text": "When language used in a document is plain in itself, but is unmeaning in reference to existing facts, evidence may be given to show that it was used in a peculiar sense. Illustration. A sells to B, by deed, “my house in Kolkata”. A had no house in Kolkata, but it appears that he had a house at Howrah, of which B had been in possession since the execution of the deed. These facts may be proved to show that the deed related to the house at Howrah.",
+  "words": 88
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/98/"
+}

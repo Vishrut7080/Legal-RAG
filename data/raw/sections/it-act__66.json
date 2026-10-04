@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 5,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Computer related offences",
+  "html": "<p><sup>1</sup> <b>[66. Computer related offences.</b>-- If any person, dishonestly or fraudulently, does any act referred to in section <a href=\"/it-act/section/43/\">43</a>, he shall be punishable with imprisonment for a term which may extend to three years or with fine which may extend to five lakh rupees or with both.</p><p><i>Explanation</i>.--For the purposes of this section,--</p><p><span class=\"num\">(a)</span> the word \"dishonestly\" shall have the meaning assigned to it in section <a href=\"/ipc/section/24/\">24</a> of the Indian Penal Code (45 of 1860);</p><p><span class=\"num\">(b)</span> the word \"fraudulently\" shall have the meaning assigned to it in section <a href=\"/ipc/section/25/\">25</a> of the Indian Penal Code (45 of 1860).]</p>",
+  "number": "66",
+  "text": "1 [66. Computer related offences.-- If any person, dishonestly or fraudulently, does any act referred to in section 43, he shall be punishable with imprisonment for a term which may extend to three years or with fine which may extend to five lakh rupees or with both. Explanation.--For the purposes of this section,-- (a) the word \"dishonestly\" shall have the meaning assigned to it in section 24 of the Indian Penal Code (45 of 1860); (b) the word \"fraudulently\" shall have the meaning assigned to it in section 25 of the Indian Penal Code (45 of 1860).]",
+  "words": 97
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/66/"
+}

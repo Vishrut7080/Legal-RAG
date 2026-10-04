@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "264",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/264/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Omission to apprehend, or sufferance of escape, on part of public servant, in cases not otherwise, provided for",
+  "html": "<p>Whoever, being a public servant legally bound as such public servant to apprehend, or to keep in confinement, any person in any case not provided for in section <a href=\"/ipc/section/221/\">221</a>, section <a href=\"/ipc/section/222/\">222</a> or section <a href=\"/ipc/section/223/\">223</a>, or in any other law for the time being in force, omits to apprehend that person or suffers him to escape from confinement, shall be punished-</p><p><span class=\"num\">(a)</span> if he does so intentionally, with imprisonment of either description for a term which may extend to three years, or with fine or with both; and</p><p><span class=\"num\">(b)</span> if he does so negligently, with simple imprisonment for a term which may extend to two years, or with fine, or with both.</p>",
+  "number": "225A",
+  "text": "Whoever, being a public servant legally bound as such public servant to apprehend, or to keep in confinement, any person in any case not provided for in section 221, section 222 or section 223, or in any other law for the time being in force, omits to apprehend that person or suffers him to escape from confinement, shall be punished- (a) if he does so intentionally, with imprisonment of either description for a term which may extend to three years, or with fine or with both; and (b) if he does so negligently, with simple imprisonment for a term which may extend to two years, or with fine, or with both.",
+  "words": 111
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/225A/"
+}

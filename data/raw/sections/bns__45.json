@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9718,
+   "section": "107",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/107/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Abetment of a thing",
+  "html": "<p>A person abets the doing of a thing, who—</p><p><span class=\"num\">(a)</span> instigates any person to do that thing; or</p><p><span class=\"num\">(b)</span> engages with one or more other person or persons in any conspiracy for the doing of that thing, if an act or illegal omission takes place in pursuance of that conspiracy, and in order to the doing of that thing; or</p><p><span class=\"num\">(c)</span> intentionally aids, by any act or illegal omission, the doing of that thing.</p><p><i>Explanation</i> 1.—A person who, by wilful misrepresentation, or by wilful concealment of a material fact which he is bound to disclose, voluntarily causes or procures, or attempts to cause or procure, a thing to be done, is said to instigate the doing of that thing.</p><p class=\"rubric\"><i>Illustration</i>.</p><p>A, a public officer, is authorised by a warrant from a Court to apprehend Z. B, knowing that fact and also that C is not Z, wilfully represents to A that C is Z and thereby intentionally causes A to apprehend C. Here B abets by instigation the apprehension of C.</p><p><i>Explanation</i> 2.—Whoever, either prior to or at the time of the commission of an act, does anything in order to facilitate the commission of that act, and thereby facilitates the commission thereof, is said to aid the doing of that act.</p>",
+  "number": "45",
+  "text": "A person abets the doing of a thing, who— (a) instigates any person to do that thing; or (b) engages with one or more other person or persons in any conspiracy for the doing of that thing, if an act or illegal omission takes place in pursuance of that conspiracy, and in order to the doing of that thing; or (c) intentionally aids, by any act or illegal omission, the doing of that thing. Explanation 1.—A person who, by wilful misrepresentation, or by wilful concealment of a material fact which he is bound to disclose, voluntarily causes or procures, or attempts to cause or procure, a thing to be done, is said to instigate the doing of that thing. Illustration. A, a public officer, is authorised by a warrant from a Court to apprehend Z. B, knowing that fact and also that C is not Z, wilfully represents to A that C is Z and thereby intentionally causes A to apprehend C. Here B abets by instigation the apprehension of C. Explanation 2.—Whoever, either prior to or at the time of the commission of an act, does anything in order to facilitate the commission of that act, and thereby facilitates the commission thereof, is said to aid the doing of that act.",
+  "words": 212
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bns/section/45/"
+}

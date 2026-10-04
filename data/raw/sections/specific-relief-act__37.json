@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-12-13",
+  "enforcement_date": "1964-03-01",
+  "id": "specific-relief-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to certain kinds of specific relief.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 48,
+  "short_title": "The Specific Relief Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/specific-relief-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Temporary and perpetual injunctions",
+  "html": "<p><span class=\"num\">(1)</span> Temporary injunctions are such as are to continue until a specific time, or until the further order of the court, and they maybe granted at any stage of a suit, and are regulated by the Code of Civil Procedure, 1908 (5 of 1908).</p><p><span class=\"num\">(2)</span> A perpetual injunction can only be granted by the decree made at the hearing and upon the merits of the suit; the defendant is thereby perpetually enjoined from the assertion of a right, or from the commission of an act, which would be contrary to the rights of the plaintiff.</p>",
+  "number": "37",
+  "text": "(1) Temporary injunctions are such as are to continue until a specific time, or until the further order of the court, and they maybe granted at any stage of a suit, and are regulated by the Code of Civil Procedure, 1908 (5 of 1908). (2) A perpetual injunction can only be granted by the decree made at the hearing and upon the merits of the suit; the defendant is thereby perpetually enjoined from the assertion of a right, or from the commission of an act, which would be contrary to the rights of the plaintiff.",
+  "words": 95
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/37/"
+}

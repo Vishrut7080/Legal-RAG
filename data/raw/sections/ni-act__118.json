@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Presumptions as to negotiable instruments",
+  "html": "<p>Until the contrary is proved, the following presumptions shall be made:--</p><p><span class=\"num\">(a)</span> <b>of consideration:</b>-- that every negotiable instrument was made or drawn for consideration, and that every such instrument, when it has been accepted, indorsed, negotiated or transferred, was accepted, indorsed, negotiated or transferred for consideration;</p><p><span class=\"num\">(b)</span> <b>as to date:</b>-- that every negotiable instrument bearing a date was made or drawn on such date;</p><p><span class=\"num\">(c)</span> <b>as to time of acceptance:</b> that every accepted bill of exchange was accepted within a reasonable time after its date and before its maturity;</p><p><span class=\"num\">(d)</span> <b>as to time of transfer:</b>-- that every transfer of a negotiable instrument was made before its naturity;</p><p><span class=\"num\">(e)</span> <b>as to order of indorsements:</b>-- that the indorsements appearing upon a negotiable instrument were made in the order in which they appear thereon;</p><p><span class=\"num\">(f)</span> <b>as to stamp:</b>-- that a lost promissory note, bill of exchange or cheque was duly stamped;</p><p><span class=\"num\">(g)</span> <b>that holder is a holder in due course:</b>-- that the holder of a negotiable instrument is a holder in due course : provided that, where the instrutment has been obtained from its lawful owner, or from any person in lawful custody thereof, by means of an offence or fraud, or has been obtained from the maker or acceptor thereof by means of an offence or fraud, or for unlawful consideration, the burden of proving that the holder is a holder in due course lies upon him.</p>",
+  "number": "118",
+  "text": "Until the contrary is proved, the following presumptions shall be made:-- (a) of consideration:-- that every negotiable instrument was made or drawn for consideration, and that every such instrument, when it has been accepted, indorsed, negotiated or transferred, was accepted, indorsed, negotiated or transferred for consideration; (b) as to date:-- that every negotiable instrument bearing a date was made or drawn on such date; (c) as to time of acceptance: that every accepted bill of exchange was accepted within a reasonable time after its date and before its maturity; (d) as to time of transfer:-- that every transfer of a negotiable instrument was made before its naturity; (e) as to order of indorsements:-- that the indorsements appearing upon a negotiable instrument were made in the order in which they appear thereon; (f) as to stamp:-- that a lost promissory note, bill of exchange or cheque was duly stamped; (g) that holder is a holder in due course:-- that the holder of a negotiable instrument is a holder in due course : provided that, where the instrutment has been obtained from its lawful owner, or from any person in lawful custody thereof, by means of an offence or fraud, or has been obtained from the maker or acceptor thereof by means of an offence or fraud, or for unlawful consideration, the burden of proving that the holder is a holder in due course lies upon him.",
+  "words": 235
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/118/"
+}

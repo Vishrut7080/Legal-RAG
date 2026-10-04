@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "380",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/380/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Appeal",
+  "html": "<p><span class=\"num\">(1)</span> Any person on whose application any Court other than a High Court has refused to make a complaint under sub-section (1)or sub-section (2) of section <a href=\"/crpc/section/340/\">340</a>, or against whom such a complaint has been made by such Court, may appeal to the Court to which such former Court is subordinate within the meaning of sub-section (4) of section <a href=\"/crpc/section/195/\">195</a>, and the superior Court may thereupon, after notice to the parties concerned, direct the withdrawal of the complaint, or, as the case may be, making of the complaint which such former Court might have made under section <a href=\"/crpc/section/340/\">340</a>, and if it makes such complaint, the provisions of that section shall apply accordingly.</p><p><span class=\"num\">(2)</span> An order under this section, and subject to any such order, an order under section <a href=\"/crpc/section/340/\">340</a>, shall be final, and shall not be subject to revision.</p>",
+  "number": "341",
+  "text": "(1) Any person on whose application any Court other than a High Court has refused to make a complaint under sub-section (1)or sub-section (2) of section 340, or against whom such a complaint has been made by such Court, may appeal to the Court to which such former Court is subordinate within the meaning of sub-section (4) of section 195, and the superior Court may thereupon, after notice to the parties concerned, direct the withdrawal of the complaint, or, as the case may be, making of the complaint which such former Court might have made under section 340, and if it makes such complaint, the provisions of that section shall apply accordingly. (2) An order under this section, and subject to any such order, an order under section 340, shall be final, and shall not be subject to revision.",
+  "words": 139
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/341/"
+}

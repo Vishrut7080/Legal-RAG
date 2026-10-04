@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "9",
+  "act_year": 1872,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1872-04-25",
+  "enforcement_date": "1872-09-01",
+  "id": "contract-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": null,
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 268,
+  "short_title": "The Indian Contract Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/contract-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Effect of mistakes as to law",
+  "html": "<p>A contract is not voidable because it was caused by a mistake as to any law in force in <sup>1</sup> India; but a mistake as to a law not in force in <sup>1</sup> India has the same effect as a mistake of fact.</p><p><sup>2</sup> * * * * *</p><p class=\"rubric\"><i>Illustration</i></p><p>A and B make a contract grounded on the erroneous belief that a particular debt is barred by the Indian Law of Limitation; the contract is not voidable.</p><p><sup>3</sup> * * * * *</p>",
+  "number": "21",
+  "text": "A contract is not voidable because it was caused by a mistake as to any law in force in 1 India; but a mistake as to a law not in force in 1 India has the same effect as a mistake of fact. 2 * * * * * Illustration A and B make a contract grounded on the erroneous belief that a particular debt is barred by the Indian Law of Limitation; the contract is not voidable. 3 * * * * *",
+  "words": 84
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/contract-act/section/21/"
+}

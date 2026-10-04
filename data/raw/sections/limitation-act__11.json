@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Suits on contracts entered into outside the territories to which the Act extends",
+  "html": "<p><span class=\"num\">(1)</span> Suits instituted in the territories to which this Act extends on contracts entered into in the State of Jammu and Kashmir or in a foreign country shall be subject to the rules of limitation contained in this Act.</p><p><span class=\"num\">(2)</span> No rule of limitation in force in the State of Jammu and Kashmir or in a foreign country shall be a defence to a suit instituted in the said territories on a contract entered into in that State on in a foreign country unless—</p><p><span class=\"num\">(a)</span> the rule has extinguished the contract; and</p><p><span class=\"num\">(b)</span> the parties were domiciled in that State or in the foreign country during the period prescribed by such rule.</p>",
+  "number": "11",
+  "text": "(1) Suits instituted in the territories to which this Act extends on contracts entered into in the State of Jammu and Kashmir or in a foreign country shall be subject to the rules of limitation contained in this Act. (2) No rule of limitation in force in the State of Jammu and Kashmir or in a foreign country shall be a defence to a suit instituted in the said territories on a contract entered into in that State on in a foreign country unless— (a) the rule has extinguished the contract; and (b) the parties were domiciled in that State or in the foreign country during the period prescribed by such rule.",
+  "words": 112
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/limitation-act/section/11/"
+}

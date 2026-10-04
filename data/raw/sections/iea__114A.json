@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "120",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/120/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Presumption as to absence of consent in certain prosecution for rape",
+  "html": "<p>In a prosecution for rape under clause (a), clause (b), clause (c), clause (d), clause (e), clause (f), clause (g), clause (h), clause (i), clause (j), clause (k), clause (l), clause (m) or clause (n) of sub-section (2) of section <a href=\"/ipc/section/376/\">376</a> of the Indian Penal Code (45 of 1860), where sexual intercourse by the accused is proved and the question is whether it was without the consent of the woman alleged to have been raped and such woman states in her evidence before the court that she did not consent, the court shall presume that she did not consent. Explanation.–– In this section, “sexual intercourse” shall mean any of the acts mentioned in clauses (a) to (d) of section <a href=\"/ipc/section/375/\">375</a> of the Indian Penal Code (45 of 1860).] CHAPTER VIII. –– ESTOPPEL</p>",
+  "number": "114A",
+  "text": "In a prosecution for rape under clause (a), clause (b), clause (c), clause (d), clause (e), clause (f), clause (g), clause (h), clause (i), clause (j), clause (k), clause (l), clause (m) or clause (n) of sub-section (2) of section 376 of the Indian Penal Code (45 of 1860), where sexual intercourse by the accused is proved and the question is whether it was without the consent of the woman alleged to have been raped and such woman states in her evidence before the court that she did not consent, the court shall presume that she did not consent. Explanation.–– In this section, “sexual intercourse” shall mean any of the acts mentioned in clauses (a) to (d) of section 375 of the Indian Penal Code (45 of 1860).] CHAPTER VIII. –– ESTOPPEL",
+  "words": 132
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/114A/"
+}

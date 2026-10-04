@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-12-13",
+  "enforcement_date": "1964-03-01",
+  "id": "specific-relief-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to certain kinds of specific relief.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 48,
+  "short_title": "The Specific Relief Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/specific-relief-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 5,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Injunction when refused",
+  "html": "<p>An injunction cannot be granted--</p><p><span class=\"num\">(a)</span> to restrain any person from prosecuting a judicial proceeding pending at the institution of the suit in which the injunction is sought, unless such restraint is necessary to prevent a multiplicity of proceedings;</p><p><span class=\"num\">(b)</span> to restrain any person from instituting or prosecuting any proceeding in a court not sub-ordinate to that from which the injunction is sought;</p><p><span class=\"num\">(c)</span> to restrain any person from applying to any legislative body;</p><p><span class=\"num\">(d)</span> to restrain any person from instituting or prosecuting any proceeding in a criminal matter;</p><p><span class=\"num\">(e)</span> to prevent the breach of a contract the performance of which would not be specifically enforced;</p><p><span class=\"num\">(f)</span> to prevent, on the ground of nuisance, an act of which it is not reasonably clear that it will be a nuisance;</p><p><span class=\"num\">(g)</span> to prevent a continuing breach in which the plaintiff has acquiesced;</p><p><span class=\"num\">(h)</span> when equally efficacious relief can certainly be obtained by any other usual mode of proceeding except in case of breach of trust;</p><p><sup>1</sup>[(ha) if it would impede or delay the progress or completion of any infrastructure project or interfere with the continued provision of relevant facility related thereto or services being the subject]matter of such project.</p><p><span class=\"num\">(i)</span> when the conduct of the plaintiff or his agents has been such as to disentitle him to be the assistance of the court;</p><p><span class=\"num\">(j)</span> when the plaintiff has no personal interest in the matter.</p>",
+  "number": "41",
+  "text": "An injunction cannot be granted-- (a) to restrain any person from prosecuting a judicial proceeding pending at the institution of the suit in which the injunction is sought, unless such restraint is necessary to prevent a multiplicity of proceedings; (b) to restrain any person from instituting or prosecuting any proceeding in a court not sub-ordinate to that from which the injunction is sought; (c) to restrain any person from applying to any legislative body; (d) to restrain any person from instituting or prosecuting any proceeding in a criminal matter; (e) to prevent the breach of a contract the performance of which would not be specifically enforced; (f) to prevent, on the ground of nuisance, an act of which it is not reasonably clear that it will be a nuisance; (g) to prevent a continuing breach in which the plaintiff has acquiesced; (h) when equally efficacious relief can certainly be obtained by any other usual mode of proceeding except in case of breach of trust; 1[(ha) if it would impede or delay the progress or completion of any infrastructure project or interfere with the continued provision of relevant facility related thereto or services being the subject]matter of such project. (i) when the conduct of the plaintiff or his agents has been such as to disentitle him to be the assistance of the court; (j) when the plaintiff has no personal interest in the matter.",
+  "words": 233
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/41/"
+}

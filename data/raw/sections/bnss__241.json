@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "218",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/218/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Separate charges for distinct offences",
+  "html": "<p><span class=\"num\">(1)</span> For every distinct offence of which any person is accused there shall be a separate charge, and every such charge shall be tried separately:</p><p>Provided that where the accused person, by an application in writing, so desires and the Magistrate is of opinion that such person is not likely to be prejudiced thereby, the Magistrate may try together all or any number of the charges framed against such person.</p><p><span class=\"num\">(2)</span> Nothing in sub-section (1) shall affect the operation of the provisions of sections <a href=\"/bnss/section/242/\">242</a>, <a href=\"/bnss/section/243/\">243</a>, <a href=\"/bnss/section/244/\">244</a> and <a href=\"/bnss/section/246/\">246</a>.</p><p class=\"rubric\">Illustration.</i></p><p>A is accused of a theft on one occasion, and of causing grievous hurt on another occasion. A must be separately charged and separately tried for the theft and causing grievous hurt.</p>",
+  "number": "241",
+  "text": "(1) For every distinct offence of which any person is accused there shall be a separate charge, and every such charge shall be tried separately: Provided that where the accused person, by an application in writing, so desires and the Magistrate is of opinion that such person is not likely to be prejudiced thereby, the Magistrate may try together all or any number of the charges framed against such person. (2) Nothing in sub-section (1) shall affect the operation of the provisions of sections 242, 243, 244 and 246. Illustration. A is accused of a theft on one occasion, and of causing grievous hurt on another occasion. A must be separately charged and separately tried for the theft and causing grievous hurt.",
+  "words": 122
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/241/"
+}

@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9921,
+   "section": "246",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/246/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "What persons may be charged jointly",
+  "html": "<p>The following persons may be charged and tried together, namely:-</p><p><span class=\"num\">(a)</span> persons accused of the same offence committed in the course same transaction ;</p><p><span class=\"num\">(b)</span> person accused of an offence and persons accused of abetment of, or attempt to commit, such offence ;</p><p><span class=\"num\">(c)</span> person accused of more than one offence of the same kind, within the meaning of section <a href=\"/crpc/section/219/\">219</a> committed by them jointly within the period of twelve months;</p><p><span class=\"num\">(d)</span> persons accused of different offences committed in the course of the same transaction;</p><p><span class=\"num\">(e)</span> persons accused of an offence which includes theft, extortion, cheating, or criminal misappropriation, and persons accused of receiving or retaining, or assisting in the disposal or concealment of, property possession of which is alleged to have been transferred by any such offence committed by the first named persons, or of abetment of or attempting to commit any such last-named offence;</p><p><span class=\"num\">(f)</span> persons accused of offences under sections <a href=\"/ipc/section/411/\">411</a> and <a href=\"/ipc/section/414/\">414</a> of the Indian Penal Code (45 of 1860). or either of those sections in respect of</p><p>stolen property the possession of which has been transferred by one offence;</p><p><span class=\"num\">(g)</span> persons accused of any offence under Chapter XII of the Indian Penal Code relating to counterfeit coin and persons accused of any other offence under the said Chapter relating to the same coin, or of abetment of or attempting to commit any such offence; and the provisions contained in the former part of this Chapter shall, so far as may be, apply to all such charges:</p><p>Provided that where a number of persons are charged with separate offences and such persons do not fall within any of the categories specified in this section, the Magistrate may, if such persons by an application in writing, so desire, and if he is satisfied that such persons would not be prejudicially affected thereby, and it is expedient so to do, try all such persons together.</p>",
+  "number": "223",
+  "text": "The following persons may be charged and tried together, namely:- (a) persons accused of the same offence committed in the course same transaction ; (b) person accused of an offence and persons accused of abetment of, or attempt to commit, such offence ; (c) person accused of more than one offence of the same kind, within the meaning of section 219 committed by them jointly within the period of twelve months; (d) persons accused of different offences committed in the course of the same transaction; (e) persons accused of an offence which includes theft, extortion, cheating, or criminal misappropriation, and persons accused of receiving or retaining, or assisting in the disposal or concealment of, property possession of which is alleged to have been transferred by any such offence committed by the first named persons, or of abetment of or attempting to commit any such last-named offence; (f) persons accused of offences under sections 411 and 414 of the Indian Penal Code (45 of 1860). or either of those sections in respect of stolen property the possession of which has been transferred by one offence; (g) persons accused of any offence under Chapter XII of the Indian Penal Code relating to counterfeit coin and persons accused of any other offence under the said Chapter relating to the same coin, or of abetment of or attempting to commit any such offence; and the provisions contained in the former part of this Chapter shall, so far as may be, apply to all such charges: Provided that where a number of persons are charged with separate offences and such persons do not fall within any of the categories specified in this section, the Magistrate may, if such persons by an application in writing, so desire, and if he is satisfied that such persons would not be prejudicially affected thereby, and it is expedient so to do, try all such persons together.",
+  "words": 317
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/223/"
+}

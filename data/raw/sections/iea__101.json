@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "104",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/104/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 5,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Burden of proof",
+  "html": "<p>Whoever desires any Court to give judgment as to any legal right or liability dependent on the existence of facts which he asserts, must prove that those facts exist. When a person is bound to prove the existence of any fact, it is said that the burden of proof lies on that person. Illustrations (a) A desires a Court to give judgment that B shall be punished for a crime which A says B has committed. A must prove that B has committed the crime.</p><p><span class=\"num\">(b)</span> A desires a Court to give judgment that he is entitled to certain land in the possession of B, by reason of facts which he asserts, and which B denies, to be true. A must prove the existence of those facts.</p>",
+  "number": "101",
+  "text": "Whoever desires any Court to give judgment as to any legal right or liability dependent on the existence of facts which he asserts, must prove that those facts exist. When a person is bound to prove the existence of any fact, it is said that the burden of proof lies on that person. Illustrations (a) A desires a Court to give judgment that B shall be punished for a crime which A says B has committed. A must prove that B has committed the crime. (b) A desires a Court to give judgment that he is entitled to certain land in the possession of B, by reason of facts which he asserts, and which B denies, to be true. A must prove the existence of those facts.",
+  "words": 127
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/101/"
+}

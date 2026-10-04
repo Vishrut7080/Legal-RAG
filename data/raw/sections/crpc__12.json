@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9791,
+   "section": "10",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/10/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Chief Judicial Magistrate and Additional Chief Judicial Magistrate,etc",
+  "html": "<p>Chief Judicial Magistrate and Additional Chief Judicial Magistrate, etc. (1) In every district (not being a metropolitan area), the High Court shall appoint a Judicial Magistrate of the first class to be the Chief Judicial Magistrate.</p><p><span class=\"num\">(2)</span> The High Court may appoint any Judicial Magistrate of the first class to be an Additional Chief Judicial Magistrate, and such Magistrate shall have all or any of the powers of a Chief Judicial Magistrate under this Code or under any other law for the time being in force as the High Court may direct.</p><p><span class=\"num\">(3)</span> (a) The High Court may designate any Judicial Magistrate of the first class in any sub-division as the Sub-divisional Judicial Magistrate and relieve him of the responsibilities specified in this section as occasion requires.</p><p><span class=\"num\">(b)</span> Subject to the general control of the Chief Judicial Magistrate, every Sub-divisional Judicial Magistrate shall also have</p><p>and exercise such powers of supervision and control over the work of the Judicial Magistrates (other than Additional Chief Judicial Magistrates) in the sub-division as the High Court may, by general or special order, specify in this behalf.</p>",
+  "number": "12",
+  "text": "Chief Judicial Magistrate and Additional Chief Judicial Magistrate, etc. (1) In every district (not being a metropolitan area), the High Court shall appoint a Judicial Magistrate of the first class to be the Chief Judicial Magistrate. (2)The High Court may appoint any Judicial Magistrate of the first class to be an Additional Chief Judicial Magistrate, and such Magistrate shall have all or any of the powers of a Chief Judicial Magistrate under this Code or under any other law for the time being in force as the High Court may direct. (3)(a) The High Court may designate any Judicial Magistrate of the first class in any sub-division as the Sub-divisional Judicial Magistrate and relieve him of the responsibilities specified in this section as occasion requires. (b)Subject to the general control of the Chief Judicial Magistrate, every Sub-divisional Judicial Magistrate shall also have and exercise such powers of supervision and control over the work of the Judicial Magistrates (other than Additional Chief Judicial Magistrates) in the sub-division as the High Court may, by general or special order, specify in this behalf.",
+  "words": 180
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/12/"
+}

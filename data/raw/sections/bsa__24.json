@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "30",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/30/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 6,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Consideration of proved confession affecting person making it and others jointly under trial for same offence",
+  "html": "<p>When more persons than one are being tried jointly for the same offence, and a confession made by one of such persons affecting himself and some other of such persons is proved, the Court may take into consideration such confession as against such other person as well as against the person who makes such confession.</p><p><i>Explanation</i> I.--\"Offence\", as used in this section, includes the abetment of, or attempt to commit, the offence.</p><p><i>Explanation</i> II.--A trial of more persons than one held in the absence of the accused who has absconded or who fails to comply with a proclamation issued under section <a href=\"/bnss/section/84/\">84</a> of the Bharatiya Nagarik Suraksha Sanhita, 2023 shall be deemed to be a joint trial for the purpose of this section</p><p class=\"rubric\"><i>Illustrations.</i></p><p><span class=\"num\">(a)</span> A and B are jointly tried for the murder of C. It is proved that A said--\"B and I murdered C\". The Court may consider the effect of this confession as against B.</p><p><span class=\"num\">(b)</span> A is on his trial for the murder of C. There is evidence to show that C was murdered by A and B, and that B said-- \"A and I murdered C\". This statement may not be taken into consideration by the Court against A, as B is not being jointly tried.</p>",
+  "number": "24",
+  "text": "When more persons than one are being tried jointly for the same offence, and a confession made by one of such persons affecting himself and some other of such persons is proved, the Court may take into consideration such confession as against such other person as well as against the person who makes such confession. Explanation I.--\"Offence\", as used in this section, includes the abetment of, or attempt to commit, the offence. Explanation II.--A trial of more persons than one held in the absence of the accused who has absconded or who fails to comply with a proclamation issued under section 84 of the Bharatiya Nagarik Suraksha Sanhita, 2023 shall be deemed to be a joint trial for the purpose of this section Illustrations. (a) A and B are jointly tried for the murder of C. It is proved that A said--\"B and I murdered C\". The Court may consider the effect of this confession as against B. (b) A is on his trial for the murder of C. There is evidence to show that C was murdered by A and B, and that B said-- \"A and I murdered C\". This statement may not be taken into consideration by the Court against A, as B is not being jointly tried.",
+  "words": 211
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/24/"
+}

@@ -1,0 +1,48 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "03a62b95",
+   "kind": "notification",
+   "relation": "mentions",
+   "title": "11th amendment GSr 584(E) 25 september 2020",
+   "url": "https://indiacode.ecourtsindia.com/rules/11th-amendment-gsr-584-e-25-september-2020-03a62b95/",
+   "year": 2020
+  }
+ ],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Duty of driver in case of accident and injury to a person",
+  "html": "<p>When any person is injured or any property of a third party is damaged, as a result of an accident in which a motor vehicle is involved, the driver of the vehicle or other person in charge of the vehicle shall--</p><p><span class=\"num\">(a)</span> unless it is not practicable to do so on account of mob fury or any other reason beyond his control, take all reasonable steps to secure medical attention for the injured person, <sup>1</sup>[by conveying him to the nearest medical practitioner or hospital, and it shall be the duty of every registered medical practitioner or the doctor on the duty in the hospital immediately to attend to the injured person and render medical aid or treatment without waiting for any procedural formalities], unless the injured person or his guardian, in case he is a minor, desires otherwise;</p><p><span class=\"num\">(b)</span> give on demand by a police officer any information required by him, or, if no police officer is present, report the circumstances of the occurrence, including the circumstances, if any, for not taking reasonable steps to secure medical attention as required under clause (a), at the nearest police station as soon as possible, and in any case within twenty-four hours of the occurrence.</p><p><sup>2</sup>[(c) give the following information in writing to the insurer, who has issued the certificates of insurance, about the occurrence of the accident, namely:---</p><p><span class=\"num\">(i)</span> insurance policy number and period of its validity;</p><p><span class=\"num\">(ii)</span> date, time and place of accident;</p><p><span class=\"num\">(iii)</span> particulars of the persons injured or killed in the accident;</p><p><span class=\"num\">(iv)</span> name of the driver and the particulars of his driving licence.</p><p><i>Explanation.</i>--For the purposes of this section the expression driver includes the owner of the vehicle.]</p>",
+  "number": "134",
+  "text": "When any person is injured or any property of a third party is damaged, as a result of an accident in which a motor vehicle is involved, the driver of the vehicle or other person in charge of the vehicle shall-- (a) unless it is not practicable to do so on account of mob fury or any other reason beyond his control, take all reasonable steps to secure medical attention for the injured person, 1[by conveying him to the nearest medical practitioner or hospital, and it shall be the duty of every registered medical practitioner or the doctor on the duty in the hospital immediately to attend to the injured person and render medical aid or treatment without waiting for any procedural formalities], unless the injured person or his guardian, in case he is a minor, desires otherwise; (b) give on demand by a police officer any information required by him, or, if no police officer is present, report the circumstances of the occurrence, including the circumstances, if any, for not taking reasonable steps to secure medical attention as required under clause (a), at the nearest police station as soon as possible, and in any case within twenty-four hours of the occurrence. 2[(c) give the following information in writing to the insurer, who has issued the certificates of insurance, about the occurrence of the accident, namely:--- (i) insurance policy number and period of its validity; (ii) date, time and place of accident; (iii) particulars of the persons injured or killed in the accident; (iv) name of the driver and the particulars of his driving licence. Explanation.--For the purposes of this section the expression driver includes the owner of the vehicle.]",
+  "words": 280
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/134/"
+}

@@ -1,0 +1,375 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-12-13",
+  "enforcement_date": "1964-03-01",
+  "id": "specific-relief-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to certain kinds of specific relief.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 48,
+  "short_title": "The Specific Relief Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/specific-relief-act/"
+ },
+ "amendments": [
+  {
+   "act_number": "47",
+   "title": "The Specific Relief (Amendment) Act, 2018",
+   "year": 2018
+  }
+ ],
+ "count": 48,
+ "schedules": [
+  {
+   "ord": 1,
+   "title": "THE SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/schedule/1/",
+   "words": 418
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Short title, extent and commencement",
+   "indexable": true,
+   "number": "1",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/1/",
+   "words": 40
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "2",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/2/",
+   "words": 140
+  },
+  {
+   "heading": "Savings",
+   "indexable": true,
+   "number": "3",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/3/",
+   "words": 50
+  },
+  {
+   "heading": "Specific relief to be granted only for enforcing individual civil rights and not for enforcing penal laws",
+   "indexable": true,
+   "number": "4",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/4/",
+   "words": 25
+  },
+  {
+   "heading": "Recovery of specific immovable property",
+   "indexable": true,
+   "number": "5",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/5/",
+   "words": 27
+  },
+  {
+   "heading": "Suit by person dispossessed of immovable property",
+   "indexable": true,
+   "number": "6",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/6/",
+   "words": 133
+  },
+  {
+   "heading": "Recovery of specific movable property",
+   "indexable": true,
+   "number": "7",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/7/",
+   "words": 78
+  },
+  {
+   "heading": "Liability of person in possession, not as owner, to deliver to persons entitled to immediate possession",
+   "indexable": true,
+   "number": "8",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/8/",
+   "words": 180
+  },
+  {
+   "heading": "Defences respecting suits for relief based on contract",
+   "indexable": true,
+   "number": "9",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/9/",
+   "words": 45
+  },
+  {
+   "heading": "Cases in which specific performance of contract enforceable",
+   "indexable": true,
+   "number": "10",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/10/",
+   "words": 28
+  },
+  {
+   "heading": "Cases in which specific performance of contracts connected with trusts enforceable",
+   "indexable": true,
+   "number": "11",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/11/",
+   "words": 54
+  },
+  {
+   "heading": "Specific performance of part of contract",
+   "indexable": true,
+   "number": "12",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/12/",
+   "words": 391
+  },
+  {
+   "heading": "Rights of purchaser or lessee against person with no title or imperfect title",
+   "indexable": true,
+   "number": "13",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/13/",
+   "words": 309
+  },
+  {
+   "heading": "Contracts not specifically enforceable",
+   "indexable": true,
+   "number": "14",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/14/",
+   "words": 83
+  },
+  {
+   "heading": "Power of court to engage experts",
+   "indexable": true,
+   "number": "14A",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/14A/",
+   "words": 234
+  },
+  {
+   "heading": "Who may obtain specific performance",
+   "indexable": true,
+   "number": "15",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/15/",
+   "words": 330
+  },
+  {
+   "heading": "Personal bars to relief",
+   "indexable": true,
+   "number": "16",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/16/",
+   "words": 184
+  },
+  {
+   "heading": "Contract to sell or let property by one who has no title, not specifically enforceable",
+   "indexable": true,
+   "number": "17",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/17/",
+   "words": 114
+  },
+  {
+   "heading": "Non-enforcement except with variation",
+   "indexable": true,
+   "number": "18",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/18/",
+   "words": 130
+  },
+  {
+   "heading": "Relief against parties and persons claiming under them by subsequent title",
+   "indexable": true,
+   "number": "19",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/19/",
+   "words": 189
+  },
+  {
+   "heading": "Substituted performance of contract",
+   "indexable": true,
+   "number": "20",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/20/",
+   "words": 269
+  },
+  {
+   "heading": "Special provisions for contract relating to infrastructure project",
+   "indexable": true,
+   "number": "20A",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/20A/",
+   "words": 260
+  },
+  {
+   "heading": "Special Courts",
+   "indexable": true,
+   "number": "20B",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/20B/",
+   "words": 59
+  },
+  {
+   "heading": "Expeditious disposal of suits",
+   "indexable": true,
+   "number": "20C",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/20C/",
+   "words": 79
+  },
+  {
+   "heading": "Power to award compensation in certain cases",
+   "indexable": true,
+   "number": "21",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/21/",
+   "words": 246
+  },
+  {
+   "heading": "Power to grant relief for possession, partition, refund of earnest money, etc",
+   "indexable": true,
+   "number": "22",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/22/",
+   "words": 183
+  },
+  {
+   "heading": "Liquidation of damages not a bar to specific performance",
+   "indexable": true,
+   "number": "23",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/23/",
+   "words": 118
+  },
+  {
+   "heading": "Bar of suit for compensation for breach after dismissal of suit for specific performance",
+   "indexable": true,
+   "number": "24",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/24/",
+   "words": 59
+  },
+  {
+   "heading": "Application of preceding sections to certain awards and testamentary directions to execute settlements",
+   "indexable": true,
+   "number": "25",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/25/",
+   "words": 39
+  },
+  {
+   "heading": "When instrument may be rectified",
+   "indexable": true,
+   "number": "26",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/26/",
+   "words": 292
+  },
+  {
+   "heading": "When rescission may be adjudged or refused",
+   "indexable": true,
+   "number": "27",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/27/",
+   "words": 212
+  },
+  {
+   "heading": "Rescission in certain circumstances of contracts for the sale or lease of immovable property, the specific performance of which has been decreed",
+   "indexable": true,
+   "number": "28",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/28/",
+   "words": 382
+  },
+  {
+   "heading": "Alternative prayer for rescission in suit for specific performance",
+   "indexable": true,
+   "number": "29",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/29/",
+   "words": 58
+  },
+  {
+   "heading": "Court may require parties rescinding to do equity",
+   "indexable": true,
+   "number": "30",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/30/",
+   "words": 48
+  },
+  {
+   "heading": "When cancellation may be ordered",
+   "indexable": true,
+   "number": "31",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/31/",
+   "words": 114
+  },
+  {
+   "heading": "What instruments may be partially cancelled",
+   "indexable": true,
+   "number": "32",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/32/",
+   "words": 30
+  },
+  {
+   "heading": "Power to require benefit to be restored or compensation to be made when instrument is cancelled or is successfully resisted as being void or voidable",
+   "indexable": true,
+   "number": "33",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/33/",
+   "words": 192
+  },
+  {
+   "heading": "Discretion of court as to declaration of status or right",
+   "indexable": true,
+   "number": "34",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/34/",
+   "words": 125
+  },
+  {
+   "heading": "Effect of declaration",
+   "indexable": true,
+   "number": "35",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/35/",
+   "words": 47
+  },
+  {
+   "heading": "Preventive relief how granted",
+   "indexable": true,
+   "number": "36",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/36/",
+   "words": 15
+  },
+  {
+   "heading": "Temporary and perpetual injunctions",
+   "indexable": true,
+   "number": "37",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/37/",
+   "words": 95
+  },
+  {
+   "heading": "Perpetual injunction when granted",
+   "indexable": true,
+   "number": "38",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/38/",
+   "words": 150
+  },
+  {
+   "heading": "Mandatory injunctions",
+   "indexable": true,
+   "number": "39",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/39/",
+   "words": 49
+  },
+  {
+   "heading": "Damages in lieu of, or in addition to, injunction",
+   "indexable": true,
+   "number": "40",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/40/",
+   "words": 132
+  },
+  {
+   "heading": "Injunction when refused",
+   "indexable": true,
+   "number": "41",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/41/",
+   "words": 233
+  },
+  {
+   "heading": "Injunction to perform negative agreement",
+   "indexable": true,
+   "number": "42",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/42/",
+   "words": 82
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "43",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/43/",
+   "words": 25
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "44",
+   "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/44/",
+   "words": 12
+  }
+ ]
+}

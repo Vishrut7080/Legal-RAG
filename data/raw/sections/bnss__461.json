@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9995,
+   "section": "421",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/421/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 10,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Warrant for levy of fine",
+  "html": "<p><span class=\"num\">(1)</span> When an offender has been sentenced to pay a fine, but no such payment has been made, the Court passing the sentence may take action for the recovery of the fine in either or both of the following ways, that is to say, it may---</p><p><span class=\"num\">(a)</span> issue a warrant for the levy of the amount by attachment and sale of any movable property belonging to the offender;</p><p><span class=\"num\">(b)</span> issue a warrant to the Collector of the district, authorising him to realise the amount as arrears of land revenue from the movable or immovable property, or both, of the defaulter:</p><p>Provided that, if the sentence directs that in default of payment of the fine, the offender shall be imprisoned, and if such offender has undergone the whole of such imprisonment in default, no Court shall issue such warrant unless, for special reasons to be recorded in writing, it considers it necessary so to do, or unless it has made an order for the payment of expenses or compensation out of the fine under section <a href=\"/bnss/section/395/\">395</a>.</p><p><span class=\"num\">(2)</span> The State Government may make rules regulating the manner in which warrants under clause <i>(a)</i> of sub-section<i> (1)</i> are to be executed, and for the summary determination of any claims made by any person other than the offender in respect of any property attached in execution of such warrant.</p><p><span class=\"num\">(3)</span> Where the Court issues a warrant to the Collector under clause<i> (b)</i> of sub-section <i>(1)</i>, the Collector shall realise the amount in accordance with the law relating to recovery of arrears of land revenue, as if such warrant were a certificate issued under such law:</p><p>Provided that no such warrant shall be executed by the arrest or detention in prison of the offender.</p>",
+  "number": "461",
+  "text": "(1) When an offender has been sentenced to pay a fine, but no such payment has been made, the Court passing the sentence may take action for the recovery of the fine in either or both of the following ways, that is to say, it may--- (a) issue a warrant for the levy of the amount by attachment and sale of any movable property belonging to the offender; (b) issue a warrant to the Collector of the district, authorising him to realise the amount as arrears of land revenue from the movable or immovable property, or both, of the defaulter: Provided that, if the sentence directs that in default of payment of the fine, the offender shall be imprisoned, and if such offender has undergone the whole of such imprisonment in default, no Court shall issue such warrant unless, for special reasons to be recorded in writing, it considers it necessary so to do, or unless it has made an order for the payment of expenses or compensation out of the fine under section 395. (2) The State Government may make rules regulating the manner in which warrants under clause (a) of sub-section (1) are to be executed, and for the summary determination of any claims made by any person other than the offender in respect of any property attached in execution of such warrant. (3) Where the Court issues a warrant to the Collector under clause (b) of sub-section (1), the Collector shall realise the amount in accordance with the law relating to recovery of arrears of land revenue, as if such warrant were a certificate issued under such law: Provided that no such warrant shall be executed by the arrest or detention in prison of the offender.",
+  "words": 289
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/461/"
+}

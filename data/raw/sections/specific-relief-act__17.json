@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-12-13",
+  "enforcement_date": "1964-03-01",
+  "id": "specific-relief-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to certain kinds of specific relief.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 48,
+  "short_title": "The Specific Relief Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/specific-relief-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Contract to sell or let property by one who has no title, not specifically enforceable",
+  "html": "<p><span class=\"num\">(1)</span> A contract to sell or let any immovable property cannot be specifically enforced in favour of a vendor or lessor--</p><p><span class=\"num\">(a)</span> who, knowing himself not to have any title to the property, has contracted to sell or let the property;</p><p><span class=\"num\">(b)</span> who, though he entered into the contract believing that he had a good title to the property, cannot at the time fixed by the parties or by the court for the completion of the sale or letting, give the purchaser or lessee a title free from reasonable doubt.</p><p><span class=\"num\">(2)</span> The provisions of sub-section (1) shall also apply, as far as may be, to contracts for the sale or hire of movable property.</p>",
+  "number": "17",
+  "text": "(1) A contract to sell or let any immovable property cannot be specifically enforced in favour of a vendor or lessor-- (a) who, knowing himself not to have any title to the property, has contracted to sell or let the property; (b) who, though he entered into the contract believing that he had a good title to the property, cannot at the time fixed by the parties or by the court for the completion of the sale or letting, give the purchaser or lessee a title free from reasonable doubt. (2) The provisions of sub-section (1) shall also apply, as far as may be, to contracts for the sale or hire of movable property.",
+  "words": 114
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/17/"
+}

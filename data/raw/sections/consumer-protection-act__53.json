@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "35",
+  "act_year": 2019,
+  "department": "Department of Consumer Affairs",
+  "duplicate_of": null,
+  "enact_date": "2019-08-09",
+  "enforcement_date": null,
+  "id": "consumer-protection-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide for protection of the interests of consumers and for the said purpose, to establish authorities for timely and effective administration and settlement of consumers' disputes and for matters connected therewith or incidental thereto",
+  "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+  "section_count": 107,
+  "short_title": "The Consumer Protection Act, 2019",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Establishment of National Consumer Disputes Redressal Commission",
+  "html": "<p><span class=\"num\">(1)</span> The Central Government shall, by notification, establish a National Consumer Disputes Redressal Commission, to be known as the National Commission.</p><p><span class=\"num\">(2)</span> The National Commission shall ordinarily function at the National Capital Region and perform its functions at such other places as the Central Government may in consultation with the National Commission notify in the Official Gazette:</p><p>Provided that the Central Government may, by notification, establish regional Benches of the National Commission, at such places, as it deems fit.</p>",
+  "number": "53",
+  "text": "(1) The Central Government shall, by notification, establish a National Consumer Disputes Redressal Commission, to be known as the National Commission. (2) The National Commission shall ordinarily function at the National Capital Region and perform its functions at such other places as the Central Government may in consultation with the National Commission notify in the Official Gazette: Provided that the Central Government may, by notification, establish regional Benches of the National Commission, at such places, as it deems fit.",
+  "words": 79
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/53/"
+}

@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Penalty for publishing electronic signature Certificate false in certain particulars",
+  "html": "<p><b>73. Penalty for publishing</b> <sup>1</sup><b>[electronic signature] Certificate false in certain particulars.</b>--(1) No person shall publish a <sup>1</sup>[electronic signature] Certificate or otherwise make it available to any other person with the knowledge that--</p><p><span class=\"num\">(a)</span> the Certifying Authority listed in the certificate has not issued it; or</p><p><span class=\"num\">(b)</span> the subscriber listed in the certificate has not accepted it; or</p><p><span class=\"num\">(c)</span> the certificate has been revoked or suspended,</p><p>unless such publication is for the purpose of verifying a <sup>1</sup>[electronic signature] created prior to such suspension or revocation.</p><p><span class=\"num\">(2)</span> Any person who contravenes the provisions of sub-section <i>(1)</i> shall be punished with imprisonment for a term which may extend to two years, or with fine which may extend to one lakh rupees, or with both.</p>",
+  "number": "73",
+  "text": "73. Penalty for publishing 1[electronic signature] Certificate false in certain particulars.--(1) No person shall publish a 1[electronic signature] Certificate or otherwise make it available to any other person with the knowledge that-- (a) the Certifying Authority listed in the certificate has not issued it; or (b) the subscriber listed in the certificate has not accepted it; or (c) the certificate has been revoked or suspended, unless such publication is for the purpose of verifying a 1[electronic signature] created prior to such suspension or revocation. (2) Any person who contravenes the provisions of sub-section (1) shall be punished with imprisonment for a term which may extend to two years, or with fine which may extend to one lakh rupees, or with both.",
+  "words": 121
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/73/"
+}

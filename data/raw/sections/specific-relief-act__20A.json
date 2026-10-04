@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-12-13",
+  "enforcement_date": "1964-03-01",
+  "id": "specific-relief-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to certain kinds of specific relief.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 48,
+  "short_title": "The Specific Relief Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/specific-relief-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Special provisions for contract relating to infrastructure project",
+  "html": "<p><b><sup>1</sup>[20A. Special provisions for contract relating to infrastructure project</b>-- (1) No injunction shall be granted by a court in a suit under this Act involving a contract relating to an infrastructure project specified in the Schedule, where granting injunction would cause impediment or delay in the progress or completion of such infrastructure project.</p><p><i>Explanation</i>.--For the purposes of this section, section <a href=\"/specific-relief-act/section/20B/\">20B</a> and clause (ha) of section <a href=\"/specific-relief-act/section/41/\">41</a>, the expression \"infrastructure project\" means the category of projects and infrastructure Sub-Sectors specified in the Schedule.</p><p><span class=\"num\">(2)</span> The Central Government may, depending upon the requirement for development of infrastructure projects, and if it considers necessary or expedient to do so, by notification in the Official Gazette, amend the Schedule relating to any Category of projects or Infrastructure Sub-Sectors.</p><p><span class=\"num\">(3)</span> Every notification issued under this Act by the Central Government shall be laid, as soon as may be after it is issued, before each House of Parliament, while it is in session, for a total period of thirty days which may be comprised in one session or in two or more successive sessions, and if, before the expiry of the session immediately following the session or the successive sessions aforesaid, both Houses agree in making any modification in the notification or both Houses agree that the notification should not be made, the notification shall thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be without prejudice to the validity of anything previously done under that notification].</p>",
+  "number": "20A",
+  "text": "1[20A. Special provisions for contract relating to infrastructure project-- (1) No injunction shall be granted by a court in a suit under this Act involving a contract relating to an infrastructure project specified in the Schedule, where granting injunction would cause impediment or delay in the progress or completion of such infrastructure project. Explanation.--For the purposes of this section, section 20B and clause (ha) of section 41, the expression \"infrastructure project\" means the category of projects and infrastructure Sub-Sectors specified in the Schedule. (2) The Central Government may, depending upon the requirement for development of infrastructure projects, and if it considers necessary or expedient to do so, by notification in the Official Gazette, amend the Schedule relating to any Category of projects or Infrastructure Sub-Sectors. (3) Every notification issued under this Act by the Central Government shall be laid, as soon as may be after it is issued, before each House of Parliament, while it is in session, for a total period of thirty days which may be comprised in one session or in two or more successive sessions, and if, before the expiry of the session immediately following the session or the successive sessions aforesaid, both Houses agree in making any modification in the notification or both Houses agree that the notification should not be made, the notification shall thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be without prejudice to the validity of anything previously done under that notification].",
+  "words": 260
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/20A/"
+}

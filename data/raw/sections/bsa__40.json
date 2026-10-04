@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "46",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/46/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Facts bearing upon opinions of experts",
+  "html": "<p>Facts, not otherwise relevant, are relevant if they support or are inconsistent with the opinions of experts, when such opinions are relevant.</p><p class=\"rubric\"><i>Illustrations.</i></p><p><span class=\"num\">(a)</span> The question is, whether A was poisoned by a certain poison. The fact that other persons, who were poisoned by that poison, exhibited certain symptoms which experts affirm or deny to be the symptoms of that poison, is relevant.</p><p><span class=\"num\">(b)</span> The question is, whether an obstruction to a harbour is caused by a certain sea-wall. The fact that other harbours similarly situated in other respects, but where there were no such sea-walls, began to be obstructed at about the same time, is relevant.</p>",
+  "number": "40",
+  "text": "Facts, not otherwise relevant, are relevant if they support or are inconsistent with the opinions of experts, when such opinions are relevant. Illustrations. (a) The question is, whether A was poisoned by a certain poison. The fact that other persons, who were poisoned by that poison, exhibited certain symptoms which experts affirm or deny to be the symptoms of that poison, is relevant. (b) The question is, whether an obstruction to a harbour is caused by a certain sea-wall. The fact that other harbours similarly situated in other respects, but where there were no such sea-walls, began to be obstructed at about the same time, is relevant.",
+  "words": 107
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/40/"
+}

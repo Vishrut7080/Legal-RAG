@@ -1,0 +1,108 @@
+{
+ "act": {
+  "act_number": "35",
+  "act_year": 2019,
+  "department": "Department of Consumer Affairs",
+  "duplicate_of": null,
+  "enact_date": "2019-08-09",
+  "enforcement_date": null,
+  "id": "consumer-protection-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide for protection of the interests of consumers and for the said purpose, to establish authorities for timely and effective administration and settlement of consumers' disputes and for matters connected therewith or incidental thereto",
+  "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+  "section_count": 107,
+  "short_title": "The Consumer Protection Act, 2019",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Chhattisgarh",
+   "key": "e4c41efb",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "B P L Student Welfare Scholarship Technical Education Rules, 2007",
+   "url": "https://indiacode.ecourtsindia.com/rules/b-p-l-student-welfare-scholarship-technical-education-rules-2007-e4c41efb/",
+   "year": 2007
+  },
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Tripura",
+   "key": "48ff58ce",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "The Tripura Consumer Protection (Appointment, Salary, Allowances and Conditions of Services of President and Members of the State Commission and District Forum) Rules 2018",
+   "url": "https://indiacode.ecourtsindia.com/rules/the-tripura-consumer-protection-appointment-salary-allowances-and-48ff58ce/",
+   "year": 2019
+  },
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Tamil Nadu",
+   "key": "74aa88ff",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "The Tamil Nadu Consumer Protection (Appointment, Salary, Allowances and conditions of service of president and members of the State Commission and District Forum) Rules,2018",
+   "url": "https://indiacode.ecourtsindia.com/rules/the-tamil-nadu-consumer-protection-appointment-salary-allowances-and-74aa88ff/",
+   "year": 2018
+  },
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Lakshadweep",
+   "key": "4219ebb9",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Lakshadweep Consumer Protection Rules, 1989",
+   "url": "https://indiacode.ecourtsindia.com/rules/lakshadweep-consumer-protection-rules-1989-4219ebb9/",
+   "year": 1989
+  },
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Tamil Nadu",
+   "key": "0e4d6062",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "TAMIL NADU CONSUMER PROTECTION RULES, 1988",
+   "url": "https://indiacode.ecourtsindia.com/rules/tamil-nadu-consumer-protection-rules-1988-0e4d6062/",
+   "year": 1988
+  },
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Chhattisgarh",
+   "key": "205c46af",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Consumer Protection Rule, 1987",
+   "url": "https://indiacode.ecourtsindia.com/rules/consumer-protection-rule-1987-205c46af/",
+   "year": 1987
+  },
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Tripura",
+   "key": "ed0fdf24",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "The Tripura Consumer Protection Rules 1987",
+   "url": "https://indiacode.ecourtsindia.com/rules/the-tripura-consumer-protection-rules-1987-ed0fdf24/",
+   "year": 1987
+  }
+ ],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Establishment of Central Consumer Protection Authority",
+  "html": "<p><span class=\"num\">(1)</span> The Central Government shall, by notification, establish with effect from such date as it may specify in that notification, a Central Consumer Protection Authority to be known as the Central Authority to regulate matters relating to violation of rights of consumers, unfair trade practices and false or misleading advertisements which are prejudicial to the interests of public and consumers and to promote, protect and enforce the rights of consumers as a class.</p><p><span class=\"num\">(2)</span> The Central Authority shall consist of a Chief Commissioner and such number of other Commissioners as may be prescribed, to be appointed by the Central Government to exercise the powers and discharge the functions under this Act.</p><p><span class=\"num\">(3)</span> The headquarters of the Central Authority shall be at such place in the National Capital Region of Delhi, and it shall have regional and other offices in any other place in India as the Central Government may decide.</p>",
+  "number": "10",
+  "text": "(1) The Central Government shall, by notification, establish with effect from such date as it may specify in that notification, a Central Consumer Protection Authority to be known as the Central Authority to regulate matters relating to violation of rights of consumers, unfair trade practices and false or misleading advertisements which are prejudicial to the interests of public and consumers and to promote, protect and enforce the rights of consumers as a class. (2) The Central Authority shall consist of a Chief Commissioner and such number of other Commissioners as may be prescribed, to be appointed by the Central Government to exercise the powers and discharge the functions under this Act. (3) The headquarters of the Central Authority shall be at such place in the National Capital Region of Delhi, and it shall have regional and other offices in any other place in India as the Central Government may decide.",
+  "words": 150
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/10/"
+}

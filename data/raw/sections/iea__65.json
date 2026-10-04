@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9272,
+   "section": "60",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/60/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 6,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Cases in which secondary evidence relating to documents may be given",
+  "html": "<p>Secondary evidence may be given of the existence, condition or contents of a document in the following cases: –– (a) when the original is shown or appears to be in the possession or power –– of the person against whom the document is sought to be proved, of any person out of reach of, or not subject to, the process of the Court, or of any person legally bound to produce it, and when, after the notice mentioned in section <a href=\"/iea/section/66/\">66</a>, such person does not produce it; (b) when the existence, condition or contents of the original have been proved to be admitted in writing by the person against whom it is proved or by his representative in interest; (c) when the original has been destroyed or lost, or when the party offering evidence of its contents cannot, for any other reason not arising from his own default or neglect, produce it in reasonable time; (d) when the original is of such a nature as not to be easily movable; (e) when the original is a public document within the meaning of section <a href=\"/iea/section/74/\">74</a>;</p><p><span class=\"num\">(f)</span> when the original is a document of which a certified copy is permitted by this Act, or by any other law in force in [India] to be given in evidence; (g) when the originals consist of numerous accounts or other documents which cannot conveniently be examined in Court and the fact to be proved is the general result of the whole collection. In cases (a), (c) and (d), any secondary evidence of the contents of the document is admissible. In case (b), the written admission is admissible. In case (e) or (f), a certified copy of the document, but no other kind of secondary evidence, is admissible. In case (g), evidence may be given as to the general result of the documents by any person who has examined them, and who is skilled in the examination of such documents.</p>",
+  "number": "65",
+  "text": "Secondary evidence may be given of the existence, condition or contents of a document in the following cases: –– (a) when the original is shown or appears to be in the possession or power –– of the person against whom the document is sought to be proved, of any person out of reach of, or not subject to, the process of the Court, or of any person legally bound to produce it, and when, after the notice mentioned in section 66, such person does not produce it; (b) when the existence, condition or contents of the original have been proved to be admitted in writing by the person against whom it is proved or by his representative in interest; (c) when the original has been destroyed or lost, or when the party offering evidence of its contents cannot, for any other reason not arising from his own default or neglect, produce it in reasonable time; (d) when the original is of such a nature as not to be easily movable; (e) when the original is a public document within the meaning of section 74; (f) when the original is a document of which a certified copy is permitted by this Act, or by any other law in force in [India] to be given in evidence; (g) when the originals consist of numerous accounts or other documents which cannot conveniently be examined in Court and the fact to be proved is the general result of the whole collection. In cases (a), (c) and (d), any secondary evidence of the contents of the document is admissible. In case (b), the written admission is admissible. In case (e) or (f), a certified copy of the document, but no other kind of secondary evidence, is admissible. In case (g), evidence may be given as to the general result of the documents by any person who has examined them, and who is skilled in the examination of such documents.",
+  "words": 324
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/65/"
+}

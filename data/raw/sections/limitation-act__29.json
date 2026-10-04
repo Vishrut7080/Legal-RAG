@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 6,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Savings",
+  "html": "<p><span class=\"num\">(1)</span> Nothing in this Act shall affect section 25 of the Indian Contract Act, 1872 (9 of 1872).</p><p><span class=\"num\">(2)</span> Where any special or local law prescribes for any suit, appeal or application a period of limitation different from the period prescribed by the Schedule, the provisions of section <a href=\"/limitation-act/section/3/\">3</a> shall apply as if such period were the period prescribed by the Schedule and for the purpose of determining any period of limitation prescribed for any suit, appeal or application by any special or local law, the provisions contained in sections <a href=\"/limitation-act/section/4/\">4</a> to <a href=\"/limitation-act/section/24/\">24</a> (inclusive) shall apply only in so far as, and to the extent to which, they are not expressly excluded by such special or local law.</p><p><span class=\"num\">(3)</span> Save as otherwise provided in any law for the time being in force with respect to marriage and divorce, nothing in this Act shall apply to any suit or other proceeding under any such law.</p><p><span class=\"num\">(4)</span> Sections <a href=\"/limitation-act/section/25/\">25</a> and <a href=\"/limitation-act/section/26/\">26</a> and the definition of \"easement\" in section <a href=\"/limitation-act/section/2/\">2</a> shall not apply to cases arising in the territories to which the Indian Easements Act, 1882 (5 of 1882), may for the time being extend.</p>",
+  "number": "29",
+  "text": "(1) Nothing in this Act shall affect section 25 of the Indian Contract Act, 1872 (9 of 1872). (2) Where any special or local law prescribes for any suit, appeal or application a period of limitation different from the period prescribed by the Schedule, the provisions of section 3 shall apply as if such period were the period prescribed by the Schedule and for the purpose of determining any period of limitation prescribed for any suit, appeal or application by any special or local law, the provisions contained in sections 4 to 24 (inclusive) shall apply only in so far as, and to the extent to which, they are not expressly excluded by such special or local law. (3) Save as otherwise provided in any law for the time being in force with respect to marriage and divorce, nothing in this Act shall apply to any suit or other proceeding under any such law. (4) Sections 25 and 26 and the definition of \"easement\" in section 2 shall not apply to cases arising in the territories to which the Indian Easements Act, 1882 (5 of 1882), may for the time being extend.",
+  "words": 192
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/limitation-act/section/29/"
+}

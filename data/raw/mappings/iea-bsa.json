@@ -1,0 +1,4447 @@
+{
+ "count": 185,
+ "pair": "iea-bsa",
+ "rows": [
+  {
+   "alternatives": [
+    {
+     "heading": "Facts of which Court shall take judicial notice",
+     "score": 0.1841,
+     "section": "52"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.1642,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Short title",
+   "from_section": "1",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/1/",
+   "relation": "weak",
+   "score": 0.5614,
+   "to_act": "bsa",
+   "to_heading": "Short title, application and commencement",
+   "to_section": "1",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/1/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Repeal and savings",
+     "score": 0.1165,
+     "section": "170"
+    },
+    {
+     "heading": "Facts bearing on question whether act was accidental or intentional",
+     "score": 0.1118,
+     "section": "13"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Repeal of enactments",
+   "from_section": "2",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/2/",
+   "relation": "none",
+   "score": 0.1895,
+   "to_act": "bsa",
+   "to_heading": null,
+   "to_section": null,
+   "to_url": null
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Opinions of experts",
+     "score": 0.1821,
+     "section": "39"
+    },
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.1659,
+     "section": "119"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Interpretation-clause",
+   "from_section": "3",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/3/",
+   "relation": "close",
+   "score": 0.6372,
+   "to_act": "bsa",
+   "to_heading": "Definitions",
+   "to_section": "2",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/2/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.3521,
+     "section": "119"
+    },
+    {
+     "heading": "Judge to decide as to admissibility of evidence",
+     "score": 0.2662,
+     "section": "141"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "“May presume”",
+   "from_section": "4",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/4/",
+   "relation": "close",
+   "score": 0.6788,
+   "to_act": "bsa",
+   "to_heading": "Definitions",
+   "to_section": "2",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/2/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.2993,
+     "section": "2"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.2413,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Evidence may be given of facts in issue and relevant facts",
+   "from_section": "5",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/5/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Evidence may be given of facts in issue and relevant facts",
+   "to_section": "3",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/3/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2543,
+     "section": "12"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.2386,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Relevancy of facts forming part of same transaction",
+   "from_section": "6",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/6/",
+   "relation": "near-identical",
+   "score": 0.9713,
+   "to_act": "bsa",
+   "to_heading": "Relevancy of facts forming part of same transaction",
+   "to_section": "4",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/4/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.268,
+     "section": "12"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.2634,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Facts which are the occasion, cause or effect of facts in issue",
+   "from_section": "7",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/7/",
+   "relation": "near-identical",
+   "score": 0.9927,
+   "to_act": "bsa",
+   "to_heading": "Facts which are occasion, cause or effect of facts in issue or relevant facts",
+   "to_section": "5",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/5/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2159,
+     "section": "12"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.2111,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Motive, preparation and previous or subsequent conduct",
+   "from_section": "8",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/8/",
+   "relation": "near-identical",
+   "score": 0.975,
+   "to_act": "bsa",
+   "to_heading": "Motive, preparation and previous or subsequent conduct",
+   "to_section": "6",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/6/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2287,
+     "section": "12"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.2213,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Facts necessary to explain or introduce relevant facts",
+   "from_section": "9",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/9/",
+   "relation": "near-identical",
+   "score": 0.96,
+   "to_act": "bsa",
+   "to_heading": "Facts necessary to explain or introduce fact in issue or relevant facts",
+   "to_section": "7",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/7/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.1989,
+     "section": "12"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.1602,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Things said or done by conspirator in reference to common design",
+   "from_section": "10",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/10/",
+   "relation": "near-identical",
+   "score": 0.9512,
+   "to_act": "bsa",
+   "to_heading": "Things said or done by conspirator in reference to common design",
+   "to_section": "8",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/8/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.3634,
+     "section": "119"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.3179,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "When facts not otherwise relevant become relevant",
+   "from_section": "11",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/11/",
+   "relation": "near-identical",
+   "score": 0.96,
+   "to_act": "bsa",
+   "to_heading": "When facts not otherwise relevant become relevant",
+   "to_section": "9",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/9/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Character as affecting damages",
+     "score": 0.3241,
+     "section": "50"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.3117,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "In suits for damages, facts tending to enable Court to determine amount are relevant",
+   "from_section": "12",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/12/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Facts tending to enable Court to determine amount are relevant in suits for damages",
+   "to_section": "10",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/10/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Opinion as to existence of general custom or right, when relevant",
+     "score": 0.3206,
+     "section": "42"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.264,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Facts relevant when right or custom is in question",
+   "from_section": "13",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/13/",
+   "relation": "near-identical",
+   "score": 0.9527,
+   "to_act": "bsa",
+   "to_heading": "Facts relevant when right or custom is in question",
+   "to_section": "11",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/11/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.2029,
+     "section": "119"
+    },
+    {
+     "heading": "Facts bearing on question whether act was accidental or intentional",
+     "score": 0.1593,
+     "section": "13"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Facts showing existence of state of mind, or of body of bodily feeling",
+   "from_section": "14",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/14/",
+   "relation": "near-identical",
+   "score": 0.9784,
+   "to_act": "bsa",
+   "to_heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+   "to_section": "12",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/12/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2688,
+     "section": "12"
+    },
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.1894,
+     "section": "119"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Facts bearing on question whether act was accidental or intentional",
+   "from_section": "15",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/15/",
+   "relation": "near-identical",
+   "score": 0.959,
+   "to_act": "bsa",
+   "to_heading": "Facts bearing on question whether act was accidental or intentional",
+   "to_section": "13",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/13/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.4057,
+     "section": "119"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.3584,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Existence of course of business when relevant",
+   "from_section": "16",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/16/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Existence of course of business when relevant",
+   "to_section": "14",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/14/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Admissibility of electronic records",
+     "score": 0.3456,
+     "section": "63"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.3347,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Admission defined",
+   "from_section": "17",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/17/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Admission defined",
+   "to_section": "15",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/15/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.3462,
+     "section": "26"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.2949,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Admission",
+   "from_section": "18",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/18/",
+   "relation": "close",
+   "score": 0.8353,
+   "to_act": "bsa",
+   "to_heading": "Admission by party to proceeding or his agent",
+   "to_section": "16",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/16/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof of admissions against persons making them, and by or on their behalf",
+     "score": 0.2713,
+     "section": "19"
+    },
+    {
+     "heading": "Admissions by persons expressly referred to by party to suit",
+     "score": 0.2584,
+     "section": "18"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Admissions by persons whose position must be proved as against party to suit",
+   "from_section": "19",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/19/",
+   "relation": "near-identical",
+   "score": 0.9864,
+   "to_act": "bsa",
+   "to_heading": "Admissions by persons whose position must be proved as against party to suit",
+   "to_section": "17",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/17/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Admissions by persons whose position must be proved as against party to suit",
+     "score": 0.3075,
+     "section": "17"
+    },
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.2846,
+     "section": "95"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Admissions by persons expressly referred to by party to suit",
+   "from_section": "20",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/20/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Admissions by persons expressly referred to by party to suit",
+   "to_section": "18",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/18/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.2502,
+     "section": "26"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2119,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof of admissions against persons making them, and by or on their behalf",
+   "from_section": "21",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/21/",
+   "relation": "near-identical",
+   "score": 0.9535,
+   "to_act": "bsa",
+   "to_heading": "Proof of admissions against persons making them, and by or on their behalf",
+   "to_section": "19",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/19/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Evidence as to matters in writing",
+     "score": 0.3517,
+     "section": "147"
+    },
+    {
+     "heading": "Judge to decide as to admissibility of evidence",
+     "score": 0.3133,
+     "section": "141"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "When oral admissions as to contents of documents are relevant",
+   "from_section": "22",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/22/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "When oral admissions as to contents of documents are relevant",
+   "to_section": "20",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/20/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.4447,
+     "section": "2"
+    },
+    {
+     "heading": "Admissibility of electronic records",
+     "score": 0.4322,
+     "section": "63"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "When oral admission as to contents of electronic records are relevant",
+   "from_section": "22A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/22A/",
+   "relation": "weak",
+   "score": 0.589,
+   "to_act": "bsa",
+   "to_heading": "When oral admissions as to contents of documents are relevant",
+   "to_section": "20",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/20/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.2517,
+     "section": "95"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.2284,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Admissions in civil cases when relevant",
+   "from_section": "23",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/23/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Admissions in civil cases when relevant",
+   "to_section": "21",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/21/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.2463,
+     "section": "6"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.2197,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Confession caused by inducement, threat or promise, when irrelevant in criminal proceeding",
+   "from_section": "24",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/24/",
+   "relation": "near-identical",
+   "score": 0.885,
+   "to_act": "bsa",
+   "to_heading": "Confession caused by inducement, threat, coercion or promise, when irrelevant in criminal proceeding",
+   "to_section": "22",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/22/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Consideration of proved confession affecting person making it and others jointly under trial for same offence",
+     "score": 0.5448,
+     "section": "24"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.452,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Confession to police-officer not to be proved",
+   "from_section": "25",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/25/",
+   "relation": "near-identical",
+   "score": 0.8849,
+   "to_act": "bsa",
+   "to_heading": "Confession to police officer",
+   "to_section": "23",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/23/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.1982,
+     "section": "6"
+    },
+    {
+     "heading": "Consideration of proved confession affecting person making it and others jointly under trial for same offence",
+     "score": 0.1482,
+     "section": "24"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Confession by accused while in custody of police not to be proved against him",
+   "from_section": "26",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/26/",
+   "relation": "none",
+   "score": 0.365,
+   "to_act": "bsa",
+   "to_heading": null,
+   "to_section": null,
+   "to_url": null
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Information as to commission of offences",
+     "score": 0.2076,
+     "section": "131"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.193,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "How much of information received from accused may be proved",
+   "from_section": "27",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/27/",
+   "relation": "weak",
+   "score": 0.6181,
+   "to_act": "bsa",
+   "to_heading": "Confession to police officer",
+   "to_section": "23",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/23/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.2547,
+     "section": "2"
+    },
+    {
+     "heading": "Opinions of experts",
+     "score": 0.2134,
+     "section": "39"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Confession made after removal of impression caused by inducement, threat or promise, relevant",
+   "from_section": "28",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/28/",
+   "relation": "close",
+   "score": 0.7355,
+   "to_act": "bsa",
+   "to_heading": "Confession caused by inducement, threat, coercion or promise, when irrelevant in criminal proceeding",
+   "to_section": "22",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/22/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.1925,
+     "section": "6"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.1897,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Confession otherwise relevant not to become irrelevant because of promise of secrecy, etc",
+   "from_section": "29",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/29/",
+   "relation": "close",
+   "score": 0.7312,
+   "to_act": "bsa",
+   "to_heading": "Confession caused by inducement, threat, coercion or promise, when irrelevant in criminal proceeding",
+   "to_section": "22",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/22/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.2946,
+     "section": "6"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2688,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Consideration of proved confession affecting person making it and others jointly under trial for same offence",
+   "from_section": "30",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/30/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Consideration of proved confession affecting person making it and others jointly under trial for same offence",
+   "to_section": "24",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/24/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.3207,
+     "section": "2"
+    },
+    {
+     "heading": "Secondary evidence",
+     "score": 0.2452,
+     "section": "58"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Admissions not conclusive proof, but may estop",
+   "from_section": "31",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/31/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Admissions not conclusive proof, but may estop",
+   "to_section": "25",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/25/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Opinion on relationship, when relevant",
+     "score": 0.2122,
+     "section": "44"
+    },
+    {
+     "heading": "Proof of admissions against persons making them, and by or on their behalf",
+     "score": 0.2033,
+     "section": "19"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+   "from_section": "32",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/32/",
+   "relation": "near-identical",
+   "score": 0.9672,
+   "to_act": "bsa",
+   "to_heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+   "to_section": "26",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/26/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.3039,
+     "section": "26"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.2345,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Relevancy of certain evidence for proving, in subsequent proceeding, the truth of facts therein stated",
+   "from_section": "33",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/33/",
+   "relation": "near-identical",
+   "score": 0.9761,
+   "to_act": "bsa",
+   "to_heading": "Relevancy of certain evidence for proving, in subsequent proceeding, truth of facts therein stated",
+   "to_section": "27",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/27/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.3177,
+     "section": "26"
+    },
+    {
+     "heading": "Admissibility of electronic records",
+     "score": 0.2046,
+     "section": "63"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Entries in books of account when relevant",
+   "from_section": "34",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/34/",
+   "relation": "near-identical",
+   "score": 0.9708,
+   "to_act": "bsa",
+   "to_heading": "Entries in books of account when relevant",
+   "to_section": "28",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/28/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.3118,
+     "section": "26"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.2314,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Relevancy of entry in public record made in performance of duty",
+   "from_section": "35",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/35/",
+   "relation": "near-identical",
+   "score": 0.9506,
+   "to_act": "bsa",
+   "to_heading": "Relevancy of entry in public record or an electronic record made in performance of duty",
+   "to_section": "29",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/29/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to maps or plans made by authority of Government",
+     "score": 0.5027,
+     "section": "82"
+    },
+    {
+     "heading": "Presumption as to books, maps and charts",
+     "score": 0.2597,
+     "section": "89"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Relevancy of statements in maps, charts and plans",
+   "from_section": "36",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/36/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Relevancy of statements in maps, charts and plans",
+   "to_section": "30",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/30/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof of other official documents",
+     "score": 0.2315,
+     "section": "77"
+    },
+    {
+     "heading": "Facts of which Court shall take judicial notice",
+     "score": 0.2139,
+     "section": "52"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Relevancy of statement as to fact of public nature contained in certain Acts or notifications",
+   "from_section": "37",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/37/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Relevancy of statement as to fact of public nature contained in certain Acts or notifications",
+   "to_section": "31",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/31/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to collections of laws and reports of decisions",
+     "score": 0.3921,
+     "section": "83"
+    },
+    {
+     "heading": "Proof of other official documents",
+     "score": 0.3192,
+     "section": "77"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Relevancy of statements as to any law contained in law-books",
+   "from_section": "38",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/38/",
+   "relation": "close",
+   "score": 0.8206,
+   "to_act": "bsa",
+   "to_heading": "Relevancy of statements as to any law contained in law books including electronic or digital form",
+   "to_section": "32",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/32/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.2538,
+     "section": "2"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.252,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "What evidence to be given when statement forms part of a conversation, document, electronic record, book or series of letters or papers",
+   "from_section": "39",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/39/",
+   "relation": "near-identical",
+   "score": 0.9693,
+   "to_act": "bsa",
+   "to_heading": "What evidence to be given when statement forms part of a conversation, document, electronic record, book or series of letters or papers",
+   "to_section": "33",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/33/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.318,
+     "section": "2"
+    },
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.2674,
+     "section": "95"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Previous judgments relevant to bar a second suit or trial",
+   "from_section": "40",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/40/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Previous judgments relevant to bar a second suit or trial",
+   "to_section": "34",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/34/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.1919,
+     "section": "95"
+    },
+    {
+     "heading": "Judgments, etc., other than those mentioned in sections 34, 35 and 36 when relevant",
+     "score": 0.1797,
+     "section": "37"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Relevancy of certain judgments in probate, etc., jurisdiction",
+   "from_section": "41",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/41/",
+   "relation": "near-identical",
+   "score": 0.9904,
+   "to_act": "bsa",
+   "to_heading": "Relevancy of certain judgments in probate, etc., jurisdiction",
+   "to_section": "35",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/35/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.3193,
+     "section": "26"
+    },
+    {
+     "heading": "Judgments, etc., other than those mentioned in sections 34, 35 and 36 when relevant",
+     "score": 0.2684,
+     "section": "37"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Relevancy and effect of judgments, orders or decrees, other than those mentioned in relate to matters of a public nature relevant to the enquiry; but such judgments, orders or decrees are not conclusive proof of that which they state",
+   "from_section": "42",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/42/",
+   "relation": "close",
+   "score": 0.8414,
+   "to_act": "bsa",
+   "to_heading": "Relevancy and effect of judgments, orders or decrees, other than those mentioned in section 35",
+   "to_section": "36",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/36/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Relevancy and effect of judgments, orders or decrees, other than those mentioned in section 35",
+     "score": 0.2529,
+     "section": "36"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2407,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Judgments, etc., other than those mentioned in sections 40, 41 and 42, when relevant",
+   "from_section": "43",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/43/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Judgments, etc., other than those mentioned in sections 34, 35 and 36 when relevant",
+   "to_section": "37",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/37/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.3208,
+     "section": "95"
+    },
+    {
+     "heading": "Rules as to notice to produce",
+     "score": 0.2672,
+     "section": "64"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Fraud or collusion in obtaining judgment, or incompetency of Court, may be proved",
+   "from_section": "44",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/44/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Fraud or collusion in obtaining judgment, or incompetency of Court, may be proved",
+   "to_section": "38",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/38/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts bearing upon opinions of experts",
+     "score": 0.4298,
+     "section": "40"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.2885,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Opinions of experts",
+   "from_section": "45",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/45/",
+   "relation": "near-identical",
+   "score": 0.92,
+   "to_act": "bsa",
+   "to_heading": "Opinions of experts",
+   "to_section": "39",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/39/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Admissibility of electronic records",
+     "score": 0.4646,
+     "section": "63"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.3954,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Opinion of Examiner of Electronic Evidence",
+   "from_section": "45A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/45A/",
+   "relation": "close",
+   "score": 0.7,
+   "to_act": "bsa",
+   "to_heading": "Opinions of experts",
+   "to_section": "39",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/39/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Opinions of experts",
+     "score": 0.4613,
+     "section": "39"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2681,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Facts bearing upon opinions of experts",
+   "from_section": "46",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/46/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Facts bearing upon opinions of experts",
+   "to_section": "40",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/40/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.3008,
+     "section": "26"
+    },
+    {
+     "heading": "Opinion on relationship, when relevant",
+     "score": 0.2302,
+     "section": "44"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Opinion as to hand-writing, when relevant",
+   "from_section": "47",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/47/",
+   "relation": "close",
+   "score": 0.8038,
+   "to_act": "bsa",
+   "to_heading": "Opinion as to handwriting and signature, when relevant",
+   "to_section": "41",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/41/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof as to verification of digital signature",
+     "score": 0.4078,
+     "section": "73"
+    },
+    {
+     "heading": "Opinion on relationship, when relevant",
+     "score": 0.4052,
+     "section": "44"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Opinion as to digital signature, when relevant",
+   "from_section": "47A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/47A/",
+   "relation": "close",
+   "score": 0.8343,
+   "to_act": "bsa",
+   "to_heading": "Opinion as to handwriting and signature, when relevant",
+   "to_section": "41",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/41/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.3579,
+     "section": "26"
+    },
+    {
+     "heading": "Facts relevant when right or custom is in question",
+     "score": 0.3496,
+     "section": "11"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Opinion as to existence of right or custom, when relevant",
+   "from_section": "48",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/48/",
+   "relation": "near-identical",
+   "score": 0.9657,
+   "to_act": "bsa",
+   "to_heading": "Opinion as to existence of general custom or right, when relevant",
+   "to_section": "42",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/42/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.2681,
+     "section": "26"
+    },
+    {
+     "heading": "Opinion on relationship, when relevant",
+     "score": 0.2581,
+     "section": "44"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Opinion as to usages, tenets, etc., when relevant",
+   "from_section": "49",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/49/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Opinion as to usages, tenets, etc., when relevant",
+   "to_section": "43",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/43/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.3756,
+     "section": "26"
+    },
+    {
+     "heading": "Opinion as to handwriting and signature, when relevant",
+     "score": 0.2638,
+     "section": "41"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Opinion on relationship, when relevant",
+   "from_section": "50",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/50/",
+   "relation": "near-identical",
+   "score": 0.9707,
+   "to_act": "bsa",
+   "to_heading": "Opinion on relationship, when relevant",
+   "to_section": "44",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/44/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Opinion as to handwriting and signature, when relevant",
+     "score": 0.3191,
+     "section": "41"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.2778,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Grounds of opinion, when relevant",
+   "from_section": "51",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/51/",
+   "relation": "near-identical",
+   "score": 0.9644,
+   "to_act": "bsa",
+   "to_heading": "Grounds of opinion, when relevant",
+   "to_section": "45",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/45/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.3018,
+     "section": "119"
+    },
+    {
+     "heading": "Proof of admissions against persons making them, and by or on their behalf",
+     "score": 0.2697,
+     "section": "19"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "In civil cases character to prove conduct imputed, irrelevant",
+   "from_section": "52",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/52/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "In civil cases character to prove conduct imputed, irrelevant",
+   "to_section": "46",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/46/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Previous bad character not relevant, except in reply",
+     "score": 0.7704,
+     "section": "49"
+    },
+    {
+     "heading": "Confession caused by inducement, threat, coercion or promise, when irrelevant in criminal proceeding",
+     "score": 0.4458,
+     "section": "22"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "In criminal cases previous good character relevant",
+   "from_section": "53",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/53/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "In criminal cases previous good character relevant",
+   "to_section": "47",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/47/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Questions lawful in cross examination",
+     "score": 0.6399,
+     "section": "149"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.297,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Evidence of character or previous sexual experience not relevant in certain cases",
+   "from_section": "53A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/53A/",
+   "relation": "near-identical",
+   "score": 0.9636,
+   "to_act": "bsa",
+   "to_heading": "Evidence of character or previous sexual experience not relevant in certain cases",
+   "to_section": "48",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/48/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "In criminal cases previous good character relevant",
+     "score": 0.467,
+     "section": "47"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.3305,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Previous bad character not relevant, except in reply",
+   "from_section": "54",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/54/",
+   "relation": "near-identical",
+   "score": 0.9989,
+   "to_act": "bsa",
+   "to_heading": "Previous bad character not relevant, except in reply",
+   "to_section": "49",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/49/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.2804,
+     "section": "2"
+    },
+    {
+     "heading": "Evidence of terms of contracts, grants and other dispositions of property reduced to form of document",
+     "score": 0.2604,
+     "section": "94"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Character as affecting damages",
+   "from_section": "55",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/55/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Character as affecting damages",
+   "to_section": "50",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/50/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts of which Court shall take judicial notice",
+     "score": 0.4217,
+     "section": "52"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.3251,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Fact judicially noticeable need not be proved",
+   "from_section": "56",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/56/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Fact judicially noticeable need not be proved",
+   "to_section": "51",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/51/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to certified copies of foreign judicial records",
+     "score": 0.1541,
+     "section": "88"
+    },
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.1467,
+     "section": "119"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Facts of which Court must take judicial notice",
+   "from_section": "57",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/57/",
+   "relation": "close",
+   "score": 0.8046,
+   "to_act": "bsa",
+   "to_heading": "Facts of which Court shall take judicial notice",
+   "to_section": "52",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/52/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.2328,
+     "section": "95"
+    },
+    {
+     "heading": "Fact judicially noticeable need not be proved",
+     "score": 0.2112,
+     "section": "51"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Facts admitted need not be proved",
+   "from_section": "58",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/58/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Facts admitted need not be proved",
+   "to_section": "53",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/53/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.6178,
+     "section": "2"
+    },
+    {
+     "heading": "Evidence of terms of contracts, grants and other dispositions of property reduced to form of document",
+     "score": 0.5274,
+     "section": "94"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof of facts by oral evidence",
+   "from_section": "59",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/59/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Proof of facts by oral evidence",
+   "to_section": "54",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/54/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.2503,
+     "section": "26"
+    },
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.247,
+     "section": "95"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Oral evidence must be direct",
+   "from_section": "60",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/60/",
+   "relation": "near-identical",
+   "score": 0.9727,
+   "to_act": "bsa",
+   "to_heading": "Oral evidence to be direct",
+   "to_section": "55",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/55/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which secondary evidence relating to documents maybe given",
+     "score": 0.4715,
+     "section": "60"
+    },
+    {
+     "heading": "Proof of documents by primary evidence",
+     "score": 0.461,
+     "section": "59"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof of contents of documents",
+   "from_section": "61",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/61/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Proof of contents of documents",
+   "to_section": "56",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/56/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof of documents by primary evidence",
+     "score": 0.3689,
+     "section": "59"
+    },
+    {
+     "heading": "Evidence of terms of contracts, grants and other dispositions of property reduced to form of document",
+     "score": 0.2419,
+     "section": "94"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Primary evidence",
+   "from_section": "62",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/62/",
+   "relation": "near-identical",
+   "score": 0.9,
+   "to_act": "bsa",
+   "to_heading": "Primary evidence",
+   "to_section": "57",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/57/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which secondary evidence relating to documents maybe given",
+     "score": 0.3143,
+     "section": "60"
+    },
+    {
+     "heading": "Primary evidence",
+     "score": 0.2095,
+     "section": "57"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Secondary evidence",
+   "from_section": "63",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/63/",
+   "relation": "near-identical",
+   "score": 0.9329,
+   "to_act": "bsa",
+   "to_heading": "Secondary evidence",
+   "to_section": "58",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/58/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.4857,
+     "section": "95"
+    },
+    {
+     "heading": "Proof of contents of documents",
+     "score": 0.461,
+     "section": "56"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof of documents by primary evidence",
+   "from_section": "64",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/64/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Proof of documents by primary evidence",
+   "to_section": "59",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/59/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Secondary evidence",
+     "score": 0.4044,
+     "section": "58"
+    },
+    {
+     "heading": "Rules as to notice to produce",
+     "score": 0.3313,
+     "section": "64"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Cases in which secondary evidence relating to documents may be given",
+   "from_section": "65",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/65/",
+   "relation": "near-identical",
+   "score": 0.9272,
+   "to_act": "bsa",
+   "to_heading": "Cases in which secondary evidence relating to documents maybe given",
+   "to_section": "60",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/60/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to Gazettes in electronic or digital record",
+     "score": 0.4122,
+     "section": "81"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.3936,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Special provisions as to evidence relating to electronic record",
+   "from_section": "65A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/65A/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Special provisions as to evidence relating to electronic record",
+   "to_section": "62",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/62/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to electronic records and electronic signatures",
+     "score": 0.195,
+     "section": "86"
+    },
+    {
+     "heading": "Presumption as to electronic records five years old",
+     "score": 0.1763,
+     "section": "93"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Admissibility of electronic records",
+   "from_section": "65B",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/65B/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Admissibility of electronic records",
+   "to_section": "63",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/63/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which secondary evidence relating to documents maybe given",
+     "score": 0.3765,
+     "section": "60"
+    },
+    {
+     "heading": "Using, as evidence, of document production of which was refused on notice",
+     "score": 0.3066,
+     "section": "167"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Rules as to notice to produce",
+   "from_section": "66",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/66/",
+   "relation": "near-identical",
+   "score": 0.9789,
+   "to_act": "bsa",
+   "to_heading": "Rules as to notice to produce",
+   "to_section": "64",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/64/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Opinion as to handwriting and signature, when relevant",
+     "score": 0.4699,
+     "section": "41"
+    },
+    {
+     "heading": "Presumption as to documents thirty years old",
+     "score": 0.3393,
+     "section": "92"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof of signature and handwriting of person alleged to have signed or written document produced",
+   "from_section": "67",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/67/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Proof of signature and handwriting of person alleged to have signed or written document produced",
+   "to_section": "65",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/65/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to electronic records and electronic signatures",
+     "score": 0.6653,
+     "section": "86"
+    },
+    {
+     "heading": "Presumption as to Electronic Signature Certificates",
+     "score": 0.5019,
+     "section": "87"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof as to [electronic signature",
+   "from_section": "67A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/67A/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Proof as to electronic signature",
+   "to_section": "66",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/66/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Admission of execution by party to attested document",
+     "score": 0.3801,
+     "section": "69"
+    },
+    {
+     "heading": "Proof of document not required by law to be attested",
+     "score": 0.38,
+     "section": "71"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof of execution of document required by law to be attested",
+   "from_section": "68",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/68/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Proof of execution of document required by law to be attested",
+   "to_section": "67",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/67/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof of execution of document required by law to be attested",
+     "score": 0.3328,
+     "section": "67"
+    },
+    {
+     "heading": "Proof when attesting witness denies execution",
+     "score": 0.3085,
+     "section": "70"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof where no attesting witness found",
+   "from_section": "69",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/69/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Proof where no attesting witness found",
+   "to_section": "68",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/68/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof of execution of document required by law to be attested",
+     "score": 0.4898,
+     "section": "67"
+    },
+    {
+     "heading": "Proof of document not required by law to be attested",
+     "score": 0.4827,
+     "section": "71"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Admission of execution by party to attested document",
+   "from_section": "70",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/70/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Admission of execution by party to attested document",
+   "to_section": "69",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/69/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof of execution of document required by law to be attested",
+     "score": 0.4119,
+     "section": "67"
+    },
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.3681,
+     "section": "95"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof when attesting witness denies the execution",
+   "from_section": "71",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/71/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Proof when attesting witness denies execution",
+   "to_section": "70",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/70/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof of execution of document required by law to be attested",
+     "score": 0.6517,
+     "section": "67"
+    },
+    {
+     "heading": "Admission of execution by party to attested document",
+     "score": 0.546,
+     "section": "69"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof of document not required by law to be attested",
+   "from_section": "72",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/72/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Proof of document not required by law to be attested",
+   "to_section": "71",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/71/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.2957,
+     "section": "95"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.2555,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Comparison of signature, writing or seal with others admitted or proved",
+   "from_section": "73",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/73/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Comparison of signature, writing or seal with others admitted or proved",
+   "to_section": "72",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/72/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof as to electronic signature",
+     "score": 0.2826,
+     "section": "66"
+    },
+    {
+     "heading": "Opinions of experts",
+     "score": 0.2372,
+     "section": "39"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof as to verification of digital signature",
+   "from_section": "73A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/73A/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Proof as to verification of digital signature",
+   "to_section": "73",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/73/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof of other official documents",
+     "score": 0.4651,
+     "section": "77"
+    },
+    {
+     "heading": "Facts of which Court shall take judicial notice",
+     "score": 0.3418,
+     "section": "52"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Public documents",
+   "from_section": "74",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/74/",
+   "relation": "close",
+   "score": 0.8403,
+   "to_act": "bsa",
+   "to_heading": "Public and private documents",
+   "to_section": "74",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/74/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.4865,
+     "section": "119"
+    },
+    {
+     "heading": "Proof of other official documents",
+     "score": 0.4067,
+     "section": "77"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Private documents",
+   "from_section": "75",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/75/",
+   "relation": "near-identical",
+   "score": 0.8635,
+   "to_act": "bsa",
+   "to_heading": "Public and private documents",
+   "to_section": "74",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/74/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof of documents by production of certified copies",
+     "score": 0.3826,
+     "section": "76"
+    },
+    {
+     "heading": "Presumption as to genuineness of certified copies",
+     "score": 0.3239,
+     "section": "78"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Certified copies of public documents",
+   "from_section": "76",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/76/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Certified copies of public documents",
+   "to_section": "75",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/75/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Certified copies of public documents",
+     "score": 0.5081,
+     "section": "75"
+    },
+    {
+     "heading": "Proof of other official documents",
+     "score": 0.476,
+     "section": "77"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof of documents by production of certified copies",
+   "from_section": "77",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/77/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Proof of documents by production of certified copies",
+   "to_section": "76",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/76/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Public and private documents",
+     "score": 0.2432,
+     "section": "74"
+    },
+    {
+     "heading": "Certified copies of public documents",
+     "score": 0.2382,
+     "section": "75"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof of other official documents",
+   "from_section": "78",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/78/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Proof of other official documents",
+   "to_section": "77",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/77/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to certified copies of foreign judicial records",
+     "score": 0.3652,
+     "section": "88"
+    },
+    {
+     "heading": "Certified copies of public documents",
+     "score": 0.3112,
+     "section": "75"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to genuineness of certified copies",
+   "from_section": "79",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/79/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to genuineness of certified copies",
+   "to_section": "78",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/78/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.2609,
+     "section": "2"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.2451,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to documents produced as record of evidence",
+   "from_section": "80",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/80/",
+   "relation": "near-identical",
+   "score": 0.9442,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to documents produced as record of evidence, etc",
+   "to_section": "79",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/79/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to Gazettes in electronic or digital record",
+     "score": 0.382,
+     "section": "81"
+    },
+    {
+     "heading": "Proof of other official documents",
+     "score": 0.2713,
+     "section": "77"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to Gazettes, newspapers, private Acts of Parliament and other documents",
+   "from_section": "81",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/81/",
+   "relation": "weak",
+   "score": 0.5935,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to Gazettes, newspapers, and other documents",
+   "to_section": "80",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/80/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to Gazettes, newspapers, and other documents",
+     "score": 0.6589,
+     "section": "80"
+    },
+    {
+     "heading": "Presumption as to electronic records five years old",
+     "score": 0.3704,
+     "section": "93"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to Gazettes in electronic forms",
+   "from_section": "81A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/81A/",
+   "relation": "close",
+   "score": 0.815,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to Gazettes in electronic or digital record",
+   "to_section": "81",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/81/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.2148,
+     "section": "119"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.2134,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to document admissible in England without proof of seal or signature",
+   "from_section": "82",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/82/",
+   "relation": "none",
+   "score": 0.2824,
+   "to_act": "bsa",
+   "to_heading": null,
+   "to_section": null,
+   "to_url": null
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Relevancy of statements in maps, charts and plans",
+     "score": 0.5027,
+     "section": "30"
+    },
+    {
+     "heading": "Presumption as to certified copies of foreign judicial records",
+     "score": 0.3378,
+     "section": "88"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to maps or plans made by authority of Government",
+   "from_section": "83",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/83/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to maps or plans made by authority of Government",
+   "to_section": "82",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/82/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts of which Court shall take judicial notice",
+     "score": 0.3544,
+     "section": "52"
+    },
+    {
+     "heading": "Relevancy of statements as to any law contained in law books including electronic or digital form",
+     "score": 0.3405,
+     "section": "32"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to collections of laws and reports of decisions",
+   "from_section": "84",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/84/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to collections of laws and reports of decisions",
+   "to_section": "83",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/83/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof of other official documents",
+     "score": 0.2593,
+     "section": "77"
+    },
+    {
+     "heading": "Presumption as to genuineness of certified copies",
+     "score": 0.2473,
+     "section": "78"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to powers-of-attorney",
+   "from_section": "85",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/85/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to powers-of-attorney",
+   "to_section": "84",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/84/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof as to electronic signature",
+     "score": 0.3751,
+     "section": "66"
+    },
+    {
+     "heading": "Presumption as to electronic records five years old",
+     "score": 0.3664,
+     "section": "93"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to electronic agreements",
+   "from_section": "85A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/85A/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to electronic agreements",
+   "to_section": "85",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/85/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof as to electronic signature",
+     "score": 0.5093,
+     "section": "66"
+    },
+    {
+     "heading": "Presumption as to electronic agreements",
+     "score": 0.3448,
+     "section": "85"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to electronic records and [electronic signatures",
+   "from_section": "85B",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/85B/",
+   "relation": "near-identical",
+   "score": 0.9516,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to electronic records and electronic signatures",
+   "to_section": "86",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/86/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof as to electronic signature",
+     "score": 0.4331,
+     "section": "66"
+    },
+    {
+     "heading": "Presumption as to electronic records and electronic signatures",
+     "score": 0.3943,
+     "section": "86"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to [Electronic Signature Certificates",
+   "from_section": "85C",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/85C/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to Electronic Signature Certificates",
+   "to_section": "87",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/87/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to genuineness of certified copies",
+     "score": 0.3519,
+     "section": "78"
+    },
+    {
+     "heading": "Proof of other official documents",
+     "score": 0.2441,
+     "section": "77"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to certified copies of foreign judicial records",
+   "from_section": "86",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/86/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to certified copies of foreign judicial records",
+   "to_section": "88",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/88/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.3385,
+     "section": "26"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.3333,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to books, maps and charts",
+   "from_section": "87",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/87/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to books, maps and charts",
+   "to_section": "89",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/89/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to books, maps and charts",
+     "score": 0.1729,
+     "section": "89"
+    },
+    {
+     "heading": "Presumption as to documents thirty years old",
+     "score": 0.1713,
+     "section": "92"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to telegraphic messages",
+   "from_section": "88",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/88/",
+   "relation": "close",
+   "score": 0.6758,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to electronic messages",
+   "to_section": "90",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/90/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Admissibility of electronic records",
+     "score": 0.2223,
+     "section": "63"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.2105,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to electronic messages",
+   "from_section": "88A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/88A/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to electronic messages",
+   "to_section": "90",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/90/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to Gazettes, newspapers, and other documents",
+     "score": 0.3596,
+     "section": "80"
+    },
+    {
+     "heading": "Presumption as to documents thirty years old",
+     "score": 0.3418,
+     "section": "92"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to due execution, etc., of documents not produced",
+   "from_section": "89",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/89/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to due execution, etc., of documents not produced",
+   "to_section": "91",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/91/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to electronic records five years old",
+     "score": 0.4205,
+     "section": "93"
+    },
+    {
+     "heading": "Presumption as to Gazettes, newspapers, and other documents",
+     "score": 0.3793,
+     "section": "80"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to documents thirty years old",
+   "from_section": "90",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/90/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to documents thirty years old",
+   "to_section": "92",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/92/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to Gazettes in electronic or digital record",
+     "score": 0.4731,
+     "section": "81"
+    },
+    {
+     "heading": "Presumption as to documents thirty years old",
+     "score": 0.4193,
+     "section": "92"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to electronic records five years old",
+   "from_section": "90A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/90A/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to electronic records five years old",
+   "to_section": "93",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/93/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.35,
+     "section": "95"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2133,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Evidence of terms of contracts, grants and other dispositions of property reduced to form of document",
+   "from_section": "91",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/91/",
+   "relation": "near-identical",
+   "score": 0.9893,
+   "to_act": "bsa",
+   "to_heading": "Evidence of terms of contracts, grants and other dispositions of property reduced to form of document",
+   "to_section": "94",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/94/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Who may give evidence of agreement varying terms of document",
+     "score": 0.2528,
+     "section": "102"
+    },
+    {
+     "heading": "Evidence of terms of contracts, grants and other dispositions of property reduced to form of document",
+     "score": 0.235,
+     "section": "94"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Exclusion of evidence of oral agreement",
+   "from_section": "92",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/92/",
+   "relation": "near-identical",
+   "score": 0.9651,
+   "to_act": "bsa",
+   "to_heading": "Exclusion of evidence of oral agreement",
+   "to_section": "95",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/95/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.4198,
+     "section": "95"
+    },
+    {
+     "heading": "Exclusion of evidence against application of document to existing facts",
+     "score": 0.2835,
+     "section": "97"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Exclusion of evidence to explain or amend ambiguous document",
+   "from_section": "93",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/93/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Exclusion of evidence to explain or amend ambiguous document",
+   "to_section": "96",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/96/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.4298,
+     "section": "95"
+    },
+    {
+     "heading": "Evidence as to document unmeaning in reference to existing facts",
+     "score": 0.3505,
+     "section": "98"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Exclusion of evidence against application of document to existing facts",
+   "from_section": "94",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/94/",
+   "relation": "near-identical",
+   "score": 0.9626,
+   "to_act": "bsa",
+   "to_heading": "Exclusion of evidence against application of document to existing facts",
+   "to_section": "97",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/97/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence against application of document to existing facts",
+     "score": 0.3945,
+     "section": "97"
+    },
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.3012,
+     "section": "95"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Evidence as to document unmeaning in reference to existing facts",
+   "from_section": "95",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/95/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Evidence as to document unmeaning in reference to existing facts",
+   "to_section": "98",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/98/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": ". Evidence as to application of language to one of two sets of facts, to neither of which the whole correctly applies",
+     "score": 0.3692,
+     "section": "100"
+    },
+    {
+     "heading": "Exclusion of evidence to explain or amend ambiguous document",
+     "score": 0.2661,
+     "section": "96"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Evidence as to application of language which can apply to one only of several persons",
+   "from_section": "96",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/96/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Evidence as to application of language which can apply to one only of several persons",
+   "to_section": "99",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/99/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Evidence as to application of language which can apply to one only of several persons",
+     "score": 0.3955,
+     "section": "99"
+    },
+    {
+     "heading": "Exclusion of evidence against application of document to existing facts",
+     "score": 0.3483,
+     "section": "97"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Evidence as to application of language to one of two sets of facts, to neither of which the whole correctly applies",
+   "from_section": "97",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/97/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": ". Evidence as to application of language to one of two sets of facts, to neither of which the whole correctly applies",
+   "to_section": "100",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/100/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": ". Evidence as to application of language to one of two sets of facts, to neither of which the whole correctly applies",
+     "score": 0.1859,
+     "section": "100"
+    },
+    {
+     "heading": "Exclusion of evidence to explain or amend ambiguous document",
+     "score": 0.1826,
+     "section": "96"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Evidence as to meaning of illegible characters, etc",
+   "from_section": "98",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/98/",
+   "relation": "near-identical",
+   "score": 0.9653,
+   "to_act": "bsa",
+   "to_heading": "Evidence as to meaning of illegible characters, etc",
+   "to_section": "101",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/101/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.456,
+     "section": "95"
+    },
+    {
+     "heading": "Evidence of terms of contracts, grants and other dispositions of property reduced to form of document",
+     "score": 0.2629,
+     "section": "94"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Who may give evidence of agreement varying terms of document",
+   "from_section": "99",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/99/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Who may give evidence of agreement varying terms of document",
+   "to_section": "102",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/102/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Admissibility of electronic records",
+     "score": 0.2083,
+     "section": "63"
+    },
+    {
+     "heading": "Secondary evidence",
+     "score": 0.1633,
+     "section": "58"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Saving of provisions of Indian Succession Act relating to wills",
+   "from_section": "100",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/100/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Saving of provisions of Indian Succession Act relating to wills",
+   "to_section": "103",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/103/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Burden of proof as to particular fact",
+     "score": 0.2929,
+     "section": "106"
+    },
+    {
+     "heading": "On whom burden of proof lies",
+     "score": 0.2883,
+     "section": "105"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Burden of proof",
+   "from_section": "101",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/101/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Burden of proof",
+   "to_section": "104",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/104/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Burden of proof",
+     "score": 0.2905,
+     "section": "104"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.2431,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "On whom burden of proof lies",
+   "from_section": "102",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/102/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "On whom burden of proof lies",
+   "to_section": "105",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/105/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Burden of proving fact to be proved to make evidence admissible",
+     "score": 0.3601,
+     "section": "107"
+    },
+    {
+     "heading": "Burden of proof",
+     "score": 0.3449,
+     "section": "104"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Burden of proof as to particular fact",
+   "from_section": "103",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/103/",
+   "relation": "near-identical",
+   "score": 0.9897,
+   "to_act": "bsa",
+   "to_heading": "Burden of proof as to particular fact",
+   "to_section": "106",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/106/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Burden of proof as to particular fact",
+     "score": 0.3506,
+     "section": "106"
+    },
+    {
+     "heading": "Judge to decide as to admissibility of evidence",
+     "score": 0.3459,
+     "section": "141"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Burden of proving fact to be proved to make evidence admissible",
+   "from_section": "104",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/104/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Burden of proving fact to be proved to make evidence admissible",
+   "to_section": "107",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/107/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Burden of proving fact especially within knowledge",
+     "score": 0.2585,
+     "section": "109"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.2318,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Burden of proving that case of accused comes within exceptions",
+   "from_section": "105",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/105/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Burden of proving that case of accused comes within exceptions",
+   "to_section": "108",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/108/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Burden of proving that case of accused comes within exceptions",
+     "score": 0.3693,
+     "section": "108"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.3033,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Burden of proving fact especially within knowledge",
+   "from_section": "106",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/106/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Burden of proving fact especially within knowledge",
+   "to_section": "109",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/109/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Burden of proving that person is alive who has not been heard of for seven years",
+     "score": 0.6423,
+     "section": "111"
+    },
+    {
+     "heading": "Burden of proof as to ownership",
+     "score": 0.3383,
+     "section": "113"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Burden of proving death of person known to have been alive within thirty years",
+   "from_section": "107",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/107/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Burden of proving death of person known to have been alive within thirty years",
+   "to_section": "110",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/110/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Burden of proving death of person known to have been alive within thirty years",
+     "score": 0.5986,
+     "section": "110"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.3149,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Burden of proving that person is alive who has not been heard of for seven years",
+   "from_section": "108",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/108/",
+   "relation": "near-identical",
+   "score": 0.9916,
+   "to_act": "bsa",
+   "to_heading": "Burden of proving that person is alive who has not been heard of for seven years",
+   "to_section": "111",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/111/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2436,
+     "section": "12"
+    },
+    {
+     "heading": "Burden of proof as to ownership",
+     "score": 0.2404,
+     "section": "113"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Burden of proof as to relationship in the cases of partners, landlord and tenant, principal and agent",
+   "from_section": "109",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/109/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Burden of proof as to relationship in the cases of partners, landlord and tenant, principal and agent",
+   "to_section": "112",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/112/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.4628,
+     "section": "12"
+    },
+    {
+     "heading": "Burden of proof as to relationship in the cases of partners, landlord and tenant, principal and agent",
+     "score": 0.4582,
+     "section": "112"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Burden of proof as to ownership",
+   "from_section": "110",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/110/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Burden of proof as to ownership",
+   "to_section": "113",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/113/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2345,
+     "section": "12"
+    },
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.1837,
+     "section": "26"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof of good faith in transactions where one party is in relation of active confidence",
+   "from_section": "111",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/111/",
+   "relation": "near-identical",
+   "score": 0.9687,
+   "to_act": "bsa",
+   "to_heading": "Proof of good faith in transactions where one party is in relation of active confidence",
+   "to_section": "114",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/114/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Evidence of character or previous sexual experience not relevant in certain cases",
+     "score": 0.1972,
+     "section": "48"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.1592,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to certain offences",
+   "from_section": "111A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/111A/",
+   "relation": "near-identical",
+   "score": 0.9989,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to certain offences",
+   "to_section": "115",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/115/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Communications during marriage",
+     "score": 0.2147,
+     "section": "128"
+    },
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.1998,
+     "section": "119"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Birth during marriage, conclusive proof of legitimacy",
+   "from_section": "112",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/112/",
+   "relation": "near-identical",
+   "score": 0.9719,
+   "to_act": "bsa",
+   "to_heading": "Birth during marriage, conclusive proof of legitimacy",
+   "to_section": "116",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/116/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof of other official documents",
+     "score": 0.1957,
+     "section": "77"
+    },
+    {
+     "heading": "Relevancy of statement as to fact of public nature contained in certain Acts or notifications",
+     "score": 0.1826,
+     "section": "31"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Proof of cession of territory",
+   "from_section": "113",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/113/",
+   "relation": "none",
+   "score": 0.1957,
+   "to_act": "bsa",
+   "to_heading": null,
+   "to_section": null,
+   "to_url": null
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to dowry death",
+     "score": 0.2957,
+     "section": "118"
+    },
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.2341,
+     "section": "119"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to abetment of suicide by a married woman",
+   "from_section": "113A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/113A/",
+   "relation": "near-identical",
+   "score": 0.9953,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to abetment of suicide by a married woman",
+   "to_section": "117",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/117/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Presumption as to abetment of suicide by a married woman",
+     "score": 0.3819,
+     "section": "117"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.3194,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to dowry death",
+   "from_section": "113B",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/113B/",
+   "relation": "near-identical",
+   "score": 0.9927,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to dowry death",
+   "to_section": "118",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/118/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2154,
+     "section": "12"
+    },
+    {
+     "heading": "Existence of course of business when relevant",
+     "score": 0.2062,
+     "section": "14"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Court may presume existence of certain facts",
+   "from_section": "114",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/114/",
+   "relation": "near-identical",
+   "score": 0.9906,
+   "to_act": "bsa",
+   "to_heading": "Court may presume existence of certain facts",
+   "to_section": "119",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/119/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.31,
+     "section": "6"
+    },
+    {
+     "heading": "Evidence of character or previous sexual experience not relevant in certain cases",
+     "score": 0.2726,
+     "section": "48"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Presumption as to absence of consent in certain prosecution for rape",
+   "from_section": "114A",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/114A/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Presumption as to absence of consent in certain prosecution for rape",
+   "to_section": "120",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/120/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Estoppel of tenant and of licensee of person in possession",
+     "score": 0.2341,
+     "section": "122"
+    },
+    {
+     "heading": "Estoppel of acceptor of bill of exchange, bailee or licensee",
+     "score": 0.1613,
+     "section": "123"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Estoppel",
+   "from_section": "115",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/115/",
+   "relation": "near-identical",
+   "score": 0.9951,
+   "to_act": "bsa",
+   "to_heading": "Estoppel",
+   "to_section": "121",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/121/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Estoppel",
+     "score": 0.3092,
+     "section": "121"
+    },
+    {
+     "heading": "Estoppel of acceptor of bill of exchange, bailee or licensee",
+     "score": 0.2605,
+     "section": "123"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Estoppel of tenants and of licensee of person in possession",
+   "from_section": "116",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/116/",
+   "relation": "near-identical",
+   "score": 0.9055,
+   "to_act": "bsa",
+   "to_heading": "Estoppel of tenant and of licensee of person in possession",
+   "to_section": "122",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/122/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Estoppel of tenant and of licensee of person in possession",
+     "score": 0.2474,
+     "section": "122"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2212,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Estoppel of acceptor of bill of exchange, bailee or licensee",
+   "from_section": "117",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/117/",
+   "relation": "near-identical",
+   "score": 0.9907,
+   "to_act": "bsa",
+   "to_heading": "Estoppel of acceptor of bill of exchange, bailee or licensee",
+   "to_section": "123",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/123/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.1521,
+     "section": "26"
+    },
+    {
+     "heading": "Impeaching credit of witness",
+     "score": 0.1478,
+     "section": "158"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Who may testify",
+   "from_section": "118",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/118/",
+   "relation": "near-identical",
+   "score": 0.9406,
+   "to_act": "bsa",
+   "to_heading": "Who may testify",
+   "to_section": "124",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/124/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.249,
+     "section": "95"
+    },
+    {
+     "heading": "Evidence as to matters in writing",
+     "score": 0.1763,
+     "section": "147"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Witness unable to communicate verbally",
+   "from_section": "119",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/119/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Witness unable to communicate verbally",
+   "to_section": "125",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/125/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Opinion on relationship, when relevant",
+     "score": 0.269,
+     "section": "44"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.2318,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Parties to civil suit, and their wives or husbands. Husband or wife of person under criminal trial",
+   "from_section": "120",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/120/",
+   "relation": "close",
+   "score": 0.8267,
+   "to_act": "bsa",
+   "to_heading": "Competency of husband and wife as witnesses in certain cases",
+   "to_section": "126",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/126/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.1738,
+     "section": "2"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.1727,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Judges and Magistrates",
+   "from_section": "121",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/121/",
+   "relation": "near-identical",
+   "score": 0.9973,
+   "to_act": "bsa",
+   "to_heading": "Judges and Magistrates",
+   "to_section": "127",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/127/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.3316,
+     "section": "26"
+    },
+    {
+     "heading": "Professional communications",
+     "score": 0.3239,
+     "section": "132"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Communications during marriage",
+   "from_section": "122",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/122/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Communications during marriage",
+   "to_section": "128",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/128/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Proof of other official documents",
+     "score": 0.2239,
+     "section": "77"
+    },
+    {
+     "heading": "Facts necessary to explain or introduce fact in issue or relevant facts",
+     "score": 0.1465,
+     "section": "7"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Evidence as to affairs of State",
+   "from_section": "123",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/123/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Evidence as to affairs of State",
+   "to_section": "129",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/129/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Professional communications",
+     "score": 0.2504,
+     "section": "132"
+    },
+    {
+     "heading": "Proof of other official documents",
+     "score": 0.236,
+     "section": "77"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Official communications",
+   "from_section": "124",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/124/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Official communications",
+   "to_section": "130",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/130/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Confession to police officer",
+     "score": 0.1906,
+     "section": "23"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.1797,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Information as to commission of offences",
+   "from_section": "125",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/125/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Information as to commission of offences",
+   "to_section": "131",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/131/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Communications during marriage",
+     "score": 0.2231,
+     "section": "128"
+    },
+    {
+     "heading": "Official communications",
+     "score": 0.1921,
+     "section": "130"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Professional communications",
+   "from_section": "126",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/126/",
+   "relation": "close",
+   "score": 0.8337,
+   "to_act": "bsa",
+   "to_heading": "Professional communications",
+   "to_section": "132",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/132/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "When witness to be compelled to answer",
+     "score": 0.1418,
+     "section": "150"
+    },
+    {
+     "heading": "Evidence as to application of language which can apply to one only of several persons",
+     "score": 0.0942,
+     "section": "99"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Section 126 to apply to interpreters, etc",
+   "from_section": "127",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/127/",
+   "relation": "none",
+   "score": 0.2941,
+   "to_act": "bsa",
+   "to_heading": null,
+   "to_section": null,
+   "to_url": null
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Admissibility of electronic records",
+     "score": 0.2198,
+     "section": "63"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.1734,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Privilege not waived by volunteering evidence",
+   "from_section": "128",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/128/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Privilege not waived by volunteering evidence",
+   "to_section": "133",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/133/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Communications during marriage",
+     "score": 0.2773,
+     "section": "128"
+    },
+    {
+     "heading": "Official communications",
+     "score": 0.2555,
+     "section": "130"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Confidential communications with legal advisers",
+   "from_section": "129",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/129/",
+   "relation": "near-identical",
+   "score": 0.9251,
+   "to_act": "bsa",
+   "to_heading": "Confidential communication with legal advisers",
+   "to_section": "134",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/134/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.2088,
+     "section": "6"
+    },
+    {
+     "heading": "Presumption as to documents thirty years old",
+     "score": 0.1894,
+     "section": "92"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Production of title-deeds of witness not a party",
+   "from_section": "130",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/130/",
+   "relation": "near-identical",
+   "score": 0.9538,
+   "to_act": "bsa",
+   "to_heading": "Production of title-deeds of witness not a party",
+   "to_section": "135",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/135/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Admissibility of electronic records",
+     "score": 0.3347,
+     "section": "63"
+    },
+    {
+     "heading": "Judge to decide as to admissibility of evidence",
+     "score": 0.316,
+     "section": "141"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Production of documents or electronic records which another person, having possession, could refuse to produce",
+   "from_section": "131",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/131/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Production of documents or electronic records which another person, having possession, could refuse to produce",
+   "to_section": "136",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/136/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Questions lawful in cross examination",
+     "score": 0.3507,
+     "section": "149"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.2685,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Witness not excused from answering on ground that answer will criminate",
+   "from_section": "132",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/132/",
+   "relation": "near-identical",
+   "score": 0.9726,
+   "to_act": "bsa",
+   "to_heading": "Witness not excused from answering on ground that answer will criminate",
+   "to_section": "137",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/137/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Confession caused by inducement, threat, coercion or promise, when irrelevant in criminal proceeding",
+     "score": 0.2123,
+     "section": "22"
+    },
+    {
+     "heading": "Questions tending to corroborate evidence of relevant fact, admissible",
+     "score": 0.1878,
+     "section": "159"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Accomplice",
+   "from_section": "133",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/133/",
+   "relation": "close",
+   "score": 0.8393,
+   "to_act": "bsa",
+   "to_heading": "Accomplice",
+   "to_section": "138",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/138/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.3783,
+     "section": "6"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.3656,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Number of witnesses",
+   "from_section": "134",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/134/",
+   "relation": "near-identical",
+   "score": 0.8923,
+   "to_act": "bsa",
+   "to_heading": "Number of witnesses",
+   "to_section": "139",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/139/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.3448,
+     "section": "2"
+    },
+    {
+     "heading": "Witnesses to character",
+     "score": 0.3017,
+     "section": "145"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Order of production and examination of witnesses",
+   "from_section": "135",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/135/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Order of production and examination of witnesses",
+   "to_section": "140",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/140/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Admissibility of electronic records",
+     "score": 0.2303,
+     "section": "63"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.2178,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Judge to decide as to admissibility of evidence",
+   "from_section": "136",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/136/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Judge to decide as to admissibility of evidence",
+   "to_section": "141",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/141/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Impeaching credit of witness",
+     "score": 0.5676,
+     "section": "158"
+    },
+    {
+     "heading": "Question by party to his own witness",
+     "score": 0.5166,
+     "section": "157"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Examination-in-chief",
+   "from_section": "137",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/137/",
+   "relation": "close",
+   "score": 0.8496,
+   "to_act": "bsa",
+   "to_heading": "Examination of witnesses",
+   "to_section": "142",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/142/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Examination of witnesses",
+     "score": 0.3721,
+     "section": "142"
+    },
+    {
+     "heading": "Witnesses to character",
+     "score": 0.2796,
+     "section": "145"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Order of examinations",
+   "from_section": "138",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/138/",
+   "relation": "near-identical",
+   "score": 0.9727,
+   "to_act": "bsa",
+   "to_heading": "Order of examinations",
+   "to_section": "143",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/143/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Oral evidence to be direct",
+     "score": 0.2596,
+     "section": "55"
+    },
+    {
+     "heading": "Cross examination as to previous statements in writing",
+     "score": 0.2586,
+     "section": "148"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Cross-examination of person called to produce a document",
+   "from_section": "139",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/139/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Cross examination of person called to produce a document",
+   "to_section": "144",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/144/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Order of examinations",
+     "score": 0.5682,
+     "section": "143"
+    },
+    {
+     "heading": "Questions lawful in cross examination",
+     "score": 0.5418,
+     "section": "149"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Witnesses to character",
+   "from_section": "140",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/140/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Witnesses to character",
+   "to_section": "145",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/145/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Judge's power to put questions or order production",
+     "score": 0.238,
+     "section": "168"
+    },
+    {
+     "heading": "Questions lawful in cross examination",
+     "score": 0.1959,
+     "section": "149"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Leading questions",
+   "from_section": "141",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/141/",
+   "relation": "near-identical",
+   "score": 0.9,
+   "to_act": "bsa",
+   "to_heading": "Leading questions",
+   "to_section": "146",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/146/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Court to decide when question shall be asked and when witness compelled to answer",
+     "score": 0.2649,
+     "section": "151"
+    },
+    {
+     "heading": "Order of examinations",
+     "score": 0.2196,
+     "section": "143"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "When they must not be asked",
+   "from_section": "142",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/142/",
+   "relation": "close",
+   "score": 0.7,
+   "to_act": "bsa",
+   "to_heading": "Leading questions",
+   "to_section": "146",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/146/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Questions lawful in cross examination",
+     "score": 0.5144,
+     "section": "149"
+    },
+    {
+     "heading": "Impeaching credit of witness",
+     "score": 0.384,
+     "section": "158"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "When they may be asked",
+   "from_section": "143",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/143/",
+   "relation": "close",
+   "score": 0.7,
+   "to_act": "bsa",
+   "to_heading": "Leading questions",
+   "to_section": "146",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/146/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.2662,
+     "section": "6"
+    },
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.2585,
+     "section": "95"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Evidence as to matters in writing",
+   "from_section": "144",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/144/",
+   "relation": "near-identical",
+   "score": 0.9852,
+   "to_act": "bsa",
+   "to_heading": "Evidence as to matters in writing",
+   "to_section": "147",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/147/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.3059,
+     "section": "2"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.2988,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Cross-examination as to previous statements in writing",
+   "from_section": "145",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/145/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Cross examination as to previous statements in writing",
+   "to_section": "148",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/148/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Evidence of character or previous sexual experience not relevant in certain cases",
+     "score": 0.3949,
+     "section": "48"
+    },
+    {
+     "heading": "Witness not excused from answering on ground that answer will criminate",
+     "score": 0.305,
+     "section": "137"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Questions lawful in cross-examination",
+   "from_section": "146",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/146/",
+   "relation": "near-identical",
+   "score": 0.9999,
+   "to_act": "bsa",
+   "to_heading": "Questions lawful in cross examination",
+   "to_section": "149",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/149/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Court to decide when question shall be asked and when witness compelled to answer",
+     "score": 0.5387,
+     "section": "151"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.4521,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "When witness to be compelled to answer",
+   "from_section": "147",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/147/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "When witness to be compelled to answer",
+   "to_section": "150",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/150/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "When witness to be compelled to answer",
+     "score": 0.313,
+     "section": "150"
+    },
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.2212,
+     "section": "119"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Court to decide when question shall be asked and when witness compelled to answer",
+   "from_section": "148",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/148/",
+   "relation": "near-identical",
+   "score": 0.9961,
+   "to_act": "bsa",
+   "to_heading": "Court to decide when question shall be asked and when witness compelled to answer",
+   "to_section": "151",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/151/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Procedure of Court in case of question being asked without reasonable grounds",
+     "score": 0.2702,
+     "section": "153"
+    },
+    {
+     "heading": "Exclusion of evidence to contradict answers to questions testing veracity",
+     "score": 0.1413,
+     "section": "156"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Question not to be asked without reasonable grounds",
+   "from_section": "149",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/149/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Question not to be asked without reasonable grounds",
+   "to_section": "152",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/152/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Question not to be asked without reasonable grounds",
+     "score": 0.3011,
+     "section": "152"
+    },
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.1717,
+     "section": "6"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Procedure of Court in case of question being asked without reasonable grounds",
+   "from_section": "150",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/150/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Procedure of Court in case of question being asked without reasonable grounds",
+   "to_section": "153",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/153/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Motive, preparation and previous or subsequent conduct",
+     "score": 0.1862,
+     "section": "6"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.179,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Indecent and scandalous questions",
+   "from_section": "151",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/151/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Indecent and scandalous questions",
+   "to_section": "154",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/154/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Primary evidence",
+     "score": 0.1615,
+     "section": "57"
+    },
+    {
+     "heading": "Rules as to notice to produce",
+     "score": 0.1594,
+     "section": "64"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Questions intended to insult or annoy",
+   "from_section": "152",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/152/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Questions intended to insult or annoy",
+   "to_section": "155",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/155/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Impeaching credit of witness",
+     "score": 0.2081,
+     "section": "158"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.1802,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Exclusion of evidence to contradict answers to questions testing veracity",
+   "from_section": "153",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/153/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Exclusion of evidence to contradict answers to questions testing veracity",
+   "to_section": "156",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/156/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Questions lawful in cross examination",
+     "score": 0.3184,
+     "section": "149"
+    },
+    {
+     "heading": "Impeaching credit of witness",
+     "score": 0.3058,
+     "section": "158"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Question by party to his own witness",
+   "from_section": "154",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/154/",
+   "relation": "near-identical",
+   "score": 0.9812,
+   "to_act": "bsa",
+   "to_heading": "Question by party to his own witness",
+   "to_section": "157",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/157/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Exclusion of evidence to contradict answers to questions testing veracity",
+     "score": 0.2157,
+     "section": "156"
+    },
+    {
+     "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+     "score": 0.2108,
+     "section": "12"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Impeaching credit of witness",
+   "from_section": "155",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/155/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Impeaching credit of witness",
+   "to_section": "158",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/158/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.3176,
+     "section": "119"
+    },
+    {
+     "heading": "Former statements of witness may be proved to corroborate later testimony as to same fact",
+     "score": 0.3072,
+     "section": "160"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Questions tending to corroborate evidence of relevant fact, admissible",
+   "from_section": "156",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/156/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Questions tending to corroborate evidence of relevant fact, admissible",
+   "to_section": "159",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/159/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Questions tending to corroborate evidence of relevant fact, admissible",
+     "score": 0.3765,
+     "section": "159"
+    },
+    {
+     "heading": "Definitions",
+     "score": 0.3069,
+     "section": "2"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Former statements of witness may be proved to corroborate later testimony as to same fact",
+   "from_section": "157",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/157/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Former statements of witness may be proved to corroborate later testimony as to same fact",
+   "to_section": "160",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/160/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.3166,
+     "section": "2"
+    },
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.2599,
+     "section": "95"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "What matters may be proved in connection with proved statement relevant under section 32 or 33",
+   "from_section": "158",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/158/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "What matters may be proved in connection with proved statement relevant under section 26 or 27",
+   "to_section": "161",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/161/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.1599,
+     "section": "2"
+    },
+    {
+     "heading": "Admissibility of electronic records",
+     "score": 0.1538,
+     "section": "63"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Refreshing memory",
+   "from_section": "159",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/159/",
+   "relation": "near-identical",
+   "score": 0.9839,
+   "to_act": "bsa",
+   "to_heading": "Refreshing memory",
+   "to_section": "162",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/162/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+     "score": 0.2906,
+     "section": "26"
+    },
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.2502,
+     "section": "119"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Testimony to facts stated in document mentioned in section 159",
+   "from_section": "160",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/160/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Testimony to facts stated in document mentioned in section 162",
+   "to_section": "163",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/163/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Judge's power to put questions or order production",
+     "score": 0.2318,
+     "section": "168"
+    },
+    {
+     "heading": "Order of examinations",
+     "score": 0.2238,
+     "section": "143"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Right of adverse party as to writing used to refresh memory",
+   "from_section": "161",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/161/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Right of adverse party as to writing used to refresh memory",
+   "to_section": "164",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/164/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Judge's power to put questions or order production",
+     "score": 0.1963,
+     "section": "168"
+    },
+    {
+     "heading": "Proof of documents by production of certified copies",
+     "score": 0.1897,
+     "section": "76"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Production of documents",
+   "from_section": "162",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/162/",
+   "relation": "near-identical",
+   "score": 0.9265,
+   "to_act": "bsa",
+   "to_heading": "Production of documents",
+   "to_section": "165",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/165/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Using, as evidence, of document production of which was refused on notice",
+     "score": 0.3892,
+     "section": "167"
+    },
+    {
+     "heading": "Rules as to notice to produce",
+     "score": 0.3556,
+     "section": "64"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Giving, as evidence, of document called for and produced on notice",
+   "from_section": "163",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/163/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Giving, as evidence, of document called for and produced on notice",
+   "to_section": "166",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/166/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Rules as to notice to produce",
+     "score": 0.3402,
+     "section": "64"
+    },
+    {
+     "heading": "Giving, as evidence, of document called for and produced on notice",
+     "score": 0.331,
+     "section": "166"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Using, as evidence, of document production of which was refused on notice",
+   "from_section": "164",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/164/",
+   "relation": "near-identical",
+   "score": 1,
+   "to_act": "bsa",
+   "to_heading": "Using, as evidence, of document production of which was refused on notice",
+   "to_section": "167",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/167/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Judge to decide as to admissibility of evidence",
+     "score": 0.2208,
+     "section": "141"
+    },
+    {
+     "heading": "Exclusion of evidence of oral agreement",
+     "score": 0.1861,
+     "section": "95"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Judge’s power to put questions or order production",
+   "from_section": "165",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/165/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "Judge's power to put questions or order production",
+   "to_section": "168",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/168/"
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Questions lawful in cross examination",
+     "score": 0.1531,
+     "section": "149"
+    },
+    {
+     "heading": "Proof of admissions against persons making them, and by or on their behalf",
+     "score": 0.1508,
+     "section": "19"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "Power of jury or assessors to put questions",
+   "from_section": "166",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/166/",
+   "relation": "none",
+   "score": 0.2953,
+   "to_act": "bsa",
+   "to_heading": null,
+   "to_section": null,
+   "to_url": null
+  },
+  {
+   "alternatives": [
+    {
+     "heading": "Definitions",
+     "score": 0.1674,
+     "section": "2"
+    },
+    {
+     "heading": "Court may presume existence of certain facts",
+     "score": 0.1175,
+     "section": "119"
+    }
+   ],
+   "from_act": "iea",
+   "from_heading": "No new trial for improper admission or rejection of evidence",
+   "from_section": "167",
+   "from_url": "https://indiacode.ecourtsindia.com/iea/section/167/",
+   "relation": "near-identical",
+   "score": 0.95,
+   "to_act": "bsa",
+   "to_heading": "No new trial for improper admission or rejection of evidence",
+   "to_section": "169",
+   "to_url": "https://indiacode.ecourtsindia.com/bsa/section/169/"
+  }
+ ],
+ "total": 185
+}

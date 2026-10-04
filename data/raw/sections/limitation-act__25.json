@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Acquisition of easements by prescription",
+  "html": "<p><span class=\"num\">(1)</span> Where the access and use of light or air to and for any building have been peaceably enjoyed therewith as an easement, and as of right, without interruption, and for twenty years, and where any way or watercourse or the use of any water or any other easement (whether affirmative or negative) has been peaceably and openly enjoyed by any person claiming title thereto as an easement and as of right without interruption and for twenty years, the right to such access and use of light or air, way, watercourse, use of water, or other easement shall be absolute and indefeasible.</p><p><span class=\"num\">(2)</span> Each of the said periods of twenty years shall be taken to be a period ending within two years next before the institution of the suit wherein the claim to which such period relates is contested.</p><p><span class=\"num\">(3)</span> Where the property over which a right is claimed under sub-section (1) belongs to the Government that sub-section shall be read as if for the words \"twenty years\" the words \"thirty years\" were substituted.</p><p><i>Explanation.</i>—Nothing is an interruption within the meaning of this section, unless where there is an actual discontinuance of the possession or enjoyment by reason of an obstruction by the act of some person other than the claimant, and unless such obstruction is submitted to or acquiesced in for one year after the claimant has notice thereof and of the person making or authorising the same to be made.</p>",
+  "number": "25",
+  "text": "(1) Where the access and use of light or air to and for any building have been peaceably enjoyed therewith as an easement, and as of right, without interruption, and for twenty years, and where any way or watercourse or the use of any water or any other easement (whether affirmative or negative) has been peaceably and openly enjoyed by any person claiming title thereto as an easement and as of right without interruption and for twenty years, the right to such access and use of light or air, way, watercourse, use of water, or other easement shall be absolute and indefeasible. (2) Each of the said periods of twenty years shall be taken to be a period ending within two years next before the institution of the suit wherein the claim to which such period relates is contested. (3) Where the property over which a right is claimed under sub-section (1) belongs to the Government that sub-section shall be read as if for the words \"twenty years\" the words \"thirty years\" were substituted. Explanation.—Nothing is an interruption within the meaning of this section, unless where there is an actual discontinuance of the possession or enjoyment by reason of an obstruction by the act of some person other than the claimant, and unless such obstruction is submitted to or acquiesced in for one year after the claimant has notice thereof and of the person making or authorising the same to be made.",
+  "words": 242
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/limitation-act/section/25/"
+}

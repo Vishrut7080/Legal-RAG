@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-12-13",
+  "enforcement_date": "1964-03-01",
+  "id": "specific-relief-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to certain kinds of specific relief.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 48,
+  "short_title": "The Specific Relief Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/specific-relief-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "When cancellation may be ordered",
+  "html": "<p><span class=\"num\">(1)</span> Any person against whom a written instrument is void or voidable, and who has reasonable apprehension that such instrument, if left outstanding may cause him serious injury, may sue to have it adjudged void or voidable; and the court may, in its discretion, so adjudge it and order it to be delivered up and cancelled.</p><p><span class=\"num\">(2)</span> If the instrument has been registered under the Indian Registration Act, 1908 (16 of 1908), the court shall also send a copy of its decree to the officer in whose office the instrument has been so registered; and such officer shall note on the copy of the instrument contained in his books the fact of its cancellation.</p>",
+  "number": "31",
+  "text": "(1) Any person against whom a written instrument is void or voidable, and who has reasonable apprehension that such instrument, if left outstanding may cause him serious injury, may sue to have it adjudged void or voidable; and the court may, in its discretion, so adjudge it and order it to be delivered up and cancelled. (2) If the instrument has been registered under the Indian Registration Act, 1908 (16 of 1908), the court shall also send a copy of its decree to the officer in whose office the instrument has been so registered; and such officer shall note on the copy of the instrument contained in his books the fact of its cancellation.",
+  "words": 114
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/31/"
+}

@@ -1,0 +1,71 @@
+# Regression thresholds for src/gate.py
+#
+# Every value here is a floor that has been measured on this corpus with this
+# index. The margin between the threshold and the measured number is the
+# tolerance for incidental drift; it is deliberately not zero, because a gate
+# that fails on a one-case wobble trains people to re-run it until it passes.
+#
+# To tighten a threshold, first fix the thing that is worse than the number.
+
+config:
+  retriever: hybrid+current
+  k: 10
+  golden: data/eval/golden.jsonl
+
+# Structural invariants. These are not performance, they are correctness: if
+# one of these fails the corpus or the index is wrong, not merely worse.
+integrity:
+  snapshot_checksums: true      # every file in data/raw matches FETCHED.json
+  golden_references_resolve: true   # no citation points outside the index
+  index_matches_chunks: true    # the sha256 in index.json matches chunks.jsonl
+  raw_excludes_judgments: true  # no stored payload carries eCourts judgment
+                               # summaries; the count is kept, the records are
+                               # not. See LICENSING.md. Asserted rather than
+                               # documented because a policy nothing checks gets
+                               # reverted by whoever wants the raw data.
+
+retrieval:
+  # Measured on 102 golden cases: hit@1 0.707, hit@5 0.889, hit@10 0.939,
+  # mrr 0.790, ndcg@10 0.884.
+  min_hit_rate_at_1: 0.65
+  min_hit_rate_at_5: 0.84
+  min_hit_rate_at_k: 0.90
+  min_mrr: 0.74
+  min_ndcg_at_k: 0.84
+
+supersession:
+  # Measured 0.000 across the 94 current-law cases, and that is the whole point
+  # of the current-law filter.
+  #
+  # Note the scope: stale@k counts current-law questions only. On a historical
+  # question a repealed provision in the top-k is the intended answer, and
+  # averaging the two together makes the number move for the wrong reason --
+  # adding correct historical cases made the figure look worse, which is a
+  # metric that cannot be reasoned about. src/evaluate.py reports the
+  # historical-only figure separately as `stale@k_historical_cases`.
+  #
+  # Held tight: a regression means current law is being answered from repealed
+  # law, which is the failure this project exists to prevent.
+  max_stale_at_k: 0.08
+
+refusal:
+  # Measured 1.000 / 1.000. Three unanswerable questions, all refused, no
+  # answerable question refused by mistake.
+  min_precision: 1.0
+  min_recall: 1.0
+
+citations:
+  # Measured: all valid. Three cases cite repealed text, all historical questions
+  # that asked for it, and every such answer states that the provision has been
+  # repealed and names its replacement.
+  # What is gated is the *unannounced* case: quoting 1860 law as though it were
+  # current. That is the failure mode. The extractive path cannot produce it --
+  # `_extract` always states the status -- but a future LLM path can, so it
+  # stays asserted.
+  require_all_valid: true
+  max_unannounced_repealed: 0
+
+# Deliberately absent: any threshold on answer correctness, faithfulness, or
+# citation precision of generated prose. There is no judge model in the offline
+# path, so those numbers cannot be defended. See the `unmeasured` field that
+# src/evaluate.py writes into data/eval/results.json.

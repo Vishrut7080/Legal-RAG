@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Award of interest where any claim is allowed",
+  "html": "<p>Where any Claims Tribunal allows a claim for compensation made under this Act, such Tribunal may direct that in addition to the amount of compensation simple interest shall also be paid at such rate and from such date not earlier than the date of making the claim as it may specify in this behalf.</p>",
+  "number": "171",
+  "text": "Where any Claims Tribunal allows a claim for compensation made under this Act, such Tribunal may direct that in addition to the amount of compensation simple interest shall also be paid at such rate and from such date not earlier than the date of making the claim as it may specify in this behalf.",
+  "words": 54
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/171/"
+}

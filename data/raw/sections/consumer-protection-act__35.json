@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "35",
+  "act_year": 2019,
+  "department": "Department of Consumer Affairs",
+  "duplicate_of": null,
+  "enact_date": "2019-08-09",
+  "enforcement_date": null,
+  "id": "consumer-protection-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide for protection of the interests of consumers and for the said purpose, to establish authorities for timely and effective administration and settlement of consumers' disputes and for matters connected therewith or incidental thereto",
+  "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+  "section_count": 107,
+  "short_title": "The Consumer Protection Act, 2019",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Manner in which complaint shall be made",
+  "html": "<p><span class=\"num\">(1)</span> A complaint, in relation to any goods sold or delivered or agreed to be sold or delivered or any service provided or agreed to be provided, may be filed with a District Commission by--</p><p><span class=\"num\">(a)</span> the consumer,--</p><p><span class=\"num\">(i)</span> to whom such goods are sold or delivered or agreed to be sold or delivered or such service is provided or agreed to be provided; or</p><p><span class=\"num\">(ii)</span> who alleges unfair trade practice in respect of such goods or service;</p><p><span class=\"num\">(b)</span> any recognised consumer association, whether the consumer to whom such goods are sold or delivered or agreed to be sold or delivered or such service is provided or agreed to be provided, or who alleges unfair trade practice in respect of such goods or service, is a member of such association or not;</p><p><span class=\"num\">(c)</span> one or more consumers, where there are numerous consumers having the same interest, with the permission of the District Commission, on behalf of, or for the benefit of, all consumers so interested; or</p><p><span class=\"num\">(d)</span> the Central Government, the Central Authority or the State Government, as the case may be:</p><p>Provided that the complaint under this sub-section may be filed electronically in such manner as may be prescribed.</p><p><i>Explanation</i>.--For the purposes of this sub-section, \"recognised consumer association\" means any voluntary consumer association registered under any law for the time being in force.</p><p><span class=\"num\">(2)</span> Every complaint filed under sub-section (1) shall be accompanied with such fee and payable in such manner, including electronic form, as may be prescribed.</p>",
+  "number": "35",
+  "text": "(1) A complaint, in relation to any goods sold or delivered or agreed to be sold or delivered or any service provided or agreed to be provided, may be filed with a District Commission by-- (a) the consumer,-- (i) to whom such goods are sold or delivered or agreed to be sold or delivered or such service is provided or agreed to be provided; or (ii) who alleges unfair trade practice in respect of such goods or service; (b) any recognised consumer association, whether the consumer to whom such goods are sold or delivered or agreed to be sold or delivered or such service is provided or agreed to be provided, or who alleges unfair trade practice in respect of such goods or service, is a member of such association or not; (c) one or more consumers, where there are numerous consumers having the same interest, with the permission of the District Commission, on behalf of, or for the benefit of, all consumers so interested; or (d) the Central Government, the Central Authority or the State Government, as the case may be: Provided that the complaint under this sub-section may be filed electronically in such manner as may be prescribed. Explanation.--For the purposes of this sub-section, \"recognised consumer association\" means any voluntary consumer association registered under any law for the time being in force. (2) Every complaint filed under sub-section (1) shall be accompanied with such fee and payable in such manner, including electronic form, as may be prescribed.",
+  "words": 249
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/35/"
+}

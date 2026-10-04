@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "96",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/96/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Exclusion of evidence to explain or amend ambiguous document",
+  "html": "<p>When the language used in a document is, on its face, ambiguous or defective, evidence may not be given of facts which would show its meaning or supply its defects. Illustrations (a) A agrees, in writing, to sell a horse to B for “Rs. 1,000 or Rs. 1,500”. Evidence cannot be given to show which price was to be given. (b) A deed contains blanks. Evidence cannot be given of facts which would show how they were meant to be filled.</p>",
+  "number": "93",
+  "text": "When the language used in a document is, on its face, ambiguous or defective, evidence may not be given of facts which would show its meaning or supply its defects. Illustrations (a) A agrees, in writing, to sell a horse to B for “Rs. 1,000 or Rs. 1,500”. Evidence cannot be given to show which price was to be given. (b) A deed contains blanks. Evidence cannot be given of facts which would show how they were meant to be filled.",
+  "words": 81
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/93/"
+}

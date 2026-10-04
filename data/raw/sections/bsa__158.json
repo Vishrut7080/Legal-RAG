@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "155",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/155/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Impeaching credit of witness",
+  "html": "<p>The credit of a witness may be impeached in the following ways by the adverse party, or, with the consent of the Court, by the party who calls him--</p><p><span class=\"num\">(a)</span> by the evidence of persons who testify that they, from their knowledge of the witness, believe him to be unworthy of credit;</p><p><span class=\"num\">(b)</span> by proof that the witness has been bribed, or has accepted the offer of a bribe, or has received any other corrupt inducement to give his evidence;</p><p><span class=\"num\">(c)</span> by proof of former statements inconsistent with any part of his evidence which is liable to be contradicted.</p><p><i>Explanation.</i>--A witness declaring another witness to be unworthy of credit may not, upon his examination-in-chief, give reasons for his belief, but he may be asked his reasons in cross-examination, and the answers which he gives cannot be contradicted, though, if they are false, he may afterwards be charged with giving false evidence.</p><p class=\"rubric\"><i>Illustrations.</i></p><p><span class=\"num\">(a)</span> A sues B for the price of goods sold and delivered to B. C says that he delivered the goods to B. Evidence is offered to show that, on a previous occasion, he said that he had not delivered goods to B. The evidence is admissible.</p><p><span class=\"num\">(b)</span> A is accused of the murder of B. C says that B, when dying, declared that A had given B the wound of which he died. Evidence is offered to show that, on a previous occasion, C said that B, when dying, did not declare that A had given B the wound of which he died. The evidence is admissible</p>",
+  "number": "158",
+  "text": "The credit of a witness may be impeached in the following ways by the adverse party, or, with the consent of the Court, by the party who calls him-- (a) by the evidence of persons who testify that they, from their knowledge of the witness, believe him to be unworthy of credit; (b) by proof that the witness has been bribed, or has accepted the offer of a bribe, or has received any other corrupt inducement to give his evidence; (c) by proof of former statements inconsistent with any part of his evidence which is liable to be contradicted. Explanation.--A witness declaring another witness to be unworthy of credit may not, upon his examination-in-chief, give reasons for his belief, but he may be asked his reasons in cross-examination, and the answers which he gives cannot be contradicted, though, if they are false, he may afterwards be charged with giving false evidence. Illustrations. (a) A sues B for the price of goods sold and delivered to B. C says that he delivered the goods to B. Evidence is offered to show that, on a previous occasion, he said that he had not delivered goods to B. The evidence is admissible. (b) A is accused of the murder of B. C says that B, when dying, declared that A had given B the wound of which he died. Evidence is offered to show that, on a previous occasion, C said that B, when dying, did not declare that A had given B the wound of which he died. The evidence is admissible",
+  "words": 260
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/158/"
+}

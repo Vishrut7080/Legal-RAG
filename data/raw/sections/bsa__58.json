@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9329,
+   "section": "63",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/63/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Secondary evidence",
+  "html": "<p>Secondary evidence includes--</p><p><span class=\"num\">(i)</span> certified copies given under the provisions hereinafter contained;</p><p><span class=\"num\">(ii)</span> copies made from the original by mechanical processes which in themselves ensure the accuracy of the copy, and copies compared with such copies;</p><p><span class=\"num\">(iii)</span> copies made from or compared with the original</p><p><span class=\"num\">(iv)</span> counterparts of documents as against the parties who did not execute them;</p><p><span class=\"num\">(v)</span> oral accounts of the contents of a document given by some person who has himself seen it;</p><p><span class=\"num\">(vi)</span> oral admissions;</p><p><span class=\"num\">(vii)</span> written admissions;</p><p><span class=\"num\">(viii)</span> evidence of a person who has examined a document, the original of which consists of numerous accounts or other documents which cannot conveniently be examined in Court, and who is skilled in the examination of such documents.</p><p class=\"rubric\"><i>Illustrations.</i></p><p><span class=\"num\">(a)</span> A photograph of an original is secondary evidence of its contents, though the two have not been compared, if it is proved that the thing photographed was the original.</p><p><span class=\"num\">(b)</span> A copy compared with a copy of a letter made by a copying machine is secondary evidence of the contents of the letter, if it is shown that the copy made by the copying machine was made from the original.</p><p><span class=\"num\">(c)</span> A copy transcribed from a copy, but afterwards compared with the original, is secondary evidence; but the copy not so compared is not secondary evidence of the original, although the copy from which it was transcribed was compared with the original.</p><p><span class=\"num\">(d)</span> Neither an oral account of a copy compared with the original, nor an oral account of a photograph or machine-copy of the original, is secondary evidence of the original.</p>",
+  "number": "58",
+  "text": "Secondary evidence includes-- (i) certified copies given under the provisions hereinafter contained; (ii) copies made from the original by mechanical processes which in themselves ensure the accuracy of the copy, and copies compared with such copies; (iii) copies made from or compared with the original (iv) counterparts of documents as against the parties who did not execute them; (v) oral accounts of the contents of a document given by some person who has himself seen it; (vi) oral admissions; (vii) written admissions; (viii) evidence of a person who has examined a document, the original of which consists of numerous accounts or other documents which cannot conveniently be examined in Court, and who is skilled in the examination of such documents. Illustrations. (a) A photograph of an original is secondary evidence of its contents, though the two have not been compared, if it is proved that the thing photographed was the original. (b) A copy compared with a copy of a letter made by a copying machine is secondary evidence of the contents of the letter, if it is shown that the copy made by the copying machine was made from the original. (c) A copy transcribed from a copy, but afterwards compared with the original, is secondary evidence; but the copy not so compared is not secondary evidence of the original, although the copy from which it was transcribed was compared with the original. (d) Neither an oral account of a copy compared with the original, nor an oral account of a photograph or machine-copy of the original, is secondary evidence of the original.",
+  "words": 264
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/58/"
+}

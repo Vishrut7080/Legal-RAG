@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "When notice of dishonour is unnecessary",
+  "html": "<p>No notice of dishonour is necessary--</p><p><span class=\"num\">(a)</span> when it is dispensed with by the party entitled thereto;</p><p><span class=\"num\">(b)</span> in order to charge the drawer, when he has countermanded payment;</p><p><span class=\"num\">(c)</span> when the party charged could not suffer damage for want of notice;</p><p><span class=\"num\">(d)</span> when the party entitled to notice cannot after due search be found; or the party bound to give notice is, for any other reason, unable without any fault of his own to give it;</p><p><span class=\"num\">(e)</span> to charge the drawers, when the acceptor is also a drawer;</p><p><span class=\"num\">(f)</span> in the case of a promissory note which is not negotiable;</p><p><span class=\"num\">(g)</span> when the party entitled to notice, knowing the facts, promises unconditionally to pay the amount due on the instrument.</p>",
+  "number": "98",
+  "text": "No notice of dishonour is necessary-- (a) when it is dispensed with by the party entitled thereto; (b) in order to charge the drawer, when he has countermanded payment; (c) when the party charged could not suffer damage for want of notice; (d) when the party entitled to notice cannot after due search be found; or the party bound to give notice is, for any other reason, unable without any fault of his own to give it; (e) to charge the drawers, when the acceptor is also a drawer; (f) in the case of a promissory note which is not negotiable; (g) when the party entitled to notice, knowing the facts, promises unconditionally to pay the amount due on the instrument.",
+  "words": 121
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/98/"
+}

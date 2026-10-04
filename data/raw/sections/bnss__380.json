@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "341",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/341/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Appeal",
+  "html": "<p><span class=\"num\">(1)</span> Any person on whose application any Court other than a High Court has refused to make a complaint under sub-section<i> (1)</i> or sub-section<i> (2)</i> of section <a href=\"/bnss/section/379/\">379</a>, or against whom such a complaint has been made by such Court, may appeal to the Court to which such former Court is subordinate within the meaning of sub-section <i>(4)</i> of section <a href=\"/bnss/section/215/\">215</a>, and the superior Court may thereupon, after notice to the parties concerned, direct the withdrawal of the complaint, or, as the case may be, making of the complaint which such former Court might have made under section <a href=\"/bnss/section/379/\">379</a>, and, if it makes such complaint, the provisions of that section shall apply accordingly.</p><p><span class=\"num\">(2)</span> An order under this section, and subject to any such order, an order under section <a href=\"/bnss/section/379/\">379</a>, shall be final, and shall not be subject to revision.</p>",
+  "number": "380",
+  "text": "(1) Any person on whose application any Court other than a High Court has refused to make a complaint under sub-section (1) or sub-section (2) of section 379, or against whom such a complaint has been made by such Court, may appeal to the Court to which such former Court is subordinate within the meaning of sub-section (4) of section 215, and the superior Court may thereupon, after notice to the parties concerned, direct the withdrawal of the complaint, or, as the case may be, making of the complaint which such former Court might have made under section 379, and, if it makes such complaint, the provisions of that section shall apply accordingly. (2) An order under this section, and subject to any such order, an order under section 379, shall be final, and shall not be subject to revision.",
+  "words": 140
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/380/"
+}

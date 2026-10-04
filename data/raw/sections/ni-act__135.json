@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Law of place of payment governs dishonour",
+  "html": "<p>here a promissory note, bill of exchange or cheque is made payable in a different place from that in which it is made or indorsed, the law of the place where it is made payable determines what constitutes dishonour and what notice of dishonour is sufficient.</p><p class=\"rubric\"><i>Illustration</i></p><p>A bill of exchange drawn and indorsed in <sup>1</sup>[India], but accepted payable in France, is dishonoured. The indorsee causes it to be protested for such dishonour, and gives notice thereof in accordance with the law of France, though not in accordance with the rules herein contained in respect of bills which are not foreign. The notice is sufficient.</p>",
+  "number": "135",
+  "text": "here a promissory note, bill of exchange or cheque is made payable in a different place from that in which it is made or indorsed, the law of the place where it is made payable determines what constitutes dishonour and what notice of dishonour is sufficient. Illustration A bill of exchange drawn and indorsed in 1[India], but accepted payable in France, is dishonoured. The indorsee causes it to be protested for such dishonour, and gives notice thereof in accordance with the law of France, though not in accordance with the rules herein contained in respect of bills which are not foreign. The notice is sufficient.",
+  "words": 105
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/135/"
+}

@@ -1,0 +1,833 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1996,
+  "department": "Department of Legal Affairs",
+  "duplicate_of": null,
+  "enact_date": "1996-08-16",
+  "enforcement_date": "1996-08-22",
+  "id": "arbitration-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to domestic arbitration, international commercial arbitration and enforcement of foreign arbitral awards as also to define the law relating to conciliation and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 106,
+  "short_title": "The Arbitration and Conciliation Act, 1996",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/arbitration-act/"
+ },
+ "amendments": [
+  {
+   "act_number": "26",
+   "title": "The Arbitration and Conciliation Act, 1996",
+   "year": 2021
+  },
+  {
+   "act_number": "26",
+   "title": "The Arbitration and Conciliation Act, 1996",
+   "year": 2019
+  },
+  {
+   "act_number": "26",
+   "title": "The Arbitration and Conciliation (Amendment) Act, 2015",
+   "year": 2016
+  }
+ ],
+ "count": 106,
+ "schedules": [
+  {
+   "ord": 1,
+   "title": "THE FIRST SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/schedule/1/",
+   "words": 1932
+  },
+  {
+   "ord": 2,
+   "title": "THE SECOND SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/schedule/2/",
+   "words": 659
+  },
+  {
+   "ord": 3,
+   "title": "THE THIRD SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/schedule/3/",
+   "words": 1271
+  },
+  {
+   "ord": 4,
+   "title": "THE FOURTH SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/schedule/4/",
+   "words": 177
+  },
+  {
+   "ord": 5,
+   "title": "THE FIFTH SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/schedule/5/",
+   "words": 496
+  },
+  {
+   "ord": 6,
+   "title": "THE SIXTH SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/schedule/6/",
+   "words": 98
+  },
+  {
+   "ord": 7,
+   "title": "THE SEVENTH SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/schedule/7/",
+   "words": 584
+  },
+  {
+   "ord": 8,
+   "title": "THE EIGHTH SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/schedule/8/",
+   "words": 20
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Short title, extent and commencement",
+   "indexable": true,
+   "number": "1",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/1/",
+   "words": 46
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "2",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/2/",
+   "words": 732
+  },
+  {
+   "heading": "Receipt of written communications",
+   "indexable": true,
+   "number": "3",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/3/",
+   "words": 133
+  },
+  {
+   "heading": "Waiver of right to object",
+   "indexable": true,
+   "number": "4",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/4/",
+   "words": 73
+  },
+  {
+   "heading": "Extent of judicial intervention",
+   "indexable": true,
+   "number": "5",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/5/",
+   "words": 31
+  },
+  {
+   "heading": "Administrative assistance",
+   "indexable": true,
+   "number": "6",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/6/",
+   "words": 33
+  },
+  {
+   "heading": "Arbitration agreement",
+   "indexable": true,
+   "number": "7",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/7/",
+   "words": 181
+  },
+  {
+   "heading": "Power to refer parties to arbitration where there is an arbitration agreement",
+   "indexable": true,
+   "number": "8",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/8/",
+   "words": 1029
+  },
+  {
+   "heading": "Interim measures, etc., by Court",
+   "indexable": true,
+   "number": "9",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/9/",
+   "words": 324
+  },
+  {
+   "heading": "Number of arbitrators",
+   "indexable": true,
+   "number": "10",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/10/",
+   "words": 39
+  },
+  {
+   "heading": "Appointment of arbitrators",
+   "indexable": true,
+   "number": "11",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/11/",
+   "words": 1027
+  },
+  {
+   "heading": "Power of Central Government to amend Fourth Schedule",
+   "indexable": true,
+   "number": "11A",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/11A/",
+   "words": 168
+  },
+  {
+   "heading": "Grounds for challenge",
+   "indexable": true,
+   "number": "12",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/12/",
+   "words": 287
+  },
+  {
+   "heading": "Challenge procedure",
+   "indexable": true,
+   "number": "13",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/13/",
+   "words": 204
+  },
+  {
+   "heading": "Failure or impossibility to act",
+   "indexable": true,
+   "number": "14",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/14/",
+   "words": 148
+  },
+  {
+   "heading": "Termination of mandate and substitution of arbitrator",
+   "indexable": true,
+   "number": "15",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/15/",
+   "words": 142
+  },
+  {
+   "heading": "Competence of arbitral tribunal to rule on its jurisdiction",
+   "indexable": true,
+   "number": "16",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/16/",
+   "words": 258
+  },
+  {
+   "heading": "Interim measures ordered by arbitral tribunal",
+   "indexable": true,
+   "number": "17",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/17/",
+   "words": 289
+  },
+  {
+   "heading": "Equal treatment of parties",
+   "indexable": true,
+   "number": "18",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/18/",
+   "words": 20
+  },
+  {
+   "heading": "Determination of rules of procedure",
+   "indexable": true,
+   "number": "19",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/19/",
+   "words": 102
+  },
+  {
+   "heading": "Place of arbitration",
+   "indexable": true,
+   "number": "20",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/20/",
+   "words": 91
+  },
+  {
+   "heading": "Commencement of arbitral proceedings",
+   "indexable": true,
+   "number": "21",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/21/",
+   "words": 36
+  },
+  {
+   "heading": "Language",
+   "indexable": true,
+   "number": "22",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/22/",
+   "words": 107
+  },
+  {
+   "heading": "Statements of claim and defence",
+   "indexable": true,
+   "number": "23",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/23/",
+   "words": 215
+  },
+  {
+   "heading": "Hearings and written proceedings",
+   "indexable": true,
+   "number": "24",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/24/",
+   "words": 209
+  },
+  {
+   "heading": "Default of a party",
+   "indexable": true,
+   "number": "25",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/25/",
+   "words": 130
+  },
+  {
+   "heading": "Expert appointed by arbitral tribunal",
+   "indexable": true,
+   "number": "26",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/26/",
+   "words": 168
+  },
+  {
+   "heading": "Court assistance in taking evidence",
+   "indexable": true,
+   "number": "27",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/27/",
+   "words": 248
+  },
+  {
+   "heading": "Rules applicable to substance of dispute",
+   "indexable": true,
+   "number": "28",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/28/",
+   "words": 204
+  },
+  {
+   "heading": "Decision making by panel of arbitrators",
+   "indexable": true,
+   "number": "29",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/29/",
+   "words": 58
+  },
+  {
+   "heading": "Time limit for arbitral award",
+   "indexable": true,
+   "number": "29A",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/29A/",
+   "words": 635
+  },
+  {
+   "heading": "Fast track procedure",
+   "indexable": true,
+   "number": "29B",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/29B/",
+   "words": 296
+  },
+  {
+   "heading": "Settlement",
+   "indexable": true,
+   "number": "30",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/30/",
+   "words": 139
+  },
+  {
+   "heading": "Form and contents of arbitral award",
+   "indexable": true,
+   "number": "31",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/31/",
+   "words": 413
+  },
+  {
+   "heading": "Regime for costs",
+   "indexable": true,
+   "number": "31A",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/31A/",
+   "words": 391
+  },
+  {
+   "heading": "Termination of proceedings",
+   "indexable": true,
+   "number": "32",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/32/",
+   "words": 128
+  },
+  {
+   "heading": "Correction and interpretation of award; additional award",
+   "indexable": true,
+   "number": "33",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/33/",
+   "words": 307
+  },
+  {
+   "heading": "Application for setting aside arbitral awards",
+   "indexable": true,
+   "number": "34",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/34/",
+   "words": 861
+  },
+  {
+   "heading": "Finality of arbitral awards",
+   "indexable": true,
+   "number": "35",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/35/",
+   "words": 21
+  },
+  {
+   "heading": "Enforcement",
+   "indexable": true,
+   "number": "36",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/36/",
+   "words": 339
+  },
+  {
+   "heading": "Appealable orders",
+   "indexable": true,
+   "number": "37",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/37/",
+   "words": 157
+  },
+  {
+   "heading": "Deposits",
+   "indexable": true,
+   "number": "38",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/38/",
+   "words": 193
+  },
+  {
+   "heading": "Lien on arbitral award and deposits as to costs",
+   "indexable": true,
+   "number": "39",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/39/",
+   "words": 227
+  },
+  {
+   "heading": "Arbitration agreement not to be discharged by death of party thereto",
+   "indexable": true,
+   "number": "40",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/40/",
+   "words": 91
+  },
+  {
+   "heading": "Provisions in case of insolvency",
+   "indexable": true,
+   "number": "41",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/41/",
+   "words": 200
+  },
+  {
+   "heading": "Jurisdiction",
+   "indexable": true,
+   "number": "42",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/42/",
+   "words": 70
+  },
+  {
+   "heading": "Confidentiality of information",
+   "indexable": true,
+   "number": "42A",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/42A/",
+   "words": 52
+  },
+  {
+   "heading": "Protection of action taken in good faith",
+   "indexable": true,
+   "number": "42B",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/42B/",
+   "words": 42
+  },
+  {
+   "heading": "Limitations",
+   "indexable": true,
+   "number": "43",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43/",
+   "words": 211
+  },
+  {
+   "heading": "Definitions",
+   "indexable": false,
+   "number": "43A",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43A/",
+   "words": 0
+  },
+  {
+   "heading": "Establishment and incorporation of Arbitration Council of India",
+   "indexable": false,
+   "number": "43B",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43B/",
+   "words": 0
+  },
+  {
+   "heading": "Composition of Council",
+   "indexable": false,
+   "number": "43C",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43C/",
+   "words": 0
+  },
+  {
+   "heading": "Duties and functions of Council",
+   "indexable": false,
+   "number": "43D",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43D/",
+   "words": 0
+  },
+  {
+   "heading": "Vacancies, etc., not to invalidate proceedings of Council",
+   "indexable": false,
+   "number": "43E",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43E/",
+   "words": 0
+  },
+  {
+   "heading": "Resignation of Members",
+   "indexable": false,
+   "number": "43F",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43F/",
+   "words": 0
+  },
+  {
+   "heading": "Removal of Member",
+   "indexable": false,
+   "number": "43G",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43G/",
+   "words": 0
+  },
+  {
+   "heading": "Appointment of experts and constitution of Committees thereof.57",
+   "indexable": false,
+   "number": "43H",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43H/",
+   "words": 0
+  },
+  {
+   "heading": "General norms for grading of arbitral institutions",
+   "indexable": false,
+   "number": "43-I",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43-I/",
+   "words": 0
+  },
+  {
+   "heading": "Norms for accreditation of arbitrators",
+   "indexable": false,
+   "number": "43J",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43J/",
+   "words": 0
+  },
+  {
+   "heading": "Depository of awards",
+   "indexable": false,
+   "number": "43K",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43K/",
+   "words": 0
+  },
+  {
+   "heading": "Power to make regulations by Council",
+   "indexable": false,
+   "number": "43L",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43L/",
+   "words": 0
+  },
+  {
+   "heading": "Chief Executive Officer",
+   "indexable": false,
+   "number": "43M",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/43M/",
+   "words": 0
+  },
+  {
+   "heading": "Definition",
+   "indexable": true,
+   "number": "44",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/44/",
+   "words": 104
+  },
+  {
+   "heading": "Power of judicial authority to refer parties to arbitration",
+   "indexable": true,
+   "number": "45",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/45/",
+   "words": 84
+  },
+  {
+   "heading": "When foreign award binding",
+   "indexable": true,
+   "number": "46",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/46/",
+   "words": 74
+  },
+  {
+   "heading": "Evidence",
+   "indexable": true,
+   "number": "47",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/47/",
+   "words": 210
+  },
+  {
+   "heading": "Conditions for enforcement of foreign awards",
+   "indexable": true,
+   "number": "48",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/48/",
+   "words": 493
+  },
+  {
+   "heading": "Enforcement of foreign awards",
+   "indexable": true,
+   "number": "49",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/49/",
+   "words": 26
+  },
+  {
+   "heading": "Appealable orders",
+   "indexable": true,
+   "number": "50",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/50/",
+   "words": 85
+  },
+  {
+   "heading": "Saving",
+   "indexable": true,
+   "number": "51",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/51/",
+   "words": 37
+  },
+  {
+   "heading": "Chapter II not to apply",
+   "indexable": true,
+   "number": "52",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/52/",
+   "words": 18
+  },
+  {
+   "heading": "Interpretation",
+   "indexable": true,
+   "number": "53",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/53/",
+   "words": 190
+  },
+  {
+   "heading": "Power of judicial authority to refer parties to arbitration",
+   "indexable": true,
+   "number": "54",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/54/",
+   "words": 111
+  },
+  {
+   "heading": "Foreign awards when binding",
+   "indexable": true,
+   "number": "55",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/55/",
+   "words": 74
+  },
+  {
+   "heading": "Evidence",
+   "indexable": true,
+   "number": "56",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/56/",
+   "words": 215
+  },
+  {
+   "heading": "Conditions for enforcement of foreign awards",
+   "indexable": true,
+   "number": "57",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/57/",
+   "words": 519
+  },
+  {
+   "heading": "Enforcement of foreign awards",
+   "indexable": true,
+   "number": "58",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/58/",
+   "words": 26
+  },
+  {
+   "heading": "Appealable orders",
+   "indexable": true,
+   "number": "59",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/59/",
+   "words": 74
+  },
+  {
+   "heading": "Savings",
+   "indexable": true,
+   "number": "60",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/60/",
+   "words": 37
+  },
+  {
+   "heading": "Application and scope",
+   "indexable": true,
+   "number": "61",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/61/",
+   "words": 70
+  },
+  {
+   "heading": "Commencement of conciliation proceedings",
+   "indexable": true,
+   "number": "62",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/62/",
+   "words": 119
+  },
+  {
+   "heading": "Number of conciliators",
+   "indexable": true,
+   "number": "63",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/63/",
+   "words": 35
+  },
+  {
+   "heading": "Appointment of conciliators",
+   "indexable": true,
+   "number": "64",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/64/",
+   "words": 197
+  },
+  {
+   "heading": "Submission of statements to conciliator",
+   "indexable": true,
+   "number": "65",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/65/",
+   "words": 151
+  },
+  {
+   "heading": "Conciliator not bound by certain enactments",
+   "indexable": true,
+   "number": "66",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/66/",
+   "words": 24
+  },
+  {
+   "heading": "Role of conciliator",
+   "indexable": true,
+   "number": "67",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/67/",
+   "words": 160
+  },
+  {
+   "heading": "Administrative assistance",
+   "indexable": true,
+   "number": "68",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/68/",
+   "words": 32
+  },
+  {
+   "heading": "Communication between conciliator and parties",
+   "indexable": true,
+   "number": "69",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/69/",
+   "words": 74
+  },
+  {
+   "heading": "Disclosure of information",
+   "indexable": true,
+   "number": "70",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/70/",
+   "words": 74
+  },
+  {
+   "heading": "Co-operation of parties with conciliator",
+   "indexable": true,
+   "number": "71",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/71/",
+   "words": 31
+  },
+  {
+   "heading": "Suggestions by parties for settlement of dispute",
+   "indexable": true,
+   "number": "72",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/72/",
+   "words": 25
+  },
+  {
+   "heading": "Settlement agreement",
+   "indexable": true,
+   "number": "73",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/73/",
+   "words": 145
+  },
+  {
+   "heading": "Status and effect of settlement agreement",
+   "indexable": true,
+   "number": "74",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/74/",
+   "words": 34
+  },
+  {
+   "heading": "Confidentiality",
+   "indexable": true,
+   "number": "75",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/75/",
+   "words": 48
+  },
+  {
+   "heading": "Termination of conciliation proceedings",
+   "indexable": true,
+   "number": "76",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/76/",
+   "words": 116
+  },
+  {
+   "heading": "Resort to arbitral or judicial proceedings",
+   "indexable": true,
+   "number": "77",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/77/",
+   "words": 49
+  },
+  {
+   "heading": "Costs",
+   "indexable": true,
+   "number": "78",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/78/",
+   "words": 135
+  },
+  {
+   "heading": "Deposits",
+   "indexable": true,
+   "number": "79",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/79/",
+   "words": 130
+  },
+  {
+   "heading": "Role of conciliator in other proceedings",
+   "indexable": true,
+   "number": "80",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/80/",
+   "words": 62
+  },
+  {
+   "heading": "Admissibility of evidence in other proceedings",
+   "indexable": true,
+   "number": "81",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/81/",
+   "words": 92
+  },
+  {
+   "heading": "Power of High Court to make rules",
+   "indexable": true,
+   "number": "82",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/82/",
+   "words": 20
+  },
+  {
+   "heading": "Removal of difficulties",
+   "indexable": true,
+   "number": "83",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/83/",
+   "words": 98
+  },
+  {
+   "heading": "Power to make rules",
+   "indexable": true,
+   "number": "84",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/84/",
+   "words": 156
+  },
+  {
+   "heading": "Repeal and savings",
+   "indexable": true,
+   "number": "85",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/85/",
+   "words": 121
+  },
+  {
+   "heading": "Repeal and saving",
+   "indexable": true,
+   "number": "86",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/86/",
+   "words": 59
+  },
+  {
+   "heading": "Effect of arbitral and related court proceedings commenced prior to 23rd October, 2015",
+   "indexable": true,
+   "number": "87",
+   "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/87/",
+   "words": 120
+  }
+ ]
+}

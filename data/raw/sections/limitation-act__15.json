@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Exclusion of time in certain other cases",
+  "html": "<p><span class=\"num\">(1)</span> In computing the period of limitation of any suit or application for the execution of a decree, the institution or execution of which has been stayed by injunction or order, the time of the continuance of the injunction or order, the day on which it was issued or made, and the day on which it was withdrawn, shall be excluded.</p><p><span class=\"num\">(2)</span> In computing the period of limitation for any suit of which notice has been given, or for which the previous consent or sanction of the Government or any other authority is required, in accordance with the requirements of any law for the time being in force, the period of such notice or, as the case may be, the time required for obtaining such consent or sanction shall be excluded.</p><p><i>Explanation.<i>—In excluding the time required for obtaining the consent or sanction of the Government or any other authority, the date on which the application was made for obtaining the consent or sanction and the date of receipt of the order of the Government or other authority shall both be counted.</p><p><span class=\"num\">(3)</span> In computing the period of limitation for any suit or application for execution of a decree by any receiver or interim receiver appointed in proceedings for the adjudication of a person as an insolvent or by any liquidator or provisional liquidator appointed in proceedings for the winding up of a company, the period beginning with the date of institution of such proceeding and ending with the expiry of three months from the date of appointment of such receiver or liquidator, as the case may be, shall be excluded.</p><p><span class=\"num\">(4)</span> In computing the period of limitation for a suit for possession by a purchaser at a sale in execution of a decree, the time during which a proceeding to set aside the sale has been prosecuted shall be excluded.</p><p><span class=\"num\">(5)</span> In computing the period of limitation for any suit the time during which the defendant has been absent from India and from the territories outside India under the administration of the Central Government, shall be excluded.</p>",
+  "number": "15",
+  "text": "(1) In computing the period of limitation of any suit or application for the execution of a decree, the institution or execution of which has been stayed by injunction or order, the time of the continuance of the injunction or order, the day on which it was issued or made, and the day on which it was withdrawn, shall be excluded. (2) In computing the period of limitation for any suit of which notice has been given, or for which the previous consent or sanction of the Government or any other authority is required, in accordance with the requirements of any law for the time being in force, the period of such notice or, as the case may be, the time required for obtaining such consent or sanction shall be excluded. Explanation.—In excluding the time required for obtaining the consent or sanction of the Government or any other authority, the date on which the application was made for obtaining the consent or sanction and the date of receipt of the order of the Government or other authority shall both be counted. (3) In computing the period of limitation for any suit or application for execution of a decree by any receiver or interim receiver appointed in proceedings for the adjudication of a person as an insolvent or by any liquidator or provisional liquidator appointed in proceedings for the winding up of a company, the period beginning with the date of institution of such proceeding and ending with the expiry of three months from the date of appointment of such receiver or liquidator, as the case may be, shall be excluded. (4) In computing the period of limitation for a suit for possession by a purchaser at a sale in execution of a decree, the time during which a proceeding to set aside the sale has been prosecuted shall be excluded. (5) In computing the period of limitation for any suit the time during which the defendant has been absent from India and from the territories outside India under the administration of the Central Government, shall be excluded.",
+  "words": 347
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/limitation-act/section/15/"
+}

@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1996,
+  "department": "Department of Legal Affairs",
+  "duplicate_of": null,
+  "enact_date": "1996-08-16",
+  "enforcement_date": "1996-08-22",
+  "id": "arbitration-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to domestic arbitration, international commercial arbitration and enforcement of foreign arbitral awards as also to define the law relating to conciliation and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 106,
+  "short_title": "The Arbitration and Conciliation Act, 1996",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/arbitration-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 9,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Grounds for challenge",
+  "html": "<p><sup>1</sup>[(1) When a person is approached in connection with his possible appointment as an arbitrator, he shall disclose in writing any circumstances,—</p><p><span class=\"num\">(a)</span> such as the existence either direct or indirect, of any past or present relationship with or interest in any of the parties or in relation to the subject-matter in dispute, whether financial, business, professional or other kind, which is likely to give rise to justifiable doubts as to his independence or impartiality; and</p><p><span class=\"num\">(b)</span> which are likely to affect his ability to devote sufficient time to the arbitration and in particular his ability to complete the entire arbitration within a period of twelve months.</p><p><i>Explanation</i> 1.—The grounds stated in the Fifth Schedule shall guide in determining whether circumstances exist which give rise to justifiable doubts as to the independence or impartiality of an arbitrator.</p><p><i>Explanation</i> 2.—The disclosure shall be made by such person in the form specified in the Sixth Schedule.]</p><p><span class=\"num\">(3)</span> An arbitrator may be challenged only if—</p><p><span class=\"num\">(a)</span> circumstances exist that give rise to justifiable doubts as to his independence or impartiality, or</p><p><span class=\"num\">(b)</span> he does not possess the qualifications agreed to by the parties.</p><p><span class=\"num\">(4)</span> A party may challenge an arbitrator appointed by him, or in whose appointment he has participated, only for reasons of which he becomes aware after the appointment has been made.</p><p><sup>2</sup>[(5) Notwithstanding any prior agreement to the contrary, any person whose relationship, with the parties or counsel or the subject-matter of the dispute, falls under any of the categories specified in the Seventh Schedule shall be ineligible to be appointed as an arbitrator:</p><p>Provided that parties may, subsequent to disputes having arisen between them, waive the applicability of this sub-section by an express agreement in writing.]</p>",
+  "number": "12",
+  "text": "1[(1) When a person is approached in connection with his possible appointment as an arbitrator, he shall disclose in writing any circumstances,— (a) such as the existence either direct or indirect, of any past or present relationship with or interest in any of the parties or in relation to the subject-matter in dispute, whether financial, business, professional or other kind, which is likely to give rise to justifiable doubts as to his independence or impartiality; and (b) which are likely to affect his ability to devote sufficient time to the arbitration and in particular his ability to complete the entire arbitration within a period of twelve months. Explanation 1.—The grounds stated in the Fifth Schedule shall guide in determining whether circumstances exist which give rise to justifiable doubts as to the independence or impartiality of an arbitrator. Explanation 2.—The disclosure shall be made by such person in the form specified in the Sixth Schedule.] (3) An arbitrator may be challenged only if— (a) circumstances exist that give rise to justifiable doubts as to his independence or impartiality, or (b) he does not possess the qualifications agreed to by the parties. (4) A party may challenge an arbitrator appointed by him, or in whose appointment he has participated, only for reasons of which he becomes aware after the appointment has been made. 2[(5) Notwithstanding any prior agreement to the contrary, any person whose relationship, with the parties or counsel or the subject-matter of the dispute, falls under any of the categories specified in the Seventh Schedule shall be ineligible to be appointed as an arbitrator: Provided that parties may, subsequent to disputes having arisen between them, waive the applicability of this sub-section by an express agreement in writing.]",
+  "words": 287
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/12/"
+}

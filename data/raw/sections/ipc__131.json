@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "159",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/159/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Abetting mutiny, or attempting to seduce a soldier, sailor or airman from his duty",
+  "html": "<p>Whoever abets the committing of mutiny by an officer, soldier, [sailor or airman], in the Army, [Navy or Air Force] of the [Government of India] or attempts to seduce any such officer, soldier, [sailor or airman] from his allegiance or his duty, shall be punished with [imprisonment for life], or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.</p><p>[Explanation.-In this section the words &quot;officer&quot;, [&quot;soldier&quot;, [&quot;sailor&quot;] and &quot;airman&quot;] include any person subject to the [Army Act, [the Army Act, 1950 (46 of 1950)], [the Naval Discipline Act, the Indian Navy (Discipline) Act,1934 (34 of 1934)] [the Air Force Act or [the Air Force Act, 1950 (45 of 1950)]], as the case may be].]</p>",
+  "number": "131",
+  "text": "Whoever abets the committing of mutiny by an officer, soldier, [sailor or airman], in the Army, [Navy or Air Force] of the [Government of India] or attempts to seduce any such officer, soldier, [sailor or airman] from his allegiance or his duty, shall be punished with [imprisonment for life], or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. [Explanation.-In this section the words \"officer\", [\"soldier\", [\"sailor\"] and \"airman\"] include any person subject to the [Army Act, [the Army Act, 1950 (46 of 1950)], [the Naval Discipline Act, the Indian Navy (Discipline) Act,1934 (34 of 1934)] [the Air Force Act or [the Air Force Act, 1950 (45 of 1950)]], as the case may be].]",
+  "words": 126
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/131/"
+}

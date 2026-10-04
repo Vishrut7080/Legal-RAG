@@ -1,0 +1,88 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "5dbd6da1",
+   "kind": "notification",
+   "relation": "named_in_title",
+   "title": "Designated link officer under section 69A of the IT Act",
+   "url": "https://indiacode.ecourtsindia.com/rules/designated-link-officer-under-section-69a-of-the-it-act-5dbd6da1/",
+   "year": 2023
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "120676b7",
+   "kind": "notification",
+   "relation": "named_in_title",
+   "title": "Notification for Designated Officer under section 69A and Rule 3 of Information Technology (Procedure and Safeguards for Blocking for Access of Information by Public Rules, 2009",
+   "url": "https://indiacode.ecourtsindia.com/rules/notification-for-designated-officer-under-section-69a-and-rule-3-of-120676b7/",
+   "year": 2010
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "9eb4b49e",
+   "kind": "notification",
+   "relation": "mentions",
+   "title": "Designated officer under 69A of the Act",
+   "url": "https://indiacode.ecourtsindia.com/rules/designated-officer-under-69a-of-the-act-9eb4b49e/",
+   "year": 2021
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "ad366576",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021.",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-intermediary-guidelines-and-digital-media-ad366576/",
+   "year": 2021
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "87b08689",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (Procedure and Safeguards for Blocking for Access of Information by Public) Rules, 2009",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-procedure-and-safeguards-for-blocking-for-87b08689/",
+   "year": 2009
+  }
+ ],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Power to issue directions for blocking for public access of any information through any computer resource",
+  "html": "<p><span class=\"num\">(1)</span> Where the Central Government or any of its officers specially authorised by it in this behalf is satisfied that it is necessary or expedient so to do, in the interest of sovereignty and integrity of India, defence of India, security of the State, friendly relations with foreign States or public order or for preventing incitement to the commission of any cognizable offence relating to above, it may subject to the provisions of sub-section <i>(2)</i>, for reasons to be recorded in writing, by order, direct any agency of the Government or intermediary to block for access by the public or cause to be blocked for access by the public any information generated, transmitted, received, stored or hosted in any computer resource.</p><p><span class=\"num\">(2)</span> The procedure and safeguards subject to which such blocking for access by the public may be carried out, shall be such as may be prescribed.</p><p><span class=\"num\">(3)</span> The intermediary who fails to comply with the direction issued under sub-section <i>(1)</i> shall be punished with an imprisonment for a term which may extend to seven years and also be liable to fine.</p>",
+  "number": "69A",
+  "text": "(1) Where the Central Government or any of its officers specially authorised by it in this behalf is satisfied that it is necessary or expedient so to do, in the interest of sovereignty and integrity of India, defence of India, security of the State, friendly relations with foreign States or public order or for preventing incitement to the commission of any cognizable offence relating to above, it may subject to the provisions of sub-section (2), for reasons to be recorded in writing, by order, direct any agency of the Government or intermediary to block for access by the public or cause to be blocked for access by the public any information generated, transmitted, received, stored or hosted in any computer resource. (2) The procedure and safeguards subject to which such blocking for access by the public may be carried out, shall be such as may be prescribed. (3) The intermediary who fails to comply with the direction issued under sub-section (1) shall be punished with an imprisonment for a term which may extend to seven years and also be liable to fine.",
+  "words": 182
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/69A/"
+}

@@ -1,0 +1,1842 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "amendments": [],
+ "count": 257,
+ "not_held": [
+  "amendments"
+ ],
+ "not_held_note": "This corpus holds no amendments for this Act. An empty list means not on file here, not that none exist.",
+ "schedules": [
+  {
+   "ord": 1,
+   "title": "THE FIRST SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/schedule/1/",
+   "words": 314
+  },
+  {
+   "ord": 2,
+   "title": "THE SECOND SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/schedule/2/",
+   "words": 39
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Short title, extent and commencement",
+   "indexable": true,
+   "number": "1",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/1/",
+   "words": 83
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "2",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/2/",
+   "words": 1948
+  },
+  {
+   "heading": "e-cart and e-rickshaw",
+   "indexable": true,
+   "number": "2A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/2A/",
+   "words": 93
+  },
+  {
+   "heading": "Promotion of innovation",
+   "indexable": true,
+   "number": "2B",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/2B/",
+   "words": 63
+  },
+  {
+   "heading": "Necessity for driving licence",
+   "indexable": true,
+   "number": "3",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/3/",
+   "words": 104
+  },
+  {
+   "heading": "Age limit in connection with driving of motor vehicles",
+   "indexable": true,
+   "number": "4",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/4/",
+   "words": 111
+  },
+  {
+   "heading": "Responsibility of owners of motor vehicles for contravention of sections 3 and 4",
+   "indexable": true,
+   "number": "5",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/5/",
+   "words": 32
+  },
+  {
+   "heading": "Restrictions on the holding of driving licences",
+   "indexable": true,
+   "number": "6",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/6/",
+   "words": 118
+  },
+  {
+   "heading": "Restrictions on the granting of learner's licences for certain vehicles",
+   "indexable": true,
+   "number": "7",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/7/",
+   "words": 87
+  },
+  {
+   "heading": "Grant of learner's licence",
+   "indexable": true,
+   "number": "8",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/8/",
+   "words": 622
+  },
+  {
+   "heading": "Grant of driving licence",
+   "indexable": true,
+   "number": "9",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/9/",
+   "words": 857
+  },
+  {
+   "heading": "Form and contents of licences to drive",
+   "indexable": true,
+   "number": "10",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/10/",
+   "words": 96
+  },
+  {
+   "heading": "Additions to driving licence",
+   "indexable": true,
+   "number": "11",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/11/",
+   "words": 181
+  },
+  {
+   "heading": "Licensing and regulation of schools or establishments for imparting instruction in driving of motor vehicles",
+   "indexable": true,
+   "number": "12",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/12/",
+   "words": 628
+  },
+  {
+   "heading": "Extent of effectiveness of licences, to drive motor vehicles",
+   "indexable": true,
+   "number": "13",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/13/",
+   "words": 16
+  },
+  {
+   "heading": "Currency of licences to drive motor vehicles",
+   "indexable": true,
+   "number": "14",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/14/",
+   "words": 296
+  },
+  {
+   "heading": "Renewal of driving licences",
+   "indexable": true,
+   "number": "15",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/15/",
+   "words": 459
+  },
+  {
+   "heading": "Revocation of driving licence on grounds of disease or disability",
+   "indexable": true,
+   "number": "16",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/16/",
+   "words": 118
+  },
+  {
+   "heading": "Orders refusing or revoking driving licences and appeals therefrom",
+   "indexable": true,
+   "number": "17",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/17/",
+   "words": 131
+  },
+  {
+   "heading": "Driving Licences to drive motor vehicles, belonging to the Central Government",
+   "indexable": true,
+   "number": "18",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/18/",
+   "words": 164
+  },
+  {
+   "heading": "Power of licensing authority to disqualify from holding a driving licence or revoke such licence",
+   "indexable": true,
+   "number": "19",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/19/",
+   "words": 727
+  },
+  {
+   "heading": "Power of Court to disqualify",
+   "indexable": true,
+   "number": "20",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/20/",
+   "words": 447
+  },
+  {
+   "heading": "Suspension of driving licence in certain cases",
+   "indexable": true,
+   "number": "21",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/21/",
+   "words": 300
+  },
+  {
+   "heading": "Suspension or cancellation of driving licence on conviction",
+   "indexable": true,
+   "number": "22",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/22/",
+   "words": 393
+  },
+  {
+   "heading": "Effect of disqualification order",
+   "indexable": true,
+   "number": "23",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/23/",
+   "words": 223
+  },
+  {
+   "heading": "Endorsement",
+   "indexable": true,
+   "number": "24",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/24/",
+   "words": 333
+  },
+  {
+   "heading": "Transfer of endorsement and issue of driving licence free from endorsement",
+   "indexable": true,
+   "number": "25",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/25/",
+   "words": 331
+  },
+  {
+   "heading": "National Register of Driving Licences",
+   "indexable": true,
+   "number": "25A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/25A/",
+   "words": 147
+  },
+  {
+   "heading": "Maintenance of State Registers of Driving Licences",
+   "indexable": true,
+   "number": "26",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/26/",
+   "words": 178
+  },
+  {
+   "heading": "Power of Central Government to make rules",
+   "indexable": true,
+   "number": "27",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/27/",
+   "words": 630
+  },
+  {
+   "heading": "Power of State Government to make rules",
+   "indexable": true,
+   "number": "28",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/28/",
+   "words": 262
+  },
+  {
+   "heading": "Necessity for conductor's licence",
+   "indexable": true,
+   "number": "29",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/29/",
+   "words": 98
+  },
+  {
+   "heading": "Grant of conductor's licence",
+   "indexable": true,
+   "number": "30",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/30/",
+   "words": 189
+  },
+  {
+   "heading": "Disqualifications for the grant of conductor's licence",
+   "indexable": true,
+   "number": "31",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/31/",
+   "words": 72
+  },
+  {
+   "heading": "Revocation of a conductor's licence on grounds of disease or disability",
+   "indexable": true,
+   "number": "32",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/32/",
+   "words": 100
+  },
+  {
+   "heading": "Orders refusing, etc, conductor's licences and appeals therefrom",
+   "indexable": true,
+   "number": "33",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/33/",
+   "words": 110
+  },
+  {
+   "heading": "Power of licensing authority to disqualify",
+   "indexable": true,
+   "number": "34",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/34/",
+   "words": 241
+  },
+  {
+   "heading": "Power of Court to disqualify",
+   "indexable": true,
+   "number": "35",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/35/",
+   "words": 127
+  },
+  {
+   "heading": "Certain provisions of Chapter II to apply to conductor's licence",
+   "indexable": true,
+   "number": "36",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/36/",
+   "words": 43
+  },
+  {
+   "heading": "Savings",
+   "indexable": true,
+   "number": "37",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/37/",
+   "words": 90
+  },
+  {
+   "heading": "Power of State Government to make rules",
+   "indexable": true,
+   "number": "38",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/38/",
+   "words": 314
+  },
+  {
+   "heading": "Necessity for registration",
+   "indexable": true,
+   "number": "39",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/39/",
+   "words": 97
+  },
+  {
+   "heading": "Registration, where to be made",
+   "indexable": true,
+   "number": "40",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/40/",
+   "words": 49
+  },
+  {
+   "heading": "Registration, how to be made",
+   "indexable": true,
+   "number": "41",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/41/",
+   "words": 818
+  },
+  {
+   "heading": "Special provision for registration of motor vehicles of diplomatic officers, etc",
+   "indexable": true,
+   "number": "42",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/42/",
+   "words": 325
+  },
+  {
+   "heading": "Temporary registration",
+   "indexable": true,
+   "number": "43",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/43/",
+   "words": 108
+  },
+  {
+   "heading": "Production of vehicle at the time of registration",
+   "indexable": true,
+   "number": "44",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/44/",
+   "words": 94
+  },
+  {
+   "heading": "Refusal of registration or renewal of the certificate of registration",
+   "indexable": true,
+   "number": "45",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/45/",
+   "words": 147
+  },
+  {
+   "heading": "Effectiveness in India of registration",
+   "indexable": true,
+   "number": "46",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/46/",
+   "words": 50
+  },
+  {
+   "heading": "Assignment of new registration mark on removal to another State",
+   "indexable": true,
+   "number": "47",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/47/",
+   "words": 655
+  },
+  {
+   "heading": "No objection certificate",
+   "indexable": true,
+   "number": "48",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/48/",
+   "words": 456
+  },
+  {
+   "heading": "Change of residence or place of business",
+   "indexable": true,
+   "number": "49",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/49/",
+   "words": 413
+  },
+  {
+   "heading": "Transfer of ownership",
+   "indexable": true,
+   "number": "50",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/50/",
+   "words": 711
+  },
+  {
+   "heading": "Special provisions regarding motor vehicle subject to hire-purchase agreement, etc",
+   "indexable": true,
+   "number": "51",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/51/",
+   "words": 1199
+  },
+  {
+   "heading": "Alteration in motor vehicle",
+   "indexable": true,
+   "number": "52",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/52/",
+   "words": 429
+  },
+  {
+   "heading": "Suspension of registration",
+   "indexable": true,
+   "number": "53",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/53/",
+   "words": 326
+  },
+  {
+   "heading": "Cancellation of registration suspended under section 53",
+   "indexable": true,
+   "number": "54",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/54/",
+   "words": 72
+  },
+  {
+   "heading": "Cancellation of registration",
+   "indexable": true,
+   "number": "55",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/55/",
+   "words": 625
+  },
+  {
+   "heading": "Certificate of fitness of transport vehicles",
+   "indexable": true,
+   "number": "56",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/56/",
+   "words": 523
+  },
+  {
+   "heading": "Appeals",
+   "indexable": true,
+   "number": "57",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/57/",
+   "words": 89
+  },
+  {
+   "heading": "Special provisions in regard to transport vehicles",
+   "indexable": true,
+   "number": "58",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/58/",
+   "words": 396
+  },
+  {
+   "heading": "Power to fix the age limit of motor vehicle",
+   "indexable": true,
+   "number": "59",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/59/",
+   "words": 251
+  },
+  {
+   "heading": "Registration of vehicles belonging to the Central Government",
+   "indexable": true,
+   "number": "60",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/60/",
+   "words": 247
+  },
+  {
+   "heading": "Application of Chapter to trailers",
+   "indexable": true,
+   "number": "61",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/61/",
+   "words": 109
+  },
+  {
+   "heading": "Information regarding stolen and recovered motor vehicles to be furnished by the police to the State Transport Authority",
+   "indexable": true,
+   "number": "62",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/62/",
+   "words": 91
+  },
+  {
+   "heading": "Prohibition of registration and issuance of certificate of fitness to oversized vehicles",
+   "indexable": true,
+   "number": "62A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/62A/",
+   "words": 64
+  },
+  {
+   "heading": "National Register of Motor Vehicles",
+   "indexable": true,
+   "number": "62B",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/62B/",
+   "words": 176
+  },
+  {
+   "heading": "Maintenance of State Registers of Motor Vehicles",
+   "indexable": true,
+   "number": "63",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/63/",
+   "words": 151
+  },
+  {
+   "heading": "Power of Central Government to make rules",
+   "indexable": true,
+   "number": "64",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/64/",
+   "words": 767
+  },
+  {
+   "heading": "Power of State Government to make rules",
+   "indexable": true,
+   "number": "65",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/65/",
+   "words": 400
+  },
+  {
+   "heading": "Necessity for permits",
+   "indexable": true,
+   "number": "66",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/66/",
+   "words": 792
+  },
+  {
+   "heading": "National Transportation Policy",
+   "indexable": true,
+   "number": "66A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/66A/",
+   "words": 252
+  },
+  {
+   "heading": "No bar against permit holders to apply and hold licences under schemes",
+   "indexable": true,
+   "number": "66B",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/66B/",
+   "words": 75
+  },
+  {
+   "heading": "Power to State Government to control road transport",
+   "indexable": true,
+   "number": "67",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/67/",
+   "words": 386
+  },
+  {
+   "heading": "Transport Authorities",
+   "indexable": true,
+   "number": "68",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/68/",
+   "words": 791
+  },
+  {
+   "heading": "General provision as to applications for permits",
+   "indexable": true,
+   "number": "69",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/69/",
+   "words": 228
+  },
+  {
+   "heading": "Application for stage carriage permit",
+   "indexable": true,
+   "number": "70",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/70/",
+   "words": 198
+  },
+  {
+   "heading": "Procedure of Regional Transport Authority in considering application for stage carriage permit",
+   "indexable": true,
+   "number": "71",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/71/",
+   "words": 519
+  },
+  {
+   "heading": "Grant of stage carriage permits",
+   "indexable": true,
+   "number": "72",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/72/",
+   "words": 868
+  },
+  {
+   "heading": "Application for contract carriage permit",
+   "indexable": true,
+   "number": "73",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/73/",
+   "words": 53
+  },
+  {
+   "heading": "Grant of contract carriage permit",
+   "indexable": true,
+   "number": "74",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/74/",
+   "words": 667
+  },
+  {
+   "heading": "Scheme for renting of motor cabs",
+   "indexable": true,
+   "number": "75",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/75/",
+   "words": 190
+  },
+  {
+   "heading": "Application for private service vehicle permit",
+   "indexable": true,
+   "number": "76",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/76/",
+   "words": 323
+  },
+  {
+   "heading": "Application for goods carriage permit",
+   "indexable": true,
+   "number": "77",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/77/",
+   "words": 226
+  },
+  {
+   "heading": "Consideration of application for goods carriage permit",
+   "indexable": true,
+   "number": "78",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/78/",
+   "words": 62
+  },
+  {
+   "heading": "Grant of goods carriage permit",
+   "indexable": true,
+   "number": "79",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/79/",
+   "words": 309
+  },
+  {
+   "heading": "Procedure in applying for and granting permits",
+   "indexable": true,
+   "number": "80",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/80/",
+   "words": 628
+  },
+  {
+   "heading": "Duration and renewal of permits",
+   "indexable": true,
+   "number": "81",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/81/",
+   "words": 433
+  },
+  {
+   "heading": "Transfer of permit",
+   "indexable": true,
+   "number": "82",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/82/",
+   "words": 252
+  },
+  {
+   "heading": "Replacement of vehicles",
+   "indexable": true,
+   "number": "83",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/83/",
+   "words": 33
+  },
+  {
+   "heading": "General conditions attaching to all permits",
+   "indexable": true,
+   "number": "84",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/84/",
+   "words": 237
+  },
+  {
+   "heading": "General form of permits",
+   "indexable": true,
+   "number": "85",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/85/",
+   "words": 26
+  },
+  {
+   "heading": "Cancellation and suspension of permits",
+   "indexable": true,
+   "number": "86",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/86/",
+   "words": 498
+  },
+  {
+   "heading": "Temporary permits",
+   "indexable": true,
+   "number": "87",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/87/",
+   "words": 363
+  },
+  {
+   "heading": "Validation of permits for use outside region in which granted",
+   "indexable": true,
+   "number": "88",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/88/",
+   "words": 1560
+  },
+  {
+   "heading": "Power of Central Government to make schemes for national, multimodal and inter-State transport of passengers and goods",
+   "indexable": true,
+   "number": "88A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/88A/",
+   "words": 251
+  },
+  {
+   "heading": "Appeals",
+   "indexable": true,
+   "number": "89",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/89/",
+   "words": 373
+  },
+  {
+   "heading": "Revision",
+   "indexable": true,
+   "number": "90",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/90/",
+   "words": 206
+  },
+  {
+   "heading": "Restriction of hours of work of drivers",
+   "indexable": true,
+   "number": "91",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/91/",
+   "words": 223
+  },
+  {
+   "heading": "Voidance of contracts restrictive of liability",
+   "indexable": true,
+   "number": "92",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/92/",
+   "words": 89
+  },
+  {
+   "heading": "Agent or canvasser or aggregator to obtain licence",
+   "indexable": true,
+   "number": "93",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/93/",
+   "words": 347
+  },
+  {
+   "heading": "Bar on jurisdiction of Civil Courts",
+   "indexable": true,
+   "number": "94",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/94/",
+   "words": 68
+  },
+  {
+   "heading": "Power of State Government to make rules as to stage carriages and contract carriages",
+   "indexable": true,
+   "number": "95",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/95/",
+   "words": 341
+  },
+  {
+   "heading": "Power of State Government to make rules for the purposes of this Chapter",
+   "indexable": true,
+   "number": "96",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/96/",
+   "words": 995
+  },
+  {
+   "heading": "Definition",
+   "indexable": true,
+   "number": "97",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/97/",
+   "words": 29
+  },
+  {
+   "heading": "Chapter to override Chapter V and other laws",
+   "indexable": true,
+   "number": "98",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/98/",
+   "words": 46
+  },
+  {
+   "heading": "Preparation and publication of proposal regarding road transport service of a State transport undertaking",
+   "indexable": true,
+   "number": "99",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/99/",
+   "words": 246
+  },
+  {
+   "heading": "Objection to the proposal",
+   "indexable": true,
+   "number": "100",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/100/",
+   "words": 329
+  },
+  {
+   "heading": "Operation of additional services by a State transport undertaking in certain circumstances",
+   "indexable": true,
+   "number": "101",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/101/",
+   "words": 58
+  },
+  {
+   "heading": "Cancellation or modification of scheme",
+   "indexable": true,
+   "number": "102",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/102/",
+   "words": 141
+  },
+  {
+   "heading": "Issue of permits to State transport undertakings",
+   "indexable": true,
+   "number": "103",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/103/",
+   "words": 365
+  },
+  {
+   "heading": "Restriction on grant of permits in respect of a notified area or notified route",
+   "indexable": true,
+   "number": "104",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/104/",
+   "words": 140
+  },
+  {
+   "heading": "Principles and method of determining compensation and payment thereof",
+   "indexable": true,
+   "number": "105",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/105/",
+   "words": 523
+  },
+  {
+   "heading": "Disposal of article found in vehicles",
+   "indexable": true,
+   "number": "106",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/106/",
+   "words": 56
+  },
+  {
+   "heading": "Power of State Government to make rules",
+   "indexable": true,
+   "number": "107",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/107/",
+   "words": 176
+  },
+  {
+   "heading": "Certain powers of State Government exercisable by the Central Government",
+   "indexable": true,
+   "number": "108",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/108/",
+   "words": 51
+  },
+  {
+   "heading": "General provision regarding construction and maintenance of vehicles",
+   "indexable": true,
+   "number": "109",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/109/",
+   "words": 111
+  },
+  {
+   "heading": "Power of Central Government to make rules",
+   "indexable": true,
+   "number": "110",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/110/",
+   "words": 496
+  },
+  {
+   "heading": "Recall of motor vehicles",
+   "indexable": true,
+   "number": "110A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/110A/",
+   "words": 398
+  },
+  {
+   "heading": "Type of approval certificate and testing agencies",
+   "indexable": true,
+   "number": "110B",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/110B/",
+   "words": 295
+  },
+  {
+   "heading": "Power of State Government to make rules",
+   "indexable": true,
+   "number": "111",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/111/",
+   "words": 184
+  },
+  {
+   "heading": "Limits of speed",
+   "indexable": true,
+   "number": "112",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/112/",
+   "words": 286
+  },
+  {
+   "heading": "Limits of weight and limitations on use",
+   "indexable": true,
+   "number": "113",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/113/",
+   "words": 185
+  },
+  {
+   "heading": "Power to have vehicle weighed",
+   "indexable": true,
+   "number": "114",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/114/",
+   "words": 210
+  },
+  {
+   "heading": "Power to restrict the use of vehicles",
+   "indexable": true,
+   "number": "115",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/115/",
+   "words": 164
+  },
+  {
+   "heading": "Power to erect traffic signs",
+   "indexable": true,
+   "number": "116",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/116/",
+   "words": 707
+  },
+  {
+   "heading": "Parking places and halting stations",
+   "indexable": true,
+   "number": "117",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/117/",
+   "words": 142
+  },
+  {
+   "heading": "Driving regulations",
+   "indexable": true,
+   "number": "118",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/118/",
+   "words": 18
+  },
+  {
+   "heading": "Duty to obey traffic signs",
+   "indexable": true,
+   "number": "119",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/119/",
+   "words": 126
+  },
+  {
+   "heading": "Vehicles with left hand control",
+   "indexable": true,
+   "number": "120",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/120/",
+   "words": 42
+  },
+  {
+   "heading": "Signals and signalling devices",
+   "indexable": true,
+   "number": "121",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/121/",
+   "words": 165
+  },
+  {
+   "heading": "Leaving vehicle in dangerous position",
+   "indexable": true,
+   "number": "122",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/122/",
+   "words": 65
+  },
+  {
+   "heading": "Riding on running board, etc",
+   "indexable": true,
+   "number": "123",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/123/",
+   "words": 56
+  },
+  {
+   "heading": "Prohibition against travelling without pass or ticket",
+   "indexable": true,
+   "number": "124",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/124/",
+   "words": 161
+  },
+  {
+   "heading": "Obstruction of driver",
+   "indexable": true,
+   "number": "125",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/125/",
+   "words": 35
+  },
+  {
+   "heading": "Stationary vehicles",
+   "indexable": true,
+   "number": "126",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/126/",
+   "words": 74
+  },
+  {
+   "heading": "Removal of motor vehicles abandoned or left unattended on a public place",
+   "indexable": true,
+   "number": "127",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/127/",
+   "words": 148
+  },
+  {
+   "heading": "Safety measures for drivers and pillion riders",
+   "indexable": true,
+   "number": "128",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/128/",
+   "words": 80
+  },
+  {
+   "heading": "Wearing of protective headgear",
+   "indexable": true,
+   "number": "129",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/129/",
+   "words": 175
+  },
+  {
+   "heading": "Duty to produce licence and certificate of registration",
+   "indexable": true,
+   "number": "130",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/130/",
+   "words": 398
+  },
+  {
+   "heading": "Duty of the driver to take certain precautions at unguarded railway level crossing",
+   "indexable": true,
+   "number": "131",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/131/",
+   "words": 118
+  },
+  {
+   "heading": "Duty of driver to stop in certain cases",
+   "indexable": true,
+   "number": "132",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/132/",
+   "words": 214
+  },
+  {
+   "heading": "Duty of owner of motor vehicle to give information",
+   "indexable": true,
+   "number": "133",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/133/",
+   "words": 68
+  },
+  {
+   "heading": "Duty of driver in case of accident and injury to a person",
+   "indexable": true,
+   "number": "134",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/134/",
+   "words": 280
+  },
+  {
+   "heading": "Protection of Good Samaritans",
+   "indexable": true,
+   "number": "134A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/134A/",
+   "words": 141
+  },
+  {
+   "heading": "Schemes to be framed for the investigation of accident cases and wayside amenities, etc",
+   "indexable": true,
+   "number": "135",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/135/",
+   "words": 122
+  },
+  {
+   "heading": "Inspection of vehicle involved in accident",
+   "indexable": true,
+   "number": "136",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/136/",
+   "words": 103
+  },
+  {
+   "heading": "Electronic monitoring and enforcement of road safety",
+   "indexable": true,
+   "number": "136A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/136A/",
+   "words": 122
+  },
+  {
+   "heading": "Power of Central Government to make rules",
+   "indexable": true,
+   "number": "137",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/137/",
+   "words": 112
+  },
+  {
+   "heading": "Power of State Government to make rules",
+   "indexable": true,
+   "number": "138",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/138/",
+   "words": 284
+  },
+  {
+   "heading": "Power of Central Government to make rules",
+   "indexable": true,
+   "number": "139",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/139/",
+   "words": 571
+  },
+  {
+   "heading": "Omitted",
+   "indexable": true,
+   "number": "140",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/140/",
+   "words": 19
+  },
+  {
+   "heading": "Omitted",
+   "indexable": true,
+   "number": "141",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/141/",
+   "words": 20
+  },
+  {
+   "heading": "Omitted",
+   "indexable": true,
+   "number": "142",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/142/",
+   "words": 9
+  },
+  {
+   "heading": "Omitted",
+   "indexable": true,
+   "number": "143",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/143/",
+   "words": 18
+  },
+  {
+   "heading": "Omitted",
+   "indexable": true,
+   "number": "144",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/144/",
+   "words": 9
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "145",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/145/",
+   "words": 305
+  },
+  {
+   "heading": "Necessity for insurance against third party risk",
+   "indexable": true,
+   "number": "146",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/146/",
+   "words": 384
+  },
+  {
+   "heading": "Requirements of policies and limits of liability",
+   "indexable": true,
+   "number": "147",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/147/",
+   "words": 579
+  },
+  {
+   "heading": "Validity of policies of insurance issued in reciprocating countries",
+   "indexable": true,
+   "number": "148",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/148/",
+   "words": 138
+  },
+  {
+   "heading": "Settlement by insurance company and procedure therefor",
+   "indexable": true,
+   "number": "149",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/149/",
+   "words": 176
+  },
+  {
+   "heading": "Duty of insurers to satisfy judgments and awards against persons insured in respect of third party risks",
+   "indexable": true,
+   "number": "150",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/150/",
+   "words": 1102
+  },
+  {
+   "heading": "Rights of third party against insurers on insolvency of insured",
+   "indexable": true,
+   "number": "151",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/151/",
+   "words": 493
+  },
+  {
+   "heading": "Duty to give information as to insurance",
+   "indexable": true,
+   "number": "152",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/152/",
+   "words": 507
+  },
+  {
+   "heading": "Settlement between insurers and insured persons",
+   "indexable": true,
+   "number": "153",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/153/",
+   "words": 237
+  },
+  {
+   "heading": "Saving in respect of sections 151, 152 and 153",
+   "indexable": true,
+   "number": "154",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/154/",
+   "words": 91
+  },
+  {
+   "heading": "Effect of death on certain causes of action",
+   "indexable": true,
+   "number": "155",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/155/",
+   "words": 85
+  },
+  {
+   "heading": "Effect of certificate of insurance",
+   "indexable": true,
+   "number": "156",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/156/",
+   "words": 179
+  },
+  {
+   "heading": "Transfer of certificate of insurance",
+   "indexable": true,
+   "number": "157",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/157/",
+   "words": 191
+  },
+  {
+   "heading": "Production of certain certificates, licence and permit in certain cases",
+   "indexable": true,
+   "number": "158",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/158/",
+   "words": 433
+  },
+  {
+   "heading": "Information to be given regarding accident",
+   "indexable": true,
+   "number": "159",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/159/",
+   "words": 52
+  },
+  {
+   "heading": "Duty to furnish particulars of vehicle involved in accident",
+   "indexable": true,
+   "number": "160",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/160/",
+   "words": 156
+  },
+  {
+   "heading": "Special provisions as to compensation in case of hit and run motor accident",
+   "indexable": true,
+   "number": "161",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/161/",
+   "words": 380
+  },
+  {
+   "heading": "Scheme for golden hour",
+   "indexable": true,
+   "number": "162",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/162/",
+   "words": 115
+  },
+  {
+   "heading": "Refund in certain cases of compensation paid under section 161",
+   "indexable": true,
+   "number": "163",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/163/",
+   "words": 345
+  },
+  {
+   "heading": "Payment of compensation in case of death or grevious hurt, etc",
+   "indexable": true,
+   "number": "164",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/164/",
+   "words": 221
+  },
+  {
+   "heading": "Scheme for interim relief for claimants",
+   "indexable": true,
+   "number": "164A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/164A/",
+   "words": 78
+  },
+  {
+   "heading": "Motor Vehicle Accident Fund",
+   "indexable": true,
+   "number": "164B",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/164B/",
+   "words": 580
+  },
+  {
+   "heading": "Power of Central Government to make rules",
+   "indexable": true,
+   "number": "164C",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/164C/",
+   "words": 618
+  },
+  {
+   "heading": "Power of State Government to make rules",
+   "indexable": true,
+   "number": "164D",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/164D/",
+   "words": 86
+  },
+  {
+   "heading": "Claims Tribunals",
+   "indexable": true,
+   "number": "165",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/165/",
+   "words": 247
+  },
+  {
+   "heading": "Application for compensation",
+   "indexable": true,
+   "number": "166",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/166/",
+   "words": 357
+  },
+  {
+   "heading": "Option regarding claims for compensation in certain cases",
+   "indexable": true,
+   "number": "167",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/167/",
+   "words": 66
+  },
+  {
+   "heading": "Award of the Claims Tribunal",
+   "indexable": true,
+   "number": "168",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/168/",
+   "words": 222
+  },
+  {
+   "heading": "Procedure and powers of Claims Tribunals",
+   "indexable": true,
+   "number": "169",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/169/",
+   "words": 215
+  },
+  {
+   "heading": "Impleading insurer in certain cases",
+   "indexable": true,
+   "number": "170",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/170/",
+   "words": 125
+  },
+  {
+   "heading": "Award of interest where any claim is allowed",
+   "indexable": true,
+   "number": "171",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/171/",
+   "words": 54
+  },
+  {
+   "heading": "Award of compensatory costs in certain cases",
+   "indexable": true,
+   "number": "172",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/172/",
+   "words": 230
+  },
+  {
+   "heading": "Appeals",
+   "indexable": true,
+   "number": "173",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/173/",
+   "words": 154
+  },
+  {
+   "heading": "Recovery of money from insurer as arrear of land revenue",
+   "indexable": true,
+   "number": "174",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/174/",
+   "words": 56
+  },
+  {
+   "heading": "Bar on jurisdiction of Civil Courts",
+   "indexable": true,
+   "number": "175",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/175/",
+   "words": 71
+  },
+  {
+   "heading": "Power of State Government to make rules",
+   "indexable": true,
+   "number": "176",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/176/",
+   "words": 139
+  },
+  {
+   "heading": "General provision for punishment of offences",
+   "indexable": true,
+   "number": "177",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/177/",
+   "words": 59
+  },
+  {
+   "heading": "Penalty for contravention of regulations under section 118",
+   "indexable": true,
+   "number": "177A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/177A/",
+   "words": 37
+  },
+  {
+   "heading": "Penalty for travelling without pass or ticket and for dereliction of duty on the part of conductor and refusal to ply contract carriage, etc",
+   "indexable": true,
+   "number": "178",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/178/",
+   "words": 269
+  },
+  {
+   "heading": "Disobedience of orders, obstruction and refusal of information",
+   "indexable": true,
+   "number": "179",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/179/",
+   "words": 139
+  },
+  {
+   "heading": "Allowing unauthorised persons to drive vehicles",
+   "indexable": true,
+   "number": "180",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/180/",
+   "words": 58
+  },
+  {
+   "heading": "Driving vehicles in contravention of section 3 or section 4",
+   "indexable": true,
+   "number": "181",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/181/",
+   "words": 37
+  },
+  {
+   "heading": "Offences relating to licences",
+   "indexable": true,
+   "number": "182",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/182/",
+   "words": 216
+  },
+  {
+   "heading": "Punishment for offences relating to construction, maintenance, sale and alteration of motor vehicles and components",
+   "indexable": true,
+   "number": "182A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/182A/",
+   "words": 342
+  },
+  {
+   "heading": "Punishment for contravention of section 62A",
+   "indexable": true,
+   "number": "182B",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/182B/",
+   "words": 34
+  },
+  {
+   "heading": "Driving at excessive speed, etc",
+   "indexable": true,
+   "number": "183",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/183/",
+   "words": 309
+  },
+  {
+   "heading": "Driving dangerously",
+   "indexable": true,
+   "number": "184",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/184/",
+   "words": 270
+  },
+  {
+   "heading": "Driving by a drunken person or by a person under the influence of drugs",
+   "indexable": true,
+   "number": "185",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/185/",
+   "words": 196
+  },
+  {
+   "heading": "Driving when mentally or phycically unfit to drive",
+   "indexable": true,
+   "number": "186",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/186/",
+   "words": 70
+  },
+  {
+   "heading": "Punishment for offences relating to accident",
+   "indexable": true,
+   "number": "187",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/187/",
+   "words": 89
+  },
+  {
+   "heading": "Punishment for abetment of certain offences",
+   "indexable": true,
+   "number": "188",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/188/",
+   "words": 25
+  },
+  {
+   "heading": "Racing and trials of speed",
+   "indexable": true,
+   "number": "189",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/189/",
+   "words": 83
+  },
+  {
+   "heading": "Using vehicle in unsafe condition",
+   "indexable": true,
+   "number": "190",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/190/",
+   "words": 379
+  },
+  {
+   "heading": "Omitted",
+   "indexable": true,
+   "number": "191",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/191/",
+   "words": 29
+  },
+  {
+   "heading": "Using vehicle without registration",
+   "indexable": true,
+   "number": "192",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/192/",
+   "words": 489
+  },
+  {
+   "heading": "Using vehicle without permit",
+   "indexable": true,
+   "number": "192A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/192A/",
+   "words": 252
+  },
+  {
+   "heading": "Offences relating to registration",
+   "indexable": true,
+   "number": "192B",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/192B/",
+   "words": 312
+  },
+  {
+   "heading": "Punishment of agents, canvassers and aggregators without proper authority",
+   "indexable": true,
+   "number": "193",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/193/",
+   "words": 149
+  },
+  {
+   "heading": "Driving vehicle exceeding permissible weight",
+   "indexable": true,
+   "number": "194",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/194/",
+   "words": 329
+  },
+  {
+   "heading": "Carriage of excess passengers",
+   "indexable": true,
+   "number": "194A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/194A/",
+   "words": 83
+  },
+  {
+   "heading": "Use of safety belts and the seating of children",
+   "indexable": true,
+   "number": "194B",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/194B/",
+   "words": 120
+  },
+  {
+   "heading": "Penalty for violation of safety measures for motor cycle drivers and pillion riders",
+   "indexable": true,
+   "number": "194C",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/194C/",
+   "words": 68
+  },
+  {
+   "heading": "Penalty for not wearing protective headgear",
+   "indexable": true,
+   "number": "194D",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/194D/",
+   "words": 61
+  },
+  {
+   "heading": "Failure to allow free passage to emergency vehicles",
+   "indexable": true,
+   "number": "194E",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/194E/",
+   "words": 73
+  },
+  {
+   "heading": "Use of horns and silence zones",
+   "indexable": true,
+   "number": "194F",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/194F/",
+   "words": 93
+  },
+  {
+   "heading": "Omitted",
+   "indexable": true,
+   "number": "195",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/195/",
+   "words": 23
+  },
+  {
+   "heading": "Driving uninsured vehicle",
+   "indexable": true,
+   "number": "196",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/196/",
+   "words": 78
+  },
+  {
+   "heading": "Taking vehicle without authority",
+   "indexable": true,
+   "number": "197",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/197/",
+   "words": 192
+  },
+  {
+   "heading": "Unauthorised interference with vehicle",
+   "indexable": true,
+   "number": "198",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/198/",
+   "words": 40
+  },
+  {
+   "heading": "Failure to comply with standards for road design, construction and maintenance",
+   "indexable": true,
+   "number": "198A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/198A/",
+   "words": 334
+  },
+  {
+   "heading": "Offences by companies",
+   "indexable": true,
+   "number": "199",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/199/",
+   "words": 228
+  },
+  {
+   "heading": "Offences by juveniles",
+   "indexable": true,
+   "number": "199A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/199A/",
+   "words": 354
+  },
+  {
+   "heading": "Revision of fines",
+   "indexable": true,
+   "number": "199B",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/199B/",
+   "words": 62
+  },
+  {
+   "heading": "Composition of certain offences",
+   "indexable": true,
+   "number": "200",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/200/",
+   "words": 258
+  },
+  {
+   "heading": "Penalty for causing obstruction to free flow of traffic",
+   "indexable": true,
+   "number": "201",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/201/",
+   "words": 188
+  },
+  {
+   "heading": "Power to arrest without warrant",
+   "indexable": true,
+   "number": "202",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/202/",
+   "words": 145
+  },
+  {
+   "heading": "Breath tests",
+   "indexable": true,
+   "number": "203",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/203/",
+   "words": 565
+  },
+  {
+   "heading": "Laboratory test",
+   "indexable": true,
+   "number": "204",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/204/",
+   "words": 392
+  },
+  {
+   "heading": "Presumption of unfitness to drive",
+   "indexable": true,
+   "number": "205",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/205/",
+   "words": 106
+  },
+  {
+   "heading": "Power of police officer to impound document",
+   "indexable": true,
+   "number": "206",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/206/",
+   "words": 458
+  },
+  {
+   "heading": "Power to detain vehicles used without certificate of registration permit, etc",
+   "indexable": true,
+   "number": "207",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/207/",
+   "words": 329
+  },
+  {
+   "heading": "Summary disposal of cases",
+   "indexable": true,
+   "number": "208",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/208/",
+   "words": 318
+  },
+  {
+   "heading": "Restriction on conviction",
+   "indexable": true,
+   "number": "209",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/209/",
+   "words": 196
+  },
+  {
+   "heading": "Courts to send intimation about conviction",
+   "indexable": true,
+   "number": "210",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/210/",
+   "words": 104
+  },
+  {
+   "heading": "Power of State Government to increase penalties",
+   "indexable": true,
+   "number": "210A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/210A/",
+   "words": 83
+  },
+  {
+   "heading": "Penalty for offence committed by an enforcing authority",
+   "indexable": true,
+   "number": "210B",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/210B/",
+   "words": 45
+  },
+  {
+   "heading": "Power of Central Government to make rules",
+   "indexable": true,
+   "number": "210C",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/210C/",
+   "words": 57
+  },
+  {
+   "heading": "Power of State Government to make rules",
+   "indexable": true,
+   "number": "210D",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/210D/",
+   "words": 41
+  },
+  {
+   "heading": "Power to levy fee",
+   "indexable": true,
+   "number": "211",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/211/",
+   "words": 132
+  },
+  {
+   "heading": "Use of electronic forms and documents",
+   "indexable": true,
+   "number": "211A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/211A/",
+   "words": 201
+  },
+  {
+   "heading": "Publication, commencement and laying of rules and notifications",
+   "indexable": true,
+   "number": "212",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/212/",
+   "words": 470
+  },
+  {
+   "heading": "Appointment of motor vehicles officers",
+   "indexable": true,
+   "number": "213",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/213/",
+   "words": 564
+  },
+  {
+   "heading": "Effect of appeal and revision on orders passed by original authority",
+   "indexable": true,
+   "number": "214",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/214/",
+   "words": 228
+  },
+  {
+   "heading": "Road Safety Councils and Committees",
+   "indexable": true,
+   "number": "215",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/215/",
+   "words": 228
+  },
+  {
+   "heading": "Power of Central Government and State Government to delegate",
+   "indexable": true,
+   "number": "215A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/215A/",
+   "words": 115
+  },
+  {
+   "heading": "National Road Safety Board",
+   "indexable": true,
+   "number": "215B",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/215B/",
+   "words": 185
+  },
+  {
+   "heading": "Power of Central Government to make rules",
+   "indexable": true,
+   "number": "215C",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/215C/",
+   "words": 177
+  },
+  {
+   "heading": "Power of State Government to make rules",
+   "indexable": true,
+   "number": "215D",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/215D/",
+   "words": 206
+  },
+  {
+   "heading": "Power to remove difficulties",
+   "indexable": true,
+   "number": "216",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/216/",
+   "words": 98
+  },
+  {
+   "heading": "Repeal and savings",
+   "indexable": true,
+   "number": "217",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/217/",
+   "words": 452
+  },
+  {
+   "heading": "Renewal of permits, driving licences and registration granted under the Motor Vehicles Act, 1939",
+   "indexable": true,
+   "number": "217A",
+   "url": "https://indiacode.ecourtsindia.com/mv-act/section/217A/",
+   "words": 55
+  }
+ ]
+}

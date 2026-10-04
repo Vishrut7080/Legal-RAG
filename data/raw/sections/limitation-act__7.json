@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Disability of one of several persons",
+  "html": "<p>Where one of several persons jointly entitled to institute a suit or make an application for the execution of a decree is under any such disability, and a discharge can be given without the concurrence of such person, time will run against them all; but, where no such discharge can be given, time will not run as against any of them until one of them becomes capable of giving such discharge without the concurrence of the others or until the disability has ceased.</p><p><i>Explanation I</i>.—This section applies to a discharge from every kind of liability, including a liability in respect of any immovable property.</p><p><i>Explanation II</i>.—For the purposes of this section, the Manager of a Hindu undivided family governed by the Mitakshara law shall be deemed to be capable of giving a discharge without the concurrence of the other members of the family only if he is in management of the joint family property.</p>",
+  "number": "7",
+  "text": "Where one of several persons jointly entitled to institute a suit or make an application for the execution of a decree is under any such disability, and a discharge can be given without the concurrence of such person, time will run against them all; but, where no such discharge can be given, time will not run as against any of them until one of them becomes capable of giving such discharge without the concurrence of the others or until the disability has ceased. Explanation I.—This section applies to a discharge from every kind of liability, including a liability in respect of any immovable property. Explanation II.—For the purposes of this section, the Manager of a Hindu undivided family governed by the Mitakshara law shall be deemed to be capable of giving a discharge without the concurrence of the other members of the family only if he is in management of the joint family property.",
+  "words": 154
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/limitation-act/section/7/"
+}

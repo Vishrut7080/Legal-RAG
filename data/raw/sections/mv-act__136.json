@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Inspection of vehicle involved in accident",
+  "html": "<p>When any accident occurs in which a motor vehicle is involved, any person authorised in this behalf by the State Government may, on production if so required of his authority, inspect the vehicle and for that purpose may enter at any reasonable time any premises where the vehicle may be, and may remove the vehicle for examination:</p><p>Provided that the place to which the vehicle is so removed shall be intimated to the owner of the vehicle and the vehicle shall be returned <sup>1</sup>[after completion of the formalities to the owner, driver or the person in charge of the vehicle within twenty-four hours].</p>",
+  "number": "136",
+  "text": "When any accident occurs in which a motor vehicle is involved, any person authorised in this behalf by the State Government may, on production if so required of his authority, inspect the vehicle and for that purpose may enter at any reasonable time any premises where the vehicle may be, and may remove the vehicle for examination: Provided that the place to which the vehicle is so removed shall be intimated to the owner of the vehicle and the vehicle shall be returned 1[after completion of the formalities to the owner, driver or the person in charge of the vehicle within twenty-four hours].",
+  "words": 103
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/136/"
+}

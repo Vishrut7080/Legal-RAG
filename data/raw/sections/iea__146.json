@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9999,
+   "section": "149",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/149/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Questions lawful in cross-examination",
+  "html": "<p>When a witness is cross-examined, he may, in addition to the questions hereinbefore referred to, be asked any questions which tend–– (1) to test his veracity, (2) to discover who he is and what is his position in life, or (3) to shake his credit, by injuring his character, although the answer to such questions might tend directly or indirectly to criminate him or might expose or tend directly or indirectly to expose him to a penalty or forfeiture: [Provided that in a prosecution for an offence under section 376, section 376A, section 376B, section 376C, section 376D or section 376E of the Indian Penal Code (45 of 1860) or for attempt to commit any such offence, where the question of consent is an issue, it shall not be permissible to adduce evidence or to put questions in the cross-examination of the victim as to the general immoral character, or previous sexual experience, of such victim with any person for proving such consent or the quality of consent.]</p>",
+  "number": "146",
+  "text": "When a witness is cross-examined, he may, in addition to the questions hereinbefore referred to, be asked any questions which tend–– (1) to test his veracity, (2) to discover who he is and what is his position in life, or (3) to shake his credit, by injuring his character, although the answer to such questions might tend directly or indirectly to criminate him or might expose or tend directly or indirectly to expose him to a penalty or forfeiture: [Provided that in a prosecution for an offence under section 376, section 376A, section 376B, section 376C, section 376D or section 376E of the Indian Penal Code (45 of 1860) or for attempt to commit any such offence, where the question of consent is an issue, it shall not be permissible to adduce evidence or to put questions in the cross-examination of the victim as to the general immoral character, or previous sexual experience, of such victim with any person for proving such consent or the quality of consent.]",
+  "words": 168
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/146/"
+}

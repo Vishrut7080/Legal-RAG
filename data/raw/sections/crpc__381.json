@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9694,
+   "section": "422",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/422/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Appeal to Court of Session how heard",
+  "html": "<p><span class=\"num\">(1)</span> Subject to the provisions of sub-section (2), an appeal to the Court of Session or Sessions Judge shall be heard by the Sessions Judge or by an Additional Sessions Judge:</p><p>Provided that an appeal against a conviction on a trial held by a Magistrate of the second class may be heard and disposed of by an Assistant Sessions Judge or a Chief Judicial Magistrate.</p><p><span class=\"num\">(2)</span> An Additional Sessions Judge, Assistant Sessions Judge or a Chief Judicial Magistrate shall hear only such appeals as the Sessions Judge of the division may, by general or special order, make over to him or as the High Court may, by special order, direct him to hear.</p>",
+  "number": "381",
+  "text": "(1) Subject to the provisions of sub-section (2), an appeal to the Court of Session or Sessions Judge shall be heard by the Sessions Judge or by an Additional Sessions Judge: Provided that an appeal against a conviction on a trial held by a Magistrate of the second class may be heard and disposed of by an Assistant Sessions Judge or a Chief Judicial Magistrate. (2)An Additional Sessions Judge, Assistant Sessions Judge or a Chief Judicial Magistrate shall hear only such appeals as the Sessions Judge of the division may, by general or special order, make over to him or as the High Court may, by special order, direct him to hear.",
+  "words": 112
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/381/"
+}

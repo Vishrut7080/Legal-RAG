@@ -1,0 +1,58 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Bihar",
+   "key": "41cc324f",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "बिहार सड़क सुरक्षा परिषद् नियमावली,2018.",
+   "url": "https://indiacode.ecourtsindia.com/rules/2018-41cc324f/",
+   "year": 2018
+  },
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Bihar",
+   "key": "bab287dd",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "बिहार सड़क सुरक्षा निधि नियमावली,2018.",
+   "url": "https://indiacode.ecourtsindia.com/rules/2018-bab287dd/",
+   "year": 2018
+  }
+ ],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Schemes to be framed for the investigation of accident cases and wayside amenities, etc",
+  "html": "<p><span class=\"num\">(1)</span> The State Government may, by notification in the Official Gazette, make one or more schemes to provide for--</p><p><span class=\"num\">(a)</span> an in depth study on causes and analysis of motor vehicle accidents;</p><p><span class=\"num\">(b)</span> wayside amenities on highways;</p><p><span class=\"num\">(c)</span> traffic aid posts on highways; <sup>1</sup>***</p><p><span class=\"num\">(d)</span> truck parking complexes along <sup>2</sup>[highways; and].</p><p><sup>3</sup>[(e) any other amenities in the interests of the safety and the convenience of the public.]</p><p><span class=\"num\">(2)</span> Every scheme made under this section by any State Government shall be laid, as soon as may be after it is made, before the State Legislature.</p><p><sup>3</sup>[(3) The Central Government may, by notification in the Official Gazette, make one or more schemes to conduct in-depth studies on the causes and analysis of road accidents.]</p>",
+  "number": "135",
+  "text": "(1) The State Government may, by notification in the Official Gazette, make one or more schemes to provide for-- (a) an in depth study on causes and analysis of motor vehicle accidents; (b) wayside amenities on highways; (c) traffic aid posts on highways; 1*** (d) truck parking complexes along 2[highways; and]. 3[(e) any other amenities in the interests of the safety and the convenience of the public.] (2) Every scheme made under this section by any State Government shall be laid, as soon as may be after it is made, before the State Legislature. 3[(3) The Central Government may, by notification in the Official Gazette, make one or more schemes to conduct in-depth studies on the causes and analysis of road accidents.]",
+  "words": 122
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/135/"
+}

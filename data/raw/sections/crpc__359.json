@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9865,
+   "section": "400",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/400/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Order to pay costs in non-cognizable cases",
+  "html": "<p><span class=\"num\">(1)</span> Whenever any complaint of a non-cognizable offence is made to a Court, the Court, if it convicts the accused, may, in addition to the penalty imposed upon him, order him to pay to the complainant, in whole or in part, the cost incurred by him in the prosecution, and may further order that in default of payment, the accused shall suffer simple</p><p>imprisonment for a period not exceeding thirty days and such costs may include any expenses incurred in respect of process-fees, witnesses and pleader's fees which the Court may consider reasonable.</p><p><span class=\"num\">(2)</span> An order under this section may also be made by an Appellate Court or by the High Court or Court of Session when exercising its powers of revision.</p>",
+  "number": "359",
+  "text": "(1) Whenever any complaint of a non-cognizable offence is made to a Court, the Court, if it convicts the accused, may, in addition to the penalty imposed upon him, order him to pay to the complainant, in whole or in part, the cost incurred by him in the prosecution, and may further order that in default of payment, the accused shall suffer simple imprisonment for a period not exceeding thirty days and such costs may include any expenses incurred in respect of process-fees, witnesses and pleader's fees which the Court may consider reasonable. (2) An order under this section may also be made by an Appellate Court or by the High Court or Court of Session when exercising its powers of revision.",
+  "words": 122
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/359/"
+}

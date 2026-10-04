@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Effect of acknowledgment in writing",
+  "html": "<p><span class=\"num\">(1)</span> Where, before the expiration of the prescribed period for a suit or application in respect of any property or right, an acknowledgment of liability in respect of such property or right has been made in writing signed by the party against whom such property or right is claimed, or by any person through whom he derives his title or liability, a fresh period of limitation shall be computed from the time when the acknowledgment was so signed.</p><p><span class=\"num\">(2)</span> Where the writing containing the acknowledgment is undated, oral evidence may be given of the time when it was signed; but subject to the provisions of the Indian Evidence Act, 1872 (1 of 1872), oral evidence of its contents shall not be received.</p><p><i>Explanation.</i>—For the purposes of this section,—</p><p><span class=\"num\">(a)</span> an acknowledgment may be sufficient though it omits to specify the exact nature of the property or right, or avers that the time for payment, delivery, performance or enjoyment has not yet come or is accompanied by a refusal to pay, deliver, perform or permit to enjoy, or is coupled with a claim to set off, or is addressed to a person other than a person entitled to the property or right,</p><p><span class=\"num\">(b)</span> the word \"signed\" means signed either personally or by an agent duly authorised in this behalf, and</p><p><span class=\"num\">(c)</span> an application for the execution of a decree or order shall not be deemed to be an application in respect of any property or right.</p>",
+  "number": "18",
+  "text": "(1) Where, before the expiration of the prescribed period for a suit or application in respect of any property or right, an acknowledgment of liability in respect of such property or right has been made in writing signed by the party against whom such property or right is claimed, or by any person through whom he derives his title or liability, a fresh period of limitation shall be computed from the time when the acknowledgment was so signed. (2) Where the writing containing the acknowledgment is undated, oral evidence may be given of the time when it was signed; but subject to the provisions of the Indian Evidence Act, 1872 (1 of 1872), oral evidence of its contents shall not be received. Explanation.—For the purposes of this section,— (a) an acknowledgment may be sufficient though it omits to specify the exact nature of the property or right, or avers that the time for payment, delivery, performance or enjoyment has not yet come or is accompanied by a refusal to pay, deliver, perform or permit to enjoy, or is coupled with a claim to set off, or is addressed to a person other than a person entitled to the property or right, (b) the word \"signed\" means signed either personally or by an agent duly authorised in this behalf, and (c) an application for the execution of a decree or order shall not be deemed to be an application in respect of any property or right.",
+  "words": 245
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/limitation-act/section/18/"
+}

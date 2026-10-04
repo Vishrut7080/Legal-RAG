@@ -1,0 +1,930 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "amendments": [],
+ "count": 125,
+ "not_held": [
+  "amendments"
+ ],
+ "not_held_note": "This corpus holds no amendments for this Act. An empty list means not on file here, not that none exist.",
+ "schedules": [
+  {
+   "ord": 1,
+   "title": "THE FIRST SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/it-act/schedule/1/",
+   "words": 274
+  },
+  {
+   "ord": 2,
+   "title": "THE SECOND SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/it-act/schedule/2/",
+   "words": 738
+  },
+  {
+   "ord": 3,
+   "title": "THE THIRD SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/it-act/schedule/3/",
+   "words": 19
+  },
+  {
+   "ord": 4,
+   "title": "THE FOURTH SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/it-act/schedule/4/",
+   "words": 19
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Short title, extent, commencement and application",
+   "indexable": true,
+   "number": "1",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/1/",
+   "words": 158
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "2",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/2/",
+   "words": 1304
+  },
+  {
+   "heading": "Authentication of electronic records",
+   "indexable": true,
+   "number": "3",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/3/",
+   "words": 180
+  },
+  {
+   "heading": "Electronic signature",
+   "indexable": true,
+   "number": "3A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/3A/",
+   "words": 277
+  },
+  {
+   "heading": "Legal recognition of electronic records",
+   "indexable": true,
+   "number": "4",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/4/",
+   "words": 64
+  },
+  {
+   "heading": "Legal recognition of electronic signatures",
+   "indexable": true,
+   "number": "5",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/5/",
+   "words": 118
+  },
+  {
+   "heading": "Use of electronic records and electronic signatures in Government and its agencies",
+   "indexable": true,
+   "number": "6",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/6/",
+   "words": 184
+  },
+  {
+   "heading": "Delivery of services by service provider",
+   "indexable": true,
+   "number": "6A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/6A/",
+   "words": 262
+  },
+  {
+   "heading": "Retention of electronic records",
+   "indexable": true,
+   "number": "7",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/7/",
+   "words": 176
+  },
+  {
+   "heading": "Audit of documents, etc., maintained in electronic form",
+   "indexable": true,
+   "number": "7A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/7A/",
+   "words": 50
+  },
+  {
+   "heading": "Publication of rule, regulation, etc., in Electronic Gazette",
+   "indexable": true,
+   "number": "8",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/8/",
+   "words": 95
+  },
+  {
+   "heading": "Sections 6, 7 and 8 not to confer right to insist document should be accepted in electronic form",
+   "indexable": true,
+   "number": "9",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/9/",
+   "words": 76
+  },
+  {
+   "heading": "Power to make rules by Central Government in respect of electronic signature",
+   "indexable": true,
+   "number": "10",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/10/",
+   "words": 96
+  },
+  {
+   "heading": "Validity of contracts formed through electronic means",
+   "indexable": true,
+   "number": "10A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/10A/",
+   "words": 68
+  },
+  {
+   "heading": "Attribution of electronic records",
+   "indexable": true,
+   "number": "11",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/11/",
+   "words": 56
+  },
+  {
+   "heading": "Acknowledgment of receipt",
+   "indexable": true,
+   "number": "12",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/12/",
+   "words": 220
+  },
+  {
+   "heading": "Time and place of despatch and receipt of electronic record",
+   "indexable": true,
+   "number": "13",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/13/",
+   "words": 315
+  },
+  {
+   "heading": "Secure electronic record",
+   "indexable": true,
+   "number": "14",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/14/",
+   "words": 39
+  },
+  {
+   "heading": "Secure electronic signature",
+   "indexable": true,
+   "number": "15",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/15/",
+   "words": 73
+  },
+  {
+   "heading": "Security procedures and practices",
+   "indexable": true,
+   "number": "16",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/16/",
+   "words": 54
+  },
+  {
+   "heading": "Appointment of Controller and other officers",
+   "indexable": true,
+   "number": "17",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/17/",
+   "words": 180
+  },
+  {
+   "heading": "Functions of Controller",
+   "indexable": true,
+   "number": "18",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/18/",
+   "words": 243
+  },
+  {
+   "heading": "Recognition of foreign Certifying Authorities",
+   "indexable": true,
+   "number": "19",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/19/",
+   "words": 123
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "20",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/20/",
+   "words": 20
+  },
+  {
+   "heading": "Licence to issue electronic signature Certificates",
+   "indexable": true,
+   "number": "21",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/21/",
+   "words": 120
+  },
+  {
+   "heading": "Application for licence",
+   "indexable": true,
+   "number": "22",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/22/",
+   "words": 81
+  },
+  {
+   "heading": "Renewal of licence",
+   "indexable": true,
+   "number": "23",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/23/",
+   "words": 53
+  },
+  {
+   "heading": "Procedure for grant or rejection of licence",
+   "indexable": true,
+   "number": "24",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/24/",
+   "words": 59
+  },
+  {
+   "heading": "Suspension of licence",
+   "indexable": true,
+   "number": "25",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/25/",
+   "words": 204
+  },
+  {
+   "heading": "Notice of suspension or revocation of licence",
+   "indexable": true,
+   "number": "26",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/26/",
+   "words": 121
+  },
+  {
+   "heading": "Power to delegate",
+   "indexable": true,
+   "number": "27",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/27/",
+   "words": 26
+  },
+  {
+   "heading": "Power to investigate contraventions",
+   "indexable": true,
+   "number": "28",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/28/",
+   "words": 78
+  },
+  {
+   "heading": "Access to computers and data",
+   "indexable": true,
+   "number": "29",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/29/",
+   "words": 137
+  },
+  {
+   "heading": "Certifying Authority to follow certain procedures",
+   "indexable": true,
+   "number": "30",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/30/",
+   "words": 101
+  },
+  {
+   "heading": "Certifying Authority to ensure compliance of the Act, etc",
+   "indexable": true,
+   "number": "31",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/31/",
+   "words": 35
+  },
+  {
+   "heading": "Display of licence",
+   "indexable": true,
+   "number": "32",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/32/",
+   "words": 21
+  },
+  {
+   "heading": "Surrender of licence",
+   "indexable": true,
+   "number": "33",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/33/",
+   "words": 64
+  },
+  {
+   "heading": "Disclosure",
+   "indexable": true,
+   "number": "34",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/34/",
+   "words": 159
+  },
+  {
+   "heading": "Certifying authority to issue electronic signature Certificate",
+   "indexable": true,
+   "number": "35",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/35/",
+   "words": 196
+  },
+  {
+   "heading": "Representations upon issuance of Digital signature Certificate",
+   "indexable": true,
+   "number": "36",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/36/",
+   "words": 173
+  },
+  {
+   "heading": "Suspension of Digital Signature Certificate",
+   "indexable": true,
+   "number": "37",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/37/",
+   "words": 123
+  },
+  {
+   "heading": "Revocation of Digital Signature Certificate",
+   "indexable": true,
+   "number": "38",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/38/",
+   "words": 225
+  },
+  {
+   "heading": "Notice of suspension or revocation",
+   "indexable": true,
+   "number": "39",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/39/",
+   "words": 75
+  },
+  {
+   "heading": "Generating key pair",
+   "indexable": true,
+   "number": "40",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/40/",
+   "words": 49
+  },
+  {
+   "heading": "Duties of subscriber of Electronic Signature Certificate",
+   "indexable": true,
+   "number": "40A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/40A/",
+   "words": 24
+  },
+  {
+   "heading": "Acceptance of Digital Signature Certificate",
+   "indexable": true,
+   "number": "41",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/41/",
+   "words": 142
+  },
+  {
+   "heading": "Control of private key",
+   "indexable": true,
+   "number": "42",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/42/",
+   "words": 107
+  },
+  {
+   "heading": "Penalty and compensation for damage to computer, computer system, etc",
+   "indexable": true,
+   "number": "43",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/43/",
+   "words": 506
+  },
+  {
+   "heading": "Compensation for failure to protect data",
+   "indexable": true,
+   "number": "43A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/43A/",
+   "words": 217
+  },
+  {
+   "heading": "Penalty for failure to furnish information, return, etc",
+   "indexable": true,
+   "number": "44",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/44/",
+   "words": 140
+  },
+  {
+   "heading": "Residuary penalty",
+   "indexable": true,
+   "number": "45",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/45/",
+   "words": 68
+  },
+  {
+   "heading": "Power to adjudicate",
+   "indexable": true,
+   "number": "46",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/46/",
+   "words": 370
+  },
+  {
+   "heading": "Factors to be taken into account by the adjudicating officer",
+   "indexable": true,
+   "number": "47",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/47/",
+   "words": 60
+  },
+  {
+   "heading": "Appellate Tribunal",
+   "indexable": true,
+   "number": "48",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/48/",
+   "words": 98
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "49",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/49/",
+   "words": 20
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "50",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/50/",
+   "words": 18
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "51",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/51/",
+   "words": 18
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "52",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/52/",
+   "words": 20
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "52A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/52A/",
+   "words": 12
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "52B",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/52B/",
+   "words": 12
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "52C",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/52C/",
+   "words": 13
+  },
+  {
+   "heading": "Decision by majority",
+   "indexable": true,
+   "number": "52D",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/52D/",
+   "words": 75
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "53",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/53/",
+   "words": 18
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "54",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/54/",
+   "words": 10
+  },
+  {
+   "heading": "Orders constituting Appellate Tribunal to be final and not to invalidate its proceedings",
+   "indexable": true,
+   "number": "55",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/55/",
+   "words": 62
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "56",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/56/",
+   "words": 19
+  },
+  {
+   "heading": "Appeal to Appellate Tribunal",
+   "indexable": true,
+   "number": "57",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/57/",
+   "words": 276
+  },
+  {
+   "heading": "Procedure and powers of the Appellate Tribunal",
+   "indexable": true,
+   "number": "58",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/58/",
+   "words": 251
+  },
+  {
+   "heading": "Right to legal representation",
+   "indexable": true,
+   "number": "59",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/59/",
+   "words": 30
+  },
+  {
+   "heading": "Limitation",
+   "indexable": true,
+   "number": "60",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/60/",
+   "words": 26
+  },
+  {
+   "heading": "Civil court not to have jurisdiction",
+   "indexable": true,
+   "number": "61",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/61/",
+   "words": 75
+  },
+  {
+   "heading": "Appeal to High Court",
+   "indexable": true,
+   "number": "62",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/62/",
+   "words": 92
+  },
+  {
+   "heading": "Compounding of contraventions",
+   "indexable": true,
+   "number": "63",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/63/",
+   "words": 204
+  },
+  {
+   "heading": "Recovery of penalty or compensation",
+   "indexable": true,
+   "number": "64",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/64/",
+   "words": 52
+  },
+  {
+   "heading": "Tampering with computer source documents",
+   "indexable": true,
+   "number": "65",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/65/",
+   "words": 105
+  },
+  {
+   "heading": "Computer related offences",
+   "indexable": true,
+   "number": "66",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/66/",
+   "words": 97
+  },
+  {
+   "heading": "Omitted",
+   "indexable": true,
+   "number": "66A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/66A/",
+   "words": 177
+  },
+  {
+   "heading": "Punishment for dishonestly receiving stolen computer resource or communication device",
+   "indexable": true,
+   "number": "66B",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/66B/",
+   "words": 58
+  },
+  {
+   "heading": "Punishment for identity theft",
+   "indexable": true,
+   "number": "66C",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/66C/",
+   "words": 52
+  },
+  {
+   "heading": "Punishment for cheating by personation by using computer resource",
+   "indexable": true,
+   "number": "66D",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/66D/",
+   "words": 44
+  },
+  {
+   "heading": "Punishment for violation of privacy",
+   "indexable": true,
+   "number": "66E",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/66E/",
+   "words": 195
+  },
+  {
+   "heading": "Punishment for cyber terrorism",
+   "indexable": true,
+   "number": "66F",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/66F/",
+   "words": 287
+  },
+  {
+   "heading": "Punishment for publishing or transmitting obscene material in electronic form",
+   "indexable": true,
+   "number": "67",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/67/",
+   "words": 125
+  },
+  {
+   "heading": "Punishment for publishing or transmitting of material containing sexually explicit act, etc., in electronic form",
+   "indexable": true,
+   "number": "67A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/67A/",
+   "words": 88
+  },
+  {
+   "heading": "Punishment for publishing or transmitting of material depicting children in sexually explicit act, etc., in electronic form",
+   "indexable": true,
+   "number": "67B",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/67B/",
+   "words": 289
+  },
+  {
+   "heading": "Preservation and retention of information by intermediaries",
+   "indexable": true,
+   "number": "67C",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/67C/",
+   "words": 59
+  },
+  {
+   "heading": "Power of Controller to give directions",
+   "indexable": true,
+   "number": "68",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/68/",
+   "words": 99
+  },
+  {
+   "heading": "Power to issue directions for interception or monitoring or decryption of any information through any computer resource",
+   "indexable": true,
+   "number": "69",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/69/",
+   "words": 293
+  },
+  {
+   "heading": "Power to issue directions for blocking for public access of any information through any computer resource",
+   "indexable": true,
+   "number": "69A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/69A/",
+   "words": 182
+  },
+  {
+   "heading": "Power to authorise to monitor and collect traffic data or information through any computer resource for cyber security",
+   "indexable": true,
+   "number": "69B",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/69B/",
+   "words": 265
+  },
+  {
+   "heading": "Protected system",
+   "indexable": true,
+   "number": "70",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/70/",
+   "words": 150
+  },
+  {
+   "heading": "National nodal agency",
+   "indexable": true,
+   "number": "70A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/70A/",
+   "words": 83
+  },
+  {
+   "heading": "Indian Computer Emergency Response Team to serve as national agency for incident response",
+   "indexable": true,
+   "number": "70B",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/70B/",
+   "words": 326
+  },
+  {
+   "heading": "Penalty for misrepresentation",
+   "indexable": true,
+   "number": "71",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/71/",
+   "words": 58
+  },
+  {
+   "heading": "Penalty for Breach of confidentiality and privacy",
+   "indexable": true,
+   "number": "72",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/72/",
+   "words": 87
+  },
+  {
+   "heading": "Punishment for disclosure of information in breach of lawful contract",
+   "indexable": true,
+   "number": "72A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/72A/",
+   "words": 105
+  },
+  {
+   "heading": "Penalty for publishing electronic signature Certificate false in certain particulars",
+   "indexable": true,
+   "number": "73",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/73/",
+   "words": 121
+  },
+  {
+   "heading": "Publication for fraudulent purpose",
+   "indexable": true,
+   "number": "74",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/74/",
+   "words": 46
+  },
+  {
+   "heading": "Act to apply for offence or contravention committed outside India",
+   "indexable": true,
+   "number": "75",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/75/",
+   "words": 74
+  },
+  {
+   "heading": "Confiscation",
+   "indexable": true,
+   "number": "76",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/76/",
+   "words": 157
+  },
+  {
+   "heading": "Compensation, penalties or confiscation not to interfere with other punishment",
+   "indexable": true,
+   "number": "77",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/77/",
+   "words": 46
+  },
+  {
+   "heading": "Compounding of offences",
+   "indexable": true,
+   "number": "77A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/77A/",
+   "words": 149
+  },
+  {
+   "heading": "Offences with three years imprisonment to be bailable",
+   "indexable": true,
+   "number": "77B",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/77B/",
+   "words": 46
+  },
+  {
+   "heading": "Power to investigate offences",
+   "indexable": true,
+   "number": "78",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/78/",
+   "words": 30
+  },
+  {
+   "heading": "Exemption from liability of intermediary in certain cases",
+   "indexable": true,
+   "number": "79",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/79/",
+   "words": 274
+  },
+  {
+   "heading": "Central Government to notify Examiner of Electronic Evidence",
+   "indexable": true,
+   "number": "79A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/79A/",
+   "words": 92
+  },
+  {
+   "heading": "Power of police officer and other officers to enter, search, etc",
+   "indexable": true,
+   "number": "80",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/80/",
+   "words": 198
+  },
+  {
+   "heading": "Act to have overriding effect",
+   "indexable": true,
+   "number": "81",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/81/",
+   "words": 56
+  },
+  {
+   "heading": "Application of the Act to electronic cheque and truncated cheque",
+   "indexable": true,
+   "number": "81A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/81A/",
+   "words": 248
+  },
+  {
+   "heading": "Controller, Deputy Controller and Assistant Controller to be public servants",
+   "indexable": true,
+   "number": "82",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/82/",
+   "words": 42
+  },
+  {
+   "heading": "Power to give directions",
+   "indexable": true,
+   "number": "83",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/83/",
+   "words": 36
+  },
+  {
+   "heading": "Protection of action taken in good faith",
+   "indexable": true,
+   "number": "84",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/84/",
+   "words": 55
+  },
+  {
+   "heading": "Modes or methods for encryption",
+   "indexable": true,
+   "number": "84A",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/84A/",
+   "words": 31
+  },
+  {
+   "heading": "Punishment for abetment of offences",
+   "indexable": true,
+   "number": "84B",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/84B/",
+   "words": 84
+  },
+  {
+   "heading": "Punishment for attempt to commit offences",
+   "indexable": true,
+   "number": "84C",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/84C/",
+   "words": 93
+  },
+  {
+   "heading": "Offences by companies",
+   "indexable": true,
+   "number": "85",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/85/",
+   "words": 246
+  },
+  {
+   "heading": "Removal of difficulties",
+   "indexable": true,
+   "number": "86",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/86/",
+   "words": 98
+  },
+  {
+   "heading": "Power of Central Government to make rules",
+   "indexable": true,
+   "number": "87",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/87/",
+   "words": 877
+  },
+  {
+   "heading": "Constitution of Advisory Committee",
+   "indexable": true,
+   "number": "88",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/88/",
+   "words": 124
+  },
+  {
+   "heading": "Power of Controller to make regulations",
+   "indexable": true,
+   "number": "89",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/89/",
+   "words": 345
+  },
+  {
+   "heading": "Power of State Government to make rules",
+   "indexable": true,
+   "number": "90",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/90/",
+   "words": 130
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "91",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/91/",
+   "words": 22
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "92",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/92/",
+   "words": 14
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "93",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/93/",
+   "words": 14
+  },
+  {
+   "heading": "[Omitted.]",
+   "indexable": true,
+   "number": "94",
+   "url": "https://indiacode.ecourtsindia.com/it-act/section/94/",
+   "words": 14
+  }
+ ]
+}

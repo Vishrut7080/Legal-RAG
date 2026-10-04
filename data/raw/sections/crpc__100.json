@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "103",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/103/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 6,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Persons in charge of closed place to allow search",
+  "html": "<p><span class=\"num\">(1)</span> Whenever any place liable to search or inspection under this Chapter is closed, any person residing in, or being in charge of, such place, shall, on demand of the officer or other person executing the warrant, and on production of the warrant, allow him free ingress thereto, and afford all reasonable facilities for a search therein.</p><p><span class=\"num\">(2)</span> If ingress into such place cannot be so obtained, the officer or other person executing the warrant may proceed in the manner provided by sub-section (2) of section <a href=\"/crpc/section/47/\">47</a>.</p><p><span class=\"num\">(3)</span> Where any person in or about such place is reasonably suspected of concealing about his person any article for which search should be made, such person may be searched and if such person is a woman, the search shall be made by another woman with strict regard to decency.</p><p><span class=\"num\">(4)</span> Before making a search under this Chapter, the officer or other person about to make it shall call upon two or more independent and respectable inhabitants of the locality in which the</p><p>place to be searched is situate or of any other locality if no such inhabitant of the said locality is available or is willing to be a witness to the search, to attend and</p><p>witness the search and may issue an order in writing to them or any of them so to do.</p><p><span class=\"num\">(5)</span> The search shall be made in their presence, and a list of all things seized in the course of such search and of the places in which they are respectively found shall be prepared by such officer or other person and signed by such witnesses; but no person witnessing a search under this section shall be required to attend the Court as a witness of the search unless specially summoned by it.</p><p><span class=\"num\">(6)</span> The occupant of the place searched, or some person in his behalf, shall, in every instance, be permitted to attend during the search. and a copy of the list prepared under this section, signed by the said witnesses, shall be delivered to such occupant or person.</p><p><span class=\"num\">(7)</span> When any person is searched under sub-section (3), a list of all things taken possession of shall be prepared, and a copy thereof shall be delivered to such person.</p><p><span class=\"num\">(8)</span> Any person who, without reasonable cause, refuses or neglects to attend and witness a search under this section, when called upon to do so by an order in writing delivered or tendered to him, shall be deemed to have committed an offence under section <a href=\"/ipc/section/187/\">187</a> of the Indian Penal Code (45 of 1860).</p>",
+  "number": "100",
+  "text": "(1) Whenever any place liable to search or inspection under this Chapter is closed, any person residing in, or being in charge of, such place, shall, on demand of the officer or other person executing the warrant, and on production of the warrant, allow him free ingress thereto, and afford all reasonable facilities for a search therein. (2) If ingress into such place cannot be so obtained, the officer or other person executing the warrant may proceed in the manner provided by sub-section (2) of section 47. (3) Where any person in or about such place is reasonably suspected of concealing about his person any article for which search should be made, such person may be searched and if such person is a woman, the search shall be made by another woman with strict regard to decency. (4) Before making a search under this Chapter, the officer or other person about to make it shall call upon two or more independent and respectable inhabitants of the locality in which the place to be searched is situate or of any other locality if no such inhabitant of the said locality is available or is willing to be a witness to the search, to attend and witness the search and may issue an order in writing to them or any of them so to do. (5) The search shall be made in their presence, and a list of all things seized in the course of such search and of the places in which they are respectively found shall be prepared by such officer or other person and signed by such witnesses; but no person witnessing a search under this section shall be required to attend the Court as a witness of the search unless specially summoned by it. (6) The occupant of the place searched, or some person in his behalf, shall, in every instance, be permitted to attend during the search. and a copy of the list prepared under this section, signed by the said witnesses, shall be delivered to such occupant or person. (7) When any person is searched under sub-section (3), a list of all things taken possession of shall be prepared, and a copy thereof shall be delivered to such person. (8) Any person who, without reasonable cause, refuses or neglects to attend and witness a search under this section, when called upon to do so by an order in writing delivered or tendered to him, shall be deemed to have committed an offence under section 187 of the Indian Penal Code (45 of 1860).",
+  "words": 427
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/100/"
+}

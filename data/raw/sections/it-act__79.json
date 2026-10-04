@@ -1,0 +1,98 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "9fc47069",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "Process of registration of cyber cafe to be followed by registration agency",
+   "url": "https://indiacode.ecourtsindia.com/rules/process-of-registration-of-cyber-cafe-to-be-followed-by-registration-9fc47069/",
+   "year": 2012
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "a73b01f4",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "Information Technology (Intermediaries Guidelines) Rules, 2011.",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-intermediaries-guidelines-rules-2011-a73b01f4/",
+   "year": 2011
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "e41cc5c5",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "Information Technology(Guidelines for Cyber Cafe Rules) Rules, 2011",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-guidelines-for-cyber-cafe-rules-rules-2011-e41cc5c5/",
+   "year": 2011
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "366f89c4",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 updated as on 6.4.2023",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-intermediary-guidelines-and-digital-media-366f89c4/",
+   "year": 2023
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "eb1fd839",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 - comprehensive rules updated on 28th Oct 2022,",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-intermediary-guidelines-and-digital-media-eb1fd839/",
+   "year": 2022
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "ad366576",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021.",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-intermediary-guidelines-and-digital-media-ad366576/",
+   "year": 2021
+  }
+ ],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Exemption from liability of intermediary in certain cases",
+  "html": "<p><sup>1</sup><b>[79. Exemption from liability of intermediary in certain cases.</b>--(1) Notwithstanding anything contained in any law for the time being in force but subject to the provisions of sub-sections <i>(2)</i> and <i>(3)</i>, an intermediary shall not be liable for any third party information, data, or communication link made available or hosted by him.</p><p><span class=\"num\">(2)</span> The provisions of sub-section <i>(1)</i> shall apply if--</p><p><span class=\"num\">(a)</span> the function of the intermediary is limited to providing access to a communication system over which information made available by third parties is transmitted or temporarily stored or hosted; or</p><p><span class=\"num\">(b)</span> the intermediary does not--</p><p><span class=\"num\">(i)</span> initiate the transmission,</p><p><span class=\"num\">(ii)</span> select the receiver of the transmission, and</p><p><span class=\"num\">(iii)</span> select or modify the information contained in the transmission;</p><p><span class=\"num\">(c)</span> the intermediary observes due diligence while discharging his duties under this Act and also observes such other guidelines as the Central Government may prescribe in this behalf.</p><p><span class=\"num\">(3)</span> The provisions of sub-section <i>(1)</i> shall not apply if--</p><p><span class=\"num\">(a)</span> the intermediary has conspired or abetted or aided or induced, whether by threats or promise or otherwise in the commission of the unlawful act;</p><p><span class=\"num\">(b)</span> upon receiving actual knowledge, or on being notified by the appropriate Government or its agency that any information, data or communication link residing in or connected to a computer resource controlled by the intermediary is being used to commit the unlawful act, the intermediary fails to expeditiously remove or disable access to that material on that resource without vitiating the evidence in any manner.</p><p><i>Explanation</i>. -- For the purposes of this section, the expression \"third party information\" means any information dealt with by an intermediary in his capacity as an intermediary.]</p>",
+  "number": "79",
+  "text": "1[79. Exemption from liability of intermediary in certain cases.--(1) Notwithstanding anything contained in any law for the time being in force but subject to the provisions of sub-sections (2) and (3), an intermediary shall not be liable for any third party information, data, or communication link made available or hosted by him. (2) The provisions of sub-section (1) shall apply if-- (a) the function of the intermediary is limited to providing access to a communication system over which information made available by third parties is transmitted or temporarily stored or hosted; or (b) the intermediary does not-- (i) initiate the transmission, (ii) select the receiver of the transmission, and (iii) select or modify the information contained in the transmission; (c) the intermediary observes due diligence while discharging his duties under this Act and also observes such other guidelines as the Central Government may prescribe in this behalf. (3) The provisions of sub-section (1) shall not apply if-- (a) the intermediary has conspired or abetted or aided or induced, whether by threats or promise or otherwise in the commission of the unlawful act; (b) upon receiving actual knowledge, or on being notified by the appropriate Government or its agency that any information, data or communication link residing in or connected to a computer resource controlled by the intermediary is being used to commit the unlawful act, the intermediary fails to expeditiously remove or disable access to that material on that resource without vitiating the evidence in any manner. Explanation. -- For the purposes of this section, the expression \"third party information\" means any information dealt with by an intermediary in his capacity as an intermediary.]",
+  "words": 274
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/79/"
+}

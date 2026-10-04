@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9636,
+   "section": "53A",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/53A/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Evidence of character or previous sexual experience not relevant in certain cases",
+  "html": "<p>In a prosecution for an offence under section <a href=\"/bsa/section/64/\">64</a>, section <a href=\"/bsa/section/65/\">65</a>, section <a href=\"/bsa/section/66/\">66</a>, section <a href=\"/bsa/section/67/\">67</a>, section <a href=\"/bsa/section/68/\">68</a>, section <a href=\"/bsa/section/69/\">69</a>, section <a href=\"/bsa/section/70/\">70</a>, section <a href=\"/bsa/section/71/\">71</a>, section <a href=\"/bsa/section/74/\">74</a>, section <a href=\"/bsa/section/75/\">75</a>, section <a href=\"/bsa/section/76/\">76</a>, section <a href=\"/bsa/section/77/\">77</a> or section <a href=\"/bns/section/78/\">78</a> of the Bharatiya Nyaya Sanhita, 2023 or for attempt to commit any such offence, where the question of consent is in issue, evidence of the character of the victim or of such person’s previous sexual experience with any person shall not be relevant on the issue of such consent or the quality of consent.</p>",
+  "number": "48",
+  "text": "In a prosecution for an offence under section 64, section 65, section 66, section 67, section 68, section 69, section 70, section 71, section 74, section 75, section 76, section 77 or section 78 of the Bharatiya Nyaya Sanhita, 2023 or for attempt to commit any such offence, where the question of consent is in issue, evidence of the character of the victim or of such person’s previous sexual experience with any person shall not be relevant on the issue of such consent or the quality of consent.",
+  "words": 88
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/48/"
+}

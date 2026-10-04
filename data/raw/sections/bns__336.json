@@ -1,0 +1,92 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "classification": [
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Non-cognizable.",
+   "offence": "Forgery.",
+   "punishment": "Imprisonment for 2 years, or fine, or both.",
+   "triable_by": "Magistrate of the first class."
+  },
+  {
+   "bailable": "Non-bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Forgery for the purpose of cheating.",
+   "punishment": "Imprisonment for 7 years and fine.",
+   "triable_by": "Magistrate of the first class."
+  },
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Forgery for the purpose of harming the reputation of any person or knowing that it is likely to be used for that purpose.",
+   "punishment": "Imprisonment for 3 years and fine.",
+   "triable_by": "Magistrate of the first class."
+  }
+ ],
+ "corresponds_to": [
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9,
+   "section": "463",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/463/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.8681,
+   "section": "465",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/465/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "close",
+   "score": 0.8092,
+   "section": "468",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/468/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "close",
+   "score": 0.7821,
+   "section": "469",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/469/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Forgery",
+  "html": "<p><span class=\"num\">(1)</span> Whoever makes any false document or false electronic record or part of a document or electronic record, with intent to cause damage or injury, to the public or to any person, or to support any claim or title, or to cause any person to part with property, or to enter into any express or implied contract, or with intent to commit fraud or that fraud may be committed, commits forgery.</p><p><span class=\"num\">(2)</span> Whoever commits forgery shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.</p><p><span class=\"num\">(3)</span> Whoever commits forgery, intending that the document or electronic record forged shall be used for the purpose of cheating, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.</p><p><span class=\"num\">(4)</span> Whoever commits forgery, intending that the document or electronic record forged shall harm the reputation of any party, or knowing that it is likely to be used for that purpose, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine.</p>",
+  "number": "336",
+  "text": "(1) Whoever makes any false document or false electronic record or part of a document or electronic record, with intent to cause damage or injury, to the public or to any person, or to support any claim or title, or to cause any person to part with property, or to enter into any express or implied contract, or with intent to commit fraud or that fraud may be committed, commits forgery. (2) Whoever commits forgery shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both. (3) Whoever commits forgery, intending that the document or electronic record forged shall be used for the purpose of cheating, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. (4) Whoever commits forgery, intending that the document or electronic record forged shall harm the reputation of any party, or knowing that it is likely to be used for that purpose, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine.",
+  "words": 197
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bns/section/336/"
+}

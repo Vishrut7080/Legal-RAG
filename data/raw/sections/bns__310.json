@@ -1,0 +1,114 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "classification": [
+  {
+   "bailable": "Non-bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Dacoity.",
+   "punishment": "Imprisonment for life, or rigorous imprisonment for 10 years and fine.",
+   "triable_by": "Court of Session."
+  },
+  {
+   "bailable": "Non-bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Murder in dacoity.",
+   "punishment": "Death, imprisonment for life, or rigorous imprisonment for not less than 10 years and fine.",
+   "triable_by": "Court of Session."
+  },
+  {
+   "bailable": "Non-bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Making preparation to commit dacoity.",
+   "punishment": "Rigorous imprisonment for 10 years and fine.",
+   "triable_by": "Court of Session."
+  },
+  {
+   "bailable": "Non-bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Being one of five or more persons assembled for the purpose of committing dacoity.",
+   "punishment": "R igorous imprisonment for 7 years and fine.",
+   "triable_by": "Court of Session."
+  },
+  {
+   "bailable": "Non-bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Belonging to a gang of persons associated for the purpose of habitually committing dacoity.",
+   "punishment": "Imprisonment for life, or rigorous imprisonment for 10 years and fine.",
+   "triable_by": "Court of Session."
+  }
+ ],
+ "corresponds_to": [
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9,
+   "section": "391",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/391/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.8688,
+   "section": "395",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/395/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "close",
+   "score": 0.8435,
+   "section": "396",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/396/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "close",
+   "score": 0.8088,
+   "section": "399",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/399/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "weak",
+   "score": 0.5422,
+   "section": "402",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/402/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Dacoity",
+  "html": "<p><span class=\"num\">(1)</span> When five or more persons conjointly commit or attempt to commit a robbery, or where the whole number of persons conjointly committing or attempting to commit a robbery, and persons present and aiding such commission or attempt, amount to five or more, every person so committing, attempting or aiding, is said to commit dacoity.</p><p><span class=\"num\">(2)</span> Whoever commits dacoity shall be punished with imprisonment for life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.</p><p><span class=\"num\">(3)</span> If any one of five or more persons, who are conjointly committing dacoity, commits murder in so committing dacoity, every one of those persons shall be punished with death, or imprisonment for life, or rigorous imprisonment for a term which shall not be less than ten years, and shall also be liable to fine.</p><p><span class=\"num\">(4)</span> Whoever makes any preparation for committing dacoity, shall be punished with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.</p><p><span class=\"num\">(5)</span> Whoever is one of five or more persons assembled for the purpose of committing dacoity, shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine.</p><p><span class=\"num\">(6)</span> Whoever belongs to a gang of persons associated for the purpose of habitually committing dacoity, shall be punished with imprisonment for life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.</p>",
+  "number": "310",
+  "text": "(1) When five or more persons conjointly commit or attempt to commit a robbery, or where the whole number of persons conjointly committing or attempting to commit a robbery, and persons present and aiding such commission or attempt, amount to five or more, every person so committing, attempting or aiding, is said to commit dacoity. (2) Whoever commits dacoity shall be punished with imprisonment for life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine. (3) If any one of five or more persons, who are conjointly committing dacoity, commits murder in so committing dacoity, every one of those persons shall be punished with death, or imprisonment for life, or rigorous imprisonment for a term which shall not be less than ten years, and shall also be liable to fine. (4) Whoever makes any preparation for committing dacoity, shall be punished with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine. (5) Whoever is one of five or more persons assembled for the purpose of committing dacoity, shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine. (6) Whoever belongs to a gang of persons associated for the purpose of habitually committing dacoity, shall be punished with imprisonment for life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+  "words": 252
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bns/section/310/"
+}

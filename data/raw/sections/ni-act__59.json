@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Instrument acquired after dishonour or when overdue",
+  "html": "<p>The holder of a negotiable instrument, who has acquired it after dishonour, whether by non-acceptance or non-payment, with notice thereof, or after maturity, has only, as against the other parties, the rights thereon of his transferor:</p><p><b>Accommodation note or bill.</b>-- Provided that any person who, in good faith and for consideration, becomes the holder, after maturity, of a promissory note or bill of exchange made, drawn or accepted without consideration, for the purpose of enabling some party thereto to raise money thereon, may recover the amount of the note or bill from any prior party.</p><p class=\"rubric\"><i>Illustration</i></p><p>The acceptor of a bill of exchange, when he accepted it, deposited with the drawer certain goods as a collateral security for the payment of the bill, with power to the drawer to sell the goods and apply the proceeds in discharge of the bill if it were not paid at maturity. The bill not having been paid at maturity, the drawer sold the goods and retained the proceeds, but indorsed the bill to A. A's title is subject to the same objection as the drawer's title.</p>",
+  "number": "59",
+  "text": "The holder of a negotiable instrument, who has acquired it after dishonour, whether by non-acceptance or non-payment, with notice thereof, or after maturity, has only, as against the other parties, the rights thereon of his transferor: Accommodation note or bill.-- Provided that any person who, in good faith and for consideration, becomes the holder, after maturity, of a promissory note or bill of exchange made, drawn or accepted without consideration, for the purpose of enabling some party thereto to raise money thereon, may recover the amount of the note or bill from any prior party. Illustration The acceptor of a bill of exchange, when he accepted it, deposited with the drawer certain goods as a collateral security for the payment of the bill, with power to the drawer to sell the goods and apply the proceeds in discharge of the bill if it were not paid at maturity. The bill not having been paid at maturity, the drawer sold the goods and retained the proceeds, but indorsed the bill to A. A's title is subject to the same objection as the drawer's title.",
+  "words": 183
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/59/"
+}

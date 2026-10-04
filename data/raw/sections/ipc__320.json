@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9303,
+   "section": "116",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/116/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 5,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Grievous hurt",
+  "html": "<p>The following kinds of hurt only are designated as &quot;grievous&quot;:-</p><p>First.-Emasculation.</p><p>Secondly.-Permanent privation of the sight of either eye.</p><p>Thirdly.-Permanent privation of the hearing of either ear.</p><p>Fourthly.-Privation of any member or joint.</p><p>Fifthly.-Destruction or permanent impairing of the powers of any member or joint.</p><p>Sixthly.-Permanent disfiguration of the head or face.</p><p>Seventhly.-Fracture or dislocation of a bone or tooth.</p><p>Eighthly.-Any hurt which endangers life or which causes the sufferer to be during the space of twenty days in severe bodily pain, or unable to follow his ordinary pursuits.</p>",
+  "number": "320",
+  "text": "The following kinds of hurt only are designated as \"grievous\":- First.-Emasculation. Secondly.-Permanent privation of the sight of either eye. Thirdly.-Permanent privation of the hearing of either ear. Fourthly.-Privation of any member or joint. Fifthly.-Destruction or permanent impairing of the powers of any member or joint. Sixthly.-Permanent disfiguration of the head or face. Seventhly.-Fracture or dislocation of a bone or tooth. Eighthly.-Any hurt which endangers life or which causes the sufferer to be during the space of twenty days in severe bodily pain, or unable to follow his ordinary pursuits.",
+  "words": 89
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/320/"
+}

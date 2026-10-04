@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9875,
+   "section": "131",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/131/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 5,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Punishment for assault or criminal force otherwise than on grave provocation",
+  "html": "<p>Whoever assaults or uses criminal force to any person otherwise than on grave and sudden provocation given by that person, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both.</p><p>Explanation.-Grave and sudden provocation will not mitigate the punishment for an offence under this section, if the provocation is sought or voluntarily provoked by the offender as an excuse for the offence, or</p><p>if the provocation is given by anything done in obedience to the law, or by a public servant, in the lawful exercise of the powers of such public servant, or</p><p>if the provocation is given by anything done in the lawful exercise of the right of private defence.</p><p>Whether the provocation was grave and sudden enough to mitigate the offence, is a question of fact.</p>",
+  "number": "352",
+  "text": "Whoever assaults or uses criminal force to any person otherwise than on grave and sudden provocation given by that person, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. Explanation.-Grave and sudden provocation will not mitigate the punishment for an offence under this section, if the provocation is sought or voluntarily provoked by the offender as an excuse for the offence, or if the provocation is given by anything done in obedience to the law, or by a public servant, in the lawful exercise of the powers of such public servant, or if the provocation is given by anything done in the lawful exercise of the right of private defence. Whether the provocation was grave and sudden enough to mitigate the offence, is a question of fact.",
+  "words": 148
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/352/"
+}

@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Cognizance of offences",
+  "html": "<p><sup>1</sup>[(1)] Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974),</p><p><span class=\"num\">(a)</span> no court shall take cognizance of any offence punishable under section <a href=\"/ni-act/section/138/\">138</a> except upon a complaint, in writing, made by the payee or, as the case may be, the holder in due course of the cheque;</p><p><span class=\"num\">(b)</span> such complaint is made within one month of the date on which the cause of action arises under clause (c) of the proviso to section <a href=\"/ni-act/section/138/\">138</a>:</p><p><sup>2</sup>[Provided that the cognizance of a complaint may be taken by the Court after the prescribed period, if the complainant satisfies the Court that he had sufficient cause for not making a complaint within such period;]</p><p><span class=\"num\">(c)</span> no court inferior to that of a Metropolitan Magistrate or a Judicial Magistrate of the first class shall try any offence punishable under section <a href=\"/ni-act/section/138/\">138</a>.].</p><p><sup>3</sup>[(2) The offence under section <a href=\"/ni-act/section/138/\">138</a> shall be inquired into and tried only by a court within whose local jurisdiction,--</p><p><span class=\"num\">(a)</span> if the cheque is delivered for collection through an account, the branch of the bank where the payee or holder in due course, as the case may be, maintains the account, is situated; or</p><p><span class=\"num\">(b)</span> if the cheque is presented for payment by the payee or holder in due course, otherwise through an account, the branch of the drawee bank where the drawer maintains the account, is situated.</p><p><i>Explanation</i>.-- For the purposes of clause (a), where a cheque is delivered for collection at any branch of the bank of the payee or holder in due course, then, the cheque shall be deemed to have been delivered to the branch of the bank in which the payee or holder in due course, as the case may be, maintains the account.]</p>",
+  "number": "142",
+  "text": "1[(1)] Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), (a) no court shall take cognizance of any offence punishable under section 138 except upon a complaint, in writing, made by the payee or, as the case may be, the holder in due course of the cheque; (b) such complaint is made within one month of the date on which the cause of action arises under clause (c) of the proviso to section 138: 2[Provided that the cognizance of a complaint may be taken by the Court after the prescribed period, if the complainant satisfies the Court that he had sufficient cause for not making a complaint within such period;] (c) no court inferior to that of a Metropolitan Magistrate or a Judicial Magistrate of the first class shall try any offence punishable under section 138.]. 3[(2) The offence under section 138 shall be inquired into and tried only by a court within whose local jurisdiction,-- (a) if the cheque is delivered for collection through an account, the branch of the bank where the payee or holder in due course, as the case may be, maintains the account, is situated; or (b) if the cheque is presented for payment by the payee or holder in due course, otherwise through an account, the branch of the drawee bank where the drawer maintains the account, is situated. Explanation.-- For the purposes of clause (a), where a cheque is delivered for collection at any branch of the bank of the payee or holder in due course, then, the cheque shall be deemed to have been delivered to the branch of the bank in which the payee or holder in due course, as the case may be, maintains the account.]",
+  "words": 290
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/142/"
+}

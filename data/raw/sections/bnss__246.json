@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9921,
+   "section": "223",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/223/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "What persons may be charged jointly",
+  "html": "<p>The following persons may be charged and tried together, namely:—</p><p><span class=\"num\">(a)</span> persons accused of the same offence committed in the course of the same transaction;</p><p><span class=\"num\">(b)</span> persons accused of an offence and persons accused of abetment of, or attempt to commit, such offence;</p><p><span class=\"num\">(c)</span> persons accused of more than one offence of the same kind, within the meaning of section <a href=\"/bnss/section/242/\">242</a> committed by them jointly within the period of twelve months;</p><p><span class=\"num\">(d)</span> persons accused of different offences committed in the course of the same transaction;</p><p><span class=\"num\">(e)</span> persons accused of an offence which includes theft, extortion, cheating, or criminal misappropriation, and persons accused of receiving or retaining, or assisting in the disposal or concealment of, property possession of which is alleged to have been transferred by any such offence committed by the first-named persons, or of abetment of or attempting to commit any such last-named offence;</p><p><span class=\"num\">(f)</span> persons accused of offences under sub-sections (2) and (5) of section <a href=\"/bns/section/317/\">317</a> of the Bharatiya Nyaya Sanhita, 2023 or either of those sections in respect of stolen property the possession of which has been transferred by one offence;</p><p><span class=\"num\">(g)</span> persons accused of any offence under Chapter X of the Bharatiya Nyaya Sanhita, 2023 relating to counterfeit coin and persons accused of any other offence under the said Chapter relating to the same coin, or of abetment of or attempting to commit any such offence; and the provisions contained in the former part of this Chapter shall, so far as may be, apply to all such charges:</p><p>Provided that where a number of persons are charged with separate offences and such persons do not fall within any of the categories specified in this section, the Magistrate or Court of Session may, if such persons by an application in writing, so desire, and if he or it is satisfied that such persons would not be prejudicially affected thereby, and it is expedient so to do, try all such persons together.</p>",
+  "number": "246",
+  "text": "The following persons may be charged and tried together, namely:— (a) persons accused of the same offence committed in the course of the same transaction; (b) persons accused of an offence and persons accused of abetment of, or attempt to commit, such offence; (c) persons accused of more than one offence of the same kind, within the meaning of section 242 committed by them jointly within the period of twelve months; (d) persons accused of different offences committed in the course of the same transaction; (e) persons accused of an offence which includes theft, extortion, cheating, or criminal misappropriation, and persons accused of receiving or retaining, or assisting in the disposal or concealment of, property possession of which is alleged to have been transferred by any such offence committed by the first-named persons, or of abetment of or attempting to commit any such last-named offence; (f) persons accused of offences under sub-sections (2) and (5) of section 317 of the Bharatiya Nyaya Sanhita, 2023 or either of those sections in respect of stolen property the possession of which has been transferred by one offence; (g) persons accused of any offence under Chapter X of the Bharatiya Nyaya Sanhita, 2023 relating to counterfeit coin and persons accused of any other offence under the said Chapter relating to the same coin, or of abetment of or attempting to commit any such offence; and the provisions contained in the former part of this Chapter shall, so far as may be, apply to all such charges: Provided that where a number of persons are charged with separate offences and such persons do not fall within any of the categories specified in this section, the Magistrate or Court of Session may, if such persons by an application in writing, so desire, and if he or it is satisfied that such persons would not be prejudicially affected thereby, and it is expedient so to do, try all such persons together.",
+  "words": 324
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/246/"
+}

@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Provisions as to barred or pending suits, etc",
+  "html": "<p>Nothing in this Act shall,—</p><p><span class=\"num\">(a)</span> enable any suit, appeal or application to be instituted, preferred or made, for which the period of limitation prescribed by the Indian Limitation Act, 1908 (9 of 1908), expired before the commencement of this Act; or</p><p><span class=\"num\">(b)</span> affect any suit, appeal or application instituted, preferred or made before, and pending at, such commencement.</p>",
+  "number": "31",
+  "text": "Nothing in this Act shall,— (a) enable any suit, appeal or application to be instituted, preferred or made, for which the period of limitation prescribed by the Indian Limitation Act, 1908 (9 of 1908), expired before the commencement of this Act; or (b) affect any suit, appeal or application instituted, preferred or made before, and pending at, such commencement.",
+  "words": 59
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/limitation-act/section/31/"
+}

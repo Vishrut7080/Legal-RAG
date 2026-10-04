@@ -1,0 +1,88 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "c8315c02",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "GSR 162(E) 25 feb 2022 Motor Vehicles (Accident) Fund Rules, 2022",
+   "url": "https://indiacode.ecourtsindia.com/rules/gsr-162-e-25-feb-2022-motor-vehicles-accident-fund-rules-2022-c8315c02/",
+   "year": 2022
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "8d4b6979",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "draft GSR 528(E) dated 2nd August 2021 Claims Tribunal investigation",
+   "url": "https://indiacode.ecourtsindia.com/rules/draft-gsr-528-e-dated-2nd-august-2021-claims-tribunal-investigation-8d4b6979/",
+   "year": 2021
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "ccf4318f",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "draft GSR 527(E) 2nd August 2021 Motor Vehicles accident fund rules",
+   "url": "https://indiacode.ecourtsindia.com/rules/draft-gsr-527-e-2nd-august-2021-motor-vehicles-accident-fund-rules-ccf4318f/",
+   "year": 2021
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "504efe4c",
+   "kind": "notification",
+   "relation": "mentions",
+   "title": "GSR 163(E) 25 feb 2022 Compensation to Victims of Hit & Run Motor Accidents, Scheme 2022",
+   "url": "https://indiacode.ecourtsindia.com/rules/gsr-163-e-25-feb-2022-compensation-to-victims-of-hit-and-run-motor-504efe4c/",
+   "year": 2022
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "70a204aa",
+   "kind": "notification",
+   "relation": "mentions",
+   "title": "draft GSR 526 (E) 2nd August 2021 Scheme for Compensation Hit and run",
+   "url": "https://indiacode.ecourtsindia.com/rules/draft-gsr-526-e-2nd-august-2021-scheme-for-compensation-hit-and-run-70a204aa/",
+   "year": 2021
+  }
+ ],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Motor Vehicle Accident Fund",
+  "html": "<p><b><sup>1</sup>[164B. Motor Vehicle Accident Fund. --</b> (1) The Central Government shall constitute a Fund to be called the Motor Vehicle Accident Fund and thereto shall be credited--</p><p><span class=\"num\">(a)</span> payment of a nature notified and approved by the Central Government;</p><p><span class=\"num\">(b)</span> any grant or loan made to the Fund by the Central Government;</p><p><span class=\"num\">(c)</span> the balance of the Fund created under scheme framed under section <a href=\"/mv-act/section/163/\">163</a>, as it stood immediately before the commencement of the Motor Vehicles (Amendment) Act, 2019; and</p><p><span class=\"num\">(d)</span> any other source of income as may be prescribed by the Central Government.</p><p><span class=\"num\">(2)</span> The Fund shall be constituted for the purpose of providing compulsory insurance cover to all road users in the territory of India.</p><p><span class=\"num\">(3)</span> The Fund shall be utilised for the following, namely:--</p><p><span class=\"num\">(a)</span> treatment of the persons injured in road accidents in accordance with the scheme framed by the Central Government under section <a href=\"/mv-act/section/162/\">162</a>;</p><p><span class=\"num\">(b)</span> compensation to representatives of a person who died in hit and run motor accident in accordance with schemes framed under section <a href=\"/mv-act/section/161/\">161</a>;</p><p><span class=\"num\">(c)</span> compensation to a person grievously hurt in a hit and run motor accident in accordance with schemes framed under section <a href=\"/mv-act/section/161/\">161</a>; and</p><p><span class=\"num\">(d)</span> compensation to such persons as may be prescribed by the Central Government.</p><p><span class=\"num\">(4)</span> The maximum liability amount that shall be paid in each case shall be such as may be prescribed by the Central Government.</p><p><span class=\"num\">(5)</span> In all cases specified in clause (a) of sub-section (3), when the claim of such person becomes payable, where amount has been paid out of this Fund to any person, the same amount shall be deductible from the claim received by such person from the insurance company.</p><p><span class=\"num\">(6)</span> The Fund shall be managed by such authority or agency as the Central Government may specify having regard to the following:--</p><p><span class=\"num\">(a)</span> knowledge of insurance business of the agency;</p><p><span class=\"num\">(b)</span> capability of the agency to manage funds; and</p><p><span class=\"num\">(c)</span> any other criteria as may be prescribed by the Central Government.</p><p><span class=\"num\">(7)</span> The Central Government shall maintain proper accounts and other relevant records and prepare an annual statement of accounts of the Fund in such form as may be prescribed by the Central Government in consultation with the Comptroller and Auditor-General of India.</p><p><span class=\"num\">(8)</span> The accounts of the Fund shall be audited by the Comptroller and Auditor-General of India at such intervals as may be specified by him.</p><p><span class=\"num\">(9)</span> The Comptroller and Auditor-General of India or any person appointed by him in connection with the audit of the accounts of the Fund under this Act shall have the same rights, privileges and authority in connection with such audit of the Government accounts and, in particular, shall have the right to demand the production of books, accounts, connected vouchers and other documents and papers and to inspect any of the offices of the Authority.</p><p><span class=\"num\">(10)</span> The accounts of the Fund, as certified by the Comptroller and Auditor General of India or any other person appointed by him in this behalf, together with the audit report thereon, shall be forwarded annually to the Central Government and the Central Government shall cause the same to be laid before each House of the Parliament.</p><p><span class=\"num\">(11)</span> Any scheme framed under sub-section (3) of section <a href=\"/mv-act/section/161/\">161</a>, as it stood immediately before the commencement of the Motor Vehicles (Amendment) Act, 2019, shall be discontinued and all rights and liabilities accruing thereunder shall be met out of the Fund with effect from the date of commencement of this Act.]</p>",
+  "number": "164B",
+  "text": "1[164B. Motor Vehicle Accident Fund. -- (1) The Central Government shall constitute a Fund to be called the Motor Vehicle Accident Fund and thereto shall be credited-- (a) payment of a nature notified and approved by the Central Government; (b) any grant or loan made to the Fund by the Central Government; (c) the balance of the Fund created under scheme framed under section 163, as it stood immediately before the commencement of the Motor Vehicles (Amendment) Act, 2019; and (d) any other source of income as may be prescribed by the Central Government. (2) The Fund shall be constituted for the purpose of providing compulsory insurance cover to all road users in the territory of India. (3) The Fund shall be utilised for the following, namely:-- (a) treatment of the persons injured in road accidents in accordance with the scheme framed by the Central Government under section 162; (b) compensation to representatives of a person who died in hit and run motor accident in accordance with schemes framed under section 161; (c) compensation to a person grievously hurt in a hit and run motor accident in accordance with schemes framed under section 161; and (d) compensation to such persons as may be prescribed by the Central Government. (4) The maximum liability amount that shall be paid in each case shall be such as may be prescribed by the Central Government. (5) In all cases specified in clause (a) of sub-section (3), when the claim of such person becomes payable, where amount has been paid out of this Fund to any person, the same amount shall be deductible from the claim received by such person from the insurance company. (6) The Fund shall be managed by such authority or agency as the Central Government may specify having regard to the following:-- (a) knowledge of insurance business of the agency; (b) capability of the agency to manage funds; and (c) any other criteria as may be prescribed by the Central Government. (7) The Central Government shall maintain proper accounts and other relevant records and prepare an annual statement of accounts of the Fund in such form as may be prescribed by the Central Government in consultation with the Comptroller and Auditor-General of India. (8) The accounts of the Fund shall be audited by the Comptroller and Auditor-General of India at such intervals as may be specified by him. (9) The Comptroller and Auditor-General of India or any person appointed by him in connection with the audit of the accounts of the Fund under this Act shall have the same rights, privileges and authority in connection with such audit of the Government accounts and, in particular, shall have the right to demand the production of books, accounts, connected vouchers and other documents and papers and to inspect any of the offices of the Authority. (10) The accounts of the Fund, as certified by the Comptroller and Auditor General of India or any other person appointed by him in this behalf, together with the audit report thereon, shall be forwarded annually to the Central Government and the Central Government shall cause the same to be laid before each House of the Parliament. (11) Any scheme framed under sub-section (3) of section 161, as it stood immediately before the commencement of the Motor Vehicles (Amendment) Act, 2019, shall be discontinued and all rights and liabilities accruing thereunder shall be met out of the Fund with effect from the date of commencement of this Act.]",
+  "words": 580
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/164B/"
+}

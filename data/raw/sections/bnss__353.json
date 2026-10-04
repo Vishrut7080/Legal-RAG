@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "315",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/315/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Accused person to be competent witness",
+  "html": "<p><span class=\"num\">(1)</span> Any person accused of an offence before a Criminal Court shall be a competent witness for the defence and may give evidence on oath in disproof of the charges made against him or any person charged together with him at the same trial:</p><p>Provided that---</p><p><span class=\"num\">(a)</span> he shall not be called as a witness except on his own request in writing;</p><p><span class=\"num\">(b)</span> his failure to give evidence shall not be made the subject of any comment by any of the parties or the Court or give rise to any presumption against himself or any person charged together with him at the same trial.</p><p><span class=\"num\">(2)</span> Any person against whom proceedings are instituted in any Criminal Court under section <a href=\"/bnss/section/101/\">101</a>, or section <a href=\"/bnss/section/126/\">126</a>, or section <a href=\"/bnss/section/127/\">127</a>, or section <a href=\"/bnss/section/128/\">128</a>, or section <a href=\"/bnss/section/129/\">129</a>, or under Chapter X or under Part B, Part C or Part D of Chapter XI, may offer himself as a witness in such proceedings:</p><p>Provided that in proceedings under section <a href=\"/bnss/section/127/\">127</a>, section <a href=\"/bnss/section/128/\">128</a>, or section <a href=\"/bnss/section/129/\">129</a>, the failure of such person to give evidence shall not be made the subject of any comment by any of the parties or the Court or give rise to any presumption against him or any other person proceeded against together with him at the same inquiry.</p>",
+  "number": "353",
+  "text": "(1) Any person accused of an offence before a Criminal Court shall be a competent witness for the defence and may give evidence on oath in disproof of the charges made against him or any person charged together with him at the same trial: Provided that--- (a) he shall not be called as a witness except on his own request in writing; (b) his failure to give evidence shall not be made the subject of any comment by any of the parties or the Court or give rise to any presumption against himself or any person charged together with him at the same trial. (2) Any person against whom proceedings are instituted in any Criminal Court under section 101, or section 126, or section 127, or section 128, or section 129, or under Chapter X or under Part B, Part C or Part D of Chapter XI, may offer himself as a witness in such proceedings: Provided that in proceedings under section 127, section 128, or section 129, the failure of such person to give evidence shall not be made the subject of any comment by any of the parties or the Court or give rise to any presumption against him or any other person proceeded against together with him at the same inquiry.",
+  "words": 214
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/353/"
+}

@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Licence to issue electronic signature Certificates",
+  "html": "<p><b>21. Licence to issue</b> <sup>1</sup> <b>[electronic signature] Certificates.</b>--(1) Subject to the provisions of sub-section <i>(2)</i>, any person may make an application, to the Controller, for a licence to issue <sup>1</sup> [electronic signature] Certificates.</p><p><span class=\"num\">(2)</span> No licence shall be issued under sub-section <i>(1)</i>, unless the applicant fulfils such requirements with respect to qualification, expertise, manpower, financial resources and other infrastructure facilities, which are necessary to issue <sup>1</sup> [electronic signature] Certificates as may be prescribed by the Central Government.</p><p><span class=\"num\">(3)</span> A licence granted under this section shall--</p><p><span class=\"num\">(a)</span> be valid for such period as may be prescribed by the Central Government;</p><p><span class=\"num\">(b)</span> not be transferable or heritable;</p><p><span class=\"num\">(c)</span> be subject to such terms and conditions as may be specified by the regulations.</p>",
+  "number": "21",
+  "text": "21. Licence to issue 1 [electronic signature] Certificates.--(1) Subject to the provisions of sub-section (2), any person may make an application, to the Controller, for a licence to issue 1 [electronic signature] Certificates. (2) No licence shall be issued under sub-section (1), unless the applicant fulfils such requirements with respect to qualification, expertise, manpower, financial resources and other infrastructure facilities, which are necessary to issue 1 [electronic signature] Certificates as may be prescribed by the Central Government. (3) A licence granted under this section shall-- (a) be valid for such period as may be prescribed by the Central Government; (b) not be transferable or heritable; (c) be subject to such terms and conditions as may be specified by the regulations.",
+  "words": 120
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/21/"
+}

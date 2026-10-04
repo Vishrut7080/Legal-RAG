@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "399",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/399/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Sessions Judge's powers of revision",
+  "html": "<p><span class=\"num\">(1)</span> In the case of any proceeding the record of which has been called for by himself, the Sessions Judge may exercise all or any of the powers which may be exercised by the High Court under sub-section <i>(1)</i> of section <a href=\"/bnss/section/442/\">442</a>.</p><p><span class=\"num\">(2)</span> Where any proceeding by way of revision is commenced before a Sessions Judge under sub-section <i>(1)</i>, the provisions of sub-sections<i> (2), (3), (4) </i>and<i> (5) </i>of section <a href=\"/bnss/section/442/\">442</a> shall, so far as may be, apply to such proceeding and references in the said sub-sections to the High Court shall be construed as references to the Sessions Judge.</p><p><span class=\"num\">(3)</span> Where any application for revision is made by or on behalf of any person before the Sessions Judge, the decision of the Sessions Judge thereon in relation to such person shall be final and no further proceeding by way of revision at the instance of such person shall be entertained by the High Court or any other Court.</p>",
+  "number": "440",
+  "text": "(1) In the case of any proceeding the record of which has been called for by himself, the Sessions Judge may exercise all or any of the powers which may be exercised by the High Court under sub-section (1) of section 442. (2) Where any proceeding by way of revision is commenced before a Sessions Judge under sub-section (1), the provisions of sub-sections (2), (3), (4) and (5) of section 442 shall, so far as may be, apply to such proceeding and references in the said sub-sections to the High Court shall be construed as references to the Sessions Judge. (3) Where any application for revision is made by or on behalf of any person before the Sessions Judge, the decision of the Sessions Judge thereon in relation to such person shall be final and no further proceeding by way of revision at the instance of such person shall be entertained by the High Court or any other Court.",
+  "words": 159
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/440/"
+}

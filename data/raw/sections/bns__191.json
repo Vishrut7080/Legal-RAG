@@ -1,0 +1,77 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "classification": [
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Rioting.",
+   "punishment": "Imprisonment for 2 years, or fine, or both.",
+   "triable_by": "Any Magistrate."
+  },
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Rioting, armed with a deadly weapon.",
+   "punishment": "Imprisonment for 5 years, or fine, or both.",
+   "triable_by": "Magistrate of the first class."
+  }
+ ],
+ "corresponds_to": [
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9,
+   "section": "146",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/146/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.8733,
+   "section": "147",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/147/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "close",
+   "score": 0.7662,
+   "section": "148",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/148/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Rioting",
+  "html": "<p><span class=\"num\">(1)</span> Whenever force or violence is used by an unlawful assembly, or by any member thereof, in prosecution of the common object of such assembly, every member of such assembly is guilty of the offence of rioting.</p><p><span class=\"num\">(2)</span> Whoever is guilty of rioting, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.</p><p><span class=\"num\">(3)</span> Whoever is guilty of rioting, being armed with a deadly weapon or with anything which, used as a weapon of offence, is likely to cause death, shall be punished with imprisonment of either description for a term which may extend to five years, or with fine, or with both.</p>",
+  "number": "191",
+  "text": "(1) Whenever force or violence is used by an unlawful assembly, or by any member thereof, in prosecution of the common object of such assembly, every member of such assembly is guilty of the offence of rioting. (2) Whoever is guilty of rioting, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both. (3) Whoever is guilty of rioting, being armed with a deadly weapon or with anything which, used as a weapon of offence, is likely to cause death, shall be punished with imprisonment of either description for a term which may extend to five years, or with fine, or with both.",
+  "words": 116
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bns/section/191/"
+}

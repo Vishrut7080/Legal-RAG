@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Effect of certificate of insurance",
+  "html": "<p><b><sup>1</sup>[Effect of certificate of insurance. --</b> When an insurer has issued a certificate of insurance in respect of a contract of insurance between the insurer and the insured person, then--</p><p><span class=\"num\">(a)</span> if and so long as the policy described in the certificate has not been issued by the insurer to the insured, the insurer shall, as between himself and any other person except the insured, be deemed to have issued to the insured person a policy of insurance conforming in all respects with the description and particulars stated in such certificate; and</p><p><span class=\"num\">(b)</span> if the insurer has issued to the insured the policy described in the certificate, but the actual terms of the policy are less favourable to persons claiming under or by virtue of the policy against the insurer either directly or through the insured than the particulars of the policy as stated in the certificate, the policy shall, as between the insurer and any other person except the insured, be deemed to be in terms conforming in all respects with the particulars stated in the said certificate.]</p>",
+  "number": "156",
+  "text": "1[Effect of certificate of insurance. -- When an insurer has issued a certificate of insurance in respect of a contract of insurance between the insurer and the insured person, then-- (a) if and so long as the policy described in the certificate has not been issued by the insurer to the insured, the insurer shall, as between himself and any other person except the insured, be deemed to have issued to the insured person a policy of insurance conforming in all respects with the description and particulars stated in such certificate; and (b) if the insurer has issued to the insured the policy described in the certificate, but the actual terms of the policy are less favourable to persons claiming under or by virtue of the policy against the insurer either directly or through the insured than the particulars of the policy as stated in the certificate, the policy shall, as between the insurer and any other person except the insured, be deemed to be in terms conforming in all respects with the particulars stated in the said certificate.]",
+  "words": 179
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/156/"
+}

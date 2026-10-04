@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Secure electronic signature",
+  "html": "<p><sup>1</sup> <b>[15. Secure electronic signature.</b>--An electronic signature shall be deemed to be a secure electronic signature if--</p><p><span class=\"num\">(i)</span> the signature creation data, at the time of affixing signature, was under the exclusive control of signatory and no other person; and</p><p><span class=\"num\">(ii)</span> the signature creation data was stored and affixed in such exclusive manner as may be prescribed.</p><p><i>Explanation</i>.--In case of digital signature, the \"signature creation data\" means the private key of the subscriber.]</p>",
+  "number": "15",
+  "text": "1 [15. Secure electronic signature.--An electronic signature shall be deemed to be a secure electronic signature if-- (i) the signature creation data, at the time of affixing signature, was under the exclusive control of signatory and no other person; and (ii) the signature creation data was stored and affixed in such exclusive manner as may be prescribed. Explanation.--In case of digital signature, the \"signature creation data\" means the private key of the subscriber.]",
+  "words": 73
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/15/"
+}

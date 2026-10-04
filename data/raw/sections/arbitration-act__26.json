@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1996,
+  "department": "Department of Legal Affairs",
+  "duplicate_of": null,
+  "enact_date": "1996-08-16",
+  "enforcement_date": "1996-08-22",
+  "id": "arbitration-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to domestic arbitration, international commercial arbitration and enforcement of foreign arbitral awards as also to define the law relating to conciliation and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 106,
+  "short_title": "The Arbitration and Conciliation Act, 1996",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/arbitration-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Expert appointed by arbitral tribunal",
+  "html": "<p><span class=\"num\">(1)</span> Unless otherwise agreed by the parties, the arbitral tribunal may—</p><p><span class=\"num\">(a)</span> appoint one or more experts to report to it on specific issues to be determined by the arbitral tribunal, and</p><p><span class=\"num\">(b)</span> require a party to give the expert any relevant information or to produce, or to provide access to, any relevant documents, goods or other property for his inspection.</p><p><span class=\"num\">(2)</span> Unless otherwise agreed by the parties, if a party so requests or if the arbitral tribunal considers it necessary, the expert shall, after delivery of his written or oral report, participate in an oral hearing where the parties have the opportunity to put questions to him and to present expert witnesses in order to testify on the points at issue.</p><p><span class=\"num\">(3)</span> Unless otherwise agreed by the parties, the expert shall, on the request of a party, make available to that party for examination all documents, goods or other property in the possession of the expert with which he was provided in order to prepare his report.</p>",
+  "number": "26",
+  "text": "(1) Unless otherwise agreed by the parties, the arbitral tribunal may— (a) appoint one or more experts to report to it on specific issues to be determined by the arbitral tribunal, and (b) require a party to give the expert any relevant information or to produce, or to provide access to, any relevant documents, goods or other property for his inspection. (2) Unless otherwise agreed by the parties, if a party so requests or if the arbitral tribunal considers it necessary, the expert shall, after delivery of his written or oral report, participate in an oral hearing where the parties have the opportunity to put questions to him and to present expert witnesses in order to testify on the points at issue. (3) Unless otherwise agreed by the parties, the expert shall, on the request of a party, make available to that party for examination all documents, goods or other property in the possession of the expert with which he was provided in order to prepare his report.",
+  "words": 168
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/26/"
+}

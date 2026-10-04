@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "9",
+  "act_year": 1872,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1872-04-25",
+  "enforcement_date": "1872-09-01",
+  "id": "contract-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": null,
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 268,
+  "short_title": "The Indian Contract Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/contract-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Effect, on agreement, of misrepresentation or fraud by agent",
+  "html": "<p>Misrepresentation made, or frauds committed, by agents acting in the course of their business for their principals, have the same effect on agreements made by such agents as if such misrepresentations or frauds had been made or committed by the principals; but misrepresentations made, or frauds committed, by agents, in matters which do not fall within their authority, do not affect their principals.</p><p class=\"rubric\"><i>Illustrations</i></p><p><span class=\"num\">(a)</span> A, being B's agent for the sale of goods, induces C to buy them by a misrepresentation, which he was not authorized by B to make. The contract is voidable, as between B and C, at the option of C.</p><p><span class=\"num\">(b)</span> A, the captain of B's ship, signs bills of lading without having received on board the goods mentioned therein. The bills of lading are void as between B and the pretended cosignor.</p>",
+  "number": "238",
+  "text": "Misrepresentation made, or frauds committed, by agents acting in the course of their business for their principals, have the same effect on agreements made by such agents as if such misrepresentations or frauds had been made or committed by the principals; but misrepresentations made, or frauds committed, by agents, in matters which do not fall within their authority, do not affect their principals. Illustrations (a) A, being B's agent for the sale of goods, induces C to buy them by a misrepresentation, which he was not authorized by B to make. The contract is voidable, as between B and C, at the option of C. (b) A, the captain of B's ship, signs bills of lading without having received on board the goods mentioned therein. The bills of lading are void as between B and the pretended cosignor.",
+  "words": 138
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/contract-act/section/238/"
+}

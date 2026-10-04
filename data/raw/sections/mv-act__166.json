@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Application for compensation",
+  "html": "<p><span class=\"num\">(1)</span> An application for compensation arising out of an accident of the nature specified in sub-section (<i>1</i>) of section <a href=\"/mv-act/section/165/\">165</a> may be made--</p><p><span class=\"num\">(a)</span> by the person who has sustained the injury; or</p><p><span class=\"num\">(b)</span> by the owner of the property; or</p><p><span class=\"num\">(c)</span> where death has resulted from the accident, by all or any of the legal representatives of the deceased; or</p><p><span class=\"num\">(d)</span> by any agent duly authorised by the person injured or all or any of the legal representatives of the deceased, as the case may be:</p><p>Provided that where all the legal representatives of the deceased have not joined in any such application for compensation, the application shall be made on behalf of or for the benefit of all the legal representatives of the deceased and the legal representatives who have not so joined, shall be impleaded as respondents to the application.</p><p><sup>1</sup>[Provided further that where a person accepts compensation under section <a href=\"/mv-act/section/164/\">164</a> in accordance with the procedure provided under section <a href=\"/mv-act/section/149/\">149</a>, his claims petition before the Claims Tribunal shall lapse.]</p><p><sup>2</sup>[(2) Every application under sub-section (<i>1</i>) shall be made, at the option of the claimant, either to the Claims Tribunal having jurisdiction over the area in which the accident occurred or to the Claims Tribunal within the local limits of whose jurisdiction the claimant resides or carries on business or within the local limits of whose jurisdiction the defendant resides, and shall be in such form and contain such particulars as may be prescribed:</p><p><sup>3</sup>* * * * *.]</p><p><sup>4</sup>[(3) No application for compensation shall be entertained unless it is made within six months of the occurrence of the accident.]</p><p><sup>5</sup>[(4) The Claims Tribunal shall treat any report of accidents forwarded to it under <sup>6</sup>[section <a href=\"/mv-act/section/159/\">159</a>] as an application for compensation under this Act.]</p><p><sup>7</sup>[(5) Notwithstanding anything in this Act or any other law for the time being in force, the right of a person to claim compensation for injury in an accident shall, upon the death of the person injured, survive to his legal representatives, irrespective of whether the cause of death is relatable to or had any nexus with the injury or not.]</p>",
+  "number": "166",
+  "text": "(1) An application for compensation arising out of an accident of the nature specified in sub-section (1) of section 165 may be made-- (a) by the person who has sustained the injury; or (b) by the owner of the property; or (c) where death has resulted from the accident, by all or any of the legal representatives of the deceased; or (d) by any agent duly authorised by the person injured or all or any of the legal representatives of the deceased, as the case may be: Provided that where all the legal representatives of the deceased have not joined in any such application for compensation, the application shall be made on behalf of or for the benefit of all the legal representatives of the deceased and the legal representatives who have not so joined, shall be impleaded as respondents to the application. 1[Provided further that where a person accepts compensation under section 164 in accordance with the procedure provided under section 149, his claims petition before the Claims Tribunal shall lapse.] 2[(2) Every application under sub-section (1) shall be made, at the option of the claimant, either to the Claims Tribunal having jurisdiction over the area in which the accident occurred or to the Claims Tribunal within the local limits of whose jurisdiction the claimant resides or carries on business or within the local limits of whose jurisdiction the defendant resides, and shall be in such form and contain such particulars as may be prescribed: 3* * * * *.] 4[(3) No application for compensation shall be entertained unless it is made within six months of the occurrence of the accident.] 5[(4) The Claims Tribunal shall treat any report of accidents forwarded to it under 6[section 159] as an application for compensation under this Act.] 7[(5) Notwithstanding anything in this Act or any other law for the time being in force, the right of a person to claim compensation for injury in an accident shall, upon the death of the person injured, survive to his legal representatives, irrespective of whether the cause of death is relatable to or had any nexus with the injury or not.]",
+  "words": 357
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/166/"
+}

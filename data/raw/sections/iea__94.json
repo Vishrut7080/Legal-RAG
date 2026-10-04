@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9626,
+   "section": "97",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/97/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Exclusion of evidence against application of document to existing facts",
+  "html": "<p>When language used in a document is plain in itself, and when it applies accurately to existing facts, evidence may not be given to show that it was not meant to apply to such facts. Illustration A sells to B, by deed, “my estate at Rampur containing 100 bighas”. A has an estate at Rampur containing 100 bighas. Evidence may not be given of the fact that the estate meant to be sold was one situated at a different place and of a different size.</p>",
+  "number": "94",
+  "text": "When language used in a document is plain in itself, and when it applies accurately to existing facts, evidence may not be given to show that it was not meant to apply to such facts. Illustration A sells to B, by deed, “my estate at Rampur containing 100 bighas”. A has an estate at Rampur containing 100 bighas. Evidence may not be given of the fact that the estate meant to be sold was one situated at a different place and of a different size.",
+  "words": 85
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/94/"
+}

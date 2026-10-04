@@ -1,0 +1,68 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "fabbaf9b",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "Information Technology (The Indian Computer Emergency Response Team and Manner of Performing Functions and Duties) Rules, 2013.",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-the-indian-computer-emergency-response-team-and-fabbaf9b/",
+   "year": 2014
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "788366ca",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "The salary, allowances and the other terms and conditions of service of the Director General, CERT In, Rules 2012",
+   "url": "https://indiacode.ecourtsindia.com/rules/the-salary-allowances-and-the-other-terms-and-conditions-of-service-of-788366ca/",
+   "year": 2013
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "c3d4f0cd",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (National Critical Information Infrastructure Protection Centre and Manner of Performing Functions and Duties) Rules, 2013",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-national-critical-information-infrastructure-c3d4f0cd/",
+   "year": 2014
+  }
+ ],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Indian Computer Emergency Response Team to serve as national agency for incident response",
+  "html": "<p><b><sup>1</sup>]70B. Indian Computer Emergency Response Team to serve as national agency for incident response.--</b>(1) The Central Government shall, by notification in the Official Gazette, appoint an agency of the Government to be called the Indian Computer Emergency Response Team.</p><p><span class=\"num\">(2)</span> The Central Government shall provide the agency referred to in sub-section (1) with a Director General and such other officers and employees as may be prescribed.</p><p><span class=\"num\">(3)</span> The salary and allowances and terms and conditions of the Director-General and other officers and employees shall be such as may be prescribed.</p><p><span class=\"num\">(4)</span> The Indian Computer Emergency Response Team shall serve as the national agency for performing the following functions in the area of cyber security,–-</p><p><span class=\"num\">(a)</span> collection, analysis and dissemination of information on cyber incidents;</p><p><span class=\"num\">(b)</span> forecast and alerts of cyber security incidents;</p><p><span class=\"num\">(c)</span> emergency measures for handling cyber security incidents;</p><p><span class=\"num\">(d)</span> coordination of cyber incidents response activities;</p><p><span class=\"num\">(e)</span> issue guidelines, advisories, vulnerability notes and white papers relating to information security practices, procedures, preventation, response and reporting of cyber incidents;</p><p><span class=\"num\">(f)</span> such other functions relating to cyber security as may be prescribed.</p><p><span class=\"num\">(5)</span> The manner of performing functions and duties of the agency referred to in sub-section (1) shall be such as may be prescribed.</p><p><span class=\"num\">(6)</span> For carrying out the provisions of sub-section (4), the agency referred to in sub-section (1) may call for information and give direction to the service providers, intermediaries, data centres, body corporate and any other person.</p><p><span class=\"num\">(7)</span> Any service provider, intermediaries, data centres, body corporate or person who fails to provide the information called for or comply with the direction under sub-section (6), shall be punishable with imprisonment for a term which may extend to one year or with fine which may extend to <sup>1</sup>[one crore] rupees or with both.</p><p><span class=\"num\">(8)</span> No court shall take cognizance of any offence under this section, except on a complaint made by an officer authorised in this behalf by the agency referred to in sub-section (1).]</p>",
+  "number": "70B",
+  "text": "1]70B. Indian Computer Emergency Response Team to serve as national agency for incident response.--(1) The Central Government shall, by notification in the Official Gazette, appoint an agency of the Government to be called the Indian Computer Emergency Response Team. (2) The Central Government shall provide the agency referred to in sub-section (1) with a Director General and such other officers and employees as may be prescribed. (3) The salary and allowances and terms and conditions of the Director-General and other officers and employees shall be such as may be prescribed. (4) The Indian Computer Emergency Response Team shall serve as the national agency for performing the following functions in the area of cyber security,–- (a) collection, analysis and dissemination of information on cyber incidents; (b) forecast and alerts of cyber security incidents; (c) emergency measures for handling cyber security incidents; (d) coordination of cyber incidents response activities; (e) issue guidelines, advisories, vulnerability notes and white papers relating to information security practices, procedures, preventation, response and reporting of cyber incidents; (f) such other functions relating to cyber security as may be prescribed. (5) The manner of performing functions and duties of the agency referred to in sub-section (1) shall be such as may be prescribed. (6) For carrying out the provisions of sub-section (4), the agency referred to in sub-section (1) may call for information and give direction to the service providers, intermediaries, data centres, body corporate and any other person. (7) Any service provider, intermediaries, data centres, body corporate or person who fails to provide the information called for or comply with the direction under sub-section (6), shall be punishable with imprisonment for a term which may extend to one year or with fine which may extend to 1[one crore] rupees or with both. (8) No court shall take cognizance of any offence under this section, except on a complaint made by an officer authorised in this behalf by the agency referred to in sub-section (1).]",
+  "words": 326
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/70B/"
+}

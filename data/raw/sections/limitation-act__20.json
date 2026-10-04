@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Effect of acknowledgment or payment by another person",
+  "html": "<p><span class=\"num\">(1)</span> The expression \"agent duly authorised in this behalf\" in sections <a href=\"/limitation-act/section/18/\">18</a> and <a href=\"/limitation-act/section/19/\">19</a> shall, in the case of a person under disability, include his lawful guardian, committee or manager or an agent duly authorised by such guardian, committee or manager to sign the acknowledgment or make the payment.</p><p><span class=\"num\">(2)</span> Nothing in the said sections renders one of several joint contractors, partners, executors or mortgagees chargeable by reason only of a written acknowledgment signed by, or of a payment made by, or by the agent of, any other or others of them.</p><p><span class=\"num\">(3)</span> For the purposes of the said sections,—</p><p><span class=\"num\">(a)</span> an acknowledgment signed or a payment made in respect of any liability by, or by the duly authorised agent of, any limited owner of property who is governed by Hindu law, shall be a valid acknowledgment or payment, as the case may be, against a reversioner succeeding to such liability; and</p><p><span class=\"num\">(b)</span> where a liability has been incurred by, or on behalf of a Hindu undivided family as such, an acknowledgment or payment made by, or by the duly authorised agent of, the manager of the family for the time being shall be deemed to have been made on behalf of the whole family.</p>",
+  "number": "20",
+  "text": "(1) The expression \"agent duly authorised in this behalf\" in sections 18 and 19 shall, in the case of a person under disability, include his lawful guardian, committee or manager or an agent duly authorised by such guardian, committee or manager to sign the acknowledgment or make the payment. (2) Nothing in the said sections renders one of several joint contractors, partners, executors or mortgagees chargeable by reason only of a written acknowledgment signed by, or of a payment made by, or by the agent of, any other or others of them. (3) For the purposes of the said sections,— (a) an acknowledgment signed or a payment made in respect of any liability by, or by the duly authorised agent of, any limited owner of property who is governed by Hindu law, shall be a valid acknowledgment or payment, as the case may be, against a reversioner succeeding to such liability; and (b) where a liability has been incurred by, or on behalf of a Hindu undivided family as such, an acknowledgment or payment made by, or by the duly authorised agent of, the manager of the family for the time being shall be deemed to have been made on behalf of the whole family.",
+  "words": 205
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/limitation-act/section/20/"
+}

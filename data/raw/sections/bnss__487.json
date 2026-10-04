@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9893,
+   "section": "442",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/442/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Discharge from custody",
+  "html": "<p><span class=\"num\">(1)</span> As soon as the bond or bail bond has been executed, the person for whose appearance it has been executed shall be released; and, when he is in jail, the court admitting him to bail shall issue an order of release to the officer in charge of the jail, and such officer on receipt of the orders shall release him.</p><p><span class=\"num\">(2)</span> Nothing in this section, section <a href=\"/bnss/section/478/\">478</a> or section <a href=\"/bnss/section/480/\">480</a>, shall be deemed to require the release of any person liable to be detained for some matter other than that in respect of which the bond or bail bond was executed.</p>",
+  "number": "487",
+  "text": "(1) As soon as the bond or bail bond has been executed, the person for whose appearance it has been executed shall be released; and, when he is in jail, the court admitting him to bail shall issue an order of release to the officer in charge of the jail, and such officer on receipt of the orders shall release him. (2) Nothing in this section, section 478 or section 480, shall be deemed to require the release of any person liable to be detained for some matter other than that in respect of which the bond or bail bond was executed.",
+  "words": 102
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/487/"
+}

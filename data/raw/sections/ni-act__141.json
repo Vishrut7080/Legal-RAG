@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Offences by companies",
+  "html": "<p><span class=\"num\">(1)</span> If the person committing an offence under section <a href=\"/ni-act/section/138/\">138</a> is a company, every person who, at the time the offence was committed, was in charge of, and was responsible to, the company for the conduct of the business of the company, as well as the company, shall be deemed to be guilty of the offence and shall be liable to be proceeded against and punished accordingly:</p><p>Provided that nothing contained in this sub-section shall render any person liable to punishment if he proves that the offence was committed without his knowledge, or that he had exercised all due diligence to prevent the commission of such offence:</p><p><sup>1</sup>[Provided further that where a person is nominated as a Director of a company by virtue of his holding any office or employment in the Central Government or State Government or a financial corporation owned or controlled by the Central Government or the State Government, as the case may be, he shall not be liable for prosecution under this Chapter.]</p><p><span class=\"num\">(2)</span> Notwithstanding anything contained in sub-section (1), where any offence under this Act has been committed by a company and it is proved that the offence has been committed with the consent or connivance of, or is attributable to, any neglect on the part of, any director, manager, secretary or other officer of the company, such director, manager, secretary or other officer shall also be deemed to be guilty of that offence and shall be liable to be proceeded against and punished accordingly.</p><p><i>Explanation</i>.-- For the purposes of this section, --</p><p><span class=\"num\">(a)</span> \"company\" means any body corporate and includes a firm or other association of individuals; and</p><p><span class=\"num\">(b)</span> \"director\", in relation to a firm, means a partner in the firm.</p>",
+  "number": "141",
+  "text": "(1) If the person committing an offence under section 138 is a company, every person who, at the time the offence was committed, was in charge of, and was responsible to, the company for the conduct of the business of the company, as well as the company, shall be deemed to be guilty of the offence and shall be liable to be proceeded against and punished accordingly: Provided that nothing contained in this sub-section shall render any person liable to punishment if he proves that the offence was committed without his knowledge, or that he had exercised all due diligence to prevent the commission of such offence: 1[Provided further that where a person is nominated as a Director of a company by virtue of his holding any office or employment in the Central Government or State Government or a financial corporation owned or controlled by the Central Government or the State Government, as the case may be, he shall not be liable for prosecution under this Chapter.] (2) Notwithstanding anything contained in sub-section (1), where any offence under this Act has been committed by a company and it is proved that the offence has been committed with the consent or connivance of, or is attributable to, any neglect on the part of, any director, manager, secretary or other officer of the company, such director, manager, secretary or other officer shall also be deemed to be guilty of that offence and shall be liable to be proceeded against and punished accordingly. Explanation.-- For the purposes of this section, -- (a) \"company\" means any body corporate and includes a firm or other association of individuals; and (b) \"director\", in relation to a firm, means a partner in the firm.",
+  "words": 287
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/141/"
+}

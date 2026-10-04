@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "102",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/102/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Who may give evidence of agreement varying terms of document",
+  "html": "<p>Persons who are not parties to a document, or their representatives in interest, may give evidence of any facts tending to show a contemporaneous agreement varying the terms of the document. Illustration A and B make a contract in writing that B shall sell A certain cotton, to be paid for on delivery. At the same time they make an oral agreement that three months credit shall be given to A. This could not be shown as between A and B, but it might be shown by C, if it affected his interests.</p>",
+  "number": "99",
+  "text": "Persons who are not parties to a document, or their representatives in interest, may give evidence of any facts tending to show a contemporaneous agreement varying the terms of the document. Illustration A and B make a contract in writing that B shall sell A certain cotton, to be paid for on delivery. At the same time they make an oral agreement that three months credit shall be given to A. This could not be shown as between A and B, but it might be shown by C, if it affected his interests.",
+  "words": 93
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/99/"
+}

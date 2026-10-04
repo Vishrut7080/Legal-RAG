@@ -1,0 +1,68 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "classification": [
+  {
+   "bailable": "Non-bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Attempt to murder.",
+   "punishment": "Imprisonment for 10 years and fine.",
+   "triable_by": "Court of Session."
+  },
+  {
+   "bailable": "Non-bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "If such act causes hurt to any person.",
+   "punishment": "Imprisonment for life, or as above.",
+   "triable_by": "Court of Session."
+  },
+  {
+   "bailable": "Non-bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Attempt by life-convict to murder, if hurt is caused.",
+   "punishment": "Death, or imprisonment for life which shall mean the remainder of that person's natural life.",
+   "triable_by": "Court of Session."
+  }
+ ],
+ "corresponds_to": [
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9464,
+   "section": "307",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/307/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Attempt to murder",
+  "html": "<p><span class=\"num\">(1)</span> Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; and if hurt is caused to any person by such act, the offender shall be liable either to imprisonment for life, or to such punishment as is hereinbefore mentioned.</p><p><span class=\"num\">(2)</span> When any person offending under sub-section (1) is under sentence of imprisonment for life, he may, if hurt is caused, be punished with death or with imprisonment for life, which shall mean the remainder of that person's natural life.</p><p class=\"rubric\"><i>Illustrations.</p><p><span class=\"num\">(a)</span> A shoots at Z with intention to kill him, under such circumstances that, if death ensued, A would be guilty of murder. A is liable to punishment under this section.</p><p><span class=\"num\">(b)</span> A, with the intention of causing the death of a child of tender years, exposes it in a desert place. A has committed the offence defined by this section, though the death of the child does not ensue.</p><p><span class=\"num\">(c)</span> A, intending to murder Z, buys a gun and loads it. A has not yet committed the offence. A fires the gun at Z. He has committed the offence defined in this section, and, if by such firing he wounds Z, he is liable to the punishment provided by the latter part of sub-section (1).</p><p><span class=\"num\">(d)</span> A, intending to murder Z by poison, purchases poison and mixes the same with food which remains in A's keeping; A has not yet committed the offence defined in this section. A places the food on Z's table or delivers it to Z's servants to place it on Z's table. A has committed the offence defined in this section.</p>",
+  "number": "109",
+  "text": "(1) Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; and if hurt is caused to any person by such act, the offender shall be liable either to imprisonment for life, or to such punishment as is hereinbefore mentioned. (2) When any person offending under sub-section (1) is under sentence of imprisonment for life, he may, if hurt is caused, be punished with death or with imprisonment for life, which shall mean the remainder of that person's natural life. Illustrations. (a) A shoots at Z with intention to kill him, under such circumstances that, if death ensued, A would be guilty of murder. A is liable to punishment under this section. (b) A, with the intention of causing the death of a child of tender years, exposes it in a desert place. A has committed the offence defined by this section, though the death of the child does not ensue. (c) A, intending to murder Z, buys a gun and loads it. A has not yet committed the offence. A fires the gun at Z. He has committed the offence defined in this section, and, if by such firing he wounds Z, he is liable to the punishment provided by the latter part of sub-section (1). (d) A, intending to murder Z by poison, purchases poison and mixes the same with food which remains in A's keeping; A has not yet committed the offence defined in this section. A places the food on Z's table or delivers it to Z's servants to place it on Z's table. A has committed the offence defined in this section.",
+  "words": 308
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bns/section/109/"
+}

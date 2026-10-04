@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9755,
+   "section": "83",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/83/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Procedure by Magistrate before whom such person arrested is brought",
+  "html": "<p><span class=\"num\">(1)</span> The Executive Magistrate or District Superintendent of Police or Commissioner of Police shall, if the person arrested appears to be the person intended by the Court which issued the warrant, direct his removal in custody to such Court :</p><p>Provided that, if the offence is bailable, and such person is ready and willing to give bail to the satisfaction of such Magistrate, District Superintendent or Commissioner, or a direction has been endorsed under section <a href=\"/crpc/section/71/\">71</a> on the warrant and such person is ready and willing to give the security required by such directions the Magistrate, District Superintendent or Commissioner shall take such bail or security, as the case may be, and forward the bond, to the Court which issued the warrant :</p><p>Provided further that if the offence is a non-bailable one, it shall be lawful for the Chief Judicial Magistrate (subject to the provisions of section <a href=\"/crpc/section/437/\">437</a>), or the Sessions Judge, of the district in which the arrest is made on consideration of the information and the documents referred to in sub-section (2) of section <a href=\"/crpc/section/78/\">78</a>, to release such person on bail.</p><p><span class=\"num\">(2)</span> Nothing in this section shall be deemed to prevent a police</p><p>officer from taking security under section <a href=\"/crpc/section/71/\">71</a>,</p><p>C. Proclamation and attachment.</p>",
+  "number": "81",
+  "text": "(1) The Executive Magistrate or District Superintendent of Police or Commissioner of Police shall, if the person arrested appears to be the person intended by the Court which issued the warrant, direct his removal in custody to such Court : Provided that, if the offence is bailable, and such person is ready and willing to give bail to the satisfaction of such Magistrate, District Superintendent or Commissioner, or a direction has been endorsed under section 71 on the warrant and such person is ready and willing to give the security required by such directions the Magistrate, District Superintendent or Commissioner shall take such bail or security, as the case may be, and forward the bond, to the Court which issued the warrant : Provided further that if the offence is a non-bailable one, it shall be lawful for the Chief Judicial Magistrate (subject to the provisions of section 437), or the Sessions Judge, of the district in which the arrest is made on consideration of the information and the documents referred to in sub-section (2) of section 78, to release such person on bail. (2) Nothing in this section shall be deemed to prevent a police officer from taking security under section 71, C. Proclamation and attachment.",
+  "words": 207
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/81/"
+}

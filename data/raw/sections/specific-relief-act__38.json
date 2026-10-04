@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-12-13",
+  "enforcement_date": "1964-03-01",
+  "id": "specific-relief-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to certain kinds of specific relief.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 48,
+  "short_title": "The Specific Relief Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/specific-relief-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Perpetual injunction when granted",
+  "html": "<p><span class=\"num\">(1)</span> Subject to the other provisions contained in or referred to by this Chapter, a perpetual injunction may be granted to the plaintiff to prevent the breach of an obligation existing in his favour, whether expressly or by implication.</p><p><span class=\"num\">(2)</span> When any such obligation arises from contract, the court shall be guided by the rules and provisions contained in Chapter II.</p><p><span class=\"num\">(3)</span> When the defendant invades or threatens to invade the plaintiffs right to, or enjoyment of, property, the court may grant a perpetual injunction in the following cases, namely:--</p><p><span class=\"num\">(a)</span> where the defendant is trustee of the property for the plaintiff;</p><p><span class=\"num\">(b)</span> where there exists no standard for ascertaining the actual damage caused, or likely to be caused, by the invasion;</p><p><span class=\"num\">(c)</span> where the invasion is such that compensation in money would not afford adequate relief;</p><p><span class=\"num\">(d)</span> where the injunction is necessary to prevent a multiplicity of judicial proceedings.</p>",
+  "number": "38",
+  "text": "(1) Subject to the other provisions contained in or referred to by this Chapter, a perpetual injunction may be granted to the plaintiff to prevent the breach of an obligation existing in his favour, whether expressly or by implication. (2) When any such obligation arises from contract, the court shall be guided by the rules and provisions contained in Chapter II. (3) When the defendant invades or threatens to invade the plaintiffs right to, or enjoyment of, property, the court may grant a perpetual injunction in the following cases, namely:-- (a) where the defendant is trustee of the property for the plaintiff; (b) where there exists no standard for ascertaining the actual damage caused, or likely to be caused, by the invasion; (c) where the invasion is such that compensation in money would not afford adequate relief; (d) where the injunction is necessary to prevent a multiplicity of judicial proceedings.",
+  "words": 150
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/38/"
+}

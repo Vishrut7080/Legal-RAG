@@ -1,0 +1,48 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "e907ea6e",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "Electronic Signature or Electronic Authentication Technique and Procedure Rules, 2016.",
+   "url": "https://indiacode.ecourtsindia.com/rules/electronic-signature-or-electronic-authentication-technique-and-e907ea6e/",
+   "year": 2016
+  }
+ ],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Electronic signature",
+  "html": "<p><sup>1</sup> [<b>3A. Electronic signature.</b>--(1) Notwithstanding anything contained in section <a href=\"/it-act/section/3/\">3</a>, but subject to the provisions of sub-section <i>(2)</i>, a subscriber may authenticate any electronic record by such electronic signature or electronic authentication technique which--</p><p><span class=\"num\">(a)</span> is considered reliable; and</p><p><span class=\"num\">(b)</span> may be specified in the Second Schedule.</p><p><span class=\"num\">(2)</span> For the purposes of this section any electronic signature or electronic authentication technique shall be considered reliable if--</p><p><span class=\"num\">(a)</span> the signature creation data or the authentication data are, within the context in which they are used, linked to the signatory or, as the case may be, the authenticator and to no other person;</p><p><span class=\"num\">(b)</span> the signature creation data or the authentication data were, at the time of signing, under the control of the signatory or, as the case may be, the authenticator and of no other person;</p><p><span class=\"num\">(c)</span> any alteration to the electronic signature made after affixing such signature is detectable;</p><p><span class=\"num\">(d)</span> any alteration to the information made after its authentication by electronic signature is detectable; and</p><p><span class=\"num\">(e)</span> it fulfils such other conditions which may be prescribed.</p><p><span class=\"num\">(3)</span> The Central Government may prescribe the procedure for the purpose of ascertaining whether electronic signature is that of the person by whom it is purported to have been affixed or authenticated.</p><p><span class=\"num\">(4)</span> The Central Government may, by notification in the Official Gazette, add to or omit any electronic signature or electronic authentication technique and the procedure for affixing such signature from the Second Schedule:</p><p>Provided that no electronic signature or authentication technique shall be specified in the Second Schedule unless such signature or technique is reliable.</p><p><span class=\"num\">(5)</span> Every notification issued under sub-section <i>(4)</i> shall be laid before each House of Parliament.]</p>",
+  "number": "3A",
+  "text": "1 [3A. Electronic signature.--(1) Notwithstanding anything contained in section 3, but subject to the provisions of sub-section (2), a subscriber may authenticate any electronic record by such electronic signature or electronic authentication technique which-- (a) is considered reliable; and (b) may be specified in the Second Schedule. (2) For the purposes of this section any electronic signature or electronic authentication technique shall be considered reliable if-- (a) the signature creation data or the authentication data are, within the context in which they are used, linked to the signatory or, as the case may be, the authenticator and to no other person; (b) the signature creation data or the authentication data were, at the time of signing, under the control of the signatory or, as the case may be, the authenticator and of no other person; (c) any alteration to the electronic signature made after affixing such signature is detectable; (d) any alteration to the information made after its authentication by electronic signature is detectable; and (e) it fulfils such other conditions which may be prescribed. (3) The Central Government may prescribe the procedure for the purpose of ascertaining whether electronic signature is that of the person by whom it is purported to have been affixed or authenticated. (4) The Central Government may, by notification in the Official Gazette, add to or omit any electronic signature or electronic authentication technique and the procedure for affixing such signature from the Second Schedule: Provided that no electronic signature or authentication technique shall be specified in the Second Schedule unless such signature or technique is reliable. (5) Every notification issued under sub-section (4) shall be laid before each House of Parliament.]",
+  "words": 277
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/3A/"
+}

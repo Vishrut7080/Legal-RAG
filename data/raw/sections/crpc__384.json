@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9791,
+   "section": "425",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/425/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Summary dismissal of appeal",
+  "html": "<p><span class=\"num\">(1)</span> If upon examining the petition of appeal and copy of the judgment received under section <a href=\"/crpc/section/382/\">382</a> or section <a href=\"/crpc/section/383/\">383</a>, the Appellate Court considers that there is no sufficient ground for interfering, it may dismiss the appeal summarily:</p><p>Provided that-</p><p><span class=\"num\">(a)</span> no appeal presented under section <a href=\"/crpc/section/382/\">382</a> shall be dismissed unless the appellant or his pleader has had a reasonable opportunity of being heard in support of the same ;</p><p><span class=\"num\">(b)</span> no appeal presented under section <a href=\"/crpc/section/383/\">383</a> shall be dismissed except after giving the appellant a reasonable opportunity of being</p><p>heard in support of the same, unless the Appellate Court con- siders that the appeal is frivolous or that the production of the accused in custody before the Court would involve such inconvenience as would be disproportionate in the circumstances of the case ;</p><p><span class=\"num\">(c)</span> no appeal presented under section <a href=\"/crpc/section/383/\">383</a> shall be dismissed summarily until the period allowed for preferring such appeal has expired.</p><p><span class=\"num\">(2)</span> Before dismissing an appeal under this section, the Court may call for the record of the case.</p><p><span class=\"num\">(3)</span> Where the Appellate Court dismissing an appeal under this section is a Court of Session or of the Chief Judicial Magistrate, it shall record its reasons for doing so.</p><p><span class=\"num\">(4)</span> Where an appeal presented under section <a href=\"/crpc/section/383/\">383</a> has been dismissed summarily under this section and the Appellate Court finds that another petition of appeal duly presented under section <a href=\"/crpc/section/382/\">382</a> on behalf of the same appellant has not been considered by it, that Court may, notwithstanding anything contained in section <a href=\"/crpc/section/393/\">393</a>, if satisfied that it is necessary in the interests of justice so to do, hear and</p><p>dispose of such appeal in accordance with law.</p>",
+  "number": "384",
+  "text": "(1) If upon examining the petition of appeal and copy of the judgment received under section 382 or section 383, the Appellate Court considers that there is no sufficient ground for interfering, it may dismiss the appeal summarily: Provided that- (a) no appeal presented under section 382 shall be dismissed unless the appellant or his pleader has had a reasonable opportunity of being heard in support of the same ; (b) no appeal presented under section 383 shall be dismissed except after giving the appellant a reasonable opportunity of being heard in support of the same, unless the Appellate Court con- siders that the appeal is frivolous or that the production of the accused in custody before the Court would involve such inconvenience as would be disproportionate in the circumstances of the case ; (c) no appeal presented under section 383 shall be dismissed summarily until the period allowed for preferring such appeal has expired. (2) Before dismissing an appeal under this section, the Court may call for the record of the case. (3) Where the Appellate Court dismissing an appeal under this section is a Court of Session or of the Chief Judicial Magistrate, it shall record its reasons for doing so. (4) Where an appeal presented under section 383 has been dismissed summarily under this section and the Appellate Court finds that another petition of appeal duly presented under section 382 on behalf of the same appellant has not been considered by it, that Court may, notwithstanding anything contained in section 393, if satisfied that it is necessary in the interests of justice so to do, hear and dispose of such appeal in accordance with law.",
+  "words": 278
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/384/"
+}

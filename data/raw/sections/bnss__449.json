@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9901,
+   "section": "409",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/409/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Withdrawal of cases and appeals by Sessions Judges",
+  "html": "<p><span class=\"num\">(1)</span> A Sessions Judge may withdraw any case or appeal from, or recall any case or appeal which he has made over to a Chief Judicial Magistrate subordinate to him.</p><p><span class=\"num\">(2)</span> At any time before the trial of the case or the hearing of the appeal has commenced before the Additional Sessions Judge, a Sessions Judge may recall any case or appeal which he has made over to any Additional Sessions Judge.</p><p><span class=\"num\">(3)</span> Where a Sessions Judge withdraws or recalls case or appeal under sub-section <i>(1) </i>or sub-section <i>(2)</i>, he may either try the case in his own Court or hear the appeal himself, or make it over in accordance with the provisions of this Sanhita to another Court for trial or hearing, as the case may be.</p>",
+  "number": "449",
+  "text": "(1) A Sessions Judge may withdraw any case or appeal from, or recall any case or appeal which he has made over to a Chief Judicial Magistrate subordinate to him. (2) At any time before the trial of the case or the hearing of the appeal has commenced before the Additional Sessions Judge, a Sessions Judge may recall any case or appeal which he has made over to any Additional Sessions Judge. (3) Where a Sessions Judge withdraws or recalls case or appeal under sub-section (1) or sub-section (2), he may either try the case in his own Court or hear the appeal himself, or make it over in accordance with the provisions of this Sanhita to another Court for trial or hearing, as the case may be.",
+  "words": 128
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/449/"
+}

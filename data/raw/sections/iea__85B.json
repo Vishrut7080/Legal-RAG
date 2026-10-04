@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9516,
+   "section": "86",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/86/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Presumption as to electronic records and [electronic signatures",
+  "html": "<p><span class=\"num\">(1)</span> In any proceedings involving a secure electronic record, the Court shall presume unless contrary is proved, that the secure electronic record has not been altered since the specific point of time to which the secure status relates. (2) In any proceedings, involving secure digital signature, the Court shall presume unless the contrary is proved that— (a) the secure [electronic signature] is affixed by subscriber with the intention of signing or approving the electronic record; (b) except in the case of a secure electronic record or a secure [electronic signature], nothing in this section shall cerate any presumption, relating to authenticity and integrity of the electronic record or any [electronic signature].</p>",
+  "number": "85B",
+  "text": "(1) In any proceedings involving a secure electronic record, the Court shall presume unless contrary is proved, that the secure electronic record has not been altered since the specific point of time to which the secure status relates. (2) In any proceedings, involving secure digital signature, the Court shall presume unless the contrary is proved that— (a) the secure [electronic signature] is affixed by subscriber with the intention of signing or approving the electronic record; (b) except in the case of a secure electronic record or a secure [electronic signature], nothing in this section shall cerate any presumption, relating to authenticity and integrity of the electronic record or any [electronic signature].",
+  "words": 111
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/85B/"
+}

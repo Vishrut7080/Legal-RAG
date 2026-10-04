@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Punishment for offences relating to accident",
+  "html": "<p>Whoever fails to comply with the provisions of clause <sup>1</sup>[(a)] of sub-section (1) of section <a href=\"/mv-act/section/132/\">132</a> or section <a href=\"/mv-act/section/133/\">133</a> or section <a href=\"/mv-act/section/134/\">134</a> shall be punishable with imprisonment for a term which may extend to <sup>2</sup>[six months], or with fine <sup>3</sup>[of five thousand rupees], or with both or, if having been previously convicted of an offence under this section, he is again convicted of an offence under this section, with imprisonment for a term which may extend to <sup>4</sup>[one year], or with fine <sup>5</sup>[of ten thousand rupees], or with both.</p>",
+  "number": "187",
+  "text": "Whoever fails to comply with the provisions of clause 1[(a)] of sub-section (1) of section 132 or section 133 or section 134 shall be punishable with imprisonment for a term which may extend to 2[six months], or with fine 3[of five thousand rupees], or with both or, if having been previously convicted of an offence under this section, he is again convicted of an offence under this section, with imprisonment for a term which may extend to 4[one year], or with fine 5[of ten thousand rupees], or with both.",
+  "words": 89
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/187/"
+}

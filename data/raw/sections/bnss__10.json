@@ -1,0 +1,54 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9791,
+   "section": "12",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/12/"
+  },
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "weak",
+   "score": 0.5779,
+   "section": "17",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/17/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Chief Judicial Magistrate and Additional Chief Judicial Magistrate, etc",
+  "html": "<p><span class=\"num\">(1)</span> In every district, the High Court shall appoint a Judicial Magistrate of the first class to be the Chief Judicial Magistrate.</p><p><span class=\"num\">(2)</span> The High Court may appoint any Judicial Magistrate of the first class to be an Additional Chief Judicial magistrate, and such Magistrate shall have all or any of the powers of a Chief Judicial Magistrate under this Sanhita or under any other law for the time being in force as the High Court may direct.</p><p><span class=\"num\">(3)</span> The High Court may designate any Judicial Magistrate of the first class in any sub-division as the Sub-divisional Judicial Magistrate and relieve him of the responsibilities specified in this section as occasion requires.</p><p><span class=\"num\">(4)</span> Subject to the general control of the Chief Judicial Magistrate, every Sub-divisional Judicial Magistrate shall also have and exercise, such powers of supervision and control over the work of the Judicial Magistrates (other than Additional Chief Judicial Magistrates) in the sub-division as the High Court may, by general or special order, specify in this behalf.</p>",
+  "number": "10",
+  "text": "(1) In every district, the High Court shall appoint a Judicial Magistrate of the first class to be the Chief Judicial Magistrate. (2) The High Court may appoint any Judicial Magistrate of the first class to be an Additional Chief Judicial magistrate, and such Magistrate shall have all or any of the powers of a Chief Judicial Magistrate under this Sanhita or under any other law for the time being in force as the High Court may direct. (3) The High Court may designate any Judicial Magistrate of the first class in any sub-division as the Sub-divisional Judicial Magistrate and relieve him of the responsibilities specified in this section as occasion requires. (4) Subject to the general control of the Chief Judicial Magistrate, every Sub-divisional Judicial Magistrate shall also have and exercise, such powers of supervision and control over the work of the Judicial Magistrates (other than Additional Chief Judicial Magistrates) in the sub-division as the High Court may, by general or special order, specify in this behalf.",
+  "words": 168
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/10/"
+}

@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9709,
+   "section": "253",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/253/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Conviction on plea of guilty in absence of accused in petty cases",
+  "html": "<p><span class=\"num\">(1)</span> Where a summons has been issued under section <a href=\"/bnss/section/229/\">229</a> and the accused desires to plead guilty to the charge without appearing before 102 the Magistrate, he shall transmit to the Magistrate, by post or by messenger, a letter containing his plea and also the amount of fine specified in the summons.</p><p><span class=\"num\">(2)</span> The Magistrate may, in his discretion, convict the accused in his absence, on his plea of guilty and sentence him to pay the fine specified in the summons, and the amount transmitted by the accused shall be adjusted towards that fine, or where an advocate authorised by the accused in this behalf pleads guilty on behalf of the accused, the Magistrate shall record the plea as nearly as possible in the words used by the advocate and may, in his discretion, convict the accused on such plea and sentence him as aforesaid.</p>",
+  "number": "276",
+  "text": "(1) Where a summons has been issued under section 229 and the accused desires to plead guilty to the charge without appearing before 102 the Magistrate, he shall transmit to the Magistrate, by post or by messenger, a letter containing his plea and also the amount of fine specified in the summons. (2) The Magistrate may, in his discretion, convict the accused in his absence, on his plea of guilty and sentence him to pay the fine specified in the summons, and the amount transmitted by the accused shall be adjusted towards that fine, or where an advocate authorised by the accused in this behalf pleads guilty on behalf of the accused, the Magistrate shall record the plea as nearly as possible in the words used by the advocate and may, in his discretion, convict the accused on such plea and sentence him as aforesaid.",
+  "words": 145
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/276/"
+}

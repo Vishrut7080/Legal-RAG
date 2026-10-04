@@ -1,0 +1,68 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "a1af21b5",
+   "kind": "rule",
+   "relation": "made_under",
+   "title": "The Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011.",
+   "url": "https://indiacode.ecourtsindia.com/rules/the-information-technology-reasonable-security-practices-and-a1af21b5/",
+   "year": 2011
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "6466503a",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (Preservation and Retention of Information by Intermediaries Providing Digital Locker Facilities) Rules, 2016",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-preservation-and-retention-of-information-by-6466503a/",
+   "year": 2016
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "c3d4f0cd",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (National Critical Information Infrastructure Protection Centre and Manner of Performing Functions and Duties) Rules, 2013",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-national-critical-information-infrastructure-c3d4f0cd/",
+   "year": 2014
+  }
+ ],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Compensation for failure to protect data",
+  "html": "<p><sup>1</sup> <b>[43A. Compensation for failure to protect data.</b>--Where a body corporate, possessing, dealing or handling any sensitive personal data or information in a computer resource which it owns, controls or operates, is negligent in implementing and maintaining reasonable security practices and procedures and thereby causes wrongful loss or wrongful gain to any person, such body corporate shall be liable to pay damages by way of compensation to the person so affected.</p><p><i>Explanation</i>.--For the purposes of this section,--</p><p><span class=\"num\">(i)</span> \"body corporate\" means any company and includes a firm, sole proprietorship or other association of individuals engaged in commercial or professional activities;</p><p><span class=\"num\">(ii)</span> \"reasonable security practices and procedures\" means security practices and procedures designed to protect such information from unauthorised access, damage, use, modification, disclosure or impairment, as may be specified in an agreement between the parties or as may be specified in any law for the time being in force and in the absence of such agreement or any law, such reasonable security practices and procedures, as may be prescribed by the Central Government in consultation with such professional bodies or associations as it may deem fit;</p><p><span class=\"num\">(iii)</span> \"sensitive personal data or information\" means such personal information as may be prescribed by the Central Government in consultation with such professional bodies or associations as it may deem fit.]</p>",
+  "number": "43A",
+  "text": "1 [43A. Compensation for failure to protect data.--Where a body corporate, possessing, dealing or handling any sensitive personal data or information in a computer resource which it owns, controls or operates, is negligent in implementing and maintaining reasonable security practices and procedures and thereby causes wrongful loss or wrongful gain to any person, such body corporate shall be liable to pay damages by way of compensation to the person so affected. Explanation.--For the purposes of this section,-- (i) \"body corporate\" means any company and includes a firm, sole proprietorship or other association of individuals engaged in commercial or professional activities; (ii) \"reasonable security practices and procedures\" means security practices and procedures designed to protect such information from unauthorised access, damage, use, modification, disclosure or impairment, as may be specified in an agreement between the parties or as may be specified in any law for the time being in force and in the absence of such agreement or any law, such reasonable security practices and procedures, as may be prescribed by the Central Government in consultation with such professional bodies or associations as it may deem fit; (iii) \"sensitive personal data or information\" means such personal information as may be prescribed by the Central Government in consultation with such professional bodies or associations as it may deem fit.]",
+  "words": 217
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/43A/"
+}

@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 5,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Power of Appellate Court to order payment pending appeal against conviction",
+  "html": "<p><sup>1</sup>[<b>148. Power of Appellate Court to order payment pending appeal against conviction</b>.--(1) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), in an appeal by the drawer against conviction under section <a href=\"/ni-act/section/138/\">138</a>, the Appellate Court may order the appellant to deposit such sum which shall be a minimum of twenty per cent. of the fine or compensation awarded by the trial Court:</p><p>Provided that the amount payable under this sub-section shall be in addition to any interim compensation paid by the appellant under section <a href=\"/ni-act/section/143A/\">143A</a>.</p><p><span class=\"num\">(2)</span> The amount referred to in sub-section <i>(1)</i> shall be deposited within sixty days from the date of the order, or within such further period not exceeding thirty days as may be directed by the Court on sufficient cause being shown by the appellant.</p><p><span class=\"num\">(3)</span> The Appellate Court may direct the release of the amount deposited by the appellant to the complainant at any time during the pendency of the appeal:</p><p>Provided that if the appellant is acquitted, the Court shall direct the complainant to repay to the appellant the amount so released, with interest at the bank rate as published by the Reserve Bank of India, prevalent at the beginning of the relevant financial year, within sixty days from the date of the order, or within such further period not exceeding thirty days as may be directed by the Court on sufficient cause being shown by the complainant.]</p>",
+  "number": "148",
+  "text": "1[148. Power of Appellate Court to order payment pending appeal against conviction.--(1) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), in an appeal by the drawer against conviction under section 138, the Appellate Court may order the appellant to deposit such sum which shall be a minimum of twenty per cent. of the fine or compensation awarded by the trial Court: Provided that the amount payable under this sub-section shall be in addition to any interim compensation paid by the appellant under section 143A. (2) The amount referred to in sub-section (1) shall be deposited within sixty days from the date of the order, or within such further period not exceeding thirty days as may be directed by the Court on sufficient cause being shown by the appellant. (3) The Appellate Court may direct the release of the amount deposited by the appellant to the complainant at any time during the pendency of the appeal: Provided that if the appellant is acquitted, the Court shall direct the complainant to repay to the appellant the amount so released, with interest at the bank rate as published by the Reserve Bank of India, prevalent at the beginning of the relevant financial year, within sixty days from the date of the order, or within such further period not exceeding thirty days as may be directed by the Court on sufficient cause being shown by the complainant.]",
+  "words": 238
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/148/"
+}

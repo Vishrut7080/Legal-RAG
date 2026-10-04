@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9,
+   "section": "127",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/127/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Wrongful confinement",
+  "html": "<p>Whoever wrongfully restrains any person in such a manner as to prevent that person from proceeding beyond certain circumscribing limits, is said &quot;wrongfully to confine&quot; that person.</p><p class=\"rubric\">Illustrations</p><p><span class=\"num\">(a)</span> A causes Z to go within a walled space, and locks Z. Z is thus prevented from proceeding in any direction beyond the circumscribing line of wall. A wrongfully confines z.</p><p><span class=\"num\">(b)</span> A places men with firearms at the outlets of a building, and tells Z that they will fire at Z if Z attempts leave the building. A wrongfully confines Z.</p>",
+  "number": "340",
+  "text": "Whoever wrongfully restrains any person in such a manner as to prevent that person from proceeding beyond certain circumscribing limits, is said \"wrongfully to confine\" that person. Illustrations (a) A causes Z to go within a walled space, and locks Z. Z is thus prevented from proceeding in any direction beyond the circumscribing line of wall. A wrongfully confines z. (b) A places men with firearms at the outlets of a building, and tells Z that they will fire at Z if Z attempts leave the building. A wrongfully confines Z.",
+  "words": 91
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/340/"
+}

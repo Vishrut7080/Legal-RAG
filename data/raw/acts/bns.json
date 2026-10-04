@@ -1,0 +1,2537 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "amendments": [],
+ "count": 358,
+ "not_held": [
+  "schedules",
+  "amendments"
+ ],
+ "not_held_note": "This corpus holds no schedules or amendments for this Act. An empty list means not on file here, not that none exist.",
+ "schedules": [],
+ "sections": [
+  {
+   "heading": "Short title, commencement and application",
+   "indexable": true,
+   "number": "1",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/1/",
+   "words": 290
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "2",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/2/",
+   "words": 2199
+  },
+  {
+   "heading": "General explanations",
+   "indexable": true,
+   "number": "3",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/3/",
+   "words": 858
+  },
+  {
+   "heading": "Punishments",
+   "indexable": true,
+   "number": "4",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/4/",
+   "words": 46
+  },
+  {
+   "heading": "Commutation of sentence",
+   "indexable": true,
+   "number": "5",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/5/",
+   "words": 122
+  },
+  {
+   "heading": "Fractions of terms of punishment",
+   "indexable": true,
+   "number": "6",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/6/",
+   "words": 23
+  },
+  {
+   "heading": "Sentence may be (in certain cases of imprisonment) wholly or partly rigorous or simple",
+   "indexable": true,
+   "number": "7",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/7/",
+   "words": 62
+  },
+  {
+   "heading": "Amount of fine, liability in default of payment of fine, etc",
+   "indexable": true,
+   "number": "8",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/8/",
+   "words": 638
+  },
+  {
+   "heading": "Limit of punishment of offence made up of several offences",
+   "indexable": true,
+   "number": "9",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/9/",
+   "words": 251
+  },
+  {
+   "heading": "Punishment of person guilty of one of several offences, judgment stating that it is doubtful of which",
+   "indexable": true,
+   "number": "10",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/10/",
+   "words": 59
+  },
+  {
+   "heading": "Solitary confinement",
+   "indexable": true,
+   "number": "11",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/11/",
+   "words": 121
+  },
+  {
+   "heading": "Limit of solitary confinement",
+   "indexable": true,
+   "number": "12",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/12/",
+   "words": 75
+  },
+  {
+   "heading": "Enhanced punishment for certain offences after previous conviction",
+   "indexable": true,
+   "number": "13",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/13/",
+   "words": 81
+  },
+  {
+   "heading": "Act done by a person bound, or by mistake of fact believing himself bound, by law",
+   "indexable": true,
+   "number": "14",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/14/",
+   "words": 103
+  },
+  {
+   "heading": "Act of Judge when acting judicially",
+   "indexable": true,
+   "number": "15",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/15/",
+   "words": 35
+  },
+  {
+   "heading": "Act done pursuant to judgment or order of Court",
+   "indexable": true,
+   "number": "16",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/16/",
+   "words": 62
+  },
+  {
+   "heading": "Act done by a person justified, or by mistake of fact believing himself justified, by law",
+   "indexable": true,
+   "number": "17",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/17/",
+   "words": 116
+  },
+  {
+   "heading": "Accident in doing a lawful act",
+   "indexable": true,
+   "number": "18",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/18/",
+   "words": 80
+  },
+  {
+   "heading": "Act likely to cause harm, but done without criminal intent, and to prevent other harm",
+   "indexable": true,
+   "number": "19",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/19/",
+   "words": 334
+  },
+  {
+   "heading": "Act of a child under seven years of age",
+   "indexable": true,
+   "number": "20",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/20/",
+   "words": 15
+  },
+  {
+   "heading": "Act of a child above seven and under twelve years of age of immature understanding",
+   "indexable": true,
+   "number": "21",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/21/",
+   "words": 42
+  },
+  {
+   "heading": "Act of a person of unsound mind",
+   "indexable": true,
+   "number": "22",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/22/",
+   "words": 45
+  },
+  {
+   "heading": "Act of a person incapable of judgment by reason of intoxication caused against his will",
+   "indexable": true,
+   "number": "23",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/23/",
+   "words": 61
+  },
+  {
+   "heading": "Offence requiring a particular intent or knowledge committed by one who is intoxicated",
+   "indexable": true,
+   "number": "24",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/24/",
+   "words": 71
+  },
+  {
+   "heading": "Act not intended and not known to be likely to cause death or grievous hurt, done by consent",
+   "indexable": true,
+   "number": "25",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/25/",
+   "words": 149
+  },
+  {
+   "heading": "Act not intended to cause death, done by consent in good faith for person's benefit",
+   "indexable": true,
+   "number": "26",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/26/",
+   "words": 123
+  },
+  {
+   "heading": "Act done in good faith for benefit of child or person of unsound mind, by, or by consent of guardian",
+   "indexable": true,
+   "number": "27",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/27/",
+   "words": 249
+  },
+  {
+   "heading": "Consent known to be given under fear or misconception",
+   "indexable": true,
+   "number": "28",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/28/",
+   "words": 117
+  },
+  {
+   "heading": "Exclusion of acts which are offences independently of harm caused",
+   "indexable": true,
+   "number": "29",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/29/",
+   "words": 120
+  },
+  {
+   "heading": "Act done in good faith for benefit of a person without consent",
+   "indexable": true,
+   "number": "30",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/30/",
+   "words": 423
+  },
+  {
+   "heading": "Communication made in good faith",
+   "indexable": true,
+   "number": "31",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/31/",
+   "words": 77
+  },
+  {
+   "heading": "Act to which a person is compelled by threats",
+   "indexable": true,
+   "number": "32",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/32/",
+   "words": 202
+  },
+  {
+   "heading": "Act causing slight harm",
+   "indexable": true,
+   "number": "33",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/33/",
+   "words": 47
+  },
+  {
+   "heading": "Things done in private defence",
+   "indexable": true,
+   "number": "34",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/34/",
+   "words": 16
+  },
+  {
+   "heading": "Right of private defence of body and of property",
+   "indexable": true,
+   "number": "35",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/35/",
+   "words": 78
+  },
+  {
+   "heading": "Right of private defence against act of a person of unsound mind, etc",
+   "indexable": true,
+   "number": "36",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/36/",
+   "words": 166
+  },
+  {
+   "heading": "Acts against which there is no right of private defence",
+   "indexable": true,
+   "number": "37",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/37/",
+   "words": 268
+  },
+  {
+   "heading": "When right of private defence of body extends to causing death",
+   "indexable": true,
+   "number": "38",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/38/",
+   "words": 187
+  },
+  {
+   "heading": "When such right extends to causing any harm other than death",
+   "indexable": true,
+   "number": "39",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/39/",
+   "words": 57
+  },
+  {
+   "heading": "Commencement and continuance of right of private defence of body",
+   "indexable": true,
+   "number": "40",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/40/",
+   "words": 52
+  },
+  {
+   "heading": "When right of private defence of property extends to causing death",
+   "indexable": true,
+   "number": "41",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/41/",
+   "words": 135
+  },
+  {
+   "heading": "When such right extends to causing any harm other than death",
+   "indexable": true,
+   "number": "42",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/42/",
+   "words": 73
+  },
+  {
+   "heading": "Commencement and continuance of right of private defence of property",
+   "indexable": true,
+   "number": "43",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/43/",
+   "words": 134
+  },
+  {
+   "heading": "Right of private defence against deadly assault when there is risk of harm to innocent person",
+   "indexable": true,
+   "number": "44",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/44/",
+   "words": 108
+  },
+  {
+   "heading": "Abetment of a thing",
+   "indexable": true,
+   "number": "45",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/45/",
+   "words": 212
+  },
+  {
+   "heading": "Abettor",
+   "indexable": true,
+   "number": "46",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/46/",
+   "words": 747
+  },
+  {
+   "heading": "Abetment in India of offences outside India",
+   "indexable": true,
+   "number": "47",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/47/",
+   "words": 57
+  },
+  {
+   "heading": "Abetment outside India for offence in India",
+   "indexable": true,
+   "number": "48",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/48/",
+   "words": 52
+  },
+  {
+   "heading": "Punishment of abetment if act abetted is committed in consequence and where no express provision is made for its punishment",
+   "indexable": true,
+   "number": "49",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/49/",
+   "words": 183
+  },
+  {
+   "heading": "Punishment of abetment if person abetted does act with different intention from that of abettor",
+   "indexable": true,
+   "number": "50",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/50/",
+   "words": 58
+  },
+  {
+   "heading": "Liability of abettor when one act abetted and different act done",
+   "indexable": true,
+   "number": "51",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/51/",
+   "words": 292
+  },
+  {
+   "heading": "Abettor when liable to cumulative punishment for act abetted and for act done",
+   "indexable": true,
+   "number": "52",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/52/",
+   "words": 129
+  },
+  {
+   "heading": "Liability of abettor for an effect caused by act abetted different from that intended by abettor",
+   "indexable": true,
+   "number": "53",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/53/",
+   "words": 138
+  },
+  {
+   "heading": "Abettor present when offence is committed",
+   "indexable": true,
+   "number": "54",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/54/",
+   "words": 46
+  },
+  {
+   "heading": "Abetment of offence punishable with death or imprisonment for life",
+   "indexable": true,
+   "number": "55",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/55/",
+   "words": 196
+  },
+  {
+   "heading": "Abetment of offence punishable with imprisonment",
+   "indexable": true,
+   "number": "56",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/56/",
+   "words": 264
+  },
+  {
+   "heading": "Abetting commission of offence by public or by more than ten persons",
+   "indexable": true,
+   "number": "57",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/57/",
+   "words": 92
+  },
+  {
+   "heading": "Concealing design to commit offence punishable with death or imprisonment for life",
+   "indexable": true,
+   "number": "58",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/58/",
+   "words": 183
+  },
+  {
+   "heading": "Public servant concealing design to commit offence which it is his duty to prevent",
+   "indexable": true,
+   "number": "59",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/59/",
+   "words": 271
+  },
+  {
+   "heading": "Concealing design to commit offence punishable with imprisonment",
+   "indexable": true,
+   "number": "60",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/60/",
+   "words": 109
+  },
+  {
+   "heading": "Criminal conspiracy",
+   "indexable": true,
+   "number": "61",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/61/",
+   "words": 193
+  },
+  {
+   "heading": "Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment",
+   "indexable": true,
+   "number": "62",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/62/",
+   "words": 192
+  },
+  {
+   "heading": "Rape",
+   "indexable": true,
+   "number": "63",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/63/",
+   "words": 412
+  },
+  {
+   "heading": "Punishment for rape",
+   "indexable": true,
+   "number": "64",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/64/",
+   "words": 550
+  },
+  {
+   "heading": "Punishment for rape in certain cases",
+   "indexable": true,
+   "number": "65",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/65/",
+   "words": 179
+  },
+  {
+   "heading": "Punishment for causing death or resulting in persistent vegetative state of victim",
+   "indexable": true,
+   "number": "66",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/66/",
+   "words": 82
+  },
+  {
+   "heading": "Sexual intercourse by husband upon his wife during separation",
+   "indexable": true,
+   "number": "67",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/67/",
+   "words": 76
+  },
+  {
+   "heading": "Sexual intercourse by a person in authority",
+   "indexable": true,
+   "number": "68",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/68/",
+   "words": 262
+  },
+  {
+   "heading": "Sexual intercourse by employing deceitful means, etc",
+   "indexable": true,
+   "number": "69",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/69/",
+   "words": 78
+  },
+  {
+   "heading": "Gang rape",
+   "indexable": true,
+   "number": "70",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/70/",
+   "words": 212
+  },
+  {
+   "heading": "Punishment for repeat offenders",
+   "indexable": true,
+   "number": "71",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/71/",
+   "words": 57
+  },
+  {
+   "heading": "Disclosure of identity of victim of certain offences, etc",
+   "indexable": true,
+   "number": "72",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/72/",
+   "words": 156
+  },
+  {
+   "heading": "Printing or publishing any matter relating to Court proceedings without permission",
+   "indexable": true,
+   "number": "73",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/73/",
+   "words": 82
+  },
+  {
+   "heading": "Assault or use of criminal force to woman with intent to outrage her modesty",
+   "indexable": true,
+   "number": "74",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/74/",
+   "words": 58
+  },
+  {
+   "heading": "Sexual harassment",
+   "indexable": true,
+   "number": "75",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/75/",
+   "words": 132
+  },
+  {
+   "heading": "Assault or use of criminal force to woman with intent to disrobe",
+   "indexable": true,
+   "number": "76",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/76/",
+   "words": 57
+  },
+  {
+   "heading": "Voyeurism",
+   "indexable": true,
+   "number": "77",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/77/",
+   "words": 231
+  },
+  {
+   "heading": "Stalking",
+   "indexable": true,
+   "number": "78",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/78/",
+   "words": 203
+  },
+  {
+   "heading": "Word, gesture or act intended to insult modesty of a woman",
+   "indexable": true,
+   "number": "79",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/79/",
+   "words": 72
+  },
+  {
+   "heading": "Dowry death",
+   "indexable": true,
+   "number": "80",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/80/",
+   "words": 136
+  },
+  {
+   "heading": "Cohabitation caused by man deceitfully inducing belief of lawful marriage",
+   "indexable": true,
+   "number": "81",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/81/",
+   "words": 60
+  },
+  {
+   "heading": "Marrying again during lifetime of husband or wife",
+   "indexable": true,
+   "number": "82",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/82/",
+   "words": 229
+  },
+  {
+   "heading": "Marriage ceremony fraudulently gone through without lawful marriage",
+   "indexable": true,
+   "number": "83",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/83/",
+   "words": 46
+  },
+  {
+   "heading": "Enticing or taking away or detaining with criminal intent a married woman",
+   "indexable": true,
+   "number": "84",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/84/",
+   "words": 70
+  },
+  {
+   "heading": "Husband or relative of husband of a woman subjecting her to cruelty",
+   "indexable": true,
+   "number": "85",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/85/",
+   "words": 39
+  },
+  {
+   "heading": "Cruelty defined",
+   "indexable": true,
+   "number": "86",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/86/",
+   "words": 98
+  },
+  {
+   "heading": "Kidnapping, abducting or inducing woman to compel her marriage, etc",
+   "indexable": true,
+   "number": "87",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/87/",
+   "words": 146
+  },
+  {
+   "heading": "Causing miscarriage",
+   "indexable": true,
+   "number": "88",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/88/",
+   "words": 97
+  },
+  {
+   "heading": "Causing miscarriage without woman's consent",
+   "indexable": true,
+   "number": "89",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/89/",
+   "words": 51
+  },
+  {
+   "heading": "Death caused by act done with intent to cause miscarriage",
+   "indexable": true,
+   "number": "90",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/90/",
+   "words": 100
+  },
+  {
+   "heading": "Act done with intent to prevent child being born alive or to cause to die after birth",
+   "indexable": true,
+   "number": "91",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/91/",
+   "words": 92
+  },
+  {
+   "heading": "Causing death of quick unborn child by act amounting to culpable homicide",
+   "indexable": true,
+   "number": "92",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/92/",
+   "words": 123
+  },
+  {
+   "heading": "Exposure and abandonment of child under twelve years of age, by parent or person having care of it",
+   "indexable": true,
+   "number": "93",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/93/",
+   "words": 93
+  },
+  {
+   "heading": "Concealment of birth by secret disposal of dead body",
+   "indexable": true,
+   "number": "94",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/94/",
+   "words": 59
+  },
+  {
+   "heading": "Hiring, employing or engaging a child to commit an offence",
+   "indexable": true,
+   "number": "95",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/95/",
+   "words": 85
+  },
+  {
+   "heading": "Procuration of child",
+   "indexable": true,
+   "number": "96",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/96/",
+   "words": 63
+  },
+  {
+   "heading": "Kidnapping or abducting child under ten years of age with intent to steal from its person",
+   "indexable": true,
+   "number": "97",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/97/",
+   "words": 51
+  },
+  {
+   "heading": "Selling child for purposes of prostitution, etc",
+   "indexable": true,
+   "number": "98",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/98/",
+   "words": 216
+  },
+  {
+   "heading": "Buying child for purposes of prostitution, etc",
+   "indexable": true,
+   "number": "99",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/99/",
+   "words": 162
+  },
+  {
+   "heading": "Culpable homicide",
+   "indexable": true,
+   "number": "100",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/100/",
+   "words": 349
+  },
+  {
+   "heading": "Murder",
+   "indexable": true,
+   "number": "101",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/101/",
+   "words": 1177
+  },
+  {
+   "heading": "Culpable homicide by causing death of person other than person whose death was intended",
+   "indexable": true,
+   "number": "102",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/102/",
+   "words": 78
+  },
+  {
+   "heading": "Punishment for murder",
+   "indexable": true,
+   "number": "103",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/103/",
+   "words": 76
+  },
+  {
+   "heading": "Punishment for murder by life-convict",
+   "indexable": true,
+   "number": "104",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/104/",
+   "words": 30
+  },
+  {
+   "heading": "Punishment for culpable homicide not amounting to murder",
+   "indexable": true,
+   "number": "105",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/105/",
+   "words": 126
+  },
+  {
+   "heading": "Causing death by negligence",
+   "indexable": true,
+   "number": "106",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/106/",
+   "words": 190
+  },
+  {
+   "heading": "Abetment of suicide of child or person of unsound mind",
+   "indexable": true,
+   "number": "107",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/107/",
+   "words": 53
+  },
+  {
+   "heading": "Abetment of suicide",
+   "indexable": true,
+   "number": "108",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/108/",
+   "words": 36
+  },
+  {
+   "heading": "Attempt to murder",
+   "indexable": true,
+   "number": "109",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/109/",
+   "words": 308
+  },
+  {
+   "heading": "Attempt to commit culpable homicide",
+   "indexable": true,
+   "number": "110",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/110/",
+   "words": 130
+  },
+  {
+   "heading": "Organised crime",
+   "indexable": true,
+   "number": "111",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/111/",
+   "words": 693
+  },
+  {
+   "heading": "Petty organised crime",
+   "indexable": true,
+   "number": "112",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/112/",
+   "words": 118
+  },
+  {
+   "heading": "Terrorist act",
+   "indexable": true,
+   "number": "113",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/113/",
+   "words": 786
+  },
+  {
+   "heading": "Hurt",
+   "indexable": true,
+   "number": "114",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/114/",
+   "words": 15
+  },
+  {
+   "heading": "Voluntarily causing hurt",
+   "indexable": true,
+   "number": "115",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/115/",
+   "words": 91
+  },
+  {
+   "heading": "Grievous hurt",
+   "indexable": true,
+   "number": "116",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/116/",
+   "words": 98
+  },
+  {
+   "heading": "Voluntarily causing grievous hurt",
+   "indexable": true,
+   "number": "117",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/117/",
+   "words": 341
+  },
+  {
+   "heading": "Voluntarily causing hurt or grievous hurt by dangerous weapons or means",
+   "indexable": true,
+   "number": "118",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/118/",
+   "words": 192
+  },
+  {
+   "heading": "Voluntarily causing hurt or grievous hurt to extort property, or to constrain to an illegal act",
+   "indexable": true,
+   "number": "119",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/119/",
+   "words": 119
+  },
+  {
+   "heading": "Voluntarily causing hurt or grievous hurt to extort confession, or to compel restoration of property",
+   "indexable": true,
+   "number": "120",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/120/",
+   "words": 237
+  },
+  {
+   "heading": "Voluntarily causing hurt or grievous hurt to deter public servant from his duty",
+   "indexable": true,
+   "number": "121",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/121/",
+   "words": 195
+  },
+  {
+   "heading": "Voluntarily causing hurt or grievous hurt on provocation",
+   "indexable": true,
+   "number": "122",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/122/",
+   "words": 144
+  },
+  {
+   "heading": "Causing hurt by means of poison, etc., with intent to commit an offence",
+   "indexable": true,
+   "number": "123",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/123/",
+   "words": 80
+  },
+  {
+   "heading": "Voluntarily causing grievous hurt by use of acid, etc",
+   "indexable": true,
+   "number": "124",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/124/",
+   "words": 289
+  },
+  {
+   "heading": "Act endangering life or personal safety of others",
+   "indexable": true,
+   "number": "125",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/125/",
+   "words": 123
+  },
+  {
+   "heading": "Wrongful restraint",
+   "indexable": true,
+   "number": "126",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/126/",
+   "words": 140
+  },
+  {
+   "heading": "Wrongful confinement",
+   "indexable": true,
+   "number": "127",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/127/",
+   "words": 581
+  },
+  {
+   "heading": "Force",
+   "indexable": true,
+   "number": "128",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/128/",
+   "words": 167
+  },
+  {
+   "heading": "Criminal force",
+   "indexable": true,
+   "number": "129",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/129/",
+   "words": 667
+  },
+  {
+   "heading": "Assault",
+   "indexable": true,
+   "number": "130",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/130/",
+   "words": 221
+  },
+  {
+   "heading": "Punishment for assault or criminal force otherwise than on grave provocation",
+   "indexable": true,
+   "number": "131",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/131/",
+   "words": 153
+  },
+  {
+   "heading": "Assault or criminal force to deter public servant from discharge of his duty",
+   "indexable": true,
+   "number": "132",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/132/",
+   "words": 88
+  },
+  {
+   "heading": "Assault or criminal force with intent to dishonour person, otherwise than on grave provocation",
+   "indexable": true,
+   "number": "133",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/133/",
+   "words": 49
+  },
+  {
+   "heading": "Assault or criminal force in attempt to commit theft of property carried by a person",
+   "indexable": true,
+   "number": "134",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/134/",
+   "words": 48
+  },
+  {
+   "heading": "Assault or criminal force in attempt to wrongfully confine a person",
+   "indexable": true,
+   "number": "135",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/135/",
+   "words": 46
+  },
+  {
+   "heading": "Assault or criminal force on grave provocation",
+   "indexable": true,
+   "number": "136",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/136/",
+   "words": 57
+  },
+  {
+   "heading": "Kidnapping",
+   "indexable": true,
+   "number": "137",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/137/",
+   "words": 208
+  },
+  {
+   "heading": "Abduction",
+   "indexable": true,
+   "number": "138",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/138/",
+   "words": 23
+  },
+  {
+   "heading": "Kidnapping or maiming a child for purposes of begging",
+   "indexable": true,
+   "number": "139",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/139/",
+   "words": 270
+  },
+  {
+   "heading": "Kidnapping or abducting in order to murder or for ransom, etc",
+   "indexable": true,
+   "number": "140",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/140/",
+   "words": 343
+  },
+  {
+   "heading": "Importation of girl or boy from foreign country",
+   "indexable": true,
+   "number": "141",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/141/",
+   "words": 73
+  },
+  {
+   "heading": "Wrongfully concealing or keeping in confinement, kidnapped or abducted person",
+   "indexable": true,
+   "number": "142",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/142/",
+   "words": 59
+  },
+  {
+   "heading": "Trafficking of person",
+   "indexable": true,
+   "number": "143",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/143/",
+   "words": 400
+  },
+  {
+   "heading": "Exploitation of a trafficked person",
+   "indexable": true,
+   "number": "144",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/144/",
+   "words": 108
+  },
+  {
+   "heading": "Habitual dealing in slaves",
+   "indexable": true,
+   "number": "145",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/145/",
+   "words": 39
+  },
+  {
+   "heading": "Unlawful compulsory labour",
+   "indexable": true,
+   "number": "146",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/146/",
+   "words": 36
+  },
+  {
+   "heading": "Waging, or attempting to wage war, or abetting waging of war, against Government of India",
+   "indexable": true,
+   "number": "147",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/147/",
+   "words": 56
+  },
+  {
+   "heading": "Conspiracy to commit offences punishable by section 147",
+   "indexable": true,
+   "number": "148",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/148/",
+   "words": 89
+  },
+  {
+   "heading": "Collecting arms, etc., with intention of waging war against Government of India",
+   "indexable": true,
+   "number": "149",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/149/",
+   "words": 55
+  },
+  {
+   "heading": "Concealing with intent to facilitate design to wage war",
+   "indexable": true,
+   "number": "150",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/150/",
+   "words": 69
+  },
+  {
+   "heading": "Assaulting President, Governor, etc., with intent to compel or restrain exercise of any lawful power",
+   "indexable": true,
+   "number": "151",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/151/",
+   "words": 91
+  },
+  {
+   "heading": "Act endangering sovereignty, unity and integrity of India",
+   "indexable": true,
+   "number": "152",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/152/",
+   "words": 132
+  },
+  {
+   "heading": "Waging war against Government of any foreign State at peace with Government of India",
+   "indexable": true,
+   "number": "153",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/153/",
+   "words": 67
+  },
+  {
+   "heading": "Committing depredation on territories of foreign State at peace with Government of India",
+   "indexable": true,
+   "number": "154",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/154/",
+   "words": 68
+  },
+  {
+   "heading": "Receiving property taken by war or depredation mentioned in sections 153 and 154",
+   "indexable": true,
+   "number": "155",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/155/",
+   "words": 57
+  },
+  {
+   "heading": "Public servant voluntarily allowing prisoner of State or war to escape",
+   "indexable": true,
+   "number": "156",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/156/",
+   "words": 60
+  },
+  {
+   "heading": "Public servant negligently suffering such prisoner to escape",
+   "indexable": true,
+   "number": "157",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/157/",
+   "words": 56
+  },
+  {
+   "heading": "Aiding escape of, rescuing or harbouring such prisoner",
+   "indexable": true,
+   "number": "158",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/158/",
+   "words": 126
+  },
+  {
+   "heading": "Abetting mutiny, or attempting to seduce a soldier, sailor or airman from his duty",
+   "indexable": true,
+   "number": "159",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/159/",
+   "words": 71
+  },
+  {
+   "heading": "Abetment of mutiny, if mutiny is committed in consequence thereof",
+   "indexable": true,
+   "number": "160",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/160/",
+   "words": 65
+  },
+  {
+   "heading": "Abetment of assault by soldier, sailor or airman on his superior officer, when in execution of his office",
+   "indexable": true,
+   "number": "161",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/161/",
+   "words": 58
+  },
+  {
+   "heading": "Abetment of such assault, if assault committed",
+   "indexable": true,
+   "number": "162",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/162/",
+   "words": 68
+  },
+  {
+   "heading": "Abetment of desertion of soldier, sailor or airman",
+   "indexable": true,
+   "number": "163",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/163/",
+   "words": 46
+  },
+  {
+   "heading": "Harbouring deserter",
+   "indexable": true,
+   "number": "164",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/164/",
+   "words": 82
+  },
+  {
+   "heading": "Deserter concealed on board merchant vessel through negligence of master",
+   "indexable": true,
+   "number": "165",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/165/",
+   "words": 80
+  },
+  {
+   "heading": "Abetment of act of insubordination by soldier, sailor or airman",
+   "indexable": true,
+   "number": "166",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/166/",
+   "words": 65
+  },
+  {
+   "heading": "Persons subject to certain Acts",
+   "indexable": true,
+   "number": "167",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/167/",
+   "words": 45
+  },
+  {
+   "heading": "Wearing garb or carrying token used by soldier, sailor or airman",
+   "indexable": true,
+   "number": "168",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/168/",
+   "words": 87
+  },
+  {
+   "heading": "Candidate, electoral right defined",
+   "indexable": true,
+   "number": "169",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/169/",
+   "words": 54
+  },
+  {
+   "heading": "Bribery",
+   "indexable": true,
+   "number": "170",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/170/",
+   "words": 184
+  },
+  {
+   "heading": "Undue influence at elections",
+   "indexable": true,
+   "number": "171",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/171/",
+   "words": 163
+  },
+  {
+   "heading": "Personation at elections",
+   "indexable": true,
+   "number": "172",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/172/",
+   "words": 116
+  },
+  {
+   "heading": "Punishment for bribery",
+   "indexable": true,
+   "number": "173",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/173/",
+   "words": 56
+  },
+  {
+   "heading": "Punishment for undue influence or personation at an election",
+   "indexable": true,
+   "number": "174",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/174/",
+   "words": 35
+  },
+  {
+   "heading": "False statement in connection with an election",
+   "indexable": true,
+   "number": "175",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/175/",
+   "words": 58
+  },
+  {
+   "heading": "Illegal payments in connection with an election",
+   "indexable": true,
+   "number": "176",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/176/",
+   "words": 116
+  },
+  {
+   "heading": "Failure to keep election accounts",
+   "indexable": true,
+   "number": "177",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/177/",
+   "words": 50
+  },
+  {
+   "heading": "Counterfeiting coin, Government stamps, currency-notes or bank-notes",
+   "indexable": true,
+   "number": "178",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/178/",
+   "words": 266
+  },
+  {
+   "heading": "Using as genuine, forged or counterfeit coin, Government stamp, currency-notes or bank-notes",
+   "indexable": true,
+   "number": "179",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/179/",
+   "words": 75
+  },
+  {
+   "heading": "Possession of forged or counterfeit coin, Government stamp, currency-notes or bank-notes",
+   "indexable": true,
+   "number": "180",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/180/",
+   "words": 97
+  },
+  {
+   "heading": "Making or possessing instruments or materials for forging or counterfeiting coin, Government stamp, currency-notes or bank-notes",
+   "indexable": true,
+   "number": "181",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/181/",
+   "words": 101
+  },
+  {
+   "heading": "Making or using documents resembling currency-notes or bank-notes",
+   "indexable": true,
+   "number": "182",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/182/",
+   "words": 173
+  },
+  {
+   "heading": "Effacing writing from substance bearing Government stamp, or removing from document a stamp used for it, with intent to cause loss to Government",
+   "indexable": true,
+   "number": "183",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/183/",
+   "words": 94
+  },
+  {
+   "heading": "Using Government stamp known to have been before used",
+   "indexable": true,
+   "number": "184",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/184/",
+   "words": 56
+  },
+  {
+   "heading": "Erasure of mark denoting that stamp has been used",
+   "indexable": true,
+   "number": "185",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/185/",
+   "words": 104
+  },
+  {
+   "heading": "Prohibition of fictitious stamps",
+   "indexable": true,
+   "number": "186",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/186/",
+   "words": 222
+  },
+  {
+   "heading": "Person employed in mint causing coin to be of different weight or composition from that fixed by law",
+   "indexable": true,
+   "number": "187",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/187/",
+   "words": 73
+  },
+  {
+   "heading": "Unlawfully taking coining instrument from mint",
+   "indexable": true,
+   "number": "188",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/188/",
+   "words": 42
+  },
+  {
+   "heading": "Unlawful assembly",
+   "indexable": true,
+   "number": "189",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/189/",
+   "words": 717
+  },
+  {
+   "heading": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+   "indexable": true,
+   "number": "190",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/190/",
+   "words": 65
+  },
+  {
+   "heading": "Rioting",
+   "indexable": true,
+   "number": "191",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/191/",
+   "words": 116
+  },
+  {
+   "heading": "Wantonly giving provocation with intent to cause riot-if rioting be committed; if not committed",
+   "indexable": true,
+   "number": "192",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/192/",
+   "words": 98
+  },
+  {
+   "heading": "Liability of owner, occupier, etc., of land on which an unlawful assembly or riot takes place",
+   "indexable": true,
+   "number": "193",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/193/",
+   "words": 420
+  },
+  {
+   "heading": "Affray",
+   "indexable": true,
+   "number": "194",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/194/",
+   "words": 58
+  },
+  {
+   "heading": "Assaulting or obstructing public servant when suppressing riot, etc",
+   "indexable": true,
+   "number": "195",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/195/",
+   "words": 143
+  },
+  {
+   "heading": "Promoting enmity between different groups on grounds of religion, race, place of birth, residence, language, etc., and doing acts prejudicial to maintenance of harmony",
+   "indexable": true,
+   "number": "196",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/196/",
+   "words": 303
+  },
+  {
+   "heading": "Imputations, assertions prejudicial to national integration",
+   "indexable": true,
+   "number": "197",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/197/",
+   "words": 263
+  },
+  {
+   "heading": "Public servant disobeying law, with intent to cause injury to any person",
+   "indexable": true,
+   "number": "198",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/198/",
+   "words": 122
+  },
+  {
+   "heading": "Public servant disobeying direction under law",
+   "indexable": true,
+   "number": "199",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/199/",
+   "words": 154
+  },
+  {
+   "heading": "Punishment for non-treatment of victim",
+   "indexable": true,
+   "number": "200",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/200/",
+   "words": 58
+  },
+  {
+   "heading": "Public servant framing an incorrect document with intent to cause injury",
+   "indexable": true,
+   "number": "201",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/201/",
+   "words": 85
+  },
+  {
+   "heading": "Public servant unlawfully engaging in trade",
+   "indexable": true,
+   "number": "202",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/202/",
+   "words": 46
+  },
+  {
+   "heading": "Public servant unlawfully buying or bidding for property",
+   "indexable": true,
+   "number": "203",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/203/",
+   "words": 74
+  },
+  {
+   "heading": "Personating a public servant",
+   "indexable": true,
+   "number": "204",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/204/",
+   "words": 74
+  },
+  {
+   "heading": "Wearing garb or carrying token used by public servant with fraudulent intent",
+   "indexable": true,
+   "number": "205",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/205/",
+   "words": 87
+  },
+  {
+   "heading": "Absconding to avoid service of summons or other proceeding",
+   "indexable": true,
+   "number": "206",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/206/",
+   "words": 117
+  },
+  {
+   "heading": "Preventing service of summons or other proceeding, or preventing publication thereof",
+   "indexable": true,
+   "number": "207",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/207/",
+   "words": 183
+  },
+  {
+   "heading": "Non-attendance in obedience to an order from public servant",
+   "indexable": true,
+   "number": "208",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/208/",
+   "words": 218
+  },
+  {
+   "heading": "Non-appearance in response to a proclamation under section 84 of Bharatiya Nagarik Suraksha Sanhita, 2023",
+   "indexable": true,
+   "number": "209",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/209/",
+   "words": 96
+  },
+  {
+   "heading": "Omission to produce document or electronic record to public servant by person legally bound to produce it",
+   "indexable": true,
+   "number": "210",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/210/",
+   "words": 130
+  },
+  {
+   "heading": "Omission to give notice or information to public servant by person legally bound to give it",
+   "indexable": true,
+   "number": "211",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/211/",
+   "words": 187
+  },
+  {
+   "heading": "Furnishing false information",
+   "indexable": true,
+   "number": "212",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/212/",
+   "words": 369
+  },
+  {
+   "heading": "Refusing oath or affirmation when duly required by public servant to make it",
+   "indexable": true,
+   "number": "213",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/213/",
+   "words": 62
+  },
+  {
+   "heading": "Refusing to answer public servant authorised to question",
+   "indexable": true,
+   "number": "214",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/214/",
+   "words": 69
+  },
+  {
+   "heading": "Refusing to sign statement",
+   "indexable": true,
+   "number": "215",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/215/",
+   "words": 57
+  },
+  {
+   "heading": "False statement on oath or affirmation to public servant or person authorised to administer an oath or affirmation",
+   "indexable": true,
+   "number": "216",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/216/",
+   "words": 91
+  },
+  {
+   "heading": "False information, with intent to cause public servant to use his lawful power to injury of another person",
+   "indexable": true,
+   "number": "217",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/217/",
+   "words": 300
+  },
+  {
+   "heading": "Resistance to taking of property by lawful authority of a public servant",
+   "indexable": true,
+   "number": "218",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/218/",
+   "words": 60
+  },
+  {
+   "heading": "Obstructing sale of property offered for sale by authority of public servant",
+   "indexable": true,
+   "number": "219",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/219/",
+   "words": 50
+  },
+  {
+   "heading": "Illegal purchase or bid for property offered for sale by authority of public servant",
+   "indexable": true,
+   "number": "220",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/220/",
+   "words": 98
+  },
+  {
+   "heading": "Obstructing public servant in discharge of public functions",
+   "indexable": true,
+   "number": "221",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/221/",
+   "words": 46
+  },
+  {
+   "heading": "Omission to assist public servant when bound by law to give assistance",
+   "indexable": true,
+   "number": "222",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/222/",
+   "words": 151
+  },
+  {
+   "heading": "Disobedience to order duly promulgated by public servant",
+   "indexable": true,
+   "number": "223",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/223/",
+   "words": 249
+  },
+  {
+   "heading": "Threat of injury to public servant",
+   "indexable": true,
+   "number": "224",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/224/",
+   "words": 81
+  },
+  {
+   "heading": "Threat of injury to induce person to refrain from applying for protection to public servant",
+   "indexable": true,
+   "number": "225",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/225/",
+   "words": 74
+  },
+  {
+   "heading": "Attempt to commit suicide to compel or restrain exercise of lawful power",
+   "indexable": true,
+   "number": "226",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/226/",
+   "words": 45
+  },
+  {
+   "heading": "Giving false evidence",
+   "indexable": true,
+   "number": "227",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/227/",
+   "words": 387
+  },
+  {
+   "heading": "Fabricating false evidence",
+   "indexable": true,
+   "number": "228",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/228/",
+   "words": 238
+  },
+  {
+   "heading": "Punishment for false evidence",
+   "indexable": true,
+   "number": "229",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/229/",
+   "words": 280
+  },
+  {
+   "heading": "Giving or fabricating false evidence with intent to procure conviction of capital offence",
+   "indexable": true,
+   "number": "230",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/230/",
+   "words": 117
+  },
+  {
+   "heading": "Giving or fabricating false evidence with intent to procure conviction of offence punishable with imprisonment for life or imprisonment",
+   "indexable": true,
+   "number": "231",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/231/",
+   "words": 133
+  },
+  {
+   "heading": "Threatening any person to give false evidence",
+   "indexable": true,
+   "number": "232",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/232/",
+   "words": 117
+  },
+  {
+   "heading": "Using evidence known to be false",
+   "indexable": true,
+   "number": "233",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/233/",
+   "words": 37
+  },
+  {
+   "heading": "Issuing or signing false certificate",
+   "indexable": true,
+   "number": "234",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/234/",
+   "words": 54
+  },
+  {
+   "heading": "Using as true a certificate known to be false",
+   "indexable": true,
+   "number": "235",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/235/",
+   "words": 37
+  },
+  {
+   "heading": "False statement made in declaration which is by law receivable as evidence",
+   "indexable": true,
+   "number": "236",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/236/",
+   "words": 84
+  },
+  {
+   "heading": "Using as true such declaration knowing it to be false",
+   "indexable": true,
+   "number": "237",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/237/",
+   "words": 59
+  },
+  {
+   "heading": "Causing disappearance of evidence of offence, or giving false information to screen offender",
+   "indexable": true,
+   "number": "238",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/238/",
+   "words": 225
+  },
+  {
+   "heading": "Intentional omission to give information of offence by person bound to inform",
+   "indexable": true,
+   "number": "239",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/239/",
+   "words": 59
+  },
+  {
+   "heading": "Giving false information respecting an offence committed",
+   "indexable": true,
+   "number": "240",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/240/",
+   "words": 132
+  },
+  {
+   "heading": "Destruction of document or electronic record to prevent its production as evidence",
+   "indexable": true,
+   "number": "241",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/241/",
+   "words": 119
+  },
+  {
+   "heading": "False personation for purpose of act or proceeding in suit or prosecution",
+   "indexable": true,
+   "number": "242",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/242/",
+   "words": 63
+  },
+  {
+   "heading": "Fraudulent removal or concealment of property to prevent its seizure as forfeited or in execution",
+   "indexable": true,
+   "number": "243",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/243/",
+   "words": 123
+  },
+  {
+   "heading": "Fraudulent claim to property to prevent its seizure as forfeited or in execution",
+   "indexable": true,
+   "number": "244",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/244/",
+   "words": 140
+  },
+  {
+   "heading": "Fraudulently suffering decree for sum not due",
+   "indexable": true,
+   "number": "245",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/245/",
+   "words": 188
+  },
+  {
+   "heading": "Dishonestly making false claim in Court",
+   "indexable": true,
+   "number": "246",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/246/",
+   "words": 49
+  },
+  {
+   "heading": "Fraudulently obtaining decree for sum not due",
+   "indexable": true,
+   "number": "247",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/247/",
+   "words": 103
+  },
+  {
+   "heading": "False charge of offence made with intent to injure",
+   "indexable": true,
+   "number": "248",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/248/",
+   "words": 130
+  },
+  {
+   "heading": "Harbouring offender",
+   "indexable": true,
+   "number": "249",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/249/",
+   "words": 335
+  },
+  {
+   "heading": "Taking gift, etc., to screen an offender from punishment",
+   "indexable": true,
+   "number": "250",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/250/",
+   "words": 188
+  },
+  {
+   "heading": "Offering gift or restoration of property in consideration of screening offender",
+   "indexable": true,
+   "number": "251",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/251/",
+   "words": 211
+  },
+  {
+   "heading": "Taking gift to help to recover stolen property, etc",
+   "indexable": true,
+   "number": "252",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/252/",
+   "words": 81
+  },
+  {
+   "heading": "Harbouring offender who has escaped from custody or whose apprehension has been ordered",
+   "indexable": true,
+   "number": "253",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/253/",
+   "words": 339
+  },
+  {
+   "heading": "Penalty for harbouring robbers or dacoits",
+   "indexable": true,
+   "number": "254",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/254/",
+   "words": 120
+  },
+  {
+   "heading": "Public servant disobeying direction of law with intent to save person from punishment or property from forfeiture",
+   "indexable": true,
+   "number": "255",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/255/",
+   "words": 112
+  },
+  {
+   "heading": "Public servant framing incorrect record or writing with intent to save person from punishment or property from forfeiture",
+   "indexable": true,
+   "number": "256",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/256/",
+   "words": 133
+  },
+  {
+   "heading": "Public servant in judicial proceeding corruptly making report, etc., contrary to law",
+   "indexable": true,
+   "number": "257",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/257/",
+   "words": 55
+  },
+  {
+   "heading": "Commitment for trial or confinement by person having authority who knows that he is acting contrary to law",
+   "indexable": true,
+   "number": "258",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/258/",
+   "words": 81
+  },
+  {
+   "heading": "Intentional omission to apprehend on part of public servant bound to apprehend",
+   "indexable": true,
+   "number": "259",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/259/",
+   "words": 217
+  },
+  {
+   "heading": "Intentional omission to apprehend on part of public servant bound to apprehend person under sentence or lawfully committed",
+   "indexable": true,
+   "number": "260",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/260/",
+   "words": 228
+  },
+  {
+   "heading": "Escape from confinement or custody negligently suffered by public servant",
+   "indexable": true,
+   "number": "261",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/261/",
+   "words": 58
+  },
+  {
+   "heading": "Resistance or obstruction by a person to his lawful apprehension",
+   "indexable": true,
+   "number": "262",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/262/",
+   "words": 109
+  },
+  {
+   "heading": "Resistance or obstruction to lawful apprehension of another person",
+   "indexable": true,
+   "number": "263",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/263/",
+   "words": 303
+  },
+  {
+   "heading": "Omission to apprehend, or sufferance of escape, on part of public servant, in cases not otherwise provided for",
+   "indexable": true,
+   "number": "264",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/264/",
+   "words": 111
+  },
+  {
+   "heading": "Resistance or obstruction to lawful apprehension or escape or rescue in cases not otherwise provided for",
+   "indexable": true,
+   "number": "265",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/265/",
+   "words": 99
+  },
+  {
+   "heading": "Violation of condition of remission of punishment",
+   "indexable": true,
+   "number": "266",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/266/",
+   "words": 63
+  },
+  {
+   "heading": "Intentional insult or interruption to public servant sitting in judicial proceeding",
+   "indexable": true,
+   "number": "267",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/267/",
+   "words": 54
+  },
+  {
+   "heading": "Personation of assessor",
+   "indexable": true,
+   "number": "268",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/268/",
+   "words": 85
+  },
+  {
+   "heading": "Failure by person released on bail bond or bond to appear in Court",
+   "indexable": true,
+   "number": "269",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/269/",
+   "words": 112
+  },
+  {
+   "heading": "Public nuisance",
+   "indexable": true,
+   "number": "270",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/270/",
+   "words": 82
+  },
+  {
+   "heading": "Negligent act likely to spread infection of disease dangerous to life",
+   "indexable": true,
+   "number": "271",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/271/",
+   "words": 54
+  },
+  {
+   "heading": "Malignant act likely to spread infection of disease dangerous to life",
+   "indexable": true,
+   "number": "272",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/272/",
+   "words": 52
+  },
+  {
+   "heading": "Disobedience to quarantine rule",
+   "indexable": true,
+   "number": "273",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/273/",
+   "words": 72
+  },
+  {
+   "heading": "Adulteration of food or drink intended for sale",
+   "indexable": true,
+   "number": "274",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/274/",
+   "words": 74
+  },
+  {
+   "heading": "Sale of noxious food or drink",
+   "indexable": true,
+   "number": "275",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/275/",
+   "words": 77
+  },
+  {
+   "heading": "Adulteration of drugs",
+   "indexable": true,
+   "number": "276",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/276/",
+   "words": 95
+  },
+  {
+   "heading": "Sale of adulterated drugs",
+   "indexable": true,
+   "number": "277",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/277/",
+   "words": 97
+  },
+  {
+   "heading": "Sale of drug as a different drug or preparation",
+   "indexable": true,
+   "number": "278",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/278/",
+   "words": 59
+  },
+  {
+   "heading": "Fouling water of public spring or reservoir",
+   "indexable": true,
+   "number": "279",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/279/",
+   "words": 59
+  },
+  {
+   "heading": "Making atmosphere noxious to health",
+   "indexable": true,
+   "number": "280",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/280/",
+   "words": 47
+  },
+  {
+   "heading": "Rash driving or riding on a public way",
+   "indexable": true,
+   "number": "281",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/281/",
+   "words": 65
+  },
+  {
+   "heading": "Rash navigation of vessel",
+   "indexable": true,
+   "number": "282",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/282/",
+   "words": 59
+  },
+  {
+   "heading": "Exhibition of false light, mark or buoy",
+   "indexable": true,
+   "number": "283",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/283/",
+   "words": 51
+  },
+  {
+   "heading": "Conveying person by water for hire in unsafe or overloaded vessel",
+   "indexable": true,
+   "number": "284",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/284/",
+   "words": 68
+  },
+  {
+   "heading": "Danger or obstruction in public way or line of navigation",
+   "indexable": true,
+   "number": "285",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/285/",
+   "words": 50
+  },
+  {
+   "heading": "Negligent conduct with respect to poisonous substance",
+   "indexable": true,
+   "number": "286",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/286/",
+   "words": 94
+  },
+  {
+   "heading": "Negligent conduct with respect to fire or combustible matter",
+   "indexable": true,
+   "number": "287",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/287/",
+   "words": 99
+  },
+  {
+   "heading": "Negligent conduct with respect to explosive substance",
+   "indexable": true,
+   "number": "288",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/288/",
+   "words": 91
+  },
+  {
+   "heading": "Negligent conduct with respect to machinery",
+   "indexable": true,
+   "number": "289",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/289/",
+   "words": 93
+  },
+  {
+   "heading": "Negligent conduct with respect to pulling down, repairing or constructing buildings, etc",
+   "indexable": true,
+   "number": "290",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/290/",
+   "words": 73
+  },
+  {
+   "heading": "Negligent conduct with respect to animal",
+   "indexable": true,
+   "number": "291",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/291/",
+   "words": 67
+  },
+  {
+   "heading": "Punishment for public nuisance in cases not otherwise provided for",
+   "indexable": true,
+   "number": "292",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/292/",
+   "words": 26
+  },
+  {
+   "heading": "Continuance of nuisance after injunction to discontinue",
+   "indexable": true,
+   "number": "293",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/293/",
+   "words": 57
+  },
+  {
+   "heading": "Sale, etc., of obscene books, etc",
+   "indexable": true,
+   "number": "294",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/294/",
+   "words": 503
+  },
+  {
+   "heading": "Sale, etc., of obscene objects to child",
+   "indexable": true,
+   "number": "295",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/295/",
+   "words": 95
+  },
+  {
+   "heading": "Obscene acts and songs",
+   "indexable": true,
+   "number": "296",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/296/",
+   "words": 63
+  },
+  {
+   "heading": "Keeping lottery office",
+   "indexable": true,
+   "number": "297",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/297/",
+   "words": 112
+  },
+  {
+   "heading": "Injuring or defiling place of worship with intent to insult religion of any class",
+   "indexable": true,
+   "number": "298",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/298/",
+   "words": 79
+  },
+  {
+   "heading": "Deliberate and malicious acts, intended to outrage religious feelings of any class by insulting its religion or religious beliefs",
+   "indexable": true,
+   "number": "299",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/299/",
+   "words": 74
+  },
+  {
+   "heading": "Disturbing religious assembly",
+   "indexable": true,
+   "number": "300",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/300/",
+   "words": 41
+  },
+  {
+   "heading": "Trespassing on burial places, etc",
+   "indexable": true,
+   "number": "301",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/301/",
+   "words": 126
+  },
+  {
+   "heading": "Uttering words, etc., with deliberate intent to wound religious feelings of any person",
+   "indexable": true,
+   "number": "302",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/302/",
+   "words": 69
+  },
+  {
+   "heading": "Theft",
+   "indexable": true,
+   "number": "303",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/303/",
+   "words": 1104
+  },
+  {
+   "heading": "Snatching",
+   "indexable": true,
+   "number": "304",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/304/",
+   "words": 63
+  },
+  {
+   "heading": "Theft in a dwelling house, or means of transportation or place of worship, etc",
+   "indexable": true,
+   "number": "305",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/305/",
+   "words": 105
+  },
+  {
+   "heading": "Theft by clerk or servant of property in possession of master",
+   "indexable": true,
+   "number": "306",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/306/",
+   "words": 56
+  },
+  {
+   "heading": "Theft after preparation made for causing death, hurt or restraint in order to committing of theft",
+   "indexable": true,
+   "number": "307",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/307/",
+   "words": 175
+  },
+  {
+   "heading": "Extortion",
+   "indexable": true,
+   "number": "308",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/308/",
+   "words": 608
+  },
+  {
+   "heading": "Robbery",
+   "indexable": true,
+   "number": "309",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/309/",
+   "words": 533
+  },
+  {
+   "heading": "Dacoity",
+   "indexable": true,
+   "number": "310",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/310/",
+   "words": 252
+  },
+  {
+   "heading": "Robbery, or dacoity, with attempt to cause death or grievous hurt",
+   "indexable": true,
+   "number": "311",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/311/",
+   "words": 49
+  },
+  {
+   "heading": "Attempt to commit robbery or dacoity when armed with deadly weapon",
+   "indexable": true,
+   "number": "312",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/312/",
+   "words": 35
+  },
+  {
+   "heading": "Punishment for belonging to gang of robbers, etc",
+   "indexable": true,
+   "number": "313",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/313/",
+   "words": 43
+  },
+  {
+   "heading": "Dishonest misappropriation of property",
+   "indexable": true,
+   "number": "314",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/314/",
+   "words": 734
+  },
+  {
+   "heading": "Dishonest misappropriation of property possessed by deceased person at the time of his death",
+   "indexable": true,
+   "number": "315",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/315/",
+   "words": 135
+  },
+  {
+   "heading": "Criminal breach of trust",
+   "indexable": true,
+   "number": "316",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/316/",
+   "words": 856
+  },
+  {
+   "heading": "Stolen property",
+   "indexable": true,
+   "number": "317",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/317/",
+   "words": 320
+  },
+  {
+   "heading": "Cheating",
+   "indexable": true,
+   "number": "318",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/318/",
+   "words": 668
+  },
+  {
+   "heading": "Cheating by personation",
+   "indexable": true,
+   "number": "319",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/319/",
+   "words": 127
+  },
+  {
+   "heading": "Dishonest or fraudulent removal or concealment of property to prevent distribution among creditors",
+   "indexable": true,
+   "number": "320",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/320/",
+   "words": 91
+  },
+  {
+   "heading": "Dishonestly or fraudulently preventing debt being available for creditors",
+   "indexable": true,
+   "number": "321",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/321/",
+   "words": 59
+  },
+  {
+   "heading": "Dishonest or fraudulent execution of deed of transfer containing false statement of consideration",
+   "indexable": true,
+   "number": "322",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/322/",
+   "words": 86
+  },
+  {
+   "heading": "Dishonest or fraudulent removal or concealment of property",
+   "indexable": true,
+   "number": "323",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/323/",
+   "words": 61
+  },
+  {
+   "heading": "Mischief",
+   "indexable": true,
+   "number": "324",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/324/",
+   "words": 597
+  },
+  {
+   "heading": "Mischief by killing or maiming animal",
+   "indexable": true,
+   "number": "325",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/325/",
+   "words": 35
+  },
+  {
+   "heading": "Mischief by injury, inundation, fire or explosive substance, etc",
+   "indexable": true,
+   "number": "326",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/326/",
+   "words": 429
+  },
+  {
+   "heading": "Mischief with intent to destroy or make unsafe a rail, aircraft, decked vessel or one of twenty tons burden",
+   "indexable": true,
+   "number": "327",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/327/",
+   "words": 122
+  },
+  {
+   "heading": "Punishment for intentionally running vessel aground or ashore with intent to commit theft, etc",
+   "indexable": true,
+   "number": "328",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/328/",
+   "words": 61
+  },
+  {
+   "heading": "Criminal trespass and house-trespass",
+   "indexable": true,
+   "number": "329",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/329/",
+   "words": 196
+  },
+  {
+   "heading": "House-trespass and hous-ebreaking",
+   "indexable": true,
+   "number": "330",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/330/",
+   "words": 545
+  },
+  {
+   "heading": "Punishment for house-trespass or house-breaking",
+   "indexable": true,
+   "number": "331",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/331/",
+   "words": 473
+  },
+  {
+   "heading": "House-trespass in order to commit offence",
+   "indexable": true,
+   "number": "332",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/332/",
+   "words": 118
+  },
+  {
+   "heading": "House-trespass after preparation for hurt, assault or wrongful restraint",
+   "indexable": true,
+   "number": "333",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/333/",
+   "words": 63
+  },
+  {
+   "heading": "Dishonestly breaking open receptacle containing property",
+   "indexable": true,
+   "number": "334",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/334/",
+   "words": 108
+  },
+  {
+   "heading": "Making a false document",
+   "indexable": true,
+   "number": "335",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/335/",
+   "words": 1318
+  },
+  {
+   "heading": "Forgery",
+   "indexable": true,
+   "number": "336",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/336/",
+   "words": 197
+  },
+  {
+   "heading": "Forgery of record of Court or of public register, etc",
+   "indexable": true,
+   "number": "337",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/337/",
+   "words": 158
+  },
+  {
+   "heading": "Forgery of valuable security, will, etc",
+   "indexable": true,
+   "number": "338",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/338/",
+   "words": 117
+  },
+  {
+   "heading": "Having possession of document described in section 337 or section 338, knowing it to be forged and intending to use it as genuine",
+   "indexable": true,
+   "number": "339",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/339/",
+   "words": 113
+  },
+  {
+   "heading": "Forged document or electronic record and using it as genuine",
+   "indexable": true,
+   "number": "340",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/340/",
+   "words": 68
+  },
+  {
+   "heading": "Making or possessing counterfeit seal, etc., with intent to commit forgery punishable under section 338",
+   "indexable": true,
+   "number": "341",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/341/",
+   "words": 261
+  },
+  {
+   "heading": "Counterfeiting device or mark used for authenticating documents described in section 338, or possessing counterfeit marked material",
+   "indexable": true,
+   "number": "342",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/342/",
+   "words": 228
+  },
+  {
+   "heading": "Fraudulent cancellation, destruction, etc., of will, authority to adopt, or valuable security",
+   "indexable": true,
+   "number": "343",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/343/",
+   "words": 94
+  },
+  {
+   "heading": "Falsification of accounts",
+   "indexable": true,
+   "number": "344",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/344/",
+   "words": 184
+  },
+  {
+   "heading": "Property mark",
+   "indexable": true,
+   "number": "345",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/345/",
+   "words": 139
+  },
+  {
+   "heading": "Tampering with property mark with intent to cause injury",
+   "indexable": true,
+   "number": "346",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/346/",
+   "words": 49
+  },
+  {
+   "heading": "Counterfeiting a property mark",
+   "indexable": true,
+   "number": "347",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/347/",
+   "words": 133
+  },
+  {
+   "heading": "Making or possession of any instrument for counterfeiting a property mark",
+   "indexable": true,
+   "number": "348",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/348/",
+   "words": 70
+  },
+  {
+   "heading": "Selling goods marked with a counterfeit property mark",
+   "indexable": true,
+   "number": "349",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/349/",
+   "words": 145
+  },
+  {
+   "heading": "Making a false mark upon any receptacle containing goods",
+   "indexable": true,
+   "number": "350",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/350/",
+   "words": 145
+  },
+  {
+   "heading": "Criminal intimidation",
+   "indexable": true,
+   "number": "351",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/351/",
+   "words": 301
+  },
+  {
+   "heading": "Intentional insult with intent to provoke breach of peace",
+   "indexable": true,
+   "number": "352",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/352/",
+   "words": 60
+  },
+  {
+   "heading": "Statements conducing to public mischief",
+   "indexable": true,
+   "number": "353",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/353/",
+   "words": 337
+  },
+  {
+   "heading": "Act caused by inducing person to believe that he will be rendered an object of Divine displeasure",
+   "indexable": true,
+   "number": "354",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/354/",
+   "words": 216
+  },
+  {
+   "heading": "Misconduct in public by a drunken person",
+   "indexable": true,
+   "number": "355",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/355/",
+   "words": 71
+  },
+  {
+   "heading": "Defamation",
+   "indexable": true,
+   "number": "356",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/356/",
+   "words": 1543
+  },
+  {
+   "heading": "Breach of contract to attend on and supply wants of helpless person",
+   "indexable": true,
+   "number": "357",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/357/",
+   "words": 86
+  },
+  {
+   "heading": "Repeal and savings",
+   "indexable": true,
+   "number": "358",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/358/",
+   "words": 206
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9867,
+   "section": "446",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/446/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 5,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Power of Supreme Court to transfer cases and appeals",
+  "html": "<p><span class=\"num\">(1)</span> Whenever it is made to appear to the Supreme Court that an order under this section is expedient for the ends of justice, it may direct that any particular case or appeal be transferred from one High Court to another High Court or from a Criminal Court subordinate to one High Court to another Criminal Court of equal or superior jurisdiction subordinate to another High Court.</p><p><span class=\"num\">(2)</span> The Supreme Court may act under this section only on the application of the Attorney-General of India or of a party interested, and every such application shall be made by motion, which shall, except when the applicant is the Attorney-General of India or the Advocate-General of the State, be supported by affidavit or affirmation.</p><p><span class=\"num\">(3)</span> Where any application for the exercise of the powers conferred by this section is dismissed, the Supreme Court may, if it is of opinion that the application was frivolous or vexatious, order the applicant to pay by way of compensation to any person who has opposed the application such sum not exceeding one thousand rupees as it may consider appropriate In the circumstances of the case.</p>",
+  "number": "406",
+  "text": "(1) Whenever it is made to appear to the Supreme Court that an order under this section is expedient for the ends of justice, it may direct that any particular case or appeal be transferred from one High Court to another High Court or from a Criminal Court subordinate to one High Court to another Criminal Court of equal or superior jurisdiction subordinate to another High Court. (2)The Supreme Court may act under this section only on the application of the Attorney-General of India or of a party interested, and every such application shall be made by motion, which shall, except when the applicant is the Attorney-General of India or the Advocate-General of the State, be supported by affidavit or affirmation. (3)Where any application for the exercise of the powers conferred by this section is dismissed, the Supreme Court may, if it is of opinion that the application was frivolous or vexatious, order the applicant to pay by way of compensation to any person who has opposed the application such sum not exceeding one thousand rupees as it may consider appropriate In the circumstances of the case.",
+  "words": 187
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/406/"
+}

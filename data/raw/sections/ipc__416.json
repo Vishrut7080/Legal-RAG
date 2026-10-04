@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9898,
+   "section": "319",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/319/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Cheating by personation",
+  "html": "<p>A person is said to &quot;cheat by personation&quot; if he cheats by pretending to be some other person, or by knowingly substituting one person for or another, or representing that he or any other person is a person other than he or such other person really is.</p><p>Explanation.-The offence is committed whether the individual personated is a real or imaginary person.</p><p class=\"rubric\">Illustrations</p><p><span class=\"num\">(a)</span> A cheats, by pretending to be a certain rich banker of the same name. A cheats by personation.</p><p><span class=\"num\">(b)</span> A cheats by pretending to be B, a person who is deceased. A cheats by personation.</p>",
+  "number": "416",
+  "text": "A person is said to \"cheat by personation\" if he cheats by pretending to be some other person, or by knowingly substituting one person for or another, or representing that he or any other person is a person other than he or such other person really is. Explanation.-The offence is committed whether the individual personated is a real or imaginary person. Illustrations (a) A cheats, by pretending to be a certain rich banker of the same name. A cheats by personation. (b) A cheats by pretending to be B, a person who is deceased. A cheats by personation.",
+  "words": 98
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/416/"
+}

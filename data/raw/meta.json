@@ -1,0 +1,313 @@
+{
+ "build": "7c930314ed6e",
+ "corpus": {
+  "acts": 10086,
+  "acts_not_operating": 18,
+  "central_acts": 911,
+  "cpc_schedule_orders": 58,
+  "cpc_schedule_rules": 728,
+  "cross_references": 172714,
+  "forms": 553,
+  "instruments": 43376,
+  "instruments_parent_inferred": 4230,
+  "instruments_parent_recorded": 26716,
+  "instruments_with_text": 31563,
+  "instruments_without_parent": 12430,
+  "judgments": 5022,
+  "mappings": 2372,
+  "newest_central_act_year": 2026,
+  "offences": 464,
+  "ordinances": 658,
+  "repeals": 4513,
+  "sections": 271673,
+  "state_acts": 9175,
+  "state_acts_listed_only": 586
+ },
+ "corpus_date": "2026-10-01",
+ "currency": {
+  "newest_central_act_year": 2026,
+  "note": "Central Acts are republished from India Code, which is not a Gazette feed. An Act that has received assent appears here only once India Code publishes a record for it.",
+  "source": "India Code (indiacode.gov.in)"
+ },
+ "endpoints": "https://indiacode.ecourtsindia.com/api/",
+ "enums": {
+  "act_basis": [
+   "recorded",
+   "inferred"
+  ],
+  "court": [
+   "SC",
+   "HC",
+   "DC"
+  ],
+  "form_rules": [
+   "1962",
+   "2026"
+  ],
+  "instrument_kind": {
+   "annexure": 8,
+   "appendix": 46,
+   "circular": 2911,
+   "form": 63,
+   "notification": 28562,
+   "order": 1258,
+   "regulation": 2059,
+   "regulation-240": 237,
+   "rule": 7865,
+   "statute": 367
+  },
+  "jurisdiction": [
+   "central",
+   "state",
+   "andaman-nicobar-islands",
+   "andhra-pradesh",
+   "arunachal-pradesh",
+   "assam",
+   "bihar",
+   "chandigarh",
+   "chhattisgarh",
+   "dadra-nagar-haveli-daman-diu",
+   "delhi",
+   "goa",
+   "gujarat",
+   "haryana",
+   "himachal-pradesh",
+   "jammu-kashmir",
+   "jharkhand",
+   "karnataka",
+   "kerala",
+   "ladakh",
+   "lakshadweep",
+   "madhya-pradesh",
+   "maharashtra",
+   "manipur",
+   "meghalaya",
+   "mizoram",
+   "nagaland",
+   "odisha",
+   "puducherry",
+   "punjab",
+   "rajasthan",
+   "sikkim",
+   "tamil-nadu",
+   "telangana",
+   "tripura",
+   "uttar-pradesh",
+   "uttarakhand",
+   "west-bengal"
+  ],
+  "mapping_pair": {
+   "crpc-bnss": "CrPC to BNSS",
+   "iea-bsa": "Evidence Act to BSA",
+   "income-tax-act-income-tax-act-2025": "Income-tax 1961 to 2025",
+   "ipc-bns": "IPC to BNS"
+  }
+ },
+ "jurisdictions": [
+  {
+   "acts": 43,
+   "name": "Andaman and Nicobar Islands",
+   "slug": "andaman-nicobar-islands"
+  },
+  {
+   "acts": 252,
+   "name": "Andhra Pradesh",
+   "slug": "andhra-pradesh"
+  },
+  {
+   "acts": 149,
+   "name": "Arunachal Pradesh",
+   "slug": "arunachal-pradesh"
+  },
+  {
+   "acts": 1041,
+   "name": "Assam",
+   "slug": "assam"
+  },
+  {
+   "acts": 285,
+   "name": "Bihar",
+   "slug": "bihar"
+  },
+  {
+   "acts": 911,
+   "name": "CENTRAL",
+   "slug": "central"
+  },
+  {
+   "acts": 197,
+   "name": "Chandigarh",
+   "slug": "chandigarh"
+  },
+  {
+   "acts": 319,
+   "name": "Chhattisgarh",
+   "slug": "chhattisgarh"
+  },
+  {
+   "acts": 168,
+   "name": "Dadra and Nagar Haveli and Daman and Diu",
+   "slug": "dadra-nagar-haveli-daman-diu"
+  },
+  {
+   "acts": 99,
+   "name": "Delhi",
+   "slug": "delhi"
+  },
+  {
+   "acts": 179,
+   "name": "Goa",
+   "slug": "goa"
+  },
+  {
+   "acts": 245,
+   "name": "Gujarat",
+   "slug": "gujarat"
+  },
+  {
+   "acts": 238,
+   "name": "Haryana",
+   "slug": "haryana"
+  },
+  {
+   "acts": 238,
+   "name": "Himachal Pradesh",
+   "slug": "himachal-pradesh"
+  },
+  {
+   "acts": 132,
+   "name": "Jammu and Kashmir",
+   "slug": "jammu-kashmir"
+  },
+  {
+   "acts": 137,
+   "name": "Jharkhand",
+   "slug": "jharkhand"
+  },
+  {
+   "acts": 345,
+   "name": "Karnataka",
+   "slug": "karnataka"
+  },
+  {
+   "acts": 457,
+   "name": "Kerala",
+   "slug": "kerala"
+  },
+  {
+   "acts": 59,
+   "name": "Ladakh",
+   "slug": "ladakh"
+  },
+  {
+   "acts": 0,
+   "name": "Lakshadweep",
+   "slug": "lakshadweep"
+  },
+  {
+   "acts": 183,
+   "name": "Madhya Pradesh",
+   "slug": "madhya-pradesh"
+  },
+  {
+   "acts": 363,
+   "name": "Maharashtra",
+   "slug": "maharashtra"
+  },
+  {
+   "acts": 212,
+   "name": "Manipur",
+   "slug": "manipur"
+  },
+  {
+   "acts": 109,
+   "name": "Meghalaya",
+   "slug": "meghalaya"
+  },
+  {
+   "acts": 113,
+   "name": "Mizoram",
+   "slug": "mizoram"
+  },
+  {
+   "acts": 243,
+   "name": "Nagaland",
+   "slug": "nagaland"
+  },
+  {
+   "acts": 332,
+   "name": "Odisha",
+   "slug": "odisha"
+  },
+  {
+   "acts": 81,
+   "name": "Puducherry",
+   "slug": "puducherry"
+  },
+  {
+   "acts": 302,
+   "name": "Punjab",
+   "slug": "punjab"
+  },
+  {
+   "acts": 341,
+   "name": "Rajasthan",
+   "slug": "rajasthan"
+  },
+  {
+   "acts": 124,
+   "name": "Sikkim",
+   "slug": "sikkim"
+  },
+  {
+   "acts": 384,
+   "name": "Tamil Nadu",
+   "slug": "tamil-nadu"
+  },
+  {
+   "acts": 290,
+   "name": "Telangana",
+   "slug": "telangana"
+  },
+  {
+   "acts": 121,
+   "name": "Tripura",
+   "slug": "tripura"
+  },
+  {
+   "acts": 330,
+   "name": "Uttar Pradesh",
+   "slug": "uttar-pradesh"
+  },
+  {
+   "acts": 264,
+   "name": "Uttarakhand",
+   "slug": "uttarakhand"
+  },
+  {
+   "acts": 800,
+   "name": "West Bengal",
+   "slug": "west-bengal"
+  }
+ ],
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "limits": {
+  "max_limit": {
+   "acts": 1000,
+   "forms": 600,
+   "instruments": 500,
+   "judgments": 100,
+   "listed-acts": 500,
+   "mappings": 500,
+   "offences": 500,
+   "ordinances": 500,
+   "repeals": 500,
+   "search": 100,
+   "unenforced": 200,
+   "xrefs": 500
+  },
+  "max_search_window": 100,
+  "min_limit": 0
+ },
+ "openapi": "https://indiacode.ecourtsindia.com/api/v1/openapi.json"
+}

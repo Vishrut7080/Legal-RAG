@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "9",
+  "act_year": 1872,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1872-04-25",
+  "enforcement_date": "1872-09-01",
+  "id": "contract-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": null,
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 268,
+  "short_title": "The Indian Contract Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/contract-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Voidability of agreements without free consent",
+  "html": "<p>When consent to an agreement is caused by coercion, <sup>1</sup> *** fraud or misrepresentation, the agreement is a contract voidable at the option of the party whose consent was so caused.</p><p>A party to a contract whose consent was caused by fraud or misrepresentation, may, if he thinks fit, insist that the contract shall be performed, and that he shall be put in the position in which he would have been if the representations made had been true.</p><p><i>Exception</i>.—If such consent was caused by misrepresentation or by silence, fraudulent within the meaning of section <a href=\"/contract-act/section/17/\">17</a>, the contract, nevertheless, is not voidable, if the party whose consent was so caused had the means of discovering the truth with ordinary diligence.</p><p><i>Explanation</i>.—A fraud or misrepresentation which did not cause the consent to a contract of the party on whom such fraud was practised, or to whom such misrepresentation was made, does not render a contract voidable.</p><p class=\"rubric\"><i>Illustrations</i></p><p><span class=\"num\">(a)</span> A, intending to deceive B, falsely represents that five hundred maunds of indigo are made annually at As factory, and thereby induces B to buy the factory. The contract is voidable at the option of B.</p><p><span class=\"num\">(b)</span> A, by a misrepresentation, leads B erroneously to believe that, five hundred maunds of indigo are made annually at As factory. B examines the accounts of the factory, which show that only four hundred maunds of indigo have been made. After this B buys the factory. The contract is not voidable on account of As misrepresentation.</p><p><span class=\"num\">(c)</span> A fraudulently informs B that As estate is free from incumbrance. B thereupon buys the estate. The estate is subject to a mortgage. B may either avoid the contract, or may insist on its being carried out and the mortgage debt redeemed.</p><p><span class=\"num\">(d)</span> B, having discovered a vein of ore on the estate of A, adopts means to conceal, and does conceal, the existence of the ore from A. Through As ignorance B is enabled to buy the estate at an under-value. The contract is voidable at the option of A.</p><p><span class=\"num\">(e)</span> A is entitled to succeed to an estate at the death of B, B dies: C, having received intelligence of Bs death, prevents the intelligence reaching A, and thus induces A to sell him his interest in the estate. The sale is voidable at the option of A.</p>",
+  "number": "19",
+  "text": "When consent to an agreement is caused by coercion, 1 *** fraud or misrepresentation, the agreement is a contract voidable at the option of the party whose consent was so caused. A party to a contract whose consent was caused by fraud or misrepresentation, may, if he thinks fit, insist that the contract shall be performed, and that he shall be put in the position in which he would have been if the representations made had been true. Exception.—If such consent was caused by misrepresentation or by silence, fraudulent within the meaning of section 17, the contract, nevertheless, is not voidable, if the party whose consent was so caused had the means of discovering the truth with ordinary diligence. Explanation.—A fraud or misrepresentation which did not cause the consent to a contract of the party on whom such fraud was practised, or to whom such misrepresentation was made, does not render a contract voidable. Illustrations (a) A, intending to deceive B, falsely represents that five hundred maunds of indigo are made annually at As factory, and thereby induces B to buy the factory. The contract is voidable at the option of B. (b) A, by a misrepresentation, leads B erroneously to believe that, five hundred maunds of indigo are made annually at As factory. B examines the accounts of the factory, which show that only four hundred maunds of indigo have been made. After this B buys the factory. The contract is not voidable on account of As misrepresentation. (c) A fraudulently informs B that As estate is free from incumbrance. B thereupon buys the estate. The estate is subject to a mortgage. B may either avoid the contract, or may insist on its being carried out and the mortgage debt redeemed. (d) B, having discovered a vein of ore on the estate of A, adopts means to conceal, and does conceal, the existence of the ore from A. Through As ignorance B is enabled to buy the estate at an under-value. The contract is voidable at the option of A. (e) A is entitled to succeed to an estate at the death of B, B dies: C, having received intelligence of Bs death, prevents the intelligence reaching A, and thus induces A to sell him his interest in the estate. The sale is voidable at the option of A.",
+  "words": 390
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/contract-act/section/19/"
+}

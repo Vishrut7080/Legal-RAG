@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9534,
+   "section": "309",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/309/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Robbery",
+  "html": "<p>In all robbery there is either theft or extortion.</p><p>When theft is robbery.</p><p>When theft is robbery.--Theft is &quot;robbery&quot; if, in order to the committing of the theft, or in committing the theft, or in carrying away or attempting to carry away property obtained by the theft, the offender, for that end, voluntarily causes or attempts to cause to any person death or hurt or wrongful restraint, or fear of instant death or of instant hurt, or of instant wrongful restraint.</p><p>When extortion is robbery.</p><p>When extortion is robbery.--Extortion is &quot;robbery&quot; if the offender, at the time of committing the extortion, is in the presence of the person put in fear, and commits the extortion by putting that person in fear of instant death, of instant hurt, or of instant wrongful restraint to that person or to some other person, and, by so putting in fear, induces the person, so put in fear then and there to deliver up the thing extorted.</p><p>Explanation.-The offender is said to be present if he is sufficiently near to put the other person in fear of instant death, of instant hurt, or of instant wrongful restraint.</p><p class=\"rubric\">Illustrations</p><p><span class=\"num\">(a)</span> A holds Z down, and fraudulently takes Z's money and jewels from Z's clothes, without Z's consent. Here A has committed theft, and, in order to the committing of that theft, has voluntarily caused wrongful restraint to Z. A has therefore committed robbery.</p><p><span class=\"num\">(b)</span> A meets Z on the high road, shows a pistol, and demands Z's purse. Z, in consequence, surrenders his purse. Here A has extorted the purse from Z by putting him in fear of instant hurt, and being at the time of committing the extortion in his presence. A has therefore committed robbery.</p><p><span class=\"num\">(c)</span> A meets Z and Z's child on the high road. A takes the child, and threatens to filing it down a precipice, unless Z delivers his</p><p>purse. Z, in consequence, delivers his purse. Here A has extorted the purse from Z, by causing Z to be in fear of instant hurt to the child who is there present. A has therefore committed robbery on Z.</p><p><span class=\"num\">(d)</span> A obtains property from Z by saying-&quot;Your child is in the hands of my gang, and will be put to death unless you send us ten thousand rupees&quot;. This is extortion, and punishable as such: but it is not robbery, unless Z is put in fear of the instant death of his child.</p>",
+  "number": "390",
+  "text": "In all robbery there is either theft or extortion. When theft is robbery. When theft is robbery.--Theft is \"robbery\" if, in order to the committing of the theft, or in committing the theft, or in carrying away or attempting to carry away property obtained by the theft, the offender, for that end, voluntarily causes or attempts to cause to any person death or hurt or wrongful restraint, or fear of instant death or of instant hurt, or of instant wrongful restraint. When extortion is robbery. When extortion is robbery.--Extortion is \"robbery\" if the offender, at the time of committing the extortion, is in the presence of the person put in fear, and commits the extortion by putting that person in fear of instant death, of instant hurt, or of instant wrongful restraint to that person or to some other person, and, by so putting in fear, induces the person, so put in fear then and there to deliver up the thing extorted. Explanation.-The offender is said to be present if he is sufficiently near to put the other person in fear of instant death, of instant hurt, or of instant wrongful restraint. Illustrations (a) A holds Z down, and fraudulently takes Z's money and jewels from Z's clothes, without Z's consent. Here A has committed theft, and, in order to the committing of that theft, has voluntarily caused wrongful restraint to Z. A has therefore committed robbery. (b) A meets Z on the high road, shows a pistol, and demands Z's purse. Z, in consequence, surrenders his purse. Here A has extorted the purse from Z by putting him in fear of instant hurt, and being at the time of committing the extortion in his presence. A has therefore committed robbery. (c) A meets Z and Z's child on the high road. A takes the child, and threatens to filing it down a precipice, unless Z delivers his purse. Z, in consequence, delivers his purse. Here A has extorted the purse from Z, by causing Z to be in fear of instant hurt to the child who is there present. A has therefore committed robbery on Z. (d) A obtains property from Z by saying-\"Your child is in the hands of my gang, and will be put to death unless you send us ten thousand rupees\". This is extortion, and punishable as such: but it is not robbery, unless Z is put in fear of the instant death of his child.",
+  "words": 411
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/390/"
+}

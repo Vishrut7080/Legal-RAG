@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Acceptance of Digital Signature Certificate",
+  "html": "<p><span class=\"num\">(1)</span> A subscriber shall be deemed to have accepted a Digital Signature Certificate if he publishes or authorises the publication of a Digital Signature Certificate--</p><p><span class=\"num\">(a)</span> to one or more persons;</p><p><span class=\"num\">(b)</span> in a repository; or</p><p>otherwise demonstrates his approval of the Digital Signature Certificate in any manner.</p><p><span class=\"num\">(2)</span> By accepting a Digital Signature Certificate the subscriber certifies to all who reasonably rely on the information contained in the Digital Signature Certificate that--</p><p><span class=\"num\">(a)</span> the subscriber holds the private key corresponding to the public key listed in the Digital Signature Certificate and is entitled to hold the same;</p><p><span class=\"num\">(b)</span> all representations made by the subscriber to the Certifying Authority and all material relevant to the information contained in the Digital Signature Certificate are true;</p><p><span class=\"num\">(c)</span> all information in the Digital Signature Certificate that is within the knowledge of the subscriber is true.</p>",
+  "number": "41",
+  "text": "(1) A subscriber shall be deemed to have accepted a Digital Signature Certificate if he publishes or authorises the publication of a Digital Signature Certificate-- (a) to one or more persons; (b) in a repository; or otherwise demonstrates his approval of the Digital Signature Certificate in any manner. (2) By accepting a Digital Signature Certificate the subscriber certifies to all who reasonably rely on the information contained in the Digital Signature Certificate that-- (a) the subscriber holds the private key corresponding to the public key listed in the Digital Signature Certificate and is entitled to hold the same; (b) all representations made by the subscriber to the Certifying Authority and all material relevant to the information contained in the Digital Signature Certificate are true; (c) all information in the Digital Signature Certificate that is within the knowledge of the subscriber is true.",
+  "words": 142
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/41/"
+}

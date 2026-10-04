@@ -1,0 +1,1913 @@
+{
+ "act": {
+  "act_number": "9",
+  "act_year": 1872,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1872-04-25",
+  "enforcement_date": "1872-09-01",
+  "id": "contract-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": null,
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 268,
+  "short_title": "The Indian Contract Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/contract-act/"
+ },
+ "amendments": [],
+ "count": 268,
+ "not_held": [
+  "amendments"
+ ],
+ "not_held_note": "This corpus holds no amendments for this Act. An empty list means not on file here, not that none exist.",
+ "schedules": [
+  {
+   "ord": 1,
+   "title": "SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/schedule/1/",
+   "words": 20
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Short title",
+   "indexable": true,
+   "number": "1",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/1/",
+   "words": 71
+  },
+  {
+   "heading": "Interpretation-clause",
+   "indexable": true,
+   "number": "2",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/2/",
+   "words": 265
+  },
+  {
+   "heading": "Communication, acceptance and revocation of proposals",
+   "indexable": true,
+   "number": "3",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/3/",
+   "words": 52
+  },
+  {
+   "heading": "Communication when complete",
+   "indexable": true,
+   "number": "4",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/4/",
+   "words": 246
+  },
+  {
+   "heading": "Revocation of proposals and acceptances",
+   "indexable": true,
+   "number": "5",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/5/",
+   "words": 213
+  },
+  {
+   "heading": "Revocation how made",
+   "indexable": true,
+   "number": "6",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/6/",
+   "words": 93
+  },
+  {
+   "heading": "Acceptance must be absolute",
+   "indexable": true,
+   "number": "7",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/7/",
+   "words": 100
+  },
+  {
+   "heading": "Acceptance by performing conditions, or receiving consideration",
+   "indexable": true,
+   "number": "8",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/8/",
+   "words": 30
+  },
+  {
+   "heading": "Promises, express and implied",
+   "indexable": true,
+   "number": "9",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/9/",
+   "words": 43
+  },
+  {
+   "heading": "What agreements are contracts",
+   "indexable": true,
+   "number": "10",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/10/",
+   "words": 78
+  },
+  {
+   "heading": "Who are competent to contract",
+   "indexable": true,
+   "number": "11",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/11/",
+   "words": 43
+  },
+  {
+   "heading": "What is a sound mind for the purposes of contracting",
+   "indexable": true,
+   "number": "12",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/12/",
+   "words": 153
+  },
+  {
+   "heading": "\"Consent\" defined",
+   "indexable": true,
+   "number": "13",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/13/",
+   "words": 19
+  },
+  {
+   "heading": "\"Free consent\" defined",
+   "indexable": true,
+   "number": "14",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/14/",
+   "words": 84
+  },
+  {
+   "heading": "\"Coercion\" defined",
+   "indexable": true,
+   "number": "15",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/15/",
+   "words": 159
+  },
+  {
+   "heading": "\"Undue influence\" defined",
+   "indexable": true,
+   "number": "16",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/16/",
+   "words": 397
+  },
+  {
+   "heading": "\"Fraud\" defined",
+   "indexable": true,
+   "number": "17",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/17/",
+   "words": 295
+  },
+  {
+   "heading": "\"Misrepresentation\" defined",
+   "indexable": true,
+   "number": "18",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/18/",
+   "words": 102
+  },
+  {
+   "heading": "Voidability of agreements without free consent",
+   "indexable": true,
+   "number": "19",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/19/",
+   "words": 390
+  },
+  {
+   "heading": "Power to set aside contract induced by undue influence",
+   "indexable": true,
+   "number": "19A",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/19A/",
+   "words": 170
+  },
+  {
+   "heading": "Agreement void where both parties are under mistake as to matter of fact",
+   "indexable": true,
+   "number": "20",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/20/",
+   "words": 188
+  },
+  {
+   "heading": "Effect of mistakes as to law",
+   "indexable": true,
+   "number": "21",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/21/",
+   "words": 84
+  },
+  {
+   "heading": "Contract caused by mistake of one party as to matter of fact",
+   "indexable": true,
+   "number": "22",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/22/",
+   "words": 27
+  },
+  {
+   "heading": "What considerations and objects are lawful, and what not",
+   "indexable": true,
+   "number": "23",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/23/",
+   "words": 596
+  },
+  {
+   "heading": "Agreement void, if considerations and objects unlawful in part",
+   "indexable": true,
+   "number": "24",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/24/",
+   "words": 87
+  },
+  {
+   "heading": "Agreement without consideration, void, unless it is in writing and registered, or is a promise to compensate for something done, or is a promise to pay a debt barred by limitation law",
+   "indexable": true,
+   "number": "25",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/25/",
+   "words": 423
+  },
+  {
+   "heading": "Agreement in restraint of marriage, void",
+   "indexable": true,
+   "number": "26",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/26/",
+   "words": 16
+  },
+  {
+   "heading": "Agreement in restraint of trade, void",
+   "indexable": true,
+   "number": "27",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/27/",
+   "words": 107
+  },
+  {
+   "heading": "Agreements in restraint of legal proceeding void",
+   "indexable": true,
+   "number": "28",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/28/",
+   "words": 512
+  },
+  {
+   "heading": "Agreements void for uncertainty",
+   "indexable": true,
+   "number": "29",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/29/",
+   "words": 227
+  },
+  {
+   "heading": "Agreements by way of wager, void",
+   "indexable": true,
+   "number": "30",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/30/",
+   "words": 145
+  },
+  {
+   "heading": "\"Contingent contract\" defined",
+   "indexable": true,
+   "number": "31",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/31/",
+   "words": 43
+  },
+  {
+   "heading": "Enforcement of contracts contingent on an event happening",
+   "indexable": true,
+   "number": "32",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/32/",
+   "words": 138
+  },
+  {
+   "heading": "Enforcement of contracts contingent on an event not happening",
+   "indexable": true,
+   "number": "33",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/33/",
+   "words": 61
+  },
+  {
+   "heading": "When event on which contract is contingent to be deemed impossible, if it is the future conduct of a living person",
+   "indexable": true,
+   "number": "34",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/34/",
+   "words": 98
+  },
+  {
+   "heading": "When contracts become void which are contingent on happening of specified event within fixed time . When contracts may be enforced, which are contingent on specified event not happening within fixed time",
+   "indexable": true,
+   "number": "35",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/35/",
+   "words": 196
+  },
+  {
+   "heading": "Agreement contingent on impossible events void",
+   "indexable": true,
+   "number": "36",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/36/",
+   "words": 88
+  },
+  {
+   "heading": "Obligation of parties to contracts",
+   "indexable": true,
+   "number": "37",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/37/",
+   "words": 138
+  },
+  {
+   "heading": "Effect of refusal to accept offer of performance",
+   "indexable": true,
+   "number": "38",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/38/",
+   "words": 248
+  },
+  {
+   "heading": "Effect of refusal of party to perform promise wholly",
+   "indexable": true,
+   "number": "39",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/39/",
+   "words": 210
+  },
+  {
+   "heading": "Person by whom promise is to be performed",
+   "indexable": true,
+   "number": "40",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/40/",
+   "words": 132
+  },
+  {
+   "heading": "Effect of accepting performance from third person",
+   "indexable": true,
+   "number": "41",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/41/",
+   "words": 20
+  },
+  {
+   "heading": "Devolution of joint liabilities",
+   "indexable": true,
+   "number": "42",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/42/",
+   "words": 59
+  },
+  {
+   "heading": "Any one of joint promisors may be compelled to perform",
+   "indexable": true,
+   "number": "43",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/43/",
+   "words": 311
+  },
+  {
+   "heading": "Effect of release of one joint promisor",
+   "indexable": true,
+   "number": "44",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/44/",
+   "words": 50
+  },
+  {
+   "heading": "Devolution of joint rights",
+   "indexable": true,
+   "number": "45",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/45/",
+   "words": 135
+  },
+  {
+   "heading": "Time for performance of promise, when no application is to be made and no time is specified",
+   "indexable": true,
+   "number": "46",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/46/",
+   "words": 48
+  },
+  {
+   "heading": "Time and place for performance of promise",
+   "indexable": true,
+   "number": "47",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/47/",
+   "words": 95
+  },
+  {
+   "heading": "Application for performance on certain day to be at proper time and place",
+   "indexable": true,
+   "number": "48",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/48/",
+   "words": 65
+  },
+  {
+   "heading": "Place for performance of promise, where no application to be made and no place fixed for performance",
+   "indexable": true,
+   "number": "49",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/49/",
+   "words": 93
+  },
+  {
+   "heading": "Performance in manner or at time prescribed or sanctioned by promise",
+   "indexable": true,
+   "number": "50",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/50/",
+   "words": 204
+  },
+  {
+   "heading": "Promisor not bound to perform, unless reciprocal promisee ready and willing to perform",
+   "indexable": true,
+   "number": "51",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/51/",
+   "words": 155
+  },
+  {
+   "heading": "Order of performance of reciprocal promises",
+   "indexable": true,
+   "number": "52",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/52/",
+   "words": 142
+  },
+  {
+   "heading": "Liability of party preventing event on which the contract is to take effect",
+   "indexable": true,
+   "number": "53",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/53/",
+   "words": 124
+  },
+  {
+   "heading": "Effect of default as to that promise which should be first performed, in contract consisting of reciprocal promises",
+   "indexable": true,
+   "number": "54",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/54/",
+   "words": 318
+  },
+  {
+   "heading": "Effect of failure to perform at fixed time, in contract in which time is essential",
+   "indexable": true,
+   "number": "55",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/55/",
+   "words": 293
+  },
+  {
+   "heading": "Agreement to do impossible act",
+   "indexable": true,
+   "number": "56",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/56/",
+   "words": 274
+  },
+  {
+   "heading": "Reciprocal promise to do things legal, and also other things illegal",
+   "indexable": true,
+   "number": "57",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/57/",
+   "words": 118
+  },
+  {
+   "heading": "Alternative promise, one branch being illegal",
+   "indexable": true,
+   "number": "58",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/58/",
+   "words": 65
+  },
+  {
+   "heading": "Application of payment where debt to be discharged is indicated",
+   "indexable": true,
+   "number": "59",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/59/",
+   "words": 145
+  },
+  {
+   "heading": "Application of payment where debt to be discharged is not indicated",
+   "indexable": true,
+   "number": "60",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/60/",
+   "words": 67
+  },
+  {
+   "heading": "Application of payment where neither party appropriates",
+   "indexable": true,
+   "number": "61",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/61/",
+   "words": 59
+  },
+  {
+   "heading": "Effect of novation, rescission, and alteration of contract",
+   "indexable": true,
+   "number": "62",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/62/",
+   "words": 169
+  },
+  {
+   "heading": "Promise may dispense with or remit performance of promise",
+   "indexable": true,
+   "number": "63",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/63/",
+   "words": 239
+  },
+  {
+   "heading": "Consequences of rescission of voidable contract",
+   "indexable": true,
+   "number": "64",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/64/",
+   "words": 63
+  },
+  {
+   "heading": "Obligation of person who has received advantage under void agreement, or contract that becomes void",
+   "indexable": true,
+   "number": "65",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/65/",
+   "words": 264
+  },
+  {
+   "heading": "Mode of communicating or revoking rescission of voidable contract",
+   "indexable": true,
+   "number": "66",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/66/",
+   "words": 32
+  },
+  {
+   "heading": "Effect of neglect of promisee to afford promisor reasonable facilities for performance",
+   "indexable": true,
+   "number": "67",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/67/",
+   "words": 77
+  },
+  {
+   "heading": "Claim for necessaries supplied to person incapable of contracting, or on his account",
+   "indexable": true,
+   "number": "68",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/68/",
+   "words": 103
+  },
+  {
+   "heading": "Reimbursement of person paying money due by another, in payment of which he is interested",
+   "indexable": true,
+   "number": "69",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/69/",
+   "words": 115
+  },
+  {
+   "heading": "Obligation of person enjoying benefit of non-gratuitous act",
+   "indexable": true,
+   "number": "70",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/70/",
+   "words": 103
+  },
+  {
+   "heading": "Responsibility of finder of goods",
+   "indexable": true,
+   "number": "71",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/71/",
+   "words": 24
+  },
+  {
+   "heading": "Liability of person to whom money is paid, or thing delivered, by mistake or under coercion",
+   "indexable": true,
+   "number": "72",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/72/",
+   "words": 110
+  },
+  {
+   "heading": "Compensation for loss or damage caused by breach of contract",
+   "indexable": true,
+   "number": "73",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/73/",
+   "words": 1822
+  },
+  {
+   "heading": "Compensation for breach of contract where penalty stipulated for",
+   "indexable": true,
+   "number": "74",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/74/",
+   "words": 577
+  },
+  {
+   "heading": "Party rightfully rescinding contract, entitled to compensation",
+   "indexable": true,
+   "number": "75",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/75/",
+   "words": 101
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "76",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/76/",
+   "words": 8
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "77",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/77/",
+   "words": 7
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "78",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/78/",
+   "words": 8
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "79",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/79/",
+   "words": 20
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "80",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/80/",
+   "words": 25
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "81",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/81/",
+   "words": 23
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "82",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/82/",
+   "words": 16
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "83",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/83/",
+   "words": 11
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "84",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/84/",
+   "words": 11
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "85",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/85/",
+   "words": 16
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "86",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/86/",
+   "words": 15
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "87",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/87/",
+   "words": 17
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "88",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/88/",
+   "words": 23
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "89",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/89/",
+   "words": 12
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "90",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/90/",
+   "words": 8
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "91",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/91/",
+   "words": 12
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "92",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/92/",
+   "words": 8
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "93",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/93/",
+   "words": 15
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "94",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/94/",
+   "words": 16
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "95",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/95/",
+   "words": 7
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "96",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/96/",
+   "words": 21
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "97",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/97/",
+   "words": 24
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "98",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/98/",
+   "words": 10
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "99",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/99/",
+   "words": 12
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "100",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/100/",
+   "words": 13
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "101",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/101/",
+   "words": 10
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "102",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/102/",
+   "words": 16
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "103",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/103/",
+   "words": 18
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "104",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/104/",
+   "words": 8
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "105",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/105/",
+   "words": 9
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "106",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/106/",
+   "words": 10
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "107",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/107/",
+   "words": 11
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "108",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/108/",
+   "words": 13
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "109",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/109/",
+   "words": 11
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "110",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/110/",
+   "words": 13
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "111",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/111/",
+   "words": 13
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "112",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/112/",
+   "words": 15
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "113",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/113/",
+   "words": 17
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "114",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/114/",
+   "words": 13
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "115",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/115/",
+   "words": 15
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "116",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/116/",
+   "words": 12
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "117",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/117/",
+   "words": 11
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "118",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/118/",
+   "words": 18
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "119",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/119/",
+   "words": 20
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "120",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/120/",
+   "words": 11
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "121",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/121/",
+   "words": 29
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "122",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/122/",
+   "words": 13
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "123",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/123/",
+   "words": 16
+  },
+  {
+   "heading": "\"Contract of indemnity\" defined",
+   "indexable": true,
+   "number": "124",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/124/",
+   "words": 70
+  },
+  {
+   "heading": "Rights of indemnity-holder when sued",
+   "indexable": true,
+   "number": "125",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/125/",
+   "words": 169
+  },
+  {
+   "heading": "\"Contract of guarantee\", \"surety\", \"principal debtor\" and \"creditor\"",
+   "indexable": true,
+   "number": "126",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/126/",
+   "words": 71
+  },
+  {
+   "heading": "Consideration for guarantee",
+   "indexable": true,
+   "number": "127",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/127/",
+   "words": 159
+  },
+  {
+   "heading": "Surety's liability",
+   "indexable": true,
+   "number": "128",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/128/",
+   "words": 69
+  },
+  {
+   "heading": "\"Continuing guarantee\"",
+   "indexable": true,
+   "number": "129",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/129/",
+   "words": 215
+  },
+  {
+   "heading": "Revocation of continuing guarantee",
+   "indexable": true,
+   "number": "130",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/130/",
+   "words": 154
+  },
+  {
+   "heading": "Revocation of continuing guarantee by surety's death",
+   "indexable": true,
+   "number": "131",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/131/",
+   "words": 28
+  },
+  {
+   "heading": "Liability of two persons, primarily liable, not affected by arrangement between them that one shall be surety on others default",
+   "indexable": true,
+   "number": "132",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/132/",
+   "words": 143
+  },
+  {
+   "heading": "Discharge of surety by variance in terms of contract",
+   "indexable": true,
+   "number": "133",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/133/",
+   "words": 393
+  },
+  {
+   "heading": "Discharge of surety by release or discharge of principal debtor",
+   "indexable": true,
+   "number": "134",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/134/",
+   "words": 216
+  },
+  {
+   "heading": "Discharge of surety when creditor compounds with, gives time to, or agrees not to sue, principal debtor",
+   "indexable": true,
+   "number": "135",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/135/",
+   "words": 40
+  },
+  {
+   "heading": "Surety not discharged when agreement made with third person to give time to principal debtor",
+   "indexable": true,
+   "number": "136",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/136/",
+   "words": 63
+  },
+  {
+   "heading": "Creditor's forbearance to sue does not discharge surety",
+   "indexable": true,
+   "number": "137",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/137/",
+   "words": 73
+  },
+  {
+   "heading": "Release of one co-surety does not discharge others",
+   "indexable": true,
+   "number": "138",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/138/",
+   "words": 34
+  },
+  {
+   "heading": "Discharge of surety of creditor's act or omission impairing surety's eventual remedy",
+   "indexable": true,
+   "number": "139",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/139/",
+   "words": 245
+  },
+  {
+   "heading": "Rights of surety on payment or performance",
+   "indexable": true,
+   "number": "140",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/140/",
+   "words": 48
+  },
+  {
+   "heading": "Surety's right to benefit of creditor's securities",
+   "indexable": true,
+   "number": "141",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/141/",
+   "words": 219
+  },
+  {
+   "heading": "Guarantee obtained by misrepresentation invalid",
+   "indexable": true,
+   "number": "142",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/142/",
+   "words": 29
+  },
+  {
+   "heading": "Guarantee obtained by concealment invalid",
+   "indexable": true,
+   "number": "143",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/143/",
+   "words": 141
+  },
+  {
+   "heading": "Guarantee on contract that creditor shall not act on it until co-surety joins",
+   "indexable": true,
+   "number": "144",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/144/",
+   "words": 38
+  },
+  {
+   "heading": "Implied promise to indemnify surety",
+   "indexable": true,
+   "number": "145",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/145/",
+   "words": 279
+  },
+  {
+   "heading": "Co-sureties liable to contribute equally",
+   "indexable": true,
+   "number": "146",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/146/",
+   "words": 189
+  },
+  {
+   "heading": "Liability of co-sureties bound in different sums",
+   "indexable": true,
+   "number": "147",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/147/",
+   "words": 228
+  },
+  {
+   "heading": "\"Bailment\", \"bailor\" and \"bailee\" defined",
+   "indexable": true,
+   "number": "148",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/148/",
+   "words": 104
+  },
+  {
+   "heading": "Delivery to bailee how made",
+   "indexable": true,
+   "number": "149",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/149/",
+   "words": 37
+  },
+  {
+   "heading": "Bailor's duty to disclose faults in goods bailed",
+   "indexable": true,
+   "number": "150",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/150/",
+   "words": 160
+  },
+  {
+   "heading": "Care to be taken by bailee",
+   "indexable": true,
+   "number": "151",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/151/",
+   "words": 47
+  },
+  {
+   "heading": "Bailee when not liable for loss, etc., of thing bailed",
+   "indexable": true,
+   "number": "152",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/152/",
+   "words": 36
+  },
+  {
+   "heading": "Termination of bailment by bailee's act inconsistent with conditions",
+   "indexable": true,
+   "number": "153",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/153/",
+   "words": 63
+  },
+  {
+   "heading": "Liability of bailee making unauthorized use of goods bailed",
+   "indexable": true,
+   "number": "154",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/154/",
+   "words": 140
+  },
+  {
+   "heading": "Effect of mixture, with bailor's consent, of his goods with bailee's",
+   "indexable": true,
+   "number": "155",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/155/",
+   "words": 39
+  },
+  {
+   "heading": "Effect of mixture, without bailor's consent, when the good can be separated",
+   "indexable": true,
+   "number": "156",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/156/",
+   "words": 119
+  },
+  {
+   "heading": "Effect of mixture, without bailor's consent, when the goods cannot be separated",
+   "indexable": true,
+   "number": "157",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/157/",
+   "words": 98
+  },
+  {
+   "heading": "Repayment, by bailor, of necessary expenses",
+   "indexable": true,
+   "number": "158",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/158/",
+   "words": 57
+  },
+  {
+   "heading": "Restoration of goods lent gratuitously",
+   "indexable": true,
+   "number": "159",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/159/",
+   "words": 104
+  },
+  {
+   "heading": "Return of goods bailed, on expiration of time or accomplishment of purpose",
+   "indexable": true,
+   "number": "160",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/160/",
+   "words": 44
+  },
+  {
+   "heading": "Bailee's responsibility when goods are not duly returned",
+   "indexable": true,
+   "number": "161",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/161/",
+   "words": 37
+  },
+  {
+   "heading": "Termination of gratuitous bailment by death",
+   "indexable": true,
+   "number": "162",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/162/",
+   "words": 16
+  },
+  {
+   "heading": "Bailor entitled to increase or profit from goods bailed",
+   "indexable": true,
+   "number": "163",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/163/",
+   "words": 69
+  },
+  {
+   "heading": "Bailor's responsibility to bailee",
+   "indexable": true,
+   "number": "164",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/164/",
+   "words": 39
+  },
+  {
+   "heading": "Bailment by several joint owners",
+   "indexable": true,
+   "number": "165",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/165/",
+   "words": 38
+  },
+  {
+   "heading": "Bailee not responsible on re-delivery to bailor without title",
+   "indexable": true,
+   "number": "166",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/166/",
+   "words": 41
+  },
+  {
+   "heading": "Right of third person claiming goods bailed",
+   "indexable": true,
+   "number": "167",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/167/",
+   "words": 34
+  },
+  {
+   "heading": "Right of finder of goods",
+   "indexable": true,
+   "number": "168",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/168/",
+   "words": 76
+  },
+  {
+   "heading": "When finder of thing commonly on sale may sell it",
+   "indexable": true,
+   "number": "169",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/169/",
+   "words": 79
+  },
+  {
+   "heading": "Bailee's particular lien",
+   "indexable": true,
+   "number": "170",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/170/",
+   "words": 145
+  },
+  {
+   "heading": "General lien of bankers, factors, wharfingers, attorneys and policy-brokers",
+   "indexable": true,
+   "number": "171",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/171/",
+   "words": 64
+  },
+  {
+   "heading": "\"Pledge\", \"Pawnor\" and \"Pawnee\" defined",
+   "indexable": true,
+   "number": "172",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/172/",
+   "words": 34
+  },
+  {
+   "heading": "Pawnee's right of retainer",
+   "indexable": true,
+   "number": "173",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/173/",
+   "words": 47
+  },
+  {
+   "heading": "Pawnee not to retain for debt or promise other than that for which goods pledged",
+   "indexable": true,
+   "number": "174",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/174/",
+   "words": 56
+  },
+  {
+   "heading": "Pawnee's right as to extraordinary expenses incurred",
+   "indexable": true,
+   "number": "175",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/175/",
+   "words": 21
+  },
+  {
+   "heading": "Pawnee's right where pawnor makes default",
+   "indexable": true,
+   "number": "176",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/176/",
+   "words": 117
+  },
+  {
+   "heading": "Defaulting pawnor's right to redeem",
+   "indexable": true,
+   "number": "177",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/177/",
+   "words": 75
+  },
+  {
+   "heading": "Pledge by mercantile agent",
+   "indexable": true,
+   "number": "178",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/178/",
+   "words": 115
+  },
+  {
+   "heading": "Pledge by person in possession under voidable contract",
+   "indexable": true,
+   "number": "178A",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/178A/",
+   "words": 59
+  },
+  {
+   "heading": "Pledge where pawnor has only a limited interest",
+   "indexable": true,
+   "number": "179",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/179/",
+   "words": 23
+  },
+  {
+   "heading": "Suit by bailor or bailee against wrong-doer",
+   "indexable": true,
+   "number": "180",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/180/",
+   "words": 66
+  },
+  {
+   "heading": "Apportionment of relief or compensation obtained by such suits",
+   "indexable": true,
+   "number": "181",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/181/",
+   "words": 29
+  },
+  {
+   "heading": "\"Agent\" and \"principal\" defined",
+   "indexable": true,
+   "number": "182",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/182/",
+   "words": 38
+  },
+  {
+   "heading": "Who may employ agent",
+   "indexable": true,
+   "number": "183",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/183/",
+   "words": 28
+  },
+  {
+   "heading": "Who may be an agent",
+   "indexable": true,
+   "number": "184",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/184/",
+   "words": 49
+  },
+  {
+   "heading": "Consideration not necessary",
+   "indexable": true,
+   "number": "185",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/185/",
+   "words": 8
+  },
+  {
+   "heading": "Agent's authority may be expressed or implied",
+   "indexable": true,
+   "number": "186",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/186/",
+   "words": 11
+  },
+  {
+   "heading": "Definitions of express and implied authority",
+   "indexable": true,
+   "number": "187",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/187/",
+   "words": 132
+  },
+  {
+   "heading": "Extent of agent's authority",
+   "indexable": true,
+   "number": "188",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/188/",
+   "words": 130
+  },
+  {
+   "heading": "Agent's authority in an emergency",
+   "indexable": true,
+   "number": "189",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/189/",
+   "words": 88
+  },
+  {
+   "heading": "When agent cannot delegate",
+   "indexable": true,
+   "number": "190",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/190/",
+   "words": 41
+  },
+  {
+   "heading": "\"Sub-agent\" defined",
+   "indexable": true,
+   "number": "191",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/191/",
+   "words": 22
+  },
+  {
+   "heading": "Representation of principal by sub-agent properly appointed",
+   "indexable": true,
+   "number": "192",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/192/",
+   "words": 79
+  },
+  {
+   "heading": "Agent's responsibility for sub-agent appointed without authority",
+   "indexable": true,
+   "number": "193",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/193/",
+   "words": 71
+  },
+  {
+   "heading": "Relation between principal and person duly appointed by agent to act in business of agency",
+   "indexable": true,
+   "number": "194",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/194/",
+   "words": 148
+  },
+  {
+   "heading": "Agent's duty in naming such person",
+   "indexable": true,
+   "number": "195",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/195/",
+   "words": 162
+  },
+  {
+   "heading": "Right of person as to acts done for him without his authority",
+   "indexable": true,
+   "number": "196",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/196/",
+   "words": 45
+  },
+  {
+   "heading": "Ratification may be expressed or implied",
+   "indexable": true,
+   "number": "197",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/197/",
+   "words": 80
+  },
+  {
+   "heading": "Knowledge requisite for valid ratification",
+   "indexable": true,
+   "number": "198",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/198/",
+   "words": 20
+  },
+  {
+   "heading": "Effect of ratifying unauthorized act forming part of a transaction",
+   "indexable": true,
+   "number": "199",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/199/",
+   "words": 23
+  },
+  {
+   "heading": "Ratification of unauthorized act cannot injure third person",
+   "indexable": true,
+   "number": "200",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/200/",
+   "words": 138
+  },
+  {
+   "heading": "Termination of agency",
+   "indexable": true,
+   "number": "201",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/201/",
+   "words": 68
+  },
+  {
+   "heading": "Termination of agency, where agent has an interest in subject-matter",
+   "indexable": true,
+   "number": "202",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/202/",
+   "words": 129
+  },
+  {
+   "heading": "When principal may revoke agent's authority",
+   "indexable": true,
+   "number": "203",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/203/",
+   "words": 35
+  },
+  {
+   "heading": "Revocation where authority has been partly exercised",
+   "indexable": true,
+   "number": "204",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/204/",
+   "words": 153
+  },
+  {
+   "heading": "Compensation for revocation by principal, or renunciation by agent",
+   "indexable": true,
+   "number": "205",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/205/",
+   "words": 50
+  },
+  {
+   "heading": "Notice of revocation or renunciation",
+   "indexable": true,
+   "number": "206",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/206/",
+   "words": 36
+  },
+  {
+   "heading": "Revocation and renunciation may be expressed or implied",
+   "indexable": true,
+   "number": "207",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/207/",
+   "words": 40
+  },
+  {
+   "heading": "When termination of agent's authority takes effect as to agent, and as to third persons",
+   "indexable": true,
+   "number": "208",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/208/",
+   "words": 233
+  },
+  {
+   "heading": "Agent's duty on termination of agency by principal's death or insanity",
+   "indexable": true,
+   "number": "209",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/209/",
+   "words": 43
+  },
+  {
+   "heading": "Termination of sub-agent's authority",
+   "indexable": true,
+   "number": "210",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/210/",
+   "words": 33
+  },
+  {
+   "heading": "Agent's duty in conducting principal's business",
+   "indexable": true,
+   "number": "211",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/211/",
+   "words": 174
+  },
+  {
+   "heading": "Skill and diligence required from agent",
+   "indexable": true,
+   "number": "212",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/212/",
+   "words": 390
+  },
+  {
+   "heading": "Agent's accounts",
+   "indexable": true,
+   "number": "213",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/213/",
+   "words": 13
+  },
+  {
+   "heading": "Agent's duty to communicate with principal",
+   "indexable": true,
+   "number": "214",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/214/",
+   "words": 28
+  },
+  {
+   "heading": "Right of principal when agent deals, on his own account, in business of agency without principals consent",
+   "indexable": true,
+   "number": "215",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/215/",
+   "words": 217
+  },
+  {
+   "heading": "Principal's right to benefit gained by agent dealing on his own account in business of agency",
+   "indexable": true,
+   "number": "216",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/216/",
+   "words": 97
+  },
+  {
+   "heading": "Agent's right of retainer out of sums received on principal's account",
+   "indexable": true,
+   "number": "217",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/217/",
+   "words": 54
+  },
+  {
+   "heading": "Agent's duty to pay sums received for principal",
+   "indexable": true,
+   "number": "218",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/218/",
+   "words": 19
+  },
+  {
+   "heading": "When agent's remuneration becomes due",
+   "indexable": true,
+   "number": "219",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/219/",
+   "words": 65
+  },
+  {
+   "heading": "Agent not entitled to remuneration for business misconducted",
+   "indexable": true,
+   "number": "220",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/220/",
+   "words": 155
+  },
+  {
+   "heading": "Agent's lien on principal's property",
+   "indexable": true,
+   "number": "221",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/221/",
+   "words": 54
+  },
+  {
+   "heading": "Agent to be indemnified against consequences of lawful acts",
+   "indexable": true,
+   "number": "222",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/222/",
+   "words": 176
+  },
+  {
+   "heading": "Agent to be indemnified against consequences of acts done in good faith",
+   "indexable": true,
+   "number": "223",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/223/",
+   "words": 191
+  },
+  {
+   "heading": "Non-liability of employer of agent to do a criminal act",
+   "indexable": true,
+   "number": "224",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/224/",
+   "words": 145
+  },
+  {
+   "heading": "Compensation to agent for injury caused by principal's neglect",
+   "indexable": true,
+   "number": "225",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/225/",
+   "words": 59
+  },
+  {
+   "heading": "Enforcement and consequences of agent's contracts",
+   "indexable": true,
+   "number": "226",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/226/",
+   "words": 141
+  },
+  {
+   "heading": "Principal how far bound, when agent exceeds authority",
+   "indexable": true,
+   "number": "227",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/227/",
+   "words": 118
+  },
+  {
+   "heading": "Principal not bound when excess of agent's authority is not separable",
+   "indexable": true,
+   "number": "228",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/228/",
+   "words": 67
+  },
+  {
+   "heading": "Consequences of notice given to agent",
+   "indexable": true,
+   "number": "229",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/229/",
+   "words": 191
+  },
+  {
+   "heading": "Agent cannot personally enforce, nor be bound by, contracts on behalf of principal",
+   "indexable": true,
+   "number": "230",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/230/",
+   "words": 89
+  },
+  {
+   "heading": "Rights of parties to a contract made by agent not disclosed",
+   "indexable": true,
+   "number": "231",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/231/",
+   "words": 115
+  },
+  {
+   "heading": "Performance of contract with agent supposed to be principal",
+   "indexable": true,
+   "number": "232",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/232/",
+   "words": 110
+  },
+  {
+   "heading": "Right of person dealing with agent personally liable",
+   "indexable": true,
+   "number": "233",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/233/",
+   "words": 66
+  },
+  {
+   "heading": "Consequence of inducing agent or principal to act on belief that principal or agent will be held exclusively liable",
+   "indexable": true,
+   "number": "234",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/234/",
+   "words": 54
+  },
+  {
+   "heading": "Liability of pretended agent",
+   "indexable": true,
+   "number": "235",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/235/",
+   "words": 56
+  },
+  {
+   "heading": "Person falsely contracting as agent, not entitled to performance",
+   "indexable": true,
+   "number": "236",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/236/",
+   "words": 38
+  },
+  {
+   "heading": "Liability of principal inducing belief that agent's unauthorized acts were authorized",
+   "indexable": true,
+   "number": "237",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/237/",
+   "words": 131
+  },
+  {
+   "heading": "Effect, on agreement, of misrepresentation or fraud by agent",
+   "indexable": true,
+   "number": "238",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/238/",
+   "words": 138
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "239",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/239/",
+   "words": 11
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "240",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/240/",
+   "words": 20
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "241",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/241/",
+   "words": 20
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "242",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/242/",
+   "words": 20
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "243",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/243/",
+   "words": 23
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "244",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/244/",
+   "words": 21
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "245",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/245/",
+   "words": 19
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "246",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/246/",
+   "words": 21
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "247",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/247/",
+   "words": 18
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "248",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/248/",
+   "words": 16
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "249",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/249/",
+   "words": 15
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "250",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/250/",
+   "words": 20
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "251",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/251/",
+   "words": 14
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "252",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/252/",
+   "words": 17
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "253",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/253/",
+   "words": 19
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "254",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/254/",
+   "words": 14
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "255",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/255/",
+   "words": 16
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "256",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/256/",
+   "words": 27
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "257",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/257/",
+   "words": 13
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "258",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/258/",
+   "words": 19
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "259",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/259/",
+   "words": 17
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "260",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/260/",
+   "words": 26
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "261",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/261/",
+   "words": 17
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "262",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/262/",
+   "words": 17
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "263",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/263/",
+   "words": 17
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "264",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/264/",
+   "words": 12
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "265",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/265/",
+   "words": 20
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "266",
+   "url": "https://indiacode.ecourtsindia.com/contract-act/section/266/",
+   "words": 16
+  }
+ ]
+}

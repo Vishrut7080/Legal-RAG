@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9732,
+   "section": "245",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/245/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "When offence proved included in offence charged",
+  "html": "<p><span class=\"num\">(1)</span> When a person is charged with an offence consisting of several particulars, a combination of some only of which constitutes a complete minor offence, and such combination is proved, but the remaining particulars are not proved, he may be convicted of the minor offence though he was not charged with it.</p><p><span class=\"num\">(2)</span> When a person is charged with an offence and facts are proved which reduce it to a minor offence, he may be convicted of the minor offence, although he is not charged with it.</p><p><span class=\"num\">(3)</span> When a person is charged with an offence, he may be convicted of an attempt to commit such offence although the attempt is not separately charged.</p><p><span class=\"num\">(4)</span> Nothing in this section shall be deemed to authorise a conviction of any minor offence where the conditions requisite for the initiation of proceedings in respect of that minor offence have not been satisfied.</p><p class=\"rubric\">Illustrations</p><p><span class=\"num\">(a)</span> A is charged, under section <a href=\"/ipc/section/407/\">407</a> of the Indian Penal Code (45 of 1860), with criminal breach of trust in respect of property entrusted to him as a carrier. It appears, that he did commit criminal breach of trust under section 406 of that Code in respect of the property, but that it was not entrusted to him as a carrier. He may be convicted of criminal breach of trust under the said section <a href=\"/crpc/section/406/\">406</a>.</p><p><span class=\"num\">(b)</span> A is charged, under section <a href=\"/ipc/section/325/\">325</a> of the Indian Penal Code (45 of 1860), with causing grievous hurt. He proves that he acted on grave and sudden provocation. He may be convicted under section 335 of that Code.</p>",
+  "number": "222",
+  "text": "(1) When a person is charged with an offence consisting of several particulars, a combination of some only of which constitutes a complete minor offence, and such combination is proved, but the remaining particulars are not proved, he may be convicted of the minor offence though he was not charged with it. (2)When a person is charged with an offence and facts are proved which reduce it to a minor offence, he may be convicted of the minor offence, although he is not charged with it. (3) When a person is charged with an offence, he may be convicted of an attempt to commit such offence although the attempt is not separately charged. (4) Nothing in this section shall be deemed to authorise a conviction of any minor offence where the conditions requisite for the initiation of proceedings in respect of that minor offence have not been satisfied. Illustrations (a) A is charged, under section 407 of the Indian Penal Code (45 of 1860), with criminal breach of trust in respect of property entrusted to him as a carrier. It appears, that he did commit criminal breach of trust under section 406 of that Code in respect of the property, but that it was not entrusted to him as a carrier. He may be convicted of criminal breach of trust under the said section 406. (b) A is charged, under section 325 of the Indian Penal Code (45 of 1860), with causing grievous hurt. He proves that he acted on grave and sudden provocation. He may be convicted under section 335 of that Code.",
+  "words": 264
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/222/"
+}

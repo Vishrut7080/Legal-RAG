@@ -1,0 +1,78 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "classification": [
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Kidnapping.",
+   "punishment": "Imprisonment for 7 years and fine.",
+   "triable_by": "Magistrate of the first class."
+  }
+ ],
+ "corresponds_to": [
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9,
+   "section": "359",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/359/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "close",
+   "score": 0.7833,
+   "section": "360",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/360/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "close",
+   "score": 0.6685,
+   "section": "361",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/361/"
+  },
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.8661,
+   "section": "363",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/363/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 16,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Kidnapping",
+  "html": "<p><span class=\"num\">(1)</span> Kidnapping is of two kinds: kidnapping from India, and kidnapping from lawful guardianship—</p><p><span class=\"num\">(a)</span> whoever conveys any person beyond the limits of India without the consent of that person, or of some person legally authorised to consent on behalf of that person, is said to kidnap that person from India;</p><p><span class=\"num\">(b)</span> whoever takes or entices any child or any person of unsound mind, out of the keeping of the lawful guardian of such child or person of unsound mind, without the consent of such guardian, is said to kidnap such child or person from lawful guardianship.</p><p>Explanation.—The words “lawful guardian” in this clause include any person lawfully entrusted with the care or custody of such child or other person.</p><p>Exception.—This clause does not extend to the act of any person who in good faith believes himself to be the father of an illegitimate child, or who in good faith believes himself to be entitled to the lawful custody of such child, unless such act is committed for an immoral or unlawful purpose.</p><p><span class=\"num\">(2)</span> Whoever kidnaps any person from India or from lawful guardianship shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.</p>",
+  "number": "137",
+  "text": "(1) Kidnapping is of two kinds: kidnapping from India, and kidnapping from lawful guardianship— (a) whoever conveys any person beyond the limits of India without the consent of that person, or of some person legally authorised to consent on behalf of that person, is said to kidnap that person from India; (b) whoever takes or entices any child or any person of unsound mind, out of the keeping of the lawful guardian of such child or person of unsound mind, without the consent of such guardian, is said to kidnap such child or person from lawful guardianship. Explanation.—The words “lawful guardian” in this clause include any person lawfully entrusted with the care or custody of such child or other person. Exception.—This clause does not extend to the act of any person who in good faith believes himself to be the father of an illegitimate child, or who in good faith believes himself to be entitled to the lawful custody of such child, unless such act is committed for an immoral or unlawful purpose. (2) Whoever kidnaps any person from India or from lawful guardianship shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+  "words": 208
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bns/section/137/"
+}

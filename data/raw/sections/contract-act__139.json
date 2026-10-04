@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "9",
+  "act_year": 1872,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1872-04-25",
+  "enforcement_date": "1872-09-01",
+  "id": "contract-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": null,
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 268,
+  "short_title": "The Indian Contract Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/contract-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Discharge of surety of creditor's act or omission impairing surety's eventual remedy",
+  "html": "<p>If the creditor does any act which is inconsistent with the rights of the surety, or omits to do any act which his duty to the surety requires him to do, and the eventual remedy of the surety himself against the principal debtor is thereby impaired, the surety is discharged.</p><p class=\"rubric\"><i>Illustrations</i></p><p><span class=\"num\">(a)</span> B contracts to build a ship for C for a given sum, to be paid by instalments as the work reaches certain stages. A becomes surety to C for B's due performance of the contract. C, without the knowledge of A, prepays to B the last two instalments. A is discharged by this prepayment.</p><p><span class=\"num\">(b)</span> C lends money to B on the security of a joint and several promissory note made in C's favour by B, and by A as surety for B, together with a bill of sale of B's furniture, which gives power to C to sell the furniture, and apply the proceeds in discharge of the note. Subsequently, C sells the furniture, but, owing to his misconduct and wilful negligence, only a small price is realized. A is discharged from liability on the note.</p><p><span class=\"num\">(c)</span> A puts M as apprentice to B, and gives a guarantee to B for M's fidelity. B promises on his part that he will, at least once a month, see M make up the cash. B omits to see this done as promised, and M embezzles. A is not liable to B on his guarantee.</p>",
+  "number": "139",
+  "text": "If the creditor does any act which is inconsistent with the rights of the surety, or omits to do any act which his duty to the surety requires him to do, and the eventual remedy of the surety himself against the principal debtor is thereby impaired, the surety is discharged. Illustrations (a) B contracts to build a ship for C for a given sum, to be paid by instalments as the work reaches certain stages. A becomes surety to C for B's due performance of the contract. C, without the knowledge of A, prepays to B the last two instalments. A is discharged by this prepayment. (b) C lends money to B on the security of a joint and several promissory note made in C's favour by B, and by A as surety for B, together with a bill of sale of B's furniture, which gives power to C to sell the furniture, and apply the proceeds in discharge of the note. Subsequently, C sells the furniture, but, owing to his misconduct and wilful negligence, only a small price is realized. A is discharged from liability on the note. (c) A puts M as apprentice to B, and gives a guarantee to B for M's fidelity. B promises on his part that he will, at least once a month, see M make up the cash. B omits to see this done as promised, and M embezzles. A is not liable to B on his guarantee.",
+  "words": 245
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/contract-act/section/139/"
+}

@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "349",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/349/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Selling goods marked with a counterfeit property mark",
+  "html": "<p>[Whoever sells, or exposes, or has in possession for sale, any goods or things with a counterfeit property mark] affixed to or impressed upon the same or to or upon any case, package or other receptacle in which such goods are contained, shall, unless he proves-</p><p><span class=\"num\">(a)</span> that, having taken all reasonable precautions against committing an offence against this section, he had at the time of the commission of the alleged offence no reason to suspect the genuineness of the mark, and</p><p><span class=\"num\">(b)</span> that, on demand made by or on behalf of the prosecutor, he gave all the information in his power with respect to the persons from whom he obtained such goods or things, or</p><p><span class=\"num\">(c)</span> that otherwise he had acted innocently,</p><p>be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.</p>",
+  "number": "486",
+  "text": "[Whoever sells, or exposes, or has in possession for sale, any goods or things with a counterfeit property mark] affixed to or impressed upon the same or to or upon any case, package or other receptacle in which such goods are contained, shall, unless he proves- (a) that, having taken all reasonable precautions against committing an offence against this section, he had at the time of the commission of the alleged offence no reason to suspect the genuineness of the mark, and (b) that, on demand made by or on behalf of the prosecutor, he gave all the information in his power with respect to the persons from whom he obtained such goods or things, or (c) that otherwise he had acted innocently, be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.",
+  "words": 145
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/486/"
+}

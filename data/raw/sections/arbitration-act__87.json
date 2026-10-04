@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1996,
+  "department": "Department of Legal Affairs",
+  "duplicate_of": null,
+  "enact_date": "1996-08-16",
+  "enforcement_date": "1996-08-22",
+  "id": "arbitration-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to domestic arbitration, international commercial arbitration and enforcement of foreign arbitral awards as also to define the law relating to conciliation and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 106,
+  "short_title": "The Arbitration and Conciliation Act, 1996",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/arbitration-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Effect of arbitral and related court proceedings commenced prior to 23rd October, 2015",
+  "html": "<p><b><sup>1</sup>[87. Effect of arbitral and related court proceedings commenced.</b>-- Unless the parties otherwise agree, the amendments made to this Act by the Arbitration and Conciliation (Amendment) Act, 2015 shall--</p><p><span class=\"num\">(a)</span> not apply to--</p><p><span class=\"num\">(i)</span> arbitral proceedings commenced before the commencement of the Arbitration and Conciliation (Amendment) Act, 2015 (23rd October, 2015);</p><p><span class=\"num\">(ii)</span> court proceedings arising out of or in relation to such arbitral proceedings irrespective of whether such court proceedings are commenced prior to or after the commencement of the Arbitration and Conciliation (Amendment) Act, 2015;</p><p><span class=\"num\">(b)</span> apply only to arbitral proceedings commenced on or after the commencement of the Arbitration and Conciliation (Amendment) Act, 2015 and to court proceedings arising out of or in relation to such arbitral proceedings.]</p>",
+  "number": "87",
+  "text": "1[87. Effect of arbitral and related court proceedings commenced.-- Unless the parties otherwise agree, the amendments made to this Act by the Arbitration and Conciliation (Amendment) Act, 2015 shall-- (a) not apply to-- (i) arbitral proceedings commenced before the commencement of the Arbitration and Conciliation (Amendment) Act, 2015 (23rd October, 2015); (ii) court proceedings arising out of or in relation to such arbitral proceedings irrespective of whether such court proceedings are commenced prior to or after the commencement of the Arbitration and Conciliation (Amendment) Act, 2015; (b) apply only to arbitral proceedings commenced on or after the commencement of the Arbitration and Conciliation (Amendment) Act, 2015 and to court proceedings arising out of or in relation to such arbitral proceedings.]",
+  "words": 120
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/87/"
+}

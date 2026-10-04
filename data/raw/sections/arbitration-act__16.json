@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1996,
+  "department": "Department of Legal Affairs",
+  "duplicate_of": null,
+  "enact_date": "1996-08-16",
+  "enforcement_date": "1996-08-22",
+  "id": "arbitration-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to domestic arbitration, international commercial arbitration and enforcement of foreign arbitral awards as also to define the law relating to conciliation and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 106,
+  "short_title": "The Arbitration and Conciliation Act, 1996",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/arbitration-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 6,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Competence of arbitral tribunal to rule on its jurisdiction",
+  "html": "<p><span class=\"num\">(1)</span> The arbitral tribunal may rule on its own jurisdiction, including ruling on any objections with respect to the existence or validity of the arbitration agreement, and for that purpose,—</p><p><span class=\"num\">(a)</span> an arbitration clause which forms part of a contract shall be treated as an agreement independent of the other terms of the contract; and</p><p><span class=\"num\">(b)</span> a decision by the arbitral tribunal that the contract is null and void shall not entail <i>ipso jure</i> the invalidity of the arbitration clause.</p><p><span class=\"num\">(2)</span> A plea that the arbitral tribunal does not have jurisdiction shall be raised not later than the submission of the statement of defence; however, a party shall not be precluded from raising such a plea merely because that he has appointed, or participated in the appointment of, an arbitrator.</p><p><span class=\"num\">(3)</span> A plea that the arbitral tribunal is exceeding the scope of its authority shall be raised as soon as the matter alleged to be beyond the scope of its authority is raised during the arbitral proceedings.</p><p><span class=\"num\">(4)</span> The arbitral tribunal may, in either of the cases referred to in sub-section <i>(2)</i> or sub-section <i>(3)</i>, admit a later plea if it considers the delay justified.</p><p><span class=\"num\">(5)</span> The arbitral tribunal shall decide on a plea referred to in sub-section <i>(2)</i> or sub-section <i>(3)</i> and, where the arbitral tribunal takes a decision rejecting the plea, continue with the arbitral proceedings and make an arbitral award.</p><p><span class=\"num\">(6)</span> A party aggrieved by such an arbitral award may make an application for setting aside such an arbitral award in accordance with section <a href=\"/arbitration-act/section/34/\">34</a>.</p>",
+  "number": "16",
+  "text": "(1) The arbitral tribunal may rule on its own jurisdiction, including ruling on any objections with respect to the existence or validity of the arbitration agreement, and for that purpose,— (a) an arbitration clause which forms part of a contract shall be treated as an agreement independent of the other terms of the contract; and (b) a decision by the arbitral tribunal that the contract is null and void shall not entail ipso jure the invalidity of the arbitration clause. (2) A plea that the arbitral tribunal does not have jurisdiction shall be raised not later than the submission of the statement of defence; however, a party shall not be precluded from raising such a plea merely because that he has appointed, or participated in the appointment of, an arbitrator. (3) A plea that the arbitral tribunal is exceeding the scope of its authority shall be raised as soon as the matter alleged to be beyond the scope of its authority is raised during the arbitral proceedings. (4) The arbitral tribunal may, in either of the cases referred to in sub-section (2) or sub-section (3), admit a later plea if it considers the delay justified. (5) The arbitral tribunal shall decide on a plea referred to in sub-section (2) or sub-section (3) and, where the arbitral tribunal takes a decision rejecting the plea, continue with the arbitral proceedings and make an arbitral award. (6) A party aggrieved by such an arbitral award may make an application for setting aside such an arbitral award in accordance with section 34.",
+  "words": 258
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/16/"
+}

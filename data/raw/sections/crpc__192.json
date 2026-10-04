@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "212",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/212/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Making over of cases to Magistrates",
+  "html": "<p><span class=\"num\">(1)</span> Any Chief Judicial Magistrate may, after taking cognizance of an offence, make over the case for inquiry or trial to any competent Magistrate subordinate to him.</p><p><span class=\"num\">(2)</span> Any Magistrate of the first class empowered in this behalf by the Chief Judicial Magistrate may, after taking cognizance of an offence, make over the case for inquiry or trial to such other competent Magistrate as the Chief Judicial Magistrate may, by general or special order, specify, and thereupon such Magistrate may hold the inquiry or trial.</p>",
+  "number": "192",
+  "text": "(1) Any Chief Judicial Magistrate may, after taking cognizance of an offence, make over the case for inquiry or trial to any competent Magistrate subordinate to him. (2) Any Magistrate of the first class empowered in this behalf by the Chief Judicial Magistrate may, after taking cognizance of an offence, make over the case for inquiry or trial to such other competent Magistrate as the Chief Judicial Magistrate may, by general or special order, specify, and thereupon such Magistrate may hold the inquiry or trial.",
+  "words": 85
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/192/"
+}

@@ -1,0 +1,54 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "15",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/15/"
+  },
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "weak",
+   "score": 0.608,
+   "section": "19",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/19/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Subordination of Judicial Magistrates",
+  "html": "<p><span class=\"num\">(1)</span> Every Chief Judicial Magistrate shall be subordinate to the Sessions Judge; and every other Judicial Magistrate shall, subject to the general control of the Sessions Judge, be subordinate to the Chief Judicial Magistrate.</p><p><span class=\"num\">(2)</span> The Chief Judicial Magistrate may, from time to time, make rules or give special orders, consistent with this Sanhita, as to the distribution of business among the Judicial Magistrates subordinate to him</p>",
+  "number": "13",
+  "text": "(1) Every Chief Judicial Magistrate shall be subordinate to the Sessions Judge; and every other Judicial Magistrate shall, subject to the general control of the Sessions Judge, be subordinate to the Chief Judicial Magistrate. (2) The Chief Judicial Magistrate may, from time to time, make rules or give special orders, consistent with this Sanhita, as to the distribution of business among the Judicial Magistrates subordinate to him",
+  "words": 67
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/13/"
+}

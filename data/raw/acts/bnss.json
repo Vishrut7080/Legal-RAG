@@ -1,0 +1,3760 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "amendments": [],
+ "count": 531,
+ "not_held": [
+  "amendments"
+ ],
+ "not_held_note": "This corpus holds no amendments for this Act. An empty list means not on file here, not that none exist.",
+ "schedules": [
+  {
+   "ord": 1,
+   "title": "THE FIRST SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/bnss/schedule/1/",
+   "words": 14166
+  },
+  {
+   "ord": 2,
+   "title": "THE SECOND SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/bnss/schedule/2/",
+   "words": 11487
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Short title, extent and commencement",
+   "indexable": true,
+   "number": "1",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/1/",
+   "words": 162
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "2",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/2/",
+   "words": 956
+  },
+  {
+   "heading": "Construction of references",
+   "indexable": true,
+   "number": "3",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/3/",
+   "words": 191
+  },
+  {
+   "heading": "Trial of offences under Bharatiya Nyaya Sanhita, 2023 and other laws",
+   "indexable": true,
+   "number": "4",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/4/",
+   "words": 74
+  },
+  {
+   "heading": "Saving",
+   "indexable": true,
+   "number": "5",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/5/",
+   "words": 52
+  },
+  {
+   "heading": "Classes of Criminal Courts",
+   "indexable": true,
+   "number": "6",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/6/",
+   "words": 50
+  },
+  {
+   "heading": "Territorial divisions",
+   "indexable": true,
+   "number": "7",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/7/",
+   "words": 108
+  },
+  {
+   "heading": "Court of Session",
+   "indexable": true,
+   "number": "8",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/8/",
+   "words": 409
+  },
+  {
+   "heading": "Courts of Judicial Magistrates",
+   "indexable": true,
+   "number": "9",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/9/",
+   "words": 190
+  },
+  {
+   "heading": "Chief Judicial Magistrate and Additional Chief Judicial Magistrate, etc",
+   "indexable": true,
+   "number": "10",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/10/",
+   "words": 168
+  },
+  {
+   "heading": "Special Judicial Magistrates",
+   "indexable": true,
+   "number": "11",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/11/",
+   "words": 137
+  },
+  {
+   "heading": "Local Jurisdiction of Judicial Magistrates",
+   "indexable": true,
+   "number": "12",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/12/",
+   "words": 187
+  },
+  {
+   "heading": "Subordination of Judicial Magistrates",
+   "indexable": true,
+   "number": "13",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/13/",
+   "words": 67
+  },
+  {
+   "heading": "Executive Magistrates",
+   "indexable": true,
+   "number": "14",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/14/",
+   "words": 244
+  },
+  {
+   "heading": "Special Executive Magistrates",
+   "indexable": true,
+   "number": "15",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/15/",
+   "words": 71
+  },
+  {
+   "heading": "Local Jurisdiction of Executive",
+   "indexable": true,
+   "number": "16",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/16/",
+   "words": 67
+  },
+  {
+   "heading": "Subordination of Executive Magistrates",
+   "indexable": true,
+   "number": "17",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/17/",
+   "words": 76
+  },
+  {
+   "heading": "Public Prosecutors",
+   "indexable": true,
+   "number": "18",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/18/",
+   "words": 606
+  },
+  {
+   "heading": "Assistant Public Prosecutors",
+   "indexable": true,
+   "number": "19",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/19/",
+   "words": 151
+  },
+  {
+   "heading": "Directorate of Prosecution",
+   "indexable": true,
+   "number": "20",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/20/",
+   "words": 511
+  },
+  {
+   "heading": "Courts by which offences are triable",
+   "indexable": true,
+   "number": "21",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/21/",
+   "words": 149
+  },
+  {
+   "heading": "Sentences which High Courts and Sessions Judges may pass",
+   "indexable": true,
+   "number": "22",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/22/",
+   "words": 45
+  },
+  {
+   "heading": "Sentences which Magistrates may pass",
+   "indexable": true,
+   "number": "23",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/23/",
+   "words": 143
+  },
+  {
+   "heading": "Sentence of imprisonment in default of fine",
+   "indexable": true,
+   "number": "24",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/24/",
+   "words": 113
+  },
+  {
+   "heading": "Sentence in cases of conviction of several offences at one trial",
+   "indexable": true,
+   "number": "25",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/25/",
+   "words": 192
+  },
+  {
+   "heading": "Mode of conferring powers",
+   "indexable": true,
+   "number": "26",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/26/",
+   "words": 62
+  },
+  {
+   "heading": "Powers of officers appointed",
+   "indexable": true,
+   "number": "27",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/27/",
+   "words": 89
+  },
+  {
+   "heading": "Withdrawal of powers",
+   "indexable": true,
+   "number": "28",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/28/",
+   "words": 64
+  },
+  {
+   "heading": "Powers of Judges and Magistrates exercisable by their successors-in-office",
+   "indexable": true,
+   "number": "29",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/29/",
+   "words": 130
+  },
+  {
+   "heading": "Powers of superior officers of police",
+   "indexable": true,
+   "number": "30",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/30/",
+   "words": 41
+  },
+  {
+   "heading": "Public when to assist Magistrates and police",
+   "indexable": true,
+   "number": "31",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/31/",
+   "words": 66
+  },
+  {
+   "heading": "Aid to person, other than police officer, executing warrant",
+   "indexable": true,
+   "number": "32",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/32/",
+   "words": 45
+  },
+  {
+   "heading": "Public to give information of certain offences",
+   "indexable": true,
+   "number": "33",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/33/",
+   "words": 162
+  },
+  {
+   "heading": "Duty of officers employed in connection with affairs of a village to make certain report",
+   "indexable": true,
+   "number": "34",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/34/",
+   "words": 454
+  },
+  {
+   "heading": "When police may arrest without warrant",
+   "indexable": true,
+   "number": "35",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/35/",
+   "words": 881
+  },
+  {
+   "heading": "Procedure of arrest and duties of officer making arrest",
+   "indexable": true,
+   "number": "36",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/36/",
+   "words": 111
+  },
+  {
+   "heading": "Designated police officer",
+   "indexable": true,
+   "number": "37",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/37/",
+   "words": 84
+  },
+  {
+   "heading": "Right of arrested person to meet an advocate of his choice during interrogation",
+   "indexable": true,
+   "number": "38",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/38/",
+   "words": 27
+  },
+  {
+   "heading": "Arrest on refusal to give name and residence",
+   "indexable": true,
+   "number": "39",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/39/",
+   "words": 173
+  },
+  {
+   "heading": "Arrest by private person and procedure on such arrest",
+   "indexable": true,
+   "number": "40",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/40/",
+   "words": 185
+  },
+  {
+   "heading": "Arrest by Magistrate",
+   "indexable": true,
+   "number": "41",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/41/",
+   "words": 92
+  },
+  {
+   "heading": "Protection of members of Armed Forces from arrest",
+   "indexable": true,
+   "number": "42",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/42/",
+   "words": 120
+  },
+  {
+   "heading": "Arrest how made",
+   "indexable": true,
+   "number": "43",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/43/",
+   "words": 300
+  },
+  {
+   "heading": "Search of place entered by person sought to be arrested",
+   "indexable": true,
+   "number": "44",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/44/",
+   "words": 316
+  },
+  {
+   "heading": "Pursuit of offenders into other jurisdictions",
+   "indexable": true,
+   "number": "45",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/45/",
+   "words": 27
+  },
+  {
+   "heading": "No unnecessary restraint",
+   "indexable": true,
+   "number": "46",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/46/",
+   "words": 17
+  },
+  {
+   "heading": "Person arrested to be informed of grounds of arrest and of right to bail",
+   "indexable": true,
+   "number": "47",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/47/",
+   "words": 77
+  },
+  {
+   "heading": "Obligation of person making arrest to inform about arrest, etc., to relative or friend",
+   "indexable": true,
+   "number": "48",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/48/",
+   "words": 172
+  },
+  {
+   "heading": "Search of arrested person",
+   "indexable": true,
+   "number": "49",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/49/",
+   "words": 167
+  },
+  {
+   "heading": "Power to seize offensive weapons",
+   "indexable": true,
+   "number": "50",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/50/",
+   "words": 66
+  },
+  {
+   "heading": "Examination of accused by medical practitioner at request of police officer",
+   "indexable": true,
+   "number": "51",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/51/",
+   "words": 268
+  },
+  {
+   "heading": "Examination of person accused of rape by medical practitioner",
+   "indexable": true,
+   "number": "52",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/52/",
+   "words": 299
+  },
+  {
+   "heading": "Examination of arrested person by medical officer",
+   "indexable": true,
+   "number": "53",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/53/",
+   "words": 222
+  },
+  {
+   "heading": "Identification of person arrested",
+   "indexable": true,
+   "number": "54",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/54/",
+   "words": 133
+  },
+  {
+   "heading": "Procedure when police officer deputes subordinate to arrest without warrant",
+   "indexable": true,
+   "number": "55",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/55/",
+   "words": 135
+  },
+  {
+   "heading": "Health and safety of arrested person",
+   "indexable": true,
+   "number": "56",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/56/",
+   "words": 26
+  },
+  {
+   "heading": "Person arrested to be taken before Magistrate or officer in charge of police station",
+   "indexable": true,
+   "number": "57",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/57/",
+   "words": 46
+  },
+  {
+   "heading": "Person arrested not to be detained more than twenty-four hours",
+   "indexable": true,
+   "number": "58",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/58/",
+   "words": 46
+  },
+  {
+   "heading": "Police to report apprehensions",
+   "indexable": true,
+   "number": "59",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/59/",
+   "words": 46
+  },
+  {
+   "heading": "Discharge of person apprehended",
+   "indexable": true,
+   "number": "60",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/60/",
+   "words": 28
+  },
+  {
+   "heading": "Power, on escape, to pursue and retake",
+   "indexable": true,
+   "number": "61",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/61/",
+   "words": 68
+  },
+  {
+   "heading": "Arrest to be made strictly according to Sanhita",
+   "indexable": true,
+   "number": "62",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/62/",
+   "words": 27
+  },
+  {
+   "heading": "Form of summons",
+   "indexable": true,
+   "number": "63",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/63/",
+   "words": 75
+  },
+  {
+   "heading": "Summons how served",
+   "indexable": true,
+   "number": "64",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/64/",
+   "words": 158
+  },
+  {
+   "heading": "Service of summons on corporate bodies, firms, and societies",
+   "indexable": true,
+   "number": "65",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/65/",
+   "words": 174
+  },
+  {
+   "heading": "Service when persons summoned cannot be found",
+   "indexable": true,
+   "number": "66",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/66/",
+   "words": 80
+  },
+  {
+   "heading": "Procedure when service cannot be effected as before provided",
+   "indexable": true,
+   "number": "67",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/67/",
+   "words": 82
+  },
+  {
+   "heading": "Service on Government servant",
+   "indexable": true,
+   "number": "68",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/68/",
+   "words": 80
+  },
+  {
+   "heading": "Service of summons outside local limits",
+   "indexable": true,
+   "number": "69",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/69/",
+   "words": 45
+  },
+  {
+   "heading": "Proof of service in such cases and when serving officer not present",
+   "indexable": true,
+   "number": "70",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/70/",
+   "words": 168
+  },
+  {
+   "heading": "Service of summons on witness",
+   "indexable": true,
+   "number": "71",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/71/",
+   "words": 138
+  },
+  {
+   "heading": "Form of warrant of arrest and duration",
+   "indexable": true,
+   "number": "72",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/72/",
+   "words": 55
+  },
+  {
+   "heading": "Power to direct security to be taken",
+   "indexable": true,
+   "number": "73",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/73/",
+   "words": 136
+  },
+  {
+   "heading": "Warrants to whom directed",
+   "indexable": true,
+   "number": "74",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/74/",
+   "words": 80
+  },
+  {
+   "heading": "Warrant may be directed to any person",
+   "indexable": true,
+   "number": "75",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/75/",
+   "words": 132
+  },
+  {
+   "heading": "Warrant directed to police officer",
+   "indexable": true,
+   "number": "76",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/76/",
+   "words": 33
+  },
+  {
+   "heading": "Notification of substance of warrant",
+   "indexable": true,
+   "number": "77",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/77/",
+   "words": 31
+  },
+  {
+   "heading": "Person arrested to be brought before Court without delay",
+   "indexable": true,
+   "number": "78",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/78/",
+   "words": 72
+  },
+  {
+   "heading": "Where warrant may be executed",
+   "indexable": true,
+   "number": "79",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/79/",
+   "words": 12
+  },
+  {
+   "heading": "Warrant forwarded for execution outside jurisdiction",
+   "indexable": true,
+   "number": "80",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/80/",
+   "words": 146
+  },
+  {
+   "heading": "Warrant directed to police officer for execution outside jurisdiction",
+   "indexable": true,
+   "number": "81",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/81/",
+   "words": 176
+  },
+  {
+   "heading": "Procedure on arrest of person against whom warrant issued",
+   "indexable": true,
+   "number": "82",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/82/",
+   "words": 135
+  },
+  {
+   "heading": "Procedure by Magistrate before whom such person arrested is brought",
+   "indexable": true,
+   "number": "83",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/83/",
+   "words": 203
+  },
+  {
+   "heading": "Proclamation for person absconding",
+   "indexable": true,
+   "number": "84",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/84/",
+   "words": 355
+  },
+  {
+   "heading": "Attachment of property of person absconding",
+   "indexable": true,
+   "number": "85",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/85/",
+   "words": 426
+  },
+  {
+   "heading": "Identification and attachment of property of proclaimed person",
+   "indexable": true,
+   "number": "86",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/86/",
+   "words": 61
+  },
+  {
+   "heading": "Claims and objections to attachment",
+   "indexable": true,
+   "number": "87",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/87/",
+   "words": 292
+  },
+  {
+   "heading": "Release, sale and restoration of attached property",
+   "indexable": true,
+   "number": "88",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/88/",
+   "words": 283
+  },
+  {
+   "heading": "Appeal from order rejecting application for restoration of attached property",
+   "indexable": true,
+   "number": "89",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/89/",
+   "words": 43
+  },
+  {
+   "heading": "Issue of warrant in lieu of, or in addition to, summons",
+   "indexable": true,
+   "number": "90",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/90/",
+   "words": 115
+  },
+  {
+   "heading": "Power to take bond or bail bond for appearance",
+   "indexable": true,
+   "number": "91",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/91/",
+   "words": 59
+  },
+  {
+   "heading": "Arrest on breach of bond or bail bond for appearance",
+   "indexable": true,
+   "number": "92",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/92/",
+   "words": 44
+  },
+  {
+   "heading": "Provisions of this Chapter generally applicable to summons and warrants of arrest",
+   "indexable": true,
+   "number": "93",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/93/",
+   "words": 36
+  },
+  {
+   "heading": "Summons to produce document or other thing",
+   "indexable": true,
+   "number": "94",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/94/",
+   "words": 214
+  },
+  {
+   "heading": "Procedure as to letters",
+   "indexable": true,
+   "number": "95",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/95/",
+   "words": 143
+  },
+  {
+   "heading": "When search-warrant may be issued",
+   "indexable": true,
+   "number": "96",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/96/",
+   "words": 213
+  },
+  {
+   "heading": "Search of place suspected to contain stolen property, forged documents, etc",
+   "indexable": true,
+   "number": "97",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/97/",
+   "words": 331
+  },
+  {
+   "heading": "Power to declare certain publications forfeited and to issue search-warrants for same",
+   "indexable": true,
+   "number": "98",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/98/",
+   "words": 225
+  },
+  {
+   "heading": "Application to High Court to set aside declaration of forfeiture",
+   "indexable": true,
+   "number": "99",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/99/",
+   "words": 283
+  },
+  {
+   "heading": "Search for persons wrongfully confined",
+   "indexable": true,
+   "number": "100",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/100/",
+   "words": 87
+  },
+  {
+   "heading": "Power to compel restoration of abducted females",
+   "indexable": true,
+   "number": "101",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/101/",
+   "words": 80
+  },
+  {
+   "heading": "Direction, etc., of search-warrants",
+   "indexable": true,
+   "number": "102",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/102/",
+   "words": 33
+  },
+  {
+   "heading": "Persons in charge of closed place to allow search",
+   "indexable": true,
+   "number": "103",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/103/",
+   "words": 428
+  },
+  {
+   "heading": "Disposal of things found in search beyond jurisdiction",
+   "indexable": true,
+   "number": "104",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/104/",
+   "words": 109
+  },
+  {
+   "heading": "Recording of search and seizure through audio video electronic means",
+   "indexable": true,
+   "number": "105",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/105/",
+   "words": 82
+  },
+  {
+   "heading": "Power of police officer to seize certain property",
+   "indexable": true,
+   "number": "106",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/106/",
+   "words": 251
+  },
+  {
+   "heading": "Attachment, forfeiture or restoration of property",
+   "indexable": true,
+   "number": "107",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/107/",
+   "words": 482
+  },
+  {
+   "heading": "Magistrate may direct search in his presence",
+   "indexable": true,
+   "number": "108",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/108/",
+   "words": 27
+  },
+  {
+   "heading": "Power to impound document, etc., produced",
+   "indexable": true,
+   "number": "109",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/109/",
+   "words": 18
+  },
+  {
+   "heading": "Reciprocal arrangements regarding processes",
+   "indexable": true,
+   "number": "110",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/110/",
+   "words": 494
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "111",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/111/",
+   "words": 160
+  },
+  {
+   "heading": "Letter of request to competent authority for investigation in a country or place outside India",
+   "indexable": true,
+   "number": "112",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/112/",
+   "words": 196
+  },
+  {
+   "heading": "Letter of request from a country or place outside India to a Court or an authority for investigation in India",
+   "indexable": true,
+   "number": "113",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/113/",
+   "words": 195
+  },
+  {
+   "heading": "Assistance in securing transfer of persons",
+   "indexable": true,
+   "number": "114",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/114/",
+   "words": 380
+  },
+  {
+   "heading": "Assistance in relation to orders of attachment or forfeiture of property",
+   "indexable": true,
+   "number": "115",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/115/",
+   "words": 209
+  },
+  {
+   "heading": "Identifying unlawfully acquired property",
+   "indexable": true,
+   "number": "116",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/116/",
+   "words": 118
+  },
+  {
+   "heading": "Seizure or attachment of property",
+   "indexable": true,
+   "number": "117",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/117/",
+   "words": 147
+  },
+  {
+   "heading": "Management of properties seized or forfeited under this Chapter",
+   "indexable": true,
+   "number": "118",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/118/",
+   "words": 112
+  },
+  {
+   "heading": "Notice of forfeiture of property",
+   "indexable": true,
+   "number": "119",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/119/",
+   "words": 162
+  },
+  {
+   "heading": "Forfeiture of property in certain cases",
+   "indexable": true,
+   "number": "120",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/120/",
+   "words": 297
+  },
+  {
+   "heading": "Fine in lieu of forfeiture",
+   "indexable": true,
+   "number": "121",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/121/",
+   "words": 137
+  },
+  {
+   "heading": "Certain transfers to be null and void",
+   "indexable": true,
+   "number": "122",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/122/",
+   "words": 80
+  },
+  {
+   "heading": "Procedure in respect of letter of request",
+   "indexable": true,
+   "number": "123",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/123/",
+   "words": 69
+  },
+  {
+   "heading": "Application of this Chapter",
+   "indexable": true,
+   "number": "124",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/124/",
+   "words": 46
+  },
+  {
+   "heading": "Security for keeping peace on conviction",
+   "indexable": true,
+   "number": "125",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/125/",
+   "words": 218
+  },
+  {
+   "heading": "Security for keeping peace in other cases",
+   "indexable": true,
+   "number": "126",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/126/",
+   "words": 162
+  },
+  {
+   "heading": "Security for good behaviour from persons disseminating certain matters",
+   "indexable": true,
+   "number": "127",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/127/",
+   "words": 282
+  },
+  {
+   "heading": "Security for good behaviour from suspected persons",
+   "indexable": true,
+   "number": "128",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/128/",
+   "words": 84
+  },
+  {
+   "heading": "Security for good behaviour from habitual offenders",
+   "indexable": true,
+   "number": "129",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/129/",
+   "words": 312
+  },
+  {
+   "heading": "Order to be made",
+   "indexable": true,
+   "number": "130",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/130/",
+   "words": 73
+  },
+  {
+   "heading": "Procedure in respect of person present in Court",
+   "indexable": true,
+   "number": "131",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/131/",
+   "words": 35
+  },
+  {
+   "heading": "Summons or warrant in case of person not so present",
+   "indexable": true,
+   "number": "132",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/132/",
+   "words": 118
+  },
+  {
+   "heading": "Copy of order to accompany summons or warrant",
+   "indexable": true,
+   "number": "133",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/133/",
+   "words": 47
+  },
+  {
+   "heading": "Power to dispense with personal attendance",
+   "indexable": true,
+   "number": "134",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/134/",
+   "words": 48
+  },
+  {
+   "heading": "Inquiry as to truth of information",
+   "indexable": true,
+   "number": "135",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/135/",
+   "words": 513
+  },
+  {
+   "heading": "Order to give security",
+   "indexable": true,
+   "number": "136",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/136/",
+   "words": 136
+  },
+  {
+   "heading": "Discharge of person informed against",
+   "indexable": true,
+   "number": "137",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/137/",
+   "words": 83
+  },
+  {
+   "heading": "Commencement of period for which security is required",
+   "indexable": true,
+   "number": "138",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/138/",
+   "words": 76
+  },
+  {
+   "heading": "Contents of bond",
+   "indexable": true,
+   "number": "139",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/139/",
+   "words": 64
+  },
+  {
+   "heading": "Power to reject sureties",
+   "indexable": true,
+   "number": "140",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/140/",
+   "words": 241
+  },
+  {
+   "heading": "Imprisonment in default of security",
+   "indexable": true,
+   "number": "141",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/141/",
+   "words": 575
+  },
+  {
+   "heading": "Power to release persons imprisoned for failing to give security",
+   "indexable": true,
+   "number": "142",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/142/",
+   "words": 655
+  },
+  {
+   "heading": "Security for unexpired period of bond",
+   "indexable": true,
+   "number": "143",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/143/",
+   "words": 114
+  },
+  {
+   "heading": "Order for maintenance of wives, children and parents",
+   "indexable": true,
+   "number": "144",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/144/",
+   "words": 705
+  },
+  {
+   "heading": "Procedure",
+   "indexable": true,
+   "number": "145",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/145/",
+   "words": 225
+  },
+  {
+   "heading": "Alteration in allowance",
+   "indexable": true,
+   "number": "146",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/146/",
+   "words": 401
+  },
+  {
+   "heading": "Enforcement of order of maintenance",
+   "indexable": true,
+   "number": "147",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/147/",
+   "words": 118
+  },
+  {
+   "heading": "Dispersal of assembly by use of civil force",
+   "indexable": true,
+   "number": "148",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/148/",
+   "words": 180
+  },
+  {
+   "heading": "Use of armed forces to disperse assembly",
+   "indexable": true,
+   "number": "149",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/149/",
+   "words": 179
+  },
+  {
+   "heading": "Power of certain armed force officers to disperse assembly",
+   "indexable": true,
+   "number": "150",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/150/",
+   "words": 112
+  },
+  {
+   "heading": "Protection against prosecution for acts done under sections 148, 149 and 150",
+   "indexable": true,
+   "number": "151",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/151/",
+   "words": 243
+  },
+  {
+   "heading": "Conditional order for removal of nuisance",
+   "indexable": true,
+   "number": "152",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/152/",
+   "words": 530
+  },
+  {
+   "heading": "Service or notification of order",
+   "indexable": true,
+   "number": "153",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/153/",
+   "words": 75
+  },
+  {
+   "heading": "Person to whom order is addressed to obey or show cause",
+   "indexable": true,
+   "number": "154",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/154/",
+   "words": 51
+  },
+  {
+   "heading": "Penalty for failure to comply with section 154",
+   "indexable": true,
+   "number": "155",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/155/",
+   "words": 49
+  },
+  {
+   "heading": "Procedure where existence of public right is denied",
+   "indexable": true,
+   "number": "156",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/156/",
+   "words": 203
+  },
+  {
+   "heading": "Procedure where person against whom order is made under section 152 appears to show-cause",
+   "indexable": true,
+   "number": "157",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/157/",
+   "words": 130
+  },
+  {
+   "heading": "Power of Magistrate to direct local investigation and examination of an expert",
+   "indexable": true,
+   "number": "158",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/158/",
+   "words": 37
+  },
+  {
+   "heading": "Power of Magistrate to furnish written instructions, etc",
+   "indexable": true,
+   "number": "159",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/159/",
+   "words": 94
+  },
+  {
+   "heading": "Procedure on order being made absolute and consequences of disobedience",
+   "indexable": true,
+   "number": "160",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/160/",
+   "words": 190
+  },
+  {
+   "heading": "Injunction pending inquiry",
+   "indexable": true,
+   "number": "161",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/161/",
+   "words": 116
+  },
+  {
+   "heading": "Magistrate may prohibit repetition or Continuance of public nuisance",
+   "indexable": true,
+   "number": "162",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/162/",
+   "words": 54
+  },
+  {
+   "heading": "Power to issue order in urgent cases of nuisance or apprehended danger",
+   "indexable": true,
+   "number": "163",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/163/",
+   "words": 471
+  },
+  {
+   "heading": "Procedure where dispute concerning land or water is likely to cause breach of peace",
+   "indexable": true,
+   "number": "164",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/164/",
+   "words": 729
+  },
+  {
+   "heading": "Power to attach subject of dispute and to appoint receiver",
+   "indexable": true,
+   "number": "165",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/165/",
+   "words": 280
+  },
+  {
+   "heading": "Dispute concerning right of use of land or water",
+   "indexable": true,
+   "number": "166",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/166/",
+   "words": 420
+  },
+  {
+   "heading": "Local inquiry",
+   "indexable": true,
+   "number": "167",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/167/",
+   "words": 164
+  },
+  {
+   "heading": "Police to prevent cognizable offences",
+   "indexable": true,
+   "number": "168",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/168/",
+   "words": 25
+  },
+  {
+   "heading": "Information of design to commit cognizable offences",
+   "indexable": true,
+   "number": "169",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/169/",
+   "words": 47
+  },
+  {
+   "heading": "Arrest to prevent commission of cognizable offences",
+   "indexable": true,
+   "number": "170",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/170/",
+   "words": 94
+  },
+  {
+   "heading": "Prevention of injury to public property",
+   "indexable": true,
+   "number": "171",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/171/",
+   "words": 43
+  },
+  {
+   "heading": "Persons bound to conform to lawful directions of police",
+   "indexable": true,
+   "number": "172",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/172/",
+   "words": 78
+  },
+  {
+   "heading": "Information in cognizable cases",
+   "indexable": true,
+   "number": "173",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/173/",
+   "words": 612
+  },
+  {
+   "heading": "Information as to non-cognizable cases and investigation of such cases",
+   "indexable": true,
+   "number": "174",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/174/",
+   "words": 185
+  },
+  {
+   "heading": "Police officer’s power to investigate cognizable case",
+   "indexable": true,
+   "number": "175",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/175/",
+   "words": 230
+  },
+  {
+   "heading": "Procedure for investigation",
+   "indexable": true,
+   "number": "176",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/176/",
+   "words": 492
+  },
+  {
+   "heading": "Report how submitted",
+   "indexable": true,
+   "number": "177",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/177/",
+   "words": 76
+  },
+  {
+   "heading": "Power to hold investigation or preliminary inquiry",
+   "indexable": true,
+   "number": "178",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/178/",
+   "words": 50
+  },
+  {
+   "heading": "Police officer's power to require attendance of witnesses",
+   "indexable": true,
+   "number": "179",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/179/",
+   "words": 171
+  },
+  {
+   "heading": "Examination of witnesses by police",
+   "indexable": true,
+   "number": "180",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/180/",
+   "words": 232
+  },
+  {
+   "heading": "Statements to police and use thereof",
+   "indexable": true,
+   "number": "181",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/181/",
+   "words": 291
+  },
+  {
+   "heading": "No inducement to be offered",
+   "indexable": true,
+   "number": "182",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/182/",
+   "words": 96
+  },
+  {
+   "heading": "Recording of confessions and statements",
+   "indexable": true,
+   "number": "183",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/183/",
+   "words": 747
+  },
+  {
+   "heading": "Medical examination of victim of rape",
+   "indexable": true,
+   "number": "184",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/184/",
+   "words": 386
+  },
+  {
+   "heading": "Search by police officer",
+   "indexable": true,
+   "number": "185",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/185/",
+   "words": 351
+  },
+  {
+   "heading": "When officer in charge of police station may require another to issue search-warrant",
+   "indexable": true,
+   "number": "186",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/186/",
+   "words": 323
+  },
+  {
+   "heading": "Procedure when investigation cannot be completed in twenty-four hours",
+   "indexable": true,
+   "number": "187",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/187/",
+   "words": 1122
+  },
+  {
+   "heading": "Report of investigation by subordinate police officer",
+   "indexable": true,
+   "number": "188",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/188/",
+   "words": 29
+  },
+  {
+   "heading": "Release of accused when evidence deficient",
+   "indexable": true,
+   "number": "189",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/189/",
+   "words": 94
+  },
+  {
+   "heading": "Cases to be sent to Magistrate, when evidence is sufficient",
+   "indexable": true,
+   "number": "190",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/190/",
+   "words": 352
+  },
+  {
+   "heading": "Complainant and witnesses not to be required to accompany police officer and not to be subject to restraint",
+   "indexable": true,
+   "number": "191",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/191/",
+   "words": 97
+  },
+  {
+   "heading": "Diary of proceedings in investigation",
+   "indexable": true,
+   "number": "192",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/192/",
+   "words": 221
+  },
+  {
+   "heading": "Report of police officer on completion of investigation",
+   "indexable": true,
+   "number": "193",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/193/",
+   "words": 787
+  },
+  {
+   "heading": "Police to enquire and report on suicide, etc",
+   "indexable": true,
+   "number": "194",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/194/",
+   "words": 436
+  },
+  {
+   "heading": "Power to summon persons",
+   "indexable": true,
+   "number": "195",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/195/",
+   "words": 186
+  },
+  {
+   "heading": "Inquiry by Magistrate into cause of death",
+   "indexable": true,
+   "number": "196",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/196/",
+   "words": 363
+  },
+  {
+   "heading": "Ordinary place of inquiry and trial",
+   "indexable": true,
+   "number": "197",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/197/",
+   "words": 19
+  },
+  {
+   "heading": "Place of inquiry or trial",
+   "indexable": true,
+   "number": "198",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/198/",
+   "words": 82
+  },
+  {
+   "heading": "Offence triable where act is done or consequence ensues",
+   "indexable": true,
+   "number": "199",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/199/",
+   "words": 46
+  },
+  {
+   "heading": "Place of trial where act is an offence by reason of relation to other offence",
+   "indexable": true,
+   "number": "200",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/200/",
+   "words": 55
+  },
+  {
+   "heading": "Place of trial in case of certain offences",
+   "indexable": true,
+   "number": "201",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/201/",
+   "words": 255
+  },
+  {
+   "heading": "Offences committed by means of electronic communications, letters, etc",
+   "indexable": true,
+   "number": "202",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/202/",
+   "words": 147
+  },
+  {
+   "heading": "Offence committed on journey or voyage",
+   "indexable": true,
+   "number": "203",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/203/",
+   "words": 63
+  },
+  {
+   "heading": "Place of trial for offences triable together",
+   "indexable": true,
+   "number": "204",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/204/",
+   "words": 88
+  },
+  {
+   "heading": "Power to order cases to be tried in different sessions divisions",
+   "indexable": true,
+   "number": "205",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/205/",
+   "words": 72
+  },
+  {
+   "heading": "High Court to decide, in case of doubt, district where inquiry or trial shall take place",
+   "indexable": true,
+   "number": "206",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/206/",
+   "words": 92
+  },
+  {
+   "heading": "Power to issue summons or warrant for offence committed beyond local jurisdiction",
+   "indexable": true,
+   "number": "207",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/207/",
+   "words": 219
+  },
+  {
+   "heading": "Offence committed outside India",
+   "indexable": true,
+   "number": "208",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/208/",
+   "words": 105
+  },
+  {
+   "heading": "Receipt of evidence relating to offences committed outside India",
+   "indexable": true,
+   "number": "209",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/209/",
+   "words": 111
+  },
+  {
+   "heading": "Cognizance of offences by Magistrate",
+   "indexable": true,
+   "number": "210",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/210/",
+   "words": 128
+  },
+  {
+   "heading": "Transfer on application of accused",
+   "indexable": true,
+   "number": "211",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/211/",
+   "words": 87
+  },
+  {
+   "heading": "Making over of cases to Magistrates",
+   "indexable": true,
+   "number": "212",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/212/",
+   "words": 85
+  },
+  {
+   "heading": "Cognizance of offences by Court of Session",
+   "indexable": true,
+   "number": "213",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/213/",
+   "words": 49
+  },
+  {
+   "heading": "Additional Sessions Judges to try cases made over to them",
+   "indexable": true,
+   "number": "214",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/214/",
+   "words": 40
+  },
+  {
+   "heading": ". Prosecution for contempt of lawful authority of public servants, for offences against public justice and for offences relating to documents given in evidence",
+   "indexable": true,
+   "number": "215",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/215/",
+   "words": 258
+  },
+  {
+   "heading": "Procedure for witnesses in case of threatening, etc",
+   "indexable": true,
+   "number": "216",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/216/",
+   "words": 24
+  },
+  {
+   "heading": "Prosecution for offences against State and for criminal conspiracy to commit such offence",
+   "indexable": true,
+   "number": "217",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/217/",
+   "words": 298
+  },
+  {
+   "heading": "Prosecution of Judges and public servants",
+   "indexable": true,
+   "number": "218",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/218/",
+   "words": 572
+  },
+  {
+   "heading": "Prosecution for offences against marriage",
+   "indexable": true,
+   "number": "219",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/219/",
+   "words": 574
+  },
+  {
+   "heading": "Prosecution of offences under section 85 of Bharatiya Nyaya Sanhita, 2023",
+   "indexable": true,
+   "number": "220",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/220/",
+   "words": 76
+  },
+  {
+   "heading": "Cognizance of offence",
+   "indexable": true,
+   "number": "221",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/221/",
+   "words": 52
+  },
+  {
+   "heading": "Prosecution for defamation",
+   "indexable": true,
+   "number": "222",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/222/",
+   "words": 433
+  },
+  {
+   "heading": "Examination of complainant",
+   "indexable": true,
+   "number": "223",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/223/",
+   "words": 243
+  },
+  {
+   "heading": "Procedure by Magistrate not competent to take cognizance of case",
+   "indexable": true,
+   "number": "224",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/224/",
+   "words": 56
+  },
+  {
+   "heading": "Postponement of issue of process",
+   "indexable": true,
+   "number": "225",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/225/",
+   "words": 268
+  },
+  {
+   "heading": "Dismissal of complaint",
+   "indexable": true,
+   "number": "226",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/226/",
+   "words": 61
+  },
+  {
+   "heading": "Issue of process",
+   "indexable": true,
+   "number": "227",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/227/",
+   "words": 207
+  },
+  {
+   "heading": "Magistrate may dispense with personal attendance of accused",
+   "indexable": true,
+   "number": "228",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/228/",
+   "words": 70
+  },
+  {
+   "heading": "Special summons in cases of petty offence",
+   "indexable": true,
+   "number": "229",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/229/",
+   "words": 305
+  },
+  {
+   "heading": "Supply to accused of copy of police report and other documents",
+   "indexable": true,
+   "number": "230",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/230/",
+   "words": 283
+  },
+  {
+   "heading": "Supply of copies of statements and documents to accused in other cases triable by Court of Session",
+   "indexable": true,
+   "number": "231",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/231/",
+   "words": 152
+  },
+  {
+   "heading": "Commitment of case to Court of Session when offence is triable exclusively by it",
+   "indexable": true,
+   "number": "232",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/232/",
+   "words": 238
+  },
+  {
+   "heading": "Procedure to be followed when there is a complaint case and police investigation in respect of same offence",
+   "indexable": true,
+   "number": "233",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/233/",
+   "words": 210
+  },
+  {
+   "heading": "Contents of charge",
+   "indexable": true,
+   "number": "234",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/234/",
+   "words": 509
+  },
+  {
+   "heading": "Particulars as to time, place and person",
+   "indexable": true,
+   "number": "235",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/235/",
+   "words": 163
+  },
+  {
+   "heading": "When manner of committing offence must be stated",
+   "indexable": true,
+   "number": "236",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/236/",
+   "words": 244
+  },
+  {
+   "heading": "Words in charge taken in sense of law under which offence is punishable",
+   "indexable": true,
+   "number": "237",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/237/",
+   "words": 32
+  },
+  {
+   "heading": "Effect of errors",
+   "indexable": true,
+   "number": "238",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/238/",
+   "words": 414
+  },
+  {
+   "heading": "Court may alter charge",
+   "indexable": true,
+   "number": "239",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/239/",
+   "words": 211
+  },
+  {
+   "heading": "Recall of witnesses when charge altered",
+   "indexable": true,
+   "number": "240",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/240/",
+   "words": 104
+  },
+  {
+   "heading": "Separate charges for distinct offences",
+   "indexable": true,
+   "number": "241",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/241/",
+   "words": 122
+  },
+  {
+   "heading": "Offences of same kind within year may be charged together",
+   "indexable": true,
+   "number": "242",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/242/",
+   "words": 181
+  },
+  {
+   "heading": "Trial for more than one offence",
+   "indexable": true,
+   "number": "243",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/243/",
+   "words": 930
+  },
+  {
+   "heading": "Where it is doubtful what offence has been committed",
+   "indexable": true,
+   "number": "244",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/244/",
+   "words": 300
+  },
+  {
+   "heading": "When offence proved included in offence charged",
+   "indexable": true,
+   "number": "245",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/245/",
+   "words": 276
+  },
+  {
+   "heading": "What persons may be charged jointly",
+   "indexable": true,
+   "number": "246",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/246/",
+   "words": 324
+  },
+  {
+   "heading": "Withdrawal of remaining charges on conviction on one of several charges",
+   "indexable": true,
+   "number": "247",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/247/",
+   "words": 120
+  },
+  {
+   "heading": "Trial to be conducted by Public Prosecutor",
+   "indexable": true,
+   "number": "248",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/248/",
+   "words": 17
+  },
+  {
+   "heading": "Opening case for prosecution",
+   "indexable": true,
+   "number": "249",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/249/",
+   "words": 60
+  },
+  {
+   "heading": "Discharge",
+   "indexable": true,
+   "number": "250",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/250/",
+   "words": 81
+  },
+  {
+   "heading": "Framing of charge",
+   "indexable": true,
+   "number": "251",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/251/",
+   "words": 198
+  },
+  {
+   "heading": "Conviction on plea of guilty",
+   "indexable": true,
+   "number": "252",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/252/",
+   "words": 19
+  },
+  {
+   "heading": "Date for prosecution evidence",
+   "indexable": true,
+   "number": "253",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/253/",
+   "words": 61
+  },
+  {
+   "heading": "Evidence for prosecution",
+   "indexable": true,
+   "number": "254",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/254/",
+   "words": 88
+  },
+  {
+   "heading": "Acquittal",
+   "indexable": true,
+   "number": "255",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/255/",
+   "words": 43
+  },
+  {
+   "heading": "Entering upon defence",
+   "indexable": true,
+   "number": "256",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/256/",
+   "words": 114
+  },
+  {
+   "heading": "Arguments",
+   "indexable": true,
+   "number": "257",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/257/",
+   "words": 65
+  },
+  {
+   "heading": "Judgment of acquittal or conviction",
+   "indexable": true,
+   "number": "258",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/258/",
+   "words": 90
+  },
+  {
+   "heading": "Previous conviction",
+   "indexable": true,
+   "number": "259",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/259/",
+   "words": 119
+  },
+  {
+   "heading": "Procedure in cases instituted under sub-section (2) of section 222",
+   "indexable": true,
+   "number": "260",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/260/",
+   "words": 446
+  },
+  {
+   "heading": "Compliance with section 230",
+   "indexable": true,
+   "number": "261",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/261/",
+   "words": 39
+  },
+  {
+   "heading": "When accused shall be discharged",
+   "indexable": true,
+   "number": "262",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/262/",
+   "words": 100
+  },
+  {
+   "heading": "Framing of charge",
+   "indexable": true,
+   "number": "263",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/263/",
+   "words": 104
+  },
+  {
+   "heading": "Conviction on plea of guilty",
+   "indexable": true,
+   "number": "264",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/264/",
+   "words": 19
+  },
+  {
+   "heading": "Evidence for prosecution",
+   "indexable": true,
+   "number": "265",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/265/",
+   "words": 172
+  },
+  {
+   "heading": "Evidence for defence",
+   "indexable": true,
+   "number": "266",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/266/",
+   "words": 232
+  },
+  {
+   "heading": "Evidence for prosecution",
+   "indexable": true,
+   "number": "267",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/267/",
+   "words": 73
+  },
+  {
+   "heading": "When accused shall be discharged",
+   "indexable": true,
+   "number": "268",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/268/",
+   "words": 81
+  },
+  {
+   "heading": "Procedure where accused is not discharged",
+   "indexable": true,
+   "number": "269",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/269/",
+   "words": 321
+  },
+  {
+   "heading": "Evidence for defence",
+   "indexable": true,
+   "number": "270",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/270/",
+   "words": 27
+  },
+  {
+   "heading": "Acquittal or conviction",
+   "indexable": true,
+   "number": "271",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/271/",
+   "words": 190
+  },
+  {
+   "heading": "Absence of complainant",
+   "indexable": true,
+   "number": "272",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/272/",
+   "words": 69
+  },
+  {
+   "heading": "Compensation for accusation without reasonable cause",
+   "indexable": true,
+   "number": "273",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/273/",
+   "words": 522
+  },
+  {
+   "heading": "Substance of accusation to be stated",
+   "indexable": true,
+   "number": "274",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/274/",
+   "words": 83
+  },
+  {
+   "heading": "Conviction on plea of guilty",
+   "indexable": true,
+   "number": "275",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/275/",
+   "words": 30
+  },
+  {
+   "heading": "Conviction on plea of guilty in absence of accused in petty cases",
+   "indexable": true,
+   "number": "276",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/276/",
+   "words": 145
+  },
+  {
+   "heading": "Procedure when not convicted",
+   "indexable": true,
+   "number": "277",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/277/",
+   "words": 121
+  },
+  {
+   "heading": "Acquittal or conviction",
+   "indexable": true,
+   "number": "278",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/278/",
+   "words": 130
+  },
+  {
+   "heading": "Non-appearance or death of complainant",
+   "indexable": true,
+   "number": "279",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/279/",
+   "words": 150
+  },
+  {
+   "heading": "Withdrawal of complaint",
+   "indexable": true,
+   "number": "280",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/280/",
+   "words": 72
+  },
+  {
+   "heading": "Power to stop proceedings in certain cases",
+   "indexable": true,
+   "number": "281",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/281/",
+   "words": 86
+  },
+  {
+   "heading": "Power of Court to convert summons-cases into warrant-cases",
+   "indexable": true,
+   "number": "282",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/282/",
+   "words": 79
+  },
+  {
+   "heading": "Power to try summarily",
+   "indexable": true,
+   "number": "283",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/283/",
+   "words": 350
+  },
+  {
+   "heading": "Summary trial by Magistrate of second class",
+   "indexable": true,
+   "number": "284",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/284/",
+   "words": 56
+  },
+  {
+   "heading": "Procedure for summary trials",
+   "indexable": true,
+   "number": "285",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/285/",
+   "words": 47
+  },
+  {
+   "heading": "Record in summary trials",
+   "indexable": true,
+   "number": "286",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/286/",
+   "words": 134
+  },
+  {
+   "heading": "Judgment in cases tried summarily",
+   "indexable": true,
+   "number": "287",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/287/",
+   "words": 35
+  },
+  {
+   "heading": "Language of record and judgment",
+   "indexable": true,
+   "number": "288",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/288/",
+   "words": 64
+  },
+  {
+   "heading": "Application of Chapter",
+   "indexable": true,
+   "number": "289",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/289/",
+   "words": 202
+  },
+  {
+   "heading": "Application for plea bargaining",
+   "indexable": true,
+   "number": "290",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/290/",
+   "words": 351
+  },
+  {
+   "heading": "Guidelines for mutually satisfactory disposition",
+   "indexable": true,
+   "number": "291",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/291/",
+   "words": 234
+  },
+  {
+   "heading": "Report of mutually satisfactory disposition to be submitted before Court",
+   "indexable": true,
+   "number": "292",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/292/",
+   "words": 89
+  },
+  {
+   "heading": "Disposal of case",
+   "indexable": true,
+   "number": "293",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/293/",
+   "words": 328
+  },
+  {
+   "heading": "Judgment of Court",
+   "indexable": true,
+   "number": "294",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/294/",
+   "words": 28
+  },
+  {
+   "heading": "Finality of judgment",
+   "indexable": true,
+   "number": "295",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/295/",
+   "words": 42
+  },
+  {
+   "heading": "Power of Court in plea bargaining",
+   "indexable": true,
+   "number": "296",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/296/",
+   "words": 41
+  },
+  {
+   "heading": "Period of detention undergone by accused to be set off against sentence of imprisonment",
+   "indexable": true,
+   "number": "297",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/297/",
+   "words": 45
+  },
+  {
+   "heading": "Savings",
+   "indexable": true,
+   "number": "298",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/298/",
+   "words": 71
+  },
+  {
+   "heading": "Statements of accused not to be used",
+   "indexable": true,
+   "number": "299",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/299/",
+   "words": 45
+  },
+  {
+   "heading": "Non-application of Chapter",
+   "indexable": true,
+   "number": "300",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/300/",
+   "words": 30
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "301",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/301/",
+   "words": 50
+  },
+  {
+   "heading": "Power to require attendance of prisoners",
+   "indexable": true,
+   "number": "302",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/302/",
+   "words": 204
+  },
+  {
+   "heading": "Power of State Government or Central Government to exclude certain persons from operation of section 302",
+   "indexable": true,
+   "number": "303",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/303/",
+   "words": 192
+  },
+  {
+   "heading": "Officer in charge of prison to abstain from carrying out order in certain contingencies",
+   "indexable": true,
+   "number": "304",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/304/",
+   "words": 177
+  },
+  {
+   "heading": "Prisoner to be brought to Court in custody",
+   "indexable": true,
+   "number": "305",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/305/",
+   "words": 107
+  },
+  {
+   "heading": "Power to issue commission for examination of witness in prison",
+   "indexable": true,
+   "number": "306",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/306/",
+   "words": 76
+  },
+  {
+   "heading": "Language of Courts",
+   "indexable": true,
+   "number": "307",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/307/",
+   "words": 26
+  },
+  {
+   "heading": "Evidence to be taken in presence of accused",
+   "indexable": true,
+   "number": "308",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/308/",
+   "words": 139
+  },
+  {
+   "heading": "Record in summons-cases and inquiries",
+   "indexable": true,
+   "number": "309",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/309/",
+   "words": 110
+  },
+  {
+   "heading": "Record in warrant-cases",
+   "indexable": true,
+   "number": "310",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/310/",
+   "words": 191
+  },
+  {
+   "heading": "Record in trial before Court of Session",
+   "indexable": true,
+   "number": "311",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/311/",
+   "words": 117
+  },
+  {
+   "heading": "Language of record of evidence",
+   "indexable": true,
+   "number": "312",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/312/",
+   "words": 185
+  },
+  {
+   "heading": "Procedure in regard to such evidence when completed",
+   "indexable": true,
+   "number": "313",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/313/",
+   "words": 152
+  },
+  {
+   "heading": "Interpretation of evidence to accused or his advocate",
+   "indexable": true,
+   "number": "314",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/314/",
+   "words": 103
+  },
+  {
+   "heading": "Remarks respecting demeanour of witness",
+   "indexable": true,
+   "number": "315",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/315/",
+   "words": 34
+  },
+  {
+   "heading": "Record of examination of accused",
+   "indexable": true,
+   "number": "316",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/316/",
+   "words": 251
+  },
+  {
+   "heading": "Interpreter to be bound to interpret truthfully",
+   "indexable": true,
+   "number": "317",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/317/",
+   "words": 34
+  },
+  {
+   "heading": "Record in High Court",
+   "indexable": true,
+   "number": "318",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/318/",
+   "words": 45
+  },
+  {
+   "heading": "When attendance of witness may be dispensed with and commission issued",
+   "indexable": true,
+   "number": "319",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/319/",
+   "words": 181
+  },
+  {
+   "heading": "Commission to whom to be issued",
+   "indexable": true,
+   "number": "320",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/320/",
+   "words": 147
+  },
+  {
+   "heading": "Execution of commissions",
+   "indexable": true,
+   "number": "321",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/321/",
+   "words": 61
+  },
+  {
+   "heading": "Parties may examine witnesses",
+   "indexable": true,
+   "number": "322",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/322/",
+   "words": 101
+  },
+  {
+   "heading": "Return of commission",
+   "indexable": true,
+   "number": "323",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/323/",
+   "words": 114
+  },
+  {
+   "heading": "Adjournment of proceeding",
+   "indexable": true,
+   "number": "324",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/324/",
+   "words": 35
+  },
+  {
+   "heading": "Execution of foreign commissions",
+   "indexable": true,
+   "number": "325",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/325/",
+   "words": 149
+  },
+  {
+   "heading": "Deposition of medical witness",
+   "indexable": true,
+   "number": "326",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/326/",
+   "words": 86
+  },
+  {
+   "heading": "Identification report of Magistrate",
+   "indexable": true,
+   "number": "327",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/327/",
+   "words": 135
+  },
+  {
+   "heading": "Evidence of officers of Mint",
+   "indexable": true,
+   "number": "328",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/328/",
+   "words": 287
+  },
+  {
+   "heading": "Reports of certain Government scientific experts",
+   "indexable": true,
+   "number": "329",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/329/",
+   "words": 229
+  },
+  {
+   "heading": "No formal proof of certain documents",
+   "indexable": true,
+   "number": "330",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/330/",
+   "words": 197
+  },
+  {
+   "heading": "Affidavit in proof of conduct of public servants",
+   "indexable": true,
+   "number": "331",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/331/",
+   "words": 62
+  },
+  {
+   "heading": "Evidence of formal character on affidavit",
+   "indexable": true,
+   "number": "332",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/332/",
+   "words": 72
+  },
+  {
+   "heading": "Authorities before whom affidavits may be sworn",
+   "indexable": true,
+   "number": "333",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/333/",
+   "words": 123
+  },
+  {
+   "heading": "Previous conviction or acquittal how proved",
+   "indexable": true,
+   "number": "334",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/334/",
+   "words": 138
+  },
+  {
+   "heading": "Record of evidence in absence of accused",
+   "indexable": true,
+   "number": "335",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/335/",
+   "words": 215
+  },
+  {
+   "heading": "Evidence of public servants, experts, police officers in certain cases",
+   "indexable": true,
+   "number": "336",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/336/",
+   "words": 184
+  },
+  {
+   "heading": "Person once convicted or acquitted not to be tried for same offence",
+   "indexable": true,
+   "number": "337",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/337/",
+   "words": 568
+  },
+  {
+   "heading": "Appearance by Public Prosecutors",
+   "indexable": true,
+   "number": "338",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/338/",
+   "words": 107
+  },
+  {
+   "heading": "Permission to conduct prosecution",
+   "indexable": true,
+   "number": "339",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/339/",
+   "words": 102
+  },
+  {
+   "heading": "Right of person against whom proceedings are instituted to be defended",
+   "indexable": true,
+   "number": "340",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/340/",
+   "words": 30
+  },
+  {
+   "heading": "Legal aid to accused at State expense in certain cases",
+   "indexable": true,
+   "number": "341",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/341/",
+   "words": 163
+  },
+  {
+   "heading": "Procedure when corporation or registered society is an accused",
+   "indexable": true,
+   "number": "342",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/342/",
+   "words": 304
+  },
+  {
+   "heading": "Tender of pardon to accomplice",
+   "indexable": true,
+   "number": "343",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/343/",
+   "words": 391
+  },
+  {
+   "heading": "Power to direct tender of pardon",
+   "indexable": true,
+   "number": "344",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/344/",
+   "words": 60
+  },
+  {
+   "heading": "Trial of person not complying with conditions of pardon",
+   "indexable": true,
+   "number": "345",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/345/",
+   "words": 364
+  },
+  {
+   "heading": "Power to postpone or adjourn proceedings",
+   "indexable": true,
+   "number": "346",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/346/",
+   "words": 473
+  },
+  {
+   "heading": "Local inspection",
+   "indexable": true,
+   "number": "347",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/347/",
+   "words": 121
+  },
+  {
+   "heading": "Power to summon material witness, or examine person present",
+   "indexable": true,
+   "number": "348",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/348/",
+   "words": 72
+  },
+  {
+   "heading": "Power of Magistrate to order person to give specimen signatures or handwriting, etc",
+   "indexable": true,
+   "number": "349",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/349/",
+   "words": 145
+  },
+  {
+   "heading": "Expenses of complainants and witnesses",
+   "indexable": true,
+   "number": "350",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/350/",
+   "words": 51
+  },
+  {
+   "heading": "Power to examine accused",
+   "indexable": true,
+   "number": "351",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/351/",
+   "words": 226
+  },
+  {
+   "heading": "Oral arguments and memorandum of arguments",
+   "indexable": true,
+   "number": "352",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/352/",
+   "words": 132
+  },
+  {
+   "heading": "Accused person to be competent witness",
+   "indexable": true,
+   "number": "353",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/353/",
+   "words": 214
+  },
+  {
+   "heading": "No influence to be used to induce disclosure",
+   "indexable": true,
+   "number": "354",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/354/",
+   "words": 38
+  },
+  {
+   "heading": "Provision for inquiries and trial being held in absence of accused in certain cases",
+   "indexable": true,
+   "number": "355",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/355/",
+   "words": 171
+  },
+  {
+   "heading": "Inquiry, trial or judgment in absentia of proclaimed offender",
+   "indexable": true,
+   "number": "356",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/356/",
+   "words": 551
+  },
+  {
+   "heading": "Procedure where accused does not understand proceedings",
+   "indexable": true,
+   "number": "357",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/357/",
+   "words": 76
+  },
+  {
+   "heading": "Power to proceed against other persons appearing to be guilty of offence",
+   "indexable": true,
+   "number": "358",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/358/",
+   "words": 187
+  },
+  {
+   "heading": "Compounding of offences",
+   "indexable": true,
+   "number": "359",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/359/",
+   "words": 1355
+  },
+  {
+   "heading": "Withdrawal from prosecution",
+   "indexable": true,
+   "number": "360",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/360/",
+   "words": 276
+  },
+  {
+   "heading": "Procedure in cases which Magistrate cannot dispose of",
+   "indexable": true,
+   "number": "361",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/361/",
+   "words": 148
+  },
+  {
+   "heading": "Procedure when after commencement of inquiry or trial, Magistrate finds case should be committed",
+   "indexable": true,
+   "number": "362",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/362/",
+   "words": 68
+  },
+  {
+   "heading": "Trial of persons previously convicted of offences against coinage, stamp-law or property",
+   "indexable": true,
+   "number": "363",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/363/",
+   "words": 186
+  },
+  {
+   "heading": "Procedure when Magistrate cannot pass sentence sufficiently severe",
+   "indexable": true,
+   "number": "364",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/364/",
+   "words": 205
+  },
+  {
+   "heading": "Conviction or commitment on evidence partly recorded by one Magistrate and partly by another",
+   "indexable": true,
+   "number": "365",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/365/",
+   "words": 214
+  },
+  {
+   "heading": "Court to be open",
+   "indexable": true,
+   "number": "366",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/366/",
+   "words": 295
+  },
+  {
+   "heading": "Procedure in case of accused being person of unsound mind",
+   "indexable": true,
+   "number": "367",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/367/",
+   "words": 488
+  },
+  {
+   "heading": "Procedure in case of person of unsound mind tried before Court",
+   "indexable": true,
+   "number": "368",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/368/",
+   "words": 455
+  },
+  {
+   "heading": "Release of person of unsound mind pending investigation or trial",
+   "indexable": true,
+   "number": "369",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/369/",
+   "words": 400
+  },
+  {
+   "heading": "Resumption of inquiry or trial",
+   "indexable": true,
+   "number": "370",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/370/",
+   "words": 107
+  },
+  {
+   "heading": "Procedure on accused appearing before Magistrate or Court",
+   "indexable": true,
+   "number": "371",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/371/",
+   "words": 106
+  },
+  {
+   "heading": "When accused appears to have been of sound mind",
+   "indexable": true,
+   "number": "372",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/372/",
+   "words": 116
+  },
+  {
+   "heading": "Judgment of acquittal on ground of unsoundness of mind",
+   "indexable": true,
+   "number": "373",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/373/",
+   "words": 64
+  },
+  {
+   "heading": "Person acquitted on ground of unsoundness of mind to be detained in safe custody",
+   "indexable": true,
+   "number": "374",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/374/",
+   "words": 231
+  },
+  {
+   "heading": "Power of State Government to empower officer in charge to discharge",
+   "indexable": true,
+   "number": "375",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/375/",
+   "words": 46
+  },
+  {
+   "heading": "Procedure where prisoner of unsound mind is reported capable of making his defence",
+   "indexable": true,
+   "number": "376",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/376/",
+   "words": 128
+  },
+  {
+   "heading": "Procedure where person of unsound mind detained is declared fit to be released",
+   "indexable": true,
+   "number": "377",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/377/",
+   "words": 151
+  },
+  {
+   "heading": "Delivery of person of unsound mind to care of relative or friend",
+   "indexable": true,
+   "number": "378",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/378/",
+   "words": 249
+  },
+  {
+   "heading": "Procedure in cases mentioned in section 215",
+   "indexable": true,
+   "number": "379",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/379/",
+   "words": 315
+  },
+  {
+   "heading": "Appeal",
+   "indexable": true,
+   "number": "380",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/380/",
+   "words": 140
+  },
+  {
+   "heading": "Power to order costs",
+   "indexable": true,
+   "number": "381",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/381/",
+   "words": 36
+  },
+  {
+   "heading": "Procedure of Magistrate taking cognizance",
+   "indexable": true,
+   "number": "382",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/382/",
+   "words": 107
+  },
+  {
+   "heading": "Summary procedure for trial for giving false evidence",
+   "indexable": true,
+   "number": "383",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/383/",
+   "words": 312
+  },
+  {
+   "heading": "Procedure in certain cases of contempt",
+   "indexable": true,
+   "number": "384",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/384/",
+   "words": 205
+  },
+  {
+   "heading": "Procedure where Court considers that case should not be dealt with under section 384",
+   "indexable": true,
+   "number": "385",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/385/",
+   "words": 168
+  },
+  {
+   "heading": "When Registrar or Sub-Registrar to be deemed a Civil Court",
+   "indexable": true,
+   "number": "386",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/386/",
+   "words": 36
+  },
+  {
+   "heading": "Discharge of offender on submission of apology",
+   "indexable": true,
+   "number": "387",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/387/",
+   "words": 77
+  },
+  {
+   "heading": "Imprisonment or committal of person refusing to answer or produce document",
+   "indexable": true,
+   "number": "388",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/388/",
+   "words": 157
+  },
+  {
+   "heading": "Summary procedure for punishment for non-attendance by a witness in obedience to summons",
+   "indexable": true,
+   "number": "389",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/389/",
+   "words": 150
+  },
+  {
+   "heading": "Appeals from convictions under sections 383, 384, 388 and 389",
+   "indexable": true,
+   "number": "390",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/390/",
+   "words": 159
+  },
+  {
+   "heading": "Certain Judges and Magistrates not to try certain offences when committed before themselves",
+   "indexable": true,
+   "number": "391",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/391/",
+   "words": 69
+  },
+  {
+   "heading": "Judgment",
+   "indexable": true,
+   "number": "392",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/392/",
+   "words": 492
+  },
+  {
+   "heading": "Language and contents of judgment",
+   "indexable": true,
+   "number": "393",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/393/",
+   "words": 345
+  },
+  {
+   "heading": "Order for notifying address of previously convicted offender",
+   "indexable": true,
+   "number": "394",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/394/",
+   "words": 267
+  },
+  {
+   "heading": "Order to pay compensation",
+   "indexable": true,
+   "number": "395",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/395/",
+   "words": 392
+  },
+  {
+   "heading": "Victim compensation scheme",
+   "indexable": true,
+   "number": "396",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/396/",
+   "words": 331
+  },
+  {
+   "heading": "Treatment of victims",
+   "indexable": true,
+   "number": "397",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/397/",
+   "words": 99
+  },
+  {
+   "heading": "Witness protection scheme",
+   "indexable": true,
+   "number": "398",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/398/",
+   "words": 23
+  },
+  {
+   "heading": "Compensation to persons groundlessly arrested",
+   "indexable": true,
+   "number": "399",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/399/",
+   "words": 162
+  },
+  {
+   "heading": "Order to pay costs in non-cognizable cases",
+   "indexable": true,
+   "number": "400",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/400/",
+   "words": 122
+  },
+  {
+   "heading": "Order to release on probation of good conduct or after admonition",
+   "indexable": true,
+   "number": "401",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/401/",
+   "words": 810
+  },
+  {
+   "heading": "Special reasons to be recorded in certain cases",
+   "indexable": true,
+   "number": "402",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/402/",
+   "words": 88
+  },
+  {
+   "heading": "Court not to alter judgment",
+   "indexable": true,
+   "number": "403",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/403/",
+   "words": 47
+  },
+  {
+   "heading": "Copy of judgment to be given to accused and other persons",
+   "indexable": true,
+   "number": "404",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/404/",
+   "words": 363
+  },
+  {
+   "heading": "Judgment when to be translated",
+   "indexable": true,
+   "number": "405",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/405/",
+   "words": 48
+  },
+  {
+   "heading": "Court of Session to send copy of finding and sentence to District Magistrate",
+   "indexable": true,
+   "number": "406",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/406/",
+   "words": 48
+  },
+  {
+   "heading": "Sentence of death to be submitted by Court of Session for confirmation",
+   "indexable": true,
+   "number": "407",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/407/",
+   "words": 53
+  },
+  {
+   "heading": "Power to direct further inquiry to be made or additional evidence to be taken",
+   "indexable": true,
+   "number": "408",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/408/",
+   "words": 116
+  },
+  {
+   "heading": "Power of High Court to confirm sentence or annul conviction",
+   "indexable": true,
+   "number": "409",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/409/",
+   "words": 102
+  },
+  {
+   "heading": "Confirmation or new sentence to be signed by two Judges",
+   "indexable": true,
+   "number": "410",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/410/",
+   "words": 42
+  },
+  {
+   "heading": "Procedure in case of difference of opinion",
+   "indexable": true,
+   "number": "411",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/411/",
+   "words": 31
+  },
+  {
+   "heading": "Procedure in cases submitted to High Court for confirmation",
+   "indexable": true,
+   "number": "412",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/412/",
+   "words": 75
+  },
+  {
+   "heading": "No appeal to lie unless otherwise provided",
+   "indexable": true,
+   "number": "413",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/413/",
+   "words": 85
+  },
+  {
+   "heading": "Appeal from orders requiring security or refusal to accept or rejecting surety for keeping peace or good behavior",
+   "indexable": true,
+   "number": "414",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/414/",
+   "words": 84
+  },
+  {
+   "heading": "Appeals from convictions",
+   "indexable": true,
+   "number": "415",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/415/",
+   "words": 198
+  },
+  {
+   "heading": "No appeal in certain cases when accused pleads guilty",
+   "indexable": true,
+   "number": "416",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/416/",
+   "words": 62
+  },
+  {
+   "heading": "No appeal in petty cases",
+   "indexable": true,
+   "number": "417",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/417/",
+   "words": 229
+  },
+  {
+   "heading": "Appeal by State Government against sentence",
+   "indexable": true,
+   "number": "418",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/418/",
+   "words": 279
+  },
+  {
+   "heading": "Appeal in case of acquittal",
+   "indexable": true,
+   "number": "419",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/419/",
+   "words": 408
+  },
+  {
+   "heading": "Appeal against conviction by High Court in certain cases",
+   "indexable": true,
+   "number": "420",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/420/",
+   "words": 47
+  },
+  {
+   "heading": "Special right of appeal in certain cases",
+   "indexable": true,
+   "number": "421",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/421/",
+   "words": 47
+  },
+  {
+   "heading": "Appeal to Court of Session how heard",
+   "indexable": true,
+   "number": "422",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/422/",
+   "words": 105
+  },
+  {
+   "heading": "Petition of appeal",
+   "indexable": true,
+   "number": "423",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/423/",
+   "words": 47
+  },
+  {
+   "heading": "Procedure when appellant in jail",
+   "indexable": true,
+   "number": "424",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/424/",
+   "words": 40
+  },
+  {
+   "heading": "Summary dismissal of appeal",
+   "indexable": true,
+   "number": "425",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/425/",
+   "words": 275
+  },
+  {
+   "heading": "Procedure for hearing appeals not dismissed summarily",
+   "indexable": true,
+   "number": "426",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/426/",
+   "words": 194
+  },
+  {
+   "heading": "Powers of Appellate Court",
+   "indexable": true,
+   "number": "427",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/427/",
+   "words": 344
+  },
+  {
+   "heading": "Judgments of subordinate Appellate Court",
+   "indexable": true,
+   "number": "428",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/428/",
+   "words": 62
+  },
+  {
+   "heading": "Order of High Court on appeal to be certified to lower Court",
+   "indexable": true,
+   "number": "429",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/429/",
+   "words": 132
+  },
+  {
+   "heading": "Suspension of sentence pending appeal; release of appellant on bail",
+   "indexable": true,
+   "number": "430",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/430/",
+   "words": 337
+  },
+  {
+   "heading": "Arrest of accused in appeal from acquittal",
+   "indexable": true,
+   "number": "431",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/431/",
+   "words": 53
+  },
+  {
+   "heading": "Appellate Court may take further evidence or direct it to be taken",
+   "indexable": true,
+   "number": "432",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/432/",
+   "words": 136
+  },
+  {
+   "heading": "Procedure where Judges of Court of appeal are equally divided",
+   "indexable": true,
+   "number": "433",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/433/",
+   "words": 99
+  },
+  {
+   "heading": "Finality of judgments and orders on appeal",
+   "indexable": true,
+   "number": "434",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/434/",
+   "words": 90
+  },
+  {
+   "heading": "Abatement of appeals",
+   "indexable": true,
+   "number": "435",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/435/",
+   "words": 118
+  },
+  {
+   "heading": "Reference to High Court",
+   "indexable": true,
+   "number": "436",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/436/",
+   "words": 222
+  },
+  {
+   "heading": "Disposal of case according to decision of High Court",
+   "indexable": true,
+   "number": "437",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/437/",
+   "words": 67
+  },
+  {
+   "heading": "Calling for records to exercise powers of revision",
+   "indexable": true,
+   "number": "438",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/438/",
+   "words": 207
+  },
+  {
+   "heading": "Power to order inquiry",
+   "indexable": true,
+   "number": "439",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/439/",
+   "words": 123
+  },
+  {
+   "heading": "Sessions Judge's powers of revision",
+   "indexable": true,
+   "number": "440",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/440/",
+   "words": 159
+  },
+  {
+   "heading": "Power of Additional Sessions Judge",
+   "indexable": true,
+   "number": "441",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/441/",
+   "words": 42
+  },
+  {
+   "heading": "High Court's powers of revision",
+   "indexable": true,
+   "number": "442",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/442/",
+   "words": 252
+  },
+  {
+   "heading": "Power of High Court to withdraw or transfer revision cases",
+   "indexable": true,
+   "number": "443",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/443/",
+   "words": 257
+  },
+  {
+   "heading": "Option of Court to hear parties",
+   "indexable": true,
+   "number": "444",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/444/",
+   "words": 51
+  },
+  {
+   "heading": "High Court's order to be certified to lower Court",
+   "indexable": true,
+   "number": "445",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/445/",
+   "words": 83
+  },
+  {
+   "heading": "Power of Supreme Court to transfer cases and appeals",
+   "indexable": true,
+   "number": "446",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/446/",
+   "words": 184
+  },
+  {
+   "heading": "Power of High Court to transfer cases and appeals",
+   "indexable": true,
+   "number": "447",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/447/",
+   "words": 583
+  },
+  {
+   "heading": "Power of Sessions Judge to transfer cases and appeals",
+   "indexable": true,
+   "number": "448",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/448/",
+   "words": 153
+  },
+  {
+   "heading": "Withdrawal of cases and appeals by Sessions Judges",
+   "indexable": true,
+   "number": "449",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/449/",
+   "words": 128
+  },
+  {
+   "heading": "Withdrawal of cases by Judicial Magistrates",
+   "indexable": true,
+   "number": "450",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/450/",
+   "words": 85
+  },
+  {
+   "heading": "Making over or withdrawal of cases by Executive Magistrates",
+   "indexable": true,
+   "number": "451",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/451/",
+   "words": 61
+  },
+  {
+   "heading": "Reasons to be recorded",
+   "indexable": true,
+   "number": "452",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/452/",
+   "words": 25
+  },
+  {
+   "heading": "Execution of order passed under section 409",
+   "indexable": true,
+   "number": "453",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/453/",
+   "words": 57
+  },
+  {
+   "heading": "Execution of sentence of death passed by High Court",
+   "indexable": true,
+   "number": "454",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/454/",
+   "words": 41
+  },
+  {
+   "heading": "Postponement of execution of sentence of death in case of appeal to Supreme Court",
+   "indexable": true,
+   "number": "455",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/455/",
+   "words": 246
+  },
+  {
+   "heading": "Commutation of sentence of death on pregnant woman",
+   "indexable": true,
+   "number": "456",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/456/",
+   "words": 22
+  },
+  {
+   "heading": "Power to appoint place of imprisonment",
+   "indexable": true,
+   "number": "457",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/457/",
+   "words": 192
+  },
+  {
+   "heading": "Execution of sentence of imprisonment",
+   "indexable": true,
+   "number": "458",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/458/",
+   "words": 183
+  },
+  {
+   "heading": "Direction of warrant for execution",
+   "indexable": true,
+   "number": "459",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/459/",
+   "words": 34
+  },
+  {
+   "heading": "Warrant with whom to be lodged",
+   "indexable": true,
+   "number": "460",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/460/",
+   "words": 18
+  },
+  {
+   "heading": "Warrant for levy of fine",
+   "indexable": true,
+   "number": "461",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/461/",
+   "words": 289
+  },
+  {
+   "heading": "Effect of such warrant",
+   "indexable": true,
+   "number": "462",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/462/",
+   "words": 56
+  },
+  {
+   "heading": "Warrant for levy of fine issued by a Court in any territory to which this Sanhita does not extend",
+   "indexable": true,
+   "number": "463",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/463/",
+   "words": 128
+  },
+  {
+   "heading": "Suspension of execution of sentence of imprisonment",
+   "indexable": true,
+   "number": "464",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/464/",
+   "words": 299
+  },
+  {
+   "heading": "Who may issue warrant",
+   "indexable": true,
+   "number": "465",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/465/",
+   "words": 25
+  },
+  {
+   "heading": "Sentence on escaped convict when to take effect",
+   "indexable": true,
+   "number": "466",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/466/",
+   "words": 153
+  },
+  {
+   "heading": "Sentence on offender already sentenced for another offence",
+   "indexable": true,
+   "number": "467",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/467/",
+   "words": 142
+  },
+  {
+   "heading": "Period of detention undergone by accused to be set off against sentence of imprisonment",
+   "indexable": true,
+   "number": "468",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/468/",
+   "words": 120
+  },
+  {
+   "heading": "Saving",
+   "indexable": true,
+   "number": "469",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/469/",
+   "words": 102
+  },
+  {
+   "heading": "Return of warrant on execution of sentence",
+   "indexable": true,
+   "number": "470",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/470/",
+   "words": 39
+  },
+  {
+   "heading": "Money ordered to be paid recoverable as a fine",
+   "indexable": true,
+   "number": "471",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/471/",
+   "words": 95
+  },
+  {
+   "heading": "Mercy petition in death sentence cases",
+   "indexable": true,
+   "number": "472",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/472/",
+   "words": 462
+  },
+  {
+   "heading": "Power to suspend or remit sentences",
+   "indexable": true,
+   "number": "473",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/473/",
+   "words": 487
+  },
+  {
+   "heading": "Power to commute sentence",
+   "indexable": true,
+   "number": "474",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/474/",
+   "words": 90
+  },
+  {
+   "heading": "Restriction on powers of remission or commutation in certain cases",
+   "indexable": true,
+   "number": "475",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/475/",
+   "words": 74
+  },
+  {
+   "heading": "Concurrent power of Central Government in case of death sentences",
+   "indexable": true,
+   "number": "476",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/476/",
+   "words": 27
+  },
+  {
+   "heading": "State Government to act after concurrence with Central Government in certain cases",
+   "indexable": true,
+   "number": "477",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/477/",
+   "words": 219
+  },
+  {
+   "heading": "In what cases bail to be taken",
+   "indexable": true,
+   "number": "478",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/478/",
+   "words": 275
+  },
+  {
+   "heading": "Maximum period for which under-trial prisoner can be detained",
+   "indexable": true,
+   "number": "479",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/479/",
+   "words": 339
+  },
+  {
+   "heading": "When bail may be taken in case of non-bailable offence",
+   "indexable": true,
+   "number": "480",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/480/",
+   "words": 823
+  },
+  {
+   "heading": "Bail to require accused to appear before next Appellate Court",
+   "indexable": true,
+   "number": "481",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/481/",
+   "words": 94
+  },
+  {
+   "heading": "Direction for grant of bail to person apprehending arrest",
+   "indexable": true,
+   "number": "482",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/482/",
+   "words": 334
+  },
+  {
+   "heading": "Special powers of High Court or Court of Session regarding bail",
+   "indexable": true,
+   "number": "483",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/483/",
+   "words": 290
+  },
+  {
+   "heading": "Amount of bond and reduction thereof",
+   "indexable": true,
+   "number": "484",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/484/",
+   "words": 50
+  },
+  {
+   "heading": "Bond of accused and sureties",
+   "indexable": true,
+   "number": "485",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/485/",
+   "words": 215
+  },
+  {
+   "heading": "Declaration by sureties",
+   "indexable": true,
+   "number": "486",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/486/",
+   "words": 41
+  },
+  {
+   "heading": "Discharge from custody",
+   "indexable": true,
+   "number": "487",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/487/",
+   "words": 102
+  },
+  {
+   "heading": "Power to order sufficient bail when that first taken is insufficient",
+   "indexable": true,
+   "number": "488",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/488/",
+   "words": 56
+  },
+  {
+   "heading": "Discharge of sureties",
+   "indexable": true,
+   "number": "489",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/489/",
+   "words": 120
+  },
+  {
+   "heading": "Deposit instead of recognizance",
+   "indexable": true,
+   "number": "490",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/490/",
+   "words": 60
+  },
+  {
+   "heading": "Procedure when bond has been forfeited",
+   "indexable": true,
+   "number": "491",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/491/",
+   "words": 419
+  },
+  {
+   "heading": "Cancellation of bond and bail bond",
+   "indexable": true,
+   "number": "492",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/492/",
+   "words": 176
+  },
+  {
+   "heading": "Procedure in case of insolvency or death of surety or when a bond is forfeited",
+   "indexable": true,
+   "number": "493",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/493/",
+   "words": 91
+  },
+  {
+   "heading": "Bond required from child",
+   "indexable": true,
+   "number": "494",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/494/",
+   "words": 34
+  },
+  {
+   "heading": "Appeal from orders under section 491",
+   "indexable": true,
+   "number": "495",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/495/",
+   "words": 52
+  },
+  {
+   "heading": "Power to direct levy of amount due on certain recognizances",
+   "indexable": true,
+   "number": "496",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/496/",
+   "words": 31
+  },
+  {
+   "heading": "Order for custody and disposal of property pending trial in certain cases",
+   "indexable": true,
+   "number": "497",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/497/",
+   "words": 314
+  },
+  {
+   "heading": "Order for disposal of property at conclusion of trial",
+   "indexable": true,
+   "number": "498",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/498/",
+   "words": 317
+  },
+  {
+   "heading": "Payment to innocent purchaser of money found on accused",
+   "indexable": true,
+   "number": "499",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/499/",
+   "words": 116
+  },
+  {
+   "heading": "Appeal against orders under section 498 or section 499",
+   "indexable": true,
+   "number": "500",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/500/",
+   "words": 109
+  },
+  {
+   "heading": "Destruction of libellous and other matter",
+   "indexable": true,
+   "number": "501",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/501/",
+   "words": 109
+  },
+  {
+   "heading": "Power to restore possession of immovable property",
+   "indexable": true,
+   "number": "502",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/502/",
+   "words": 210
+  },
+  {
+   "heading": "Procedure by police upon seizure of property",
+   "indexable": true,
+   "number": "503",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/503/",
+   "words": 164
+  },
+  {
+   "heading": "Procedure where no claimant appears within six months",
+   "indexable": true,
+   "number": "504",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/504/",
+   "words": 103
+  },
+  {
+   "heading": "Power to sell perishable property",
+   "indexable": true,
+   "number": "505",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/505/",
+   "words": 95
+  },
+  {
+   "heading": "Irregularities which do not vitiate proceedings",
+   "indexable": true,
+   "number": "506",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/506/",
+   "words": 157
+  },
+  {
+   "heading": "Irregularities which vitiate proceedings",
+   "indexable": true,
+   "number": "507",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/507/",
+   "words": 182
+  },
+  {
+   "heading": "Proceedings in wrong place",
+   "indexable": true,
+   "number": "508",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/508/",
+   "words": 62
+  },
+  {
+   "heading": "Non-compliance with provisions of section 183 or section 316",
+   "indexable": true,
+   "number": "509",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/509/",
+   "words": 121
+  },
+  {
+   "heading": "Effect of omission to frame, or absence of, or error in, charge",
+   "indexable": true,
+   "number": "510",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/510/",
+   "words": 189
+  },
+  {
+   "heading": "Finding or sentence when reversible by reason of error, omission or irregularity",
+   "indexable": true,
+   "number": "511",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/511/",
+   "words": 149
+  },
+  {
+   "heading": "Defect or error not to make attachment unlawful",
+   "indexable": true,
+   "number": "512",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/512/",
+   "words": 42
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "513",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/513/",
+   "words": 27
+  },
+  {
+   "heading": "Bar to taking cognizance after lapse of period of limitation",
+   "indexable": true,
+   "number": "514",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/514/",
+   "words": 165
+  },
+  {
+   "heading": "Commencement of period of limitation",
+   "indexable": true,
+   "number": "515",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/515/",
+   "words": 128
+  },
+  {
+   "heading": "Exclusion of time in certain cases",
+   "indexable": true,
+   "number": "516",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/516/",
+   "words": 313
+  },
+  {
+   "heading": "Exclusion of date on which Court is closed",
+   "indexable": true,
+   "number": "517",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/517/",
+   "words": 56
+  },
+  {
+   "heading": "Continuing offence",
+   "indexable": true,
+   "number": "518",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/518/",
+   "words": 27
+  },
+  {
+   "heading": "Extension of period of limitation in certain cases",
+   "indexable": true,
+   "number": "519",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/519/",
+   "words": 60
+  },
+  {
+   "heading": "Trials before High Courts",
+   "indexable": true,
+   "number": "520",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/520/",
+   "words": 39
+  },
+  {
+   "heading": "Delivery to commanding officers of persons liable to be tried by Court-martial",
+   "indexable": true,
+   "number": "521",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/521/",
+   "words": 312
+  },
+  {
+   "heading": "Forms",
+   "indexable": true,
+   "number": "522",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/522/",
+   "words": 44
+  },
+  {
+   "heading": "Power of High Court to make rules",
+   "indexable": true,
+   "number": "523",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/523/",
+   "words": 123
+  },
+  {
+   "heading": "Power to alter functions allocated to Executive Magistrate in certain cases",
+   "indexable": true,
+   "number": "524",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/524/",
+   "words": 52
+  },
+  {
+   "heading": "Cases in which Judge or Magistrate is personally interested",
+   "indexable": true,
+   "number": "525",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/525/",
+   "words": 135
+  },
+  {
+   "heading": "Practising advocate not to sit as Magistrate in certain Courts",
+   "indexable": true,
+   "number": "526",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/526/",
+   "words": 29
+  },
+  {
+   "heading": "Public servant concerned in sale not to purchase or bid for property",
+   "indexable": true,
+   "number": "527",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/527/",
+   "words": 27
+  },
+  {
+   "heading": "Saving of inherent powers of High Court",
+   "indexable": true,
+   "number": "528",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/528/",
+   "words": 53
+  },
+  {
+   "heading": "Duty of High Court to exercise continuous superintendence over Courts",
+   "indexable": true,
+   "number": "529",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/529/",
+   "words": 39
+  },
+  {
+   "heading": "Trial and proceedings to be held in electronic mode",
+   "indexable": true,
+   "number": "530",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/530/",
+   "words": 58
+  },
+  {
+   "heading": "Repeal and savings",
+   "indexable": true,
+   "number": "531",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/531/",
+   "words": 295
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "504efe4c",
+   "kind": "notification",
+   "relation": "mentions",
+   "title": "GSR 163(E) 25 feb 2022 Compensation to Victims of Hit & Run Motor Accidents, Scheme 2022",
+   "url": "https://indiacode.ecourtsindia.com/rules/gsr-163-e-25-feb-2022-compensation-to-victims-of-hit-and-run-motor-504efe4c/",
+   "year": 2022
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "70a204aa",
+   "kind": "notification",
+   "relation": "mentions",
+   "title": "draft GSR 526 (E) 2nd August 2021 Scheme for Compensation Hit and run",
+   "url": "https://indiacode.ecourtsindia.com/rules/draft-gsr-526-e-2nd-august-2021-scheme-for-compensation-hit-and-run-70a204aa/",
+   "year": 2021
+  }
+ ],
+ "judgments_count": 11,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Refund in certain cases of compensation paid under section 161",
+  "html": "<p><b><sup>1</sup>[Refund in certain cases of compensation paid under section <a href=\"/mv-act/section/161/\">161</a>. --</b> (1) The payment of compensation in respect of the death of, or grievous hurt to, any person under section <a href=\"/mv-act/section/161/\">161</a> shall be subject to the condition that if any compensation (hereafter in this sub-section referred to as the other compensation) or other amount in lieu of or by way of satisfaction of a claim for compensation is awarded or paid in respect of such death or grievous hurt under any other provision of this Act or any other law for the time being in force or otherwise, so much of the other compensation or other amount aforesaid as is equal to the compensation paid under section <a href=\"/mv-act/section/161/\">161</a>, shall be refunded to the insurer.</p><p><span class=\"num\">(2)</span> Before awarding compensation in respect of an accident involving the death of, or bodily injury to, any person arising out of the use of a motor vehicle under any provision of this Act other than section <a href=\"/mv-act/section/161/\">161</a> or any other law for the time being in force, the Claims Tribunal, court or other authority awarding such compensation shall verify as to whether in respect of such death or bodily injury compensation has already been paid under section <a href=\"/mv-act/section/161/\">161</a> or an application for payment of compensation is pending under that section, and such Tribunal, court or other authority shall--</p><p><span class=\"num\">(a)</span> if compensation has already been paid under section <a href=\"/mv-act/section/161/\">161</a>, direct the person liable to pay the compensation awarded by it to refund to the insurer, so much thereof as is required to be refunded in accordance with the provisions of sub-section (1);</p><p><span class=\"num\">(b)</span> if an application for payment of compensation is pending under section <a href=\"/mv-act/section/161/\">161</a> forward the particulars as to the compensation awarded by it to the insurer.</p><p><i>Explanation.--</i>For the purpose of this sub-section, an application for compensation under section <a href=\"/mv-act/section/161/\">161</a> shall be deemed to be pending--</p><p><span class=\"num\">(i)</span> if such application has been rejected, till the date of the rejection of the application; and</p><p><span class=\"num\">(ii)</span> in any other case, till the date of payment of compensation in pursuance of the application.]</p>",
+  "number": "163",
+  "text": "1[Refund in certain cases of compensation paid under section 161. -- (1) The payment of compensation in respect of the death of, or grievous hurt to, any person under section 161 shall be subject to the condition that if any compensation (hereafter in this sub-section referred to as the other compensation) or other amount in lieu of or by way of satisfaction of a claim for compensation is awarded or paid in respect of such death or grievous hurt under any other provision of this Act or any other law for the time being in force or otherwise, so much of the other compensation or other amount aforesaid as is equal to the compensation paid under section 161, shall be refunded to the insurer. (2) Before awarding compensation in respect of an accident involving the death of, or bodily injury to, any person arising out of the use of a motor vehicle under any provision of this Act other than section 161 or any other law for the time being in force, the Claims Tribunal, court or other authority awarding such compensation shall verify as to whether in respect of such death or bodily injury compensation has already been paid under section 161 or an application for payment of compensation is pending under that section, and such Tribunal, court or other authority shall-- (a) if compensation has already been paid under section 161, direct the person liable to pay the compensation awarded by it to refund to the insurer, so much thereof as is required to be refunded in accordance with the provisions of sub-section (1); (b) if an application for payment of compensation is pending under section 161 forward the particulars as to the compensation awarded by it to the insurer. Explanation.--For the purpose of this sub-section, an application for compensation under section 161 shall be deemed to be pending-- (i) if such application has been rejected, till the date of the rejection of the application; and (ii) in any other case, till the date of payment of compensation in pursuance of the application.]",
+  "words": 345
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/163/"
+}

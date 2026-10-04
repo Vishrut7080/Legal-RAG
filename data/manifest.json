@@ -1,0 +1,724 @@
+{
+  "_comment": [
+    "The corpus definition. `python -m src.fetch --dry-run` resolves this file",
+    "into a concrete request list and prints the counts; it never touches the",
+    "network beyond one metadata call per act. Read that output before you",
+    "trust this file.",
+    "",
+    "SELECTION PHILOSOPHY",
+    "Two different rules, because there are two different kinds of Act here.",
+    "",
+    "1. The recodified criminal/evidence codes (IPC, CrPC, Evidence Act and",
+    "   their 2023 replacements) are selected by `mode: mapped`, using the",
+    "   correspondence map the API publishes for the recodification. That is an",
+    "   authoritative source, so the old/new pairs in this corpus are upstream's",
+    "   judgement about which provisions are near-duplicates -- not mine. Taking",
+    "   both sides of a map puts near-identical text in one index on purpose.",
+    "",
+    "2. Acts with no repealed counterpart are selected by `mode: headings`, on",
+    "   the grounds that you cannot select by supersession what has no",
+    "   superseded version.",
+    "",
+    "WHY A SUBSET. The full corpus upstream is 271,673 sections. Fetching all of",
+    "it would take hours, commit tens of megabytes, and make every experiment",
+    "slow. The target here is roughly 600-800 provisions, which is comfortably",
+    "more distractors than a retriever needs to be honestly tested while keeping",
+    "the snapshot at a few MB.",
+    "",
+    "LICENCE. Upstream is published under s.52(1)(q)(ii), Copyright Act 1957:",
+    "the text of Acts, rules and orders is not copyrightable, but the editorial",
+    "commentary layered on top of it is. This project therefore stores only",
+    "`section.text`. `src/build.py` is responsible for not pulling in the HTML",
+    "rendering, the judgments, or the note fields."
+  ],
+  "corpus_version": "2026-10-01",
+  "source": {
+    "name": "IndiaCode Statute API",
+    "base": "https://indiacode.ecourtsindia.com/api/v1",
+    "openapi": "https://indiacode.ecourtsindia.com/api/v1/openapi.json",
+    "attribution": "Source of record: India Code (indiacode.gov.in), republished by eCourts India.",
+    "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+    "usage": "Read-only, keyless. This project fetches sequentially with a courtesy delay and identifies itself by User-Agent."
+  },
+  "mapping_pairs": [
+    "ipc-bns",
+    "crpc-bnss",
+    "iea-bsa"
+  ],
+  "acts": [
+    {
+      "id": "bns",
+      "role": "current",
+      "title": "The Bharatiya Nyaya Sanhita, 2023",
+      "why": "The general penal code in force since 2024-07-01. Replaced the IPC.",
+      "sections": {
+        "mode": "mapped",
+        "pair": "ipc-bns",
+        "side": "to",
+        "relations": [
+          "near-identical"
+        ],
+        "min_score": 0.9,
+        "intersect_headings": [
+          "murder",
+          "homicide",
+          "hurt",
+          "rape",
+          "theft",
+          "robbery",
+          "cheat",
+          "forgery",
+          "insult",
+          "intimidat",
+          "kidnap",
+          "abett",
+          "conspiracy",
+          "rioting",
+          "unlawful",
+          "dacoit",
+          "arson",
+          "attempt",
+          "bigamy",
+          "cruelty",
+          "defamation",
+          "obscen",
+          "trespass",
+          "wrongful",
+          "counterfeit",
+          "escap",
+          "mische",
+          "assault",
+          "criminal force",
+          "stalking",
+          "harass",
+          "dowry",
+          "suicide",
+          "acid",
+          "terrorism",
+          "organised crime",
+          "slave",
+          "adultery",
+          "procur",
+          "exhibition",
+          "defacing",
+          "tampering",
+          "personat",
+          "committing theft",
+          "abetment"
+        ],
+        "also_include": [
+          "1"
+        ]
+      },
+      "label": "BNS",
+      "also_include_why": "Short title, commencement and extent. Carries the statement of what the Sanhita is, and the repeal clause naming the Indian Penal Code."
+    },
+    {
+      "id": "ipc",
+      "role": "repealed",
+      "title": "The Indian Penal Code, 1860",
+      "why": "Repealed 2024-07-01. Held deliberately, because it is the corpus's hardest distractor: near-identical to BNS and still full-text searchable, so a retriever that ignores in_force will return it.",
+      "sections": {
+        "mode": "mapped",
+        "pair": "ipc-bns",
+        "side": "from",
+        "relations": [
+          "near-identical"
+        ],
+        "min_score": 0.9,
+        "intersect_headings": [
+          "murder",
+          "homicide",
+          "hurt",
+          "rape",
+          "theft",
+          "robbery",
+          "cheat",
+          "forgery",
+          "insult",
+          "intimidat",
+          "kidnap",
+          "abett",
+          "conspiracy",
+          "rioting",
+          "unlawful",
+          "dacoit",
+          "arson",
+          "attempt",
+          "bigamy",
+          "cruelty",
+          "defamation",
+          "obscen",
+          "trespass",
+          "wrongful",
+          "counterfeit",
+          "escap",
+          "mische",
+          "assault",
+          "criminal force",
+          "stalking",
+          "harass",
+          "dowry",
+          "suicide",
+          "acid",
+          "terrorism",
+          "organised crime",
+          "slave",
+          "adultery",
+          "procur",
+          "exhibition",
+          "defacing",
+          "tampering",
+          "personat",
+          "committing theft",
+          "abetment"
+        ],
+        "also_include": [
+          "323",
+          "341",
+          "348"
+        ]
+      },
+      "label": "IPC",
+      "also_include_why": "Voluntarily causing hurt (s.323), wrongful restraint (s.341) and wrongful confinement (s.348). Their BNS counterparts score 0.88/0.82/0.75 under the ipc-bns map, below the 0.9 near-identical cut-off, so these three genuine old/new pairs would otherwise be missing from the corpus."
+    },
+    {
+      "id": "bnss",
+      "role": "current",
+      "title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+      "why": "Criminal procedure in force since 2024-07-01. Replaced the CrPC.",
+      "sections": {
+        "mode": "mapped",
+        "pair": "crpc-bnss",
+        "side": "to",
+        "relations": [
+          "near-identical"
+        ],
+        "min_score": 0.96,
+        "intersect_headings": [
+          "arrest",
+          "bail",
+          "warrant",
+          "summons",
+          "summon",
+          "search",
+          "seiz",
+          "custody",
+          "remand",
+          "detention",
+          "charge",
+          "charge-sheet",
+          "cognizable",
+          "bailable",
+          "magistrate",
+          "examination",
+          "accused",
+          "prosecution",
+          "appeal",
+          "revision",
+          "inherent",
+          "proclamation"
+        ],
+        "also_include": [
+          "1"
+        ]
+      },
+      "label": "BNSS",
+      "also_include_why": "Short title, commencement and extent. The repeal clause here names the Code of Criminal Procedure."
+    },
+    {
+      "id": "crpc",
+      "role": "repealed",
+      "title": "The Code of Criminal Procedure, 1973",
+      "why": "Repealed 2024-07-01. The procedural twin of the BNSS selection above.",
+      "sections": {
+        "mode": "mapped",
+        "pair": "crpc-bnss",
+        "side": "from",
+        "relations": [
+          "near-identical"
+        ],
+        "min_score": 0.96,
+        "intersect_headings": [
+          "arrest",
+          "bail",
+          "warrant",
+          "summons",
+          "summon",
+          "search",
+          "seiz",
+          "custody",
+          "remand",
+          "detention",
+          "charge",
+          "charge-sheet",
+          "cognizable",
+          "bailable",
+          "magistrate",
+          "examination",
+          "accused",
+          "prosecution",
+          "appeal",
+          "revision",
+          "inherent",
+          "proclamation"
+        ]
+      },
+      "label": "CrPC"
+    },
+    {
+      "id": "bsa",
+      "role": "current",
+      "title": "The Bharatiya Sakshya Adhiniyam, 2023",
+      "why": "The evidence code in force since 2024-07-01. Replaced the Evidence Act.",
+      "sections": {
+        "mode": "mapped",
+        "pair": "iea-bsa",
+        "side": "to",
+        "relations": [
+          "near-identical",
+          "close"
+        ],
+        "min_score": 0.75,
+        "intersect_headings": [
+          "confession",
+          "accomplice",
+          "expert",
+          "documentary",
+          "dying declaration",
+          "electronic record",
+          "circumstantial",
+          "burden of proof",
+          "res gestae",
+          "hearsay",
+          "character",
+          "previous statement",
+          "rebut",
+          "exclusion",
+          "examination",
+          "identification",
+          "deposition",
+          "prosecution",
+          "defence",
+          "witness",
+          "proof",
+          "evidence",
+          "deposition",
+          "admission"
+        ],
+        "also_include": [
+          "1"
+        ]
+      },
+      "label": "BSA",
+      "also_include_why": "Short title, commencement and extent. The repeal clause here names the Indian Evidence Act 1872."
+    },
+    {
+      "id": "iea",
+      "role": "repealed",
+      "title": "The Indian Evidence Act, 1872",
+      "why": "Repealed 2024-07-01. The hardest distractor in the evidence half of the corpus.",
+      "sections": {
+        "mode": "mapped",
+        "pair": "iea-bsa",
+        "side": "from",
+        "relations": [
+          "near-identical",
+          "close"
+        ],
+        "min_score": 0.75,
+        "intersect_headings": [
+          "confession",
+          "accomplice",
+          "expert",
+          "documentary",
+          "dying declaration",
+          "electronic record",
+          "circumstantial",
+          "burden of proof",
+          "res gestae",
+          "hearsay",
+          "character",
+          "previous statement",
+          "rebut",
+          "exclusion",
+          "examination",
+          "identification",
+          "deposition",
+          "prosecution",
+          "defence",
+          "witness",
+          "proof",
+          "evidence",
+          "deposition",
+          "admission"
+        ]
+      },
+      "label": "Evidence Act"
+    },
+    {
+      "id": "ni-act",
+      "role": "current",
+      "title": "The Negotiable Instruments Act, 1881",
+      "why": "Bankruptcy-adjacent consumer law with genuinely searchable procedure: cheque dishonour, s.138 notices, limitation. No repealed predecessor, so selected topically.",
+      "sections": {
+        "mode": "headings",
+        "contains": [
+          "dishonour",
+          "dishonor",
+          "cheque",
+          "notice",
+          "compensation",
+          "limitation",
+          "jurisdiction",
+          "offence",
+          "payee",
+          "holder",
+          "presumption",
+          "prosecution",
+          "appeal",
+          "stay",
+          "bail"
+        ]
+      },
+      "label": "NI Act"
+    },
+    {
+      "id": "contract-act",
+      "role": "current",
+      "title": "The Indian Contract Act, 1872",
+      "why": "The core of commercial reasoning: offer, acceptance, consideration, breach, void agreements.",
+      "sections": {
+        "mode": "headings",
+        "contains": [
+          "offer",
+          "acceptance",
+          "consideration",
+          "void",
+          "mistake",
+          "fraud",
+          "undue influence",
+          "coercion",
+          "liquidated",
+          "breach",
+          "capacity",
+          "discharge"
+        ]
+      },
+      "label": "Contract Act"
+    },
+    {
+      "id": "specific-relief-act",
+      "role": "current",
+      "title": "The Specific Relief Act, 1963",
+      "why": "Small enough to take whole; pairs with the Contract Act for remedies questions.",
+      "sections": {
+        "mode": "headings",
+        "contains": [
+          "specific performance",
+          "injunction",
+          "decree",
+          "relief",
+          "contract",
+          "rescission",
+          "cancellation",
+          "enforcement",
+          "damages"
+        ]
+      },
+      "label": "Specific Relief Act"
+    },
+    {
+      "id": "consumer-protection-act",
+      "role": "current",
+      "title": "The Consumer Protection Act, 2019",
+      "why": "Supplements the 2019 rules and gives a consumer-law flavour to the same retrieval problem.",
+      "sections": {
+        "mode": "headings",
+        "contains": [
+          "complaint",
+          "consumer",
+          "service provider",
+          "product",
+          "defect",
+          "deficiency",
+          "misrepresentation",
+          "district commission",
+          "appeal",
+          "limitation",
+          "jurisdiction",
+          "settlement",
+          "withdraw",
+          "notice",
+          "e-commerce",
+          "undertaking"
+        ]
+      },
+      "label": "Consumer Protection Act"
+    },
+    {
+      "id": "it-act",
+      "role": "current",
+      "title": "The Information Technology Act, 2000",
+      "why": "Digital-era offences and evidence, which is where statute QA gets its modern traps.",
+      "sections": {
+        "mode": "headings",
+        "contains": [
+          "intermediary",
+          "electronic",
+          "computer",
+          "network",
+          "data",
+          "message",
+          "certificate",
+          "body",
+          "offence",
+          "punishment",
+          "obscen",
+          "child",
+          "privacy",
+          "compens",
+          "exemption"
+        ]
+      },
+      "label": "IT Act"
+    },
+    {
+      "id": "arbitration-act",
+      "role": "current",
+      "title": "The Arbitration and Conciliation Act, 1996",
+      "why": "A different procedural register from the criminal codes, which keeps retrieval from overfitting to one document style.",
+      "sections": {
+        "mode": "headings",
+        "contains": [
+          "arbitration agreement",
+          "arbitration",
+          "arbitral",
+          "tribunal",
+          "award",
+          "enforcement",
+          "challenge",
+          "limitation",
+          "interim",
+          "confidential",
+          "appointment",
+          "seat",
+          "place"
+        ]
+      },
+      "label": "Arbitration Act"
+    },
+    {
+      "id": "mv-act",
+      "role": "current",
+      "title": "The Motor Vehicles Act, 1988",
+      "why": "A statute read mostly by insurance and claims questions, so the phrasing differs from a penal code.",
+      "sections": {
+        "mode": "headings",
+        "contains": [
+          "accident",
+          "claim",
+          "compensation",
+          "insurance",
+          "third part"
+        ]
+      },
+      "label": "Motor Vehicles Act"
+    },
+    {
+      "id": "limitation-act",
+      "role": "current",
+      "title": "The Limitation Act, 1963",
+      "why": "Take it whole -- it is the statute you always need and it is only 32 sections.",
+      "sections": {
+        "mode": "all"
+      },
+      "label": "Limitation Act"
+    }
+  ],
+  "rules": [
+    {
+      "act": "cpc",
+      "order": "7",
+      "rule": "11",
+      "why": "Rejection of plaint. The canonical CPC rule, and a genuinely different document type from a section."
+    },
+    {
+      "act": "cpc",
+      "order": "7",
+      "rule": "10",
+      "why": "Return of plaint. Sits next to r.11, so it is a hard lexical neighbour."
+    },
+    {
+      "act": "cpc",
+      "order": "7",
+      "rule": "9",
+      "why": "Admission of plaint."
+    },
+    {
+      "act": "cpc",
+      "order": "7",
+      "rule": "14",
+      "why": "Rejection on the ground of undervalued claim."
+    },
+    {
+      "act": "cpc",
+      "order": "7",
+      "rule": "15",
+      "why": "Rejection on the ground of undervalued suit."
+    },
+    {
+      "act": "cpc",
+      "order": "6",
+      "rule": "17",
+      "why": "Suits of a small cause nature."
+    },
+    {
+      "act": "cpc",
+      "order": "5",
+      "rule": "1",
+      "why": "Plaint to be filed in duplicate, and the fee."
+    },
+    {
+      "act": "cpc",
+      "order": "1",
+      "rule": "10",
+      "why": "Summons."
+    },
+    {
+      "act": "cpc",
+      "order": "8",
+      "rule": "1",
+      "why": "Written statement."
+    },
+    {
+      "act": "cpc",
+      "order": "8",
+      "rule": "10",
+      "why": "Unverified allegations in the written statement. Order 8 ends at r.10a upstream, so r.20 does not exist and the first fetch attempt failed on it."
+    },
+    {
+      "act": "cpc",
+      "order": "9",
+      "rule": "9",
+      "why": "Appearance and examination of witnesses."
+    },
+    {
+      "act": "cpc",
+      "order": "9",
+      "rule": "13",
+      "why": "Recording of evidence."
+    },
+    {
+      "act": "cpc",
+      "order": "11",
+      "rule": "1",
+      "why": "Application for review."
+    },
+    {
+      "act": "cpc",
+      "order": "14",
+      "rule": "1",
+      "why": "Framing of issues."
+    },
+    {
+      "act": "cpc",
+      "order": "14",
+      "rule": "2",
+      "why": "Issues of fact."
+    },
+    {
+      "act": "cpc",
+      "order": "16",
+      "rule": "1",
+      "why": "Commencement of suits."
+    },
+    {
+      "act": "cpc",
+      "order": "19",
+      "rule": "2",
+      "why": "Attachment of property."
+    },
+    {
+      "act": "cpc",
+      "order": "26",
+      "rule": "1",
+      "why": "Summons."
+    },
+    {
+      "act": "cpc",
+      "order": "26",
+      "rule": "4",
+      "why": "Service of summons."
+    },
+    {
+      "act": "cpc",
+      "order": "26",
+      "rule": "9",
+      "why": "Service where the defendant is absent from his residence."
+    },
+    {
+      "act": "cpc",
+      "order": "39",
+      "rule": "1",
+      "why": "Injunctions."
+    },
+    {
+      "act": "cpc",
+      "order": "39",
+      "rule": "2",
+      "why": "Injunction in a suit."
+    },
+    {
+      "act": "cpc",
+      "order": "39",
+      "rule": "3",
+      "why": "Notice before granting injunction."
+    },
+    {
+      "act": "cpc",
+      "order": "21",
+      "rule": "58",
+      "why": "Delivery of immovable property."
+    },
+    {
+      "act": "cpc",
+      "order": "37",
+      "rule": "1",
+      "why": "Application for attachment."
+    },
+    {
+      "act": "cpc",
+      "order": "33",
+      "rule": "1",
+      "why": "Interest."
+    },
+    {
+      "act": "cpc",
+      "order": "13",
+      "rule": "1",
+      "why": "Appearance before the court."
+    }
+  ],
+  "act_labels": {
+    "bns": "BNS",
+    "ipc": "IPC",
+    "bnss": "BNSS",
+    "crpc": "CrPC",
+    "bsa": "BSA",
+    "iea": "Evidence Act",
+    "ni-act": "NI Act",
+    "contract-act": "Contract Act",
+    "specific-relief-act": "Specific Relief Act",
+    "consumer-protection-act": "Consumer Protection Act",
+    "it-act": "IT Act",
+    "arbitration-act": "Arbitration Act",
+    "mv-act": "Motor Vehicles Act",
+    "limitation-act": "Limitation Act",
+    "cpc": "CPC"
+  },
+  "provision_ref_format": {
+    "section": "{label} s.{number}",
+    "rule": "{label} O.{order} r.{rule}"
+  }
+}

@@ -1,0 +1,88 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "9542df89",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "Authorisation of CERT-In to monitor and collect traffic data or information in any computer resources u/s 69B",
+   "url": "https://indiacode.ecourtsindia.com/rules/authorisation-of-cert-in-to-monitor-and-collect-traffic-data-or-9542df89/",
+   "year": 2016
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "8968a9c4",
+   "kind": "notification",
+   "relation": "named_in_title",
+   "title": "Section 69B IT Act, 2000 enhance cyber security, identification, analysis and prevention of intrusion or spread of computer contaminant to CERT-In",
+   "url": "https://indiacode.ecourtsindia.com/rules/section-69b-it-act-2000-enhance-cyber-security-identification-analysis-8968a9c4/",
+   "year": 2016
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "c3d4f0cd",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (National Critical Information Infrastructure Protection Centre and Manner of Performing Functions and Duties) Rules, 2013",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-national-critical-information-infrastructure-c3d4f0cd/",
+   "year": 2014
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "fabbaf9b",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (The Indian Computer Emergency Response Team and Manner of Performing Functions and Duties) Rules, 2013.",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-the-indian-computer-emergency-response-team-and-fabbaf9b/",
+   "year": 2014
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "c5d918a7",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (Procedure and Safeguards for Monitoring and Collecting Traffic Data or Information) Rules, 2009",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-procedure-and-safeguards-for-monitoring-and-c5d918a7/",
+   "year": 2009
+  }
+ ],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Power to authorise to monitor and collect traffic data or information through any computer resource for cyber security",
+  "html": "<p><b><sup>1</sup>[69B. Power to authorise to monitor and collect traffic data or information through any computer resource for cyber security.--</b>(1) The Central Government may, to enhance cyber security and for identification, analysis and prevention of intrusion or spread of computer contaminant in the country, by notification in the Official Gazette, authorise any agency of the Government to monitor and collect traffic data or information generated, transmitted, received or stored in any computer resource.</p><p><span class=\"num\">(2)</span> The intermediary or any person in-charge or the computer resource shall, when called upon by the agency which has been authorised under sub-section (1), provide technical assistance and extend all facilities to such agency to enable online access or to secure and provide online access to the computer resource generating, transmitting, receiving or storing such traffic data or information.</p><p><span class=\"num\">(3)</span> The procedure and safeguards for monitoring and collecting traffic data or information, shall be such as may be prescribed.</p><p><span class=\"num\">(4)</span> Any intermediary who intentionally or knowingly contravenes the provisions of sub-section (2) shall be punished with an imprisonment for a term which any extend to <sup>2</sup>[one year or shall be liable to fine which may extend to one crore rupees, or with both].</p><p><i>Explanation.--</i>For the purposes of this section,--</p><p><span class=\"num\">(i)</span> \"computer contaminant\" shall have the meaning assigned to it in section <a href=\"/it-act/section/43/\">43</a>;</p><p><span class=\"num\">(ii)</span> \"traffic data\" means any data identifying or purporting to identify any person, computer system or computer network or location to or from which the communication is or may be transmitted and includes communications origin, destination, route, time, data, size, duration or type of underlying service and any other information.]</p>",
+  "number": "69B",
+  "text": "1[69B. Power to authorise to monitor and collect traffic data or information through any computer resource for cyber security.--(1) The Central Government may, to enhance cyber security and for identification, analysis and prevention of intrusion or spread of computer contaminant in the country, by notification in the Official Gazette, authorise any agency of the Government to monitor and collect traffic data or information generated, transmitted, received or stored in any computer resource. (2) The intermediary or any person in-charge or the computer resource shall, when called upon by the agency which has been authorised under sub-section (1), provide technical assistance and extend all facilities to such agency to enable online access or to secure and provide online access to the computer resource generating, transmitting, receiving or storing such traffic data or information. (3) The procedure and safeguards for monitoring and collecting traffic data or information, shall be such as may be prescribed. (4) Any intermediary who intentionally or knowingly contravenes the provisions of sub-section (2) shall be punished with an imprisonment for a term which any extend to 2[one year or shall be liable to fine which may extend to one crore rupees, or with both]. Explanation.--For the purposes of this section,-- (i) \"computer contaminant\" shall have the meaning assigned to it in section 43; (ii) \"traffic data\" means any data identifying or purporting to identify any person, computer system or computer network or location to or from which the communication is or may be transmitted and includes communications origin, destination, route, time, data, size, duration or type of underlying service and any other information.]",
+  "words": 265
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/69B/"
+}

@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1996,
+  "department": "Department of Legal Affairs",
+  "duplicate_of": null,
+  "enact_date": "1996-08-16",
+  "enforcement_date": "1996-08-22",
+  "id": "arbitration-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to domestic arbitration, international commercial arbitration and enforcement of foreign arbitral awards as also to define the law relating to conciliation and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 106,
+  "short_title": "The Arbitration and Conciliation Act, 1996",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/arbitration-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 8,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Form and contents of arbitral award",
+  "html": "<p><span class=\"num\">(1)</span> An arbitral award shall be made in writing and shall be signed by the members of the arbitral tribunal.</p><p><span class=\"num\">(2)</span> For the purposes of sub-section <i>(1)</i>, in arbitral proceedings with more than one arbitrator, the signatures of the majority of all the members of the arbitral tribunal shall be sufficient so long as the reason for any omitted signature is stated.</p><p><span class=\"num\">(3)</span> The arbitral award shall state the reasons upon which it is based, unless—</p><p><span class=\"num\">(a)</span> the parties have agreed that no reasons are to be given, or</p><p><span class=\"num\">(b)</span> the award is an arbitral award on agreed terms under section <a href=\"/arbitration-act/section/30/\">30</a>.</p><p><span class=\"num\">(4)</span> The arbitral award shall state its date and the place of arbitration as determined in accordance with section <a href=\"/arbitration-act/section/20/\">20</a> and the award shall be deemed to have been made at that place.</p><p><span class=\"num\">(5)</span> After the arbitral award is made, a signed copy shall be delivered to each party.</p><p><span class=\"num\">(6)</span> The arbitral tribunal may, at any time during the arbitral proceedings, make an interim arbitral award on any matter with respect to which it may make a final arbitral award.</p><p><span class=\"num\">(7)</span> (a) Unless otherwise agreed by the parties, where and in so far as an arbitral award is for the payment of money, the arbitral tribunal may include in the sum for which the award is made interest, at such rate as it deems reasonable, on the whole or any part of the money, for the whole or any part of the period between the date on which the cause of action arose and the date on which the award is made.</p><p><sup>1</sup>[(b) A sum directed to be paid by an arbitral award shall, unless the award otherwise directs, carry interest at the rate of two per cent. higher than the current rate of interest prevalent on the date of award, from the date of award to the date of payment.</p><p><i>Explanation</i>.—The expression \"current rate of interest\" shall have the same meaning as assigned to it under clause (b) of section <a href=\"/interest-act-1978/section/2/\">2</a> of the Interest Act, 1978 (14 of 1978).]</p><p><sup>2</sup>[(8) The costs of an arbitration shall be fixed by the arbitral tribunal in accordance with section <a href=\"/arbitration-act/section/31A/\">31A</a>.]</p><p><i>Explanation</i>.—For the purpose of clause <i>(a)</i>, \"costs\" means reasonable costs relating to—</p><p><span class=\"num\">(i)</span> the fees and expenses of the arbitrators and witnesses,</p><p><span class=\"num\">(ii)</span> legal fees and expenses,</p><p><span class=\"num\">(iii)</span> any administration fees of the institution supervising the arbitration, and</p><p><span class=\"num\">(iv)</span> any other expenses incurred in connection with the arbitral proceedings and the arbitral award.</p>",
+  "number": "31",
+  "text": "(1) An arbitral award shall be made in writing and shall be signed by the members of the arbitral tribunal. (2) For the purposes of sub-section (1), in arbitral proceedings with more than one arbitrator, the signatures of the majority of all the members of the arbitral tribunal shall be sufficient so long as the reason for any omitted signature is stated. (3) The arbitral award shall state the reasons upon which it is based, unless— (a) the parties have agreed that no reasons are to be given, or (b) the award is an arbitral award on agreed terms under section 30. (4) The arbitral award shall state its date and the place of arbitration as determined in accordance with section 20 and the award shall be deemed to have been made at that place. (5) After the arbitral award is made, a signed copy shall be delivered to each party. (6) The arbitral tribunal may, at any time during the arbitral proceedings, make an interim arbitral award on any matter with respect to which it may make a final arbitral award. (7) (a) Unless otherwise agreed by the parties, where and in so far as an arbitral award is for the payment of money, the arbitral tribunal may include in the sum for which the award is made interest, at such rate as it deems reasonable, on the whole or any part of the money, for the whole or any part of the period between the date on which the cause of action arose and the date on which the award is made. 1[(b) A sum directed to be paid by an arbitral award shall, unless the award otherwise directs, carry interest at the rate of two per cent. higher than the current rate of interest prevalent on the date of award, from the date of award to the date of payment. Explanation.—The expression \"current rate of interest\" shall have the same meaning as assigned to it under clause (b) of section 2 of the Interest Act, 1978 (14 of 1978).] 2[(8) The costs of an arbitration shall be fixed by the arbitral tribunal in accordance with section 31A.] Explanation.—For the purpose of clause (a), \"costs\" means reasonable costs relating to— (i) the fees and expenses of the arbitrators and witnesses, (ii) legal fees and expenses, (iii) any administration fees of the institution supervising the arbitration, and (iv) any other expenses incurred in connection with the arbitral proceedings and the arbitral award.",
+  "words": 413
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/31/"
+}

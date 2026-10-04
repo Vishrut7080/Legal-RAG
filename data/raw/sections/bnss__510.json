@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9788,
+   "section": "464",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/464/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 9,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Effect of omission to frame, or absence of, or error in, charge",
+  "html": "<p><span class=\"num\">(1)</span> No finding, sentence or order by a Court of competent jurisdiction shall be deemed invalid merely on the ground that no charge was framed or on the ground of any error, omission or irregularity in the charge including any misjoinder of charges, unless, in the opinion of the Court of appeal, confirmation or revision, a failure of justice has in fact been occasioned thereby.</p><p><span class=\"num\">(2)</span> If the Court of appeal, confirmation or revision, is of opinion that a failure of justice has in fact been occasioned, it may,---</p><p><span class=\"num\">(a)</span> in the case of an omission to frame a charge, order that a charge be framed, and that the trial be recommenced from the point immediately after the framing of the charge;</p><p><span class=\"num\">(b)</span> in the case of an error, omission or irregularity in the charge, direct a new trial to be had upon a charge framed in whatever manner it thinks fit:</p><p>Provided that if the Court is of opinion that the facts of the case are such that no valid charge could be preferred against the accused in respect of the facts proved, it shall quash the conviction.</p>",
+  "number": "510",
+  "text": "(1) No finding, sentence or order by a Court of competent jurisdiction shall be deemed invalid merely on the ground that no charge was framed or on the ground of any error, omission or irregularity in the charge including any misjoinder of charges, unless, in the opinion of the Court of appeal, confirmation or revision, a failure of justice has in fact been occasioned thereby. (2) If the Court of appeal, confirmation or revision, is of opinion that a failure of justice has in fact been occasioned, it may,--- (a) in the case of an omission to frame a charge, order that a charge be framed, and that the trial be recommenced from the point immediately after the framing of the charge; (b) in the case of an error, omission or irregularity in the charge, direct a new trial to be had upon a charge framed in whatever manner it thinks fit: Provided that if the Court is of opinion that the facts of the case are such that no valid charge could be preferred against the accused in respect of the facts proved, it shall quash the conviction.",
+  "words": 189
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/510/"
+}

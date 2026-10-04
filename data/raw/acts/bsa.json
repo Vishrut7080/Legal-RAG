@@ -1,0 +1,1227 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "amendments": [],
+ "count": 170,
+ "not_held": [
+  "amendments"
+ ],
+ "not_held_note": "This corpus holds no amendments for this Act. An empty list means not on file here, not that none exist.",
+ "schedules": [
+  {
+   "ord": 1,
+   "title": "Schedule",
+   "url": "https://indiacode.ecourtsindia.com/bsa/schedule/1/",
+   "words": 403
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Short title, application and commencement",
+   "indexable": true,
+   "number": "1",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/1/",
+   "words": 62
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "2",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/2/",
+   "words": 794
+  },
+  {
+   "heading": "Evidence may be given of facts in issue and relevant facts",
+   "indexable": true,
+   "number": "3",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/3/",
+   "words": 187
+  },
+  {
+   "heading": "Relevancy of facts forming part of same transaction",
+   "indexable": true,
+   "number": "4",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/4/",
+   "words": 227
+  },
+  {
+   "heading": "Facts which are occasion, cause or effect of facts in issue or relevant facts",
+   "indexable": true,
+   "number": "5",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/5/",
+   "words": 152
+  },
+  {
+   "heading": "Motive, preparation and previous or subsequent conduct",
+   "indexable": true,
+   "number": "6",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/6/",
+   "words": 773
+  },
+  {
+   "heading": "Facts necessary to explain or introduce fact in issue or relevant facts",
+   "indexable": true,
+   "number": "7",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/7/",
+   "words": 449
+  },
+  {
+   "heading": "Things said or done by conspirator in reference to common design",
+   "indexable": true,
+   "number": "8",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/8/",
+   "words": 247
+  },
+  {
+   "heading": "When facts not otherwise relevant become relevant",
+   "indexable": true,
+   "number": "9",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/9/",
+   "words": 169
+  },
+  {
+   "heading": "Facts tending to enable Court to determine amount are relevant in suits for damages",
+   "indexable": true,
+   "number": "10",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/10/",
+   "words": 27
+  },
+  {
+   "heading": "Facts relevant when right or custom is in question",
+   "indexable": true,
+   "number": "11",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/11/",
+   "words": 135
+  },
+  {
+   "heading": "Facts showing existence of state of mind, or of body or bodily feeling",
+   "indexable": true,
+   "number": "12",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/12/",
+   "words": 1076
+  },
+  {
+   "heading": "Facts bearing on question whether act was accidental or intentional",
+   "indexable": true,
+   "number": "13",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/13/",
+   "words": 255
+  },
+  {
+   "heading": "Existence of course of business when relevant",
+   "indexable": true,
+   "number": "14",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/14/",
+   "words": 107
+  },
+  {
+   "heading": "Admission defined",
+   "indexable": true,
+   "number": "15",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/15/",
+   "words": 41
+  },
+  {
+   "heading": "Admission by party to proceeding or his agent",
+   "indexable": true,
+   "number": "16",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/16/",
+   "words": 138
+  },
+  {
+   "heading": "Admissions by persons whose position must be proved as against party to suit",
+   "indexable": true,
+   "number": "17",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/17/",
+   "words": 126
+  },
+  {
+   "heading": "Admissions by persons expressly referred to by party to suit",
+   "indexable": true,
+   "number": "18",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/18/",
+   "words": 57
+  },
+  {
+   "heading": "Proof of admissions against persons making them, and by or on their behalf",
+   "indexable": true,
+   "number": "19",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/19/",
+   "words": 502
+  },
+  {
+   "heading": "When oral admissions as to contents of documents are relevant",
+   "indexable": true,
+   "number": "20",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/20/",
+   "words": 52
+  },
+  {
+   "heading": "Admissions in civil cases when relevant",
+   "indexable": true,
+   "number": "21",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/21/",
+   "words": 81
+  },
+  {
+   "heading": "Confession caused by inducement, threat, coercion or promise, when irrelevant in criminal proceeding",
+   "indexable": true,
+   "number": "22",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/22/",
+   "words": 223
+  },
+  {
+   "heading": "Confession to police officer",
+   "indexable": true,
+   "number": "23",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/23/",
+   "words": 104
+  },
+  {
+   "heading": "Consideration of proved confession affecting person making it and others jointly under trial for same offence",
+   "indexable": true,
+   "number": "24",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/24/",
+   "words": 211
+  },
+  {
+   "heading": "Admissions not conclusive proof, but may estop",
+   "indexable": true,
+   "number": "25",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/25/",
+   "words": 20
+  },
+  {
+   "heading": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+   "indexable": true,
+   "number": "26",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/26/",
+   "words": 1128
+  },
+  {
+   "heading": "Relevancy of certain evidence for proving, in subsequent proceeding, truth of facts therein stated",
+   "indexable": true,
+   "number": "27",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/27/",
+   "words": 170
+  },
+  {
+   "heading": "Entries in books of account when relevant",
+   "indexable": true,
+   "number": "28",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/28/",
+   "words": 90
+  },
+  {
+   "heading": "Relevancy of entry in public record or an electronic record made in performance of duty",
+   "indexable": true,
+   "number": "29",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/29/",
+   "words": 73
+  },
+  {
+   "heading": "Relevancy of statements in maps, charts and plans",
+   "indexable": true,
+   "number": "30",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/30/",
+   "words": 53
+  },
+  {
+   "heading": "Relevancy of statement as to fact of public nature contained in certain Acts or notifications",
+   "indexable": true,
+   "number": "31",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/31/",
+   "words": 70
+  },
+  {
+   "heading": "Relevancy of statements as to any law contained in law books including electronic or digital form",
+   "indexable": true,
+   "number": "32",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/32/",
+   "words": 83
+  },
+  {
+   "heading": "What evidence to be given when statement forms part of a conversation, document, electronic record, book or series of letters or papers",
+   "indexable": true,
+   "number": "33",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/33/",
+   "words": 107
+  },
+  {
+   "heading": "Previous judgments relevant to bar a second suit or trial",
+   "indexable": true,
+   "number": "34",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/34/",
+   "words": 47
+  },
+  {
+   "heading": "Relevancy of certain judgments in probate, etc., jurisdiction",
+   "indexable": true,
+   "number": "35",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/35/",
+   "words": 221
+  },
+  {
+   "heading": "Relevancy and effect of judgments, orders or decrees, other than those mentioned in section 35",
+   "indexable": true,
+   "number": "36",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/36/",
+   "words": 116
+  },
+  {
+   "heading": "Judgments, etc., other than those mentioned in sections 34, 35 and 36 when relevant",
+   "indexable": true,
+   "number": "37",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/37/",
+   "words": 251
+  },
+  {
+   "heading": "Fraud or collusion in obtaining judgment, or incompetency of Court, may be proved",
+   "indexable": true,
+   "number": "38",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/38/",
+   "words": 51
+  },
+  {
+   "heading": "Opinions of experts",
+   "indexable": true,
+   "number": "39",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/39/",
+   "words": 329
+  },
+  {
+   "heading": "Facts bearing upon opinions of experts",
+   "indexable": true,
+   "number": "40",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/40/",
+   "words": 107
+  },
+  {
+   "heading": "Opinion as to handwriting and signature, when relevant",
+   "indexable": true,
+   "number": "41",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/41/",
+   "words": 273
+  },
+  {
+   "heading": "Opinion as to existence of general custom or right, when relevant",
+   "indexable": true,
+   "number": "42",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/42/",
+   "words": 90
+  },
+  {
+   "heading": "Opinion as to usages, tenets, etc., when relevant",
+   "indexable": true,
+   "number": "43",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/43/",
+   "words": 64
+  },
+  {
+   "heading": "Opinion on relationship, when relevant",
+   "indexable": true,
+   "number": "44",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/44/",
+   "words": 146
+  },
+  {
+   "heading": "Grounds of opinion, when relevant",
+   "indexable": true,
+   "number": "45",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/45/",
+   "words": 39
+  },
+  {
+   "heading": "In civil cases character to prove conduct imputed, irrelevant",
+   "indexable": true,
+   "number": "46",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/46/",
+   "words": 39
+  },
+  {
+   "heading": "In criminal cases previous good character relevant",
+   "indexable": true,
+   "number": "47",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/47/",
+   "words": 16
+  },
+  {
+   "heading": "Evidence of character or previous sexual experience not relevant in certain cases",
+   "indexable": true,
+   "number": "48",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/48/",
+   "words": 88
+  },
+  {
+   "heading": "Previous bad character not relevant, except in reply",
+   "indexable": true,
+   "number": "49",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/49/",
+   "words": 64
+  },
+  {
+   "heading": "Character as affecting damages",
+   "indexable": true,
+   "number": "50",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/50/",
+   "words": 75
+  },
+  {
+   "heading": "Fact judicially noticeable need not be proved",
+   "indexable": true,
+   "number": "51",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/51/",
+   "words": 13
+  },
+  {
+   "heading": "Facts of which Court shall take judicial notice",
+   "indexable": true,
+   "number": "52",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/52/",
+   "words": 363
+  },
+  {
+   "heading": "Facts admitted need not be proved",
+   "indexable": true,
+   "number": "53",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/53/",
+   "words": 78
+  },
+  {
+   "heading": "Proof of facts by oral evidence",
+   "indexable": true,
+   "number": "54",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/54/",
+   "words": 13
+  },
+  {
+   "heading": "Oral evidence to be direct",
+   "indexable": true,
+   "number": "55",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/55/",
+   "words": 222
+  },
+  {
+   "heading": "Proof of contents of documents",
+   "indexable": true,
+   "number": "56",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/56/",
+   "words": 14
+  },
+  {
+   "heading": "Primary evidence",
+   "indexable": true,
+   "number": "57",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/57/",
+   "words": 270
+  },
+  {
+   "heading": "Secondary evidence",
+   "indexable": true,
+   "number": "58",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/58/",
+   "words": 264
+  },
+  {
+   "heading": "Proof of documents by primary evidence",
+   "indexable": true,
+   "number": "59",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/59/",
+   "words": 13
+  },
+  {
+   "heading": "Cases in which secondary evidence relating to documents maybe given",
+   "indexable": true,
+   "number": "60",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/60/",
+   "words": 331
+  },
+  {
+   "heading": "Electronic or digital record",
+   "indexable": true,
+   "number": "61",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/61/",
+   "words": 49
+  },
+  {
+   "heading": "Special provisions as to evidence relating to electronic record",
+   "indexable": true,
+   "number": "62",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/62/",
+   "words": 16
+  },
+  {
+   "heading": "Admissibility of electronic records",
+   "indexable": true,
+   "number": "63",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/63/",
+   "words": 764
+  },
+  {
+   "heading": "Rules as to notice to produce",
+   "indexable": true,
+   "number": "64",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/64/",
+   "words": 221
+  },
+  {
+   "heading": "Proof of signature and handwriting of person alleged to have signed or written document produced",
+   "indexable": true,
+   "number": "65",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/65/",
+   "words": 48
+  },
+  {
+   "heading": "Proof as to electronic signature",
+   "indexable": true,
+   "number": "66",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/66/",
+   "words": 42
+  },
+  {
+   "heading": "Proof of execution of document required by law to be attested",
+   "indexable": true,
+   "number": "67",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/67/",
+   "words": 112
+  },
+  {
+   "heading": "Proof where no attesting witness found",
+   "indexable": true,
+   "number": "68",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/68/",
+   "words": 42
+  },
+  {
+   "heading": "Admission of execution by party to attested document",
+   "indexable": true,
+   "number": "69",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/69/",
+   "words": 35
+  },
+  {
+   "heading": "Proof when attesting witness denies execution",
+   "indexable": true,
+   "number": "70",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/70/",
+   "words": 22
+  },
+  {
+   "heading": "Proof of document not required by law to be attested",
+   "indexable": true,
+   "number": "71",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/71/",
+   "words": 18
+  },
+  {
+   "heading": "Comparison of signature, writing or seal with others admitted or proved",
+   "indexable": true,
+   "number": "72",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/72/",
+   "words": 132
+  },
+  {
+   "heading": "Proof as to verification of digital signature",
+   "indexable": true,
+   "number": "73",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/73/",
+   "words": 69
+  },
+  {
+   "heading": "Public and private documents",
+   "indexable": true,
+   "number": "74",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/74/",
+   "words": 71
+  },
+  {
+   "heading": "Certified copies of public documents",
+   "indexable": true,
+   "number": "75",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/75/",
+   "words": 140
+  },
+  {
+   "heading": "Proof of documents by production of certified copies",
+   "indexable": true,
+   "number": "76",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/76/",
+   "words": 28
+  },
+  {
+   "heading": "Proof of other official documents",
+   "indexable": true,
+   "number": "77",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/77/",
+   "words": 309
+  },
+  {
+   "heading": "Presumption as to genuineness of certified copies",
+   "indexable": true,
+   "number": "78",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/78/",
+   "words": 110
+  },
+  {
+   "heading": "Presumption as to documents produced as record of evidence, etc",
+   "indexable": true,
+   "number": "79",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/79/",
+   "words": 122
+  },
+  {
+   "heading": "Presumption as to Gazettes, newspapers, and other documents",
+   "indexable": true,
+   "number": "80",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/80/",
+   "words": 130
+  },
+  {
+   "heading": "Presumption as to Gazettes in electronic or digital record",
+   "indexable": true,
+   "number": "81",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/81/",
+   "words": 128
+  },
+  {
+   "heading": "Presumption as to maps or plans made by authority of Government",
+   "indexable": true,
+   "number": "82",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/82/",
+   "words": 46
+  },
+  {
+   "heading": "Presumption as to collections of laws and reports of decisions",
+   "indexable": true,
+   "number": "83",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/83/",
+   "words": 50
+  },
+  {
+   "heading": "Presumption as to powers-of-attorney",
+   "indexable": true,
+   "number": "84",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/84/",
+   "words": 44
+  },
+  {
+   "heading": "Presumption as to electronic agreements",
+   "indexable": true,
+   "number": "85",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/85/",
+   "words": 35
+  },
+  {
+   "heading": "Presumption as to electronic records and electronic signatures",
+   "indexable": true,
+   "number": "86",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/86/",
+   "words": 111
+  },
+  {
+   "heading": "Presumption as to Electronic Signature Certificates",
+   "indexable": true,
+   "number": "87",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/87/",
+   "words": 39
+  },
+  {
+   "heading": "Presumption as to certified copies of foreign judicial records",
+   "indexable": true,
+   "number": "88",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/88/",
+   "words": 132
+  },
+  {
+   "heading": "Presumption as to books, maps and charts",
+   "indexable": true,
+   "number": "89",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/89/",
+   "words": 68
+  },
+  {
+   "heading": "Presumption as to electronic messages",
+   "indexable": true,
+   "number": "90",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/90/",
+   "words": 57
+  },
+  {
+   "heading": "Presumption as to due execution, etc., of documents not produced",
+   "indexable": true,
+   "number": "91",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/91/",
+   "words": 27
+  },
+  {
+   "heading": "Presumption as to documents thirty years old",
+   "indexable": true,
+   "number": "92",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/92/",
+   "words": 182
+  },
+  {
+   "heading": "Presumption as to electronic records five years old",
+   "indexable": true,
+   "number": "93",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/93/",
+   "words": 70
+  },
+  {
+   "heading": "Evidence of terms of contracts, grants and other dispositions of property reduced to form of document",
+   "indexable": true,
+   "number": "94",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/94/",
+   "words": 341
+  },
+  {
+   "heading": "Exclusion of evidence of oral agreement",
+   "indexable": true,
+   "number": "95",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/95/",
+   "words": 815
+  },
+  {
+   "heading": "Exclusion of evidence to explain or amend ambiguous document",
+   "indexable": true,
+   "number": "96",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/96/",
+   "words": 85
+  },
+  {
+   "heading": "Exclusion of evidence against application of document to existing facts",
+   "indexable": true,
+   "number": "97",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/97/",
+   "words": 87
+  },
+  {
+   "heading": "Evidence as to document unmeaning in reference to existing facts",
+   "indexable": true,
+   "number": "98",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/98/",
+   "words": 88
+  },
+  {
+   "heading": "Evidence as to application of language which can apply to one only of several persons",
+   "indexable": true,
+   "number": "99",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/99/",
+   "words": 113
+  },
+  {
+   "heading": ". Evidence as to application of language to one of two sets of facts, to neither of which the whole correctly applies",
+   "indexable": true,
+   "number": "100",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/100/",
+   "words": 102
+  },
+  {
+   "heading": "Evidence as to meaning of illegible characters, etc",
+   "indexable": true,
+   "number": "101",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/101/",
+   "words": 62
+  },
+  {
+   "heading": "Who may give evidence of agreement varying terms of document",
+   "indexable": true,
+   "number": "102",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/102/",
+   "words": 93
+  },
+  {
+   "heading": "Saving of provisions of Indian Succession Act relating to wills",
+   "indexable": true,
+   "number": "103",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/103/",
+   "words": 28
+  },
+  {
+   "heading": "Burden of proof",
+   "indexable": true,
+   "number": "104",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/104/",
+   "words": 128
+  },
+  {
+   "heading": "On whom burden of proof lies",
+   "indexable": true,
+   "number": "105",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/105/",
+   "words": 139
+  },
+  {
+   "heading": "Burden of proof as to particular fact",
+   "indexable": true,
+   "number": "106",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/106/",
+   "words": 84
+  },
+  {
+   "heading": "Burden of proving fact to be proved to make evidence admissible",
+   "indexable": true,
+   "number": "107",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/107/",
+   "words": 72
+  },
+  {
+   "heading": "Burden of proving that case of accused comes within exceptions",
+   "indexable": true,
+   "number": "108",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/108/",
+   "words": 187
+  },
+  {
+   "heading": "Burden of proving fact especially within knowledge",
+   "indexable": true,
+   "number": "109",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/109/",
+   "words": 76
+  },
+  {
+   "heading": "Burden of proving death of person known to have been alive within thirty years",
+   "indexable": true,
+   "number": "110",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/110/",
+   "words": 37
+  },
+  {
+   "heading": "Burden of proving that person is alive who has not been heard of for seven years",
+   "indexable": true,
+   "number": "111",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/111/",
+   "words": 55
+  },
+  {
+   "heading": "Burden of proof as to relationship in the cases of partners, landlord and tenant, principal and agent",
+   "indexable": true,
+   "number": "112",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/112/",
+   "words": 55
+  },
+  {
+   "heading": "Burden of proof as to ownership",
+   "indexable": true,
+   "number": "113",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/113/",
+   "words": 42
+  },
+  {
+   "heading": "Proof of good faith in transactions where one party is in relation of active confidence",
+   "indexable": true,
+   "number": "114",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/114/",
+   "words": 129
+  },
+  {
+   "heading": "Presumption as to certain offences",
+   "indexable": true,
+   "number": "115",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/115/",
+   "words": 198
+  },
+  {
+   "heading": "Birth during marriage, conclusive proof of legitimacy",
+   "indexable": true,
+   "number": "116",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/116/",
+   "words": 73
+  },
+  {
+   "heading": "Presumption as to abetment of suicide by a married woman",
+   "indexable": true,
+   "number": "117",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/117/",
+   "words": 112
+  },
+  {
+   "heading": "Presumption as to dowry death",
+   "indexable": true,
+   "number": "118",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/118/",
+   "words": 80
+  },
+  {
+   "heading": "Court may presume existence of certain facts",
+   "indexable": true,
+   "number": "119",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/119/",
+   "words": 673
+  },
+  {
+   "heading": "Presumption as to absence of consent in certain prosecution for rape",
+   "indexable": true,
+   "number": "120",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/120/",
+   "words": 88
+  },
+  {
+   "heading": "Estoppel",
+   "indexable": true,
+   "number": "121",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/121/",
+   "words": 123
+  },
+  {
+   "heading": "Estoppel of tenant and of licensee of person in possession",
+   "indexable": true,
+   "number": "122",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/122/",
+   "words": 85
+  },
+  {
+   "heading": "Estoppel of acceptor of bill of exchange, bailee or licensee",
+   "indexable": true,
+   "number": "123",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/123/",
+   "words": 116
+  },
+  {
+   "heading": "Who may testify",
+   "indexable": true,
+   "number": "124",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/124/",
+   "words": 82
+  },
+  {
+   "heading": "Witness unable to communicate verbally",
+   "indexable": true,
+   "number": "125",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/125/",
+   "words": 85
+  },
+  {
+   "heading": "Competency of husband and wife as witnesses in certain cases",
+   "indexable": true,
+   "number": "126",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/126/",
+   "words": 45
+  },
+  {
+   "heading": "Judges and Magistrates",
+   "indexable": true,
+   "number": "127",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/127/",
+   "words": 179
+  },
+  {
+   "heading": "Communications during marriage",
+   "indexable": true,
+   "number": "128",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/128/",
+   "words": 75
+  },
+  {
+   "heading": "Evidence as to affairs of State",
+   "indexable": true,
+   "number": "129",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/129/",
+   "words": 45
+  },
+  {
+   "heading": "Official communications",
+   "indexable": true,
+   "number": "130",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/130/",
+   "words": 27
+  },
+  {
+   "heading": "Information as to commission of offences",
+   "indexable": true,
+   "number": "131",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/131/",
+   "words": 65
+  },
+  {
+   "heading": "Professional communications",
+   "indexable": true,
+   "number": "132",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/132/",
+   "words": 379
+  },
+  {
+   "heading": "Privilege not waived by volunteering evidence",
+   "indexable": true,
+   "number": "133",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/133/",
+   "words": 80
+  },
+  {
+   "heading": "Confidential communication with legal advisers",
+   "indexable": true,
+   "number": "134",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/134/",
+   "words": 65
+  },
+  {
+   "heading": "Production of title-deeds of witness not a party",
+   "indexable": true,
+   "number": "135",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/135/",
+   "words": 72
+  },
+  {
+   "heading": "Production of documents or electronic records which another person, having possession, could refuse to produce",
+   "indexable": true,
+   "number": "136",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/136/",
+   "words": 44
+  },
+  {
+   "heading": "Witness not excused from answering on ground that answer will criminate",
+   "indexable": true,
+   "number": "137",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/137/",
+   "words": 112
+  },
+  {
+   "heading": "Accomplice",
+   "indexable": true,
+   "number": "138",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/138/",
+   "words": 27
+  },
+  {
+   "heading": "Number of witnesses",
+   "indexable": true,
+   "number": "139",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/139/",
+   "words": 17
+  },
+  {
+   "heading": "Order of production and examination of witnesses",
+   "indexable": true,
+   "number": "140",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/140/",
+   "words": 42
+  },
+  {
+   "heading": "Judge to decide as to admissibility of evidence",
+   "indexable": true,
+   "number": "141",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/141/",
+   "words": 420
+  },
+  {
+   "heading": "Examination of witnesses",
+   "indexable": true,
+   "number": "142",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/142/",
+   "words": 53
+  },
+  {
+   "heading": "Order of examinations",
+   "indexable": true,
+   "number": "143",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/143/",
+   "words": 88
+  },
+  {
+   "heading": "Cross examination of person called to produce a document",
+   "indexable": true,
+   "number": "144",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/144/",
+   "words": 33
+  },
+  {
+   "heading": "Witnesses to character",
+   "indexable": true,
+   "number": "145",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/145/",
+   "words": 8
+  },
+  {
+   "heading": "Leading questions",
+   "indexable": true,
+   "number": "146",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/146/",
+   "words": 82
+  },
+  {
+   "heading": "Evidence as to matters in writing",
+   "indexable": true,
+   "number": "147",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/147/",
+   "words": 183
+  },
+  {
+   "heading": "Cross examination as to previous statements in writing",
+   "indexable": true,
+   "number": "148",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/148/",
+   "words": 72
+  },
+  {
+   "heading": "Questions lawful in cross examination",
+   "indexable": true,
+   "number": "149",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/149/",
+   "words": 171
+  },
+  {
+   "heading": "When witness to be compelled to answer",
+   "indexable": true,
+   "number": "150",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/150/",
+   "words": 22
+  },
+  {
+   "heading": "Court to decide when question shall be asked and when witness compelled to answer",
+   "indexable": true,
+   "number": "151",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/151/",
+   "words": 233
+  },
+  {
+   "heading": "Question not to be asked without reasonable grounds",
+   "indexable": true,
+   "number": "152",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/152/",
+   "words": 172
+  },
+  {
+   "heading": "Procedure of Court in case of question being asked without reasonable grounds",
+   "indexable": true,
+   "number": "153",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/153/",
+   "words": 49
+  },
+  {
+   "heading": "Indecent and scandalous questions",
+   "indexable": true,
+   "number": "154",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/154/",
+   "words": 56
+  },
+  {
+   "heading": "Questions intended to insult or annoy",
+   "indexable": true,
+   "number": "155",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/155/",
+   "words": 31
+  },
+  {
+   "heading": "Exclusion of evidence to contradict answers to questions testing veracity",
+   "indexable": true,
+   "number": "156",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/156/",
+   "words": 322
+  },
+  {
+   "heading": "Question by party to his own witness",
+   "indexable": true,
+   "number": "157",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/157/",
+   "words": 55
+  },
+  {
+   "heading": "Impeaching credit of witness",
+   "indexable": true,
+   "number": "158",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/158/",
+   "words": 260
+  },
+  {
+   "heading": "Questions tending to corroborate evidence of relevant fact, admissible",
+   "indexable": true,
+   "number": "159",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/159/",
+   "words": 123
+  },
+  {
+   "heading": "Former statements of witness may be proved to corroborate later testimony as to same fact",
+   "indexable": true,
+   "number": "160",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/160/",
+   "words": 44
+  },
+  {
+   "heading": "What matters may be proved in connection with proved statement relevant under section 26 or 27",
+   "indexable": true,
+   "number": "161",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/161/",
+   "words": 67
+  },
+  {
+   "heading": "Refreshing memory",
+   "indexable": true,
+   "number": "162",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/162/",
+   "words": 145
+  },
+  {
+   "heading": "Testimony to facts stated in document mentioned in section 162",
+   "indexable": true,
+   "number": "163",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/163/",
+   "words": 77
+  },
+  {
+   "heading": "Right of adverse party as to writing used to refresh memory",
+   "indexable": true,
+   "number": "164",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/164/",
+   "words": 36
+  },
+  {
+   "heading": "Production of documents",
+   "indexable": true,
+   "number": "165",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/165/",
+   "words": 166
+  },
+  {
+   "heading": "Giving, as evidence, of document called for and produced on notice",
+   "indexable": true,
+   "number": "166",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/166/",
+   "words": 49
+  },
+  {
+   "heading": "Using, as evidence, of document production of which was refused on notice",
+   "indexable": true,
+   "number": "167",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/167/",
+   "words": 101
+  },
+  {
+   "heading": "Judge's power to put questions or order production",
+   "indexable": true,
+   "number": "168",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/168/",
+   "words": 201
+  },
+  {
+   "heading": "No new trial for improper admission or rejection of evidence",
+   "indexable": true,
+   "number": "169",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/169/",
+   "words": 72
+  },
+  {
+   "heading": "Repeal and savings",
+   "indexable": true,
+   "number": "170",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/170/",
+   "words": 80
+  }
+ ]
+}

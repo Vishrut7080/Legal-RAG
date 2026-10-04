@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-12-13",
+  "enforcement_date": "1964-03-01",
+  "id": "specific-relief-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to certain kinds of specific relief.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 48,
+  "short_title": "The Specific Relief Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/specific-relief-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Contracts not specifically enforceable",
+  "html": "<p><sup>1</sup>The following contracts cannot be specifically enforced, namely:--</p><p><span class=\"num\">(a)</span> where a party to the contract has obtained substituted performance of contract in accordance with the provisions of section <a href=\"/specific-relief-act/section/20/\">20</a>;</p><p><span class=\"num\">(b)</span> a contract, the performance of which involves the performance of a continuous duty which the court cannot supervise;</p><p><span class=\"num\">(c)</span> a contract which is so dependent on the personal qualifications of the parties that the court cannot enforce specific performance of its material terms; and</p><p><span class=\"num\">(d)</span> a contract which is in its nature determinable.]</p>",
+  "number": "14",
+  "text": "1The following contracts cannot be specifically enforced, namely:-- (a) where a party to the contract has obtained substituted performance of contract in accordance with the provisions of section 20; (b) a contract, the performance of which involves the performance of a continuous duty which the court cannot supervise; (c) a contract which is so dependent on the personal qualifications of the parties that the court cannot enforce specific performance of its material terms; and (d) a contract which is in its nature determinable.]",
+  "words": 83
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/14/"
+}

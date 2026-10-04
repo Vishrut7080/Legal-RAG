@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9897,
+   "section": "426",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/426/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Procedure for hearing appeals not dismissed summarily",
+  "html": "<p><span class=\"num\">(1)</span> If the Appellate Court does not dismiss the appeal summarily, it shall cause notice of the time and place at which such appeal will be heard to be given-</p><p><span class=\"num\">(i)</span> to the appellant or his pleader;</p><p><span class=\"num\">(ii)</span> to such officer as the State Government may appoint in this behalf ;</p><p><span class=\"num\">(iii)</span> if the appeal is from a judgment of conviction in a case instituted upon complaint, to the complainant ;</p><p><span class=\"num\">(iv)</span> if the appeal is under section <a href=\"/crpc/section/377/\">377</a> or section <a href=\"/crpc/section/378/\">378</a>, to the accused, and shall also furnish such officer, complainant and accused with a copy of the grounds of appeal.</p><p><span class=\"num\">(2)</span> The Appellate Court shall then send for the record of the case, if such record is not already available in that Court, and hear the parties :</p><p>Provided that if the appeal is only as to the extent or the legality of the sentence, the Court may dispose of the appeal without sending for the record.</p><p><span class=\"num\">(3)</span> Where the only ground for appeal from a conviction is the alleged severity of the sentence, the appellant shall not, except with the leave of the Court, urge or be heard in support of any other ground.</p>",
+  "number": "385",
+  "text": "(1) If the Appellate Court does not dismiss the appeal summarily, it shall cause notice of the time and place at which such appeal will be heard to be given- (i) to the appellant or his pleader; (ii) to such officer as the State Government may appoint in this behalf ; (iii) if the appeal is from a judgment of conviction in a case instituted upon complaint, to the complainant ; (iv) if the appeal is under section 377 or section 378, to the accused, and shall also furnish such officer, complainant and accused with a copy of the grounds of appeal. (2) The Appellate Court shall then send for the record of the case, if such record is not already available in that Court, and hear the parties : Provided that if the appeal is only as to the extent or the legality of the sentence, the Court may dispose of the appeal without sending for the record. (3) Where the only ground for appeal from a conviction is the alleged severity of the sentence, the appellant shall not, except with the leave of the Court, urge or be heard in support of any other ground.",
+  "words": 197
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/385/"
+}

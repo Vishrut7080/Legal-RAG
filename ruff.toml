@@ -1,0 +1,25 @@
+# Pinned so that `make lint` gives the same answer on every machine.
+#
+# Without this file ruff applies whatever its current default rule set is, and
+# that changes between releases. A lint result that depends on which ruff you
+# happened to install is not a check.
+
+line-length = 100
+target-version = "py311"
+
+[lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "C4"]
+ignore = [
+  "E501",    # line length is the formatter's job, not the linter's
+  "B008",    # FastAPI's Depends() idiom
+  "SIM108",  # ternaries are not always clearer
+  "E741",    # `for l in f` is used consistently for a file line
+  "B905",    # zip(strict=) is noise on same-length sequences
+]
+
+[lint.per-file-ignores]
+# Re-exports.
+"aip/__init__.py" = ["F401"]
+"src/__init__.py" = ["F401"]
+# Scripts put the repo root on sys.path before importing aip/src.
+"src/fetch.py" = ["E402"]

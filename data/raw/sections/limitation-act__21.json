@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Effect of substituting or adding new plaintiff or defendant",
+  "html": "<p><span class=\"num\">(1)</span> Where after the institution of a suit, a new plaintiff or defendant is substituted or added, the suit shall, as regards him, be deemed to have been instituted when he was so made a party:</p><p>Provided that where the court is satisfied that the omission to include a new plaintiff or defendant was due to a mistake made in good faith it may direct that the suit as regards such plaintiff or defendant shall be deemed to have been instituted on any earlier date.</p><p><span class=\"num\">(2)</span> Nothing in sub-section (1) shall apply to a case where a party is added or substituted owing to assignment or devolution of any interest during the pendency of a suit or where a plaintiff is made a defendant or a defendant is made a plaintiff.</p>",
+  "number": "21",
+  "text": "(1) Where after the institution of a suit, a new plaintiff or defendant is substituted or added, the suit shall, as regards him, be deemed to have been instituted when he was so made a party: Provided that where the court is satisfied that the omission to include a new plaintiff or defendant was due to a mistake made in good faith it may direct that the suit as regards such plaintiff or defendant shall be deemed to have been instituted on any earlier date. (2) Nothing in sub-section (1) shall apply to a case where a party is added or substituted owing to assignment or devolution of any interest during the pendency of a suit or where a plaintiff is made a defendant or a defendant is made a plaintiff.",
+  "words": 131
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/limitation-act/section/21/"
+}

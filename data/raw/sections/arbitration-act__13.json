@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1996,
+  "department": "Department of Legal Affairs",
+  "duplicate_of": null,
+  "enact_date": "1996-08-16",
+  "enforcement_date": "1996-08-22",
+  "id": "arbitration-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to domestic arbitration, international commercial arbitration and enforcement of foreign arbitral awards as also to define the law relating to conciliation and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 106,
+  "short_title": "The Arbitration and Conciliation Act, 1996",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/arbitration-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Challenge procedure",
+  "html": "<p><span class=\"num\">(1)</span> Subject to sub-section <i>(4)</i>, the parties are free to agree on a procedure for challenging an arbitrator.</p><p><span class=\"num\">(2)</span> Failing any agreement referred to in sub-section <i>(1)</i>, a party who intends to challenge an arbitrator shall, within fifteen days after becoming aware of the constitution of the arbitral tribunal or after becoming aware of any circumstances referred to in sub-section (3) of section <a href=\"/arbitration-act/section/12/\">12</a>, send a written statement of the reasons for the challenge to the arbitral tribunal.</p><p><span class=\"num\">(3)</span> Unless the arbitrator challenged under sub-section <i>(2)</i> withdraws from his office or the other party agrees to the challenge, the arbitral tribunal shall decide on the challenge.</p><p><span class=\"num\">(4)</span> If a challenge under any procedure agreed upon by the parties or under the procedure under sub-section <i>(2)</i> is not successful, the arbitral tribunal shall continue the arbitral proceedings and make an arbitral award.</p><p><span class=\"num\">(5)</span> Where an arbitral award is made under sub-section <i>(4)</i>, the party challenging the arbitrator may make an application for setting aside such an arbitral award in accordance with section <a href=\"/arbitration-act/section/34/\">34</a>.</p><p><span class=\"num\">(6)</span> Where an arbitral award is set aside on an application made under sub-section <i>(5)</i>, the Court may decide as to whether the arbitrator who is challenged is entitled to any fees.</p>",
+  "number": "13",
+  "text": "(1) Subject to sub-section (4), the parties are free to agree on a procedure for challenging an arbitrator. (2) Failing any agreement referred to in sub-section (1), a party who intends to challenge an arbitrator shall, within fifteen days after becoming aware of the constitution of the arbitral tribunal or after becoming aware of any circumstances referred to in sub-section (3) of section 12, send a written statement of the reasons for the challenge to the arbitral tribunal. (3) Unless the arbitrator challenged under sub-section (2) withdraws from his office or the other party agrees to the challenge, the arbitral tribunal shall decide on the challenge. (4) If a challenge under any procedure agreed upon by the parties or under the procedure under sub-section (2) is not successful, the arbitral tribunal shall continue the arbitral proceedings and make an arbitral award. (5) Where an arbitral award is made under sub-section (4), the party challenging the arbitrator may make an application for setting aside such an arbitral award in accordance with section 34. (6) Where an arbitral award is set aside on an application made under sub-section (5), the Court may decide as to whether the arbitrator who is challenged is entitled to any fees.",
+  "words": 204
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/13/"
+}

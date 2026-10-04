@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "265",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/265/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Resistance or obstruction to lawful apprehension, or escape or rescue in cases not otherwise provided for",
+  "html": "<p>Whoever, in any case not provided for in section <a href=\"/ipc/section/224/\">224</a> or section <a href=\"/ipc/section/225/\">225</a> or in any other law for the time being in force, intentionally offers any resistance or illegal obstruction to the lawful apprehension of himself or of any other person, or escapes or attempts to escape from any custody in which he is lawfully detained, or rescues or attempts to rescue any other person from any custody in which that person is lawfully detained, shall be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both.] Sch. 4. The words &quot;penal servitude&quot; rep. by Act 17 of 1949, s. 2. 5. Ss. 225A and 225B were subs. by Act 10 of 1886, s. 24(1), for s. 225A, which had been ins. by Act 27 of 1870, s.9.</p>",
+  "number": "225B",
+  "text": "Whoever, in any case not provided for in section 224 or section 225 or in any other law for the time being in force, intentionally offers any resistance or illegal obstruction to the lawful apprehension of himself or of any other person, or escapes or attempts to escape from any custody in which he is lawfully detained, or rescues or attempts to rescue any other person from any custody in which that person is lawfully detained, shall be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both.] Sch. 4. The words \"penal servitude\" rep. by Act 17 of 1949, s. 2. 5. Ss. 225A and 225B were subs. by Act 10 of 1886, s. 24(1), for s. 225A, which had been ins. by Act 27 of 1870, s.9.",
+  "words": 140
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/225B/"
+}

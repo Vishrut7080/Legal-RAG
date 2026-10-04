@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.env
+
+# Traces are per-machine observability scratch, not a deliverable.
+.aip_traces/
+
+# The corpus index is derived from data/corpus and is rebuilt by
+# `make index`. It is ~2 MB, so we commit it: that is what lets
+# AIP_OFFLINE=1 replay the golden set with no network and no API key.
+# Commit data/raw/ for the same reason -- it is the pinned snapshot that
+# data/corpus was built from, so the corpus is reproducible without a
+# network fetch.
+
+# The response cache is scratch. scripts/warm_cache.py rebuilds it.
+# The un-pruned sqlite file is large and GitHub rejects blobs over 100 MB.
+.aip_cache/*.sqlite3
+.aip_cache/chroma/*
+
+# Machine-specific wall clock from the gate. Untracked on purpose: replaying
+# the golden set measures this machine, not the system, and it moves every
+# run. reports/gate_metrics.json keeps the reproducible metrics.
+reports/gate_timing.local.json

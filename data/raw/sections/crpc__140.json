@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "159",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/159/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Power of Magistrate to furnish written instructions, etc",
+  "html": "<p><span class=\"num\">(1)</span> Where the Magistrate directs a local investigation by any person under section <a href=\"/crpc/section/139/\">139</a>, the Magistrate may-</p><p><span class=\"num\">(a)</span> furnish such person with such written instructions as may seem necessary for his guidance ;</p><p><span class=\"num\">(b)</span> declare by whom the whole or any part of the necessary expenses of the local investigation shall be paid.</p><p><span class=\"num\">(2)</span> The report of such person may be read as evidence in the case.</p><p><span class=\"num\">(3)</span> Where the Magistrate summons and examines an expert under section <a href=\"/crpc/section/139/\">139</a>, the Magistrate may direct by whom the costs of such summoning and examination shall be paid.</p>",
+  "number": "140",
+  "text": "(1) Where the Magistrate directs a local investigation by any person under section 139, the Magistrate may- (a) furnish such person with such written instructions as may seem necessary for his guidance ; (b) declare by whom the whole or any part of the necessary expenses of the local investigation shall be paid. (2) The report of such person may be read as evidence in the case. (3) Where the Magistrate summons and examines an expert under section 139, the Magistrate may direct by whom the costs of such summoning and examination shall be paid.",
+  "words": 95
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/140/"
+}

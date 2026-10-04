@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "close",
+   "score": 0.8353,
+   "section": "16",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/16/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Admission",
+  "html": "<p>by party to proceeding or his agent. –– Statements made by a party to the proceeding, or by an agent to any such party, whom the Court regards, under the circumstances of the case, as expressly or impliedly authorized by him to make them, are admissions. by suitor in representative character. –– Statements made by parties to suits suing or sued in a representative character, are not admissions, unless they were made while the party making them held that character. Statements made by –– (1) by party interested in subject-matter.–– persons who have any proprietary or pecuniary interest in the subject-matter of the proceeding, and who make the statement in their character of persons so interested, or (2) by person from whom interest derived.–– persons from whom the parties to the suit have derived their interest in the subject-matter of the suit, are admissions, if they are made during the continuance of the interest of the persons making the statements.</p>",
+  "number": "18",
+  "text": "by party to proceeding or his agent. –– Statements made by a party to the proceeding, or by an agent to any such party, whom the Court regards, under the circumstances of the case, as expressly or impliedly authorized by him to make them, are admissions. by suitor in representative character. –– Statements made by parties to suits suing or sued in a representative character, are not admissions, unless they were made while the party making them held that character. Statements made by –– (1) by party interested in subject-matter.–– persons who have any proprietary or pecuniary interest in the subject-matter of the proceeding, and who make the statement in their character of persons so interested, or (2) by person from whom interest derived.–– persons from whom the parties to the suit have derived their interest in the subject-matter of the suit, are admissions, if they are made during the continuance of the interest of the persons making the statements.",
+  "words": 160
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/18/"
+}

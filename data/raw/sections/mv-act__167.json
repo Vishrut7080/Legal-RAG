@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Option regarding claims for compensation in certain cases",
+  "html": "<p>Notwithstanding anything contained in the Workmen's Compensation Act, 1923 (8 of 1923), where the death of, or bodily injury to, any person gives rise to a claim for compensation under this Act and also under the Workmen's Compensation Act, 1923, the person entitled to compensation may without prejudice to the provisions of Chapter X claim such compensation under either of those Acts but not under both.</p>",
+  "number": "167",
+  "text": "Notwithstanding anything contained in the Workmen's Compensation Act, 1923 (8 of 1923), where the death of, or bodily injury to, any person gives rise to a claim for compensation under this Act and also under the Workmen's Compensation Act, 1923, the person entitled to compensation may without prejudice to the provisions of Chapter X claim such compensation under either of those Acts but not under both.",
+  "words": 66
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/167/"
+}

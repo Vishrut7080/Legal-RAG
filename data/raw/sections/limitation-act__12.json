@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Exclusion of time in legal proceedings",
+  "html": "<p><span class=\"num\">(1)</span> In computing the period of limitation for any suit, appeal or application, the day from which such period is to be reckoned, shall be excluded.</p><p><span class=\"num\">(2)</span> In computing the period of limitation for an appeal or an application for leave to appeal or for revision or for review of a judgment, the day on which the judgment complained of was pronounced and the time requisite for obtaining a copy of the decree, sentence or order appealed from or sought to be revised or reviewed shall be excluded.</p><p><span class=\"num\">(3)</span> Where a decree or order is appealed from or sought to be revised or reviewed, or where an application is made for leave to appeal from a decree or order, the time requisite for obtaining a copy of the judgment <sup>2</sup> *** shall also be excluded.</p><p><span class=\"num\">(4)</span> In computing the period of limitation for an application to set aside an award, the time requisite for obtaining a copy of the award shall be excluded.</p><p><i>Explanation.</i>—In computing under this section the time requisite for obtaining a copy of a decree or an order, any time taken by the court to prepare the decree or order before an application for a copy thereof is made shall not be excluded.</p>",
+  "number": "12",
+  "text": "(1) In computing the period of limitation for any suit, appeal or application, the day from which such period is to be reckoned, shall be excluded. (2) In computing the period of limitation for an appeal or an application for leave to appeal or for revision or for review of a judgment, the day on which the judgment complained of was pronounced and the time requisite for obtaining a copy of the decree, sentence or order appealed from or sought to be revised or reviewed shall be excluded. (3) Where a decree or order is appealed from or sought to be revised or reviewed, or where an application is made for leave to appeal from a decree or order, the time requisite for obtaining a copy of the judgment 2 *** shall also be excluded. (4) In computing the period of limitation for an application to set aside an award, the time requisite for obtaining a copy of the award shall be excluded. Explanation.—In computing under this section the time requisite for obtaining a copy of a decree or an order, any time taken by the court to prepare the decree or order before an application for a copy thereof is made shall not be excluded.",
+  "words": 206
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/limitation-act/section/12/"
+}

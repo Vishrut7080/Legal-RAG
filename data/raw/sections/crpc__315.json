@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "353",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/353/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Accused person to be competent witness",
+  "html": "<p><span class=\"num\">(1)</span> Any person accused of an offence before a Criminal Court shall be a competent witness for the defence and may give evidence on oath in disproof of the charges made against him or any person charged together with him at the same trial:</p><p>Provided that-</p><p><span class=\"num\">(a)</span> he shall not be called as a witness except on his own request in writing;</p><p><span class=\"num\">(b)</span> his failure to give evidence shall not be made the subject of any comment by any of the parties or the Court or give rise to any presumption against himself or any person charged together with him at the same trial.</p><p><span class=\"num\">(2)</span> Any person against whom proceedings are instituted in any Criminal Court under section <a href=\"/crpc/section/98/\">98</a>, or section <a href=\"/crpc/section/107/\">107</a>, or section <a href=\"/crpc/section/108/\">108</a>, or section <a href=\"/crpc/section/109/\">109</a>, or section <a href=\"/crpc/section/110/\">110</a>, or under Chapter IX or under Part B, Part C or Part D of Chapter X, may offer himself as a witness in such proceedings:</p><p>Provided that in proceedings under section <a href=\"/crpc/section/108/\">108</a>, section <a href=\"/crpc/section/109/\">109</a> or section <a href=\"/crpc/section/110/\">110</a>, the failure of such person to give evidence shall not be made the subject or any comment by any of the parties or the Court or give rise to any presumption against him or any other person proceeded against together with him at the same inquiry.</p>",
+  "number": "315",
+  "text": "(1) Any person accused of an offence before a Criminal Court shall be a competent witness for the defence and may give evidence on oath in disproof of the charges made against him or any person charged together with him at the same trial: Provided that- (a) he shall not be called as a witness except on his own request in writing; (b) his failure to give evidence shall not be made the subject of any comment by any of the parties or the Court or give rise to any presumption against himself or any person charged together with him at the same trial. (2) Any person against whom proceedings are instituted in any Criminal Court under section 98, or section 107, or section 108, or section 109, or section 110, or under Chapter IX or under Part B, Part C or Part D of Chapter X, may offer himself as a witness in such proceedings: Provided that in proceedings under section 108, section 109 or section 110, the failure of such person to give evidence shall not be made the subject or any comment by any of the parties or the Court or give rise to any presumption against him or any other person proceeded against together with him at the same inquiry.",
+  "words": 214
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/315/"
+}

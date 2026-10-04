@@ -1,0 +1,18 @@
+{
+ "act": "cpc",
+ "act_title": "The Code of Civil Procedure, 1908",
+ "citations": [
+  "Order IX Rule 9 CPC",
+  "Order 9 Rule 9 CPC"
+ ],
+ "heading": "Decree against plaintiff by default bars fresh suit",
+ "html": "<p><span class=\"num\">(1)</span> Where a suit is wholly or partly dismissed under rule 8, the plaintiff shall be precluded from bringing a fresh suit in respect of the same cause of action. But he may apply for an order to set the dismissal aside, and if he satisfies the Court that there was sufficient cause for his non-appearance when the suit was called on for hearing, the Court shall make an order setting aside the dismissal upon such terms as to costs or otherwise as it thinks fit, and shall appoint a day for proceeding with the suit.</p><p><span class=\"num\">(2)</span> No order shall be made under this rule unless notice of the application has been served on the opposite party.</p>",
+ "order": "IX",
+ "order_arabic": 9,
+ "order_title": "Appearance of parties and consequence of non-appearance",
+ "position": 9,
+ "rule": "9",
+ "text": "(1) Where a suit is wholly or partly dismissed under rule 8, the plaintiff shall be precluded from bringing a fresh suit in respect of the same cause of action. But he may apply for an order to set the dismissal aside, and if he satisfies the Court that there was sufficient cause for his non-appearance when the suit was called on for hearing, the Court shall make an order setting aside the dismissal upon such terms as to costs or otherwise as it thinks fit, and shall appoint a day for proceeding with the suit. (2) No order shall be made under this rule unless notice of the application has been served on the opposite party.",
+ "url": "https://indiacode.ecourtsindia.com/cpc/order/ix/rule/9/",
+ "words": 117
+}

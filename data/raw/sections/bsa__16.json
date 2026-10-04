@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "close",
+   "score": 0.8353,
+   "section": "18",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/18/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Admission by party to proceeding or his agent",
+  "html": "<p><span class=\"num\">(1)</span> Statements made by a party to the proceeding, or by an agent to any such party, whom the Court regards, under the circumstances of the case, as expressly or impliedly authorised by him to make them, are admissions.</p><p><span class=\"num\">(2)</span> Statements made by--</p><p><span class=\"num\">(i)</span> parties to suits suing or sued in a representative character, are not admissions, unless they were made while the party making them held that character; or</p><p><span class=\"num\">(ii)</span> (a) persons who have any proprietary or pecuniary interest in the subject matter of the proceeding, and who make the statement in their character of persons so interested; or</p><p><span class=\"num\">(b)</span> persons from whom the parties to the suit have derived their interest in the subject matter of the suit,</p><p>are admissions, if they are made during the continuance of the interest of the persons making the statements</p>",
+  "number": "16",
+  "text": "(1) Statements made by a party to the proceeding, or by an agent to any such party, whom the Court regards, under the circumstances of the case, as expressly or impliedly authorised by him to make them, are admissions. (2) Statements made by-- (i) parties to suits suing or sued in a representative character, are not admissions, unless they were made while the party making them held that character; or (ii) (a) persons who have any proprietary or pecuniary interest in the subject matter of the proceeding, and who make the statement in their character of persons so interested; or (b) persons from whom the parties to the suit have derived their interest in the subject matter of the suit, are admissions, if they are made during the continuance of the interest of the persons making the statements",
+  "words": 138
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/16/"
+}

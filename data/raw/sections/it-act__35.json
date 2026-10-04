@@ -1,0 +1,78 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Tamil Nadu",
+   "key": "768f9e95",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Tamil Nadu Information Technology (Electronic Service Delivery) Rules, 2016",
+   "url": "https://indiacode.ecourtsindia.com/rules/tamil-nadu-information-technology-electronic-service-delivery-rules-768f9e95/",
+   "year": 2016
+  },
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Tamil Nadu",
+   "key": "81723b62",
+   "kind": "notification",
+   "relation": "mentions",
+   "title": "Tamil Nadu Information Technology (ESD) Rules, 2016",
+   "url": "https://indiacode.ecourtsindia.com/rules/tamil-nadu-information-technology-esd-rules-2016-81723b62/",
+   "year": 2016
+  },
+  {
+   "act_basis": "inferred",
+   "jurisdiction": "Tamil Nadu",
+   "key": "b641cbce",
+   "kind": "order",
+   "relation": "mentions",
+   "title": "Information Technology Department — e-Governance — Electronic Delivery of Services in the State — Tamil Nadu Information Technology (Electronic Service Delivery) Rules, 2016 - Notified - Orders - Issued",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-department-e-governance-electronic-delivery-of-b641cbce/",
+   "year": 2016
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "67850468",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (Certifying Authorities) Rules, 2000.",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-certifying-authorities-rules-2000-67850468/",
+   "year": 2000
+  }
+ ],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Certifying authority to issue electronic signature Certificate",
+  "html": "<p><b>35. Certifying authority to issue <sup>1</sup>[electronic signature] Certificate.</b>--(1) Any person may make an application to the Certifying Authority for the issue of a <sup>1</sup>[electronic signature] Certificate in such form as may be prescribed by the Central Government.</p><p><span class=\"num\">(2)</span> Every such application shall be accompanied by such fee not exceeding twenty-five thousand rupees as may be prescribed by the Central Government, to be paid to the Certifying Authority:</p><p>Provided that while prescribing fees under sub-section <i>(2)</i> different fees may be prescribed for different classes of applicants.</p><p><span class=\"num\">(3)</span> Every such application shall be accompanied by a certification practice statement or where there is no such statement, a statement containing such particulars, as may be specified by regulations.</p><p><span class=\"num\">(4)</span> On receipt of an application under sub-section <i>(1)</i>, the Certifying Authority may, after consideration of the certification practice statement or the other statement under sub-section <i>(3)</i> and after making such enquiries as it may deem fit, grant the <sup>1</sup>[electronic signature] Certificate or for reasons to be recorded in writing, reject the application:</p><p><sup>2</sup>* * * * *</p><p><sup>3</sup>[Provided] that no application shall be rejected unless the applicant has been given a reasonable opportunity of showing cause against the proposed rejection.</p>",
+  "number": "35",
+  "text": "35. Certifying authority to issue 1[electronic signature] Certificate.--(1) Any person may make an application to the Certifying Authority for the issue of a 1[electronic signature] Certificate in such form as may be prescribed by the Central Government. (2) Every such application shall be accompanied by such fee not exceeding twenty-five thousand rupees as may be prescribed by the Central Government, to be paid to the Certifying Authority: Provided that while prescribing fees under sub-section (2) different fees may be prescribed for different classes of applicants. (3) Every such application shall be accompanied by a certification practice statement or where there is no such statement, a statement containing such particulars, as may be specified by regulations. (4) On receipt of an application under sub-section (1), the Certifying Authority may, after consideration of the certification practice statement or the other statement under sub-section (3) and after making such enquiries as it may deem fit, grant the 1[electronic signature] Certificate or for reasons to be recorded in writing, reject the application: 2* * * * * 3[Provided] that no application shall be rejected unless the applicant has been given a reasonable opportunity of showing cause against the proposed rejection.",
+  "words": 196
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/35/"
+}

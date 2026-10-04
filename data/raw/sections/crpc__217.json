@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9671,
+   "section": "240",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/240/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Recall of witnesses when charge altered",
+  "html": "<p>Whenever a charge is altered or added to by the Court after the commencement of the trial, the prosecutor and the accused shall be allowed-</p><p><span class=\"num\">(a)</span> to recall or re-summon, and examine with reference to such alteration or addition, any witness who may have been examined, unless the Court, for reasons to be recorded in writing, considers that the prosecutor or the accused, as the case may be, desires to recall or re-examine such witness for the purpose of vexation or delay or for defeating the ends of justice ;</p><p><span class=\"num\">(b)</span> also to call any further witness whom the Court may think to be material.</p><p>B.-Joinder of charges</p>",
+  "number": "217",
+  "text": "Whenever a charge is altered or added to by the Court after the commencement of the trial, the prosecutor and the accused shall be allowed- (a) to recall or re-summon, and examine with reference to such alteration or addition, any witness who may have been examined, unless the Court, for reasons to be recorded in writing, considers that the prosecutor or the accused, as the case may be, desires to recall or re-examine such witness for the purpose of vexation or delay or for defeating the ends of justice ; (b) also to call any further witness whom the Court may think to be material. B.-Joinder of charges",
+  "words": 108
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/217/"
+}

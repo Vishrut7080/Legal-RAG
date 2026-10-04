@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "254",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/254/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Penalty for harbouring robbers or dacoits",
+  "html": "<p>Whoever, knowing or having reason to believe that any persons are about to commit or have recently committed robbery or dacoity,</p><p>harbours them or any of them, with the intention of facilitating the commission of such robbery or dacoity or of screening them or any of them from punishment, shall be punished with rigorous imprisonment for</p><p>a term which may extend to seven years, and shall also be liable to fine.</p><p>Explanation.-For the purposes of this section it is immaterial whether the robbery or dacoity is intended to be committed, or has been committed, within or without [India].</p><p>Exception.-This provision does not extend to the case in which the harbour is by the husband or wife of the offender.]</p>",
+  "number": "216A",
+  "text": "Whoever, knowing or having reason to believe that any persons are about to commit or have recently committed robbery or dacoity, harbours them or any of them, with the intention of facilitating the commission of such robbery or dacoity or of screening them or any of them from punishment, shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine. Explanation.-For the purposes of this section it is immaterial whether the robbery or dacoity is intended to be committed, or has been committed, within or without [India]. Exception.-This provision does not extend to the case in which the harbour is by the husband or wife of the offender.]",
+  "words": 119
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/216A/"
+}

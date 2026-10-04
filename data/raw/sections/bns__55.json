@@ -1,0 +1,61 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "classification": [
+  {
+   "bailable": "Non-bailable.",
+   "cognizable": "According as offence abetted is cognizable or non-cognizable.",
+   "offence": "Abetment of an offence, punishable with death or imprisonment for life, if the offence be not committed in consequence of the abetment.",
+   "punishment": "Imprisonment for 7 years and fine.",
+   "triable_by": "Court by which offence abetted is triable."
+  },
+  {
+   "bailable": "Non-bailable.",
+   "cognizable": "According as offence abetted is cognizable or non-cognizable.",
+   "offence": "If an act which causes harm to be done in consequence of the abetment.",
+   "punishment": "Imprisonment for 14 years and fine.",
+   "triable_by": "Court by which offence abetted is triable."
+  }
+ ],
+ "corresponds_to": [
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9452,
+   "section": "115",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/115/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Abetment of offence punishable with death or imprisonment for life",
+  "html": "<p>Whoever abets the commission of an offence punishable with death or imprisonment for life, shall, if that offence be not committed in consequence of the abetment, and no express provision is made under this Sanhita for the punishment of such abetment, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; and if any act for which the abettor is liable in consequence of the abetment, and which causes hurt to any person, is done, the abettor shall be liable to imprisonment of either description for a term which may extend to fourteen years, and shall also be liable to fine.</p><p class=\"rubric\"><i>Illustration</i>.</p><p>A instigates B to murder Z. The offence is not committed. If B had murdered Z, he would have been subject to the punishment of death or imprisonment for life. Therefore, A is liable to imprisonment for a term which may extend to seven years and also to a fine; and if any hurt be done to Z in consequence of the abetment, he will be liable to imprisonment for a term which may extend to fourteen years, and to fine.</p>",
+  "number": "55",
+  "text": "Whoever abets the commission of an offence punishable with death or imprisonment for life, shall, if that offence be not committed in consequence of the abetment, and no express provision is made under this Sanhita for the punishment of such abetment, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; and if any act for which the abettor is liable in consequence of the abetment, and which causes hurt to any person, is done, the abettor shall be liable to imprisonment of either description for a term which may extend to fourteen years, and shall also be liable to fine. Illustration. A instigates B to murder Z. The offence is not committed. If B had murdered Z, he would have been subject to the punishment of death or imprisonment for life. Therefore, A is liable to imprisonment for a term which may extend to seven years and also to a fine; and if any hurt be done to Z in consequence of the abetment, he will be liable to imprisonment for a term which may extend to fourteen years, and to fine.",
+  "words": 196
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bns/section/55/"
+}

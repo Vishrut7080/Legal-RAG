@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "9",
+  "act_year": 1872,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1872-04-25",
+  "enforcement_date": "1872-09-01",
+  "id": "contract-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": null,
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 268,
+  "short_title": "The Indian Contract Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/contract-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "\"Coercion\" defined",
+  "html": "<p>\"Coercion\" is the committing, or threatening to commit, any act forbidden by the Indian Penal Code (45 of 1860) or the unlawful detaining, or threatening to detain, any property, to the prejudice of any person whatever, with the intention of causing any person to enter into an agreement.</p><p><i>Explanation</i>.—It is immaterial whether the Indian Penal Code (45 of 1860) is or is not in force in the place where the coercion is employed.</p><p class=\"rubric\"><i>Illustration</i></p><p>A, on board an English ship on the high seas, causes B to enter into an agreement by an act amounting to criminal intimidation under the Indian Penal Code. (45 of 1860).</p><p>A afterwards sues B for breach of contract at Calcutta.</p><p>A has employed coercion, although his act is not an offence by the law of England, and although section <a href=\"/ipc/section/506/\">506</a> of the Indian Penal Code (45 of 1860) was not in force at the time when or place where the act was done.</p>",
+  "number": "15",
+  "text": "\"Coercion\" is the committing, or threatening to commit, any act forbidden by the Indian Penal Code (45 of 1860) or the unlawful detaining, or threatening to detain, any property, to the prejudice of any person whatever, with the intention of causing any person to enter into an agreement. Explanation.—It is immaterial whether the Indian Penal Code (45 of 1860) is or is not in force in the place where the coercion is employed. Illustration A, on board an English ship on the high seas, causes B to enter into an agreement by an act amounting to criminal intimidation under the Indian Penal Code. (45 of 1860). A afterwards sues B for breach of contract at Calcutta. A has employed coercion, although his act is not an offence by the law of England, and although section 506 of the Indian Penal Code (45 of 1860) was not in force at the time when or place where the act was done.",
+  "words": 159
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/contract-act/section/15/"
+}

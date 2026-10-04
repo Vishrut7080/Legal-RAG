@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "By and to whom notice should be given",
+  "html": "<p>When a promissory note, bill of exchange or cheque is dishonoured by non-acceptance or non-payment, the holder thereof, or some party thereto who remains liable thereon, must give notice that the instrument has been so dishonoured to all other parties whom the holder seeks to make severally liable thereon, and to some one of several parties whom he seeks to make jointly liable thereon.</p><p>Nothing in this section renders it necessary to give notice to the maker of the dishonoured promissory note or the drawee or acceptor of the dishonoured bill of exchange or cheque.</p>",
+  "number": "93",
+  "text": "When a promissory note, bill of exchange or cheque is dishonoured by non-acceptance or non-payment, the holder thereof, or some party thereto who remains liable thereon, must give notice that the instrument has been so dishonoured to all other parties whom the holder seeks to make severally liable thereon, and to some one of several parties whom he seeks to make jointly liable thereon. Nothing in this section renders it necessary to give notice to the maker of the dishonoured promissory note or the drawee or acceptor of the dishonoured bill of exchange or cheque.",
+  "words": 95
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ni-act/section/93/"
+}

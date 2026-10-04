@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "9",
+  "act_year": 1872,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1872-04-25",
+  "enforcement_date": "1872-09-01",
+  "id": "contract-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": null,
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 268,
+  "short_title": "The Indian Contract Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/contract-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Agreement without consideration, void, unless it is in writing and registered, or is a promise to compensate for something done, or is a promise to pay a debt barred by limitation law",
+  "html": "<p>An agreement made without consideration is void, unless</p><p><span class=\"num\">(1)</span> it is expressed in writing and registered under the law for the time being in force for the registration of <sup>1</sup>[documents], and is made on account of natural love and affection between parties standing in a near relation to each other ; or unless</p><p><span class=\"num\">(2)</span> it is a promise to compensate, wholly or in part, a person who has already voluntarily done something for the promisor, or something which the promisor was legally compellable to do; or unless;</p><p><span class=\"num\">(3)</span> it is a promise, made in writing and signed by the person to be charged therewith, or by his agent generally or specially authorized in that behalf, to pay wholly or in part a debt of which the creditor might have enforced payment but for the law for the limitation of suits.</p><p>In any of these cases, such an agreement is a contract.</p><p><i>Explanation 1</i>.Nothing in this section shall affect the validity, as between the donor and donee, of any gift actually made.</p><p><i>Explanation 2</i>.An agreement to which the consent of the promisor is freely given is not void merely because the consideration is inadequate; but the inadequacy of the consideration may be taken into account by the Court in determining the question whether the consent of the promisor was freely given.</p><p class=\"rubric\"><i>Illustrations</i></p><p><span class=\"num\">(a)</span> A promises, for no consideration, to give to B Rs. 1,000. This is a void agreement.</p><p><span class=\"num\">(b)</span> A, for natural love and affection, promises to give his son, B, Rs. 1,000. A puts his promise to B into writing and registers it. This is a contract.</p><p><span class=\"num\">(c)</span> A finds Bs purse and gives it to him. B promises to give A Rs. 50. This is a contract.</p><p><span class=\"num\">(d)</span> A supports Bs infant son. B promises to pay As expenses in so doing. This is a contract.</p><p><span class=\"num\">(e)</span> A owes B Rs. 1,000, but the debt is barred by the Limitation Act. A signs a written promise to pay B Rs. 500 on account of the debt. This is a contract.</p><p><span class=\"num\">(f)</span> A agrees to sell a horse worth Rs. 1,000 for Rs. 10. As consent to the agreement was freely given. The agreement is a contract notwithstanding the inadequacy of the consideration.</p><p><span class=\"num\">(g)</span> A agrees to sell a horse worth Rs. 1,000 for Rs. 10. A denies that his consent to the agreement was freely given.</p><p>The inadequacy of the consideration is a fact which the Court should take into account in considering whether or not As consent was freely given</p>",
+  "number": "25",
+  "text": "An agreement made without consideration is void, unless (1) it is expressed in writing and registered under the law for the time being in force for the registration of 1[documents], and is made on account of natural love and affection between parties standing in a near relation to each other ; or unless (2) it is a promise to compensate, wholly or in part, a person who has already voluntarily done something for the promisor, or something which the promisor was legally compellable to do; or unless; (3) it is a promise, made in writing and signed by the person to be charged therewith, or by his agent generally or specially authorized in that behalf, to pay wholly or in part a debt of which the creditor might have enforced payment but for the law for the limitation of suits. In any of these cases, such an agreement is a contract. Explanation 1.Nothing in this section shall affect the validity, as between the donor and donee, of any gift actually made. Explanation 2.An agreement to which the consent of the promisor is freely given is not void merely because the consideration is inadequate; but the inadequacy of the consideration may be taken into account by the Court in determining the question whether the consent of the promisor was freely given. Illustrations (a) A promises, for no consideration, to give to B Rs. 1,000. This is a void agreement. (b) A, for natural love and affection, promises to give his son, B, Rs. 1,000. A puts his promise to B into writing and registers it. This is a contract. (c) A finds Bs purse and gives it to him. B promises to give A Rs. 50. This is a contract. (d) A supports Bs infant son. B promises to pay As expenses in so doing. This is a contract. (e) A owes B Rs. 1,000, but the debt is barred by the Limitation Act. A signs a written promise to pay B Rs. 500 on account of the debt. This is a contract. (f) A agrees to sell a horse worth Rs. 1,000 for Rs. 10. As consent to the agreement was freely given. The agreement is a contract notwithstanding the inadequacy of the consideration. (g) A agrees to sell a horse worth Rs. 1,000 for Rs. 10. A denies that his consent to the agreement was freely given. The inadequacy of the consideration is a fact which the Court should take into account in considering whether or not As consent was freely given",
+  "words": 423
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/contract-act/section/25/"
+}

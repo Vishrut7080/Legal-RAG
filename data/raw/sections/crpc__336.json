@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "375",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/375/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Power of State Government to empower officer in charge to discharge",
+  "html": "<p>The State Government may empower the officer in charge of the jail in which a person is confined under the provisions of section <a href=\"/crpc/section/330/\">330</a>.</p><p>or section <a href=\"/crpc/section/335/\">335</a> to discharge all or any of the functions of the Inspector-General of Prisons under section <a href=\"/crpc/section/337/\">337</a> or section <a href=\"/crpc/section/338/\">338</a>.</p>",
+  "number": "336",
+  "text": "The State Government may empower the officer in charge of the jail in which a person is confined under the provisions of section 330. or section 335 to discharge all or any of the functions of the Inspector-General of Prisons under section 337 or section 338.",
+  "words": 46
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/336/"
+}

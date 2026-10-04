@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "241",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/241/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Separate charges for distinct offences",
+  "html": "<p><span class=\"num\">(1)</span> For every distinct offence of which any person is accused there shall be a separate charge, and every such charge shall be tried separately :</p><p>Provided that where the accused person, by an application in writing, so desires and the Magistrate is of opinion that such person is not likely to be prejudiced thereby, the Magistrate may try together all or any number of the charges framed against such person.</p><p><span class=\"num\">(2)</span> Nothing in sub-section (1) shall affect the operation of the provisions of sections <a href=\"/crpc/section/219/\">219</a>, <a href=\"/crpc/section/220/\">220</a>, <a href=\"/crpc/section/221/\">221</a> and <a href=\"/crpc/section/223/\">223</a>.</p><p class=\"rubric\">Illustration</p><p>A is accused of a theft on one occasion, and of causing grievous hurt on another occasion. A must be separately charged and separately tried for the theft and causing grievous hurt.</p>",
+  "number": "218",
+  "text": "(1) For every distinct offence of which any person is accused there shall be a separate charge, and every such charge shall be tried separately : Provided that where the accused person, by an application in writing, so desires and the Magistrate is of opinion that such person is not likely to be prejudiced thereby, the Magistrate may try together all or any number of the charges framed against such person. (2) Nothing in sub-section (1) shall affect the operation of the provisions of sections 219, 220, 221 and 223. Illustration A is accused of a theft on one occasion, and of causing grievous hurt on another occasion. A must be separately charged and separately tried for the theft and causing grievous hurt.",
+  "words": 123
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/218/"
+}

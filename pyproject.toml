@@ -1,0 +1,22 @@
+[project]
+name = "legal-rag"
+version = "0.1.0"
+description = "Cited RAG over Indian statutes and court procedure, built on India Code"
+readme = "README.md"
+requires-python = ">=3.11,<3.15"
+
+dependencies = [
+    "litellm>=1.55.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.9.0",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=3.3.0",
+    "numpy>=1.26.0",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "streamlit>=1.40.0",
+    "pyyaml>=6.0",
+    "pandas>=2.2.0",
+    "pytest>=8.3.0",
+    "ruff>=0.8.0",
+]

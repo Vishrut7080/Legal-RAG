@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "46",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bnss",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 531,
+  "short_title": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bnss/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "crpc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9898,
+   "section": "93",
+   "url": "https://indiacode.ecourtsindia.com/crpc/section/93/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "When search-warrant may be issued",
+  "html": "<p><span class=\"num\">(1)</span> Where---</p><p><span class=\"num\">(a)</span> any Court has reason to believe that a person to whom a summons order under section <a href=\"/bnss/section/94/\">94</a> or a requisition under sub-section (1) of section <a href=\"/bnss/section/95/\">95</a> has been, or might be, addressed, will not or would not produce the document or thing as required by such summons or requisition; or</p><p><span class=\"num\">(b)</span> such document or thing is not known to the Court to be in the possession of any person; or</p><p><span class=\"num\">(c)</span> the Court considers that the purposes of any inquiry, trial or other proceeding under this Sanhita will be served by a general search or inspection,</p><p>it may issue a search-warrant; and the person to whom such warrant is directed, may search or inspect in accordance therewith and the provisions hereinafter contained.</p><p><span class=\"num\">(2)</span> The Court may, if it thinks fit, specify in the warrant the particular place or part thereof to which only the search or inspection shall extend; and the person charged with the execution of such warrant shall then search or inspect only the place or part so specified.</p><p><span class=\"num\">(3)</span> Nothing contained in this section shall authorise any Magistrate other than a District Magistrate or Chief Judicial Magistrate to grant a warrant to search for a document, parcel or other thing in the custody of the postal authority.</p>",
+  "number": "96",
+  "text": "(1) Where--- (a) any Court has reason to believe that a person to whom a summons order under section 94 or a requisition under sub-section (1) of section 95 has been, or might be, addressed, will not or would not produce the document or thing as required by such summons or requisition; or (b) such document or thing is not known to the Court to be in the possession of any person; or (c) the Court considers that the purposes of any inquiry, trial or other proceeding under this Sanhita will be served by a general search or inspection, it may issue a search-warrant; and the person to whom such warrant is directed, may search or inspect in accordance therewith and the provisions hereinafter contained. (2) The Court may, if it thinks fit, specify in the warrant the particular place or part thereof to which only the search or inspection shall extend; and the person charged with the execution of such warrant shall then search or inspect only the place or part so specified. (3) Nothing contained in this section shall authorise any Magistrate other than a District Magistrate or Chief Judicial Magistrate to grant a warrant to search for a document, parcel or other thing in the custody of the postal authority.",
+  "words": 213
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bnss/section/96/"
+}

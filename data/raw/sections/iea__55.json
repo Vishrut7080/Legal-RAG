@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "1",
+  "act_year": 1872,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1872-03-15",
+  "enforcement_date": "1872-09-01",
+  "id": "iea",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate, define and amend the law of Evidence.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 185,
+  "short_title": "The Indian Evidence Act, 1872",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/iea/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bsa",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "50",
+   "url": "https://indiacode.ecourtsindia.com/bsa/section/50/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Character as affecting damages",
+  "html": "<p>In civil cases, the fact that the character of any person is such as to affect the amount of damages which he ought to receive, is relevant. Explanation. ––In sections <a href=\"/iea/section/52/\">52</a>, <a href=\"/iea/section/53/\">53</a>, <a href=\"/iea/section/54/\">54</a> and <a href=\"/iea/section/55/\">55</a>, the word “character” includes both reputation and disposition; but, [except as provided in section <a href=\"/iea/section/54/\">54</a>], evidence may be given only of general reputation and general disposition, and not of particular acts by which reputation or disposition were shown. PART II ON PROOF CHAPTER III. –– FACTS WHICH NEED NOT BE PROVED</p>",
+  "number": "55",
+  "text": "In civil cases, the fact that the character of any person is such as to affect the amount of damages which he ought to receive, is relevant. Explanation. ––In sections 52, 53, 54 and 55, the word “character” includes both reputation and disposition; but, [except as provided in section 54], evidence may be given only of general reputation and general disposition, and not of particular acts by which reputation or disposition were shown. PART II ON PROOF CHAPTER III. –– FACTS WHICH NEED NOT BE PROVED",
+  "words": 86
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/iea/section/55/"
+}

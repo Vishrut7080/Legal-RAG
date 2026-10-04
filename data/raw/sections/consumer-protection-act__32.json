@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "35",
+  "act_year": 2019,
+  "department": "Department of Consumer Affairs",
+  "duplicate_of": null,
+  "enact_date": "2019-08-09",
+  "enforcement_date": null,
+  "id": "consumer-protection-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide for protection of the interests of consumers and for the said purpose, to establish authorities for timely and effective administration and settlement of consumers' disputes and for matters connected therewith or incidental thereto",
+  "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+  "section_count": 107,
+  "short_title": "The Consumer Protection Act, 2019",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Vacancy in office of member of District Commission",
+  "html": "<p>If, at any time, there is a vacancy in the office of the President or member of a District Commission, the State Government may, by notification, direct--</p><p><span class=\"num\">(a)</span> any other District Commission specified in that notification to exercise the jurisdiction in respect of that district also; or</p><p><span class=\"num\">(b)</span> the President or a member of any other District Commission specified in that notification to exercise the powers and discharge the functions of the President or member of that District Commission also.</p>",
+  "number": "32",
+  "text": "If, at any time, there is a vacancy in the office of the President or member of a District Commission, the State Government may, by notification, direct-- (a) any other District Commission specified in that notification to exercise the jurisdiction in respect of that district also; or (b) the President or a member of any other District Commission specified in that notification to exercise the powers and discharge the functions of the President or member of that District Commission also.",
+  "words": 80
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/32/"
+}

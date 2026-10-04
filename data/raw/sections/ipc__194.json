@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.95,
+   "section": "230",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/230/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Giving or fabricating false evidence with intent to procure conviction of capital offence",
+  "html": "<p>Whoever gives or fabricates false evidence, intending thereby to cause, or knowing it to be likely that he will thereby cause, any person to be convicted of an offence which is capital [by the laws for the time being in force in [India]] shall be punished with [imprisonment for life], or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine;</p><p>If innocent person be thereby convicted and executed.</p><p>If innocent person be thereby conviceted and executed.--and if an innocent person be convicted and executed in consequence of such false evidence, the person who gives such false evidence shall be punished either with death or the punishment hereinbefore described.</p><p>195.</p><p>Giving or fabricating false evidence with intent to procure conviction</p>",
+  "number": "194",
+  "text": "Whoever gives or fabricates false evidence, intending thereby to cause, or knowing it to be likely that he will thereby cause, any person to be convicted of an offence which is capital [by the laws for the time being in force in [India]] shall be punished with [imprisonment for life], or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine; If innocent person be thereby convicted and executed. If innocent person be thereby conviceted and executed.--and if an innocent person be convicted and executed in consequence of such false evidence, the person who gives such false evidence shall be punished either with death or the punishment hereinbefore described. 195. Giving or fabricating false evidence with intent to procure conviction",
+  "words": 129
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/194/"
+}

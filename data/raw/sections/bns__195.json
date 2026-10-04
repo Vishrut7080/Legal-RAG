@@ -1,0 +1,61 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bns",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 358,
+  "short_title": "The Bharatiya Nyaya Sanhita, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bns/"
+ },
+ "classification": [
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Cognizable.",
+   "offence": "Assaulting or obstructing public servant when suppressing riot, etc.",
+   "punishment": "Imprisonment for 3 years, or fine not less than 25,000 rupees, or both.",
+   "triable_by": "Magistrate of the first class."
+  },
+  {
+   "bailable": "Bailable.",
+   "cognizable": "Non-cognizable.",
+   "offence": "Threatening to assault or attempting to obstruct public servant when suppressing riot, etc.",
+   "punishment": "Imprisonment for 1 year, or fine, or both.",
+   "triable_by": "Any Magistrate."
+  }
+ ],
+ "corresponds_to": [
+  {
+   "act": "ipc",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9562,
+   "section": "152",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/152/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Assaulting or obstructing public servant when suppressing riot, etc",
+  "html": "<p><span class=\"num\">(1)</span> Whoever assaults or obstructs any public servant or uses criminal force on any public servant in the discharge of his duty as such public servant in endeavouring to disperse an unlawful assembly, or to suppress a riot or affray, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine which shall not be less than twenty-five thousand rupees, or with both.</p><p><span class=\"num\">(2)</span> Whoever threatens to assault or attempts to obstruct any public servant or threatens or attempts to use criminal force to any public servant in the discharge of his duty as such public servant in endeavouring to disperse an unlawful assembly, or to suppress a riot or affray, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.</p>",
+  "number": "195",
+  "text": "(1) Whoever assaults or obstructs any public servant or uses criminal force on any public servant in the discharge of his duty as such public servant in endeavouring to disperse an unlawful assembly, or to suppress a riot or affray, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine which shall not be less than twenty-five thousand rupees, or with both. (2) Whoever threatens to assault or attempts to obstruct any public servant or threatens or attempts to use criminal force to any public servant in the discharge of his duty as such public servant in endeavouring to disperse an unlawful assembly, or to suppress a riot or affray, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.",
+  "words": 143
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bns/section/195/"
+}

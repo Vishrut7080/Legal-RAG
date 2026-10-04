@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1996,
+  "department": "Department of Legal Affairs",
+  "duplicate_of": null,
+  "enact_date": "1996-08-16",
+  "enforcement_date": "1996-08-22",
+  "id": "arbitration-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to domestic arbitration, international commercial arbitration and enforcement of foreign arbitral awards as also to define the law relating to conciliation and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 106,
+  "short_title": "The Arbitration and Conciliation Act, 1996",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/arbitration-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Lien on arbitral award and deposits as to costs",
+  "html": "<p><span class=\"num\">(1)</span> Subject to the provisions of sub-section <i>(2)</i> and to any provision to the contrary in the arbitration agreement, the arbitral tribunal shall have a lien on the arbitral award for any unpaid costs of the arbitration.</p><p><span class=\"num\">(2)</span> If in any case an arbitral tribunal refuses to deliver its award except on payment of the costs demanded by it, the Court may, on an application in this behalf, order that the arbitral tribunal shall deliver the arbitral award to the applicant on payment into Court by the applicant of the costs demanded, and shall, after such inquiry, if any, as it thinks fit, further order that out of the money so paid into Court there shall be paid to the arbitral tribunal by way of costs such sum as the Court may consider reasonable and that the balance of the money, if any, shall be refunded to the applicant.</p><p><span class=\"num\">(3)</span> An application under sub-section <i>(2)</i> may be made by any party unless the fees demanded have been fixed by written agreement between him and the arbitral tribunal, and the arbitral tribunal shall be entitled to appear and be heard on any such application.</p><p><span class=\"num\">(4)</span> The Court may make such orders as it thinks fit respecting the costs of the arbitration where any question arises respecting such costs and the arbitral award contains no sufficient provision concerning them.</p>",
+  "number": "39",
+  "text": "(1) Subject to the provisions of sub-section (2) and to any provision to the contrary in the arbitration agreement, the arbitral tribunal shall have a lien on the arbitral award for any unpaid costs of the arbitration. (2) If in any case an arbitral tribunal refuses to deliver its award except on payment of the costs demanded by it, the Court may, on an application in this behalf, order that the arbitral tribunal shall deliver the arbitral award to the applicant on payment into Court by the applicant of the costs demanded, and shall, after such inquiry, if any, as it thinks fit, further order that out of the money so paid into Court there shall be paid to the arbitral tribunal by way of costs such sum as the Court may consider reasonable and that the balance of the money, if any, shall be refunded to the applicant. (3) An application under sub-section (2) may be made by any party unless the fees demanded have been fixed by written agreement between him and the arbitral tribunal, and the arbitral tribunal shall be entitled to appear and be heard on any such application. (4) The Court may make such orders as it thinks fit respecting the costs of the arbitration where any question arises respecting such costs and the arbitral award contains no sufficient provision concerning them.",
+  "words": 227
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/39/"
+}

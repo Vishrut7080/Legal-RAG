@@ -1,0 +1,780 @@
+{
+ "act": {
+  "act_number": "35",
+  "act_year": 2019,
+  "department": "Department of Consumer Affairs",
+  "duplicate_of": null,
+  "enact_date": "2019-08-09",
+  "enforcement_date": null,
+  "id": "consumer-protection-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide for protection of the interests of consumers and for the said purpose, to establish authorities for timely and effective administration and settlement of consumers' disputes and for matters connected therewith or incidental thereto",
+  "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+  "section_count": 107,
+  "short_title": "The Consumer Protection Act, 2019",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/"
+ },
+ "amendments": [],
+ "count": 107,
+ "not_held": [
+  "schedules",
+  "amendments"
+ ],
+ "not_held_note": "This corpus holds no schedules or amendments for this Act. An empty list means not on file here, not that none exist.",
+ "schedules": [],
+ "sections": [
+  {
+   "heading": "Short title, extent, commencement and application",
+   "indexable": true,
+   "number": "1",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/1/",
+   "words": 107
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "2",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/2/",
+   "words": 3979
+  },
+  {
+   "heading": "Central Consumer Protection Council",
+   "indexable": true,
+   "number": "3",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/3/",
+   "words": 83
+  },
+  {
+   "heading": "Procedure for meetings of Central Council",
+   "indexable": true,
+   "number": "4",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/4/",
+   "words": 57
+  },
+  {
+   "heading": "Objects of Central Council",
+   "indexable": true,
+   "number": "5",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/5/",
+   "words": 22
+  },
+  {
+   "heading": "State Consumer Protection Councils",
+   "indexable": true,
+   "number": "6",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/6/",
+   "words": 157
+  },
+  {
+   "heading": "Objects of State Council",
+   "indexable": true,
+   "number": "7",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/7/",
+   "words": 24
+  },
+  {
+   "heading": "District Consumer Protection Council",
+   "indexable": true,
+   "number": "8",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/8/",
+   "words": 141
+  },
+  {
+   "heading": "Objects of District Council",
+   "indexable": true,
+   "number": "9",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/9/",
+   "words": 24
+  },
+  {
+   "heading": "Establishment of Central Consumer Protection Authority",
+   "indexable": true,
+   "number": "10",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/10/",
+   "words": 150
+  },
+  {
+   "heading": "Qualifications, method of recruitment, etc., of Chief Commissioner and Commissioners",
+   "indexable": true,
+   "number": "11",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/11/",
+   "words": 47
+  },
+  {
+   "heading": "Vacancy, etc., not to invalidate proceedings of Central Authority",
+   "indexable": true,
+   "number": "12",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/12/",
+   "words": 66
+  },
+  {
+   "heading": "Appointment of officers, experts, professionals and other employees of Central Authority",
+   "indexable": true,
+   "number": "13",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/13/",
+   "words": 136
+  },
+  {
+   "heading": "Procedure of Central Authority",
+   "indexable": true,
+   "number": "14",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/14/",
+   "words": 95
+  },
+  {
+   "heading": "Investigation Wing",
+   "indexable": true,
+   "number": "15",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/15/",
+   "words": 175
+  },
+  {
+   "heading": "Power of District Collector",
+   "indexable": true,
+   "number": "16",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/16/",
+   "words": 83
+  },
+  {
+   "heading": "Complaints to authorities",
+   "indexable": true,
+   "number": "17",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/17/",
+   "words": 58
+  },
+  {
+   "heading": "Powers and functions of Central Authority",
+   "indexable": true,
+   "number": "18",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/18/",
+   "words": 380
+  },
+  {
+   "heading": "Power of Central Authority to refer matter for investigation or to other Regulator",
+   "indexable": true,
+   "number": "19",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/19/",
+   "words": 188
+  },
+  {
+   "heading": "Power of Central Authority to recall goods, etc",
+   "indexable": true,
+   "number": "20",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/20/",
+   "words": 105
+  },
+  {
+   "heading": "Power of Central Authority to issue directions and penalties against false or misleading advertisements",
+   "indexable": true,
+   "number": "21",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/21/",
+   "words": 469
+  },
+  {
+   "heading": "Search and seizure",
+   "indexable": true,
+   "number": "22",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/22/",
+   "words": 308
+  },
+  {
+   "heading": "Designation of any statutory authority or body to function as Central Authority",
+   "indexable": true,
+   "number": "23",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/23/",
+   "words": 33
+  },
+  {
+   "heading": "Appeal",
+   "indexable": true,
+   "number": "24",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/24/",
+   "words": 38
+  },
+  {
+   "heading": "Grants by Central Government",
+   "indexable": true,
+   "number": "25",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/25/",
+   "words": 41
+  },
+  {
+   "heading": "Accounts and audit",
+   "indexable": true,
+   "number": "26",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/26/",
+   "words": 228
+  },
+  {
+   "heading": "Furnishing of annual reports, etc",
+   "indexable": true,
+   "number": "27",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/27/",
+   "words": 87
+  },
+  {
+   "heading": "Establishment of District Consumer Disputes Redressal Commission",
+   "indexable": true,
+   "number": "28",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/28/",
+   "words": 80
+  },
+  {
+   "heading": "Qualifications, etc., of President and members of District Commission",
+   "indexable": true,
+   "number": "29",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/29/",
+   "words": 34
+  },
+  {
+   "heading": "Salaries, allowances and other terms and conditions of service of President and members of District Commission",
+   "indexable": true,
+   "number": "30",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/30/",
+   "words": 30
+  },
+  {
+   "heading": "Transitional provision",
+   "indexable": true,
+   "number": "31",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/31/",
+   "words": 51
+  },
+  {
+   "heading": "Vacancy in office of member of District Commission",
+   "indexable": true,
+   "number": "32",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/32/",
+   "words": 80
+  },
+  {
+   "heading": "Officers and other employees of District Commission",
+   "indexable": true,
+   "number": "33",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/33/",
+   "words": 87
+  },
+  {
+   "heading": "Jurisdiction of District Commission",
+   "indexable": true,
+   "number": "34",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/34/",
+   "words": 232
+  },
+  {
+   "heading": "Manner in which complaint shall be made",
+   "indexable": true,
+   "number": "35",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/35/",
+   "words": 249
+  },
+  {
+   "heading": "Proceedings before District Commission",
+   "indexable": true,
+   "number": "36",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/36/",
+   "words": 166
+  },
+  {
+   "heading": "Reference to mediation",
+   "indexable": true,
+   "number": "37",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/37/",
+   "words": 119
+  },
+  {
+   "heading": "Procedure on admission of complaint",
+   "indexable": true,
+   "number": "38",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/38/",
+   "words": 1381
+  },
+  {
+   "heading": "Findings of District Commission",
+   "indexable": true,
+   "number": "39",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/39/",
+   "words": 553
+  },
+  {
+   "heading": "Review by District Commission in certain cases",
+   "indexable": true,
+   "number": "40",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/40/",
+   "words": 49
+  },
+  {
+   "heading": "Appeal against order of District Commission",
+   "indexable": true,
+   "number": "41",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/41/",
+   "words": 164
+  },
+  {
+   "heading": "Establishment of State Consumer Disputes Redressal Commission",
+   "indexable": true,
+   "number": "42",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/42/",
+   "words": 115
+  },
+  {
+   "heading": "Qualifications, etc., of President and members of State Commission",
+   "indexable": true,
+   "number": "43",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/43/",
+   "words": 36
+  },
+  {
+   "heading": "Salaries, allowances and other terms and conditions of service of President and members of State Commission",
+   "indexable": true,
+   "number": "44",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/44/",
+   "words": 30
+  },
+  {
+   "heading": "Transitional provision",
+   "indexable": true,
+   "number": "45",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/45/",
+   "words": 44
+  },
+  {
+   "heading": "Officers and employees of State Commission",
+   "indexable": true,
+   "number": "46",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/46/",
+   "words": 96
+  },
+  {
+   "heading": "Jurisdiction of State Commission",
+   "indexable": true,
+   "number": "47",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/47/",
+   "words": 493
+  },
+  {
+   "heading": "Transfer of cases",
+   "indexable": true,
+   "number": "48",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/48/",
+   "words": 43
+  },
+  {
+   "heading": "Procedure applicable to State Commission",
+   "indexable": true,
+   "number": "49",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/49/",
+   "words": 63
+  },
+  {
+   "heading": "Review by State Commission in certain cases",
+   "indexable": true,
+   "number": "50",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/50/",
+   "words": 49
+  },
+  {
+   "heading": "Appeal to National Commission",
+   "indexable": true,
+   "number": "51",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/51/",
+   "words": 329
+  },
+  {
+   "heading": "Hearing of appeal",
+   "indexable": true,
+   "number": "52",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/52/",
+   "words": 167
+  },
+  {
+   "heading": "Establishment of National Consumer Disputes Redressal Commission",
+   "indexable": true,
+   "number": "53",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/53/",
+   "words": 79
+  },
+  {
+   "heading": "Composition of National Commission",
+   "indexable": true,
+   "number": "54",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/54/",
+   "words": 27
+  },
+  {
+   "heading": "Qualifications, etc., of President and members of National Commission",
+   "indexable": true,
+   "number": "55",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/55/",
+   "words": 229
+  },
+  {
+   "heading": "Transitional provision",
+   "indexable": true,
+   "number": "56",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/56/",
+   "words": 54
+  },
+  {
+   "heading": "Other officers and employees of National Commission",
+   "indexable": true,
+   "number": "57",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/57/",
+   "words": 95
+  },
+  {
+   "heading": "Jurisdiction of National Commission",
+   "indexable": true,
+   "number": "58",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/58/",
+   "words": 360
+  },
+  {
+   "heading": "Procedure applicable to National Commission",
+   "indexable": true,
+   "number": "59",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/59/",
+   "words": 61
+  },
+  {
+   "heading": "Review by National Commission in certain cases",
+   "indexable": true,
+   "number": "60",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/60/",
+   "words": 49
+  },
+  {
+   "heading": "Power to set aside ex parte orders",
+   "indexable": true,
+   "number": "61",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/61/",
+   "words": 26
+  },
+  {
+   "heading": "Transfer of cases",
+   "indexable": true,
+   "number": "62",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/62/",
+   "words": 53
+  },
+  {
+   "heading": "Vacancy in office of President of National Commission",
+   "indexable": true,
+   "number": "63",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/63/",
+   "words": 103
+  },
+  {
+   "heading": "Vacancies or defects in appointment not to invalidate orders",
+   "indexable": true,
+   "number": "64",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/64/",
+   "words": 37
+  },
+  {
+   "heading": "Service of notice, etc",
+   "indexable": true,
+   "number": "65",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/65/",
+   "words": 438
+  },
+  {
+   "heading": "Experts to assist National Commission or State Commission",
+   "indexable": true,
+   "number": "66",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/66/",
+   "words": 56
+  },
+  {
+   "heading": "Appeal against order of National Commission",
+   "indexable": true,
+   "number": "67",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/67/",
+   "words": 138
+  },
+  {
+   "heading": "Finality of orders",
+   "indexable": true,
+   "number": "68",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/68/",
+   "words": 37
+  },
+  {
+   "heading": "Limitation period",
+   "indexable": true,
+   "number": "69",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/69/",
+   "words": 117
+  },
+  {
+   "heading": "Administrative control",
+   "indexable": true,
+   "number": "70",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/70/",
+   "words": 338
+  },
+  {
+   "heading": "Enforcement of orders of District Commission, State Commission and National Commission",
+   "indexable": true,
+   "number": "71",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/71/",
+   "words": 87
+  },
+  {
+   "heading": "Penalty for non-compliance of order",
+   "indexable": true,
+   "number": "72",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/72/",
+   "words": 194
+  },
+  {
+   "heading": "Appeal against order passed under section 72",
+   "indexable": true,
+   "number": "73",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/73/",
+   "words": 198
+  },
+  {
+   "heading": "Establishment of consumer mediation cell",
+   "indexable": true,
+   "number": "74",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/74/",
+   "words": 135
+  },
+  {
+   "heading": "Empanelment of mediators",
+   "indexable": true,
+   "number": "75",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/75/",
+   "words": 172
+  },
+  {
+   "heading": "Nomination of mediators from panel",
+   "indexable": true,
+   "number": "76",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/76/",
+   "words": 34
+  },
+  {
+   "heading": "Duty of mediator to disclose certain facts",
+   "indexable": true,
+   "number": "77",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/77/",
+   "words": 52
+  },
+  {
+   "heading": "Replacement of mediator in certain cases",
+   "indexable": true,
+   "number": "78",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/78/",
+   "words": 53
+  },
+  {
+   "heading": "Procedure for mediation",
+   "indexable": true,
+   "number": "79",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/79/",
+   "words": 130
+  },
+  {
+   "heading": "Settlement through mediation",
+   "indexable": true,
+   "number": "80",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/80/",
+   "words": 119
+  },
+  {
+   "heading": "Recording settlement and passing of order",
+   "indexable": true,
+   "number": "81",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/81/",
+   "words": 130
+  },
+  {
+   "heading": "Application of Chapter",
+   "indexable": true,
+   "number": "82",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/82/",
+   "words": 43
+  },
+  {
+   "heading": "Product liability action 84. Liability of product manufacturer",
+   "indexable": true,
+   "number": "83",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/83/",
+   "words": 40
+  },
+  {
+   "heading": "Liability of product manufacturer",
+   "indexable": true,
+   "number": "84",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/84/",
+   "words": 103
+  },
+  {
+   "heading": "Liability of product service provider",
+   "indexable": true,
+   "number": "85",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/85/",
+   "words": 112
+  },
+  {
+   "heading": "Liability of product sellers",
+   "indexable": true,
+   "number": "86",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/86/",
+   "words": 218
+  },
+  {
+   "heading": "Exceptions to product liability action",
+   "indexable": true,
+   "number": "87",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/87/",
+   "words": 261
+  },
+  {
+   "heading": "Penalty for non-compliance of direction of Central Authority",
+   "indexable": true,
+   "number": "88",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/88/",
+   "words": 43
+  },
+  {
+   "heading": "Punishment for false or misleading advertisement",
+   "indexable": true,
+   "number": "89",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/89/",
+   "words": 75
+  },
+  {
+   "heading": "Punishment for manufacturing for sale or storing, selling or distributing or importing products containing adulterant",
+   "indexable": true,
+   "number": "90",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/90/",
+   "words": 287
+  },
+  {
+   "heading": "Punishment for manufacturing for sale or for storing or selling or distributing or importing spurious goods",
+   "indexable": true,
+   "number": "91",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/91/",
+   "words": 205
+  },
+  {
+   "heading": "Cognizance of offence by court",
+   "indexable": true,
+   "number": "92",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/92/",
+   "words": 35
+  },
+  {
+   "heading": "Vexatious search",
+   "indexable": true,
+   "number": "93",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/93/",
+   "words": 76
+  },
+  {
+   "heading": "Measures to prevent unfair trade practices in e-commerce, direct selling, etc",
+   "indexable": true,
+   "number": "94",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/94/",
+   "words": 36
+  },
+  {
+   "heading": "Presidents, members, Chief Commissioner, Commissioner and certain officers to be public servants",
+   "indexable": true,
+   "number": "95",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/95/",
+   "words": 106
+  },
+  {
+   "heading": "Compounding of offences",
+   "indexable": true,
+   "number": "96",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/96/",
+   "words": 268
+  },
+  {
+   "heading": "Manner of crediting penalty",
+   "indexable": true,
+   "number": "97",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/97/",
+   "words": 23
+  },
+  {
+   "heading": "Protection of action taken in good faith",
+   "indexable": true,
+   "number": "98",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/98/",
+   "words": 70
+  },
+  {
+   "heading": "Power to give directions by Central Government",
+   "indexable": true,
+   "number": "99",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/99/",
+   "words": 96
+  },
+  {
+   "heading": "Act not in derogation of any other",
+   "indexable": true,
+   "number": "100",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/100/",
+   "words": 27
+  },
+  {
+   "heading": "Power of Central Government to make rules",
+   "indexable": true,
+   "number": "101",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/101/",
+   "words": 916
+  },
+  {
+   "heading": "Power of State Government to make rules",
+   "indexable": true,
+   "number": "102",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/102/",
+   "words": 517
+  },
+  {
+   "heading": "Power of National Commission to make regulations",
+   "indexable": true,
+   "number": "103",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/103/",
+   "words": 300
+  },
+  {
+   "heading": "Power of Central Authority to make regulations",
+   "indexable": true,
+   "number": "104",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/104/",
+   "words": 151
+  },
+  {
+   "heading": "Rules and regulations to be laid before each House of Parliament",
+   "indexable": true,
+   "number": "105",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/105/",
+   "words": 161
+  },
+  {
+   "heading": "Power to Remove Difficulties",
+   "indexable": true,
+   "number": "106",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/106/",
+   "words": 70
+  },
+  {
+   "heading": "Repeal and savings",
+   "indexable": true,
+   "number": "107",
+   "url": "https://indiacode.ecourtsindia.com/consumer-protection-act/section/107/",
+   "words": 104
+  }
+ ]
+}

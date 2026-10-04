@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9254,
+   "section": "120",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/120/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 8,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Voluntarily causing hurt to extort confession or to compel restoration of property",
+  "html": "<p>Whoever voluntarily causes hurt, for the purpose of extorting from the sufferer or from any person interested in the sufferer, any confession or any information which may lead to the detection of an offence or misconduct, or for the purpose of constraining the sufferer or any person interested in the sufferer to restore or to cause the restoration of any property or valuable security or to satisfy any claim or demand, or to give information which may lead to the restoration of any property or valuable security, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.</p><p>Illustriations</p><p><span class=\"num\">(a)</span> A, a police-officer, tortures Z in order to induce Z to confess that he committed a crime. A is guily of an offence under this section.</p><p><span class=\"num\">(b)</span> A, a police-officer, tortures B to induce him to point out where certain stolen property is deposited. A is guilty of an offence under this section.</p><p><span class=\"num\">(c)</span> A, a revenue officer, tortures z in order to compel him to pay certain arrears of revenue due from Z. A is guilty of an offence under this section.</p><p><span class=\"num\">(d)</span> A, a zamindar, tortures a raiyat in order to compel him to pay his rent. A is guilty of an offence under this section.</p>",
+  "number": "330",
+  "text": "Whoever voluntarily causes hurt, for the purpose of extorting from the sufferer or from any person interested in the sufferer, any confession or any information which may lead to the detection of an offence or misconduct, or for the purpose of constraining the sufferer or any person interested in the sufferer to restore or to cause the restoration of any property or valuable security or to satisfy any claim or demand, or to give information which may lead to the restoration of any property or valuable security, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. Illustriations (a) A, a police-officer, tortures Z in order to induce Z to confess that he committed a crime. A is guily of an offence under this section. (b) A, a police-officer, tortures B to induce him to point out where certain stolen property is deposited. A is guilty of an offence under this section. (c) A, a revenue officer, tortures z in order to compel him to pay certain arrears of revenue due from Z. A is guilty of an offence under this section. (d) A, a zamindar, tortures a raiyat in order to compel him to pay his rent. A is guilty of an offence under this section.",
+  "words": 221
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/330/"
+}

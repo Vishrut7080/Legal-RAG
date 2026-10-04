@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9893,
+   "section": "487",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/487/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Discharge from custody",
+  "html": "<p><span class=\"num\">(1)</span> As soon as the bond has been executed, the person for whose appearance it has been executed shall be released; and, when he is in jail, the Court admitting him to bail shall issue an order of release to the officer in charge of the jail, and such officer on receipt of the orders shall release him.</p><p><span class=\"num\">(2)</span> Nothing in this section, section <a href=\"/crpc/section/436/\">436</a> or section <a href=\"/crpc/section/437/\">437</a> shall be deemed to require the release of any person liable to be detained for some matter other than that in respect of which the bond was executed.</p>",
+  "number": "442",
+  "text": "(1) As soon as the bond has been executed, the person for whose appearance it has been executed shall be released; and, when he is in jail, the Court admitting him to bail shall issue an order of release to the officer in charge of the jail, and such officer on receipt of the orders shall release him. (2) Nothing in this section, section 436 or section 437 shall be deemed to require the release of any person liable to be detained for some matter other than that in respect of which the bond was executed.",
+  "words": 96
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/442/"
+}

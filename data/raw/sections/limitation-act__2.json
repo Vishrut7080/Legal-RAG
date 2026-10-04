@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 3,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Definitions",
+  "html": "<p>In this Act, unless the context otherwise requires,--</p><p><span class=\"num\">(a)</span> \"applicant\" includes--</p><p><span class=\"num\">(i)</span> a petitioner;</p><p><span class=\"num\">(ii)</span> any person from or through whom an applicant derives his right to apply;</p><p><span class=\"num\">(iii)</span> any person whose estate is represented by the applicant as executor, administrator or other representative;</p><p><span class=\"num\">(b)</span> \"application\" includes a petition;</p><p><span class=\"num\">(c)</span> \"bill of exchange\" includes a hundi and a cheque;</p><p><span class=\"num\">(d)</span> \"bond\" includes any instrument whereby a person obliges himself to pay money to another, on condition that the obligation shall be void if a specified act is performed, or is not performed, as the case may be;</p><p><span class=\"num\">(e)</span> \"defendant\" includes--</p><p><span class=\"num\">(i)</span> any person from or through whom a defendant derives his liability to be sued;</p><p><span class=\"num\">(ii)</span> any person whose estate is represented by the defendant as executor, administrator or other representative;</p><p><span class=\"num\">(f)</span> \"easement\" includes a right not arising from contract, by which one person is entitled to remove and appropriate for his own profit any part of the soil belonging to another or anything growing in, or attached to, or subsisting upon, the land of another;</p><p><span class=\"num\">(g)</span> \"foreign country\" means any country other than India;</p><p><span class=\"num\">(h)</span> \"good faith\"--nothing shall be deemed to be done in good faith which is not done with due care and attention;</p><p><span class=\"num\">(i)</span> \"plaintiff\" includes--</p><p><span class=\"num\">(i)</span> any person from or through whom a plaintiff derives his right to sue;</p><p><span class=\"num\">(ii)</span> any person whose estate is represented by the plaintiff as executor, administrator or other representative;</p><p><span class=\"num\">(j)</span> \"period of limitation\" means the period of limitation prescribed for any suit, appeal or application by the Schedule, and \"prescribed period\" means the period of limitation computed in accordance with the provisions of this Act;</p><p><span class=\"num\">(k)</span> \"promissory note\" means any instrument whereby the maker engages absolutely to pay a specified sum of money to another at a time therein limited, or on demand, or at sight;</p><p><span class=\"num\">(l)</span> \"suit\" does not include an appeal or an application;</p><p><span class=\"num\">(m)</span> \"tort\" means a civil wrong which is not exclusively the breach of a contract or the breach of a trust;</p><p><span class=\"num\">(n)</span> \"trustee\" does not include a <i>benamidar</i>, a mortgagee remaining in possession after the mortgage has been satisfied or a person in wrongful possession without title.</p>",
+  "number": "2",
+  "text": "In this Act, unless the context otherwise requires,-- (a) \"applicant\" includes-- (i) a petitioner; (ii) any person from or through whom an applicant derives his right to apply; (iii) any person whose estate is represented by the applicant as executor, administrator or other representative; (b) \"application\" includes a petition; (c) \"bill of exchange\" includes a hundi and a cheque; (d) \"bond\" includes any instrument whereby a person obliges himself to pay money to another, on condition that the obligation shall be void if a specified act is performed, or is not performed, as the case may be; (e) \"defendant\" includes-- (i) any person from or through whom a defendant derives his liability to be sued; (ii) any person whose estate is represented by the defendant as executor, administrator or other representative; (f) \"easement\" includes a right not arising from contract, by which one person is entitled to remove and appropriate for his own profit any part of the soil belonging to another or anything growing in, or attached to, or subsisting upon, the land of another; (g) \"foreign country\" means any country other than India; (h) \"good faith\"--nothing shall be deemed to be done in good faith which is not done with due care and attention; (i) \"plaintiff\" includes-- (i) any person from or through whom a plaintiff derives his right to sue; (ii) any person whose estate is represented by the plaintiff as executor, administrator or other representative; (j) \"period of limitation\" means the period of limitation prescribed for any suit, appeal or application by the Schedule, and \"prescribed period\" means the period of limitation computed in accordance with the provisions of this Act; (k) \"promissory note\" means any instrument whereby the maker engages absolutely to pay a specified sum of money to another at a time therein limited, or on demand, or at sight; (l) \"suit\" does not include an appeal or an application; (m) \"tort\" means a civil wrong which is not exclusively the breach of a contract or the breach of a trust; (n) \"trustee\" does not include a benamidar, a mortgagee remaining in possession after the mortgage has been satisfied or a person in wrongful possession without title.",
+  "words": 363
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/limitation-act/section/2/"
+}

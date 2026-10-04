@@ -1,0 +1,48 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "67850468",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Information Technology (Certifying Authorities) Rules, 2000.",
+   "url": "https://indiacode.ecourtsindia.com/rules/information-technology-certifying-authorities-rules-2000-67850468/",
+   "year": 2000
+  }
+ ],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Suspension of Digital Signature Certificate",
+  "html": "<p><span class=\"num\">(1)</span> Subject to the provisions of sub-section (2), the Certifying Authority which has issued a Digital Signature Certificate may suspend such Digital Signature Certificate,–</p><p><span class=\"num\">(a)</span> on receipt of a request to that effect from–</p><p><span class=\"num\">(i)</span> the subscriber listed in the Digital Signature Certificate; or</p><p><span class=\"num\">(ii)</span> any person duly authorised to act on behalf of that subscriber;</p><p><span class=\"num\">(b)</span> if it is of opinion that the Digital Signature Certificate should be suspended in public interest.</p><p><span class=\"num\">(2)</span> A Digital Signature Certificate shall not be suspended for a period exceeding fifteen days unless the subscriber has been given an opportunity of being heard in the matter.</p><p><span class=\"num\">(3)</span> On suspension of a Digital Signature Certificate under this section, the Certifying Authority shall communicate the same to the subscriber.</p>",
+  "number": "37",
+  "text": "(1) Subject to the provisions of sub-section (2), the Certifying Authority which has issued a Digital Signature Certificate may suspend such Digital Signature Certificate,– (a) on receipt of a request to that effect from– (i) the subscriber listed in the Digital Signature Certificate; or (ii) any person duly authorised to act on behalf of that subscriber; (b) if it is of opinion that the Digital Signature Certificate should be suspended in public interest. (2) A Digital Signature Certificate shall not be suspended for a period exceeding fifteen days unless the subscriber has been given an opportunity of being heard in the matter. (3) On suspension of a Digital Signature Certificate under this section, the Certifying Authority shall communicate the same to the subscriber.",
+  "words": 123
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/37/"
+}

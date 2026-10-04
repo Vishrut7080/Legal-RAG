@@ -1,0 +1,48 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "18e41931",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "18th amendment GSr 690(E) 6 November 2020",
+   "url": "https://indiacode.ecourtsindia.com/rules/18th-amendment-gsr-690-e-6-november-2020-18e41931/",
+   "year": 2020
+  }
+ ],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Payment of compensation in case of death or grevious hurt, etc",
+  "html": "<p><b><sup>1</sup>[Payment of compensation in case of death or grevious hurt, etc. --</b> (1) Notwithstanding anything contained in this Act or in any other law for the time being in force or instrument having the force of law, the owner of the motor vehicle or the authorised insurer shall be liable to pay in the case of death or grievous hurt due to any accident arising out of the use of motor vehicle, a compensation, of a sum of five lakh rupees in case of death or of two and a half lakh rupees in case of grievous hurt to the legal heirs or the victim, as the case may be.</p><p><span class=\"num\">(2)</span> In any claim for compensation under sub-section (1), the claimant shall not be required to plead or establish that the death or grievous hurt in respect of which the claim has been made was due to any wrongful act or neglect or default of the owner of the vehicle or of the vehicle concerned or of any other person.</p><p><span class=\"num\">(3)</span> Where, in respect of death or grievous hurt due to an accident arising out of the use of motor vehicle, compensation has been paid under any other law for the time being in force, such amount of compensation shall be reduced from the amount of compensation payable under this section.]</p>",
+  "number": "164",
+  "text": "1[Payment of compensation in case of death or grevious hurt, etc. -- (1) Notwithstanding anything contained in this Act or in any other law for the time being in force or instrument having the force of law, the owner of the motor vehicle or the authorised insurer shall be liable to pay in the case of death or grievous hurt due to any accident arising out of the use of motor vehicle, a compensation, of a sum of five lakh rupees in case of death or of two and a half lakh rupees in case of grievous hurt to the legal heirs or the victim, as the case may be. (2) In any claim for compensation under sub-section (1), the claimant shall not be required to plead or establish that the death or grievous hurt in respect of which the claim has been made was due to any wrongful act or neglect or default of the owner of the vehicle or of the vehicle concerned or of any other person. (3) Where, in respect of death or grievous hurt due to an accident arising out of the use of motor vehicle, compensation has been paid under any other law for the time being in force, such amount of compensation shall be reduced from the amount of compensation payable under this section.]",
+  "words": 221
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/164/"
+}

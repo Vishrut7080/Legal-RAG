@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "90",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/90/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 6,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Issue of warrant in lieu of, or in addition to, summons",
+  "html": "<p>A Court may, in any case in which it is empowered by this Code to issue a summons for the appearance of any person, issue, after recording its reasons in writing, a warrant for his arrest-</p><p><span class=\"num\">(a)</span> if, either before the issue of such summons, or after the issue of the same but before the time fixed for his appearance, the Court sees reason to believe that he has absconded or will not obey the summons ; or</p><p><span class=\"num\">(b)</span> if at such time he fails to appear and the summons is proved to have been duly served in time to admit of his appearing in accordance therewith and no reasonable excuse is offered for such failure.</p>",
+  "number": "87",
+  "text": "A Court may, in any case in which it is empowered by this Code to issue a summons for the appearance of any person, issue, after recording its reasons in writing, a warrant for his arrest- (a) if, either before the issue of such summons, or after the issue of the same but before the time fixed for his appearance, the Court sees reason to believe that he has absconded or will not obey the summons ; or (b) if at such time he fails to appear and the summons is proved to have been duly served in time to admit of his appearing in accordance therewith and no reasonable excuse is offered for such failure.",
+  "words": 116
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/87/"
+}

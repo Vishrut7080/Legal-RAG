@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9867,
+   "section": "447",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/447/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 8,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Power of High Court to transfer cases and appeals",
+  "html": "<p><span class=\"num\">(1)</span> Whenever it is made to appear to the High Court-</p><p><span class=\"num\">(a)</span> that a fair and impartial inquiry or trial cannot be had in any Criminal Court subordinate thereto, or</p><p><span class=\"num\">(b)</span> that some question of law of unusual difficulty is likely to arise, or</p><p><span class=\"num\">(c)</span> that an order under this section is required by any provision of this Code, or will tend to the general convenience of the parties or witnesses, or is expedient for the ends of justice,</p><p>it may order-</p><p><span class=\"num\">(i)</span> that any offence be inquired into or tried by any Court not qualified under sections <a href=\"/crpc/section/177/\">177</a> to <a href=\"/crpc/section/185/\">185</a> (both inclusive), but in other respects competent to inquire into or try such offence;</p><p><span class=\"num\">(ii)</span> that any particular case or appeal, or class of cases or appeals, be transferred from a Criminal Court subordinate to its authority to any other such Criminal Court of equal or superior jurisdiction ;</p><p><span class=\"num\">(iii)</span> that any particular case be committed for trial to a Court of Session ; or</p><p><span class=\"num\">(iv)</span> that any particular case or appeal be transferred to and tried before itself.</p><p><span class=\"num\">(2)</span> The High Court may act either on the report of the lower Court, or on the application of a party interested, or on its own initiative :</p><p>Provided that no application shall lie to the High Court for transferring a case from one Criminal Court to another Criminal Court in the same sessions division, unless an application for such transfer has been made to the Sessions Judge and rejected by him.</p><p><span class=\"num\">(3)</span> Every application for an order under sub-section (1) shall be made by motion, which shall, except when the applicant is the Advocate-General of the State, be supported by affidavit or affirmation.</p><p><span class=\"num\">(4)</span> When such application is made by an accused person, the High Court may direct him to execute a bond, with or without sureties, for the payment of any compensation which the High Court may award under sub-section (7).</p><p><span class=\"num\">(5)</span> Every accused person making such application shall give to the Public Prosecutor notice in writing of the application, together with copy of the grounds on which it is made; and no order shall be made on of the merits of the application unless at least twenty-four hours have elapsed between the giving of such notice and the hearing of the application.</p><p><span class=\"num\">(6)</span> Where the application is for the transfer of a case or appeal from any subordinate Court, the High Court may, if it is satisfied that it is necessary so to do in the interests of justice, order that, pending the disposal of the application, the proceedings</p><p>in the subordinate Court shall be stayed, on such terms as the High Court may think fit to impose:</p><p>Provided that such stay shall not affect the subordinate Court's power of remand under section <a href=\"/crpc/section/309/\">309</a>.</p><p><span class=\"num\">(7)</span> Where an application for an order under sub-section (1) is dismissed, the High Court may, if it is of opinion that the application was frivolous or vexatious, order the applicant to pay by way of compensation to any person who has opposed the application such sum not exceeding one thousand rupees as it may consider proper in the circumstances of the case.</p><p><span class=\"num\">(8)</span> When the High Court orders under sub-section (1) that a case be transferred from any Court for trial before itself, it shall observe in such trial the same procedure which that Court would have observed if the case had not been so transferred.</p><p><span class=\"num\">(9)</span> Nothing in this section shall be deemed to affect any order of Government under section <a href=\"/crpc/section/197/\">197</a>.</p>",
+  "number": "407",
+  "text": "(1) Whenever it is made to appear to the High Court- (a) that a fair and impartial inquiry or trial cannot be had in any Criminal Court subordinate thereto, or (b) that some question of law of unusual difficulty is likely to arise, or (c) that an order under this section is required by any provision of this Code, or will tend to the general convenience of the parties or witnesses, or is expedient for the ends of justice, it may order- (i) that any offence be inquired into or tried by any Court not qualified under sections 177 to 185 (both inclusive), but in other respects competent to inquire into or try such offence; (ii) that any particular case or appeal, or class of cases or appeals, be transferred from a Criminal Court subordinate to its authority to any other such Criminal Court of equal or superior jurisdiction ; (iii) that any particular case be committed for trial to a Court of Session ; or (iv) that any particular case or appeal be transferred to and tried before itself. (2) The High Court may act either on the report of the lower Court, or on the application of a party interested, or on its own initiative : Provided that no application shall lie to the High Court for transferring a case from one Criminal Court to another Criminal Court in the same sessions division, unless an application for such transfer has been made to the Sessions Judge and rejected by him. (3) Every application for an order under sub-section (1) shall be made by motion, which shall, except when the applicant is the Advocate-General of the State, be supported by affidavit or affirmation. (4) When such application is made by an accused person, the High Court may direct him to execute a bond, with or without sureties, for the payment of any compensation which the High Court may award under sub-section (7). (5) Every accused person making such application shall give to the Public Prosecutor notice in writing of the application, together with copy of the grounds on which it is made; and no order shall be made on of the merits of the application unless at least twenty-four hours have elapsed between the giving of such notice and the hearing of the application. (6) Where the application is for the transfer of a case or appeal from any subordinate Court, the High Court may, if it is satisfied that it is necessary so to do in the interests of justice, order that, pending the disposal of the application, the proceedings in the subordinate Court shall be stayed, on such terms as the High Court may think fit to impose: Provided that such stay shall not affect the subordinate Court's power of remand under section 309. (7) Where an application for an order under sub-section (1) is dismissed, the High Court may, if it is of opinion that the application was frivolous or vexatious, order the applicant to pay by way of compensation to any person who has opposed the application such sum not exceeding one thousand rupees as it may consider proper in the circumstances of the case. (8) When the High Court orders under sub-section (1) that a case be transferred from any Court for trial before itself, it shall observe in such trial the same procedure which that Court would have observed if the case had not been so transferred. (9) Nothing in this section shall be deemed to affect any order of Government under section 197.",
+  "words": 591
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/407/"
+}

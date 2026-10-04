@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9898,
+   "section": "96",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/96/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 4,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "When search warrant may be issued",
+  "html": "<p><span class=\"num\">(1)</span> (a) Where any Court has reason to believe that a person to whom a summons or order under section <a href=\"/crpc/section/91/\">91</a> or a requisition under sub-section (1) of section <a href=\"/crpc/section/92/\">92</a> has been, or might be, addressed, will not or would not produce the document or thing as required by such summons or requisition, or</p><p><span class=\"num\">(b)</span> where such document or thing is not known to the Court to be the possession of any person, or</p><p><span class=\"num\">(c)</span> where the Court considers that the purposes of any inquiry, trial or other proceeding under this Code will be served by a general search or inspection,</p><p>it may issue a search-warrant; and the person to whom such warrant is directed, may search or inspect in accordance therewith and the provisions hereinafter contained.</p><p><span class=\"num\">(2)</span> The Court may, if it thinks fit, specify in the warrant the particular place or part thereof to which only the search or inspection shall extend; and the person charged with the execution of such warrant shall then search or inspect only the place or part so specified.</p><p><span class=\"num\">(3)</span> Nothing contained in this section shall authorise any Magistrate other than a District Magistrate or Chief Judicial Magistrate to grant a warrant to search for a document, parcel or other thing in the custody of the postal or telegraph authority.</p>",
+  "number": "93",
+  "text": "(1)(a) Where any Court has reason to believe that a person to whom a summons or order under section 91 or a requisition under sub-section (1) of section 92 has been, or might be, addressed, will not or would not produce the document or thing as required by such summons or requisition, or (b) where such document or thing is not known to the Court to be the possession of any person, or (c) where the Court considers that the purposes of any inquiry, trial or other proceeding under this Code will be served by a general search or inspection, it may issue a search-warrant; and the person to whom such warrant is directed, may search or inspect in accordance therewith and the provisions hereinafter contained. (2)The Court may, if it thinks fit, specify in the warrant the particular place or part thereof to which only the search or inspection shall extend; and the person charged with the execution of such warrant shall then search or inspect only the place or part so specified. (3)Nothing contained in this section shall authorise any Magistrate other than a District Magistrate or Chief Judicial Magistrate to grant a warrant to search for a document, parcel or other thing in the custody of the postal or telegraph authority.",
+  "words": 214
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/93/"
+}

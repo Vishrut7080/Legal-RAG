@@ -1,0 +1,3909 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "amendments": [],
+ "count": 554,
+ "not_held": [
+  "schedules",
+  "amendments"
+ ],
+ "not_held_note": "This corpus holds no schedules or amendments for this Act. An empty list means not on file here, not that none exist.",
+ "schedules": [],
+ "sections": [
+  {
+   "heading": "Title and extent of operation of the Code",
+   "indexable": true,
+   "number": "1",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/1/",
+   "words": 24
+  },
+  {
+   "heading": "Punishment of offences committed within India",
+   "indexable": true,
+   "number": "2",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/2/",
+   "words": 32
+  },
+  {
+   "heading": "Punishment of offences committed beyond, but which by law may be tried within, India",
+   "indexable": true,
+   "number": "3",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/3/",
+   "words": 46
+  },
+  {
+   "heading": "Extension of Code to extra-territorial offences",
+   "indexable": true,
+   "number": "4",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/4/",
+   "words": 348
+  },
+  {
+   "heading": "Certain laws not to be affected by this Act",
+   "indexable": true,
+   "number": "5",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/5/",
+   "words": 47
+  },
+  {
+   "heading": "Definitions in the Code to be understood subject to exceptions",
+   "indexable": true,
+   "number": "6",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/6/",
+   "words": 166
+  },
+  {
+   "heading": "Sense of expression once explained",
+   "indexable": true,
+   "number": "7",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/7/",
+   "words": 24
+  },
+  {
+   "heading": "Gender",
+   "indexable": true,
+   "number": "8",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/8/",
+   "words": 15
+  },
+  {
+   "heading": "Number",
+   "indexable": true,
+   "number": "9",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/9/",
+   "words": 26
+  },
+  {
+   "heading": "\"Man\". \"Woman\"",
+   "indexable": true,
+   "number": "10",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/10/",
+   "words": 22
+  },
+  {
+   "heading": "\"Person\"",
+   "indexable": true,
+   "number": "11",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/11/",
+   "words": 16
+  },
+  {
+   "heading": "\"Public\"",
+   "indexable": true,
+   "number": "12",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/12/",
+   "words": 22
+  },
+  {
+   "heading": "\"Servant of Government\"",
+   "indexable": true,
+   "number": "14",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/14/",
+   "words": 42
+  },
+  {
+   "heading": "\"Government\"",
+   "indexable": true,
+   "number": "17",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/17/",
+   "words": 13
+  },
+  {
+   "heading": "\"India\"",
+   "indexable": true,
+   "number": "18",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/18/",
+   "words": 13
+  },
+  {
+   "heading": "\"Judge\"",
+   "indexable": true,
+   "number": "19",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/19/",
+   "words": 179
+  },
+  {
+   "heading": "\"Court of Justice\"",
+   "indexable": true,
+   "number": "20",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/20/",
+   "words": 79
+  },
+  {
+   "heading": "\"Public servant\"",
+   "indexable": true,
+   "number": "21",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/21/",
+   "words": 608
+  },
+  {
+   "heading": "\"Movable property\"",
+   "indexable": true,
+   "number": "22",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/22/",
+   "words": 32
+  },
+  {
+   "heading": "\"Wrongful gain\"",
+   "indexable": true,
+   "number": "23",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/23/",
+   "words": 95
+  },
+  {
+   "heading": "\"Dishonestly\"",
+   "indexable": true,
+   "number": "24",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/24/",
+   "words": 26
+  },
+  {
+   "heading": "\"Fraudulently\"",
+   "indexable": true,
+   "number": "25",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/25/",
+   "words": 24
+  },
+  {
+   "heading": "\"Reason to believe\"",
+   "indexable": true,
+   "number": "26",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/26/",
+   "words": 23
+  },
+  {
+   "heading": "Property in possession of wife, clerk or servant",
+   "indexable": true,
+   "number": "27",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/27/",
+   "words": 58
+  },
+  {
+   "heading": "\"Counterfeit\"",
+   "indexable": true,
+   "number": "28",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/28/",
+   "words": 114
+  },
+  {
+   "heading": "\"Document\"",
+   "indexable": true,
+   "number": "29",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/29/",
+   "words": 254
+  },
+  {
+   "heading": "\"Valuable security\"",
+   "indexable": true,
+   "number": "30",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/30/",
+   "words": 90
+  },
+  {
+   "heading": "\"A will\"",
+   "indexable": true,
+   "number": "31",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/31/",
+   "words": 8
+  },
+  {
+   "heading": "Words referring to acts include illegal omissions",
+   "indexable": true,
+   "number": "32",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/32/",
+   "words": 26
+  },
+  {
+   "heading": "\"Act\". \"Omission\"",
+   "indexable": true,
+   "number": "33",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/33/",
+   "words": 28
+  },
+  {
+   "heading": "Acts done by several persons in futherance of common intention",
+   "indexable": true,
+   "number": "34",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/34/",
+   "words": 38
+  },
+  {
+   "heading": "When such an act is criminal by reason of its being done with a criminal knowledge or intention",
+   "indexable": true,
+   "number": "35",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/35/",
+   "words": 61
+  },
+  {
+   "heading": "Effect caused partly by act and partly by omission",
+   "indexable": true,
+   "number": "36",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/36/",
+   "words": 71
+  },
+  {
+   "heading": "Co-operation by doing one of several acts constituting an offence",
+   "indexable": true,
+   "number": "37",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/37/",
+   "words": 304
+  },
+  {
+   "heading": "Persons concerned in criminal Act may be guilty of different offences",
+   "indexable": true,
+   "number": "38",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/38/",
+   "words": 98
+  },
+  {
+   "heading": "\"Voluntarily\"",
+   "indexable": true,
+   "number": "39",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/39/",
+   "words": 112
+  },
+  {
+   "heading": "\"Offence\"",
+   "indexable": true,
+   "number": "40",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/40/",
+   "words": 141
+  },
+  {
+   "heading": "\"Special law\"",
+   "indexable": true,
+   "number": "41",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/41/",
+   "words": 11
+  },
+  {
+   "heading": "\"Local law\"",
+   "indexable": true,
+   "number": "42",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/42/",
+   "words": 17
+  },
+  {
+   "heading": "\"Legally bound to do\"",
+   "indexable": true,
+   "number": "43",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/43/",
+   "words": 48
+  },
+  {
+   "heading": "\"Injury\"",
+   "indexable": true,
+   "number": "44",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/44/",
+   "words": 18
+  },
+  {
+   "heading": "\"Life\"",
+   "indexable": true,
+   "number": "45",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/45/",
+   "words": 17
+  },
+  {
+   "heading": "\"Death\"",
+   "indexable": true,
+   "number": "46",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/46/",
+   "words": 17
+  },
+  {
+   "heading": "\"Animal\"",
+   "indexable": true,
+   "number": "47",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/47/",
+   "words": 12
+  },
+  {
+   "heading": "\"Vessel\"",
+   "indexable": true,
+   "number": "48",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/48/",
+   "words": 19
+  },
+  {
+   "heading": "\"Month\"",
+   "indexable": true,
+   "number": "49",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/49/",
+   "words": 31
+  },
+  {
+   "heading": "\"Section\"",
+   "indexable": true,
+   "number": "50",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/50/",
+   "words": 21
+  },
+  {
+   "heading": "\"Oath\"",
+   "indexable": true,
+   "number": "51",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/51/",
+   "words": 45
+  },
+  {
+   "heading": "\"Good faith\"",
+   "indexable": true,
+   "number": "52",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/52/",
+   "words": 21
+  },
+  {
+   "heading": "\"Harbour\"",
+   "indexable": true,
+   "number": "52A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/52A/",
+   "words": 78
+  },
+  {
+   "heading": "Punishments",
+   "indexable": true,
+   "number": "53",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/53/",
+   "words": 71
+  },
+  {
+   "heading": "Construction of reference to transportation",
+   "indexable": true,
+   "number": "53A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/53A/",
+   "words": 192
+  },
+  {
+   "heading": "Commutation of sentence of death",
+   "indexable": true,
+   "number": "54",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/54/",
+   "words": 33
+  },
+  {
+   "heading": "Commutation of sentence of imprisonment for life",
+   "indexable": true,
+   "number": "55",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/55/",
+   "words": 39
+  },
+  {
+   "heading": "Definition of \"appropriate Government\"",
+   "indexable": true,
+   "number": "55A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/55A/",
+   "words": 88
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "56",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/56/",
+   "words": 39
+  },
+  {
+   "heading": "Fractions of terms of punishment",
+   "indexable": true,
+   "number": "57",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/57/",
+   "words": 20
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "58",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/58/",
+   "words": 26
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "59",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/59/",
+   "words": 22
+  },
+  {
+   "heading": "Sentence may be (in certain cases of imprisonment) wholly or partly rigorous or simple",
+   "indexable": true,
+   "number": "60",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/60/",
+   "words": 62
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "61",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/61/",
+   "words": 19
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "62",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/62/",
+   "words": 18
+  },
+  {
+   "heading": "Amount of fine",
+   "indexable": true,
+   "number": "63",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/63/",
+   "words": 28
+  },
+  {
+   "heading": "Sentence of imprisonment for non-payment of fine",
+   "indexable": true,
+   "number": "64",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/64/",
+   "words": 115
+  },
+  {
+   "heading": "Limit to imprisonment for non-payment of fine, when imprisonment and fine awardable",
+   "indexable": true,
+   "number": "65",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/65/",
+   "words": 47
+  },
+  {
+   "heading": "Description of imprisonment for non-payment of fine",
+   "indexable": true,
+   "number": "66",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/66/",
+   "words": 29
+  },
+  {
+   "heading": "Imprisonment for non-payment of fine, when offence punishable with fine only",
+   "indexable": true,
+   "number": "67",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/67/",
+   "words": 100
+  },
+  {
+   "heading": "Imprisonment to terminate on payment of fine",
+   "indexable": true,
+   "number": "68",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/68/",
+   "words": 26
+  },
+  {
+   "heading": "Termination of imprisonment on payment of proportional part of fine",
+   "indexable": true,
+   "number": "69",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/69/",
+   "words": 198
+  },
+  {
+   "heading": "Fine leviable within six years, or during imprisonment. Death not to discharge property from liability",
+   "indexable": true,
+   "number": "70",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/70/",
+   "words": 78
+  },
+  {
+   "heading": "Limit of punishment of offence made up of several offences",
+   "indexable": true,
+   "number": "71",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/71/",
+   "words": 248
+  },
+  {
+   "heading": "Punishment of person guilty of one of several offences, the judgment stating that it is doubtful of which",
+   "indexable": true,
+   "number": "72",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/72/",
+   "words": 59
+  },
+  {
+   "heading": "Solitary confinement",
+   "indexable": true,
+   "number": "73",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/73/",
+   "words": 120
+  },
+  {
+   "heading": "Limit of solitary confinement",
+   "indexable": true,
+   "number": "74",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/74/",
+   "words": 75
+  },
+  {
+   "heading": "Enhanced punishment for certain offence under Chapter XII or Chapter XVII after previous conviction",
+   "indexable": true,
+   "number": "75",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/75/",
+   "words": 107
+  },
+  {
+   "heading": "Act done by a person bound, or by mistake of fact believing himself bound, by law.--",
+   "indexable": true,
+   "number": "76",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/76/",
+   "words": 105
+  },
+  {
+   "heading": "Act of Judge when acting judicially",
+   "indexable": true,
+   "number": "77",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/77/",
+   "words": 35
+  },
+  {
+   "heading": "Act done pursuant to the judgment or order of Court",
+   "indexable": true,
+   "number": "78",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/78/",
+   "words": 64
+  },
+  {
+   "heading": "Act done by a person justified, or by mistake of fact believing himself, justified, by law",
+   "indexable": true,
+   "number": "79",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/79/",
+   "words": 116
+  },
+  {
+   "heading": "Accident in doing a lawful act",
+   "indexable": true,
+   "number": "80",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/80/",
+   "words": 80
+  },
+  {
+   "heading": "Act likely to cause harm, but done without criminal intent, and to prevent other harm",
+   "indexable": true,
+   "number": "81",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/81/",
+   "words": 332
+  },
+  {
+   "heading": "Act of a child under seven years of age",
+   "indexable": true,
+   "number": "82",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/82/",
+   "words": 15
+  },
+  {
+   "heading": "Act of a child above seven and under twelve of immature understanding",
+   "indexable": true,
+   "number": "83",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/83/",
+   "words": 39
+  },
+  {
+   "heading": "Act of a person of unsound mind",
+   "indexable": true,
+   "number": "84",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/84/",
+   "words": 45
+  },
+  {
+   "heading": "Act of a person incapable of judgment by reason of intoxication caused against his will",
+   "indexable": true,
+   "number": "85",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/85/",
+   "words": 61
+  },
+  {
+   "heading": "Offence requiring a particular intent or knowledge committed by one who is intoxicated",
+   "indexable": true,
+   "number": "86",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/86/",
+   "words": 71
+  },
+  {
+   "heading": "Act not intended and not known to be likely to cause death or grievous hurt, done by consent",
+   "indexable": true,
+   "number": "87",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/87/",
+   "words": 149
+  },
+  {
+   "heading": "Act not intended to cause death, done by consent in good faith for person's benefit",
+   "indexable": true,
+   "number": "88",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/88/",
+   "words": 123
+  },
+  {
+   "heading": "Act done in good faith for benefit of child or insane person, by or by consent of guardian",
+   "indexable": true,
+   "number": "89",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/89/",
+   "words": 266
+  },
+  {
+   "heading": "Consent known to be given under fear or misconception",
+   "indexable": true,
+   "number": "90",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/90/",
+   "words": 126
+  },
+  {
+   "heading": "Exclusion of acts which are offences independently of harm cause",
+   "indexable": true,
+   "number": "91",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/91/",
+   "words": 119
+  },
+  {
+   "heading": "Act done in good faith for benefit of a person without consent",
+   "indexable": true,
+   "number": "92",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/92/",
+   "words": 439
+  },
+  {
+   "heading": "Communication made in good faith",
+   "indexable": true,
+   "number": "93",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/93/",
+   "words": 77
+  },
+  {
+   "heading": "Act to which a person is compelled by threats",
+   "indexable": true,
+   "number": "94",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/94/",
+   "words": 201
+  },
+  {
+   "heading": "Act causing slight harm",
+   "indexable": true,
+   "number": "95",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/95/",
+   "words": 53
+  },
+  {
+   "heading": "Things done in private defence",
+   "indexable": true,
+   "number": "96",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/96/",
+   "words": 16
+  },
+  {
+   "heading": "Right of private defence of the body and of property",
+   "indexable": true,
+   "number": "97",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/97/",
+   "words": 76
+  },
+  {
+   "heading": "Right of private defence against the act of a person of unsound mind, etc",
+   "indexable": true,
+   "number": "98",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/98/",
+   "words": 166
+  },
+  {
+   "heading": "Acts against which there is no right of private defence",
+   "indexable": true,
+   "number": "99",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/99/",
+   "words": 290
+  },
+  {
+   "heading": "When the right of private defence of the body extends to causing death",
+   "indexable": true,
+   "number": "100",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/100/",
+   "words": 150
+  },
+  {
+   "heading": "When such right extends to causing any harm other than death",
+   "indexable": true,
+   "number": "101",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/101/",
+   "words": 71
+  },
+  {
+   "heading": "body",
+   "indexable": true,
+   "number": "102",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/102/",
+   "words": 63
+  },
+  {
+   "heading": "When the right of private defence of property extends to causing death",
+   "indexable": true,
+   "number": "103",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/103/",
+   "words": 123
+  },
+  {
+   "heading": "When such right to causing any harm other than death",
+   "indexable": true,
+   "number": "104",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/104/",
+   "words": 75
+  },
+  {
+   "heading": "Commencement and continuance of the right of private defence of property",
+   "indexable": true,
+   "number": "105",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/105/",
+   "words": 154
+  },
+  {
+   "heading": "Right of private defence against deadly assault when there is risk of harm to innocent person",
+   "indexable": true,
+   "number": "106",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/106/",
+   "words": 116
+  },
+  {
+   "heading": "Abetment of a thing",
+   "indexable": true,
+   "number": "107",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/107/",
+   "words": 211
+  },
+  {
+   "heading": "Abettor",
+   "indexable": true,
+   "number": "108",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/108/",
+   "words": 745
+  },
+  {
+   "heading": "Abetment in India of offences outside India",
+   "indexable": true,
+   "number": "108A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/108A/",
+   "words": 55
+  },
+  {
+   "heading": "Punishment of abetment if the act abetted is committed in consequence and where no express provision is made for its punishment",
+   "indexable": true,
+   "number": "109",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/109/",
+   "words": 221
+  },
+  {
+   "heading": "Punishment of abetment if person abetted does act with different intention from that of abettor",
+   "indexable": true,
+   "number": "110",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/110/",
+   "words": 58
+  },
+  {
+   "heading": "Liability of abettor when one act abetted and different act done",
+   "indexable": true,
+   "number": "111",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/111/",
+   "words": 292
+  },
+  {
+   "heading": "Abettor when liable to cumulative punishment for act abetted and for act done",
+   "indexable": true,
+   "number": "112",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/112/",
+   "words": 131
+  },
+  {
+   "heading": "Liability of abettor for an effect caused by the act abetted different from that intended by the abettor",
+   "indexable": true,
+   "number": "113",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/113/",
+   "words": 138
+  },
+  {
+   "heading": "Abettor present when offence is committed",
+   "indexable": true,
+   "number": "114",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/114/",
+   "words": 46
+  },
+  {
+   "heading": "Abetment of offence punishable with death or imprisonment for life-if offence is not committed",
+   "indexable": true,
+   "number": "115",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/115/",
+   "words": 223
+  },
+  {
+   "heading": "Abetment of offence punishable with imprisonment--if offence be not committed",
+   "indexable": true,
+   "number": "116",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/116/",
+   "words": 330
+  },
+  {
+   "heading": "Abetting commission of offence by the public or by more than ten persons",
+   "indexable": true,
+   "number": "117",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/117/",
+   "words": 95
+  },
+  {
+   "heading": "Concealing design to commit offence punishable with death or imprisonment for life",
+   "indexable": true,
+   "number": "118",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/118/",
+   "words": 188
+  },
+  {
+   "heading": "Public servant concealing design to commit offence which it is his duty to prevent",
+   "indexable": true,
+   "number": "119",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/119/",
+   "words": 284
+  },
+  {
+   "heading": "Concealing design to commit offence punishable with imprisonment",
+   "indexable": true,
+   "number": "120",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/120/",
+   "words": 130
+  },
+  {
+   "heading": "Definition of criminal conspiracy",
+   "indexable": true,
+   "number": "120A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/120A/",
+   "words": 93
+  },
+  {
+   "heading": "Punishment of criminal conspiracy",
+   "indexable": true,
+   "number": "120B",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/120B/",
+   "words": 116
+  },
+  {
+   "heading": "Waging, or attempting to wage war, or abetting waging of war, against the Government of India",
+   "indexable": true,
+   "number": "121",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/121/",
+   "words": 60
+  },
+  {
+   "heading": "Conspiracy to commit offences punishable by section 121",
+   "indexable": true,
+   "number": "121A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/121A/",
+   "words": 88
+  },
+  {
+   "heading": "Collecting arms, etc., with intention of waging war against the Government of India",
+   "indexable": true,
+   "number": "122",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/122/",
+   "words": 55
+  },
+  {
+   "heading": "Concealing with intent to facilitate design to wage war",
+   "indexable": true,
+   "number": "123",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/123/",
+   "words": 69
+  },
+  {
+   "heading": "Assaulting President, Governor, etc., with intent to compel or restrain the exercise of any lawful power",
+   "indexable": true,
+   "number": "124",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/124/",
+   "words": 268
+  },
+  {
+   "heading": "Sedition",
+   "indexable": true,
+   "number": "124A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/124A/",
+   "words": 164
+  },
+  {
+   "heading": "Waging war against any Asiatic Power in alliance with the Government of India",
+   "indexable": true,
+   "number": "125",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/125/",
+   "words": 70
+  },
+  {
+   "heading": "Committing depredation on territories of Power at peace with the Government of India",
+   "indexable": true,
+   "number": "126",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/126/",
+   "words": 70
+  },
+  {
+   "heading": "Receiving property taken by war or depredation mentioned in sections 125 and 126",
+   "indexable": true,
+   "number": "127",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/127/",
+   "words": 57
+  },
+  {
+   "heading": "Public servant voluntarily allowing prisoner of state or war to escape",
+   "indexable": true,
+   "number": "128",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/128/",
+   "words": 60
+  },
+  {
+   "heading": "Public servant negligently suffering such prisoner to escape",
+   "indexable": true,
+   "number": "129",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/129/",
+   "words": 56
+  },
+  {
+   "heading": "Aiding escape of, rescuing or harbouring such prisoner",
+   "indexable": true,
+   "number": "130",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/130/",
+   "words": 150
+  },
+  {
+   "heading": "Abetting mutiny, or attempting to seduce a soldier, sailor or airman from his duty",
+   "indexable": true,
+   "number": "131",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/131/",
+   "words": 126
+  },
+  {
+   "heading": "Abetment of mutiny, if mutiny is committed in consequence thereof",
+   "indexable": true,
+   "number": "132",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/132/",
+   "words": 65
+  },
+  {
+   "heading": "Abetment of assault by soldier, sailor or airman on his superior officer, when in execution of his office",
+   "indexable": true,
+   "number": "133",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/133/",
+   "words": 58
+  },
+  {
+   "heading": "Abetment of such assault, if the assault committed",
+   "indexable": true,
+   "number": "134",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/134/",
+   "words": 68
+  },
+  {
+   "heading": "Abetment of desertion of soldier, sailor or airman",
+   "indexable": true,
+   "number": "135",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/135/",
+   "words": 46
+  },
+  {
+   "heading": "Harbouring deserter",
+   "indexable": true,
+   "number": "136",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/136/",
+   "words": 82
+  },
+  {
+   "heading": "Deserter concealed on board merchant vessel through negligence of master",
+   "indexable": true,
+   "number": "137",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/137/",
+   "words": 80
+  },
+  {
+   "heading": "Abetment of act of insubordination by soldier, sailor or airman",
+   "indexable": true,
+   "number": "138",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/138/",
+   "words": 65
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "138A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/138A/",
+   "words": 22
+  },
+  {
+   "heading": "Persons subject to certain Acts",
+   "indexable": true,
+   "number": "139",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/139/",
+   "words": 56
+  },
+  {
+   "heading": "Wearing garb or carrying token used by soldier, sailor or airman",
+   "indexable": true,
+   "number": "140",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/140/",
+   "words": 103
+  },
+  {
+   "heading": "Unlawful assembly",
+   "indexable": true,
+   "number": "141",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/141/",
+   "words": 199
+  },
+  {
+   "heading": "Being member of unlawful assembly",
+   "indexable": true,
+   "number": "142",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/142/",
+   "words": 30
+  },
+  {
+   "heading": "Punishment",
+   "indexable": true,
+   "number": "143",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/143/",
+   "words": 31
+  },
+  {
+   "heading": "Joining unlawful assembly armed with deadly weapon",
+   "indexable": true,
+   "number": "144",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/144/",
+   "words": 52
+  },
+  {
+   "heading": "Joining or continuing in unlawful assembly, knowing it has been commanded to disperse",
+   "indexable": true,
+   "number": "145",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/145/",
+   "words": 47
+  },
+  {
+   "heading": "Rioting",
+   "indexable": true,
+   "number": "146",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/146/",
+   "words": 36
+  },
+  {
+   "heading": "Punishment for rioting",
+   "indexable": true,
+   "number": "147",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/147/",
+   "words": 28
+  },
+  {
+   "heading": "Rioting, armed with deadly weapon",
+   "indexable": true,
+   "number": "148",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/148/",
+   "words": 49
+  },
+  {
+   "heading": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+   "indexable": true,
+   "number": "149",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/149/",
+   "words": 65
+  },
+  {
+   "heading": "Hiring, or conniving at hiring, of persons to join unlawful assembly",
+   "indexable": true,
+   "number": "150",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/150/",
+   "words": 87
+  },
+  {
+   "heading": "Knowingly joining or continuing in assembly of five or more persons after it has been commanded to disperse",
+   "indexable": true,
+   "number": "151",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/151/",
+   "words": 75
+  },
+  {
+   "heading": "Assaulting or obstructing public servant when suppressing riot, etc",
+   "indexable": true,
+   "number": "152",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/152/",
+   "words": 76
+  },
+  {
+   "heading": "Want only giving provocation with intent to cause riot-if rioting be committed:if not committed",
+   "indexable": true,
+   "number": "153",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/153/",
+   "words": 112
+  },
+  {
+   "heading": "Promoting enmity between different groups on ground of religion, race, place of birth, residence, language, etc., and doing acts prejudicial to maintenance of harmony",
+   "indexable": true,
+   "number": "153A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/153A/",
+   "words": 305
+  },
+  {
+   "heading": "Imputations, assertions prejudicial to national integration",
+   "indexable": true,
+   "number": "153B",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/153B/",
+   "words": 239
+  },
+  {
+   "heading": "Owner or occupier of land on which an unlawful assembly is held",
+   "indexable": true,
+   "number": "154",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/154/",
+   "words": 157
+  },
+  {
+   "heading": "Liability of person for whose benefit riot is committed",
+   "indexable": true,
+   "number": "155",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/155/",
+   "words": 129
+  },
+  {
+   "heading": "Liability of agent of owner or occupier for whose benefit riot is committed",
+   "indexable": true,
+   "number": "156",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/156/",
+   "words": 129
+  },
+  {
+   "heading": "Harbouring persons hired for an unlawful assembly",
+   "indexable": true,
+   "number": "157",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/157/",
+   "words": 72
+  },
+  {
+   "heading": "Being hired to take part in an unlawful assembly or riot;",
+   "indexable": true,
+   "number": "158",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/158/",
+   "words": 118
+  },
+  {
+   "heading": "Affray",
+   "indexable": true,
+   "number": "159",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/159/",
+   "words": 22
+  },
+  {
+   "heading": "Punishment for committing affray",
+   "indexable": true,
+   "number": "160",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/160/",
+   "words": 72
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "161",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/161/",
+   "words": 13
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "162",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/162/",
+   "words": 13
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "163",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/163/",
+   "words": 13
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "164",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/164/",
+   "words": 13
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "165",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/165/",
+   "words": 13
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "165A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/165A/",
+   "words": 13
+  },
+  {
+   "heading": "Public servant disobeying law, with intent to cause injury to any person",
+   "indexable": true,
+   "number": "166",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/166/",
+   "words": 124
+  },
+  {
+   "heading": "Public servant framing an incorrect document with intent to cause injury",
+   "indexable": true,
+   "number": "167",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/167/",
+   "words": 78
+  },
+  {
+   "heading": "Public servant unlawfully engaging in trade",
+   "indexable": true,
+   "number": "168",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/168/",
+   "words": 42
+  },
+  {
+   "heading": "Public servant unlawfully buying or bidding for property",
+   "indexable": true,
+   "number": "169",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/169/",
+   "words": 74
+  },
+  {
+   "heading": "Personating a public servant",
+   "indexable": true,
+   "number": "170",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/170/",
+   "words": 67
+  },
+  {
+   "heading": "Wearing garb or carrying token used by public servant with fraudulent intent",
+   "indexable": true,
+   "number": "171",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/171/",
+   "words": 101
+  },
+  {
+   "heading": "\"Candidate\", \"Electoral right\" defined",
+   "indexable": true,
+   "number": "171A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/171A/",
+   "words": 54
+  },
+  {
+   "heading": "Bribery",
+   "indexable": true,
+   "number": "171B",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/171B/",
+   "words": 184
+  },
+  {
+   "heading": "Undue influence at elections",
+   "indexable": true,
+   "number": "171C",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/171C/",
+   "words": 164
+  },
+  {
+   "heading": "Personation at elections",
+   "indexable": true,
+   "number": "171D",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/171D/",
+   "words": 73
+  },
+  {
+   "heading": "Punishment for bribery",
+   "indexable": true,
+   "number": "171E",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/171E/",
+   "words": 56
+  },
+  {
+   "heading": "Punishment for undue influence or personation at an election",
+   "indexable": true,
+   "number": "171F",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/171F/",
+   "words": 35
+  },
+  {
+   "heading": "False statement in connection with an election",
+   "indexable": true,
+   "number": "171G",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/171G/",
+   "words": 58
+  },
+  {
+   "heading": "Illegal payments in connection with an election",
+   "indexable": true,
+   "number": "171H",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/171H/",
+   "words": 200
+  },
+  {
+   "heading": "Failure to keep election accounts",
+   "indexable": true,
+   "number": "171-I",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/171-I/",
+   "words": 72
+  },
+  {
+   "heading": "Absconding to avoid service of summons or other proceeding",
+   "indexable": true,
+   "number": "172",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/172/",
+   "words": 111
+  },
+  {
+   "heading": "Preventing service of summons or other proceeding, or preventing publication thereof",
+   "indexable": true,
+   "number": "173",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/173/",
+   "words": 180
+  },
+  {
+   "heading": "Non-attendance in obedience to an order from public servant",
+   "indexable": true,
+   "number": "174",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/174/",
+   "words": 221
+  },
+  {
+   "heading": "Omission to produce document to public servant by person legally bound to produce it",
+   "indexable": true,
+   "number": "175",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/175/",
+   "words": 130
+  },
+  {
+   "heading": "Omission to give notice or information to public servant by person legally bound to give it",
+   "indexable": true,
+   "number": "176",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/176/",
+   "words": 192
+  },
+  {
+   "heading": "Furnishing false information",
+   "indexable": true,
+   "number": "177",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/177/",
+   "words": 359
+  },
+  {
+   "heading": "Refusing oath or affirmation when duly required by public servant to make it",
+   "indexable": true,
+   "number": "178",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/178/",
+   "words": 62
+  },
+  {
+   "heading": "Refusing to answer public servant authorized to question",
+   "indexable": true,
+   "number": "179",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/179/",
+   "words": 69
+  },
+  {
+   "heading": "Refusing to sign statement",
+   "indexable": true,
+   "number": "180",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/180/",
+   "words": 57
+  },
+  {
+   "heading": "False statement on oath or affirmation to public servant or person authorized to administer an oath or affirmation",
+   "indexable": true,
+   "number": "181",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/181/",
+   "words": 91
+  },
+  {
+   "heading": "False information, with intent to cause public servant to use his lawful power to the injury of another person",
+   "indexable": true,
+   "number": "182",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/182/",
+   "words": 345
+  },
+  {
+   "heading": "Resistance to the taking of property by the lawful authority of a public servant",
+   "indexable": true,
+   "number": "183",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/183/",
+   "words": 60
+  },
+  {
+   "heading": "Obstructing sale of property offered for sale by authority of public servant",
+   "indexable": true,
+   "number": "184",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/184/",
+   "words": 50
+  },
+  {
+   "heading": "Illegal purchase or bid for property offered for sale by authority of public servant",
+   "indexable": true,
+   "number": "185",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/185/",
+   "words": 98
+  },
+  {
+   "heading": "Obstructing public servant in discharge of public functions",
+   "indexable": true,
+   "number": "186",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/186/",
+   "words": 43
+  },
+  {
+   "heading": "Omission to assist public servant when bound by law to give assistance",
+   "indexable": true,
+   "number": "187",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/187/",
+   "words": 148
+  },
+  {
+   "heading": "Disobedience to order duly promulgated by public servant",
+   "indexable": true,
+   "number": "188",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/188/",
+   "words": 243
+  },
+  {
+   "heading": "Threat of injury to public servant",
+   "indexable": true,
+   "number": "189",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/189/",
+   "words": 81
+  },
+  {
+   "heading": "Threat of injury to induce person to refrain from applying for protection to public servant",
+   "indexable": true,
+   "number": "190",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/190/",
+   "words": 94
+  },
+  {
+   "heading": "Giving false evidence",
+   "indexable": true,
+   "number": "191",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/191/",
+   "words": 387
+  },
+  {
+   "heading": "Fabricating false evidence",
+   "indexable": true,
+   "number": "192",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/192/",
+   "words": 234
+  },
+  {
+   "heading": "Punishment for false evidence",
+   "indexable": true,
+   "number": "193",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/193/",
+   "words": 280
+  },
+  {
+   "heading": "Giving or fabricating false evidence with intent to procure conviction of capital offence",
+   "indexable": true,
+   "number": "194",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/194/",
+   "words": 129
+  },
+  {
+   "heading": "Giving or fabricating false evidence with intent to procure conviction of offence punishable with imprisonment for life or imprisonment",
+   "indexable": true,
+   "number": "195",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/195/",
+   "words": 135
+  },
+  {
+   "heading": "Using evidence known to be false",
+   "indexable": true,
+   "number": "196",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/196/",
+   "words": 37
+  },
+  {
+   "heading": "Issuing or signing false certificate",
+   "indexable": true,
+   "number": "197",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/197/",
+   "words": 54
+  },
+  {
+   "heading": "Using as true a certificate known to be false",
+   "indexable": true,
+   "number": "198",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/198/",
+   "words": 37
+  },
+  {
+   "heading": "False statement made in declaration which is by law receivable as evidence",
+   "indexable": true,
+   "number": "199",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/199/",
+   "words": 86
+  },
+  {
+   "heading": "Using as true such declaration knowing it to be false",
+   "indexable": true,
+   "number": "200",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/200/",
+   "words": 68
+  },
+  {
+   "heading": "Causing disappearance of evidence of offence, or giving false information to screen offender",
+   "indexable": true,
+   "number": "201",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/201/",
+   "words": 260
+  },
+  {
+   "heading": "Intentional omission to give information of offence by person bound to inform",
+   "indexable": true,
+   "number": "202",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/202/",
+   "words": 52
+  },
+  {
+   "heading": "Giving false information respecting an offence committed",
+   "indexable": true,
+   "number": "203",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/203/",
+   "words": 108
+  },
+  {
+   "heading": "Destruction of document to prevent its production as evidence",
+   "indexable": true,
+   "number": "204",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/204/",
+   "words": 108
+  },
+  {
+   "heading": "False personation for purpose of act or proceeding in suit or prosecution",
+   "indexable": true,
+   "number": "205",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/205/",
+   "words": 63
+  },
+  {
+   "heading": "Fraudulent removal or concealment of property to prevent its seizure as forfeited or in execution",
+   "indexable": true,
+   "number": "206",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/206/",
+   "words": 120
+  },
+  {
+   "heading": "Fraudulent claim to property to prevent its seizure as forfeited or in execution",
+   "indexable": true,
+   "number": "207",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/207/",
+   "words": 144
+  },
+  {
+   "heading": "Fraudulently suffering decree for sum not due",
+   "indexable": true,
+   "number": "208",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/208/",
+   "words": 188
+  },
+  {
+   "heading": "Dishonestly making false claim in Court",
+   "indexable": true,
+   "number": "209",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/209/",
+   "words": 56
+  },
+  {
+   "heading": "Fraudulently obtaining decree for sum not due",
+   "indexable": true,
+   "number": "210",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/210/",
+   "words": 103
+  },
+  {
+   "heading": "False charge of offence made with intent to injure",
+   "indexable": true,
+   "number": "211",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/211/",
+   "words": 122
+  },
+  {
+   "heading": "Harbouring offender-if a capital offence, if punishable with imprisonment for life, or with imprisonment",
+   "indexable": true,
+   "number": "212",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/212/",
+   "words": 339
+  },
+  {
+   "heading": "Taking gift, etc., to screen an offender from punishment-if a capital offence; if punishable with imprisonment for life, or with imprisonment",
+   "indexable": true,
+   "number": "213",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/213/",
+   "words": 223
+  },
+  {
+   "heading": "Offering gift or restoration of property in consideration of screening offender-if a capital offence; if punishable with imprisonment for life, or with imprisonment",
+   "indexable": true,
+   "number": "214",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/214/",
+   "words": 309
+  },
+  {
+   "heading": "Taking gift to help to recover stolen property, etc",
+   "indexable": true,
+   "number": "215",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/215/",
+   "words": 81
+  },
+  {
+   "heading": "Harbouring offender who has escaped from custody or whose apprehension has been ordered-if a capital offence; if punishable with imprisonment for life, or with imprisonment",
+   "indexable": true,
+   "number": "216",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/216/",
+   "words": 376
+  },
+  {
+   "heading": "Penalty for harbouring robbers or dacoits",
+   "indexable": true,
+   "number": "216A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/216A/",
+   "words": 119
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "216B",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/216B/",
+   "words": 23
+  },
+  {
+   "heading": "Public servant disobeying direction of law with intent to save person from punishment or property from forfeiture",
+   "indexable": true,
+   "number": "217",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/217/",
+   "words": 112
+  },
+  {
+   "heading": "Public servant framing incorrect record or writing with intent to save person from punishment or property from forfeiture",
+   "indexable": true,
+   "number": "218",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/218/",
+   "words": 133
+  },
+  {
+   "heading": "Public servant in judicial proceeding corruptly making report, etc., contrary to law",
+   "indexable": true,
+   "number": "219",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/219/",
+   "words": 55
+  },
+  {
+   "heading": "Commitment for trial or confinement by person having authority who knows that he is acting contrary to law",
+   "indexable": true,
+   "number": "220",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/220/",
+   "words": 81
+  },
+  {
+   "heading": "Intentional omission to apprehend on the part of public servant bound to apprehend",
+   "indexable": true,
+   "number": "221",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/221/",
+   "words": 220
+  },
+  {
+   "heading": "Intentional omission to apprehend on the part of public servant bound to apprehend person under sentence or lawfully committed",
+   "indexable": true,
+   "number": "222",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/222/",
+   "words": 237
+  },
+  {
+   "heading": "Escape from confinement or custody negligently suffered by public servant",
+   "indexable": true,
+   "number": "223",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/223/",
+   "words": 58
+  },
+  {
+   "heading": "Resistance or obstruction by a person to his lawful apprehension",
+   "indexable": true,
+   "number": "224",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/224/",
+   "words": 109
+  },
+  {
+   "heading": "Resistance or obstruction to lawful apprehension of another person",
+   "indexable": true,
+   "number": "225",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/225/",
+   "words": 300
+  },
+  {
+   "heading": "Omission to apprehend, or sufferance of escape, on part of public servant, in cases not otherwise, provided for",
+   "indexable": true,
+   "number": "225A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/225A/",
+   "words": 111
+  },
+  {
+   "heading": "Resistance or obstruction to lawful apprehension, or escape or rescue in cases not otherwise provided for",
+   "indexable": true,
+   "number": "225B",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/225B/",
+   "words": 140
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "226",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/226/",
+   "words": 21
+  },
+  {
+   "heading": "Violation of condition of remission of punishment",
+   "indexable": true,
+   "number": "227",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/227/",
+   "words": 63
+  },
+  {
+   "heading": "Intentional insult or interruption to public servant sitting in judicial proceeding",
+   "indexable": true,
+   "number": "228",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/228/",
+   "words": 54
+  },
+  {
+   "heading": "Disclosure of identity of the victim of certain offences, etc",
+   "indexable": true,
+   "number": "228A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/228A/",
+   "words": 325
+  },
+  {
+   "heading": "Personation of a juror or assessor",
+   "indexable": true,
+   "number": "229",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/229/",
+   "words": 111
+  },
+  {
+   "heading": "\"Coin\" defined",
+   "indexable": true,
+   "number": "230",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/230/",
+   "words": 158
+  },
+  {
+   "heading": "Counterfeiting coin",
+   "indexable": true,
+   "number": "231",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/231/",
+   "words": 69
+  },
+  {
+   "heading": "Counterfeiting Indian coin",
+   "indexable": true,
+   "number": "232",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/232/",
+   "words": 43
+  },
+  {
+   "heading": "Making or selling instrument for counterfeiting coin",
+   "indexable": true,
+   "number": "233",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/233/",
+   "words": 75
+  },
+  {
+   "heading": "Making or selling instrument for counterfeiting Indian coin",
+   "indexable": true,
+   "number": "234",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/234/",
+   "words": 76
+  },
+  {
+   "heading": "Possession of instrument or material for the purpose of using the same for counterfeiting coin",
+   "indexable": true,
+   "number": "235",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/235/",
+   "words": 100
+  },
+  {
+   "heading": "Abetting in India the counterfeiting out of India of coin",
+   "indexable": true,
+   "number": "236",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/236/",
+   "words": 30
+  },
+  {
+   "heading": "Import or export of counterfeit coin",
+   "indexable": true,
+   "number": "237",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/237/",
+   "words": 45
+  },
+  {
+   "heading": "Import or export of counterfeits of the Indian coin",
+   "indexable": true,
+   "number": "238",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/238/",
+   "words": 54
+  },
+  {
+   "heading": "Delivery of coin possessed with knowledge that it is counterfeit",
+   "indexable": true,
+   "number": "239",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/239/",
+   "words": 68
+  },
+  {
+   "heading": "Delivery of Indian coin, possessed with knowledge that it is counterfeit",
+   "indexable": true,
+   "number": "240",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/240/",
+   "words": 80
+  },
+  {
+   "heading": "Delivery of coin as genuine, which, when first possessed, the deliverer did not know to be counterfeit",
+   "indexable": true,
+   "number": "241",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/241/",
+   "words": 180
+  },
+  {
+   "heading": "Possession of counterfeit coin by person who knew it to be counterfeit when he became possessed thereof",
+   "indexable": true,
+   "number": "242",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/242/",
+   "words": 55
+  },
+  {
+   "heading": "Possession of Indian coin by person who knew it to be counterfeit when he became possessed thereof",
+   "indexable": true,
+   "number": "243",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/243/",
+   "words": 62
+  },
+  {
+   "heading": "Person employed in mint causing coin to be of different weight or composition from that fixed by law",
+   "indexable": true,
+   "number": "244",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/244/",
+   "words": 73
+  },
+  {
+   "heading": "Unlawfully taking coining instrument from mint",
+   "indexable": true,
+   "number": "245",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/245/",
+   "words": 51
+  },
+  {
+   "heading": "Fraudulently or dishonestly diminishing weight or altering composition of coin",
+   "indexable": true,
+   "number": "246",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/246/",
+   "words": 76
+  },
+  {
+   "heading": "Fraudulently or dishonestly diminishing weight or altering composition of Indian coin",
+   "indexable": true,
+   "number": "247",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/247/",
+   "words": 46
+  },
+  {
+   "heading": "Altering appearance of coin with intent that it shall pass as coin of different description",
+   "indexable": true,
+   "number": "248",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/248/",
+   "words": 54
+  },
+  {
+   "heading": "Altering appearance of Indian coin with intent that it shall pass as coin of different description",
+   "indexable": true,
+   "number": "249",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/249/",
+   "words": 55
+  },
+  {
+   "heading": "Delivery of coin possessed with knowledge that it is altered",
+   "indexable": true,
+   "number": "250",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/250/",
+   "words": 95
+  },
+  {
+   "heading": "Delivery of Indian coin, possessed with knowledge that it is altered",
+   "indexable": true,
+   "number": "251",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/251/",
+   "words": 95
+  },
+  {
+   "heading": "Possession of coin by person who knew it to be altered when he became possessed thereof",
+   "indexable": true,
+   "number": "252",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/252/",
+   "words": 77
+  },
+  {
+   "heading": "Possession of Indian coin by person who knew it to be altered when he became possessed thereof",
+   "indexable": true,
+   "number": "253",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/253/",
+   "words": 77
+  },
+  {
+   "heading": "Delivery of coin as genuine which, when first possessed, the deliverer did not know to be altered",
+   "indexable": true,
+   "number": "254",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/254/",
+   "words": 135
+  },
+  {
+   "heading": "Counterfeiting Government stamp",
+   "indexable": true,
+   "number": "255",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/255/",
+   "words": 76
+  },
+  {
+   "heading": "Having possession of instrument or material for counterfeiting Government stamp",
+   "indexable": true,
+   "number": "256",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/256/",
+   "words": 68
+  },
+  {
+   "heading": "Making or selling instrument for counterfeiting Government stamp",
+   "indexable": true,
+   "number": "257",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/257/",
+   "words": 79
+  },
+  {
+   "heading": "Sale of counterfeit Government stamp",
+   "indexable": true,
+   "number": "258",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/258/",
+   "words": 55
+  },
+  {
+   "heading": "Having possession of counterfeit Government stamp",
+   "indexable": true,
+   "number": "259",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/259/",
+   "words": 73
+  },
+  {
+   "heading": "Using as genuine a Government stamp known to be counterfeit",
+   "indexable": true,
+   "number": "260",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/260/",
+   "words": 46
+  },
+  {
+   "heading": "Effacing writing from substance bearing Government stamp, or removing from document a stamp used for it, with intent to cause loss to Government",
+   "indexable": true,
+   "number": "261",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/261/",
+   "words": 94
+  },
+  {
+   "heading": "Using Government stamp known to have been before used",
+   "indexable": true,
+   "number": "262",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/262/",
+   "words": 56
+  },
+  {
+   "heading": "Erasure of mark denoting that stamp has been used",
+   "indexable": true,
+   "number": "263",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/263/",
+   "words": 104
+  },
+  {
+   "heading": "Prohibition of fictitious stamps",
+   "indexable": true,
+   "number": "263A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/263A/",
+   "words": 239
+  },
+  {
+   "heading": "Fraudulent use of false instrument for weighing",
+   "indexable": true,
+   "number": "264",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/264/",
+   "words": 36
+  },
+  {
+   "heading": "Fraudulent use of false weight or measure",
+   "indexable": true,
+   "number": "265",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/265/",
+   "words": 58
+  },
+  {
+   "heading": "Being in possession of false weight or measure",
+   "indexable": true,
+   "number": "266",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/266/",
+   "words": 58
+  },
+  {
+   "heading": "Making or selling false weight or measure",
+   "indexable": true,
+   "number": "267",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/267/",
+   "words": 97
+  },
+  {
+   "heading": "Public nuisance",
+   "indexable": true,
+   "number": "268",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/268/",
+   "words": 81
+  },
+  {
+   "heading": "Negligent act likely to spread infection of disease dangerous to life",
+   "indexable": true,
+   "number": "269",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/269/",
+   "words": 54
+  },
+  {
+   "heading": "Malignant act likely to spread infection of disease dangerous to life",
+   "indexable": true,
+   "number": "270",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/270/",
+   "words": 52
+  },
+  {
+   "heading": "Disobedience to quarantine rule",
+   "indexable": true,
+   "number": "271",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/271/",
+   "words": 78
+  },
+  {
+   "heading": "Adulteration of food or drink intended for sale",
+   "indexable": true,
+   "number": "272",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/272/",
+   "words": 74
+  },
+  {
+   "heading": "Sale of noxious food or drink",
+   "indexable": true,
+   "number": "273",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/273/",
+   "words": 77
+  },
+  {
+   "heading": "Adulteration of drugs",
+   "indexable": true,
+   "number": "274",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/274/",
+   "words": 94
+  },
+  {
+   "heading": "Sale of adulterated drugs",
+   "indexable": true,
+   "number": "275",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/275/",
+   "words": 97
+  },
+  {
+   "heading": "Sale of drug as a different drug or preparation",
+   "indexable": true,
+   "number": "276",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/276/",
+   "words": 59
+  },
+  {
+   "heading": "Fouling water of public spring or reservoir",
+   "indexable": true,
+   "number": "277",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/277/",
+   "words": 59
+  },
+  {
+   "heading": "Making atmosphere noxious to health",
+   "indexable": true,
+   "number": "278",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/278/",
+   "words": 47
+  },
+  {
+   "heading": "Rash driving or riding on a public way",
+   "indexable": true,
+   "number": "279",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/279/",
+   "words": 65
+  },
+  {
+   "heading": "Rash navigation of vessel",
+   "indexable": true,
+   "number": "280",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/280/",
+   "words": 59
+  },
+  {
+   "heading": "Exhibition of false light, mark or buoy",
+   "indexable": true,
+   "number": "281",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/281/",
+   "words": 45
+  },
+  {
+   "heading": "Conveying person by water for hire in unsafe or overloaded vessel",
+   "indexable": true,
+   "number": "282",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/282/",
+   "words": 68
+  },
+  {
+   "heading": "Danger or obstruction in public way or line of navigation",
+   "indexable": true,
+   "number": "283",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/283/",
+   "words": 50
+  },
+  {
+   "heading": "Negligent conduct with respect to poisonous substance",
+   "indexable": true,
+   "number": "284",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/284/",
+   "words": 93
+  },
+  {
+   "heading": "Negligent conduct with respect to fire or combustible matter",
+   "indexable": true,
+   "number": "285",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/285/",
+   "words": 99
+  },
+  {
+   "heading": "Negligent conduct with respect to explosive substance",
+   "indexable": true,
+   "number": "286",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/286/",
+   "words": 91
+  },
+  {
+   "heading": "Negligent conduct with respect to machinery.--",
+   "indexable": true,
+   "number": "287",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/287/",
+   "words": 93
+  },
+  {
+   "heading": "Negligent conduct with respect to pulling down or repairing buildings",
+   "indexable": true,
+   "number": "288",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/288/",
+   "words": 72
+  },
+  {
+   "heading": "Negligent conduct with respect to animal",
+   "indexable": true,
+   "number": "289",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/289/",
+   "words": 67
+  },
+  {
+   "heading": "Punishment for public nuisance in cases not otherwise provided for",
+   "indexable": true,
+   "number": "290",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/290/",
+   "words": 26
+  },
+  {
+   "heading": "Continuance of nuisance after injunction to discontinue",
+   "indexable": true,
+   "number": "291",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/291/",
+   "words": 50
+  },
+  {
+   "heading": "Sale, etc., of obscene books, etc",
+   "indexable": true,
+   "number": "292",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/292/",
+   "words": 493
+  },
+  {
+   "heading": "Sale, etc., of obscene objects to young person",
+   "indexable": true,
+   "number": "293",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/293/",
+   "words": 103
+  },
+  {
+   "heading": "Obscene acts and songs",
+   "indexable": true,
+   "number": "294",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/294/",
+   "words": 56
+  },
+  {
+   "heading": "Keeping lottery office",
+   "indexable": true,
+   "number": "294A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/294A/",
+   "words": 124
+  },
+  {
+   "heading": "Injuring or defiling place of worship, with intent to insult the religion of any class",
+   "indexable": true,
+   "number": "295",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/295/",
+   "words": 89
+  },
+  {
+   "heading": "Deliberate and malicious acts intended to outrage religious feelings of any class by insulting its religion or religious beliefs",
+   "indexable": true,
+   "number": "295A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/295A/",
+   "words": 70
+  },
+  {
+   "heading": "Disturbing religious assembly",
+   "indexable": true,
+   "number": "296",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/296/",
+   "words": 41
+  },
+  {
+   "heading": "Trespassing on burial places, etc",
+   "indexable": true,
+   "number": "297",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/297/",
+   "words": 126
+  },
+  {
+   "heading": "Uttering words, etc., with deliberate intent to wound religious feelings",
+   "indexable": true,
+   "number": "298",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/298/",
+   "words": 89
+  },
+  {
+   "heading": "Culpable homicide",
+   "indexable": true,
+   "number": "299",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/299/",
+   "words": 349
+  },
+  {
+   "heading": "Murder",
+   "indexable": true,
+   "number": "300",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/300/",
+   "words": 1172
+  },
+  {
+   "heading": "Culpable homicide by causing death of person other than person whose death was intended",
+   "indexable": true,
+   "number": "301",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/301/",
+   "words": 78
+  },
+  {
+   "heading": "Punishment for murder",
+   "indexable": true,
+   "number": "302",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/302/",
+   "words": 19
+  },
+  {
+   "heading": "Punishment for murder by life-convict",
+   "indexable": true,
+   "number": "303",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/303/",
+   "words": 15
+  },
+  {
+   "heading": "Punishment for culpable homicide not amounting to murder",
+   "indexable": true,
+   "number": "304",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/304/",
+   "words": 120
+  },
+  {
+   "heading": "Causing death by negligence",
+   "indexable": true,
+   "number": "304A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/304A/",
+   "words": 42
+  },
+  {
+   "heading": "Dowry death",
+   "indexable": true,
+   "number": "304B",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/304B/",
+   "words": 136
+  },
+  {
+   "heading": "Abetment of suicide of child or insane person",
+   "indexable": true,
+   "number": "305",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/305/",
+   "words": 58
+  },
+  {
+   "heading": "Abetment of suicide",
+   "indexable": true,
+   "number": "306",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/306/",
+   "words": 36
+  },
+  {
+   "heading": "Attempt to murder",
+   "indexable": true,
+   "number": "307",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/307/",
+   "words": 299
+  },
+  {
+   "heading": "Attempt to commit culpable homicide",
+   "indexable": true,
+   "number": "308",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/308/",
+   "words": 131
+  },
+  {
+   "heading": "Attempt to commit suicide",
+   "indexable": true,
+   "number": "309",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/309/",
+   "words": 36
+  },
+  {
+   "heading": "Thug",
+   "indexable": true,
+   "number": "310",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/310/",
+   "words": 38
+  },
+  {
+   "heading": "Punishment",
+   "indexable": true,
+   "number": "311",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/311/",
+   "words": 39
+  },
+  {
+   "heading": "Causing miscarriage",
+   "indexable": true,
+   "number": "312",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/312/",
+   "words": 98
+  },
+  {
+   "heading": "Causing miscarriage without woman's consent",
+   "indexable": true,
+   "number": "313",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/313/",
+   "words": 54
+  },
+  {
+   "heading": "Death caused by act done with intent to cause miscarriage",
+   "indexable": true,
+   "number": "314",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/314/",
+   "words": 103
+  },
+  {
+   "heading": "Act done with intent to prevent child being born alive or to cause it to die after birth",
+   "indexable": true,
+   "number": "315",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/315/",
+   "words": 92
+  },
+  {
+   "heading": "Causing death of quick unborn child by act amounting to culpable homicide",
+   "indexable": true,
+   "number": "316",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/316/",
+   "words": 123
+  },
+  {
+   "heading": "Exposure and abandonment of child under twelve years, by parent or person having care of it",
+   "indexable": true,
+   "number": "317",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/317/",
+   "words": 93
+  },
+  {
+   "heading": "Concealment of birth by secret disposal of dead body",
+   "indexable": true,
+   "number": "318",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/318/",
+   "words": 61
+  },
+  {
+   "heading": "Hurt",
+   "indexable": true,
+   "number": "319",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/319/",
+   "words": 15
+  },
+  {
+   "heading": "Grievous hurt",
+   "indexable": true,
+   "number": "320",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/320/",
+   "words": 89
+  },
+  {
+   "heading": "Voluntarily causing hurt",
+   "indexable": true,
+   "number": "321",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/321/",
+   "words": 43
+  },
+  {
+   "heading": "Voluntarily causing grievous hurt",
+   "indexable": true,
+   "number": "322",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/322/",
+   "words": 147
+  },
+  {
+   "heading": "Punishment for voluntarily causing hurt",
+   "indexable": true,
+   "number": "323",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/323/",
+   "words": 43
+  },
+  {
+   "heading": "Voluntarily causing hurt by dangerous weapons or means",
+   "indexable": true,
+   "number": "324",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/324/",
+   "words": 117
+  },
+  {
+   "heading": "Punishment for voluntarily causing grievous hurt",
+   "indexable": true,
+   "number": "325",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/325/",
+   "words": 38
+  },
+  {
+   "heading": "Voluntarily causing grievous hurt by dangerous weapons or means",
+   "indexable": true,
+   "number": "326",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/326/",
+   "words": 124
+  },
+  {
+   "heading": "Voluntarily causing hurt to extort property, or to constrain to an illegal to an act",
+   "indexable": true,
+   "number": "327",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/327/",
+   "words": 76
+  },
+  {
+   "heading": "Causing hurt by means of poison, etc., with intent to commit and offence",
+   "indexable": true,
+   "number": "328",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/328/",
+   "words": 80
+  },
+  {
+   "heading": "Voluntarily causing grievous hurt to extort property, or to constrain to an illegal act",
+   "indexable": true,
+   "number": "329",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/329/",
+   "words": 81
+  },
+  {
+   "heading": "Voluntarily causing hurt to extort confession or to compel restoration of property",
+   "indexable": true,
+   "number": "330",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/330/",
+   "words": 221
+  },
+  {
+   "heading": "Voluntarily causing grievous hurt to extort confession, or to compel restoration of property",
+   "indexable": true,
+   "number": "331",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/331/",
+   "words": 112
+  },
+  {
+   "heading": "Voluntarily causing hurt to deter public servant from his duty",
+   "indexable": true,
+   "number": "332",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/332/",
+   "words": 91
+  },
+  {
+   "heading": "Voluntarily causing grievous hurt to deter public servant from his duty",
+   "indexable": true,
+   "number": "333",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/333/",
+   "words": 93
+  },
+  {
+   "heading": "Voluntarily causing hurt on provocation",
+   "indexable": true,
+   "number": "334",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/334/",
+   "words": 63
+  },
+  {
+   "heading": "Voluntarily causing grievous hurt on provocation",
+   "indexable": true,
+   "number": "335",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/335/",
+   "words": 80
+  },
+  {
+   "heading": "Act endangering life or personal safety of others",
+   "indexable": true,
+   "number": "336",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/336/",
+   "words": 50
+  },
+  {
+   "heading": "Causing hurt by act endangering life or personal safety of others",
+   "indexable": true,
+   "number": "337",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/337/",
+   "words": 55
+  },
+  {
+   "heading": "Causing grievous hurt by act endangering life or personal safety of others",
+   "indexable": true,
+   "number": "338",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/338/",
+   "words": 62
+  },
+  {
+   "heading": "Wrongful restraint",
+   "indexable": true,
+   "number": "339",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/339/",
+   "words": 105
+  },
+  {
+   "heading": "Wrongful confinement",
+   "indexable": true,
+   "number": "340",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/340/",
+   "words": 91
+  },
+  {
+   "heading": "Punishment for wrongful restraint",
+   "indexable": true,
+   "number": "341",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/341/",
+   "words": 33
+  },
+  {
+   "heading": "Punishment for wrongful confinement",
+   "indexable": true,
+   "number": "342",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/342/",
+   "words": 36
+  },
+  {
+   "heading": "Wrongful confinement for three or more days",
+   "indexable": true,
+   "number": "343",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/343/",
+   "words": 33
+  },
+  {
+   "heading": "Wrongful confinement for ten or more days",
+   "indexable": true,
+   "number": "344",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/344/",
+   "words": 34
+  },
+  {
+   "heading": "Wrongful confinement of person for whose liberation writ has been issued",
+   "indexable": true,
+   "number": "345",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/345/",
+   "words": 58
+  },
+  {
+   "heading": "Wrongful confinement in secret",
+   "indexable": true,
+   "number": "346",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/346/",
+   "words": 94
+  },
+  {
+   "heading": "Wrongful confinement to extort property, or constrain to illegal act",
+   "indexable": true,
+   "number": "347",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/347/",
+   "words": 82
+  },
+  {
+   "heading": "Wrongful confinement to extort confession, or compel restoration of property",
+   "indexable": true,
+   "number": "348",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/348/",
+   "words": 120
+  },
+  {
+   "heading": "Force",
+   "indexable": true,
+   "number": "349",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/349/",
+   "words": 164
+  },
+  {
+   "heading": "Criminal force",
+   "indexable": true,
+   "number": "350",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/350/",
+   "words": 667
+  },
+  {
+   "heading": "Assault",
+   "indexable": true,
+   "number": "351",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/351/",
+   "words": 220
+  },
+  {
+   "heading": "Punishment for assault or criminal force otherwise than on grave provocation",
+   "indexable": true,
+   "number": "352",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/352/",
+   "words": 148
+  },
+  {
+   "heading": "Assault or criminal force to deter public servant from discharge of his duty",
+   "indexable": true,
+   "number": "353",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/353/",
+   "words": 88
+  },
+  {
+   "heading": "Assault or criminal force to woman with intent to outrage her modesty",
+   "indexable": true,
+   "number": "354",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/354/",
+   "words": 49
+  },
+  {
+   "heading": "Assault or criminal force with intent to dishonour person, otherwise than on grave provocation",
+   "indexable": true,
+   "number": "355",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/355/",
+   "words": 49
+  },
+  {
+   "heading": "Assault or criminal force in attempt to commit theft of property carried by a person",
+   "indexable": true,
+   "number": "356",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/356/",
+   "words": 48
+  },
+  {
+   "heading": "Assault or criminal force in attempt wrongfully to confine a person",
+   "indexable": true,
+   "number": "357",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/357/",
+   "words": 46
+  },
+  {
+   "heading": "Assault or criminal force on grave provocation",
+   "indexable": true,
+   "number": "358",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/358/",
+   "words": 65
+  },
+  {
+   "heading": "Kidnapping",
+   "indexable": true,
+   "number": "359",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/359/",
+   "words": 14
+  },
+  {
+   "heading": "Kidnapping from India",
+   "indexable": true,
+   "number": "360",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/360/",
+   "words": 36
+  },
+  {
+   "heading": "Kidnapping from lawful guardianship",
+   "indexable": true,
+   "number": "361",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/361/",
+   "words": 138
+  },
+  {
+   "heading": "Abduction",
+   "indexable": true,
+   "number": "362",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/362/",
+   "words": 23
+  },
+  {
+   "heading": "Punishment for kidnapping",
+   "indexable": true,
+   "number": "363",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/363/",
+   "words": 34
+  },
+  {
+   "heading": "Kidnapping or maiming a minor for purposes of begging",
+   "indexable": true,
+   "number": "363A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/363A/",
+   "words": 273
+  },
+  {
+   "heading": "Kidnapping or abducting in order to murder",
+   "indexable": true,
+   "number": "364",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/364/",
+   "words": 113
+  },
+  {
+   "heading": "Kidnappin for ransom, etc",
+   "indexable": true,
+   "number": "364A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/364A/",
+   "words": 105
+  },
+  {
+   "heading": "Kidnapping or abducting with intent secretly and wrongfully to confine person",
+   "indexable": true,
+   "number": "365",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/365/",
+   "words": 42
+  },
+  {
+   "heading": "Kidnapping, abducting or inducing woman to compel her marriage, etc",
+   "indexable": true,
+   "number": "366",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/366/",
+   "words": 147
+  },
+  {
+   "heading": "Procuration of minor girl",
+   "indexable": true,
+   "number": "366A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/366A/",
+   "words": 69
+  },
+  {
+   "heading": "Importation of girl from foreign country",
+   "indexable": true,
+   "number": "366B",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/366B/",
+   "words": 72
+  },
+  {
+   "heading": "Kidnapping or abducting in order to subject person to grievous hurt, slavery, etc",
+   "indexable": true,
+   "number": "367",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/367/",
+   "words": 82
+  },
+  {
+   "heading": "Wrongfully concealing or keeping in confinement, kidnapped or abducted person",
+   "indexable": true,
+   "number": "368",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/368/",
+   "words": 59
+  },
+  {
+   "heading": "Kidnapping or abducting child under ten years with intent to steal from its person",
+   "indexable": true,
+   "number": "369",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/369/",
+   "words": 51
+  },
+  {
+   "heading": "Buying or disposing of any person as a slave",
+   "indexable": true,
+   "number": "370",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/370/",
+   "words": 51
+  },
+  {
+   "heading": "Habitual dealing in slaves",
+   "indexable": true,
+   "number": "371",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/371/",
+   "words": 39
+  },
+  {
+   "heading": "Selling minor for purposes of prostitution, etc",
+   "indexable": true,
+   "number": "372",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/372/",
+   "words": 222
+  },
+  {
+   "heading": "Buying minor for purposes of prostitution, etc",
+   "indexable": true,
+   "number": "373",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/373/",
+   "words": 158
+  },
+  {
+   "heading": "Unlawful compulsory labour",
+   "indexable": true,
+   "number": "374",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/374/",
+   "words": 38
+  },
+  {
+   "heading": "Rape",
+   "indexable": true,
+   "number": "375",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/375/",
+   "words": 199
+  },
+  {
+   "heading": "Punishment for rape",
+   "indexable": true,
+   "number": "376",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/376/",
+   "words": 540
+  },
+  {
+   "heading": "Intercourse by a man with his wife during separation",
+   "indexable": true,
+   "number": "376A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/376A/",
+   "words": 52
+  },
+  {
+   "heading": "Intercourse by public servant with woman in his custody",
+   "indexable": true,
+   "number": "376B",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/376B/",
+   "words": 77
+  },
+  {
+   "heading": "Intercourse by superintendent of jail, remand home, etc",
+   "indexable": true,
+   "number": "376C",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/376C/",
+   "words": 167
+  },
+  {
+   "heading": "Intercourse by any member of the management or staff of a hospital with any woman in that hospital",
+   "indexable": true,
+   "number": "376D",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/376D/",
+   "words": 86
+  },
+  {
+   "heading": "Unnatural offences",
+   "indexable": true,
+   "number": "377",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/377/",
+   "words": 75
+  },
+  {
+   "heading": "Theft",
+   "indexable": true,
+   "number": "378",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/378/",
+   "words": 980
+  },
+  {
+   "heading": "Punishment for theft",
+   "indexable": true,
+   "number": "379",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/379/",
+   "words": 26
+  },
+  {
+   "heading": "Theft in dwelling house, etc",
+   "indexable": true,
+   "number": "380",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/380/",
+   "words": 51
+  },
+  {
+   "heading": "Theft by clerk or servant of property in possession of master",
+   "indexable": true,
+   "number": "381",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/381/",
+   "words": 56
+  },
+  {
+   "heading": "Theft after preparation made for causing death, hurt or restraint in order to the committing of the theft",
+   "indexable": true,
+   "number": "382",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/382/",
+   "words": 177
+  },
+  {
+   "heading": "Extortion",
+   "indexable": true,
+   "number": "383",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/383/",
+   "words": 222
+  },
+  {
+   "heading": "Punishment for extortion",
+   "indexable": true,
+   "number": "384",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/384/",
+   "words": 26
+  },
+  {
+   "heading": "Putting person in fear of injury in order to commit extortion",
+   "indexable": true,
+   "number": "385",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/385/",
+   "words": 47
+  },
+  {
+   "heading": "Extortion by putting a person in fear of death or grievous hurt",
+   "indexable": true,
+   "number": "386",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/386/",
+   "words": 46
+  },
+  {
+   "heading": "Putting person in fear of death or of grievous hurt, in order to commit extortion",
+   "indexable": true,
+   "number": "387",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/387/",
+   "words": 54
+  },
+  {
+   "heading": "Extortion by threat of accusation of an offence punishable with death or imprisonment for life, etc",
+   "indexable": true,
+   "number": "388",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/388/",
+   "words": 105
+  },
+  {
+   "heading": "Putting person in fear or accusation of offence, in order to commit extortion",
+   "indexable": true,
+   "number": "389",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/389/",
+   "words": 114
+  },
+  {
+   "heading": "Robbery",
+   "indexable": true,
+   "number": "390",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/390/",
+   "words": 411
+  },
+  {
+   "heading": "Dacoity",
+   "indexable": true,
+   "number": "391",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/391/",
+   "words": 54
+  },
+  {
+   "heading": "Punishment for robbery",
+   "indexable": true,
+   "number": "392",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/392/",
+   "words": 46
+  },
+  {
+   "heading": "Attempt to commit robbery",
+   "indexable": true,
+   "number": "393",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/393/",
+   "words": 27
+  },
+  {
+   "heading": "Voluntarily causing hurt in committing robbery",
+   "indexable": true,
+   "number": "394",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/394/",
+   "words": 57
+  },
+  {
+   "heading": "Punishment for dacoity",
+   "indexable": true,
+   "number": "395",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/395/",
+   "words": 30
+  },
+  {
+   "heading": "Dacoity with murder",
+   "indexable": true,
+   "number": "396",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/396/",
+   "words": 52
+  },
+  {
+   "heading": "Robbery or dacoity, with attempt to cause death or grievous hurt",
+   "indexable": true,
+   "number": "397",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/397/",
+   "words": 49
+  },
+  {
+   "heading": "Attempt to commit robbery or dacoity when armed with deadly weapon",
+   "indexable": true,
+   "number": "398",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/398/",
+   "words": 35
+  },
+  {
+   "heading": "Making preparation to commit dacoity",
+   "indexable": true,
+   "number": "399",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/399/",
+   "words": 29
+  },
+  {
+   "heading": "Punishment for belonging to gang of dacoits",
+   "indexable": true,
+   "number": "400",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/400/",
+   "words": 52
+  },
+  {
+   "heading": "Punishment for belonging to gang of thieves",
+   "indexable": true,
+   "number": "401",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/401/",
+   "words": 61
+  },
+  {
+   "heading": "Assembling for purpose of committing dacoity",
+   "indexable": true,
+   "number": "402",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/402/",
+   "words": 52
+  },
+  {
+   "heading": "Dishonest misappropriation of property",
+   "indexable": true,
+   "number": "403",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/403/",
+   "words": 727
+  },
+  {
+   "heading": "Dishonest misappropriation of property possessed by deceased person at the time of his death",
+   "indexable": true,
+   "number": "404",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/404/",
+   "words": 139
+  },
+  {
+   "heading": "Criminal breach of trust",
+   "indexable": true,
+   "number": "405",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/405/",
+   "words": 637
+  },
+  {
+   "heading": "Punishment for criminal breach of trust",
+   "indexable": true,
+   "number": "406",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/406/",
+   "words": 29
+  },
+  {
+   "heading": "Criminal breach of trust by carrier, etc",
+   "indexable": true,
+   "number": "407",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/407/",
+   "words": 45
+  },
+  {
+   "heading": "Criminal breach of trust by clerk or servant",
+   "indexable": true,
+   "number": "408",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/408/",
+   "words": 64
+  },
+  {
+   "heading": "Criminal breach of trust by public servant, or by banker, merchant or agent",
+   "indexable": true,
+   "number": "409",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/409/",
+   "words": 82
+  },
+  {
+   "heading": "Stolen property",
+   "indexable": true,
+   "number": "410",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/410/",
+   "words": 84
+  },
+  {
+   "heading": "Dishonestly receiving stolen property",
+   "indexable": true,
+   "number": "411",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/411/",
+   "words": 43
+  },
+  {
+   "heading": "Dishonestly receiving property stolen in the commission of a dacoity",
+   "indexable": true,
+   "number": "412",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/412/",
+   "words": 92
+  },
+  {
+   "heading": "Habitually dealing in stolen property",
+   "indexable": true,
+   "number": "413",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/413/",
+   "words": 48
+  },
+  {
+   "heading": "Assisting in concealment of stolen property",
+   "indexable": true,
+   "number": "414",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/414/",
+   "words": 50
+  },
+  {
+   "heading": "Cheating",
+   "indexable": true,
+   "number": "415",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/415/",
+   "words": 503
+  },
+  {
+   "heading": "Cheating by personation",
+   "indexable": true,
+   "number": "416",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/416/",
+   "words": 98
+  },
+  {
+   "heading": "Punishment for cheating",
+   "indexable": true,
+   "number": "417",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/417/",
+   "words": 25
+  },
+  {
+   "heading": "Cheating with knowledge that wrongful loss may ensue to person whose interest offender is bound to protect",
+   "indexable": true,
+   "number": "418",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/418/",
+   "words": 62
+  },
+  {
+   "heading": "Punishment for cheating by personation",
+   "indexable": true,
+   "number": "419",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/419/",
+   "words": 27
+  },
+  {
+   "heading": "Cheating and dishonestly inducing delivery of property",
+   "indexable": true,
+   "number": "420",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/420/",
+   "words": 80
+  },
+  {
+   "heading": "Dishonest or fraudulent removal or concealment of property to prevent distribution among creditors",
+   "indexable": true,
+   "number": "421",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/421/",
+   "words": 82
+  },
+  {
+   "heading": "Dishonestly or fraudulently preventing debt being available for creditors",
+   "indexable": true,
+   "number": "422",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/422/",
+   "words": 59
+  },
+  {
+   "heading": "Dishonest or fraudulent execution of deed of transfer containing false statement of consideration",
+   "indexable": true,
+   "number": "423",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/423/",
+   "words": 86
+  },
+  {
+   "heading": "Dishonest or fraudulent removal or concealment of property",
+   "indexable": true,
+   "number": "424",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/424/",
+   "words": 63
+  },
+  {
+   "heading": "Mischief",
+   "indexable": true,
+   "number": "425",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/425/",
+   "words": 384
+  },
+  {
+   "heading": "Punishment for mischief",
+   "indexable": true,
+   "number": "426",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/426/",
+   "words": 26
+  },
+  {
+   "heading": "Mischief causing damage to the amount of fifty rupees",
+   "indexable": true,
+   "number": "427",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/427/",
+   "words": 40
+  },
+  {
+   "heading": "Mischief by killing or maiming animal of the value of ten rupees",
+   "indexable": true,
+   "number": "428",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/428/",
+   "words": 46
+  },
+  {
+   "heading": "Mischief by killing or maiming cattle, etc., of any value or any animal of the value of fifty rupees",
+   "indexable": true,
+   "number": "429",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/429/",
+   "words": 73
+  },
+  {
+   "heading": "water",
+   "indexable": true,
+   "number": "430",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/430/",
+   "words": 85
+  },
+  {
+   "heading": "Mischief by injury to public road, bridge, river or channel",
+   "indexable": true,
+   "number": "431",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/431/",
+   "words": 62
+  },
+  {
+   "heading": "Mischief by causing inundation or obstruction to public drainage attended with damage",
+   "indexable": true,
+   "number": "432",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/432/",
+   "words": 55
+  },
+  {
+   "heading": "Mischief by destroying, moving or rendering less useful a light-house or sea-mark",
+   "indexable": true,
+   "number": "433",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/433/",
+   "words": 78
+  },
+  {
+   "heading": "Mischief by destroying or moving, etc., a land-mark fixed by public authority",
+   "indexable": true,
+   "number": "434",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/434/",
+   "words": 52
+  },
+  {
+   "heading": "Mischief by fire or explosive substance with intent to cause damage to amount of one hundred or (in case of agricultural produce) ten rupees",
+   "indexable": true,
+   "number": "435",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/435/",
+   "words": 71
+  },
+  {
+   "heading": "Mischief by fire or explosive substance with intent to destroy house, etc",
+   "indexable": true,
+   "number": "436",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/436/",
+   "words": 94
+  },
+  {
+   "heading": "Mischief with intent to destroy or make unsafe a decked vessel or one of twenty tons burden",
+   "indexable": true,
+   "number": "437",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/437/",
+   "words": 88
+  },
+  {
+   "heading": "Punishment for the mischief described in section 437 committed by fire or explosive substance",
+   "indexable": true,
+   "number": "438",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/438/",
+   "words": 51
+  },
+  {
+   "heading": "Punishment for intentionally running vessel aground or ashore with intent to commit theft, etc",
+   "indexable": true,
+   "number": "439",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/439/",
+   "words": 61
+  },
+  {
+   "heading": "Mischief committed after preparation made for causing death or hurt",
+   "indexable": true,
+   "number": "440",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/440/",
+   "words": 54
+  },
+  {
+   "heading": "Criminal trespass",
+   "indexable": true,
+   "number": "441",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/441/",
+   "words": 66
+  },
+  {
+   "heading": "House-trespass",
+   "indexable": true,
+   "number": "442",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/442/",
+   "words": 59
+  },
+  {
+   "heading": "Lurking house-trespass",
+   "indexable": true,
+   "number": "443",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/443/",
+   "words": 42
+  },
+  {
+   "heading": "Lurking house-trespass by night",
+   "indexable": true,
+   "number": "444",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/444/",
+   "words": 17
+  },
+  {
+   "heading": "House-breaking",
+   "indexable": true,
+   "number": "445",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/445/",
+   "words": 503
+  },
+  {
+   "heading": "House-breaking by night",
+   "indexable": true,
+   "number": "446",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/446/",
+   "words": 15
+  },
+  {
+   "heading": "Punishment for criminal trespass",
+   "indexable": true,
+   "number": "447",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/447/",
+   "words": 34
+  },
+  {
+   "heading": "Punishment for house-trespass",
+   "indexable": true,
+   "number": "448",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/448/",
+   "words": 34
+  },
+  {
+   "heading": "House-trespass in order to commit offence punishable with death",
+   "indexable": true,
+   "number": "449",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/449/",
+   "words": 39
+  },
+  {
+   "heading": "House-trespass in order to commit offence punishable with imprisonment for life",
+   "indexable": true,
+   "number": "450",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/450/",
+   "words": 38
+  },
+  {
+   "heading": "House-trespass in order to commit offence punishable with imprisonment",
+   "indexable": true,
+   "number": "451",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/451/",
+   "words": 59
+  },
+  {
+   "heading": "House-trespass alter preparation for hurt, assault or wrongful restraint",
+   "indexable": true,
+   "number": "452",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/452/",
+   "words": 63
+  },
+  {
+   "heading": "Punishment for lurking house-trespass or house-breaking",
+   "indexable": true,
+   "number": "453",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/453/",
+   "words": 30
+  },
+  {
+   "heading": "Lurking house-trespass or house-breaking in order to commit offence punishable with imprisonment",
+   "indexable": true,
+   "number": "454",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/454/",
+   "words": 63
+  },
+  {
+   "heading": "Lurking house-trespass or house-breaking after preparation for hurt, assault or wrongful restraint",
+   "indexable": true,
+   "number": "455",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/455/",
+   "words": 66
+  },
+  {
+   "heading": "Punishment for lurking house-trespass or house-breaking by night",
+   "indexable": true,
+   "number": "456",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/456/",
+   "words": 35
+  },
+  {
+   "heading": "Lurking house-trespass or house-breaking by night in order to commit offence punishable with imprisonment",
+   "indexable": true,
+   "number": "457",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/457/",
+   "words": 66
+  },
+  {
+   "heading": "Lurking house-trespass or house-breaking by night after preparation for hurt, assault, or wrongful restraint",
+   "indexable": true,
+   "number": "458",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/458/",
+   "words": 70
+  },
+  {
+   "heading": "Grievous hurt caused whilst committing lurking house-trespass or house-breaking",
+   "indexable": true,
+   "number": "459",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/459/",
+   "words": 62
+  },
+  {
+   "heading": "All persons jointly concerned in lurking house-trespass or house- breaking by night punishable where death or grievous hurt caused by one of them",
+   "indexable": true,
+   "number": "460",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/460/",
+   "words": 102
+  },
+  {
+   "heading": "Dishonestly breaking open receptacle containing property",
+   "indexable": true,
+   "number": "461",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/461/",
+   "words": 47
+  },
+  {
+   "heading": "Punishment for same offence when committed by person entrusted with custody",
+   "indexable": true,
+   "number": "462",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/462/",
+   "words": 81
+  },
+  {
+   "heading": "Forgery",
+   "indexable": true,
+   "number": "463",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/463/",
+   "words": 63
+  },
+  {
+   "heading": "Making a false document",
+   "indexable": true,
+   "number": "464",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/464/",
+   "words": 1223
+  },
+  {
+   "heading": "Punishment for forgery",
+   "indexable": true,
+   "number": "465",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/465/",
+   "words": 26
+  },
+  {
+   "heading": "Forgery of record of Court or of public register, etc",
+   "indexable": true,
+   "number": "466",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/466/",
+   "words": 102
+  },
+  {
+   "heading": "Forgery of valuable security, will, etc",
+   "indexable": true,
+   "number": "467",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/467/",
+   "words": 118
+  },
+  {
+   "heading": "Forgery for purpose of cheating",
+   "indexable": true,
+   "number": "468",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/468/",
+   "words": 40
+  },
+  {
+   "heading": "Forgery for purpose of harming reputation",
+   "indexable": true,
+   "number": "469",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/469/",
+   "words": 51
+  },
+  {
+   "heading": "Forged document",
+   "indexable": true,
+   "number": "470",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/470/",
+   "words": 15
+  },
+  {
+   "heading": "Using as genuine a forged document",
+   "indexable": true,
+   "number": "471",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/471/",
+   "words": 36
+  },
+  {
+   "heading": "Making or possessing counterfeit seal, etc., with intent to commit forgery punishable under section 467",
+   "indexable": true,
+   "number": "472",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/472/",
+   "words": 88
+  },
+  {
+   "heading": "Making or possessing counterfeit seal, etc., with intent to commit forgery punishable otherwise",
+   "indexable": true,
+   "number": "473",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/473/",
+   "words": 87
+  },
+  {
+   "heading": "Having possession of document described in section 466 or 467, knowing it to be forged and intending to use it genuine",
+   "indexable": true,
+   "number": "474",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/474/",
+   "words": 107
+  },
+  {
+   "heading": "Counterfeiting device or mark used for authenticating documents described in section 467, or possessing counterfeit marked material",
+   "indexable": true,
+   "number": "475",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/475/",
+   "words": 116
+  },
+  {
+   "heading": "Counterfeiting device or mark used for authenticating documents other than those described in section 467, or possessing counterfeit marked material",
+   "indexable": true,
+   "number": "476",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/476/",
+   "words": 114
+  },
+  {
+   "heading": "Fraudulent cancellation, destruction, etc., of will, authority to adopt, or valuable security",
+   "indexable": true,
+   "number": "477",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/477/",
+   "words": 94
+  },
+  {
+   "heading": "Falsification of accounts",
+   "indexable": true,
+   "number": "477A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/477A/",
+   "words": 185
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "478",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/478/",
+   "words": 21
+  },
+  {
+   "heading": "Property mark",
+   "indexable": true,
+   "number": "479",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/479/",
+   "words": 18
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "480",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/480/",
+   "words": 24
+  },
+  {
+   "heading": "Using a false property mark",
+   "indexable": true,
+   "number": "481",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/481/",
+   "words": 79
+  },
+  {
+   "heading": "Punishment for using a false property mark",
+   "indexable": true,
+   "number": "482",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/482/",
+   "words": 39
+  },
+  {
+   "heading": "Counterfeiting a property mark used by another",
+   "indexable": true,
+   "number": "483",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/483/",
+   "words": 33
+  },
+  {
+   "heading": "Counterfeiting a mark used by a public servant",
+   "indexable": true,
+   "number": "484",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/484/",
+   "words": 98
+  },
+  {
+   "heading": "Making or possession of any instrument for counterfeiting a property mark",
+   "indexable": true,
+   "number": "485",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/485/",
+   "words": 70
+  },
+  {
+   "heading": "Selling goods marked with a counterfeit property mark",
+   "indexable": true,
+   "number": "486",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/486/",
+   "words": 145
+  },
+  {
+   "heading": "Making a false mark upon any receptacle containing goods",
+   "indexable": true,
+   "number": "487",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/487/",
+   "words": 106
+  },
+  {
+   "heading": "Punishment for making use of any such false mark",
+   "indexable": true,
+   "number": "488",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/488/",
+   "words": 40
+  },
+  {
+   "heading": "Tampering with property mark with intent to cause injury",
+   "indexable": true,
+   "number": "489",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/489/",
+   "words": 53
+  },
+  {
+   "heading": "Counterfeiting currency-notes or bank-notes",
+   "indexable": true,
+   "number": "489A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/489A/",
+   "words": 120
+  },
+  {
+   "heading": "Using as genuine, forged or counterfeit currency-notes or bank-notes",
+   "indexable": true,
+   "number": "489B",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/489B/",
+   "words": 100
+  },
+  {
+   "heading": "Possession of forged or counterfeit currency-notes or bank-note",
+   "indexable": true,
+   "number": "489C",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/489C/",
+   "words": 72
+  },
+  {
+   "heading": "Making or possessing instruments or materials for forging or counterfeiting currency notes or bank-notes",
+   "indexable": true,
+   "number": "489D",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/489D/",
+   "words": 86
+  },
+  {
+   "heading": "Making or using documents resembling currency-notes or bank-notes",
+   "indexable": true,
+   "number": "489E",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/489E/",
+   "words": 193
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "490",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/490/",
+   "words": 26
+  },
+  {
+   "heading": "Breach of contract to attend on and supply wants of helpless person",
+   "indexable": true,
+   "number": "491",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/491/",
+   "words": 86
+  },
+  {
+   "heading": "",
+   "indexable": true,
+   "number": "492",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/492/",
+   "words": 47
+  },
+  {
+   "heading": "Cohabitation caused by a man deceitfully inducing a belief of lawful marriage",
+   "indexable": true,
+   "number": "493",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/493/",
+   "words": 60
+  },
+  {
+   "heading": "Marrying again during lifetime of husband or wife",
+   "indexable": true,
+   "number": "494",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/494/",
+   "words": 178
+  },
+  {
+   "heading": "Same offence with concealment of former marriage from person with whom subsequent marriage is contracted",
+   "indexable": true,
+   "number": "495",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/495/",
+   "words": 52
+  },
+  {
+   "heading": "Marriage ceremony fraudulently gone through without lawful marriage",
+   "indexable": true,
+   "number": "496",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/496/",
+   "words": 46
+  },
+  {
+   "heading": "Adultery",
+   "indexable": true,
+   "number": "497",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/497/",
+   "words": 86
+  },
+  {
+   "heading": "Enticing or taking away or detaining with criminal intent a married woman",
+   "indexable": true,
+   "number": "498",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/498/",
+   "words": 107
+  },
+  {
+   "heading": "Husband or relative of husband of a woman subjecting her to cruelty",
+   "indexable": true,
+   "number": "498A",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/498A/",
+   "words": 145
+  },
+  {
+   "heading": "Defamation",
+   "indexable": true,
+   "number": "499",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/499/",
+   "words": 1512
+  },
+  {
+   "heading": "Punishment for defamation",
+   "indexable": true,
+   "number": "500",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/500/",
+   "words": 24
+  },
+  {
+   "heading": "Printing or engraving matter known to be defamatory",
+   "indexable": true,
+   "number": "501",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/501/",
+   "words": 42
+  },
+  {
+   "heading": "Sale of printed or engraved substance containing defamatory matter",
+   "indexable": true,
+   "number": "502",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/502/",
+   "words": 57
+  },
+  {
+   "heading": "Criminal intimidation",
+   "indexable": true,
+   "number": "503",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/503/",
+   "words": 127
+  },
+  {
+   "heading": "Intentional insult with intent to provoke breach of the peace",
+   "indexable": true,
+   "number": "504",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/504/",
+   "words": 57
+  },
+  {
+   "heading": "Statements conducing public mischief",
+   "indexable": true,
+   "number": "505",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/505/",
+   "words": 339
+  },
+  {
+   "heading": "Punishment for criminal intimidation",
+   "indexable": true,
+   "number": "506",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/506/",
+   "words": 124
+  },
+  {
+   "heading": "Criminal intimidation by an anonymous communication",
+   "indexable": true,
+   "number": "507",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/507/",
+   "words": 60
+  },
+  {
+   "heading": "Act caused by inducing person to believe that he will be rendered an object of the Divine displeasure",
+   "indexable": true,
+   "number": "508",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/508/",
+   "words": 216
+  },
+  {
+   "heading": "Word, gesture or act intended to insult the modesty of a woman",
+   "indexable": true,
+   "number": "509",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/509/",
+   "words": 71
+  },
+  {
+   "heading": "Misconduct in public by a drunken person",
+   "indexable": true,
+   "number": "510",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/510/",
+   "words": 80
+  },
+  {
+   "heading": "Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment",
+   "indexable": true,
+   "number": "511",
+   "url": "https://indiacode.ecourtsindia.com/ipc/section/511/",
+   "words": 194
+  }
+ ]
+}

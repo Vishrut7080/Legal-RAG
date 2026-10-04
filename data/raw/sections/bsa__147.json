@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 2023,
+  "department": "Department of Internal Security",
+  "duplicate_of": null,
+  "enact_date": "2023-12-25",
+  "enforcement_date": "2024-07-01",
+  "id": "bsa",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and to provide for general rules and principles of evidence for fair trial.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 170,
+  "short_title": "The Bharatiya Sakshya Adhiniyam, 2023",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/bsa/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "iea",
+   "direction": "predecessor",
+   "relation": "near-identical",
+   "score": 0.9852,
+   "section": "144",
+   "url": "https://indiacode.ecourtsindia.com/iea/section/144/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Evidence as to matters in writing",
+  "html": "<p>Any witness may be asked, while under examination, whether any contract, grant or other disposition of property, as to which he is giving evidence, was not contained in a document, and if he says that it was, or if he is about to make any statement as to the contents of any document, which, in the opinion of the Court, ought to be produced, the adverse party may object to such evidence being given until such document is produced, or until facts have been proved which entitle the party who called the witness to give secondary evidence of it.</p><p><i>Explanation.</i>--A witness may give oral evidence of statements made by other persons about the contents of documents if such statements are in themselves relevant facts.</p><p class=\"rubric\"><i>Illustration.</i></p><p>The question is, whether A assaulted B. C deposes that he heard A say to D-- \"B wrote a letter accusing me of theft, and I will be revenged on him\". This statement is relevant, as showing A's motive for the assault, and evidence may be given of it, though no other evidence is given about the letter.</p>",
+  "number": "147",
+  "text": "Any witness may be asked, while under examination, whether any contract, grant or other disposition of property, as to which he is giving evidence, was not contained in a document, and if he says that it was, or if he is about to make any statement as to the contents of any document, which, in the opinion of the Court, ought to be produced, the adverse party may object to such evidence being given until such document is produced, or until facts have been proved which entitle the party who called the witness to give secondary evidence of it. Explanation.--A witness may give oral evidence of statements made by other persons about the contents of documents if such statements are in themselves relevant facts. Illustration. The question is, whether A assaulted B. C deposes that he heard A say to D-- \"B wrote a letter accusing me of theft, and I will be revenged on him\". This statement is relevant, as showing A's motive for the assault, and evidence may be given of it, though no other evidence is given about the letter.",
+  "words": 183
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/bsa/section/147/"
+}

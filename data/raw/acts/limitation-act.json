@@ -1,0 +1,268 @@
+{
+ "act": {
+  "act_number": "36",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-10-05",
+  "enforcement_date": "1964-01-01",
+  "id": "limitation-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law for the limitation of suits and other proceedings and for purposes connected therewith.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 32,
+  "short_title": "The Limitation Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/limitation-act/"
+ },
+ "amendments": [
+  {
+   "act_number": "36",
+   "title": "The Code of Civil Procedure (Amendment) Act, 1999",
+   "year": 1999
+  },
+  {
+   "act_number": "36",
+   "title": "The Code of Civil Procedure (Amendment) Act, 1976",
+   "year": 1976
+  }
+ ],
+ "count": 32,
+ "schedules": [
+  {
+   "ord": 1,
+   "title": "THE SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/schedule/1/",
+   "words": 5072
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Short title, extent and commencement",
+   "indexable": true,
+   "number": "1",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/1/",
+   "words": 40
+  },
+  {
+   "heading": "Definitions",
+   "indexable": true,
+   "number": "2",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/2/",
+   "words": 363
+  },
+  {
+   "heading": "Bar of limitation",
+   "indexable": true,
+   "number": "3",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/3/",
+   "words": 208
+  },
+  {
+   "heading": "Expiry of prescribed period when court is closed",
+   "indexable": true,
+   "number": "4",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/4/",
+   "words": 69
+  },
+  {
+   "heading": "Extension of prescribed period in certain cases",
+   "indexable": true,
+   "number": "5",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/5/",
+   "words": 97
+  },
+  {
+   "heading": "Legal disability",
+   "indexable": true,
+   "number": "6",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/6/",
+   "words": 283
+  },
+  {
+   "heading": "Disability of one of several persons",
+   "indexable": true,
+   "number": "7",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/7/",
+   "words": 154
+  },
+  {
+   "heading": "Special exceptions",
+   "indexable": true,
+   "number": "8",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/8/",
+   "words": 50
+  },
+  {
+   "heading": "Continuous running of time",
+   "indexable": true,
+   "number": "9",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/9/",
+   "words": 61
+  },
+  {
+   "heading": "Suits against trustees and their representatives",
+   "indexable": true,
+   "number": "10",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/10/",
+   "words": 119
+  },
+  {
+   "heading": "Suits on contracts entered into outside the territories to which the Act extends",
+   "indexable": true,
+   "number": "11",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/11/",
+   "words": 112
+  },
+  {
+   "heading": "Exclusion of time in legal proceedings",
+   "indexable": true,
+   "number": "12",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/12/",
+   "words": 206
+  },
+  {
+   "heading": "Exclusion of time in cases where leave to sue or appeal as a pauper is applied for",
+   "indexable": true,
+   "number": "13",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/13/",
+   "words": 92
+  },
+  {
+   "heading": "Exclusion of time of proceeding bona fide in court without jurisdiction",
+   "indexable": true,
+   "number": "14",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/14/",
+   "words": 312
+  },
+  {
+   "heading": "Exclusion of time in certain other cases",
+   "indexable": true,
+   "number": "15",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/15/",
+   "words": 347
+  },
+  {
+   "heading": "Effect of death on or before the accrual of the right to sue",
+   "indexable": true,
+   "number": "16",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/16/",
+   "words": 185
+  },
+  {
+   "heading": "Effect of fraud or mistake",
+   "indexable": true,
+   "number": "17",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/17/",
+   "words": 401
+  },
+  {
+   "heading": "Effect of acknowledgment in writing",
+   "indexable": true,
+   "number": "18",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/18/",
+   "words": 245
+  },
+  {
+   "heading": "Effect of payment on account of debt or of interest on legacy",
+   "indexable": true,
+   "number": "19",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/19/",
+   "words": 145
+  },
+  {
+   "heading": "Effect of acknowledgment or payment by another person",
+   "indexable": true,
+   "number": "20",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/20/",
+   "words": 205
+  },
+  {
+   "heading": "Effect of substituting or adding new plaintiff or defendant",
+   "indexable": true,
+   "number": "21",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/21/",
+   "words": 131
+  },
+  {
+   "heading": "Continuing breaches and torts",
+   "indexable": true,
+   "number": "22",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/22/",
+   "words": 44
+  },
+  {
+   "heading": "Suits for compensation for acts not actionable without special damage",
+   "indexable": true,
+   "number": "23",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/23/",
+   "words": 42
+  },
+  {
+   "heading": "Computation of time mentioned in instruments",
+   "indexable": true,
+   "number": "24",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/24/",
+   "words": 20
+  },
+  {
+   "heading": "Acquisition of easements by prescription",
+   "indexable": true,
+   "number": "25",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/25/",
+   "words": 242
+  },
+  {
+   "heading": "Exclusion in favour of reversioner of servient tenement",
+   "indexable": true,
+   "number": "26",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/26/",
+   "words": 99
+  },
+  {
+   "heading": "Extinguishment of right to property",
+   "indexable": true,
+   "number": "27",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/27/",
+   "words": 28
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "28",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/28/",
+   "words": 22
+  },
+  {
+   "heading": "Savings",
+   "indexable": true,
+   "number": "29",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/29/",
+   "words": 192
+  },
+  {
+   "heading": "Provision for suits, etc., for which the prescribed period is shorter than the period prescribed by the Indian Limitation Act, 1908",
+   "indexable": true,
+   "number": "30",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/30/",
+   "words": 557
+  },
+  {
+   "heading": "Provisions as to barred or pending suits, etc",
+   "indexable": true,
+   "number": "31",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/31/",
+   "words": 59
+  },
+  {
+   "heading": "Repealed",
+   "indexable": true,
+   "number": "32",
+   "url": "https://indiacode.ecourtsindia.com/limitation-act/section/32/",
+   "words": 18
+  }
+ ]
+}

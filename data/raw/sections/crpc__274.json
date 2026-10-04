@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "2",
+  "act_year": 1974,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1974-01-25",
+  "enforcement_date": "1974-04-01",
+  "id": "crpc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to Criminal Procedure.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 500,
+  "short_title": "The Code of Criminal Procedure, 1973",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/crpc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bnss",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 1,
+   "section": "309",
+   "url": "https://indiacode.ecourtsindia.com/bnss/section/309/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Record in summons-cases and inquiries",
+  "html": "<p><span class=\"num\">(1)</span> In all summons- cases tried before a Magistrate, in all inquiries under sections <a href=\"/crpc/section/145/\">145</a> to <a href=\"/crpc/section/148/\">148</a> (both inclusive), and in all proceedings under section <a href=\"/crpc/section/446/\">446</a> otherwise than in the course of a trial, the Magistrate shall, as the examination of each witness proceeds, make a memorandum of the substance of his evidence in the language of the Court :</p><p>Provided that if the Magistrate is unable to make such memorandum himself, he shall, after recording the reason of his inability, cause such memorandum to be made in writing or from his dictation in open Court.</p><p><span class=\"num\">(2)</span> Such memorandum shall be signed by the Magistrate and shall form part of the record.</p>",
+  "number": "274",
+  "text": "(1) In all summons- cases tried before a Magistrate, in all inquiries under sections 145 to 148 (both inclusive), and in all proceedings under section 446 otherwise than in the course of a trial, the Magistrate shall, as the examination of each witness proceeds, make a memorandum of the substance of his evidence in the language of the Court : Provided that if the Magistrate is unable to make such memorandum himself, he shall, after recording the reason of his inability, cause such memorandum to be made in writing or from his dictation in open Court. (2) Such memorandum shall be signed by the Magistrate and shall form part of the record.",
+  "words": 112
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/crpc/section/274/"
+}

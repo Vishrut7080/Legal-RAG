@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.972,
+   "section": "342",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/342/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Counterfeiting device or mark used for authenticating documents other than those described in section 467, or possessing counterfeit marked material",
+  "html": "<p>Whoever counterfeits upon, or in the substance of, any material, any device or mark used for the purpose of authenticating any document other than the documents described in section <a href=\"/ipc/section/467/\">467</a> of this Code, intending that such device or mark shall be used for the purpose of giving the appearance of authenticity to any document then forged or thereafter to be forged on such material, or who with such intent, has in his possession any material upon or in the substance of which any such device or mark has been counterfeited, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.</p>",
+  "number": "476",
+  "text": "Whoever counterfeits upon, or in the substance of, any material, any device or mark used for the purpose of authenticating any document other than the documents described in section 467 of this Code, intending that such device or mark shall be used for the purpose of giving the appearance of authenticity to any document then forged or thereafter to be forged on such material, or who with such intent, has in his possession any material upon or in the substance of which any such device or mark has been counterfeited, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+  "words": 114
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/476/"
+}

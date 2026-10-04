@@ -1,0 +1,48 @@
+{
+ "act": {
+  "act_number": "59",
+  "act_year": 1988,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1988-10-14",
+  "enforcement_date": "1989-07-01",
+  "id": "mv-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to motor vehicles.",
+  "ministry": "Ministry of Road Transport and Highways",
+  "section_count": 257,
+  "short_title": "The Motor Vehicles Act, 1988",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/mv-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "8d4b6979",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "draft GSR 528(E) dated 2nd August 2021 Claims Tribunal investigation",
+   "url": "https://indiacode.ecourtsindia.com/rules/draft-gsr-528-e-dated-2nd-august-2021-claims-tribunal-investigation-8d4b6979/",
+   "year": 2021
+  }
+ ],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Scheme for interim relief for claimants",
+  "html": "<p><b><sup>1</sup>[164A. Scheme for interim relief for claimants. --</b> (1) The Central Government, may make schemes for the provision of interim relief to claimants praying for compensation under this Chapter.</p><p><span class=\"num\">(2)</span> A scheme made under sub-section (1) shall also provide for procedure to recover funds disbursed under such scheme from the owner of the motor vehicle, where the claim arises out of the use of such motor vehicle or other sources as may be prescribed by the Central Government].</p>",
+  "number": "164A",
+  "text": "1[164A. Scheme for interim relief for claimants. -- (1) The Central Government, may make schemes for the provision of interim relief to claimants praying for compensation under this Chapter. (2) A scheme made under sub-section (1) shall also provide for procedure to recover funds disbursed under such scheme from the owner of the motor vehicle, where the claim arises out of the use of such motor vehicle or other sources as may be prescribed by the Central Government].",
+  "words": 78
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/mv-act/section/164A/"
+}

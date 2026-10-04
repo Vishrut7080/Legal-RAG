@@ -1,0 +1,46 @@
+{
+ "act": {
+  "act_number": "45",
+  "act_year": 1860,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "1860-10-06",
+  "enforcement_date": "1862-01-01",
+  "id": "ipc",
+  "in_force": false,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide a general Penal Code for India.",
+  "ministry": "Ministry of Home Affairs",
+  "section_count": 554,
+  "short_title": "The Indian Penal Code, 1860",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ipc/"
+ },
+ "classification": [],
+ "corresponds_to": [
+  {
+   "act": "bns",
+   "direction": "successor",
+   "relation": "near-identical",
+   "score": 0.9452,
+   "section": "55",
+   "url": "https://indiacode.ecourtsindia.com/bns/section/55/"
+  }
+ ],
+ "instruments": [],
+ "judgments_count": 2,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Abetment of offence punishable with death or imprisonment for life-if offence is not committed",
+  "html": "<p>Abetment of offence punishable with death or imprisonment for life--if offence not committed.-Whoever abets the commission of an offence punishable with death or [imprisonment for life], shall, if that offence be not committed in consequence of the abetment, and no express provision is made by this Code for the punishment of such abetment, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine:</p><p>if act causing harm be done in consequence.</p><p>if act causing harm be done in consequence.--and if any act for which the abettor is liable in consequence of the abetment, and which causes hurt to any person, is done, the abettor shall be liable to imprisonment of either description for a term which may extend to fourteen years, and shall also be liable to fine.</p><p class=\"rubric\">Illustration</p><p>A instigates B to murder Z. The offence is not committed. If B had murdered Z, he would have been subject to the punishment of death or [imprisonment for life]. Therefore A is liable to imprisonment for a term which may extend to seven years and also to a fine; and, if any hurt be done to Z in consequence of the abetment, he will be liable to imprisonment for a term which may extend to fourteen years, and to fine.</p>",
+  "number": "115",
+  "text": "Abetment of offence punishable with death or imprisonment for life--if offence not committed.-Whoever abets the commission of an offence punishable with death or [imprisonment for life], shall, if that offence be not committed in consequence of the abetment, and no express provision is made by this Code for the punishment of such abetment, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine: if act causing harm be done in consequence. if act causing harm be done in consequence.--and if any act for which the abettor is liable in consequence of the abetment, and which causes hurt to any person, is done, the abettor shall be liable to imprisonment of either description for a term which may extend to fourteen years, and shall also be liable to fine. Illustration A instigates B to murder Z. The offence is not committed. If B had murdered Z, he would have been subject to the punishment of death or [imprisonment for life]. Therefore A is liable to imprisonment for a term which may extend to seven years and also to a fine; and, if any hurt be done to Z in consequence of the abetment, he will be liable to imprisonment for a term which may extend to fourteen years, and to fine.",
+  "words": 223
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/ipc/section/115/"
+}

@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1996,
+  "department": "Department of Legal Affairs",
+  "duplicate_of": null,
+  "enact_date": "1996-08-16",
+  "enforcement_date": "1996-08-22",
+  "id": "arbitration-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to consolidate and amend the law relating to domestic arbitration, international commercial arbitration and enforcement of foreign arbitral awards as also to define the law relating to conciliation and for matters connected therewith or incidental thereto.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 106,
+  "short_title": "The Arbitration and Conciliation Act, 1996",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/arbitration-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 6,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Interim measures, etc., by Court",
+  "html": "<p><sup>1</sup>[(1)] A party may, before or during arbitral proceedings or at any time after the making of the arbitral award but before it is enforced in accordance with section <a href=\"/arbitration-act/section/36/\">36</a>, apply to a court—</p><p><span class=\"num\">(i)</span> for the appointment of a guardian for a minor or person of unsound mind for the purposes of arbitral proceedings; or</p><p><span class=\"num\">(ii)</span> for an interim measure of protection in respect of any of the following matters, namely:—</p><p><span class=\"num\">(a)</span> the preservation, interim custody or sale of any goods which are the subject-matter of the arbitration agreement;</p><p><span class=\"num\">(b)</span> securing the amount in dispute in the arbitration;</p><p><span class=\"num\">(c)</span> the detention, preservation or inspection of any property or thing which is the subject-matter of the dispute in arbitration, or as to which any question may arise therein and authorising for any of the aforesaid purposes any person to enter upon any land or building in the possession of any party, or authorising any samples to be taken or any observation to be made, or experiment to be tried, which may be necessary or expedient for the purpose of obtaining full information or evidence;</p><p><span class=\"num\">(d)</span> interim injunction or the appointment of a receiver;</p><p><span class=\"num\">(e)</span> such other interim measure of protection as may appear to the Court to be just and convenient,</p><p>and the Court shall have the same power for making orders as it has for the purpose of, and in relation to, any proceedings before it.</p><p><sup>2</sup>[(2) Where, before the commencement of the arbitral proceedings, a Court passes an order for any interim measure of protection under sub-section <i>(1)</i>, the arbitral proceedings shall be commenced within a period of ninety days from the date of such order or within such further time as the Court may determine.</p><p><span class=\"num\">(3)</span> Once the arbitral tribunal has been constituted, the Court shall not entertain an application under sub-section <i>(1)</i>, unless the Court finds that circumstances exist which may not render the remedy provided under section <a href=\"/arbitration-act/section/17/\">17</a> efficacious.]</p>",
+  "number": "9",
+  "text": "1[(1)] A party may, before or during arbitral proceedings or at any time after the making of the arbitral award but before it is enforced in accordance with section 36, apply to a court— (i) for the appointment of a guardian for a minor or person of unsound mind for the purposes of arbitral proceedings; or (ii) for an interim measure of protection in respect of any of the following matters, namely:— (a) the preservation, interim custody or sale of any goods which are the subject-matter of the arbitration agreement; (b) securing the amount in dispute in the arbitration; (c) the detention, preservation or inspection of any property or thing which is the subject-matter of the dispute in arbitration, or as to which any question may arise therein and authorising for any of the aforesaid purposes any person to enter upon any land or building in the possession of any party, or authorising any samples to be taken or any observation to be made, or experiment to be tried, which may be necessary or expedient for the purpose of obtaining full information or evidence; (d) interim injunction or the appointment of a receiver; (e) such other interim measure of protection as may appear to the Court to be just and convenient, and the Court shall have the same power for making orders as it has for the purpose of, and in relation to, any proceedings before it. 2[(2) Where, before the commencement of the arbitral proceedings, a Court passes an order for any interim measure of protection under sub-section (1), the arbitral proceedings shall be commenced within a period of ninety days from the date of such order or within such further time as the Court may determine. (3) Once the arbitral tribunal has been constituted, the Court shall not entertain an application under sub-section (1), unless the Court finds that circumstances exist which may not render the remedy provided under section 17 efficacious.]",
+  "words": 324
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/arbitration-act/section/9/"
+}

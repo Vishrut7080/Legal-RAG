@@ -1,0 +1,37 @@
+{
+ "act": {
+  "act_number": "47",
+  "act_year": 1963,
+  "department": "Legislative Department",
+  "duplicate_of": null,
+  "enact_date": "1963-12-13",
+  "enforcement_date": "1964-03-01",
+  "id": "specific-relief-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to certain kinds of specific relief.",
+  "ministry": "Ministry of Law and Justice",
+  "section_count": 48,
+  "short_title": "The Specific Relief Act, 1963",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/specific-relief-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Cases in which specific performance of contracts connected with trusts enforceable",
+  "html": "<p><span class=\"num\">(1)</span> Except as otherwise provided in this Act, specific performance of a <sup>1</sup>[contract shall], be enforced when the act agreed to be done is in the performance wholly or partly of a trust.</p><p><span class=\"num\">(2)</span> A contract made by a trustee in excess of his powers or in breach of trust cannot be specifically enforced.</p>",
+  "number": "11",
+  "text": "(1) Except as otherwise provided in this Act, specific performance of a 1[contract shall], be enforced when the act agreed to be done is in the performance wholly or partly of a trust. (2) A contract made by a trustee in excess of his powers or in breach of trust cannot be specifically enforced.",
+  "words": 54
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/specific-relief-act/section/11/"
+}

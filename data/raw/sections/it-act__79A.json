@@ -1,0 +1,118 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "a72d8d10",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "Cyber Forensic Laboratory, Air Force Cyber Group,New Delhi, as Examiner of Electronic Evidence within India,",
+   "url": "https://indiacode.ecourtsindia.com/rules/cyber-forensic-laboratory-air-force-cyber-group-new-delhi-as-examiner-a72d8d10/",
+   "year": 2021
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "a115eaa4",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "Cyber Forensic Division, State Forensics Science Laboratory, Vellayambalam, Thiruvananthapuram Kerala, as Examiner of Electronic Evidence within India,",
+   "url": "https://indiacode.ecourtsindia.com/rules/cyber-forensic-division-state-forensics-science-laboratory-a115eaa4/",
+   "year": 2021
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "964a3689",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "Cyber Forensic Laboratory, under Army Cyber Group, Directorate General of Military Operations",
+   "url": "https://indiacode.ecourtsindia.com/rules/cyber-forensic-laboratory-under-army-cyber-group-directorate-general-964a3689/",
+   "year": 2018
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "b0590270",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "Notifies Computer Forensic and Data Mining Laboratory under Serious Fraud Investigation Office, Ministry of Corporate Affairs, New Delhi as Examiner of Electronic Evidence within India with the scope of Computer (Media) Forensics excluding Floppy Disk Drive.",
+   "url": "https://indiacode.ecourtsindia.com/rules/notifies-computer-forensic-and-data-mining-laboratory-under-serious-b0590270/",
+   "year": 2018
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "f0b02335",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "Notifies Directorate of Forensic Science, Gandhi Nagar (Gujarat), in the State of Gujarat as Examiner of Electronic Evidence within India",
+   "url": "https://indiacode.ecourtsindia.com/rules/notifies-directorate-of-forensic-science-gandhi-nagar-gujarat-in-the-f0b02335/",
+   "year": 2018
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "484aea84",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "Notifies Central Forensic Science Laboratory, Hyderabad under Directorate of Forensic Science Services, MHA as Examiner of Electronic Evidence within India",
+   "url": "https://indiacode.ecourtsindia.com/rules/notifies-central-forensic-science-laboratory-hyderabad-under-484aea84/",
+   "year": 2018
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "fb1fe409",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "State Forensic Science Laboratory, Madiwala, Bangaluru, under Directorate of Forensic Sciences, Karnataka, Police Department, as Examiner of Electronic Evidence within India",
+   "url": "https://indiacode.ecourtsindia.com/rules/state-forensic-science-laboratory-madiwala-bangaluru-under-directorate-fb1fe409/",
+   "year": 2018
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "88ae8340",
+   "kind": "notification",
+   "relation": "made_under",
+   "title": "Notifies Forensic Science Laboratory, Sector 14, Rohini, New Delhi under Government of National Capital Territory of Delhi, as Examiner of Electronic Evidence within India",
+   "url": "https://indiacode.ecourtsindia.com/rules/notifies-forensic-science-laboratory-sector-14-rohini-new-delhi-under-88ae8340/",
+   "year": 2018
+  }
+ ],
+ "judgments_count": 1,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Central Government to notify Examiner of Electronic Evidence",
+  "html": "<p><b>[79A. Central Government to notify Examiner of Electronic Evidence.</b>--The Central Government may, for the purposes of providing expert opinion on electronic form evidence before any court or other authority specify, by notification in the Official Gazette, any Department, body or agency of the Central Government or a State Government as an Examiner of Electronic Evidence.</p><p><i>Explanation</i>.For the purposes of this section, \"electronic form evidence\" means any information of probative value that is either stored or transmitted in electronic form and includes computer evidence, digital audio, digital video, cell phones, digital fax machines.]</p>",
+  "number": "79A",
+  "text": "[79A. Central Government to notify Examiner of Electronic Evidence.--The Central Government may, for the purposes of providing expert opinion on electronic form evidence before any court or other authority specify, by notification in the Official Gazette, any Department, body or agency of the Central Government or a State Government as an Examiner of Electronic Evidence. Explanation.For the purposes of this section, \"electronic form evidence\" means any information of probative value that is either stored or transmitted in electronic form and includes computer evidence, digital audio, digital video, cell phones, digital fax machines.]",
+  "words": 92
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/79A/"
+}

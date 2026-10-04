@@ -1,0 +1,1122 @@
+{
+ "act": {
+  "act_number": "26",
+  "act_year": 1881,
+  "department": "Department of Financial Services",
+  "duplicate_of": null,
+  "enact_date": "1881-12-09",
+  "enforcement_date": "1882-03-01",
+  "id": "ni-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to define and amend the law relating to Promissory Notes, Bills of Exchange and Cheques.",
+  "ministry": "Ministry of Finance",
+  "section_count": 155,
+  "short_title": "The Negotiable Instruments Act, 1881",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/ni-act/"
+ },
+ "amendments": [],
+ "count": 155,
+ "not_held": [
+  "amendments"
+ ],
+ "not_held_note": "This corpus holds no amendments for this Act. An empty list means not on file here, not that none exist.",
+ "schedules": [
+  {
+   "ord": 1,
+   "title": "SCHEDULE",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/schedule/1/",
+   "words": 18
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Short title",
+   "indexable": true,
+   "number": "1",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/1/",
+   "words": 102
+  },
+  {
+   "heading": "[Repealed.]",
+   "indexable": true,
+   "number": "2",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/2/",
+   "words": 21
+  },
+  {
+   "heading": "Interpretation-clause",
+   "indexable": true,
+   "number": "3",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/3/",
+   "words": 27
+  },
+  {
+   "heading": "''Promissory note''",
+   "indexable": true,
+   "number": "4",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/4/",
+   "words": 210
+  },
+  {
+   "heading": "''Bill of exchange''",
+   "indexable": true,
+   "number": "5",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/5/",
+   "words": 214
+  },
+  {
+   "heading": "''Cheque''",
+   "indexable": true,
+   "number": "6",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/6/",
+   "words": 223
+  },
+  {
+   "heading": "''Drawer.''",
+   "indexable": true,
+   "number": "7",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/7/",
+   "words": 197
+  },
+  {
+   "heading": "''Holder''",
+   "indexable": true,
+   "number": "8",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/8/",
+   "words": 61
+  },
+  {
+   "heading": "''Holder in due course''",
+   "indexable": true,
+   "number": "9",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/9/",
+   "words": 67
+  },
+  {
+   "heading": "''Payment in due course''",
+   "indexable": true,
+   "number": "10",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/10/",
+   "words": 51
+  },
+  {
+   "heading": "Inland instrument",
+   "indexable": true,
+   "number": "11",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/11/",
+   "words": 33
+  },
+  {
+   "heading": "Foreign instrument",
+   "indexable": true,
+   "number": "12",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/12/",
+   "words": 18
+  },
+  {
+   "heading": "''Negotiable instrument''",
+   "indexable": true,
+   "number": "13",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/13/",
+   "words": 187
+  },
+  {
+   "heading": "Negotiation",
+   "indexable": true,
+   "number": "14",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/14/",
+   "words": 30
+  },
+  {
+   "heading": "Indorsement",
+   "indexable": true,
+   "number": "15",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/15/",
+   "words": 66
+  },
+  {
+   "heading": "Indorsement ''in blank'' and ''in full''",
+   "indexable": true,
+   "number": "16",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/16/",
+   "words": 78
+  },
+  {
+   "heading": "Ambiguous instruments",
+   "indexable": true,
+   "number": "17",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/17/",
+   "words": 33
+  },
+  {
+   "heading": "Where amount is stated differently in figures and words",
+   "indexable": true,
+   "number": "18",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/18/",
+   "words": 32
+  },
+  {
+   "heading": "Instruments payable on demand",
+   "indexable": true,
+   "number": "19",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/19/",
+   "words": 22
+  },
+  {
+   "heading": "Inchoate stamped instruments",
+   "indexable": true,
+   "number": "20",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/20/",
+   "words": 135
+  },
+  {
+   "heading": "''At sight''",
+   "indexable": true,
+   "number": "21",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/21/",
+   "words": 48
+  },
+  {
+   "heading": "''Maturity''",
+   "indexable": true,
+   "number": "22",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/22/",
+   "words": 59
+  },
+  {
+   "heading": "Calculating maturity of bill or note payable so many months after date or sight",
+   "indexable": true,
+   "number": "23",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/23/",
+   "words": 221
+  },
+  {
+   "heading": "Calculating maturity of bill or note payable so many days after date or sight",
+   "indexable": true,
+   "number": "24",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/24/",
+   "words": 59
+  },
+  {
+   "heading": "When day of maturity is a holiday",
+   "indexable": true,
+   "number": "25",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/25/",
+   "words": 61
+  },
+  {
+   "heading": "Capacity to make, etc., promissory notes, etc",
+   "indexable": true,
+   "number": "26",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/26/",
+   "words": 91
+  },
+  {
+   "heading": "Agency",
+   "indexable": true,
+   "number": "27",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/27/",
+   "words": 80
+  },
+  {
+   "heading": "Liability of agent signing",
+   "indexable": true,
+   "number": "28",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/28/",
+   "words": 59
+  },
+  {
+   "heading": "Liability of legal representative signing",
+   "indexable": true,
+   "number": "29",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/29/",
+   "words": 41
+  },
+  {
+   "heading": "Liability of drawer",
+   "indexable": true,
+   "number": "30",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/30/",
+   "words": 42
+  },
+  {
+   "heading": "Liability of drawee of cheque",
+   "indexable": true,
+   "number": "31",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/31/",
+   "words": 52
+  },
+  {
+   "heading": "Liability of maker of note and acceptor of bill",
+   "indexable": true,
+   "number": "32",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/32/",
+   "words": 104
+  },
+  {
+   "heading": "Only drawee can be acceptor except in need or for honour",
+   "indexable": true,
+   "number": "33",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/33/",
+   "words": 39
+  },
+  {
+   "heading": "Acceptance by several drawees not partners",
+   "indexable": true,
+   "number": "34",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/34/",
+   "words": 34
+  },
+  {
+   "heading": "Liability of indorser",
+   "indexable": true,
+   "number": "35",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/35/",
+   "words": 93
+  },
+  {
+   "heading": "Liability of prior parties to holder in due course",
+   "indexable": true,
+   "number": "36",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/36/",
+   "words": 22
+  },
+  {
+   "heading": "Maker, drawer and acceptor principals",
+   "indexable": true,
+   "number": "37",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/37/",
+   "words": 57
+  },
+  {
+   "heading": "Prior party a principal in respect of each subsequent party",
+   "indexable": true,
+   "number": "38",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/38/",
+   "words": 112
+  },
+  {
+   "heading": "Suretyship",
+   "indexable": true,
+   "number": "39",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/39/",
+   "words": 56
+  },
+  {
+   "heading": "Discharge of indorser's liability",
+   "indexable": true,
+   "number": "40",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/40/",
+   "words": 120
+  },
+  {
+   "heading": "Acceptor bound, although, indorsement forged",
+   "indexable": true,
+   "number": "41",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/41/",
+   "words": 39
+  },
+  {
+   "heading": "Acceptance of bill drawn in fictitious name",
+   "indexable": true,
+   "number": "42",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/42/",
+   "words": 56
+  },
+  {
+   "heading": "Negotiable instrument made, etc., without consideration",
+   "indexable": true,
+   "number": "43",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/43/",
+   "words": 173
+  },
+  {
+   "heading": "Partial absence or failure of money-consideration",
+   "indexable": true,
+   "number": "44",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/44/",
+   "words": 164
+  },
+  {
+   "heading": "Partial failure of consideration not consisting of money",
+   "indexable": true,
+   "number": "45",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/45/",
+   "words": 61
+  },
+  {
+   "heading": "Holder's right to duplicate of lost bill",
+   "indexable": true,
+   "number": "45A",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/45A/",
+   "words": 81
+  },
+  {
+   "heading": "Delivery",
+   "indexable": true,
+   "number": "46",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/46/",
+   "words": 136
+  },
+  {
+   "heading": "Negotiation by delivery",
+   "indexable": true,
+   "number": "47",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/47/",
+   "words": 164
+  },
+  {
+   "heading": "Negotiation by indorsement",
+   "indexable": true,
+   "number": "48",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/48/",
+   "words": 28
+  },
+  {
+   "heading": "Conversion of indorsement in blank into indorsement in full",
+   "indexable": true,
+   "number": "49",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/49/",
+   "words": 53
+  },
+  {
+   "heading": "Effect of indorsement",
+   "indexable": true,
+   "number": "50",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/50/",
+   "words": 164
+  },
+  {
+   "heading": "Who may negotiate",
+   "indexable": true,
+   "number": "51",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/51/",
+   "words": 119
+  },
+  {
+   "heading": "Indorser who excludes his own liability or makes it conditional",
+   "indexable": true,
+   "number": "52",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/52/",
+   "words": 149
+  },
+  {
+   "heading": "Holder deriving title from holder in due course",
+   "indexable": true,
+   "number": "53",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/53/",
+   "words": 25
+  },
+  {
+   "heading": "Instrument indorsed in blank",
+   "indexable": true,
+   "number": "54",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/54/",
+   "words": 28
+  },
+  {
+   "heading": "Conversion of indorsement in blank into indorsement in full",
+   "indexable": true,
+   "number": "55",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/55/",
+   "words": 47
+  },
+  {
+   "heading": "Indorsement for part of sum due",
+   "indexable": true,
+   "number": "56",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/56/",
+   "words": 59
+  },
+  {
+   "heading": "Legal representative cannot by delivery only negotiate instrument indorsed by deceased",
+   "indexable": true,
+   "number": "57",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/57/",
+   "words": 31
+  },
+  {
+   "heading": "Instrument obtained by unlawful means or for unlawful consideration",
+   "indexable": true,
+   "number": "58",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/58/",
+   "words": 88
+  },
+  {
+   "heading": "Instrument acquired after dishonour or when overdue",
+   "indexable": true,
+   "number": "59",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/59/",
+   "words": 183
+  },
+  {
+   "heading": "Instrument negotiable till payment or satisfaction",
+   "indexable": true,
+   "number": "60",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/60/",
+   "words": 37
+  },
+  {
+   "heading": "Presentment for acceptance",
+   "indexable": true,
+   "number": "61",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/61/",
+   "words": 146
+  },
+  {
+   "heading": "Presentment of promissory note for sight",
+   "indexable": true,
+   "number": "62",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/62/",
+   "words": 67
+  },
+  {
+   "heading": "Drawee's time for deliberation",
+   "indexable": true,
+   "number": "63",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/63/",
+   "words": 35
+  },
+  {
+   "heading": "Presentment for payment",
+   "indexable": true,
+   "number": "64",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/64/",
+   "words": 202
+  },
+  {
+   "heading": "Hours for presentment",
+   "indexable": true,
+   "number": "65",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/65/",
+   "words": 20
+  },
+  {
+   "heading": "Presentment for payment of instrument payable after date or sight",
+   "indexable": true,
+   "number": "66",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/66/",
+   "words": 25
+  },
+  {
+   "heading": "Presentment for payment of promissory note payable by instalments",
+   "indexable": true,
+   "number": "67",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/67/",
+   "words": 40
+  },
+  {
+   "heading": "Presentment for payment of instrument payable at specified place and not elsewhere",
+   "indexable": true,
+   "number": "68",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/68/",
+   "words": 35
+  },
+  {
+   "heading": "Instrument payable at specified place",
+   "indexable": true,
+   "number": "69",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/69/",
+   "words": 33
+  },
+  {
+   "heading": "Presentment where no exclusive place specified",
+   "indexable": true,
+   "number": "70",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/70/",
+   "words": 46
+  },
+  {
+   "heading": "Presentment when maker, etc., has no known place of business or residence",
+   "indexable": true,
+   "number": "71",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/71/",
+   "words": 47
+  },
+  {
+   "heading": "Presentment of cheque to charge drawer",
+   "indexable": true,
+   "number": "72",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/72/",
+   "words": 44
+  },
+  {
+   "heading": "Presentment of cheque to charge any other person",
+   "indexable": true,
+   "number": "73",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/73/",
+   "words": 24
+  },
+  {
+   "heading": "Presentment of instrument payable on demand",
+   "indexable": true,
+   "number": "74",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/74/",
+   "words": 29
+  },
+  {
+   "heading": "Presentment by or to agent, representative of deceased, or assignee of insolvent",
+   "indexable": true,
+   "number": "75",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/75/",
+   "words": 48
+  },
+  {
+   "heading": "Excuse for delay in presentment for acceptance or payment",
+   "indexable": true,
+   "number": "75A",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/75A/",
+   "words": 56
+  },
+  {
+   "heading": "When presentment unnecessary",
+   "indexable": true,
+   "number": "76",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/76/",
+   "words": 203
+  },
+  {
+   "heading": "Liability of banker for negligently dealing with bill presented for payment",
+   "indexable": true,
+   "number": "77",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/77/",
+   "words": 50
+  },
+  {
+   "heading": "To whom payment should be made",
+   "indexable": true,
+   "number": "78",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/78/",
+   "words": 40
+  },
+  {
+   "heading": "Interest when rate specified",
+   "indexable": true,
+   "number": "79",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/79/",
+   "words": 66
+  },
+  {
+   "heading": "Interest when no rate specified",
+   "indexable": true,
+   "number": "80",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/80/",
+   "words": 115
+  },
+  {
+   "heading": "Delivery of instrument on payment or indemnity in case of loss",
+   "indexable": true,
+   "number": "81",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/81/",
+   "words": 130
+  },
+  {
+   "heading": "Discharge from liability",
+   "indexable": true,
+   "number": "82",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/82/",
+   "words": 107
+  },
+  {
+   "heading": "Discharge by allowing drawee more than forty-eight hours to accept",
+   "indexable": true,
+   "number": "83",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/83/",
+   "words": 43
+  },
+  {
+   "heading": "When cheque not duly presented and drawer damaged thereby",
+   "indexable": true,
+   "number": "84",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/84/",
+   "words": 279
+  },
+  {
+   "heading": "Cheque payable to order",
+   "indexable": true,
+   "number": "85",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/85/",
+   "words": 76
+  },
+  {
+   "heading": "Drafts drawn by one branch of a bank on another payable to order",
+   "indexable": true,
+   "number": "85A",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/85A/",
+   "words": 67
+  },
+  {
+   "heading": "Parties not consenting discharged by qualified or limited acceptance",
+   "indexable": true,
+   "number": "86",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/86/",
+   "words": 194
+  },
+  {
+   "heading": "Effect of material alteration",
+   "indexable": true,
+   "number": "87",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/87/",
+   "words": 89
+  },
+  {
+   "heading": "Acceptor or indorser bound notwithstanding previous alteration",
+   "indexable": true,
+   "number": "88",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/88/",
+   "words": 22
+  },
+  {
+   "heading": "Payment of instrument on which alteration is not apparent",
+   "indexable": true,
+   "number": "89",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/89/",
+   "words": 224
+  },
+  {
+   "heading": "Extinguishment of rights of action on bill in acceptor's hands",
+   "indexable": true,
+   "number": "90",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/90/",
+   "words": 29
+  },
+  {
+   "heading": "Dishonour by non-acceptance",
+   "indexable": true,
+   "number": "91",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/91/",
+   "words": 64
+  },
+  {
+   "heading": "Dishonour by non-payment",
+   "indexable": true,
+   "number": "92",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/92/",
+   "words": 42
+  },
+  {
+   "heading": "By and to whom notice should be given",
+   "indexable": true,
+   "number": "93",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/93/",
+   "words": 95
+  },
+  {
+   "heading": "Mode in which notice may be given",
+   "indexable": true,
+   "number": "94",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/94/",
+   "words": 154
+  },
+  {
+   "heading": "Party receiving must transmit notice of dishonour",
+   "indexable": true,
+   "number": "95",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/95/",
+   "words": 40
+  },
+  {
+   "heading": "Agent for presentment",
+   "indexable": true,
+   "number": "96",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/96/",
+   "words": 49
+  },
+  {
+   "heading": "When party to whom notice given is dead",
+   "indexable": true,
+   "number": "97",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/97/",
+   "words": 27
+  },
+  {
+   "heading": "When notice of dishonour is unnecessary",
+   "indexable": true,
+   "number": "98",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/98/",
+   "words": 121
+  },
+  {
+   "heading": "Noting",
+   "indexable": true,
+   "number": "99",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/99/",
+   "words": 89
+  },
+  {
+   "heading": "Protest",
+   "indexable": true,
+   "number": "100",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/100/",
+   "words": 115
+  },
+  {
+   "heading": "Contents of protest",
+   "indexable": true,
+   "number": "101",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/101/",
+   "words": 198
+  },
+  {
+   "heading": "Notice of protest",
+   "indexable": true,
+   "number": "102",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/102/",
+   "words": 51
+  },
+  {
+   "heading": "Protest for non-payment after dishonour by non-acceptance",
+   "indexable": true,
+   "number": "103",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/103/",
+   "words": 49
+  },
+  {
+   "heading": "Protest of foreign bills",
+   "indexable": true,
+   "number": "104",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/104/",
+   "words": 24
+  },
+  {
+   "heading": "When noting equivalent to protest",
+   "indexable": true,
+   "number": "104A",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/104A/",
+   "words": 74
+  },
+  {
+   "heading": "Reasonable time",
+   "indexable": true,
+   "number": "105",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/105/",
+   "words": 52
+  },
+  {
+   "heading": "Reasonable time of giving notice of dishonour",
+   "indexable": true,
+   "number": "106",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/106/",
+   "words": 92
+  },
+  {
+   "heading": "Reasonable time for transmitting such notice",
+   "indexable": true,
+   "number": "107",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/107/",
+   "words": 48
+  },
+  {
+   "heading": "Acceptance for honour",
+   "indexable": true,
+   "number": "108",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/108/",
+   "words": 48
+  },
+  {
+   "heading": "How acceptance for honour must be made",
+   "indexable": true,
+   "number": "109",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/109/",
+   "words": 45
+  },
+  {
+   "heading": "Acceptance not specifying for whose honour it is made",
+   "indexable": true,
+   "number": "110",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/110/",
+   "words": 25
+  },
+  {
+   "heading": "Liability of acceptor for honour",
+   "indexable": true,
+   "number": "111",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/111/",
+   "words": 120
+  },
+  {
+   "heading": "When acceptor for honour may be charged",
+   "indexable": true,
+   "number": "112",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/112/",
+   "words": 34
+  },
+  {
+   "heading": "Payment for honour",
+   "indexable": true,
+   "number": "113",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/113/",
+   "words": 66
+  },
+  {
+   "heading": "Right of payer for honour",
+   "indexable": true,
+   "number": "114",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/114/",
+   "words": 52
+  },
+  {
+   "heading": "Drawee in case of need",
+   "indexable": true,
+   "number": "115",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/115/",
+   "words": 32
+  },
+  {
+   "heading": "Acceptance and payment without protest",
+   "indexable": true,
+   "number": "116",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/116/",
+   "words": 17
+  },
+  {
+   "heading": "Rules as to compensation",
+   "indexable": true,
+   "number": "117",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/117/",
+   "words": 253
+  },
+  {
+   "heading": "Presumptions as to negotiable instruments",
+   "indexable": true,
+   "number": "118",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/118/",
+   "words": 235
+  },
+  {
+   "heading": "Presumption on proof of protest",
+   "indexable": true,
+   "number": "119",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/119/",
+   "words": 30
+  },
+  {
+   "heading": "Estoppel against denying original validity of instrument",
+   "indexable": true,
+   "number": "120",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/120/",
+   "words": 55
+  },
+  {
+   "heading": "Estoppel against denying capacity of payee to indorse",
+   "indexable": true,
+   "number": "121",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/121/",
+   "words": 47
+  },
+  {
+   "heading": "Estoppel against denying signature or capacity of prior party",
+   "indexable": true,
+   "number": "122",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/122/",
+   "words": 32
+  },
+  {
+   "heading": "Cheque crossed generally",
+   "indexable": true,
+   "number": "123",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/123/",
+   "words": 55
+  },
+  {
+   "heading": "Cheque crossed specially",
+   "indexable": true,
+   "number": "124",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/124/",
+   "words": 47
+  },
+  {
+   "heading": "Crossing after issue",
+   "indexable": true,
+   "number": "125",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/125/",
+   "words": 66
+  },
+  {
+   "heading": "Payment of cheque crossed generally",
+   "indexable": true,
+   "number": "126",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/126/",
+   "words": 58
+  },
+  {
+   "heading": "Payment of cheque crossed specially more than once",
+   "indexable": true,
+   "number": "127",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/127/",
+   "words": 33
+  },
+  {
+   "heading": "Payment in due course of crossed cheque",
+   "indexable": true,
+   "number": "128",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/128/",
+   "words": 83
+  },
+  {
+   "heading": "Payment of crossed cheque out of due course",
+   "indexable": true,
+   "number": "129",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/129/",
+   "words": 60
+  },
+  {
+   "heading": "Cheque bearing ''not negotiable''",
+   "indexable": true,
+   "number": "130",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/130/",
+   "words": 44
+  },
+  {
+   "heading": "Non-liability of banker receiving payment of cheque",
+   "indexable": true,
+   "number": "131",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/131/",
+   "words": 149
+  },
+  {
+   "heading": "Application of Chapter to drafts",
+   "indexable": true,
+   "number": "131A",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/131A/",
+   "words": 22
+  },
+  {
+   "heading": "Set of bills",
+   "indexable": true,
+   "number": "132",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/132/",
+   "words": 95
+  },
+  {
+   "heading": "Holder of first acquired part entitled to",
+   "indexable": true,
+   "number": "133",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/133/",
+   "words": 34
+  },
+  {
+   "heading": "Law governing liability of maker, acceptor or indorser of foreign instrument",
+   "indexable": true,
+   "number": "134",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/134/",
+   "words": 154
+  },
+  {
+   "heading": "Law of place of payment governs dishonour",
+   "indexable": true,
+   "number": "135",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/135/",
+   "words": 105
+  },
+  {
+   "heading": "Instrument made, etc., out of India, but in accordance with the law of India",
+   "indexable": true,
+   "number": "136",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/136/",
+   "words": 55
+  },
+  {
+   "heading": "Presumption as to foreign law",
+   "indexable": true,
+   "number": "137",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/137/",
+   "words": 34
+  },
+  {
+   "heading": "Dishonour of cheque for insufficiency, etc., of funds in the account",
+   "indexable": true,
+   "number": "138",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/138/",
+   "words": 312
+  },
+  {
+   "heading": "Presumption in favour of holder",
+   "indexable": true,
+   "number": "139",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/139/",
+   "words": 40
+  },
+  {
+   "heading": "Defence which may not be allowed in any prosecution under section 138",
+   "indexable": true,
+   "number": "140",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/140/",
+   "words": 43
+  },
+  {
+   "heading": "Offences by companies",
+   "indexable": true,
+   "number": "141",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/141/",
+   "words": 287
+  },
+  {
+   "heading": "Cognizance of offences",
+   "indexable": true,
+   "number": "142",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/142/",
+   "words": 290
+  },
+  {
+   "heading": "Validation for transfer of pending cases",
+   "indexable": true,
+   "number": "142A",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/142A/",
+   "words": 299
+  },
+  {
+   "heading": "Power of Court to try cases summarily",
+   "indexable": true,
+   "number": "143",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/143/",
+   "words": 297
+  },
+  {
+   "heading": "Power to direct interim compensation",
+   "indexable": true,
+   "number": "143A",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/143A/",
+   "words": 291
+  },
+  {
+   "heading": "Mode of service of summons",
+   "indexable": true,
+   "number": "144",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/144/",
+   "words": 138
+  },
+  {
+   "heading": "Evidence on affidavit",
+   "indexable": true,
+   "number": "145",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/145/",
+   "words": 82
+  },
+  {
+   "heading": "Bank's slip prima facie evidence of certain facts",
+   "indexable": true,
+   "number": "146",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/146/",
+   "words": 45
+  },
+  {
+   "heading": "Offences to be compoundable",
+   "indexable": true,
+   "number": "147",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/147/",
+   "words": 22
+  },
+  {
+   "heading": "Power of Appellate Court to order payment pending appeal against conviction",
+   "indexable": true,
+   "number": "148",
+   "url": "https://indiacode.ecourtsindia.com/ni-act/section/148/",
+   "words": 238
+  }
+ ]
+}

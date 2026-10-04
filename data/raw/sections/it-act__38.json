@@ -1,0 +1,58 @@
+{
+ "act": {
+  "act_number": "21",
+  "act_year": 2000,
+  "department": null,
+  "duplicate_of": null,
+  "enact_date": "2000-06-09",
+  "enforcement_date": "2000-10-17",
+  "id": "it-act",
+  "in_force": true,
+  "jurisdiction": "CENTRAL",
+  "long_title": "An Act to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as",
+  "ministry": "Ministry of Electronics and Information Technology",
+  "section_count": 125,
+  "short_title": "The Information Technology Act, 2000",
+  "spent": false,
+  "spent_note": null,
+  "unit": "section",
+  "url": "https://indiacode.ecourtsindia.com/it-act/"
+ },
+ "classification": [],
+ "corresponds_to": [],
+ "instruments": [
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "1069ca1c",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "Digital Signature (End Entity) Rules, 2015",
+   "url": "https://indiacode.ecourtsindia.com/rules/digital-signature-end-entity-rules-2015-1069ca1c/",
+   "year": 2015
+  },
+  {
+   "act_basis": "recorded",
+   "jurisdiction": "CENTRAL",
+   "key": "ae9fd1a1",
+   "kind": "rule",
+   "relation": "mentions",
+   "title": "(Certifying Authorities) Amendment Rules, 2011 -Rules 4,5A and 6",
+   "url": "https://indiacode.ecourtsindia.com/rules/certifying-authorities-amendment-rules-2011-rules-4-5a-and-6-ae9fd1a1/",
+   "year": 2011
+  }
+ ],
+ "judgments_count": 0,
+ "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957.",
+ "note": null,
+ "section": {
+  "heading": "Revocation of Digital Signature Certificate",
+  "html": "<p><span class=\"num\">(1)</span> A Certifying Authority may revoke a Digital Signature Certificate issued by it--</p><p><span class=\"num\">(a)</span> where the subscriber or any other person authorised by him makes a request to that effect; or</p><p><span class=\"num\">(b)</span> upon the death of the subscriber; or</p><p><span class=\"num\">(c)</span> upon the dissolution of the firm or winding up of the company where the subscriber is a firm or a company.</p><p><span class=\"num\">(2)</span> Subject to the provisions of sub-section <i>(3)</i> and without prejudice to the provisions of sub-section <i>(1)</i>, a Certifying Authority may revoke a Digital Signature Certificate which has been issued by it at any time, if it is of opinion that--</p><p><span class=\"num\">(a)</span> a material fact represented in the Digital Signature Certificate is false or has been concealed;</p><p><span class=\"num\">(b)</span> a requirement for issuance of the Digital Signature Certificate was not satisfied;</p><p><span class=\"num\">(c)</span> the Certifying Authority's private key or security system was compromised in a manner materially affecting the Digital Signature Certificate's reliability;</p><p><span class=\"num\">(d)</span> the subscriber has been declared insolvent or dead or where a subscriber is a firm or a company, which has been dissolved, wound-up or otherwise ceased to exist.</p><p><span class=\"num\">(3)</span> A Digital Signature Certificate shall not be revoked unless the subscriber has been given an opportunity of being heard in the matter.</p><p><span class=\"num\">(4)</span> On revocation of a Digital Signature Certificate under this section, the Certifying Authority shall communicate the same to the subscriber.</p>",
+  "number": "38",
+  "text": "(1) A Certifying Authority may revoke a Digital Signature Certificate issued by it-- (a) where the subscriber or any other person authorised by him makes a request to that effect; or (b) upon the death of the subscriber; or (c) upon the dissolution of the firm or winding up of the company where the subscriber is a firm or a company. (2) Subject to the provisions of sub-section (3) and without prejudice to the provisions of sub-section (1), a Certifying Authority may revoke a Digital Signature Certificate which has been issued by it at any time, if it is of opinion that-- (a) a material fact represented in the Digital Signature Certificate is false or has been concealed; (b) a requirement for issuance of the Digital Signature Certificate was not satisfied; (c) the Certifying Authority's private key or security system was compromised in a manner materially affecting the Digital Signature Certificate's reliability; (d) the subscriber has been declared insolvent or dead or where a subscriber is a firm or a company, which has been dissolved, wound-up or otherwise ceased to exist. (3) A Digital Signature Certificate shall not be revoked unless the subscriber has been given an opportunity of being heard in the matter. (4) On revocation of a Digital Signature Certificate under this section, the Certifying Authority shall communicate the same to the subscriber.",
+  "words": 225
+ },
+ "source_note": "Judgment holdings are the ratio decidendi as extracted from the order by eCourts India, reproduced unaltered. Reported judgments only.",
+ "unit": "section",
+ "url": "https://indiacode.ecourtsindia.com/it-act/section/38/"
+}

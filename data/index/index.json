@@ -1,0 +1,10 @@
+{
+  "n_chunks": 996,
+  "dim": 384,
+  "embedding_model": "local/sentence-transformers/all-MiniLM-L6-v2",
+  "chunk_chars": 2600,
+  "chunks_sha256": "7aeb4be4ab524cb4a0c015eb845f4865a22a97459cc7c7f141d32d60cd68d7ad",
+  "matrix_sha256": "f228b5861ce0bdc8b72f12c0619bb923940d419e917cae945fe11466050e2733",
+  "n_docs": 15,
+  "n_repealed": 318
+}
