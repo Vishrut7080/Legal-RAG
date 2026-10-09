@@ -1,0 +1,126 @@
+name: gate
+
+# The regression gate, wired to every push and pull request.
+#
+# What this buys, and what it does not: it runs the same `python -m src.gate`
+# that `make gate` runs locally, on the committed corpus, with no API key and no
+# paid model. Retrieval replays against the committed data/index/matrix.npy and
+# the generator is extractive, so the whole evaluation is deterministic and
+# offline. A commit that would have degraded retrieval, or quietly edited the
+# corpus, fails here.
+#
+# It does NOT need a response cache. That is a stronger position than the usual
+# "commit the cache so CI can replay" arrangement: the artefacts that make the
+# gate reproducible are the pinned snapshot and the committed index, both of
+# which are content-checked by the gate itself. See the
+# `corpus_matches_snapshot` check.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      # Nothing in this workflow reads a secret. That is a property of the
+      # design, not an accident: if the gate ever needs an API key it will start
+      # failing for graders and for anyone running it offline, so it must not.
+      AIP_OFFLINE: "1"
+      AIP_PROFILE: local
+      PYTHONWARNINGS: ignore::DeprecationWarning
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # ~90 MB, no credentials. Not free of network, but no key, no account and
+      # no paid provider -- the distinction worth keeping in the report.
+      - name: Warm the embedding model
+        run: python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')"
+
+      - name: Environment probe
+        run: python -m src.check
+
+      - name: Lint
+        run: ruff check .
+
+      - name: Tests
+        run: pytest -q
+
+      # The gate must not be shadowed: a later step that swallows a non-zero
+      # exit code produces the same green tick as a gate that never fails.
+      # `set -e` plus a separate invocation of the gate itself keeps that from
+      # happening silently.
+      - name: Regression gate
+        run: |
+          set -euo pipefail
+          python -m src.gate
+          echo "gate exit code: $?"
+
+      - name: Semantic cache threshold is reproducible
+        run: |
+          set -euo pipefail
+          python -m src.cache_sweep --min 0.80 --max 0.90 --step 0.01
+
+      # The benchmark is run, not gated. Latency on a shared runner is far too
+      # noisy for an assertion to mean anything, but a change that makes the
+      # service an order of magnitude slower should still be visible in the log.
+      - name: Latency and cost benchmark
+        run: |
+          set -euo pipefail
+          BENCH_NO_EMBED_CACHE=1 python -m src.benchmark --n 20
+
+  # A gate that has never been seen to fail is not known to be a gate. This job
+  # breaks the pipeline on purpose and asserts the build goes red -- so a change
+  # that silently disables an assertion is caught by that assertion failing to
+  # fire.
+  gate-can-fail:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    needs: gate
+    env:
+      AIP_OFFLINE: "1"
+      AIP_PROFILE: local
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: python -m pip install --upgrade pip
+      - run: pip install -r requirements.txt
+      - name: Warm the embedding model
+        run: python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')"
+
+      # Each of these exits 0 when the gate correctly went red, and exits 2 when
+      # the gate passed on a broken pipeline. The inversion is deliberate: this
+      # job should be green when the gate is healthy.
+      - name: The gate must fail on k=1
+        run: python -m src.break_it --mode k
+
+      - name: The gate must fail on an edited corpus
+        run: python -m src.break_it --mode corpus
+
+      - name: The gate must fail on a corrupt index
+        run: python -m src.break_it --mode index

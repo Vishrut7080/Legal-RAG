@@ -18,6 +18,13 @@ integrity:
   snapshot_checksums: true      # every file in data/raw matches FETCHED.json
   golden_references_resolve: true   # no citation points outside the index
   index_matches_chunks: true    # the sha256 in index.json matches chunks.jsonl
+  # The corpus must be reproducible from the snapshot. Added after
+  # `python -m src.break_it --mode corpus` emptied data/corpus/limitation-act.md
+  # and every other check here still passed: nothing tied data/corpus/*.md back
+  # to data/raw/, so editing a corpus document was invisible to the whole gate.
+  # A service whose corpus was edited answers from the edited text with a green
+  # build. This rebuilds the corpus and compares it byte for byte.
+  corpus_matches_snapshot: true
   raw_excludes_judgments: true  # no stored payload carries eCourts judgment
                                # summaries; the count is kept, the records are
                                # not. See LICENSING.md. Asserted rather than

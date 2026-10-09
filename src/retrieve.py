@@ -146,14 +146,59 @@ class DenseIndexRetriever(Retriever):
         ]
 
 
+class Reranked(Retriever):
+    """Wrap a retriever with a cross-encoder second stage.
+
+    Retrieve wide and cheap, rerank narrow and accurate. The two stages are not
+    independent and the order is a real choice: reranking first means the
+    cross-encoder sees near-identical old/new pairs and has to guess which the
+    question meant, while filtering first means it only ever scores in-force
+    text. `compare()` measures both orders rather than assuming one.
+
+    The reranker is loaded on first use, not here. `build_retrievers` runs at
+    process startup and loading a cross-encoder costs about a second; charging
+    that to every service that merely *lists* the retriever names would be a
+    real regression against the "build once, at startup" rule.
+    """
+
+    def __init__(self, inner: Retriever, name: str, pool_k: int = 30):
+        self.inner = inner
+        self._name = name
+        self.pool_k = pool_k
+
+    @property
+    def name(self) -> str:  # type: ignore[override]
+        # The registered name, not a derivation of the inner one: the inner
+        # retriever calls the filter "current_only", and a hit labelled
+        # "current_only+rerank" is not a name any caller asked for.
+        return self._name
+
+    def search(self, query: str, k: int = 8) -> list[Hit]:
+        pool = self.inner.search(query, k=max(k * 3, self.pool_k))
+        rr = _reranker()
+        if rr is None:
+            # No cross-encoder reachable. Degrading to the first stage is better
+            # than erroring: the caller asked for better ranking, and unreranked
+            # results are still a correct answer to that.
+            return list(pool)[:k]
+        return rr.rerank(query, pool, k=k)
+
+
 def build_retrievers(index: Index) -> dict[str, Retriever]:
     dense = DenseIndexRetriever(index)
     bm25 = Bm25Retriever(index.chunks)
+    hybrid = HybridRetriever([dense, bm25])
+    current = CurrentOnly(hybrid)
+    # Every name offered in the UI, the service and `diagnose` has to exist
+    # here. Offering a retriever that `search()` cannot resolve is a 500 waiting
+    # to happen on the one route where somebody picks it.
     return {
         "dense": dense,
         "bm25": bm25,
-        "hybrid": HybridRetriever([dense, bm25]),
-        "hybrid+current": CurrentOnly(HybridRetriever([dense, bm25])),
+        "hybrid": hybrid,
+        "hybrid+current": current,
+        "hybrid+rerank": Reranked(hybrid, "hybrid+rerank"),
+        "hybrid+current+rerank": Reranked(current, "hybrid+current+rerank"),
     }
 
 
@@ -191,11 +236,28 @@ def load_golden(path: Path = GOLDEN) -> list[dict[str, Any]]:
     ]
 
 
+@lru_cache(maxsize=1)
 def _reranker() -> CrossEncoderReranker | None:
+    """The cross-encoder, or None when this profile cannot supply one.
+
+    Returns None rather than raising, because reranking is an enhancement: a
+    caller who asked for it still deserves a correct answer without it. Callers
+    degrade to the first stage.
+
+    The `local/` check matters more than it looks. `resolve_model` passes any
+    unknown tier name through unchanged, and only the `local` profile declares a
+    RERANK tier -- so under AIP_PROFILE=gemini it would hand back the literal
+    string "RERANK", and `CrossEncoderReranker` would ask the HuggingFace Hub for
+    a model repository called RERANK. That is a confusing 404 in a path that has
+    nothing to do with the user's question.
+    """
     model = resolve_model("RERANK")
-    if not model:
+    if not model or not model.startswith("local/"):
         return None
-    return CrossEncoderReranker(model.split("local/", 1)[-1])
+    try:
+        return CrossEncoderReranker(model.split("local/", 1)[-1])
+    except Exception:  # noqa: BLE001 - an unavailable model is not a crash
+        return None
 
 
 def compare(k: int = 10, rerank: bool = False,
@@ -221,7 +283,6 @@ def compare(k: int = 10, rerank: bool = False,
         )
 
     provisions = set(index.provision_ids())
-    rr = _reranker() if rerank else None
     ks = sorted({1, 3, 5, k})
 
     def score(get_hits: Any) -> dict[str, float] | None:
@@ -252,29 +313,15 @@ def compare(k: int = 10, rerank: bool = False,
 
     out: dict[str, dict[str, float]] = {}
     for name, retriever in retrievers.items():
+        # The reranked variants are registered unconditionally so that a caller
+        # who picks one over the API cannot get a KeyError. That does not mean
+        # every experiment should pay for a cross-encoder, so they are skipped
+        # here unless --rerank asked for them.
+        if not rerank and isinstance(retriever, Reranked):
+            continue
         result = score(lambda q, r=retriever: r.search(q, k=k))
         if result:
             out[name] = result
-
-    if rr is not None:
-        # The two stages are not independent, and the order matters. Reranking
-        # first means the cross-encoder sees near-identical old/new pairs and
-        # has to guess which the question meant; filtering first means it only
-        # ever scores in-force text, and the question is whether that loses the
-        # repealed provision a historical case needs. Both are worth measuring,
-        # so both are reported.
-        result = score(
-            lambda q: rr.rerank(q, retrievers["hybrid"].search(q, k=max(k * 3, 30)), k=k)
-        )
-        if result:
-            out["hybrid+rerank"] = result
-        current = retrievers.get("hybrid+current")
-        if current is not None:
-            result = score(
-                lambda q: rr.rerank(q, current.search(q, k=max(k * 3, 30)), k=k)
-            )
-            if result:
-                out["hybrid+current+rerank"] = result
     return out
 
 

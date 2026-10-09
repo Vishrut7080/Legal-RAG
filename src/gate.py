@@ -154,18 +154,23 @@ def check_retrieval(summary: dict[str, Any], cfg: dict[str, Any]) -> list[Check]
     retrieval = summary["retrieval"]
     k = cfg["config"]["k"]
     limits = cfg["retrieval"]
+    # Each line names the metric AND the floor it had to clear. That matters
+    # because two floors can read from the same measurement -- with k=1,
+    # `hit_rate@1` and `hit_rate@k` are the same number, and two identically
+    # named lines with different thresholds is the least useful thing a failing
+    # gate can print.
     pairs = [
-        ("hit_rate@1", limits["min_hit_rate_at_1"]),
-        ("hit_rate@5", limits["min_hit_rate_at_5"]),
-        (f"hit_rate@{k}", limits["min_hit_rate_at_k"]),
-        ("mrr", limits["min_mrr"]),
-        (f"ndcg@{k}", limits["min_ndcg_at_k"]),
+        ("hit@1", "hit_rate@1", limits["min_hit_rate_at_1"]),
+        ("hit@5", "hit_rate@5", limits["min_hit_rate_at_5"]),
+        (f"hit@k(k={k})", f"hit_rate@{k}", limits["min_hit_rate_at_k"]),
+        ("mrr", "mrr", limits["min_mrr"]),
+        (f"ndcg@k(k={k})", f"ndcg@{k}", limits["min_ndcg_at_k"]),
     ]
     return [
-        Check(f"retrieval {name}", retrieval.get(name) is not None
-              and retrieval[name] >= floor,
-              measured=round(retrieval.get(name) or 0.0, 3), threshold=floor)
-        for name, floor in pairs
+        Check(f"retrieval {label} >= {floor}",
+              retrieval.get(key) is not None and retrieval[key] >= floor,
+              measured=round(retrieval.get(key) or 0.0, 3), threshold=floor)
+        for label, key, floor in pairs
     ]
 
 
@@ -210,6 +215,70 @@ def check_citations(summary: dict[str, Any], cfg: dict[str, Any]) -> list[Check]
     return checks
 
 
+def check_corpus_matches_snapshot() -> Check:
+    """The committed corpus must be reproducible from the committed snapshot.
+
+    This check exists because of a demonstrated failure, not a hypothetical one.
+    `python -m src.break_it --mode corpus` empties `data/corpus/limitation-act.md`
+    -- deleting 32 provisions from the corpus -- and every other check in this
+    gate still passed. That is the trap this module exists to prevent: the gate
+    measures the *index*, and nothing tied `data/corpus/*.md` back to
+    `data/raw/`, so editing a corpus document was invisible to every assertion
+    here. A service whose corpus was edited answers confidently from the edited
+    text, and the build stays green.
+
+    So this rebuilds the corpus from `data/raw/` + `data/manifest.json` into a
+    temporary directory and compares, file by file. The corpus is supposed to be
+    a pure function of the pinned snapshot, so any difference is a defect:
+    either the corpus was edited by hand, or the snapshot changed without the
+    corpus being rebuilt.
+
+    It calls the same `build()` the pipeline calls rather than re-implementing
+    the transformation, because a second implementation would be a second thing
+    to keep correct and would disagree for reasons that have nothing to do with
+    the corpus being wrong.
+    """
+    import hashlib
+    import tempfile
+
+    from src.build import build
+
+    manifest_path = REPO / "data" / "manifest.json"
+    corpus_dir = REPO / "data" / "corpus"
+    if not manifest_path.exists() or not corpus_dir.exists():
+        return Check("corpus is reproducible from the snapshot", False,
+                     detail="manifest or corpus directory missing")
+
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            rebuilt_dir = Path(tmp) / "corpus"
+            build(manifest, out_dir=rebuilt_dir)
+            differences: list[str] = []
+            committed = sorted(p.name for p in corpus_dir.glob("*.md"))
+            rebuilt = sorted(p.name for p in rebuilt_dir.glob("*.md"))
+            for name in sorted(set(committed) | set(rebuilt)):
+                a, b = corpus_dir / name, rebuilt_dir / name
+                if not a.exists() or not b.exists():
+                    differences.append(f"{name} {'missing' if not a.exists() else 'unexpected'}")
+                    continue
+                if hashlib.sha256(a.read_bytes()).hexdigest() != \
+                        hashlib.sha256(b.read_bytes()).hexdigest():
+                    differences.append(f"{name} differs")
+    except Exception as error:  # noqa: BLE001 - report why, do not crash the gate
+        return Check("corpus is reproducible from the snapshot", False,
+                     detail=f"{type(error).__name__}: {error}")
+
+    return Check(
+        "corpus is reproducible from the snapshot",
+        not differences,
+        detail=(f"{len(differences)} file(s) differ from a rebuild: "
+                f"{differences[:3]}") if differences else
+               "every corpus file is byte-identical to a fresh rebuild",
+        measured=len(differences), threshold=0,
+    )
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--thresholds", type=Path, default=THRESHOLDS)
@@ -228,6 +297,8 @@ def main(argv: list[str] | None = None) -> int:
         checks.append(check_golden_count(REPO / cfg["config"]["golden"]))
     if integrity.get("index_matches_chunks", True):
         checks.append(check_index())
+    if integrity.get("corpus_matches_snapshot", True):
+        checks.append(check_corpus_matches_snapshot())
     if integrity.get("raw_excludes_judgments", True):
         checks.append(check_raw_storage_policy())
 

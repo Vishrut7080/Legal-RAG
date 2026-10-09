@@ -20,7 +20,7 @@ path, so "is this answer legally correct" is unmeasured and is reported as
 cannot defend is worse than recording no number.
 
 The extractive generator quotes the rank-1 provision verbatim, so its accuracy
-is bounded above by hit_rate@1 -- about 0.69 on this corpus. That is why the
+is bounded above by hit_rate@1 -- 0.707 on this corpus. That is why the
 extractive mode is a harness for the contract, not a QA system, and why the two
 scores are reported together rather than separately.
 """
@@ -169,7 +169,11 @@ def _summarise(retriever: str, k: int, retrieval_rows, refusal_rows,
     historical_rows = [r for r in retrieval_rows if not r["current_only"]]
     retrieval["stale@k"] = _mean(current_rows, "stale")
     retrieval["stale@k_n_current_law_cases"] = len(current_rows)
-    retrieval["stale@k_historical_cases"] = _mean(historical_rows, "stale")
+    # A rate, and named as one. `stale@k_historical_cases` read like a count and
+    # was a rate, which is the kind of naming mistake that makes a metric
+    # unreadable to the person deciding whether to trust it.
+    retrieval["stale@k_historical_rate"] = _mean(historical_rows, "stale")
+    retrieval["stale@k_n_historical_cases"] = len(historical_rows)
     retrieval["n_cases"] = len(retrieval_rows)
 
     tp = sum(1 for r in refusal_rows if r["expect_refusal"] and r["refused"])

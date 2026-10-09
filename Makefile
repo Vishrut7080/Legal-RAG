@@ -1,4 +1,4 @@
-.PHONY: help venv setup env check fetch sanitise verify corpus index answer diagnose compare evaluate gate service ui test lint clean
+.PHONY: help venv setup env check fetch sanitise verify corpus index answer diagnose compare evaluate gate gate-demo gate-record cache-sweep bench verify-ci service ui test lint clean
 
 VENV := .venv
 PYTHON := $(shell \
@@ -112,6 +112,35 @@ evaluate:
 
 gate:
 	$(PYTHON) -m src.gate
+
+# Prove the gate can fail. Three break modes: the retrieval window, a corpus
+# document, and the index checksum. Exits non-zero if the gate *passes* on any
+# of them, so "the gate is green" and "the gate still bites" are separate facts.
+gate-demo:
+	@for mode in k corpus index; do \
+	  echo "=== break mode: $$mode ==="; \
+	  $(PYTHON) -m src.break_it --mode $$mode || exit $$?; \
+	done
+
+# Regenerate the committed transcript in reports/gate_failure_demo.txt.
+gate-record:
+	$(PYTHON) -m src.record_gate_demo
+
+# Measure the semantic cache threshold instead of asserting one. Writes
+# data/eval/cache_sweep.json, which is the artefact the shipped 0.95 comes from.
+cache-sweep:
+	$(PYTHON) -m src.cache_sweep --min 0.80 --max 0.995 --step 0.005
+
+# Latency and cost. Two runs, because the two numbers answer different
+# questions: with the embedding cache off, every query is a genuinely new
+# question; with it on, a repeated question is nearly free. Reporting only the
+# second would overstate the service.
+bench:
+	BENCH_NO_EMBED_CACHE=1 $(PYTHON) -m src.benchmark --n 40
+	$(PYTHON) -m src.benchmark --n 40 --out data/eval/benchmark_embed_cache_on.json
+
+# Everything CI runs, in one command, on a clean checkout.
+verify-ci: check lint test gate cache-sweep
 
 # Offline. Rewrites data/raw/ under the current storage policy: keeps the
 # judgment counts, drops the eCourts judgment records. See LICENSING.md.

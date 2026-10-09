@@ -1,0 +1,116 @@
+Gate failure demonstration
+========================================================================
+generated: 2026-10-09T04:19:10+00:00
+
+Each section below breaks the pipeline on purpose, runs the real gate,
+and records its exit code. Every one of these MUST exit non-zero. A gate
+that cannot fail is not a gate.
+
+========================================================================
+break mode: k
+========================================================================
+
+=== gate output with the pipeline broken (k) ===
+gate: thresholds.yml
+
+  [PASS] raw snapshot matches FETCHED.json  (948/948 files match FETCHED.json)
+  [PASS] golden set references resolve  (OK: 102 cases, 2 warning(s).)
+  [PASS] golden set is non-trivial  (measured 102, threshold 40)
+  [PASS] index matches chunks.jsonl
+  [PASS] corpus is reproducible from the snapshot  (measured 0, threshold 0)
+  [PASS] raw snapshot excludes judgment records  (measured 0, threshold 0)
+  [FAIL] no failing golden cases  (measured 4, threshold 0)
+  [PASS] retrieval hit@1 >= 0.65  (measured 0.707, threshold 0.65)
+  [FAIL] retrieval hit@5 >= 0.84  (measured 0.707, threshold 0.84)
+  [FAIL] retrieval hit@k(k=1) >= 0.9  (measured 0.707, threshold 0.9)
+  [FAIL] retrieval mrr >= 0.74  (measured 0.707, threshold 0.74)
+  [FAIL] retrieval ndcg@k(k=1) >= 0.84  (measured 0.707, threshold 0.84)
+  [PASS] no stale provisions in current-law answers  (measured 0.0, threshold <= 0.08)
+  [FAIL] refusal precision  (measured 0.42857142857142855, threshold >= 1.0)
+  [PASS] refusal recall  (measured 1.0, threshold >= 1.0)
+  [PASS] every citation resolves
+  [PASS] no unannounced repealed citations  (measured 0, threshold <= 0)
+
+NOT MEASURED (no judge model offline): answer_quality, factual_correctness, faithfulness_to_sources
+
+FAILED: 6 of 17 checks
+=== gate exit code: 1 ===
+
+GOOD: the gate exited 1 on a broken pipeline (retrieval window forced to k=1). It bites.
+restored thresholds.yml
+
+src.break_it exit code: 0
+
+========================================================================
+break mode: corpus
+========================================================================
+
+=== gate output with the pipeline broken (corpus) ===
+gate: thresholds.yml
+
+  [PASS] raw snapshot matches FETCHED.json  (948/948 files match FETCHED.json)
+  [PASS] golden set references resolve  (OK: 102 cases, 2 warning(s).)
+  [PASS] golden set is non-trivial  (measured 102, threshold 40)
+  [PASS] index matches chunks.jsonl
+  [FAIL] corpus is reproducible from the snapshot  (measured 1, threshold 0)
+  [PASS] raw snapshot excludes judgment records  (measured 0, threshold 0)
+  [PASS] no failing golden cases  (measured 0, threshold 0)
+  [PASS] retrieval hit@1 >= 0.65  (measured 0.707, threshold 0.65)
+  [PASS] retrieval hit@5 >= 0.84  (measured 0.889, threshold 0.84)
+  [PASS] retrieval hit@k(k=10) >= 0.9  (measured 0.939, threshold 0.9)
+  [PASS] retrieval mrr >= 0.74  (measured 0.79, threshold 0.74)
+  [PASS] retrieval ndcg@k(k=10) >= 0.84  (measured 0.884, threshold 0.84)
+  [PASS] no stale provisions in current-law answers  (measured 0.0, threshold <= 0.08)
+  [PASS] refusal precision  (measured 1.0, threshold >= 1.0)
+  [PASS] refusal recall  (measured 1.0, threshold >= 1.0)
+  [PASS] every citation resolves
+  [PASS] no unannounced repealed citations  (measured 0, threshold <= 0)
+
+NOT MEASURED (no judge model offline): answer_quality, factual_correctness, faithfulness_to_sources
+
+FAILED: 1 of 17 checks
+=== gate exit code: 1 ===
+
+GOOD: the gate exited 1 on a broken pipeline (data/corpus/limitation-act.md emptied). It bites.
+restored data\corpus\limitation-act.md
+
+src.break_it exit code: 0
+
+========================================================================
+break mode: index
+========================================================================
+
+=== gate output with the pipeline broken (index) ===
+gate: thresholds.yml
+
+  [PASS] raw snapshot matches FETCHED.json  (948/948 files match FETCHED.json)
+  [PASS] golden set references resolve  (OK: 102 cases, 2 warning(s).)
+  [PASS] golden set is non-trivial  (measured 102, threshold 40)
+  [FAIL] index matches chunks.jsonl  (7aeb4be4ab524cb4 != 0000000000000000)
+  [PASS] corpus is reproducible from the snapshot  (measured 0, threshold 0)
+  [PASS] raw snapshot excludes judgment records  (measured 0, threshold 0)
+  [PASS] no failing golden cases  (measured 0, threshold 0)
+  [PASS] retrieval hit@1 >= 0.65  (measured 0.707, threshold 0.65)
+  [PASS] retrieval hit@5 >= 0.84  (measured 0.889, threshold 0.84)
+  [PASS] retrieval hit@k(k=10) >= 0.9  (measured 0.939, threshold 0.9)
+  [PASS] retrieval mrr >= 0.74  (measured 0.79, threshold 0.74)
+  [PASS] retrieval ndcg@k(k=10) >= 0.84  (measured 0.884, threshold 0.84)
+  [PASS] no stale provisions in current-law answers  (measured 0.0, threshold <= 0.08)
+  [PASS] refusal precision  (measured 1.0, threshold >= 1.0)
+  [PASS] refusal recall  (measured 1.0, threshold >= 1.0)
+  [PASS] every citation resolves
+  [PASS] no unannounced repealed citations  (measured 0, threshold <= 0)
+
+NOT MEASURED (no judge model offline): answer_quality, factual_correctness, faithfulness_to_sources
+
+FAILED: 1 of 17 checks
+=== gate exit code: 1 ===
+
+GOOD: the gate exited 1 on a broken pipeline (chunks_sha256 corrupted). It bites.
+restored data\index\index.json
+
+src.break_it exit code: 0
+
+========================================================================
+ALL BREAK MODES WERE CAUGHT -- the gate fails when it should.
+========================================================================

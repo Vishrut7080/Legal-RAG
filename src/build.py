@@ -353,10 +353,14 @@ def render_rule(label: str, payload: dict[str, Any]) -> tuple[str, dict[str, Any
 
 
 # --------------------------------------------------------------------------
-def build(manifest: dict[str, Any]) -> dict[str, Any]:
+def build(manifest: dict[str, Any], out_dir: Path | None = None) -> dict[str, Any]:
     supersession = supersession_index()
     labels = manifest.get("act_labels", {})
-    CORPUS.mkdir(parents=True, exist_ok=True)
+    # out_dir exists so the gate can rebuild the corpus into a temporary
+    # directory and compare it against what is committed. Same code path, so
+    # the comparison is meaningful rather than a re-implementation of it.
+    target_dir = out_dir or CORPUS
+    target_dir.mkdir(parents=True, exist_ok=True)
 
     # Recover the selected provision list by re-running the fetcher's resolver
     # in dry-run mode: one source of truth for "what is in this corpus".
@@ -396,7 +400,7 @@ def build(manifest: dict[str, Any]) -> dict[str, Any]:
             f"- Source: {act.get('url')}",
             "",
         ]
-        path = CORPUS / f"{act_id}.md"
+        path = target_dir / f"{act_id}.md"
         path.write_text("\n".join(header) + "\n" + "\n".join(blocks), encoding="utf-8")
         docs.append({
             "doc_id": act_id,
@@ -431,7 +435,7 @@ def build(manifest: dict[str, Any]) -> dict[str, Any]:
             "- Source: https://indiacode.ecourtsindia.com/cpc/",
             "",
         ]
-        path = CORPUS / "cpc.md"
+        path = target_dir / "cpc.md"
         path.write_text("\n".join(header) + "\n" + "\n".join(blocks), encoding="utf-8")
         docs.append({
             "doc_id": "cpc",
@@ -456,7 +460,7 @@ def build(manifest: dict[str, Any]) -> dict[str, Any]:
         ),
         "docs": docs,
     }
-    (CORPUS / "index.json").write_text(
+    (target_dir / "index.json").write_text(
         json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return index

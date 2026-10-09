@@ -138,9 +138,10 @@ def enforce_citations(answer: str, n_sources: int) -> tuple[bool, list[int]]:
 
     Note what this does and does not check. It verifies the pointer is in
     range, so it catches "cited provision [7]" when only five were supplied.
-    It cannot verify the proposition is actually in that provision — that is
-    what the faithfulness judge in `src/evaluate.py` is for, and the two fail
-    independently. Report both numbers or neither.
+    It cannot verify the proposition is actually in that provision -- whether the
+    cited section supports the claim is a separate, unmeasured question, and
+    nothing in this repository claims to answer it. Report this number and that
+    number separately; never let the first stand in for the second.
     """
     cited = sorted({int(m) for m in re.findall(r"\[(\d+)\]", answer)})
     invalid = [c for c in cited if c < 1 or c > n_sources]

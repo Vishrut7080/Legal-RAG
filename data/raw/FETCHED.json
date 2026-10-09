@@ -1,9 +1,9 @@
 {
   "corpus_version": "2026-10-01",
-  "fetched_at": "2026-10-02T08:22:17Z",
+  "fetched_at": "2026-10-09T04:37:21Z",
   "upstream": {
     "base": "https://indiacode.ecourtsindia.com/api/v1",
-    "build": "7c930314ed6e",
+    "build": "3037e48702f3",
     "corpus_date": "2026-10-01",
     "source_of_record": "India Code (indiacode.gov.in)",
     "licence": "Published with commentary and other original matter under s.52(1)(q)(ii), Copyright Act 1957."
@@ -965,7 +965,5 @@
     "sections/specific-relief-act__41.json": "b441711fcbd53feb85b2541b568f51c3ddf846340981933277d29c95180d8088",
     "sections/specific-relief-act__42.json": "7950b403eb1b464f97ca49f090ad96101f92e9bfa05d6c74fef35095037acef9",
     "sections/specific-relief-act__9.json": "e585b1d932ab86728eb0b2db34538945922b0b7941c04e0465e5476142149dff"
-  },
-  "sanitised": true,
-  "sanitised_at": "2026-10-02T09:57:08Z"
+  }
 }

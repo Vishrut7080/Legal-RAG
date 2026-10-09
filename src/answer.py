@@ -50,6 +50,7 @@ from aip.rag import (
     format_context,
 )
 from src.retrieve import search
+from src.telemetry import StageTimer, new_trace_id
 
 REPO = Path(__file__).resolve().parent.parent
 
@@ -201,6 +202,24 @@ def _chunks_have_answer(hits: list[Any], question: str) -> tuple[bool, str]:
     return True, ""
 
 
+def _finalise(
+    result: RagAnswer, stages: dict[str, Any], timer: StageTimer, trace_id: str
+) -> RagAnswer:
+    """Stamp timing and identity onto every exit path.
+
+    There are four returns out of `answer()` -- refused at the guards, refused
+    for want of retrieval, refused for want of sufficiency, refused for quoting
+    repealed text -- plus the success path. Attaching the measurements in one
+    place is what stops a refusal coming back with no latency on it, which is
+    precisely when you most want to know why it was slow.
+    """
+    stages["trace_id"] = trace_id
+    stages["latency_by_stage"] = timer.as_dict()
+    stages["latency_ms"] = round(timer.total_ms, 2)
+    result.stages = stages
+    return result
+
+
 def answer(
     question: str,
     k: int = 8,
@@ -210,62 +229,72 @@ def answer(
 ) -> RagAnswer:
     """Answer `question`, enforcing the citation contract either way."""
     stages: dict[str, Any] = {}
+    timer = StageTimer()
+    trace_id = new_trace_id()
 
-    clean, pii = redact_pii(question)
-    stages["pii"] = pii
+    with timer.stage("guards"):
+        clean, pii = redact_pii(question)
+        stages["pii"] = pii
 
-    verdict = detect_injection(clean)
-    stages["injection"] = verdict.flagged
-    if verdict.flagged:
-        return RagAnswer(
-            question=question,
-            answer="I can't process that request.",
-            refused=True,
-            stages=stages,
-        )
+        verdict = detect_injection(clean)
+        stages["injection"] = verdict.flagged
+        if verdict.flagged:
+            return _finalise(RagAnswer(
+                question=question,
+                answer="I can't process that request.",
+                refused=True,
+                stages=stages,
+            ), stages, timer, trace_id)
 
-    hits = search(clean, k=k, which=retriever, current_only=current_only)
+    with timer.stage("retrieval"):
+        hits = search(clean, k=k, which=retriever, current_only=current_only)
     stages["n_hits"] = len(hits)
     stages["retriever"] = retriever
     stages["provisions"] = [h.chunk.meta.get("provision", "") for h in hits]
 
     if not hits:
         stages["refusal_reason"] = "retrieval returned nothing"
-        return RagAnswer(question=question, answer=REFUSAL, hits=hits,
-                         refused=True, stages=stages)
+        return _finalise(RagAnswer(question=question, answer=REFUSAL, hits=hits,
+                                   refused=True, stages=stages),
+                         stages, timer, trace_id)
 
-    sufficient, why = _chunks_have_answer(hits, clean)
+    with timer.stage("sufficiency"):
+        sufficient, why = _chunks_have_answer(hits, clean)
     if not sufficient:
         stages["refusal_reason"] = why
-        return RagAnswer(question=question, answer=REFUSAL, hits=hits,
-                         refused=True, stages=stages)
+        return _finalise(RagAnswer(question=question, answer=REFUSAL, hits=hits,
+                                   refused=True, stages=stages),
+                         stages, timer, trace_id)
 
-    if not llm:
-        stages["generator"] = "extractive"
-        text = _extract(clean, hits)
-    else:
-        stages["generator"] = "llm"
-        text = _generate(clean, hits, stages)
+    with timer.stage("generation"):
+        if not llm:
+            stages["generator"] = "extractive"
+            text = _extract(clean, hits)
+        else:
+            stages["generator"] = "llm"
+            text = _generate(clean, hits, stages)
 
-    valid, invalid = enforce_citations(text, len(hits))
-    stages["citations_valid"] = valid
+    with timer.stage("citations"):
+        valid, invalid = enforce_citations(text, len(hits))
+        stages["citations_valid"] = valid
 
-    cited_repealed = [
-        hits[i - 1].chunk.meta.get("provision", f"source {i}")
-        for i in sorted({int(m) for m in _CITE.findall(text)})
-        if 1 <= i <= len(hits) and hits[i - 1].chunk.meta.get("in_force") == "False"
-    ]
-    stages["cited_repealed"] = cited_repealed
+        cited_repealed = [
+            hits[i - 1].chunk.meta.get("provision", f"source {i}")
+            for i in sorted({int(m) for m in _CITE.findall(text)})
+            if 1 <= i <= len(hits) and hits[i - 1].chunk.meta.get("in_force") == "False"
+        ]
+        stages["cited_repealed"] = cited_repealed
 
     # A repealed citation is only acceptable if the question was about the past
     # *and* the answer told the reader. Otherwise it is the failure this corpus
     # exists to catch.
     if cited_repealed and not (_HISTORICAL.search(clean) and "repealed" in text.lower()):
         stages["refusal_reason"] = f"quoted repealed provision(s): {cited_repealed}"
-        return RagAnswer(question=question, answer=REFUSAL, hits=hits,
-                         refused=True, stages=stages)
+        return _finalise(RagAnswer(question=question, answer=REFUSAL, hits=hits,
+                                   refused=True, stages=stages),
+                         stages, timer, trace_id)
 
-    return RagAnswer(
+    return _finalise(RagAnswer(
         question=question,
         answer=text,
         hits=hits,
@@ -273,7 +302,7 @@ def answer(
         invalid_citations=invalid,
         refused=False,
         stages=stages,
-    )
+    ), stages, timer, trace_id)
 
 
 def _generate(question: str, hits: list[Any], stages: dict[str, Any]) -> str:

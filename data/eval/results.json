@@ -10,7 +10,8 @@
     "ndcg@10": 0.8839800578259353,
     "stale@k": 0.0,
     "stale@k_n_current_law_cases": 91,
-    "stale@k_historical_cases": 1.0,
+    "stale@k_historical_rate": 1.0,
+    "stale@k_n_historical_cases": 8,
     "n_cases": 99
   },
   "refusal": {

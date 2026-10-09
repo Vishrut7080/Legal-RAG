@@ -1,0 +1,113 @@
+{
+  "generated_by": "python -m src.benchmark",
+  "embedding_cache": "enabled",
+  "n_uncached": 40,
+  "n_cached": 40,
+  "n_replayed": 40,
+  "n_refusal": 3,
+  "hardware_note": "Measured on the development machine, single process, warm index, local embedding model. Absolute numbers are machine-specific; the cached/uncached ratio and the stage breakdown are the parts that generalise.",
+  "latency_ms": {
+    "_note": "wall clock around the HTTP call, not the value in the response body: a replay reports the original computation's latency, so reading it there would quote work the caller did not wait for",
+    "uncached": {
+      "n": 40,
+      "p50": 7.45,
+      "p95": 9.65,
+      "p99": 101.76,
+      "min": 5.59,
+      "max": 101.76,
+      "mean": 9.68
+    },
+    "cached": {
+      "n": 40,
+      "p50": 2.04,
+      "p95": 2.54,
+      "p99": 8.86,
+      "min": 1.78,
+      "max": 8.86,
+      "mean": 2.24
+    },
+    "refusal": {
+      "n": 3,
+      "p50": 8.26,
+      "p95": 9.41,
+      "p99": 9.41,
+      "min": 8.24,
+      "max": 9.41,
+      "mean": 8.64
+    }
+  },
+  "by_stage_ms": {
+    "_note": "server-side stage timings, from the uncached pass",
+    "uncached": {
+      "citations": {
+        "n": 40,
+        "p50": 0.01,
+        "p95": 0.01,
+        "p99": 0.01,
+        "min": 0.01,
+        "max": 0.01,
+        "mean": 0.01
+      },
+      "generation": {
+        "n": 40,
+        "p50": 0.01,
+        "p95": 0.02,
+        "p99": 0.02,
+        "min": 0.01,
+        "max": 0.02,
+        "mean": 0.01
+      },
+      "guards": {
+        "n": 40,
+        "p50": 0.03,
+        "p95": 0.04,
+        "p99": 0.04,
+        "min": 0.02,
+        "max": 0.04,
+        "mean": 0.03
+      },
+      "retrieval": {
+        "n": 40,
+        "p50": 5.35,
+        "p95": 7.56,
+        "p99": 90.02,
+        "min": 3.45,
+        "max": 90.02,
+        "mean": 7.36
+      },
+      "sufficiency": {
+        "n": 40,
+        "p50": 0.34,
+        "p95": 0.6,
+        "p99": 0.72,
+        "min": 0.16,
+        "max": 0.72,
+        "mean": 0.36
+      }
+    }
+  },
+  "ttft_ms": null,
+  "cache": {
+    "hit_rate": 0.3252,
+    "exact_hits": 40,
+    "semantic_hits": 0,
+    "semantic_threshold": 0.95
+  },
+  "cost": {
+    "measured_usd_total": 0.0,
+    "measured_usd_per_query": 0.0,
+    "priced": true,
+    "why_zero": "Every model is local under the default profile, so there is nothing to bill. A zero here is a measured fact, not an absent measurement.",
+    "projection": {
+      "available": true,
+      "model": "gemini/gemini-embedding-001",
+      "usd_per_mtok_input": 0.15,
+      "tokens_per_query": 12.45,
+      "usd_per_query": 1.87e-06,
+      "usd_per_1_000": 0.0019,
+      "usd_per_day_at_10k": 0.0187,
+      "usd_per_year_at_10k": 6.82,
+      "assumption": "One embedding call per uncached query over one short question. Excludes the generator, which is extractive and free on this profile, and excludes the exact cache, which repeats a previous answer for free. A hosted generative model would dominate this figure by orders of magnitude; the default path does not ship one."
+    }
+  }
+}

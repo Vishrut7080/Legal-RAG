@@ -118,8 +118,10 @@ def embed_batch(
         raise cache.CacheMiss(
             f"AIP_OFFLINE=1 and {len(pending)} texts are not in the embedding cache "
             f"(model={m}, input_type={it}). "
-            "Run `python scripts/warm_cache.py` once while online, or use a local/ model "
-            "(which needs no network after the first download)."
+            "Legal-RAG does not need this path: retrieval replays against the "
+            "committed data/index/matrix.npy and generation is extractive, so "
+            "`make gate` runs offline out of the box. Use a local/ model, which "
+            "needs no network after the first download."
         )
 
     with tracing.trace("embed.batch", model=m, n=len(texts), n_uncached=len(pending)):

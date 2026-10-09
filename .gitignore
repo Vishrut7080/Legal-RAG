@@ -14,12 +14,21 @@ __pycache__/
 # data/corpus was built from, so the corpus is reproducible without a
 # network fetch.
 
-# The response cache is scratch. scripts/warm_cache.py rebuilds it.
-# The un-pruned sqlite file is large and GitHub rejects blobs over 100 MB.
+# The model-response cache is scratch, not a deliverable. This project does not
+# need it for offline replay: retrieval replays against the committed
+# data/index/matrix.npy and generation is extractive, so `make gate` runs with
+# no network and no API key regardless. It is kept for anyone who turns on the
+# LLM path (--llm) and wants repeat runs to be free.
 .aip_cache/*.sqlite3
 .aip_cache/chroma/*
 
-# Machine-specific wall clock from the gate. Untracked on purpose: replaying
-# the golden set measures this machine, not the system, and it moves every
-# run. reports/gate_metrics.json keeps the reproducible metrics.
+# The answer cache is machine-local state: it exists to make a running service
+# faster, and its contents are reproducible by asking the questions again.
+# The *measurement* of the cache is committed instead, in
+# data/eval/cache_sweep.json -- that is the part worth reviewing.
+data/cache/
+
+# Wall clock from the gate is machine-specific: it measures the laptop, not the
+# system. Untracked on purpose. The reproducible metrics live in
+# data/eval/results.json, which is committed.
 reports/gate_timing.local.json

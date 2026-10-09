@@ -141,8 +141,12 @@ data/raw/                 IndiaCode API responses + FETCHED.json checksums
 data/corpus/              normalised markdown, one file per Act
 data/index/               chunks.jsonl, matrix.npy, index.json (with checksums)
 data/eval/golden.jsonl    102 cases: question, category, gold, forbidden refs
+data/eval/results.json    the last full evaluation run
+data/eval/cache_sweep.json  measured semantic-cache thresholds
+data/eval/benchmark.json  measured latency, cost and stage breakdown
 thresholds.yml            every gate floor, with the measured value beside it
 LICENSING.md              what may be redistributed, and why
+reports/                  gate_failure_demo.txt: the gate failing on purpose
 src/fetch.py              keyless API client, resumable, checksummed
 src/build.py              raw -> corpus, plus supersession resolution
 src/ingest.py             corpus -> chunks + embeddings + index metadata
@@ -151,11 +155,18 @@ src/answer.py             the answer contract (below)
 src/evaluate.py           retrieval, staleness, refusal, citation metrics
 src/gate.py               regression gate over thresholds.yml
 src/diagnose.py           explains one query stage by stage
-src/service.py            FastAPI: /ask, /retrieve, /provision, /health
+src/telemetry.py          per-stage latency, per-request cost, aggregates
+src/cache.py              exact + semantic answer cache, with the scope guard
+src/cache_sweep.py        measures the semantic threshold instead of asserting it
+src/benchmark.py          latency and cost, cached and uncached
+src/break_it.py           breaks the pipeline on purpose, to prove the gate bites
+src/record_gate_demo.py   writes reports/gate_failure_demo.txt
+src/service.py            FastAPI: /health /ask /ask/stream /retrieve /metrics
 src/ui.py                 Streamlit UI over the same functions
 src/validate_golden.py    checks the golden set against the built index
 src/check.py              environment probe; never raises
 aip/                      vendored library: config, embedding, caching, guards
+.github/workflows/        the gate, plus a job that proves the gate can fail
 ```
 
 `src/check.py` is deliberately the only module that reports rather than raises.
@@ -177,12 +188,15 @@ means the gate is measuring a different system than the one people use.
 
 | route | does |
 | --- | --- |
-| `GET /health` | index loaded, chunk count, embedding model, index checksum |
-| `POST /ask` | question → answer, citations, refusal reason |
+| `GET /health` | index loaded, chunk count, embedding model, index checksum, startup timings |
+| `POST /ask` | question → answer, citations, refusal reason, latency, cost, trace id |
+| `POST /ask/stream` | the same answer as server-sent events, citations before tokens |
 | `POST /retrieve` | question → ranked provisions, no generation |
 | `GET /provision/{ref}` | one provision by label, e.g. `BNS s.103` |
+| `GET /metrics` | p50/p95/p99, per-stage latency, cost, cache hit rate |
+| `POST /cache/clear` | empty the answer cache |
 
-Three decisions worth stating:
+Five decisions worth stating:
 
 - **`current_only` defaults to true on every route.** A caller who reads no
   documentation still gets in-force law.
@@ -191,10 +205,109 @@ Three decisions worth stating:
   error would force every client to parse prose to learn it happened.
 - **`citation_marker` travels with each hit**, so a client rendering `[1]` as a
   footnote knows which provision that is without re-deriving the link.
+- **Latency, cost and the trace id are in the body**, not in headers. Headers
+  are for caches and proxies; a client debugging one slow answer needs the
+  numbers next to the answer.
+- **The index and the embedding model are built at startup.** Loading them
+  lazily cost the first request ~18 seconds — see [Measured latency](#measured-latency).
 
 The service has **no authentication**. It binds to loopback by default and
 warns if you bind it anywhere else. Put an authenticating proxy in front of it
 before exposing it.
+
+---
+
+## Measured latency
+
+`python -m src.benchmark`, over 40 golden questions, driving the HTTP surface:
+
+| | p50 | p95 | max |
+| --- | --- | --- | --- |
+| uncached, embedding cache off (a genuinely new question) | 20.99 ms | 25.00 ms | 155.94 ms |
+| uncached, embedding cache on (a repeated question) | 7.45 ms | 9.65 ms | 101.76 ms |
+| cached (exact layer replay, 40/40 confirmed) | 2.47 ms | 3.01 ms | 3.66 ms |
+| refusal | 22.13 ms | 22.91 ms | 22.91 ms |
+
+Uncached, by stage — retrieval is the system:
+
+| stage | p50 | p95 |
+| --- | --- | --- |
+| retrieval | 18.14 ms | 22.34 ms |
+| sufficiency | 0.50 ms | 0.92 ms |
+| guards | 0.04 ms | 0.07 ms |
+| generation | 0.02 ms | 0.02 ms |
+| citations | 0.01 ms | 0.02 ms |
+
+Latency is wall clock around the HTTP call, not the number in the response body:
+a replay replays the original computation's timings, so reading them there would
+quote work the caller did not wait for. Both runs are committed —
+`data/eval/benchmark.json` and `data/eval/benchmark_embed_cache_on.json`.
+
+**Cold start was a real defect here.** With the embedding model loaded lazily,
+the first `/ask` took **18,370 ms** against a 1,500 ms TTFT target while every
+later request took ~20 ms. The p95 never showed it; only the max did. The
+service now warms the model in its lifespan handler, and the worst case is
+156 ms.
+
+---
+
+## Measured cost
+
+$0.00 per query, and that is a measured fact rather than a missing measurement:
+every model runs locally under the default profile, so nobody is billed. The
+meter reports `priced: true` alongside the zero, because a `$0.00` that means
+"we did not look" is a different claim from one that means "you own the
+hardware".
+
+For a figure a budget can be built on, `src/benchmark.py` also projects the
+same workload onto a priced tier from `aip.config.PRICES_PER_MTOK`:
+
+| | value |
+| --- | --- |
+| model | `gemini/gemini-embedding-001` |
+| price | $0.15 / Mtok input |
+| measured tokens per question | 12.45 |
+| per query | $0.0000019 |
+| per 1,000 queries | $0.0019 |
+| per day at 10,000 queries | $0.019 |
+| **per year at 10,000 queries** | **$6.82** |
+
+That projection covers one embedding call per uncached query and nothing else.
+The generator is extractive and free on this profile; a hosted generative model
+would dominate the figure by orders of magnitude, and the default path does not
+ship one.
+
+---
+
+## The semantic cache, and why its threshold is 0.95
+
+`python -m src.cache_sweep` sweeps the similarity threshold over 9,702 ordered
+pairs of golden questions. The result is the single most useful thing this
+project measured:
+
+- the maximum off-diagonal similarity across all pairs is **0.8699**
+- at every threshold with any hits at all, precision is **0.000** — every
+  similar pair of questions on this corpus is a pair about *different*
+  provisions
+- above 0.87 there are no hits whatsoever
+
+The offending pairs are the statute-shaped version of the Gold/Silver problem:
+
+| cosine | question | would serve the answer to | gold clash |
+| --- | --- | --- | --- |
+| 0.8699 | *When is an electronic record admissible?* | *…special provisions…electronic records?* | BSA s.63 vs BSA s.62 |
+| 0.8387 | *How long may a warrant remain in force?* | *When may an officer arrest without a warrant?* | BNSS s.72 vs BNSS s.41 |
+| 0.8222 | *When may a **temporary** injunction be granted?* | *When is a **perpetual** injunction granted?* | CPC O.39 r.1 vs Specific Relief Act s.38 |
+
+So there is no safe similarity band on this corpus, and the layer ships above
+the measured maximum, where it is inert. The exact layer carries the hit rate;
+`/metrics` shows the semantic count is zero and that is the correct state.
+
+The scope guard blocks Act-identity and section-number mismatches (BNS vs IPC,
+s.138 vs s.139) and costs nothing, but it caught **none** of the pairs above —
+"temporary" versus "perpetual" is the dangerous axis and no lexical guard sees
+it. That residual is the reason the answer was "measure the band, find it
+empty, ship where it cannot fire" rather than "tune the guard harder".
 
 ---
 
@@ -283,13 +396,36 @@ python -m src.validate_golden   # do the citations in the golden set exist?
 python -m src.evaluate          # full run -> data/eval/results.json
 python -m src.gate              # pass/fail against thresholds.yml
 python -m src.gate --fast       # structure only, skips the golden run
+python -m src.break_it          # break it on purpose; prove the gate goes red
+python -m src.cache_sweep       # measure the semantic threshold
+python -m src.benchmark         # latency and cost, cached and uncached
 ```
+
+17 checks, and the gate has been watched failing. `python -m src.break_it`
+breaks the pipeline three ways and asserts the gate catches each:
+
+| break | what it trips | check that goes red |
+| --- | --- | --- |
+| retrieval window `k=1` | retrieval quality | 6 metric checks |
+| empty `data/corpus/limitation-act.md` | corpus integrity | `corpus is reproducible from the snapshot` |
+| corrupted `chunks_sha256` | index provenance | `index matches chunks.jsonl` |
+
+The corpus check was added *because* the second break went undetected. Deleting
+a corpus act left every other check green: the gate measured the committed
+index, and nothing tied `data/corpus/*.md` back to `data/raw/`. The gate now
+rebuilds the corpus from the snapshot and compares byte for byte, which costs
+about 3 seconds per run. A transcript of all three is committed at
+`reports/gate_failure_demo.txt`; regenerate it with `make gate-record`.
+
+`.github/workflows/gate.yml` runs the gate on every push with no API key, and a
+second job runs `break_it` on the runner — because a gate that has never been
+seen to fail there is not known to fail there either.
 
 `stale@k` counts current-law questions only. On a historical question a
 repealed provision in the top-k *is* the correct answer, and averaging the two
 together makes the metric move for the wrong reason — adding good historical
 cases made the figure look worse. The historical-only figure is reported
-separately as `stale@k_historical_cases`.
+separately as `stale@k_historical_rate`, with its case count beside it.
 
 The golden set is deliberately shaped: 58 single-hop, 21 supersession traps, 8
 historical, 6 multi-hop, 3 paraphrase, 3 aggregation, 3 unanswerable. 43 cases
@@ -301,7 +437,7 @@ fails loudly rather than quietly scoring well.
 ## Tests
 
 ```bash
-make test    # 43 tests
+make test    # 95 tests
 make lint    # ruff
 ```
 

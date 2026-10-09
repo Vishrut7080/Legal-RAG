@@ -1,0 +1,1256 @@
+{
+  "n_questions": 99,
+  "n_pairs_evaluated": 9702,
+  "sweep": [
+    {
+      "threshold": 0.8,
+      "hits": 12,
+      "correct": 0,
+      "wrong": 12,
+      "precision": 0.0,
+      "guarded_hits": 12,
+      "guarded_correct": 0,
+      "guarded_wrong": 12,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 2,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "How long may a warrant of arrest remain in force?",
+          "probe_gold": [
+            "BNSS s.72"
+          ],
+          "would_serve_answer_to": "When may a police officer arrest without a warrant?",
+          "would_cite_gold_for": [
+            "BNSS s.41"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "When may a police officer arrest without a warrant?",
+          "probe_gold": [
+            "BNSS s.41"
+          ],
+          "would_serve_answer_to": "How long may a warrant of arrest remain in force?",
+          "would_cite_gold_for": [
+            "BNSS s.72"
+          ]
+        },
+        {
+          "similarity": 0.8222,
+          "probe": "When may a temporary injunction be granted?",
+          "probe_gold": [
+            "CPC O.39 r.1"
+          ],
+          "would_serve_answer_to": "When is a perpetual injunction granted?",
+          "would_cite_gold_for": [
+            "Specific Relief Act s.38"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.805,
+      "hits": 12,
+      "correct": 0,
+      "wrong": 12,
+      "precision": 0.0,
+      "guarded_hits": 12,
+      "guarded_correct": 0,
+      "guarded_wrong": 12,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 2,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "How long may a warrant of arrest remain in force?",
+          "probe_gold": [
+            "BNSS s.72"
+          ],
+          "would_serve_answer_to": "When may a police officer arrest without a warrant?",
+          "would_cite_gold_for": [
+            "BNSS s.41"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "When may a police officer arrest without a warrant?",
+          "probe_gold": [
+            "BNSS s.41"
+          ],
+          "would_serve_answer_to": "How long may a warrant of arrest remain in force?",
+          "would_cite_gold_for": [
+            "BNSS s.72"
+          ]
+        },
+        {
+          "similarity": 0.8222,
+          "probe": "When may a temporary injunction be granted?",
+          "probe_gold": [
+            "CPC O.39 r.1"
+          ],
+          "would_serve_answer_to": "When is a perpetual injunction granted?",
+          "would_cite_gold_for": [
+            "Specific Relief Act s.38"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.81,
+      "hits": 12,
+      "correct": 0,
+      "wrong": 12,
+      "precision": 0.0,
+      "guarded_hits": 12,
+      "guarded_correct": 0,
+      "guarded_wrong": 12,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 2,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "How long may a warrant of arrest remain in force?",
+          "probe_gold": [
+            "BNSS s.72"
+          ],
+          "would_serve_answer_to": "When may a police officer arrest without a warrant?",
+          "would_cite_gold_for": [
+            "BNSS s.41"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "When may a police officer arrest without a warrant?",
+          "probe_gold": [
+            "BNSS s.41"
+          ],
+          "would_serve_answer_to": "How long may a warrant of arrest remain in force?",
+          "would_cite_gold_for": [
+            "BNSS s.72"
+          ]
+        },
+        {
+          "similarity": 0.8222,
+          "probe": "When may a temporary injunction be granted?",
+          "probe_gold": [
+            "CPC O.39 r.1"
+          ],
+          "would_serve_answer_to": "When is a perpetual injunction granted?",
+          "would_cite_gold_for": [
+            "Specific Relief Act s.38"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.815,
+      "hits": 8,
+      "correct": 0,
+      "wrong": 8,
+      "precision": 0.0,
+      "guarded_hits": 8,
+      "guarded_correct": 0,
+      "guarded_wrong": 8,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 0,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "How long may a warrant of arrest remain in force?",
+          "probe_gold": [
+            "BNSS s.72"
+          ],
+          "would_serve_answer_to": "When may a police officer arrest without a warrant?",
+          "would_cite_gold_for": [
+            "BNSS s.41"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "When may a police officer arrest without a warrant?",
+          "probe_gold": [
+            "BNSS s.41"
+          ],
+          "would_serve_answer_to": "How long may a warrant of arrest remain in force?",
+          "would_cite_gold_for": [
+            "BNSS s.72"
+          ]
+        },
+        {
+          "similarity": 0.8222,
+          "probe": "When may a temporary injunction be granted?",
+          "probe_gold": [
+            "CPC O.39 r.1"
+          ],
+          "would_serve_answer_to": "When is a perpetual injunction granted?",
+          "would_cite_gold_for": [
+            "Specific Relief Act s.38"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.82,
+      "hits": 8,
+      "correct": 0,
+      "wrong": 8,
+      "precision": 0.0,
+      "guarded_hits": 8,
+      "guarded_correct": 0,
+      "guarded_wrong": 8,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 0,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "How long may a warrant of arrest remain in force?",
+          "probe_gold": [
+            "BNSS s.72"
+          ],
+          "would_serve_answer_to": "When may a police officer arrest without a warrant?",
+          "would_cite_gold_for": [
+            "BNSS s.41"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "When may a police officer arrest without a warrant?",
+          "probe_gold": [
+            "BNSS s.41"
+          ],
+          "would_serve_answer_to": "How long may a warrant of arrest remain in force?",
+          "would_cite_gold_for": [
+            "BNSS s.72"
+          ]
+        },
+        {
+          "similarity": 0.8222,
+          "probe": "When may a temporary injunction be granted?",
+          "probe_gold": [
+            "CPC O.39 r.1"
+          ],
+          "would_serve_answer_to": "When is a perpetual injunction granted?",
+          "would_cite_gold_for": [
+            "Specific Relief Act s.38"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.825,
+      "hits": 4,
+      "correct": 0,
+      "wrong": 4,
+      "precision": 0.0,
+      "guarded_hits": 4,
+      "guarded_correct": 0,
+      "guarded_wrong": 4,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 0,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "How long may a warrant of arrest remain in force?",
+          "probe_gold": [
+            "BNSS s.72"
+          ],
+          "would_serve_answer_to": "When may a police officer arrest without a warrant?",
+          "would_cite_gold_for": [
+            "BNSS s.41"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "When may a police officer arrest without a warrant?",
+          "probe_gold": [
+            "BNSS s.41"
+          ],
+          "would_serve_answer_to": "How long may a warrant of arrest remain in force?",
+          "would_cite_gold_for": [
+            "BNSS s.72"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.83,
+      "hits": 4,
+      "correct": 0,
+      "wrong": 4,
+      "precision": 0.0,
+      "guarded_hits": 4,
+      "guarded_correct": 0,
+      "guarded_wrong": 4,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 0,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "How long may a warrant of arrest remain in force?",
+          "probe_gold": [
+            "BNSS s.72"
+          ],
+          "would_serve_answer_to": "When may a police officer arrest without a warrant?",
+          "would_cite_gold_for": [
+            "BNSS s.41"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "When may a police officer arrest without a warrant?",
+          "probe_gold": [
+            "BNSS s.41"
+          ],
+          "would_serve_answer_to": "How long may a warrant of arrest remain in force?",
+          "would_cite_gold_for": [
+            "BNSS s.72"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.835,
+      "hits": 4,
+      "correct": 0,
+      "wrong": 4,
+      "precision": 0.0,
+      "guarded_hits": 4,
+      "guarded_correct": 0,
+      "guarded_wrong": 4,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 0,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "How long may a warrant of arrest remain in force?",
+          "probe_gold": [
+            "BNSS s.72"
+          ],
+          "would_serve_answer_to": "When may a police officer arrest without a warrant?",
+          "would_cite_gold_for": [
+            "BNSS s.41"
+          ]
+        },
+        {
+          "similarity": 0.8387,
+          "probe": "When may a police officer arrest without a warrant?",
+          "probe_gold": [
+            "BNSS s.41"
+          ],
+          "would_serve_answer_to": "How long may a warrant of arrest remain in force?",
+          "would_cite_gold_for": [
+            "BNSS s.72"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.84,
+      "hits": 2,
+      "correct": 0,
+      "wrong": 2,
+      "precision": 0.0,
+      "guarded_hits": 2,
+      "guarded_correct": 0,
+      "guarded_wrong": 2,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 0,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.845,
+      "hits": 2,
+      "correct": 0,
+      "wrong": 2,
+      "precision": 0.0,
+      "guarded_hits": 2,
+      "guarded_correct": 0,
+      "guarded_wrong": 2,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 0,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.85,
+      "hits": 2,
+      "correct": 0,
+      "wrong": 2,
+      "precision": 0.0,
+      "guarded_hits": 2,
+      "guarded_correct": 0,
+      "guarded_wrong": 2,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 0,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.855,
+      "hits": 2,
+      "correct": 0,
+      "wrong": 2,
+      "precision": 0.0,
+      "guarded_hits": 2,
+      "guarded_correct": 0,
+      "guarded_wrong": 2,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 0,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.86,
+      "hits": 2,
+      "correct": 0,
+      "wrong": 2,
+      "precision": 0.0,
+      "guarded_hits": 2,
+      "guarded_correct": 0,
+      "guarded_wrong": 2,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 0,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.865,
+      "hits": 2,
+      "correct": 0,
+      "wrong": 2,
+      "precision": 0.0,
+      "guarded_hits": 2,
+      "guarded_correct": 0,
+      "guarded_wrong": 2,
+      "guarded_precision": 0.0,
+      "blocked_by_scope": 0,
+      "cross_boundary_wrong": 0,
+      "examples": [
+        {
+          "similarity": 0.8699,
+          "probe": "When is an electronic record admissible as evidence?",
+          "probe_gold": [
+            "BSA s.63"
+          ],
+          "would_serve_answer_to": "What special provisions apply to evidence relating to electronic records?",
+          "would_cite_gold_for": [
+            "BSA s.62"
+          ]
+        },
+        {
+          "similarity": 0.8699,
+          "probe": "What special provisions apply to evidence relating to electronic records?",
+          "probe_gold": [
+            "BSA s.62"
+          ],
+          "would_serve_answer_to": "When is an electronic record admissible as evidence?",
+          "would_cite_gold_for": [
+            "BSA s.63"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.87,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.875,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.88,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.885,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.89,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.895,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.9,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.905,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.91,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.915,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.92,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.925,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.93,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.935,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.94,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.945,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.95,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.955,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.96,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.965,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.97,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.975,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.98,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.985,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.99,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    },
+    {
+      "threshold": 0.995,
+      "hits": 0,
+      "correct": 0,
+      "wrong": 0,
+      "precision": null,
+      "guarded_hits": 0,
+      "guarded_correct": 0,
+      "guarded_wrong": 0,
+      "guarded_precision": null,
+      "blocked_by_scope": 0,
+      "cross_boundary_hits": 0,
+      "examples": []
+    }
+  ],
+  "sim_summary": {
+    "max_offdiagonal": 0.8699,
+    "mean_offdiagonal": 0.2282
+  },
+  "method": "For every ordered pair with cosine >= threshold, a hit counts as correct iff gold(cached) INTERSECT gold(probe) is non-empty. validate() below checks the proxy against the live pipeline.",
+  "knee": {
+    "threshold": null,
+    "safe": false,
+    "max_offdiagonal_similarity": 0.8699,
+    "n_wrong_at_lowest_threshold": 12,
+    "n_hits_at_lowest_threshold": 12,
+    "basis": "no threshold yields hits>0 with zero wrong hits. Every similarity band on this corpus is wrong hits only (worst band: 12/12 at 0.8) and the maximum off-diagonal similarity across all pairs is 0.8699. The layer must therefore ship above 0.8699, where it is inert on this corpus.",
+    "recommendation": "Ship the semantic layer enabled but above the measured maximum off-diagonal similarity (0.8699); it will not fire on this golden set, which is the correct outcome. Carry the hit rate on the exact layer instead."
+  },
+  "validation": [
+    {
+      "question": "What is the punishment for murder under the law currently in force in India?",
+      "gold": [
+        "BNS s.103"
+      ],
+      "cited": [
+        "BNS s.47"
+      ],
+      "hit_at_1": false
+    },
+    {
+      "question": "When does an act amount to murder?",
+      "gold": [
+        "BNS s.101"
+      ],
+      "cited": [
+        "BNS s.109"
+      ],
+      "hit_at_1": false
+    },
+    {
+      "question": "What is culpable homicide, and how is it distinguished from murder?",
+      "gold": [
+        "BNS s.100",
+        "BNS s.101"
+      ],
+      "cited": [
+        "BNS s.101"
+      ],
+      "hit_at_1": true
+    },
+    {
+      "question": "What is the punishment for attempting to murder?",
+      "gold": [
+        "BNS s.109"
+      ],
+      "cited": [
+        "BNS s.109"
+      ],
+      "hit_at_1": true
+    },
+    {
+      "question": "How does the law currently in force define grievous hurt?",
+      "gold": [
+        "BNS s.116"
+      ],
+      "cited": [
+        "BNS s.117"
+      ],
+      "hit_at_1": false
+    },
+    {
+      "question": "What does the law mean by hurt?",
+      "gold": [
+        "BNS s.114"
+      ],
+      "cited": [
+        "BNS s.115"
+      ],
+      "hit_at_1": false
+    },
+    {
+      "question": "What is the punishment for voluntarily causing hurt?",
+      "gold": [
+        "BNS s.115"
+      ],
+      "cited": [
+        "BNS s.115"
+      ],
+      "hit_at_1": true
+    },
+    {
+      "question": "What is cheating?",
+      "gold": [
+        "BNS s.318"
+      ],
+      "cited": [
+        "BNS s.318"
+      ],
+      "hit_at_1": true
+    },
+    {
+      "question": "What is cheating by personation?",
+      "gold": [
+        "BNS s.319"
+      ],
+      "cited": [
+        "BNS s.319"
+      ],
+      "hit_at_1": true
+    },
+    {
+      "question": "What amounts to kidnapping?",
+      "gold": [
+        "BNS s.137"
+      ],
+      "cited": [
+        "BNS s.97"
+      ],
+      "hit_at_1": false
+    },
+    {
+      "question": "What is wrongful restraint?",
+      "gold": [
+        "BNS s.126"
+      ],
+      "cited": [
+        "BNS s.126"
+      ],
+      "hit_at_1": true
+    },
+    {
+      "question": "What is wrongful confinement?",
+      "gold": [
+        "BNS s.127"
+      ],
+      "cited": [
+        "BNS s.127"
+      ],
+      "hit_at_1": true
+    }
+  ]
+}
