@@ -29,20 +29,31 @@ concurrency:
 
 jobs:
   gate:
-    runs-on: ubuntu-latest
+    # Pinned rather than `ubuntu-latest`, which migrates to Ubuntu 26 on
+    # 2026-10-19. Pinning means an image change cannot silently become a
+    # behaviour change in the gate.
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
       # Nothing in this workflow reads a secret. That is a property of the
       # design, not an accident: if the gate ever needs an API key it will start
       # failing for graders and for anyone running it offline, so it must not.
-      AIP_OFFLINE: "1"
+      #
+      # Deliberately NOT AIP_OFFLINE=1. That flag means "serve only from the
+      # response cache, or raise", and .aip_cache is gitignored -- so on a fresh
+      # runner the cache is empty, every query embedding is a miss, and
+      # aip/embed.py raises CacheMiss. That flag broke this workflow exactly
+      # once. Offline-ness here comes from three other things: the committed
+      # pinned snapshot, the committed index (retrieval replays against
+      # data/index/matrix.npy and never re-embeds the corpus), and every model
+      # being local/ or ollama/* -- none of which can be billed.
       AIP_PROFILE: local
       PYTHONWARNINGS: ignore::DeprecationWarning
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -64,46 +75,65 @@ jobs:
       - name: Lint
         run: ruff check .
 
+      # `pytest`, not `python -m pytest`, on purpose. The bare console script does
+      # NOT put the repo root on sys.path, so this step is the one that proves
+      # the `pythonpath` setting in pyproject.toml is doing its job. Using
+      # `python -m` here would mask a missing or broken setting and let the
+      # import bug come back for anyone who just types `pytest`.
       - name: Tests
         run: pytest -q
 
       # The gate must not be shadowed: a later step that swallows a non-zero
       # exit code produces the same green tick as a gate that never fails.
-      # `set -e` plus a separate invocation of the gate itself keeps that from
-      # happening silently.
+      #
+      # `set -e` is deliberately NOT used here. Under `set -e` the script aborts
+      # on the failing command, so a trailing `echo $?` is unreachable and can
+      # only ever print 0 -- a line that looks like it reports the gate's status
+      # and structurally cannot. Capture the code, print it, then exit with it.
       - name: Regression gate
         run: |
-          set -euo pipefail
+          set -uo pipefail
           python -m src.gate
-          echo "gate exit code: $?"
+          code=$?
+          echo "gate exit code: $code"
+          exit $code
 
+      # Both of these write evidence files, and both write to a scratch path in
+      # CI on purpose. Run with their defaults they overwrite the committed
+      # data/eval/*.json, so a run of the workflow would show 11 modified files
+      # and silently replace 9,702 pairs of committed sweep results with a
+      # narrower range. CI should not mutate the evidence it is verifying.
       - name: Semantic cache threshold is reproducible
         run: |
           set -euo pipefail
-          python -m src.cache_sweep --min 0.80 --max 0.90 --step 0.01
+          python -m src.cache_sweep --min 0.80 --max 0.90 --step 0.01 \
+            --out "${RUNNER_TEMP}/cache_sweep.json"
 
       # The benchmark is run, not gated. Latency on a shared runner is far too
       # noisy for an assertion to mean anything, but a change that makes the
       # service an order of magnitude slower should still be visible in the log.
+      # Scratch path, same reason as the sweep above.
       - name: Latency and cost benchmark
         run: |
           set -euo pipefail
-          BENCH_NO_EMBED_CACHE=1 python -m src.benchmark --n 20
+          BENCH_NO_EMBED_CACHE=1 python -m src.benchmark --n 20 \
+            --out "${RUNNER_TEMP}/benchmark.json"
 
   # A gate that has never been seen to fail is not known to be a gate. This job
   # breaks the pipeline on purpose and asserts the build goes red -- so a change
   # that silently disables an assertion is caught by that assertion failing to
   # fire.
   gate-can-fail:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     needs: gate
     env:
-      AIP_OFFLINE: "1"
+      # Same reasoning as the gate job above: no AIP_OFFLINE, because an empty
+      # response cache on a fresh runner turns it into a guaranteed failure.
       AIP_PROFILE: local
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip

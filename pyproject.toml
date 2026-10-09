@@ -20,3 +20,23 @@ dependencies = [
     "pytest>=8.3.0",
     "ruff>=0.8.0",
 ]
+
+[tool.pytest.ini_options]
+# `src` and `aip` are top-level packages at the repo root and are deliberately
+# NOT installed: the whole project assumes it runs from a checkout, which is
+# what makes `make gate` and the CI workflow need no install step.
+#
+# That leaves import resolution up to pytest, and the two ways of invoking it
+# disagree. `python -m pytest` prepends the current directory to sys.path; the
+# bare `pytest` console script does not. So `make test` passed locally while CI,
+# which called `pytest`, died at collection with ModuleNotFoundError for both
+# packages -- three collection errors and exit code 2, with no test ever run.
+#
+# `pythonpath` makes the repo root importable for every invocation, so the suite
+# no longer depends on how pytest was called. pytest >= 7 required; requirements
+# pins >= 8.3.
+pythonpath = ["."]
+
+# Collect only tests/, so a bare `pytest` at the root does not walk data/ and
+# aip/ looking for test files.
+testpaths = ["tests"]

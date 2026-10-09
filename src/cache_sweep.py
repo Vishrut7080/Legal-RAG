@@ -266,6 +266,19 @@ def format_table(result: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+def _display(path: Path) -> str:
+    """Repo-relative when possible, absolute otherwise.
+
+    `Path.relative_to` raises when --out points outside the repo, which is
+    exactly what CI does by writing to RUNNER_TEMP. Without this the sweep
+    completes, writes its file, and then crashes on the line that reports it.
+    """
+    try:
+        return str(path.resolve().relative_to(REPO))
+    except ValueError:
+        return str(path)
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--min", type=float, default=0.80)
@@ -297,7 +310,7 @@ def main(argv: list[str] | None = None) -> int:
           "guard.\nA threshold is safe when g_wrong is 0 -- zero wrong hits, not "
           "a good average.")
     print(f"\nknee: {result['knee']}")
-    print(f"wrote {args.out.relative_to(REPO)}")
+    print(f"wrote {_display(args.out)}")
     return 0
 
 
