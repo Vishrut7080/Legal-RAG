@@ -265,6 +265,29 @@ def chunk_corpus() -> list[Chunk]:
     return chunks
 
 
+def content_digest(path: Path) -> str:
+    """sha256 of a file's *content*, with line endings normalised.
+
+    Why not just hash the bytes? Because git does not preserve them.
+    `core.autocrlf=true` on the machine that built this index converted the
+    CRLF working-tree file to LF in the committed blob, so the digest recorded
+    here described bytes that exist only on that one machine's disk. The gate
+    then passed locally and failed in CI with
+
+        index matches chunks.jsonl  (84f225cb... != 7aeb4be4...)
+
+    -- a digest that changes with the platform rather than with the content.
+
+    Normalising CRLF to LF before hashing makes the value a property of the
+    content, which is what a checksum is supposed to be. The deliberate
+    consequence: two files differing only in line endings hash the same. For a
+    statutory corpus that is correct, and it is still caught by the much
+    stronger check next door -- `corpus is reproducible from the snapshot`
+    rebuilds the corpus and compares it byte for byte.
+    """
+    return hashlib.sha256(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+
+
 def build_index(chunks: list[Chunk], model: str) -> dict[str, Any]:
     import numpy as np  # noqa: PLC0415 -- only needed when we actually embed
 
@@ -287,7 +310,7 @@ def build_index(chunks: list[Chunk], model: str) -> dict[str, Any]:
         "dim": int(matrix.shape[1]),
         "embedding_model": model,
         "chunk_chars": CHUNK_CHARS,
-        "chunks_sha256": hashlib.sha256(CHUNKS.read_bytes()).hexdigest(),
+        "chunks_sha256": content_digest(CHUNKS),
         "matrix_sha256": hashlib.sha256(MATRIX.read_bytes()).hexdigest(),
         "n_docs": len({c.doc_id for c in chunks}),
         "n_repealed": sum(1 for c in chunks if c.meta.get("in_force") == "False"),
@@ -346,8 +369,7 @@ def main(argv: list[str] | None = None) -> int:
     if INDEX_JSON.exists() and not args.rebuild:
         existing = json.loads(INDEX_JSON.read_text(encoding="utf-8"))
         if (existing.get("embedding_model") == model
-                and existing.get("chunks_sha256")
-                == hashlib.sha256(CHUNKS.read_bytes()).hexdigest()
+                and existing.get("chunks_sha256") == content_digest(CHUNKS)
                 and MATRIX.exists()):
             print("index is already current (use --rebuild to force)")
             return 0

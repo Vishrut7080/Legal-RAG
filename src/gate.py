@@ -21,7 +21,6 @@ stated explicitly in the report rather than left implied.
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import subprocess
 import sys
@@ -29,6 +28,8 @@ from pathlib import Path
 from typing import Any
 
 import yaml
+
+from src.ingest import content_digest
 
 REPO = Path(__file__).resolve().parent.parent
 THRESHOLDS = REPO / "thresholds.yml"
@@ -84,7 +85,12 @@ def check_index() -> Check:
     if not recorded:
         return Check("index matches chunks.jsonl", False,
                      detail="index.json has no chunks_sha256")
-    digest = hashlib.sha256(chunks_path.read_bytes()).hexdigest()
+    # `content_digest`, not a raw hashlib call: the digest has to be a property
+    # of the content, not of the line endings the local checkout happens to use.
+    # Hashing raw bytes made this check platform-dependent -- it passed on the
+    # machine that built the index and failed on the CI runner with
+    # `84f225cb... != 7aeb4be4...`, which says nothing about the system.
+    digest = content_digest(chunks_path)
     return Check(
         "index matches chunks.jsonl", digest == recorded,
         detail="" if digest == recorded else f"{digest[:16]} != {recorded[:16]}",
@@ -238,7 +244,6 @@ def check_corpus_matches_snapshot() -> Check:
     to keep correct and would disagree for reasons that have nothing to do with
     the corpus being wrong.
     """
-    import hashlib
     import tempfile
 
     from src.build import build
@@ -262,8 +267,10 @@ def check_corpus_matches_snapshot() -> Check:
                 if not a.exists() or not b.exists():
                     differences.append(f"{name} {'missing' if not a.exists() else 'unexpected'}")
                     continue
-                if hashlib.sha256(a.read_bytes()).hexdigest() != \
-                        hashlib.sha256(b.read_bytes()).hexdigest():
+                # `content_digest`, so a checkout that converted line endings
+                # does not read as a hand-edited corpus. Both sides are
+                # normalised, so this stays a content comparison.
+                if content_digest(a) != content_digest(b):
                     differences.append(f"{name} differs")
     except Exception as error:  # noqa: BLE001 - report why, do not crash the gate
         return Check("corpus is reproducible from the snapshot", False,
@@ -274,7 +281,8 @@ def check_corpus_matches_snapshot() -> Check:
         not differences,
         detail=(f"{len(differences)} file(s) differ from a rebuild: "
                 f"{differences[:3]}") if differences else
-               "every corpus file is byte-identical to a fresh rebuild",
+               "every corpus file matches a fresh rebuild (line endings "
+               "normalised, so a CRLF checkout does not read as an edit)",
         measured=len(differences), threshold=0,
     )
 

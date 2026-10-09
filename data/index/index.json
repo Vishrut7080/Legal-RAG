@@ -3,7 +3,7 @@
   "dim": 384,
   "embedding_model": "local/sentence-transformers/all-MiniLM-L6-v2",
   "chunk_chars": 2600,
-  "chunks_sha256": "7aeb4be4ab524cb4a0c015eb845f4865a22a97459cc7c7f141d32d60cd68d7ad",
+  "chunks_sha256": "84f225cb0078519649b101774cb4540a8f73b77b64d794474c37a7cd147439f9",
   "matrix_sha256": "f228b5861ce0bdc8b72f12c0619bb923940d419e917cae945fe11466050e2733",
   "n_docs": 15,
   "n_repealed": 318

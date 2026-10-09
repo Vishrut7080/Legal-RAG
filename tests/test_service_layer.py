@@ -689,6 +689,42 @@ def test_the_committed_corpus_reproduces_from_the_snapshot() -> None:
     assert check.ok, check.detail
 
 
+def test_the_index_digest_is_independent_of_line_endings(tmp_path: Path) -> None:
+    """A digest must be a property of the content, not of the checkout.
+
+    `core.autocrlf=true` on the machine that built the index turned the working
+    tree CRLF while the committed blob stayed LF, so a raw sha256 described
+    bytes that existed on exactly one machine. The gate passed locally and
+    failed in CI with `84f225cb... != 7aeb4be4...` -- a red build caused by the
+    platform rather than by the system.
+    """
+    from src.ingest import content_digest
+
+    original = b"line one\nline two\n"
+    crlf = b"line one\r\nline two\r\n"
+    assert original != crlf
+    assert content_digest(_write(tmp_path / "lf", original)) == \
+        content_digest(_write(tmp_path / "crlf", crlf))
+
+    # ...and it must still notice a real content change.
+    changed = b"line one\nline THREE\n"
+    assert content_digest(_write(tmp_path / "changed", changed)) != \
+        content_digest(_write(tmp_path / "lf2", original))
+
+
+def test_the_recorded_index_digest_matches_the_committed_content() -> None:
+    """The gate's own check, asserted on the real committed files."""
+    from src.gate import check_index
+
+    check = check_index()
+    assert check.ok, check.detail
+
+
+def _write(path: Path, data: bytes) -> Path:
+    path.write_bytes(data)
+    return path
+
+
 def test_the_recorded_gate_failure_demo_shows_a_red_build() -> None:
     """The committed evidence, if it is ever re-generated green, is worthless."""
     demo = (Path(__file__).resolve().parent.parent

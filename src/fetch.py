@@ -81,7 +81,16 @@ def get_json(url: str, *, timeout: int = 45, retries: int = 4) -> dict[str, Any]
 
 
 def sha256_bytes(data: bytes) -> str:
-    return hashlib.sha256(data).hexdigest()
+    """Digest of a stored payload, with line endings normalised.
+
+    Same reason as `src.ingest.content_digest`: a digest has to be a property of
+    the content, not of the line endings of whoever's checkout produced the
+    bytes. These 948 payloads happen to be LF on every platform today, so the
+    raw digest is currently correct -- but it is correct by luck, and the index
+    digest was not. Normalising here means `make fetch` on Windows and
+    `src.fetch --check` on Linux agree without depending on that luck.
+    """
+    return hashlib.sha256(data.replace(b"\r\n", b"\n")).hexdigest()
 
 
 def sanitise_payload(payload: dict[str, Any]) -> dict[str, Any]:

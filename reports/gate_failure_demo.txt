@@ -1,6 +1,6 @@
 Gate failure demonstration
 ========================================================================
-generated: 2026-10-09T04:19:10+00:00
+generated: 2026-10-09T05:22:41+00:00
 
 Each section below breaks the pipeline on purpose, runs the real gate,
 and records its exit code. Every one of these MUST exit non-zero. A gate
@@ -86,7 +86,7 @@ gate: thresholds.yml
   [PASS] raw snapshot matches FETCHED.json  (948/948 files match FETCHED.json)
   [PASS] golden set references resolve  (OK: 102 cases, 2 warning(s).)
   [PASS] golden set is non-trivial  (measured 102, threshold 40)
-  [FAIL] index matches chunks.jsonl  (7aeb4be4ab524cb4 != 0000000000000000)
+  [FAIL] index matches chunks.jsonl  (84f225cb00785196 != 0000000000000000)
   [PASS] corpus is reproducible from the snapshot  (measured 0, threshold 0)
   [PASS] raw snapshot excludes judgment records  (measured 0, threshold 0)
   [PASS] no failing golden cases  (measured 0, threshold 0)
