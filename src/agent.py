@@ -268,7 +268,7 @@ def run_agent(
     max_calls: int = 8,
     max_seconds: float = 60.0,
     budget_usd: float = 0.50,
-    tier: str = "MAIN",
+    tier: str = "SMALL",
     chat_fn: ChatFn | None = None,
 ) -> AgentAnswer:
     """Retrieve with the LLM driving the tools, then enforce the answer contract.

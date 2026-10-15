@@ -478,11 +478,17 @@ class AnswerCache:
             # would make a transient bug permanent.
             return
         is_refusal = bool(payload.get("refused")) if refused is None else refused
-        vec = vector if vector is not None else self.embed_question(question)
-        vec32 = np.asarray(vec, dtype=np.float32)
-        norm = float(np.linalg.norm(vec32))
-        if norm:
-            vec32 = vec32 / norm
+        # Exact caching needs only the normalized question key. Do not pay for
+        # an embedding when semantic lookup is disabled; the shipped corpus has
+        # no empirically safe semantic-hit band, so the service disables that
+        # layer by default.
+        vec32: np.ndarray | None = None
+        if vector is not None or self.enable_semantic:
+            vec = vector if vector is not None else self.embed_question(question)
+            vec32 = np.asarray(vec, dtype=np.float32)
+            norm = float(np.linalg.norm(vec32))
+            if norm:
+                vec32 = vec32 / norm
         key = self._exact_key(question, config)
         scope = scope_of(question)
         with self._lock:
@@ -494,7 +500,9 @@ class AnswerCache:
                     (key, question, _config_key(config),
                      json.dumps(payload, ensure_ascii=False), int(is_refusal),
                      json.dumps({k: sorted(v) for k, v in scope.items()}),
-                     vec32.tobytes(), int(vec32.shape[0]), time.time()),
+                     vec32.tobytes() if vec32 is not None else None,
+                     int(vec32.shape[0]) if vec32 is not None else None,
+                     time.time()),
                 )
             self.stats.stores += 1
             # Keep the in-memory matrix consistent with what is on disk.

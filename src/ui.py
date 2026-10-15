@@ -21,6 +21,8 @@ import contextlib
 import json
 import os
 import sys
+import time
+from types import SimpleNamespace
 from typing import Any
 
 import pandas as pd
@@ -29,10 +31,16 @@ import streamlit as st
 
 from aip.config import settings as aip_settings
 from src.answer import answer as run_answer
-from src.cache import get_cache
 from src.diagnose import diagnose, render
 from src.retrieve import Index
-from src.telemetry import Observation, observe, snapshot
+from src.telemetry import (
+    CostDelta,
+    CostScope,
+    Observation,
+    clear_ui_telemetry,
+    observe_ui,
+    ui_snapshot,
+)
 
 EXAMPLES = [
     "What is the punishment for murder under the law currently in force?",
@@ -92,17 +100,11 @@ def _sidebar(st) -> dict:
             "what a question about the old law needs."
         ),
     )
-    llm = st.sidebar.checkbox(
-        "generate with a chat model",
-        value=False,
-        help="Needs Ollama running. Off means deterministic extractive answers.",
-    )
     show_diagnosis = st.sidebar.checkbox("show the why panel", value=True)
     return {
         "retriever": retriever,
         "k": k,
         "current_only": current_only,
-        "llm": llm,
         "mode": mode,
         "show_diagnosis": show_diagnosis,
     }
@@ -160,12 +162,162 @@ def _fetch_service_metrics() -> dict[str, Any] | None:
     return None
 
 
+def _service_is_healthy() -> bool:
+    """Return whether the API can accept UI questions right now."""
+    try:
+        response = requests.get(f"{SERVICE_URL}/health", timeout=1.5)
+        return response.ok and response.json().get("status") == "ok"
+    except (requests.RequestException, ValueError):
+        return False
+
+
+def _service_result(payload: dict[str, Any]) -> SimpleNamespace:
+    """Adapt the API schema to the renderer's RagAnswer-like interface."""
+    hits = []
+    for item in payload.get("hits", []):
+        meta = {
+            "provision": item.get("provision", ""),
+            "heading": item.get("heading", ""),
+            "in_force": "True" if item.get("in_force", False) else "False",
+            "superseded_by": item.get("superseded_by", ""),
+            "replaces": item.get("replaces", ""),
+        }
+        hits.append(SimpleNamespace(
+            chunk=SimpleNamespace(meta=meta),
+            score=item.get("score", 0.0),
+        ))
+    return SimpleNamespace(
+        question=payload.get("question", ""),
+        answer=payload.get("answer", ""),
+        refused=payload.get("refused", False),
+        citations_valid=payload.get("citations_valid", True),
+        invalid_citations=[],
+        cited_provisions=payload.get("cited_provisions", []),
+        hits=hits,
+        stages=payload.get("stages", {}),
+        n_searches=payload.get("n_searches", 0),
+    )
+
+
+def _service_cost(payload: dict[str, Any]) -> CostDelta:
+    cost = payload.get("cost", {}) or {}
+    return CostDelta(
+        calls=int(cost.get("calls", 0)),
+        cached_calls=int(cost.get("cached_calls", 0)),
+        prompt_tokens=int(cost.get("prompt_tokens", 0)),
+        completion_tokens=int(cost.get("completion_tokens", 0)),
+        cost_usd=float(cost.get("cost_usd", 0.0)),
+        unpriced_calls=int(cost.get("unpriced_calls", 0)),
+        priced=bool(cost.get("priced", True)),
+        models=list(cost.get("models", [])),
+    )
+
+
+class ServiceStreamError(RuntimeError):
+    """The streaming API terminated without a usable final answer."""
+
+
+def _read_sse_response(response, on_token=None) -> dict[str, Any]:
+    event_name = ""
+    data_lines: list[str] = []
+    final_payload: dict[str, Any] | None = None
+
+    def dispatch() -> None:
+        nonlocal event_name, data_lines, final_payload
+        if not event_name or not data_lines:
+            event_name, data_lines = "", []
+            return
+        payload = json.loads("\n".join(data_lines))
+        if event_name == "token" and on_token is not None:
+            on_token(str(payload.get("text", "")),
+                     bool(payload.get("unvalidated", True)))
+        elif event_name == "final":
+            final_payload = payload
+        elif event_name == "error":
+            raise ServiceStreamError(payload.get("detail", "stream failed"))
+        event_name, data_lines = "", []
+
+    for raw_line in response.iter_lines(decode_unicode=True):
+        if raw_line is None:
+            continue
+        line = raw_line.decode("utf-8") if isinstance(raw_line, bytes) else raw_line
+        if not line:
+            dispatch()
+        elif line.startswith("event:"):
+            event_name = line[6:].strip()
+        elif line.startswith("data:"):
+            data_lines.append(line[5:].lstrip())
+    dispatch()
+    if final_payload is None:
+        raise ServiceStreamError("stream ended without a final answer event")
+    return final_payload
+
+
+def _run_question(
+    question: str,
+    settings: dict[str, Any],
+    on_token=None,
+):
+    """Use the API when healthy; otherwise retain the standalone UI path."""
+    started = time.perf_counter()
+    if _service_is_healthy():
+        request_body = {
+            "question": question,
+            "k": settings["k"],
+            "retriever": settings["retriever"],
+            "current_only": settings["current_only"],
+            "mode": settings["mode"],
+            "use_cache": True,
+        }
+        if settings["mode"] == "llm":
+            with requests.post(
+                f"{SERVICE_URL}/ask/stream",
+                json=request_body,
+                stream=True,
+                timeout=(5, 180),
+            ) as response:
+                response.raise_for_status()
+                payload = _read_sse_response(response, on_token=on_token)
+        else:
+            response = requests.post(
+                f"{SERVICE_URL}/ask",
+                json=request_body,
+                timeout=180,
+            )
+            response.raise_for_status()
+            payload = response.json()
+        elapsed_ms = (time.perf_counter() - started) * 1000
+        return (
+            _service_result(payload),
+            _service_cost(payload),
+            "service API",
+            elapsed_ms,
+            (payload.get("cache") or {}).get("layer", "none"),
+        )
+
+    with CostScope() as cost_scope:
+        result = run_answer(
+            question,
+            k=settings["k"],
+            retriever=settings["retriever"],
+            current_only=settings["current_only"],
+            mode=settings["mode"],
+            on_token=(lambda text: on_token(text, True))
+            if settings["mode"] == "llm" and on_token is not None
+            else None,
+        )
+    elapsed_ms = (time.perf_counter() - started) * 1000
+    return result, cost_scope.delta, "in-process UI", elapsed_ms, "none"
+
+
 def _load_recent_traces(limit: int = 50) -> list[dict[str, Any]]:
     if not TRACES_DIR.exists():
         return []
     traces: list[dict[str, Any]] = []
     for path in sorted(TRACES_DIR.glob("*"), key=lambda p: p.stat().st_mtime, reverse=True):
         if not path.is_file():
+            continue
+        if path.name == "ui-telemetry.jsonl":
             continue
         if path.suffix == ".json":
             with contextlib.suppress(Exception):
@@ -180,37 +332,28 @@ def _load_recent_traces(limit: int = 50) -> list[dict[str, Any]]:
     return traces[:limit]
 
 
-def _cache_stats_local() -> dict[str, Any]:
-    try:
-        cache = get_cache()
-        return cache.stats.as_dict()
-    except Exception as error:
-        return {"error": str(error)}
-
-
 def _render_dashboard(st) -> None:
     st.header("Dashboard")
 
     col1, col2 = st.columns([2, 1])
     with col1:
-        st.caption("Live metrics from the FastAPI service (if running)")
+        st.caption("UI request history is persisted locally; service metrics are shown separately when available.")
     with col2:
         if st.button("Refresh"):
             st.rerun()
 
     metrics = _fetch_service_metrics()
     if metrics:
-        st.subheader("Service metrics (persistent service process)")
-        _render_service_metrics(st, metrics)
+        _render_service_metrics(
+            st, metrics, heading="Service API metrics (current process)"
+        )
         st.divider()
 
-    st.subheader("UI session metrics (persistent on disk, survives reload)")
     _render_inprocess_metrics(st)
-    st.caption("These restore from `.aip_traces/ui-telemetry.jsonl` on startup, so the `requests` count stays after a browser refresh.")
+    st.caption("Stored in `.aip_traces/ui-telemetry.jsonl` and restored after reload.")
     if st.button("Clear UI telemetry"):
         try:
-            import src.telemetry as _t
-            _t.clear_ui_telemetry()
+            clear_ui_telemetry()
             st.success("Cleared stored UI observations.")
             st.rerun()
         except Exception as error:
@@ -222,8 +365,10 @@ def _render_dashboard(st) -> None:
     _render_cache(st)
 
 
-def _render_service_metrics(st, m: dict[str, Any]) -> None:
-    st.subheader("Service Metrics")
+def _render_service_metrics(
+    st, m: dict[str, Any], *, heading: str = "Metrics"
+) -> None:
+    st.subheader(heading)
 
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Requests", m.get("requests", 0))
@@ -238,6 +383,12 @@ def _render_service_metrics(st, m: dict[str, Any]) -> None:
         c2.metric("Latency p95", f"{lat.get('p95', 0):.1f} ms")
         c3.metric("Latency p99", f"{lat.get('p99', 0):.1f} ms")
         c4.metric("Latency mean", f"{lat.get('mean', 0):.1f} ms")
+
+    ttft = m.get("ttft_ms")
+    if ttft:
+        c1, c2 = st.columns(2)
+        c1.metric("Time to first token p50", f"{ttft.get('p50', 0):.1f} ms")
+        c2.metric("Time to first token p95", f"{ttft.get('p95', 0):.1f} ms")
 
     by_stage = m.get("by_stage_ms", {})
     if by_stage:
@@ -274,11 +425,12 @@ def _render_service_metrics(st, m: dict[str, Any]) -> None:
 
 
 def _render_inprocess_metrics(st) -> None:
-    m = snapshot()
+    st.subheader("UI requests (persisted on this machine)")
+    m = ui_snapshot()
     if m.get("requests", 0) == 0:
         st.info("No requests recorded in this process yet.")
         return
-    _render_service_metrics(st, m)
+    _render_service_metrics(st, m, heading="UI request metrics")
 
 
 def _render_traces(st) -> None:
@@ -330,16 +482,15 @@ def _render_cache(st) -> None:
     service_metrics = _fetch_service_metrics()
     if service_metrics:
         st.subheader("Answer Cache (service on :8000)")
-        sc = service_metrics.get("cache", {}) or {}
+        sc = service_metrics.get("cache_stats", {}) or {}
         c1, c2, c3 = st.columns(3)
-        c1.metric("Exact hits", sc.get("exact", 0))
-        c2.metric("Semantic hits", sc.get("semantic", 0))
-        c3.metric("Hits", sc.get("hits", 0))
-        c4, c5 = st.columns(2)
-        c4.metric("Hit rate", f"{sc.get('hit_rate', 0):.1%}")
-        sim = sc.get("similarity")
-        if sim:
-            c5.metric("Min sim", f"{sim.get('min', 0):.4f}")
+        c1.metric("Exact hits", sc.get("exact_hits", 0))
+        c2.metric("Semantic hits", sc.get("semantic_hits", 0))
+        c3.metric("Misses", sc.get("misses", 0))
+        c4, c5, c6 = st.columns(3)
+        c4.metric("Stores", sc.get("stores", 0))
+        c5.metric("Lookups", sc.get("lookups", 0))
+        c6.metric("Hit rate", f"{sc.get('hit_rate', 0):.1%}")
         if st.button("Clear cache"):
             try:
                 import requests
@@ -350,25 +501,13 @@ def _render_cache(st) -> None:
                 st.rerun()
             except Exception as error:
                 st.error(f"Failed to clear service cache: {error}")
-        st.caption("UI-generated answers bypass the persistent cache; start `make service` for persistent caching.")
+        st.caption("UI submissions use this cache while the service is healthy; the standalone fallback bypasses it.")
     else:
-        st.subheader("Answer Cache (UI-local)")
-        stats = _cache_stats_local()
-        if "error" in stats:
-            st.error(f"Cache unavailable: {stats['error']}")
-            return
-        c1, c2, c3 = st.columns(3)
-        c1.metric("Exact hits", stats.get("exact_hits", 0))
-        c2.metric("Semantic hits", stats.get("semantic_hits", 0))
-        c3.metric("Misses", stats.get("misses", 0))
-        if st.button("Clear cache"):
-            try:
-                cache = get_cache()
-                removed = cache.clear()
-                st.success(f"Cleared {removed} entries")
-                st.rerun()
-            except Exception as error:
-                st.error(f"Failed to clear cache: {error}")
+        st.subheader("Service answer cache")
+        st.info(
+            "The UI answers in-process and bypasses the persistent answer cache. "
+            "Start `make service` and send requests to its API to populate these metrics."
+        )
 
 
 def main() -> int:
@@ -399,69 +538,125 @@ def main() -> int:
         for example in EXAMPLES:
             if st.button(example, key=f"ex-{example}"):
                 st.session_state["question"] = example
+                st.session_state.pop("last_result", None)
+                st.session_state.pop("last_diagnosis", None)
         st.markdown("")
 
-        question = st.text_input(
-            "Ask a question",
-            key="question",
-            placeholder="What is the punishment for murder under the law currently in force?",
-        )
-        if not question.strip():
-            st.info("Pick an example or type a question.")
-            return 0
+        with st.form("ask_form"):
+            question = st.text_input(
+                "Ask a question",
+                key="question",
+                placeholder="What is the punishment for murder under the law currently in force?",
+            )
+            submitted = st.form_submit_button("Get answer")
 
-        result = run_answer(
-            question,
-            k=settings["k"],
-            retriever=settings["retriever"],
-        current_only=settings["current_only"],
-        llm=settings["llm"],
-        mode=settings["mode"],
-    )
-        cited = set(result.cited_provisions)
+        if submitted:
+            if not question.strip():
+                st.warning("Type a question first.")
+            else:
+                draft = st.empty()
+                draft_parts: list[str] = []
+                request_started = time.perf_counter()
+                first_token_ms: list[float | None] = [None]
 
-        # Record this request so the in-process dashboard reflects UI activity too.
-        # (The service path records its own observations; this UI path did not.)
-        with contextlib.suppress(Exception):
-            observe(Observation(
-                trace_id=str(result.stages.get("trace_id", "") or ""),
-                route="/ui",
-                latency_ms=float(result.stages.get("latency_ms", 0.0) or 0.0),
-                latency_by_stage=dict(result.stages.get("latency_by_stage", {})
-                                     or {}),
-                refused=bool(result.refused),
-                tool_calls=int(getattr(result, "n_searches", 0) or 0),
-                cache_layer="none",
-            ))
+                def show_token(text: str, unvalidated: bool = True) -> None:
+                    if first_token_ms[0] is None:
+                        first_token_ms[0] = round(
+                            (time.perf_counter() - request_started) * 1000, 2
+                        )
+                    draft_parts.append(text)
+                    status = (
+                        "Draft — citations are being checked"
+                        if unvalidated else "Cached answer"
+                    )
+                    draft.markdown(f"_{status}_\n\n" + "".join(draft_parts))
 
-        if result.refused:
-            st.warning("Refused.", icon="🚫")
-            reason = result.stages.get("refusal_reason")
-            if reason:
-                st.caption(str(reason))
-            st.text(result.answer)
+                try:
+                    if settings["mode"] == "llm":
+                        waiting_message = (
+                            "Waiting for the chat model; the draft will stream "
+                            "while its citations are validated…"
+                        )
+                    elif settings["mode"] == "agent":
+                        waiting_message = "Agent is retrieving provisions and preparing an answer…"
+                    else:
+                        waiting_message = "Retrieving provisions and preparing an answer…"
+                    with st.spinner(waiting_message):
+                        result, cost_delta, backend, elapsed_ms, cache_layer = _run_question(
+                            question,
+                            settings,
+                            on_token=show_token if settings["mode"] == "llm" else None,
+                        )
+                except (requests.RequestException, ServiceStreamError) as error:
+                    st.error(f"Answer request failed: {error}")
+                    st.session_state.pop("last_result", None)
+                    st.session_state.pop("last_diagnosis", None)
+                    result = None
+                draft.empty()
+                if result is None:
+                    pass
+                else:
+                    st.session_state["last_result"] = result
+                    st.session_state["last_question"] = question
+                    st.session_state["last_mode"] = settings["mode"]
+                    st.session_state["last_backend"] = backend
+                    st.session_state.pop("last_diagnosis", None)
+                    observe_ui(Observation(
+                        trace_id=str(result.stages.get("trace_id", "") or ""),
+                        route="/ui",
+                        latency_ms=float(elapsed_ms),
+                        latency_by_stage=dict(result.stages.get("latency_by_stage", {}) or {}),
+                        cost=cost_delta,
+                        refused=bool(result.refused),
+                        ttft_ms=first_token_ms[0],
+                        tool_calls=int(getattr(result, "n_searches", 0) or 0),
+                        cache_layer=cache_layer,
+                    ))
+
+        result = st.session_state.get("last_result")
+        if result is None:
+            st.info("Pick an example or type a question, then select **Get answer**.")
         else:
-            st.markdown(result.answer)
+            question = st.session_state.get("last_question", question)
+            st.caption(
+                f"Last submitted mode: {st.session_state.get('last_mode', 'extractive')} "
+                f"· via {st.session_state.get('last_backend', 'in-process UI')}"
+            )
+            cited = set(result.cited_provisions)
 
-        if not result.citations_valid:
-            st.error(f"invalid citation markers: {result.invalid_citations}")
+            if not result.citations_valid and not result.refused:
+                st.error("Answer withheld because its citations did not pass validation.")
+            elif result.refused:
+                st.warning("Refused.", icon="🚫")
+                reason = result.stages.get("refusal_reason")
+                if reason:
+                    st.caption(str(reason))
+                st.text(result.answer)
+            else:
+                st.markdown(result.answer)
 
-        if result.hits:
-            _render_hits(st, result.hits, cited)
+            if not result.citations_valid:
+                st.error(f"invalid citation markers: {result.invalid_citations}")
 
-        if settings["show_diagnosis"]:
-            with st.expander("Why this answer", expanded=result.refused):
-                diagnosis = diagnose(
-                    question,
-                    k=settings["k"],
-                    retriever=settings["retriever"],
-                    current_only=settings["current_only"],
-                )
-                st.code(render(diagnosis), language="text")
-                st.caption(f"likely cause: {diagnosis.likely_cause}")
+            if result.hits:
+                _render_hits(st, result.hits, cited)
 
-        with st.expander("raw stages"):
-            st.json(result.stages)
+            if settings["show_diagnosis"]:
+                diagnosis = st.session_state.get("last_diagnosis")
+                if diagnosis is None:
+                    diagnosis = diagnose(
+                        question,
+                        k=settings["k"],
+                        retriever=settings["retriever"],
+                        current_only=settings["current_only"],
+                    )
+                    st.session_state["last_diagnosis"] = diagnosis
+                with st.expander("Why this answer", expanded=result.refused):
+                    st.code(render(diagnosis), language="text")
+                    st.caption(f"likely cause: {diagnosis.likely_cause}")
+
+            with st.expander("raw stages"):
+                st.json(result.stages)
 
     with tab_dash:
         _render_dashboard(st)

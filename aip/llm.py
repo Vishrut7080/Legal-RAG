@@ -20,7 +20,7 @@ import json
 import random
 import re
 import time
-from collections.abc import Sequence
+from collections.abc import Callable, Sequence
 from typing import Any, TypeVar
 
 from pydantic import BaseModel, ValidationError
@@ -75,6 +75,7 @@ def raw_call(
     tools: list[dict] | None = None,
     tool_choice: Any | None = None,
     extra: dict | None = None,
+    on_token: Callable[[str], None] | None = None,
 ) -> dict[str, Any]:
     """Single provider call with cache, retry, cost accounting and tracing.
 
@@ -107,6 +108,8 @@ def raw_call(
         cost.record(usage)
         tracing.event("llm.call", model=model, cached=True, cost_usd=0.0)
         hit["usage"]["cached"] = True
+        if on_token is not None and hit.get("text"):
+            on_token(hit["text"])
         return hit
 
     if settings.offline:
@@ -135,17 +138,92 @@ def raw_call(
         if tool_choice is not None:
             kwargs["tool_choice"] = tool_choice
     kwargs.update(extra or {})
+    if on_token is not None:
+        kwargs["stream"] = True
 
     last_exc: Exception | None = None
-    with tracing.trace("llm.call", model=model, cached=False) as span:
+    text = ""
+    tool_calls: list[dict[str, Any]] = []
+    prompt_tokens = completion_tokens = 0
+    finish_reason = None
+    reported_usage = None
+    with tracing.trace("llm.call", model=model, cached=False,
+                       streamed=on_token is not None) as span:
+        emitted = False
         for attempt in range(settings.max_retries):
             t0 = time.perf_counter()
+            reported_usage = None
+            finish_reason = None
+            prompt_tokens = completion_tokens = 0
             try:
                 resp = completion(**kwargs)
+                if on_token is None:
+                    choice = resp.choices[0]
+                    text = choice.message.content or ""
+                    tool_calls = [
+                        {
+                            "id": tc.id,
+                            "name": tc.function.name,
+                            "arguments": tc.function.arguments,
+                        }
+                        for tc in (getattr(choice.message, "tool_calls", None) or [])
+                    ]
+                    prompt_tokens = int(getattr(resp.usage, "prompt_tokens", 0) or 0)
+                    completion_tokens = int(
+                        getattr(resp.usage, "completion_tokens", 0) or 0
+                    )
+                    finish_reason = getattr(choice, "finish_reason", None)
+                else:
+                    pieces: list[str] = []
+                    for chunk in resp:
+                        choices = getattr(chunk, "choices", None) or []
+                        if choices:
+                            choice = choices[0]
+                            delta = getattr(choice, "delta", None)
+                            piece = getattr(delta, "content", None) if delta else None
+                            if piece:
+                                pieces.append(piece)
+                                emitted = True
+                                on_token(piece)
+                            finish_reason = (
+                                getattr(choice, "finish_reason", None)
+                                or finish_reason
+                            )
+                        usage = getattr(chunk, "usage", None)
+                        if usage is not None:
+                            reported_usage = usage
+                    text = "".join(pieces)
+                    if reported_usage is not None:
+                        prompt_tokens = int(
+                            getattr(reported_usage, "prompt_tokens", 0) or 0
+                        )
+                        completion_tokens = int(
+                            getattr(reported_usage, "completion_tokens", 0) or 0
+                        )
+                    else:
+                        # Some LiteLLM/provider streams omit usage from their
+                        # final chunk. Estimate it rather than recording a
+                        # priced call as a confident $0.
+                        try:
+                            from litellm import token_counter
+
+                            prompt_tokens = int(token_counter(
+                                model=model, messages=messages
+                            ))
+                            completion_tokens = int(token_counter(
+                                model=model, text=text
+                            ))
+                        except Exception:  # noqa: BLE001 - retain honest unknown cost
+                            prompt_tokens = completion_tokens = 0
+                    if not text and not emitted:
+                        raise RuntimeError("stream ended without any text")
                 break
             except Exception as exc:  # noqa: BLE001
                 last_exc = exc
-                if not _is_retryable(exc) or attempt == settings.max_retries - 1:
+                # Retrying after visible text would duplicate or contradict
+                # tokens already sent to the client.
+                if (emitted or not _is_retryable(exc)
+                        or attempt == settings.max_retries - 1):
                     span["error_kind"] = type(exc).__name__
                     raise
                 # Exponential backoff with full jitter — the standard fix for
@@ -158,39 +236,33 @@ def raw_call(
             raise last_exc  # type: ignore[misc]
 
         latency_ms = (time.perf_counter() - t0) * 1000
-        choice = resp.choices[0]
-        text = choice.message.content or ""
-        tool_calls = [
-            {
-                "id": tc.id,
-                "name": tc.function.name,
-                "arguments": tc.function.arguments,
-            }
-            for tc in (getattr(choice.message, "tool_calls", None) or [])
-        ]
-        pt = int(getattr(resp.usage, "prompt_tokens", 0) or 0)
-        ct = int(getattr(resp.usage, "completion_tokens", 0) or 0)
-        usd = cost.price_of(model, pt, ct)
+        usd = cost.price_of(model, prompt_tokens, completion_tokens)
+        priced = cost.is_priced(model) and (
+            on_token is None or reported_usage is not None
+            or prompt_tokens > 0 or completion_tokens > 0
+        )
 
         span.update(
-            prompt_tokens=pt, completion_tokens=ct,
+            prompt_tokens=prompt_tokens, completion_tokens=completion_tokens,
             cost_usd=round(usd, 6), latency_ms=round(latency_ms, 1),
-            finish_reason=getattr(choice, "finish_reason", None),
+            finish_reason=finish_reason,
         )
-        cost.record(cost.Usage(model, pt, ct, usd, latency_ms, cached=False, calls=1,
-                               priced=cost.is_priced(model)))
+        cost.record(cost.Usage(
+            model, prompt_tokens, completion_tokens, usd, latency_ms,
+            cached=False, calls=1, priced=priced,
+        ))
 
     result = {
         "text": text,
         "tool_calls": tool_calls,
         "usage": {
-            "prompt_tokens": pt,
-            "completion_tokens": ct,
+            "prompt_tokens": prompt_tokens,
+            "completion_tokens": completion_tokens,
             "cost_usd": usd,
             "latency_ms": latency_ms,
             "cached": False,
         },
-        "finish_reason": getattr(choice, "finish_reason", None),
+        "finish_reason": finish_reason,
     }
     cache.put(key, "chat", request, result)
     return result
@@ -209,6 +281,7 @@ def chat(
     max_tokens: int = 1024,
     tools: list[dict] | None = None,
     tool_choice: Any | None = None,
+    on_token: Callable[[str], None] | None = None,
     return_full: bool = False,
     **extra: Any,
 ):
@@ -222,6 +295,7 @@ def chat(
         tools=tools,
         tool_choice=tool_choice,
         extra=extra or None,
+        on_token=on_token,
     )
     return result if return_full else result["text"]
 

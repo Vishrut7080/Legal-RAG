@@ -220,6 +220,36 @@ def test_semantic_layer_can_be_disabled(cache: AnswerCache) -> None:
     assert off.lookup(TEMPORARY_INJUNCTION, Config()).hit
 
 
+def test_exact_only_store_skips_semantic_embedding(tmp_path, monkeypatch) -> None:
+    cache = AnswerCache(tmp_path / "exact-only.sqlite3", enable_semantic=False)
+    monkeypatch.setattr(
+        cache,
+        "embed_question",
+        lambda question: pytest.fail("disabled semantic cache must not embed"),
+    )
+
+    cache.store(TEMPORARY_INJUNCTION, Config(), _payload("CPC O.39 r.1"))
+
+    assert cache.lookup(TEMPORARY_INJUNCTION, Config()).hit
+    assert cache.lookup(PERPETUAL_INJUNCTION, Config()).reason == \
+        "semantic layer disabled"
+
+
+def test_exact_only_cache_stores_without_embedding(tmp_path, monkeypatch) -> None:
+    cache = AnswerCache(tmp_path / "exact-only.sqlite3", enable_semantic=False)
+    monkeypatch.setattr(
+        cache,
+        "embed_question",
+        lambda question: pytest.fail("exact-only caching must not call embeddings"),
+    )
+
+    cache.store(TEMPORARY_INJUNCTION, Config(), _payload("CPC O.39 r.1"))
+
+    assert cache.lookup(TEMPORARY_INJUNCTION, Config()).hit
+    assert cache.lookup(PERPETUAL_INJUNCTION, Config()).reason == \
+        "semantic layer disabled"
+
+
 def test_clear_empties_the_cache(cache: AnswerCache) -> None:
     cache.store("a question", Config(), _payload("BNS s.103"))
     assert cache.size() == 1
@@ -382,6 +412,15 @@ def test_ask_returns_latency_cost_and_a_trace_id(client: TestClient) -> None:
     assert body["cost"]["cost_usd"] == 0.0
 
 
+def test_service_mode_keeps_legacy_llm_boolean_compatible() -> None:
+    from src.service import AskRequest, _mode_of
+
+    assert _mode_of(AskRequest(question="question", llm=True)) == "llm"
+    assert _mode_of(AskRequest(
+        question="question", llm=True, mode="extractive"
+    )) == "extractive"
+
+
 def test_a_refusal_still_carries_its_measurements(client: TestClient) -> None:
     """Timing must be stamped on the refusals too.
 
@@ -534,6 +573,66 @@ def test_stream_sends_citations_before_any_token(client: TestClient) -> None:
 
     citations = dict(events)["citations"]
     assert citations["validated"] is True
+
+
+def test_llm_stream_flushes_provisional_tokens_before_final_validation(
+    client: TestClient, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """LLM text must reach SSE before generation finishes; citations stay provisional."""
+    import src.answer as answer_module
+
+    answer_text = "Wrongful restraint is defined in BNS s.126 [1]."
+    pieces = ["Wrongful restraint is defined ", "in BNS s.126 [1]."]
+
+    def fake_generate(question, hits, stages, *, on_token=None):
+        for piece in pieces:
+            on_token(piece)
+        return answer_text
+
+    monkeypatch.setattr(answer_module, "_generate", fake_generate)
+    with client.stream("POST", "/ask/stream", json={
+        "question": "What is wrongful restraint under the BNS?",
+        "mode": "llm",
+        "use_cache": False,
+    }) as response:
+        events = _read_sse(response)
+
+    names = [name for name, _ in events]
+    token_events = [data for name, data in events if name == "token"]
+    citations = next(data for name, data in events if name == "citations")
+    final = next(data for name, data in events if name == "final")
+    assert names.index("token") < names.index("citations")
+    assert [event["text"] for event in token_events] == pieces
+    assert all(event["unvalidated"] for event in token_events)
+    assert citations["validated"] is True
+    assert final["answer"] == answer_text
+    assert final["retracted"] is False
+
+
+def test_llm_stream_retracts_text_when_citation_validation_fails(
+    client: TestClient, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    import src.answer as answer_module
+
+    def fake_generate(question, hits, stages, *, on_token=None):
+        on_token("Unsupported claim [99].")
+        return "Unsupported claim [99]."
+
+    monkeypatch.setattr(answer_module, "_generate", fake_generate)
+    with client.stream("POST", "/ask/stream", json={
+        "question": "What is wrongful restraint under the BNS?",
+        "mode": "llm",
+        "use_cache": False,
+    }) as response:
+        events = _read_sse(response)
+
+    provisional = next(data for name, data in events if name == "token")
+    citations = next(data for name, data in events if name == "citations")
+    final = next(data for name, data in events if name == "final")
+    assert provisional["unvalidated"] is True
+    assert citations["validated"] is False
+    assert final["citations_valid"] is False
+    assert final["retracted"] is True
 
 
 def test_stream_final_event_has_a_stable_shape(client: TestClient) -> None:

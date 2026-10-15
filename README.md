@@ -3,6 +3,10 @@
 Retrieval over Indian statutes, built so that the answer's legal status is part
 of the answer.
 
+See [`docs/CORPUS_AND_PROBLEM_STATEMENT.md`](docs/CORPUS_AND_PROBLEM_STATEMENT.md)
+for the corpus inventory, its coverage limits, and the problem this project
+addresses.
+
 The corpus is the recodified criminal law in force since 1 July 2024 (BNS,
 BNSS, BSA) alongside the repealed 1860 codes (IPC, CrPC, Evidence Act) and
 nine general Acts. Both sides are indexed on purpose: the interesting question

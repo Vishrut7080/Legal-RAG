@@ -59,8 +59,10 @@ from __future__ import annotations
 
 import argparse
 import json
+import queue
 import re
 import sys
+import threading
 import time
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
@@ -125,7 +127,10 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     app.state.startup_ms = app.state.index_ms + app.state.model_warm_ms
 
     try:
-        app.state.cache = get_cache()
+        # Exact cache hits are valuable; semantic hits are not safe on this
+        # measured corpus and used to make a Gemini embedding call per new
+        # question even though the threshold was deliberately inert.
+        app.state.cache = get_cache(enable_semantic=False)
     except Exception:  # noqa: BLE001 - a cache failure must not stop serving
         app.state.cache = AnswerCache(enable_semantic=False)
     yield
@@ -153,7 +158,7 @@ class AskRequest(BaseModel):
     retriever: str = "hybrid+current"
     current_only: bool = True
     llm: bool = False
-    mode: str = Field(default="extractive", pattern="^(extractive|llm|agent)$")
+    mode: str | None = Field(default=None, pattern="^(extractive|llm|agent)$")
     use_cache: bool = True
 
 
@@ -261,9 +266,16 @@ def _cache_for(request: Request) -> AnswerCache:
     return getattr(request.app.state, "cache", None) or get_cache()
 
 
+def _mode_of(body: AskRequest) -> str:
+    """Resolve explicit mode, retaining `llm: true` for older API clients."""
+    if body.mode is not None:
+        return body.mode
+    return "llm" if body.llm else "extractive"
+
+
 def _config_of(body: AskRequest) -> Config:
     return Config(retriever=body.retriever, current_only=body.current_only,
-                  k=body.k, mode=body.mode)
+                  k=body.k, mode=_mode_of(body))
 
 
 def _build_response(body: AskRequest, result: Any, cost: telemetry.CostDelta,
@@ -286,7 +298,7 @@ def _build_response(body: AskRequest, result: Any, cost: telemetry.CostDelta,
         hits=_hit_models(result.hits, cited),
         retriever=body.retriever,
         current_only=body.current_only,
-        mode=body.mode,
+        mode=_mode_of(body),
         n_searches=int(getattr(result, "n_searches", 0)),
         stopped_because=str(getattr(result, "stopped_because", "")),
         stages=dict(result.stages),
@@ -341,6 +353,7 @@ def ask(body: AskRequest, request: Request) -> AskResponse:
 
     _require_known_retriever(body.retriever)
     config = _config_of(body)
+    mode = _mode_of(body)
     cache = _cache_for(request)
     cache_info = CacheModel(hit=False, reason="cache bypassed by this request")
 
@@ -389,7 +402,7 @@ def ask(body: AskRequest, request: Request) -> AskResponse:
             retriever=body.retriever,
             current_only=body.current_only,
             llm=body.llm,
-            mode=body.mode,
+            mode=mode,
         )
 
     latency_ms = float(result.stages.get("latency_ms", 0.0))
@@ -422,14 +435,16 @@ def ask_stream(body: AskRequest, request: Request) -> StreamingResponse:
     Event order is the design, and it differs by generator:
 
       extractive: citations -> token* -> final
-      llm:        started (unvalidated) -> token*(unvalidated) -> final
+      llm:        started -> token*(unvalidated) -> citations(validated) -> final
 
-    For the extractive path the citations are already valid when the first
+    For the extractive path the citations are already valid before the first
     token goes out, because the cited provision is chosen by retrieval and the
-    generator is deterministic. For the LLM path they are not, so the tokens say
-    so and a late validation failure retracts the whole message.
+    generator is deterministic. For the LLM path, tokens are provisional until
+    generation completes and the answer contract validates its citations; a
+    validation failure retracts the draft in the final event.
     """
     _require_known_retriever(body.retriever)
+    mode = _mode_of(body)
     config = _config_of(body)
     cache = _cache_for(request)
 
@@ -437,8 +452,10 @@ def ask_stream(body: AskRequest, request: Request) -> StreamingResponse:
         from src.answer import answer as run_answer
 
         started = time.perf_counter()
+        first_token_ms: float | None = None
         yield _sse("started", {"trace_id": telemetry.new_trace_id(),
-                               "unvalidated": bool(body.llm)})
+                               "unvalidated": mode == "llm",
+                               "mode": mode})
 
         lookup = None
         if body.use_cache:
@@ -458,6 +475,10 @@ def ask_stream(body: AskRequest, request: Request) -> StreamingResponse:
                 })
                 for token in _TOKEN_SPLIT.split(str(cached.get("answer", ""))):
                     if token:
+                        if first_token_ms is None:
+                            first_token_ms = round(
+                                (time.perf_counter() - started) * 1000, 2
+                            )
                         yield _sse("token", {"text": token, "unvalidated": False})
                 yield _sse("final", {
                     **cached,
@@ -470,7 +491,9 @@ def ask_stream(body: AskRequest, request: Request) -> StreamingResponse:
                     # what it has to handle.
                     "retracted": bool(not cached.get("citations_valid", True)),
                     "cost": cached.get("cost", {}),
-                    "ttft_ms": round((time.perf_counter() - started) * 1000, 2),
+                    "ttft_ms": first_token_ms or round(
+                        (time.perf_counter() - started) * 1000, 2
+                    ),
                 })
                 telemetry.observe(telemetry.Observation(
                     trace_id=replay_trace, route="/ask/stream",
@@ -483,15 +506,64 @@ def ask_stream(body: AskRequest, request: Request) -> StreamingResponse:
                 ))
                 return
 
-        with telemetry.CostScope() as cost:
-            result = run_answer(
-                body.question, k=body.k, retriever=body.retriever,
-                current_only=body.current_only, llm=body.llm,
-            )
+        if mode == "llm":
+            # `answer()` and LiteLLM are synchronous. Run the pipeline in a
+            # worker while the response generator drains token pieces from a
+            # queue, allowing FastAPI to flush each SSE event as it arrives.
+            pieces: queue.Queue[tuple[str, Any] | None] = queue.Queue()
+            completed: dict[str, Any] = {}
+
+            def run_streaming_answer() -> None:
+                try:
+                    with telemetry.CostScope() as cost_scope:
+                        completed["result"] = run_answer(
+                            body.question,
+                            k=body.k,
+                            retriever=body.retriever,
+                            current_only=body.current_only,
+                            mode=mode,
+                            on_token=lambda text: pieces.put(("token", text)),
+                        )
+                    completed["cost"] = cost_scope.delta
+                except Exception as error:  # sent after any already-flushed tokens
+                    completed["error"] = error
+                finally:
+                    pieces.put(None)
+
+            worker = threading.Thread(target=run_streaming_answer, daemon=True)
+            worker.start()
+            while True:
+                item = pieces.get()
+                if item is None:
+                    break
+                kind, text = item
+                if kind == "token":
+                    if first_token_ms is None:
+                        first_token_ms = round(
+                            (time.perf_counter() - started) * 1000, 2
+                        )
+                    yield _sse("token", {"text": text, "unvalidated": True})
+            worker.join()
+            if "error" in completed:
+                error = completed["error"]
+                yield _sse("error", {
+                    "status": 503,
+                    "detail": f"generation failed: {type(error).__name__}: {error}",
+                })
+                return
+            result = completed["result"]
+            cost_delta = completed["cost"]
+        else:
+            with telemetry.CostScope() as cost_scope:
+                result = run_answer(
+                    body.question, k=body.k, retriever=body.retriever,
+                    current_only=body.current_only, mode=mode,
+                )
+            cost_delta = cost_scope.delta
 
         cited = set(result.cited_provisions)
         hits = [m.model_dump() for m in _hit_models(result.hits, cited)]
-        validated = not body.llm
+        validated = bool(result.citations_valid)
 
         yield _sse("citations", {
             "cited_provisions": list(result.cited_provisions),
@@ -500,26 +572,34 @@ def ask_stream(body: AskRequest, request: Request) -> StreamingResponse:
             # tokens below are safe to render. False means the model chose these
             # numbers and they have not been checked yet.
             "validated": validated,
-            "note": ("citations are fixed by retrieval and validated before "
-                     "streaming" if validated else
-                     "citations were generated and are not yet validated; a "
-                     "failure to validate arrives as final.retracted=true"),
+            "note": ("citations were checked against retrieved provisions" if validated
+                     else "citation validation failed; discard provisional prose"),
         })
 
         # TTFT is the time to the *first token*, so it is captured here and not
         # after the loop. Measuring it at the end would report total generation
         # time under a name that promises something much smaller, and the whole
         # reason to stream is that this number is better than the total.
-        ttft_ms: float | None = None
-        for token in _TOKEN_SPLIT.split(result.answer):
-            if token:
-                if ttft_ms is None:
-                    ttft_ms = round((time.perf_counter() - started) * 1000, 2)
-                yield _sse("token", {"text": token, "unvalidated": not validated})
+        ttft_ms = first_token_ms
+        # LLM tokens have already been flushed provisionally from the worker.
+        # Extractive/agent answers are complete before they reach this point.
+        if (mode != "llm"
+                or result.stages.get("generator") != "llm"):
+            for token in _TOKEN_SPLIT.split(result.answer):
+                if token:
+                    if ttft_ms is None:
+                        ttft_ms = round((time.perf_counter() - started) * 1000, 2)
+                    yield _sse("token", {"text": token, "unvalidated": False})
+        else:
+            # TTFT was measured in the UI from the first provisional delta; the
+            # server also exposes end-to-end stream time below.
+            ttft_ms = round((time.perf_counter() - started) * 1000, 2)
         if ttft_ms is None:
             ttft_ms = round((time.perf_counter() - started) * 1000, 2)
 
-        retracted = bool(not result.citations_valid)
+        retracted = bool(
+            not result.citations_valid or result.stages.get("llm_error")
+        )
         trace_id = str(result.stages.get("trace_id", ""))
         stream_cache = CacheModel(
             hit=False, layer="none",
@@ -529,7 +609,7 @@ def ask_stream(body: AskRequest, request: Request) -> StreamingResponse:
         # Same builder as /ask, so the cache entry is a complete AskResponse
         # either route can replay. A partial entry here is not a harmless
         # optimisation: it is an entry that breaks the other route.
-        response = _build_response(body, result, cost.delta, stream_cache)
+        response = _build_response(body, result, cost_delta, stream_cache)
 
         if body.use_cache:
             cache.store(body.question, config, response.model_dump())
@@ -539,7 +619,7 @@ def ask_stream(body: AskRequest, request: Request) -> StreamingResponse:
             route="/ask/stream",
             latency_ms=float(result.stages.get("latency_ms", 0.0)),
             latency_by_stage=dict(result.stages.get("latency_by_stage", {})),
-            cost=cost.delta,
+            cost=cost_delta,
             cache_layer=(lookup.layer if lookup and lookup.hit else "none"),
             cache_similarity=(lookup.similarity if lookup and lookup.hit else None),
             refused=result.refused, ttft_ms=ttft_ms,

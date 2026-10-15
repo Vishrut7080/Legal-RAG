@@ -53,6 +53,9 @@ from src.retrieve import search
 from src.telemetry import StageTimer, new_trace_id
 
 REPO = Path(__file__).resolve().parent.parent
+# Mirror Lab 7's measured low-latency generation tier. Under AIP_PROFILE=gemini
+# this resolves to gemini/gemini-3.5-flash-lite.
+GENERATION_TIER = "SMALL"
 
 # A citation marker is a bracketed integer. Kept deliberately strict: the
 # generator must produce "[1]", not "[1]" with a footnote or "[see 1]".
@@ -261,6 +264,7 @@ def answer(
     llm: bool = False,
     mode: str | None = None,
     chat_fn: Any = None,
+    on_token: Any = None,
 ) -> RagAnswer:
     """Answer `question`, enforcing the citation contract either way.
 
@@ -270,8 +274,13 @@ def answer(
     """
     if mode is None:
         mode = "llm" if llm else "extractive"
+    if mode not in MODES:
+        raise ValueError(f"mode must be one of {MODES}, got {mode!r}")
     if mode == "agent":
         return _answer_agent(question, k, retriever, current_only, chat_fn)
+    # `mode` is authoritative when explicitly supplied. Keep the old `llm`
+    # boolean as an alias only when callers omit `mode`.
+    llm = mode == "llm"
 
     stages: dict[str, Any] = {}
     timer = StageTimer()
@@ -317,7 +326,7 @@ def answer(
             text = _extract(clean, hits)
         else:
             stages["generator"] = "llm"
-            text = _generate(clean, hits, stages)
+            text = _generate(clean, hits, stages, on_token=on_token)
 
     with timer.stage("citations"):
         valid, invalid = enforce_citations(text, len(hits))
@@ -350,12 +359,18 @@ def answer(
     ), stages, timer, trace_id)
 
 
-def _generate(question: str, hits: list[Any], stages: dict[str, Any]) -> str:
+def _generate(
+    question: str,
+    hits: list[Any],
+    stages: dict[str, Any],
+    *,
+    on_token: Any = None,
+) -> str:
     """LLM path. Falls back to extractive if no chat model is reachable."""
     from aip.config import resolve_model
     from aip.llm import chat
 
-    tier = resolve_model("MAIN")
+    tier = resolve_model(GENERATION_TIER)
     stages["chat_tier"] = tier
     context = format_context(hits)
     prompt = (
@@ -367,7 +382,7 @@ def _generate(question: str, hits: list[Any], stages: dict[str, Any]) -> str:
         f'"{REFUSAL}"'
     )
     try:
-        return chat(prompt, system=ANSWER_SYSTEM)
+        return chat(prompt, system=ANSWER_SYSTEM, on_token=on_token)
     except Exception as error:  # noqa: BLE001 - any failure means no model
         stages["llm_error"] = f"{type(error).__name__}: {error}"
         stages["generator"] = "extractive (llm fallback)"

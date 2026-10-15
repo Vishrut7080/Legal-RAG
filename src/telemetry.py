@@ -360,10 +360,14 @@ class Registry:
 
 
 _REGISTRY = Registry()
+_UI_REGISTRY = Registry()
 
-# Persist observations per-process on disk so metrics survive a UI reload.
-_UI_TELEMETRY_FILE = Path(getattr(_aip_settings, "trace_dir", Path("."))
-                     ) / "ui-telemetry.jsonl"
+# UI observations are separate from service observations. Persist them so the
+# UI dashboard survives a browser/process reload without contaminating the
+# service's own /metrics counters.
+_UI_TELEMETRY_FILE = Path(_aip_settings.trace_dir) / "ui-telemetry.jsonl"
+_UI_TELEMETRY_LOCK = threading.Lock()
+_UI_TELEMETRY_MAX_BYTES = 2 * 1024 * 1024
 
 
 def _obs_to_dict(observation: Observation) -> dict[str, Any]:
@@ -408,23 +412,30 @@ def _dict_to_obs(data: dict[str, Any]) -> Observation:
 
 
 def clear_ui_telemetry() -> None:
-    """Clear both file + in-memory metrics for the UI session."""
-    if _UI_TELEMETRY_FILE.exists():
-        with contextlib.suppress(Exception):
+    """Clear persisted and in-memory UI metrics without touching service data."""
+    with _UI_TELEMETRY_LOCK:
+        with contextlib.suppress(FileNotFoundError):
             _UI_TELEMETRY_FILE.unlink()
-    _REGISTRY.reset()
+        _UI_REGISTRY.reset()
 
 
-# Rehydrate previous runs on import.
-try:
-    if _UI_TELEMETRY_FILE.exists():
-        for line in _UI_TELEMETRY_FILE.read_text().splitlines():
-            if not line.strip():
-                continue
-            with contextlib.suppress(Exception):
-                _REGISTRY.record(_dict_to_obs(json.loads(line)))
-except Exception:
-    pass
+def _restore_ui_telemetry() -> None:
+    """Load persisted UI observations into the bounded UI registry."""
+    try:
+        if _UI_TELEMETRY_FILE.exists():
+            recent: deque[Observation] = deque(maxlen=WINDOW)
+            with _UI_TELEMETRY_FILE.open(encoding="utf-8") as fh:
+                for line in fh:
+                    if line.strip():
+                        with contextlib.suppress(Exception):
+                            recent.append(_dict_to_obs(json.loads(line)))
+            for observation in recent:
+                _UI_REGISTRY.record(observation)
+    except Exception:
+        pass
+
+
+_restore_ui_telemetry()
 
 
 def registry() -> Registry:
@@ -432,11 +443,28 @@ def registry() -> Registry:
 
 
 def observe(observation: Observation) -> None:
+    """Record a service observation in this process only."""
     _REGISTRY.record(observation)
-    with contextlib.suppress(Exception):
+
+
+def observe_ui(observation: Observation) -> None:
+    """Record and persist a UI request for the UI dashboard."""
+    _UI_REGISTRY.record(observation)
+    with contextlib.suppress(Exception), _UI_TELEMETRY_LOCK:
         _UI_TELEMETRY_FILE.parent.mkdir(parents=True, exist_ok=True)
         with _UI_TELEMETRY_FILE.open("a", encoding="utf-8") as fh:
             fh.write(json.dumps(_obs_to_dict(observation), default=str) + "\n")
+        if _UI_TELEMETRY_FILE.stat().st_size > _UI_TELEMETRY_MAX_BYTES:
+            recent: deque[str] = deque(maxlen=WINDOW)
+            with _UI_TELEMETRY_FILE.open(encoding="utf-8") as fh:
+                recent.extend(line for line in fh if line.strip())
+            with _UI_TELEMETRY_FILE.open("w", encoding="utf-8") as fh:
+                fh.writelines(recent)
+
+
+def ui_snapshot() -> dict[str, Any]:
+    """Metrics for UI-originated requests, including persisted history."""
+    return _UI_REGISTRY.snapshot()
 
 
 def snapshot() -> dict[str, Any]:
