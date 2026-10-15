@@ -1,4 +1,4 @@
-.PHONY: help venv setup env check fetch sanitise verify corpus index answer diagnose compare evaluate gate gate-demo gate-record cache-sweep bench verify-ci service ui test lint clean
+.PHONY: help venv setup env check fetch sanitise verify corpus index answer diagnose compare evaluate eval-compare agent gate gate-demo gate-record cache-sweep bench verify-ci service ui test lint clean
 
 VENV := .venv
 PYTHON := $(shell \
@@ -23,9 +23,11 @@ help:
 	@echo ""
 	@echo "Querying and measuring."
 	@echo "  make answer Q=\"what is cheating?\""
+	@echo "  make agent Q=\"what is cheating?\"    let the LLM drive retrieval with tools"
 	@echo "  make diagnose Q=\"what is cheating?\"    explain the answer, stage by stage"
 	@echo "  make compare   score every retriever against the golden set"
 	@echo "  make evaluate  end-to-end run -> data/eval/results.json"
+	@echo "  make eval-compare   compare generator modes on the golden set"
 	@echo "  make gate      regression gate against thresholds.yml"
 	@echo ""
 	@echo "Serving."
@@ -98,6 +100,11 @@ verify:
 answer:
 	$(PYTHON) -m src.answer -q "$(Q)"
 
+# Let the LLM drive retrieval through tools. Needs a chat model (Ollama or a
+# hosted provider key). The --agent flag selects the tool-calling mode.
+agent:
+	$(PYTHON) -m src.answer -q "$(Q)" --agent
+
 # The same pipeline, narrated stage by stage: guards -> retrieval -> status
 # filter -> sufficiency -> citation. When an answer is wrong, this names the
 # stage responsible instead of leaving you to guess.
@@ -109,6 +116,12 @@ compare:
 
 evaluate:
 	$(PYTHON) -m src.evaluate
+
+# Compare generator modes (extractive, llm, agent) on the golden set.
+# Defaults to extractive only (offline-safe). Pass MODES="extractive llm agent"
+# when a chat model is reachable.
+eval-compare:
+	$(PYTHON) -m src.evaluate --compare $(if $(MODES),--modes $(MODES),)
 
 gate:
 	$(PYTHON) -m src.gate
@@ -158,7 +171,7 @@ service:
 	$(PYTHON) -m src.service
 
 ui:
-	$(PYTHON) -m streamlit run src/ui.py
+	$(PYTHON) -m streamlit run src/ui.py --server.fileWatcherType none
 
 test:
 	$(PYTHON) -m pytest -q

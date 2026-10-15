@@ -1,18 +1,28 @@
 {
-  "retriever": "hybrid+current",
+  "retriever": "retrieval[extractive]",
+  "mode": "extractive",
   "k": 10,
   "generator": "extractive",
   "retrieval": {
     "hit_rate@1": 0.7070707070707071,
     "hit_rate@5": 0.8888888888888888,
     "hit_rate@10": 0.9393939393939394,
+    "recall@5": 0.872053872053872,
     "mrr": 0.790203623536957,
     "ndcg@10": 0.8839800578259353,
     "stale@k": 0.0,
     "stale@k_n_current_law_cases": 91,
     "stale@k_historical_rate": 1.0,
     "stale@k_n_historical_cases": 8,
-    "n_cases": 99
+    "n_cases": 99,
+    "hit_rate_by_category": {
+      "aggregation": 0.6666666666666666,
+      "historical": 0.875,
+      "multi_hop": 1.0,
+      "paraphrase": 1.0,
+      "single_hop": 0.9310344827586207,
+      "supersession_trap": 1.0
+    }
   },
   "refusal": {
     "n_cases": 102,
@@ -27,16 +37,25 @@
   "citations": {
     "n_cases": 102,
     "all_valid": true,
-    "cases_with_repealed_citation": 5,
-    "cases_with_unannounced_repealed": 0
+    "cases_with_unannounced_repealed": 0,
+    "cited_forbidden": 0,
+    "grounded_rate": 1.0
   },
-  "hit_rate_by_category": {
-    "aggregation": 0.6666666666666666,
-    "historical": 0.875,
-    "multi_hop": 1.0,
-    "paraphrase": 1.0,
-    "single_hop": 0.9310344827586207,
-    "supersession_trap": 1.0
+  "generation": {
+    "measured": false,
+    "unmeasured": [
+      "answer_quality",
+      "factual_correctness",
+      "faithfulness_to_sources"
+    ]
+  },
+  "latency_ms": {
+    "p50": 13.46,
+    "p95": 19.7,
+    "p99": 21.77,
+    "mean": 13.9,
+    "max": 23.45,
+    "n": 102.0
   },
   "unmeasured": [
     "answer_quality",
@@ -44,7 +63,37 @@
     "faithfulness_to_sources"
   ],
   "failures": [],
+  "budget": {
+    "retrieval": {
+      "label": "retrieval[extractive]",
+      "calls": 0,
+      "cached_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0.0,
+      "unpriced_calls": 0,
+      "unpriced_models": [],
+      "latency_p50_ms": 0.0,
+      "latency_p95_ms": 0.0
+    },
+    "answer": {
+      "label": "answer[extractive]",
+      "calls": 0,
+      "cached_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0.0,
+      "unpriced_calls": 0,
+      "unpriced_models": [],
+      "latency_p50_ms": 0.0,
+      "latency_p95_ms": 0.0
+    },
+    "generation": null
+  },
   "metric_keys": [
+    "citations_valid",
+    "cited_forbidden",
+    "grounded",
     "hit_rate@1",
     "hit_rate@10",
     "hit_rate@5",
@@ -57,6 +106,10 @@
     "precision@5",
     "recall@1",
     "recall@10",
-    "recall@5"
+    "recall@5",
+    "refusal_correct",
+    "refused",
+    "stale",
+    "unannounced_repealed"
   ]
 }

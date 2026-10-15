@@ -8,6 +8,7 @@
 # To tighten a threshold, first fix the thing that is worse than the number.
 
 config:
+  mode: extractive
   retriever: hybrid+current
   k: 10
   golden: data/eval/golden.jsonl
@@ -71,6 +72,29 @@ citations:
   # stays asserted.
   require_all_valid: true
   max_unannounced_repealed: 0
+
+generation:
+  # No judge model runs in the offline gate, so these are not evaluated here:
+  # with `generation.measured == false` the gate adds no generation check rather
+  # than a green tick nobody earned. They become live when
+  # `python -m src.evaluate --judge` is run with a reachable model.
+  #
+  # Set from measured numbers, never from a target. The correctness floor is
+  # below the retrieval hit@1 (0.707) because the extractive generator is
+  # bounded by it; a number above that on this corpus would be a bug.
+  min_correctness: 0.70
+  min_faithfulness: 0.90
+
+cost_latency:
+  # Cost and latency regress too, and they regress silently -- nothing gets
+  # wrong, it just gets expensive. The floors are deliberately loose so they
+  # catch a real regression (a per-query model call, a re-embedded corpus)
+  # rather than a one-case wobble.
+  #
+  # Measured on the local profile: $0.00/query (you own the hardware, so the
+  # zero is priced and real) and a p95 in the tens of milliseconds.
+  max_cost_per_query_usd: 0.01
+  max_p95_latency_ms: 6000
 
 # Deliberately absent: any threshold on answer correctness, faithfulness, or
 # citation precision of generated prose. There is no judge model in the offline

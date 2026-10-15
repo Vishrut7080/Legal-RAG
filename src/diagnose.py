@@ -85,6 +85,11 @@ class Diagnosis:
     cited_provisions: list[str] = field(default_factory=list)
     citations_valid: bool = True
 
+    # agent mode: did the model actually drive retrieval?
+    mode: str = "extractive"
+    n_searches: int = 0
+    stopped_because: str = ""
+
     # provenance, so a diagnosis can be reproduced
     embedding_model: str = ""
     n_chunks_in_index: int = 0
@@ -116,10 +121,11 @@ def _question_terms(text: str) -> set[str]:
 
 
 def diagnose(question: str, *, k: int = 8, retriever: str = "hybrid+current",
-             current_only: bool = True) -> Diagnosis:
+             current_only: bool = True, mode: str = "extractive") -> Diagnosis:
     """Run every stage explicitly and report what each one decided."""
     out = Diagnosis(
-        question=question, retriever=retriever, current_only=current_only, k=k
+        question=question, retriever=retriever, current_only=current_only,
+        k=k, mode=mode,
     )
 
     # -- stage 1: guards --------------------------------------------------
@@ -167,12 +173,15 @@ def diagnose(question: str, *, k: int = 8, retriever: str = "hybrid+current",
     out.sufficient = bool(terms) and out.overlap_ratio >= SUFFICIENCY_THRESHOLD
 
     # -- stage 5: the answer path, for its citation decisions --------------
-    result = answer(question, k=k, retriever=retriever, current_only=current_only)
+    result = answer(question, k=k, retriever=retriever, current_only=current_only,
+                    mode=mode)
     out.refused = result.refused
     out.refusal_reason = str(result.stages.get("refusal_reason", ""))
     out.answer_text = result.answer
     out.cited_provisions = list(result.cited_provisions)
     out.citations_valid = result.citations_valid
+    out.n_searches = int(getattr(result, "n_searches", 0))
+    out.stopped_because = str(getattr(result, "stopped_because", ""))
     for view, provision in zip(out.hits, out.cited_provisions):
         if view.provision == provision:
             view.cited = True
@@ -257,6 +266,8 @@ def render(d: Diagnosis) -> str:
         f"ratio {d.overlap_ratio} (need {SUFFICIENCY_THRESHOLD})")
     add(f"outcome    : {'REFUSED' if d.refused else 'answered'}"
         + (f" - {d.refusal_reason}" if d.refusal_reason else ""))
+    if d.mode == "agent":
+        add(f"agent      : {d.n_searches} search(es), stopped={d.stopped_because}")
     add("")
 
     if d.hits:
@@ -315,11 +326,13 @@ def main(argv: list[str] | None = None) -> int:
                              "hybrid+rerank"])
     ap.add_argument("--all", action="store_true",
                     help="do not filter repealed provisions")
+    ap.add_argument("--mode", default="extractive",
+                    choices=["extractive", "llm", "agent"])
     ap.add_argument("--json", action="store_true", help="machine-readable output")
     args = ap.parse_args(argv)
 
     d = diagnose(args.question, k=args.k, retriever=args.retriever,
-                 current_only=not args.all)
+                 current_only=not args.all, mode=args.mode)
 
     # Attach index provenance so a diagnosis pins the index it describes.
     try:

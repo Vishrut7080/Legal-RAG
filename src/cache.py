@@ -206,15 +206,20 @@ class Config:
     different answer, and against `k=3` instead of `k=8` gets a different
     citation set. Keying on the question alone would serve a current-law answer
     to someone who explicitly asked for the old one.
+
+    `mode` is the generator: `extractive`, `llm`, or `agent`. An agent answer is
+    produced by a different process with a different citation set, so serving it
+    to an extractive caller (or vice versa) is a wrong answer that looks right.
     """
 
     retriever: str = "hybrid+current"
     current_only: bool = True
     k: int = 8
+    mode: str = "extractive"
 
     def as_dict(self) -> dict[str, Any]:
         return {"retriever": self.retriever, "current_only": self.current_only,
-                "k": self.k}
+                "k": self.k, "mode": self.mode}
 
 
 @dataclass
@@ -388,10 +393,19 @@ class AnswerCache:
                 return Lookup(hit=False, reason="semantic cache empty")
 
             probe_scope = scope_of(question)
+            probe_vec = vector if vector is not None else self.embed_question(question)
+            if self._matrix.shape[1] != probe_vec.shape[0]:
+                # The stored vectors were produced by a different embedding
+                # model -- a profile change, or a cache copied from another
+                # machine. A cosine against them is meaningless, so the layer
+                # is reset rather than serving a number computed from
+                # mismatched dimensions.
+                self.stats.misses += 1
+                return Lookup(hit=False,
+                              reason="embedding dimension changed; semantic cache reset")
             # Vectors are L2-normalised on the way in, so a dot product is the
             # cosine. Same embedding model as the corpus, by construction.
-            scores = self._matrix @ (vector if vector is not None
-                                     else self.embed_question(question))
+            scores = self._matrix @ probe_vec
 
             # The retrieval configuration gates the semantic layer too, not just
             # the exact key. The same question asked with current_only=False is a

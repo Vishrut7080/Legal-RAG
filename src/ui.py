@@ -10,15 +10,29 @@ answer is wrong, the useful question is which stage got it wrong, and
 `src/diagnose.py` answers that. A UI that only renders prose hides the most
 interesting thing the system knows.
 
+A **Dashboard** tab shows live metrics from the service `/metrics` endpoint,
+trace summaries from `.aip_traces/`, and cache statistics.
+
 Run with `make ui`, then open http://localhost:8501.
 """
 from __future__ import annotations
 
+import contextlib
+import json
+import os
 import sys
+from typing import Any
 
+import pandas as pd
+import requests
+import streamlit as st
+
+from aip.config import settings as aip_settings
 from src.answer import answer as run_answer
+from src.cache import get_cache
 from src.diagnose import diagnose, render
 from src.retrieve import Index
+from src.telemetry import Observation, observe, snapshot
 
 EXAMPLES = [
     "What is the punishment for murder under the law currently in force?",
@@ -48,6 +62,21 @@ def _index_summary() -> dict:
 
 def _sidebar(st) -> dict:
     st.sidebar.title("Settings")
+    _default_mode = os.getenv("AIP_PROFILE", "local")
+    _default_mode = "extractive" if _default_mode == "local" else "llm"
+    mode = st.sidebar.selectbox(
+        "answer mode",
+        ["extractive", "llm", "agent"],
+        index=["extractive", "llm", "agent"].index(
+            _default_mode if _default_mode in ("extractive", "llm", "agent")
+            else "extractive"
+        ),
+        help=(
+            "extractive = deterministic, no chat model. "
+            "llm = generate with the configured chat model (needs API/Ollama). "
+            "agent = LLM drives retrieval with tools."
+        ),
+    )
     retriever = st.sidebar.selectbox(
         "retriever",
         ["hybrid+current", "hybrid", "dense", "bm25", "hybrid+rerank"],
@@ -74,6 +103,7 @@ def _sidebar(st) -> dict:
         "k": k,
         "current_only": current_only,
         "llm": llm,
+        "mode": mode,
         "show_diagnosis": show_diagnosis,
     }
 
@@ -116,79 +146,326 @@ def _is_historical(question: str) -> bool:
     return bool(_HISTORICAL.search(question))
 
 
+SERVICE_URL = "http://127.0.0.1:8000"
+TRACES_DIR = aip_settings.trace_dir
+
+
+def _fetch_service_metrics() -> dict[str, Any] | None:
+    try:
+        resp = requests.get(f"{SERVICE_URL}/metrics", timeout=3)
+        if resp.ok:
+            return resp.json()
+    except Exception:
+        pass
+    return None
+
+
+def _load_recent_traces(limit: int = 50) -> list[dict[str, Any]]:
+    if not TRACES_DIR.exists():
+        return []
+    traces: list[dict[str, Any]] = []
+    for path in sorted(TRACES_DIR.glob("*"), key=lambda p: p.stat().st_mtime, reverse=True):
+        if not path.is_file():
+            continue
+        if path.suffix == ".json":
+            with contextlib.suppress(Exception):
+                traces.append(json.loads(path.read_text()))
+        elif path.suffix == ".jsonl":
+            with contextlib.suppress(Exception):
+                for line in path.read_text().splitlines():
+                    if line.strip():
+                        traces.append(json.loads(line))
+        if len(traces) >= limit:
+            break
+    return traces[:limit]
+
+
+def _cache_stats_local() -> dict[str, Any]:
+    try:
+        cache = get_cache()
+        return cache.stats.as_dict()
+    except Exception as error:
+        return {"error": str(error)}
+
+
+def _render_dashboard(st) -> None:
+    st.header("Dashboard")
+
+    col1, col2 = st.columns([2, 1])
+    with col1:
+        st.caption("Live metrics from the FastAPI service (if running)")
+    with col2:
+        if st.button("Refresh"):
+            st.rerun()
+
+    metrics = _fetch_service_metrics()
+    if metrics:
+        st.subheader("Service metrics (persistent service process)")
+        _render_service_metrics(st, metrics)
+        st.divider()
+
+    st.subheader("UI session metrics (persistent on disk, survives reload)")
+    _render_inprocess_metrics(st)
+    st.caption("These restore from `.aip_traces/ui-telemetry.jsonl` on startup, so the `requests` count stays after a browser refresh.")
+    if st.button("Clear UI telemetry"):
+        try:
+            import src.telemetry as _t
+            _t.clear_ui_telemetry()
+            st.success("Cleared stored UI observations.")
+            st.rerun()
+        except Exception as error:
+            st.error(f"Failed to clear telemetry: {error}")
+
+    st.divider()
+    _render_traces(st)
+    st.divider()
+    _render_cache(st)
+
+
+def _render_service_metrics(st, m: dict[str, Any]) -> None:
+    st.subheader("Service Metrics")
+
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Requests", m.get("requests", 0))
+    c2.metric("Uptime", f"{m.get('uptime_s', 0):.1f}s")
+    c3.metric("Refusal rate", f"{m.get('refusal_rate', 0):.1%}")
+    c4.metric("Tool calls/req", m.get("tool_calls_per_request", 0))
+
+    lat = m.get("latency_ms", {})
+    if lat:
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric("Latency p50", f"{lat.get('p50', 0):.1f} ms")
+        c2.metric("Latency p95", f"{lat.get('p95', 0):.1f} ms")
+        c3.metric("Latency p99", f"{lat.get('p99', 0):.1f} ms")
+        c4.metric("Latency mean", f"{lat.get('mean', 0):.1f} ms")
+
+    by_stage = m.get("by_stage_ms", {})
+    if by_stage:
+        st.markdown("**Latency by stage (ms)**")
+        df = pd.DataFrame({
+            stage: {"p50": v["p50"], "p95": v["p95"], "mean": v["mean"]}
+            for stage, v in by_stage.items()
+        }).T
+        st.dataframe(df, use_container_width=True)
+
+    cache_m = m.get("cache", {})
+    if cache_m:
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Cache hits", cache_m.get("hits", 0))
+        c2.metric("Hit rate", f"{cache_m.get('hit_rate', 0):.1%}")
+        c3.metric("Semantic hits", cache_m.get("semantic", 0))
+        sim = cache_m.get("similarity")
+        if sim:
+            st.caption(f"Similarity: min={sim.get('min'):.4f}, mean={sim.get('mean'):.4f}")
+
+    cost = m.get("cost", {})
+    if cost:
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Total cost", f"${cost.get('total_usd', 0):.6f}")
+        c2.metric("Mean cost/req", f"${cost.get('mean_usd', 0):.8f}")
+        c3.metric("Tokens", cost.get("tokens", 0))
+        if not cost.get("priced", True):
+            st.warning(f"Unpriced calls: {cost.get('unpriced_calls', 0)}")
+
+    by_route = m.get("by_route", {})
+    if by_route:
+        st.markdown("**Requests by route**")
+        st.bar_chart(by_route)
+
+
+def _render_inprocess_metrics(st) -> None:
+    m = snapshot()
+    if m.get("requests", 0) == 0:
+        st.info("No requests recorded in this process yet.")
+        return
+    _render_service_metrics(st, m)
+
+
+def _render_traces(st) -> None:
+    st.subheader("Recent Traces")
+    raw = _load_recent_traces(1000)
+    if not raw:
+        st.info("No traces found in .aip_traces/. Run an answer through the service/UI (and a chat model) to generate them.")
+        return
+
+    runs: dict[str, list[dict[str, Any]]] = {}
+    for rec in raw:
+        runs.setdefault(rec.get("run_id", "?"), []).append(rec)
+
+    # Order runs by the timestamp of their first span, newest first.
+    run_rows = []
+    for run_id, spans in runs.items():
+        spans_sorted = sorted(spans, key=lambda r: r.get("ts", 0))
+        total_ms = sum(s.get("duration_ms", 0) or 0 for s in spans_sorted)
+        started = spans_sorted[0].get("ts")
+        names = ", ".join(sorted({s.get("name", "") for s in spans_sorted if s.get("name")}))
+        # Pick a question from any span metadata we might have.
+        question = next(
+            (s.get("question") or s.get("hint") for s in spans_sorted
+             if s.get("question") or s.get("hint")),
+            "",
+        )
+        run_rows.append({
+            "run_id": run_id,
+            "started": str(started or ""),
+            "spans": len(spans_sorted),
+            "duration_ms": round(total_ms, 1),
+            "names": names,
+            "question": (str(question) if question else "")[:70],
+        })
+    run_rows.sort(key=lambda r: r["run_id"], reverse=True)
+
+    df = pd.DataFrame(run_rows)
+    st.dataframe(df, use_container_width=True, hide_index=True)
+
+    selected = st.selectbox("Inspect run", [""] + [r["run_id"] for r in run_rows])
+    if selected:
+        spans = sorted(runs[selected], key=lambda r: r.get("ts", 0))
+        with st.expander("Run trace (spans)", expanded=True):
+            for s in spans:
+                st.json(s)
+
+
+def _render_cache(st) -> None:
+    service_metrics = _fetch_service_metrics()
+    if service_metrics:
+        st.subheader("Answer Cache (service on :8000)")
+        sc = service_metrics.get("cache", {}) or {}
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Exact hits", sc.get("exact", 0))
+        c2.metric("Semantic hits", sc.get("semantic", 0))
+        c3.metric("Hits", sc.get("hits", 0))
+        c4, c5 = st.columns(2)
+        c4.metric("Hit rate", f"{sc.get('hit_rate', 0):.1%}")
+        sim = sc.get("similarity")
+        if sim:
+            c5.metric("Min sim", f"{sim.get('min', 0):.4f}")
+        if st.button("Clear cache"):
+            try:
+                import requests
+                r = requests.post(f"{SERVICE_URL}/cache/clear", timeout=5)
+                r.raise_for_status()
+                data = r.json()
+                st.success(f"Cleared {data.get('removed', 0)} entries.")
+                st.rerun()
+            except Exception as error:
+                st.error(f"Failed to clear service cache: {error}")
+        st.caption("UI-generated answers bypass the persistent cache; start `make service` for persistent caching.")
+    else:
+        st.subheader("Answer Cache (UI-local)")
+        stats = _cache_stats_local()
+        if "error" in stats:
+            st.error(f"Cache unavailable: {stats['error']}")
+            return
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Exact hits", stats.get("exact_hits", 0))
+        c2.metric("Semantic hits", stats.get("semantic_hits", 0))
+        c3.metric("Misses", stats.get("misses", 0))
+        if st.button("Clear cache"):
+            try:
+                cache = get_cache()
+                removed = cache.clear()
+                st.success(f"Cleared {removed} entries")
+                st.rerun()
+            except Exception as error:
+                st.error(f"Failed to clear cache: {error}")
+
+
 def main() -> int:
-    import streamlit as st
 
     st.set_page_config(page_title="Legal-RAG", page_icon="§", layout="wide")
-    st.title("Legal-RAG")
-    st.caption(
-        "Indian statutes, in force by default. Answer quality is not measured; "
-        "retrieval is. See the README."
-    )
 
-    settings = _sidebar(st)
+    tab_ask, tab_dash = st.tabs(["Ask", "Dashboard"])
 
-    summary = _index_summary()
-    if not summary["loaded"]:
-        st.error(f"index not available: {summary['error']}")
-        st.stop()
-    st.sidebar.caption(
-        f"{summary['n_chunks']} chunks · {summary['n_docs']} Acts · "
-        f"{summary['n_repealed']} repealed · {summary['chunks_sha256']}"
-    )
+    with tab_ask:
+        st.title("Legal-RAG")
+        st.caption(
+            "Indian statutes, in force by default. Answer quality is not measured; "
+            "retrieval is. See the README."
+        )
 
-    st.markdown("#### Example questions")
-    for example in EXAMPLES:
-        if st.button(example, key=f"ex-{example}"):
-            st.session_state["question"] = example
-    st.markdown("")
+        settings = _sidebar(st)
 
-    question = st.text_input(
-        "Ask a question",
-        key="question",
-        placeholder="What is the punishment for murder under the law currently in force?",
-    )
-    if not question.strip():
-        st.info("Pick an example or type a question.")
-        return 0
+        summary = _index_summary()
+        if not summary["loaded"]:
+            st.error(f"index not available: {summary['error']}")
+            st.stop()
+        st.sidebar.caption(
+            f"{summary['n_chunks']} chunks · {summary['n_docs']} Acts · "
+            f"{summary['n_repealed']} repealed · {summary['chunks_sha256']}"
+        )
 
-    result = run_answer(
-        question,
-        k=settings["k"],
-        retriever=settings["retriever"],
+        st.markdown("#### Example questions")
+        for example in EXAMPLES:
+            if st.button(example, key=f"ex-{example}"):
+                st.session_state["question"] = example
+        st.markdown("")
+
+        question = st.text_input(
+            "Ask a question",
+            key="question",
+            placeholder="What is the punishment for murder under the law currently in force?",
+        )
+        if not question.strip():
+            st.info("Pick an example or type a question.")
+            return 0
+
+        result = run_answer(
+            question,
+            k=settings["k"],
+            retriever=settings["retriever"],
         current_only=settings["current_only"],
         llm=settings["llm"],
+        mode=settings["mode"],
     )
-    cited = set(result.cited_provisions)
+        cited = set(result.cited_provisions)
 
-    if result.refused:
-        st.warning("Refused.", icon="🚫")
-        reason = result.stages.get("refusal_reason")
-        if reason:
-            st.caption(str(reason))
-        st.text(result.answer)
-    else:
-        st.markdown(result.answer)
+        # Record this request so the in-process dashboard reflects UI activity too.
+        # (The service path records its own observations; this UI path did not.)
+        with contextlib.suppress(Exception):
+            observe(Observation(
+                trace_id=str(result.stages.get("trace_id", "") or ""),
+                route="/ui",
+                latency_ms=float(result.stages.get("latency_ms", 0.0) or 0.0),
+                latency_by_stage=dict(result.stages.get("latency_by_stage", {})
+                                     or {}),
+                refused=bool(result.refused),
+                tool_calls=int(getattr(result, "n_searches", 0) or 0),
+                cache_layer="none",
+            ))
 
-    if not result.citations_valid:
-        st.error(f"invalid citation markers: {result.invalid_citations}")
+        if result.refused:
+            st.warning("Refused.", icon="🚫")
+            reason = result.stages.get("refusal_reason")
+            if reason:
+                st.caption(str(reason))
+            st.text(result.answer)
+        else:
+            st.markdown(result.answer)
 
-    if result.hits:
-        _render_hits(st, result.hits, cited)
+        if not result.citations_valid:
+            st.error(f"invalid citation markers: {result.invalid_citations}")
 
-    if settings["show_diagnosis"]:
-        with st.expander("Why this answer", expanded=result.refused):
-            diagnosis = diagnose(
-                question,
-                k=settings["k"],
-                retriever=settings["retriever"],
-                current_only=settings["current_only"],
-            )
-            st.code(render(diagnosis), language="text")
-            st.caption(f"likely cause: {diagnosis.likely_cause}")
+        if result.hits:
+            _render_hits(st, result.hits, cited)
 
-    with st.expander("raw stages"):
-        st.json(result.stages)
+        if settings["show_diagnosis"]:
+            with st.expander("Why this answer", expanded=result.refused):
+                diagnosis = diagnose(
+                    question,
+                    k=settings["k"],
+                    retriever=settings["retriever"],
+                    current_only=settings["current_only"],
+                )
+                st.code(render(diagnosis), language="text")
+                st.caption(f"likely cause: {diagnosis.likely_cause}")
+
+        with st.expander("raw stages"):
+            st.json(result.stages)
+
+    with tab_dash:
+        _render_dashboard(st)
+
     return 0
 
 

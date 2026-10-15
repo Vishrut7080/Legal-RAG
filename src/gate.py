@@ -221,6 +221,62 @@ def check_citations(summary: dict[str, Any], cfg: dict[str, Any]) -> list[Check]
     return checks
 
 
+def check_generation(summary: dict[str, Any], cfg: dict[str, Any]) -> list[Check]:
+    """Gate answer quality when a judge produced a number.
+
+    Absent a judge, there is nothing to gate and this returns no checks rather
+    than a green tick nobody earned -- the module's rule that a gate must not
+    manufacture a pass. The gap is printed by the gate's UNMEASURED line.
+    """
+    limits = cfg.get("generation", {})
+    gen = summary.get("generation", {})
+    if not gen.get("measured"):
+        return []
+    checks: list[Check] = []
+    for name, floor in (("min_correctness", "correctness"),
+                        ("min_faithfulness", "faithfulness")):
+        if name not in limits:
+            continue
+        measured = gen.get(floor)
+        checks.append(Check(
+            f"generation {floor}", measured is not None and measured >= limits[name],
+            measured=round(measured, 3) if measured is not None else None,
+            threshold=limits[name],
+        ))
+    return checks
+
+
+def check_cost_latency(summary: dict[str, Any], cfg: dict[str, Any]) -> list[Check]:
+    """Cost and latency regress too, and they regress silently.
+
+    The budget is the end-to-end answer run: retrieval plus generation. Cost per
+    query is the total divided by the number of golden cases, so it is
+    comparable across runs regardless of how many cases were evaluated.
+    """
+    limits = cfg.get("cost_latency", {})
+    if not limits:
+        return []
+    budget = (summary.get("budget") or {}).get("answer") or {}
+    n = summary.get("refusal", {}).get("n_cases") or 1
+    checks: list[Check] = []
+    if "max_cost_per_query_usd" in limits:
+        cost = float(budget.get("cost_usd", 0.0)) / n
+        checks.append(Check(
+            "cost per query <= limit", cost <= limits["max_cost_per_query_usd"],
+            measured=round(cost, 6), threshold=limits["max_cost_per_query_usd"],
+        ))
+    if "max_p95_latency_ms" in limits:
+        # Prefer the per-case eval latency; fall back to the model-call budget
+        # for a run that produced no cases.
+        latency = summary.get("latency_ms") or {}
+        p95 = float(latency.get("p95", budget.get("latency_p95_ms", 0.0)))
+        checks.append(Check(
+            "p95 latency <= limit", p95 <= limits["max_p95_latency_ms"],
+            measured=round(p95, 1), threshold=limits["max_p95_latency_ms"],
+        ))
+    return checks
+
+
 def check_corpus_matches_snapshot() -> Check:
     """The committed corpus must be reproducible from the committed snapshot.
 
@@ -315,12 +371,15 @@ def main(argv: list[str] | None = None) -> int:
         from src.evaluate import evaluate
 
         run_cfg = cfg["config"]
-        summary = evaluate(run_cfg["retriever"], run_cfg["k"], REPO / run_cfg["golden"])
+        summary = evaluate(mode=run_cfg.get("mode", "extractive"),
+                           k=run_cfg["k"], path=REPO / run_cfg["golden"])
         checks.append(check_case_failures(summary))
         checks += check_retrieval(summary, cfg)
         checks += check_supersession(summary, cfg)
         checks += check_refusal(summary, cfg)
         checks += check_citations(summary, cfg)
+        checks += check_generation(summary, cfg)
+        checks += check_cost_latency(summary, cfg)
 
     print(f"gate: {args.thresholds.name}"
           f"{' (fast)' if args.fast else ''}\n")

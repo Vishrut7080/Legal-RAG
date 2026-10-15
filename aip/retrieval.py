@@ -229,6 +229,75 @@ class LLMReranker:
         return [Hit(h.chunk, s, "llm_reranked", i) for i, (s, h) in enumerate(scored[:k])]
 
 
+class ChromaRetriever(Retriever):
+    """Persistent ANN retrieval with ChromaDB (HNSW under the hood).
+
+    Same interface as DenseRetriever, but the index survives process restarts
+    and search is approximate. Imported lazily: `chromadb` is an optional
+    dependency of this project, so the class exists for parity with the
+    AI-in-Practice reference and raises a clear error only if you actually
+    instantiate it without the extra installed.
+    """
+
+    name = "chroma"
+
+    def __init__(self, chunks: Sequence[Chunk] | None = None, *,
+                 path: str = ".chroma", collection: str = "corpus",
+                 model: str | None = None, reset: bool = False):
+        import contextlib
+
+        import chromadb
+
+        self.model = model
+        self.client = chromadb.PersistentClient(path=path)
+        if reset:
+            # An absent collection is fine -- this is the first run.
+            with contextlib.suppress(Exception):
+                self.client.delete_collection(collection)
+        self.col = self.client.get_or_create_collection(
+            collection, metadata={"hnsw:space": "cosine"}
+        )
+        self._by_id: dict[str, Chunk] = {}
+        if chunks:
+            self.add(chunks)
+
+    def add(self, chunks: Sequence[Chunk], batch: int = 256) -> None:
+        chunks = [c for c in chunks if c.chunk_id not in self._by_id]
+        for c in chunks:
+            self._by_id[c.chunk_id] = c
+        existing = set(self.col.get(include=[])["ids"])
+        todo = [c for c in chunks if c.chunk_id not in existing]
+        if not todo:
+            return
+        vecs = embed_batch([c.text for c in todo], model=self.model,
+                           show_progress=True, input_type="passage")
+        for i in range(0, len(todo), batch):
+            part = todo[i : i + batch]
+            self.col.add(
+                ids=[c.chunk_id for c in part],
+                documents=[c.text for c in part],
+                embeddings=[v.tolist() for v in vecs[i : i + batch]],
+                metadatas=[{"doc_id": c.doc_id, **{k: str(v) for k, v in c.meta.items()}}
+                           for c in part],
+            )
+
+    def search(self, query: str, k: int = 8, where: dict | None = None) -> list[Hit]:
+        with tracing.trace("retrieve.chroma", k=k, filtered=bool(where)):
+            q = embed(query, model=self.model, input_type="query")
+            res = self.col.query(
+                query_embeddings=[q.tolist()], n_results=k, where=where,
+                include=["documents", "metadatas", "distances"],
+            )
+            hits = []
+            for rank, (cid, doc, meta, dist) in enumerate(
+                zip(res["ids"][0], res["documents"][0],
+                    res["metadatas"][0], res["distances"][0])
+            ):
+                chunk = self._by_id.get(cid) or Chunk(doc, meta.get("doc_id", "?"), cid, dict(meta))
+                hits.append(Hit(chunk, 1.0 - float(dist), "chroma", rank))
+            return hits
+
+
 def format_context(hits: Sequence[Hit], max_chars: int = 8000) -> str:
     """Render hits as a numbered context block the generator can cite.
 

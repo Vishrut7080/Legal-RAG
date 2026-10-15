@@ -40,14 +40,17 @@ such, never as an absence of measurement.
 from __future__ import annotations
 
 import contextlib
+import json
 import threading
 import time
 import uuid
 from collections import deque
 from collections.abc import Iterator
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any
 
+from aip.config import settings as _aip_settings
 from aip.cost import Budget, Usage, global_budget, is_priced
 
 # Percentiles are computed over a bounded window rather than over all time. An
@@ -250,6 +253,7 @@ class Observation:
     cache_similarity: float | None = None
     refused: bool = False
     ttft_ms: float | None = None
+    tool_calls: int = 0
 
 
 class Registry:
@@ -301,6 +305,7 @@ class Registry:
         cached = [o for o in obs if o.cache_layer != "none"]
         semantic = [o for o in obs if o.cache_layer == "semantic"]
         refusals = sum(1 for o in obs if o.refused)
+        tool_calls = sum(o.tool_calls for o in obs)
 
         total_cost = sum(o.cost.cost_usd for o in obs)
         total_tokens = sum(o.cost.total_tokens for o in obs)
@@ -338,6 +343,8 @@ class Registry:
             },
             "refusals": refusals,
             "refusal_rate": round(refusals / len(obs), 4),
+            "tool_calls": tool_calls,
+            "tool_calls_per_request": round(tool_calls / len(obs), 3),
             "cost": {
                 "total_usd": round(total_cost, 6),
                 "mean_usd": round(total_cost / len(obs), 8),
@@ -354,6 +361,71 @@ class Registry:
 
 _REGISTRY = Registry()
 
+# Persist observations per-process on disk so metrics survive a UI reload.
+_UI_TELEMETRY_FILE = Path(getattr(_aip_settings, "trace_dir", Path("."))
+                     ) / "ui-telemetry.jsonl"
+
+
+def _obs_to_dict(observation: Observation) -> dict[str, Any]:
+    return {
+        "trace_id": observation.trace_id,
+        "route": observation.route,
+        "latency_ms": observation.latency_ms,
+        "latency_by_stage": observation.latency_by_stage or {},
+        "cost": dict(observation.cost.as_dict()) if hasattr(observation.cost, "as_dict") else {},
+        "cache_layer": observation.cache_layer,
+        "cache_similarity": observation.cache_similarity,
+        "refused": observation.refused,
+        "ttft_ms": observation.ttft_ms,
+        "tool_calls": observation.tool_calls,
+    }
+
+
+def _dict_to_obs(data: dict[str, Any]) -> Observation:
+    cost_data = data.get("cost") or {}
+    try:
+        delta = CostDelta(**{k: cost_data.get(k, 0) for k in
+                             ("calls", "cached_calls", "prompt_tokens",
+                              "completion_tokens", "cost_usd", "unpriced_calls")})
+        delta.priced = cost_data.get("priced", True)
+        delta.models = list(cost_data.get("models") or [])
+    except Exception:
+        delta = CostDelta()
+    return Observation(
+        trace_id=str(data.get("trace_id") or ""),
+        route=str(data.get("route") or ""),
+        latency_ms=float(data.get("latency_ms") or 0.0),
+        latency_by_stage=dict(data.get("latency_by_stage") or {}),
+        cost=delta,
+        cache_layer=str(data.get("cache_layer") or "none"),
+        cache_similarity=(None if data.get("cache_similarity") is None
+                          else float(data.get("cache_similarity"))),
+        refused=bool(data.get("refused")),
+        ttft_ms=(None if data.get("ttft_ms") is None
+                 else float(data.get("ttft_ms"))),
+        tool_calls=int(data.get("tool_calls") or 0),
+    )
+
+
+def clear_ui_telemetry() -> None:
+    """Clear both file + in-memory metrics for the UI session."""
+    if _UI_TELEMETRY_FILE.exists():
+        with contextlib.suppress(Exception):
+            _UI_TELEMETRY_FILE.unlink()
+    _REGISTRY.reset()
+
+
+# Rehydrate previous runs on import.
+try:
+    if _UI_TELEMETRY_FILE.exists():
+        for line in _UI_TELEMETRY_FILE.read_text().splitlines():
+            if not line.strip():
+                continue
+            with contextlib.suppress(Exception):
+                _REGISTRY.record(_dict_to_obs(json.loads(line)))
+except Exception:
+    pass
+
 
 def registry() -> Registry:
     return _REGISTRY
@@ -361,6 +433,10 @@ def registry() -> Registry:
 
 def observe(observation: Observation) -> None:
     _REGISTRY.record(observation)
+    with contextlib.suppress(Exception):
+        _UI_TELEMETRY_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with _UI_TELEMETRY_FILE.open("a", encoding="utf-8") as fh:
+            fh.write(json.dumps(_obs_to_dict(observation), default=str) + "\n")
 
 
 def snapshot() -> dict[str, Any]:

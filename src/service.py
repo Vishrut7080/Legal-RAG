@@ -153,6 +153,7 @@ class AskRequest(BaseModel):
     retriever: str = "hybrid+current"
     current_only: bool = True
     llm: bool = False
+    mode: str = Field(default="extractive", pattern="^(extractive|llm|agent)$")
     use_cache: bool = True
 
 
@@ -202,6 +203,9 @@ class AskResponse(BaseModel):
     hits: list[HitModel] = Field(default_factory=list)
     retriever: str
     current_only: bool
+    mode: str = "extractive"
+    n_searches: int = 0
+    stopped_because: str = ""
     stages: dict[str, Any] = Field(default_factory=dict)
     # Observability, in the body on purpose.
     trace_id: str = ""
@@ -259,7 +263,7 @@ def _cache_for(request: Request) -> AnswerCache:
 
 def _config_of(body: AskRequest) -> Config:
     return Config(retriever=body.retriever, current_only=body.current_only,
-                  k=body.k)
+                  k=body.k, mode=body.mode)
 
 
 def _build_response(body: AskRequest, result: Any, cost: telemetry.CostDelta,
@@ -282,6 +286,9 @@ def _build_response(body: AskRequest, result: Any, cost: telemetry.CostDelta,
         hits=_hit_models(result.hits, cited),
         retriever=body.retriever,
         current_only=body.current_only,
+        mode=body.mode,
+        n_searches=int(getattr(result, "n_searches", 0)),
+        stopped_because=str(getattr(result, "stopped_because", "")),
         stages=dict(result.stages),
         trace_id=str(result.stages.get("trace_id", "")),
         latency_ms=float(result.stages.get("latency_ms", 0.0)),
@@ -382,6 +389,7 @@ def ask(body: AskRequest, request: Request) -> AskResponse:
             retriever=body.retriever,
             current_only=body.current_only,
             llm=body.llm,
+            mode=body.mode,
         )
 
     latency_ms = float(result.stages.get("latency_ms", 0.0))
@@ -397,7 +405,7 @@ def ask(body: AskRequest, request: Request) -> AskResponse:
         trace_id=trace_id, route="/ask", latency_ms=latency_ms,
         latency_by_stage=by_stage, cost=cost.delta,
         cache_layer=cache_info.layer, cache_similarity=cache_info.similarity,
-        refused=result.refused,
+        refused=result.refused, tool_calls=int(getattr(result, "n_searches", 0)),
     ))
     return response
 
@@ -535,6 +543,7 @@ def ask_stream(body: AskRequest, request: Request) -> StreamingResponse:
             cache_layer=(lookup.layer if lookup and lookup.hit else "none"),
             cache_similarity=(lookup.similarity if lookup and lookup.hit else None),
             refused=result.refused, ttft_ms=ttft_ms,
+            tool_calls=int(getattr(result, "n_searches", 0)),
         ))
 
         payload = response.model_dump()

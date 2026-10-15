@@ -220,14 +220,59 @@ def _finalise(
     return result
 
 
+MODES = ("extractive", "llm", "agent")
+
+
+def _answer_agent(question: str, k: int, retriever: str, current_only: bool,
+                  chat_fn: Any = None) -> RagAnswer:
+    """Tool-calling mode: let the LLM drive retrieval, then apply the contract.
+
+    The guards run here rather than inside the tool loop, because the module's
+    rule is that an injection is refused *before retrieval runs* -- and in agent
+    mode retrieval is the model's own action, so the check has to come first.
+    """
+    from src.agent import run_agent
+
+    clean, pii = redact_pii(question)
+    stages: dict[str, Any] = {"pii": pii}
+
+    verdict = detect_injection(clean)
+    stages["injection"] = verdict.flagged
+    if verdict.flagged:
+        return RagAnswer(question=question, answer="I can't process that request.",
+                         refused=True, stages=stages)
+
+    if _OUT_OF_SCOPE.search(clean):
+        stages["refusal_reason"] = (
+            "question is about subject matter the corpus does not cover")
+        return RagAnswer(question=question, answer=REFUSAL, refused=True,
+                         stages=stages)
+
+    result = run_agent(clean, retriever=retriever, current_only=current_only,
+                       chat_fn=chat_fn)
+    return result
+
+
 def answer(
     question: str,
     k: int = 8,
     retriever: str = "hybrid+current",
     current_only: bool = True,
     llm: bool = False,
+    mode: str | None = None,
+    chat_fn: Any = None,
 ) -> RagAnswer:
-    """Answer `question`, enforcing the citation contract either way."""
+    """Answer `question`, enforcing the citation contract either way.
+
+    `mode` selects the generator: `extractive` (deterministic, default),
+    `llm` (one generative call), or `agent` (the LLM drives retrieval through
+    tools). The `llm` boolean is kept as a deprecated alias for `mode="llm"`.
+    """
+    if mode is None:
+        mode = "llm" if llm else "extractive"
+    if mode == "agent":
+        return _answer_agent(question, k, retriever, current_only, chat_fn)
+
     stages: dict[str, Any] = {}
     timer = StageTimer()
     trace_id = new_trace_id()
@@ -339,15 +384,21 @@ def main(argv: list[str] | None = None) -> int:
                     help="allow repealed provisions into the context")
     ap.add_argument("--llm", action="store_true",
                     help="generate with a chat model instead of extracting")
+    ap.add_argument("--agent", action="store_true",
+                    help="let the LLM drive retrieval through tools")
+    ap.add_argument("--mode", choices=list(MODES), default=None,
+                    help="generator mode; defaults to extractive, or llm with --llm")
     ap.add_argument("--json", action="store_true", help="emit the full result as JSON")
     args = ap.parse_args(argv)
 
+    mode = args.mode or ("agent" if args.agent else None)
     result = answer(
         args.question,
         k=args.k,
         retriever=args.retriever,
         current_only=not args.no_current_only,
         llm=args.llm,
+        mode=mode,
     )
 
     if args.json:
