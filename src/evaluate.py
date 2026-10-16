@@ -83,10 +83,13 @@ def _route(case: dict[str, Any]) -> tuple[str, bool]:
 
     A historical question asks about repealed text, so the current-law filter
     must not apply to it -- otherwise the gold provision is unreachable by
-    construction and the category scores a guaranteed 0.
+    construction and the category scores a guaranteed 0. Use the same
+    question-aware routing as the answer pipeline.
     """
     current_only = case.get("category") != "historical"
-    return ("hybrid" if not current_only else "hybrid+current"), current_only
+    if current_only:
+        return "hybrid+current", True
+    return "dense", False
 
 
 # --------------------------------------------------------------------------

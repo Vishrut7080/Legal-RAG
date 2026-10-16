@@ -57,7 +57,7 @@ from aip.cost import Budget, BudgetExceeded
 from aip.guards import ToolGuard, delimit_untrusted, enforce_citations
 from aip.llm import chat as _chat
 from aip.retrieval import Hit, format_context
-from src.answer import _CITE, _HISTORICAL, REFUSAL, _finalise
+from src.answer import _CITE, _HISTORICAL, REFUSAL, _finalise, effective_retrieval
 from src.retrieve import Index, search
 from src.telemetry import StageTimer, new_trace_id
 
@@ -278,6 +278,7 @@ def run_agent(
     the same rule the extractive path obeys.
     """
     chat = chat_fn or _default_chat
+    retriever, current_only = effective_retrieval(question, retriever, current_only)
     tools = LegalTools(retriever=retriever, current_only=current_only)
     guard = ToolGuard(max_calls=max_calls, allow=set(TOOL_DESCRIPTIONS))
     stages: dict[str, Any] = {}

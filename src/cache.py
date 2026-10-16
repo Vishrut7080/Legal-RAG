@@ -349,8 +349,9 @@ class AnswerCache:
         )
         return hashlib.sha256(blob.encode("utf-8")).hexdigest()
 
-    def _load_matrix(self) -> None:
-        if self._matrix is not None:
+    def _load_matrix(self, desired_dim: int | None = None) -> None:
+        if self._matrix is not None and (desired_dim is None
+                                       or self._matrix.shape[1] == desired_dim):
             return
         rows: list[sqlite3.Row] = []
         vectors: list[np.ndarray] = []
@@ -359,11 +360,28 @@ class AnswerCache:
                 "SELECT exact_key, question, refused, scope, vector, dim, config "
                 "FROM answers WHERE vector IS NOT NULL"
             ).fetchall()
+        # Ignore embeddings produced by another embedding model/dimension. This
+        # makes a mixed cache loadable instead of crashing the whole request.
+        target_dim = desired_dim
+        if target_dim is None and rows:
+            for candidate in rows:
+                if candidate["dim"] is not None:
+                    target_dim = candidate["dim"]
+                    break
+        filtered_rows: list[sqlite3.Row] = []
         for row in rows:
-            vectors.append(np.frombuffer(row["vector"], dtype=np.float32))
-        self._index = rows
+            vector = np.frombuffer(row["vector"], dtype=np.float32)
+            if row["dim"] is None:
+                continue
+            if target_dim is not None and row["dim"] != target_dim:
+                continue
+            if target_dim is not None and vector.shape[0] != target_dim:
+                continue
+            filtered_rows.append(row)
+            vectors.append(vector)
+        self._index = filtered_rows
         self._vectors = vectors
-        self._configs = [row["config"] for row in rows]
+        self._configs = [row["config"] for row in filtered_rows]
         self._matrix = (np.vstack(vectors) if vectors
                         else np.zeros((0, 0), dtype=np.float32))
 
@@ -387,13 +405,13 @@ class AnswerCache:
                 self.stats.misses += 1
                 return Lookup(hit=False, reason="semantic layer disabled")
 
-            self._load_matrix()
+            probe_scope = scope_of(question)
+            probe_vec = vector if vector is not None else self.embed_question(question)
+            self._load_matrix(desired_dim=probe_vec.shape[0])
             if self._matrix is None or len(self._vectors) == 0:
                 self.stats.misses += 1
                 return Lookup(hit=False, reason="semantic cache empty")
 
-            probe_scope = scope_of(question)
-            probe_vec = vector if vector is not None else self.embed_question(question)
             if self._matrix.shape[1] != probe_vec.shape[0]:
                 # The stored vectors were produced by a different embedding
                 # model -- a profile change, or a cache copied from another

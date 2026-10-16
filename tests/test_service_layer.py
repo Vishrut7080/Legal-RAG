@@ -13,6 +13,7 @@ and the instrumentation was wrong, which no test of the answer would catch.
 from __future__ import annotations
 
 import json
+import sqlite3
 from pathlib import Path
 
 import pytest
@@ -479,7 +480,9 @@ def test_the_cache_does_not_make_the_current_law_default_weaker(
     second = client.post("/ask", json={"question": question}).json()
     assert second["cache"]["hit"] is True
     assert second["answer"] == first["answer"]
-    assert second["current_only"] is True
+    # The question is explicitly historical, so auto-routing correctly uses
+    # full-corpus retrieval and reports that state accurately.
+    assert second["current_only"] is False
 
 
 def test_health_reports_startup_and_cache_configuration(client: TestClient) -> None:
@@ -850,3 +853,30 @@ def test_the_sweep_probe_pairs_exist_in_the_golden_set() -> None:
     questions = {c["question"] for c in load_golden(GOLDEN)}
     assert TEMPORARY_INJUNCTION in questions
     assert PERPETUAL_INJUNCTION in questions
+
+
+def test_mixed_dimension_cache_loads_without_crashing(tmp_path: Path) -> None:
+    cache = AnswerCache(tmp_path / "mixed.sqlite3", semantic_threshold=0.0)
+    cache.store("What is the punishment for murder?", Config(), _payload("BNS s.103"))
+    with sqlite3.connect(cache.path) as conn:
+        conn.execute(
+            "INSERT OR REPLACE INTO answers "
+            "(exact_key, question, config, payload, refused, scope, "
+            " vector, dim, created_at) VALUES (?,?,?,?,?,?,?,?,?)",
+            (
+                cache._exact_key("What did the old law say?", Config()),
+                "What did the old law say?",
+                json.dumps(Config().as_dict(), sort_keys=True),
+                json.dumps(_payload("IPC s.302")),
+                0,
+                json.dumps({"acts": [], "numbers": []}),
+                __import__("numpy").zeros(3072, dtype=__import__("numpy").float32).tobytes(),
+                3072,
+                0.0,
+            ),
+        )
+        conn.commit()
+
+    cache._load_matrix(desired_dim=384)
+    assert cache._matrix is not None
+    assert cache._matrix.shape == (1, 384)

@@ -1,37 +1,36 @@
 {
   "retriever": "retrieval[extractive]",
   "mode": "extractive",
-  "k": 10,
+  "k": 1,
   "generator": "extractive",
   "retrieval": {
-    "hit_rate@1": 0.7070707070707071,
-    "hit_rate@5": 0.8888888888888888,
-    "hit_rate@10": 0.9393939393939394,
-    "recall@5": 0.872053872053872,
-    "mrr": 0.790203623536957,
-    "ndcg@10": 0.8839800578259353,
+    "hit_rate@1": 0.696969696969697,
+    "hit_rate@5": 0.696969696969697,
+    "recall@5": 0.6523569023569024,
+    "mrr": 0.696969696969697,
+    "ndcg@1": 0.696969696969697,
     "stale@k": 0.0,
     "stale@k_n_current_law_cases": 91,
-    "stale@k_historical_rate": 1.0,
+    "stale@k_historical_rate": 0.875,
     "stale@k_n_historical_cases": 8,
     "n_cases": 99,
     "hit_rate_by_category": {
       "aggregation": 0.6666666666666666,
-      "historical": 0.875,
-      "multi_hop": 1.0,
-      "paraphrase": 1.0,
-      "single_hop": 0.9310344827586207,
-      "supersession_trap": 1.0
+      "historical": 0.375,
+      "multi_hop": 0.8333333333333334,
+      "paraphrase": 0.6666666666666666,
+      "single_hop": 0.7068965517241379,
+      "supersession_trap": 0.7619047619047619
     }
   },
   "refusal": {
     "n_cases": 102,
     "expected_refusals": 3,
-    "refused": 3,
+    "refused": 6,
     "true_positive": 3,
-    "false_positive": 0,
+    "false_positive": 3,
     "false_negative": 0,
-    "precision": 1.0,
+    "precision": 0.5,
     "recall": 1.0
   },
   "citations": {
@@ -50,11 +49,11 @@
     ]
   },
   "latency_ms": {
-    "p50": 13.46,
-    "p95": 19.7,
-    "p99": 21.77,
-    "mean": 13.9,
-    "max": 23.45,
+    "p50": 22.09,
+    "p95": 27.22,
+    "p99": 29.08,
+    "mean": 22.34,
+    "max": 32.44,
     "n": 102.0
   },
   "unmeasured": [
@@ -62,7 +61,23 @@
     "factual_correctness",
     "faithfulness_to_sources"
   ],
-  "failures": [],
+  "failures": [
+    {
+      "id": "bsa-accomplice",
+      "category": "supersession_trap",
+      "why": "refusal decision did not match the golden label"
+    },
+    {
+      "id": "aggregation-criminal-force-assault",
+      "category": "aggregation",
+      "why": "refusal decision did not match the golden label"
+    },
+    {
+      "id": "aggregation-warrant-lifecycle",
+      "category": "aggregation",
+      "why": "refusal decision did not match the golden label"
+    }
+  ],
   "budget": {
     "retrieval": {
       "label": "retrieval[extractive]",
@@ -95,17 +110,13 @@
     "cited_forbidden",
     "grounded",
     "hit_rate@1",
-    "hit_rate@10",
     "hit_rate@5",
     "mrr",
     "ndcg@1",
-    "ndcg@10",
     "ndcg@5",
     "precision@1",
-    "precision@10",
     "precision@5",
     "recall@1",
-    "recall@10",
     "recall@5",
     "refusal_correct",
     "refused",

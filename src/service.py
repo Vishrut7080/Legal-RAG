@@ -350,8 +350,14 @@ def health(request: Request) -> dict[str, Any]:
 @app.post("/ask", response_model=AskResponse)
 def ask(body: AskRequest, request: Request) -> AskResponse:
     from src.answer import answer as run_answer
+    from src.answer import effective_retrieval
 
     _require_known_retriever(body.retriever)
+    effective_retriever, effective_current_only = effective_retrieval(
+        body.question, body.retriever, body.current_only
+    )
+    body.retriever = _require_known_retriever(effective_retriever)
+    body.current_only = effective_current_only
     config = _config_of(body)
     mode = _mode_of(body)
     cache = _cache_for(request)
@@ -443,7 +449,14 @@ def ask_stream(body: AskRequest, request: Request) -> StreamingResponse:
     generation completes and the answer contract validates its citations; a
     validation failure retracts the draft in the final event.
     """
+    from src.answer import effective_retrieval
+
     _require_known_retriever(body.retriever)
+    effective_retriever, effective_current_only = effective_retrieval(
+        body.question, body.retriever, body.current_only
+    )
+    body.retriever = _require_known_retriever(effective_retriever)
+    body.current_only = effective_current_only
     mode = _mode_of(body)
     config = _config_of(body)
     cache = _cache_for(request)
@@ -643,13 +656,19 @@ def ask_stream(body: AskRequest, request: Request) -> StreamingResponse:
 
 @app.post("/retrieve")
 def retrieve(body: RetrieveRequest) -> dict[str, Any]:
+    from src.answer import effective_retrieval
+
     _require_known_retriever(body.retriever)
-    hits = search(body.question, k=body.k, which=body.retriever,
-                  current_only=body.current_only)
+    effective_retriever, effective_current_only = effective_retrieval(
+        body.question, body.retriever, body.current_only
+    )
+    effective_retriever = _require_known_retriever(effective_retriever)
+    hits = search(body.question, k=body.k, which=effective_retriever,
+                  current_only=effective_current_only)
     return {
         "question": body.question,
-        "retriever": body.retriever,
-        "current_only": body.current_only,
+        "retriever": effective_retriever,
+        "current_only": effective_current_only,
         "hits": [m.model_dump() for m in _hit_models(hits, set())],
     }
 

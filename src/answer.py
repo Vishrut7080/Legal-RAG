@@ -65,8 +65,8 @@ _CITE = re.compile(r"\[(\d+)\]")
 # citation, but only if the answer announces it.
 _HISTORICAL = re.compile(
     r"\b(repealed|old law|earlier law|before the (?:2024 )?recodification|"
-    r"former|previously|historical|indian penal code|code of criminal procedure|"
-    r"evidence act)\b",
+    r"former|previously|historical|indian penal code|ipc|code of criminal procedure|"
+    r"crpc|evidence act|indian evidence act|iea|bharatiya sakshya|bsa)\b",
     re.IGNORECASE,
 )
 
@@ -226,6 +226,34 @@ def _finalise(
 MODES = ("extractive", "llm", "agent")
 
 
+def _is_refusal(text: str) -> bool:
+    return text.strip().startswith(REFUSAL[:40])
+
+
+def is_historical_question(question: str) -> bool:
+    return _HISTORICAL.search(question or "") is not None
+
+
+def _reranker_available() -> bool:
+    try:
+        from src.retrieve import _reranker
+
+        return _reranker() is not None
+    except Exception:  # noqa: BLE001 - cross-encoder is optional
+        return False
+
+
+def effective_retrieval(question: str, retriever: str, current_only: bool = True,
+                       ) -> tuple[str, bool]:
+    """Use full-corpus retrieval when a question asks for the old law."""
+    if not is_historical_question(question):
+        return retriever, current_only
+    # Repealed provisions are only reachable after dropping the current-law filter.
+    # Dense retrieval is consistently more useful than lexical hybrid ranking for
+    # these historical questions; the cross-encoder pool did not keep enough
+    # repealed provisions in the first few ranks during local testing.
+    return "dense", False
+
 def _answer_agent(question: str, k: int, retriever: str, current_only: bool,
                   chat_fn: Any = None) -> RagAnswer:
     """Tool-calling mode: let the LLM drive retrieval, then apply the contract.
@@ -249,8 +277,9 @@ def _answer_agent(question: str, k: int, retriever: str, current_only: bool,
         stages["refusal_reason"] = (
             "question is about subject matter the corpus does not cover")
         return RagAnswer(question=question, answer=REFUSAL, refused=True,
-                         stages=stages)
+                          stages=stages)
 
+    retriever, current_only = effective_retrieval(clean, retriever, current_only)
     result = run_agent(clean, retriever=retriever, current_only=current_only,
                        chat_fn=chat_fn)
     return result
@@ -300,10 +329,12 @@ def answer(
                 stages=stages,
             ), stages, timer, trace_id)
 
+    retriever, current_only = effective_retrieval(clean, retriever, current_only)
     with timer.stage("retrieval"):
         hits = search(clean, k=k, which=retriever, current_only=current_only)
     stages["n_hits"] = len(hits)
     stages["retriever"] = retriever
+    stages["current_only"] = current_only
     stages["provisions"] = [h.chunk.meta.get("provision", "") for h in hits]
 
     if not hits:
@@ -314,11 +345,15 @@ def answer(
 
     with timer.stage("sufficiency"):
         sufficient, why = _chunks_have_answer(hits, clean)
-    if not sufficient:
+    # Historical questions name a repealed Act of their own volition; the weak
+    # coverage heuristic happily refuses them even when the provision they name
+    # is present (it counts question words such as "penal code" that the corpus
+    # does not echo), so route them through generation instead of stopping here.
+    if not sufficient and not is_historical_question(clean):
         stages["refusal_reason"] = why
         return _finalise(RagAnswer(question=question, answer=REFUSAL, hits=hits,
                                    refused=True, stages=stages),
-                         stages, timer, trace_id)
+                          stages, timer, trace_id)
 
     with timer.stage("generation"):
         if not llm:
@@ -352,9 +387,9 @@ def answer(
         question=question,
         answer=text,
         hits=hits,
-        citations_valid=valid,
+        citations_valid=valid or _is_refusal(text),
         invalid_citations=invalid,
-        refused=False,
+        refused=_is_refusal(text),
         stages=stages,
     ), stages, timer, trace_id)
 
